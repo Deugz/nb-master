@@ -26,6 +26,10 @@ This text is **standard** _Markdown_
 - &#9989; - &#9989 -  ticked box
 - &#x274C; - &#x274C - red cross
 - &#x2192; - right arrow:
+- &#127992; - magnifying glass
+- &#128143; - Lovely couple
+- &#128142; - Diamond
+- &#128293; - Fire
 
 - &#10024; - &#10024 - Stars
 

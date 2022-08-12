@@ -6,9 +6,6 @@ name: JWST Nircam
 
 # Welcome  
 
-## On my academic profile
-
-
 ````{margin} 
 
 ```{image} Docs/Vincent-Deguin-OpenUniversity50_crop.jpg
@@ -32,8 +29,7 @@ name: JWST Nircam
 
 ````
 
-
-
+## On my academic profile
 
 
 My name is  [Vincent Deguin](https://50.open.ac.uk/photography/vincent) and I am an Astrophysics PhD student at the Open University (as of 1st of August 2022). My PhD focus on **Experimenting with the earliest stages of planet formation** and I am particulary interested in understanding the key role that ice (coating interstellar dust grains) plays in that respect (both from a physical and chemical point of view). I have an insatiable appetite for Open Science, that is unfortunately overlooked by the scientific community. This web-site is an attempt to make the outputs of my scientific journey as **open, accesible and reproducible** as possible, and is dived in 3 main sections:
@@ -68,6 +64,10 @@ I have never been so keen in keeping my mouth shut, mostly when what I want to s
 
 ```{warning}
 - Unless clearly stated, the content of this *web-site* have **not been peer-reviewed** and must be taken with caution.
+
+- Reviewing can be achieved on this web-site using `hypothesis` (buttons on the right corner).
+
+- Every review will be greatly appreciated.
 ```
 
 ## Research 
@@ -100,7 +100,7 @@ Photochemistry ...
 Experimenting with the earliest stages of planet formation
 
 +++
-![flag alt >](Docs/Svg_icons/Under_construction.svg) link to Book
+![flag alt >](Docs/Svg_icons/Under_construction.svg) &#x2192; **Jupyter-Book** &#x2192; <a href="https://deugz.github.io/nb-phd/_build/html/">![flag alt >](Docs/Svg_icons/jupyter-svgrepo-com.svg)</a>
 :::
 
 :::{card} 
@@ -134,32 +134,62 @@ Purpose here would be to create a voting system (pay ?) for people to choose a s
 
 ## Teaching
 
+````{margin} 
+
+```{admonition} Legend
+
+- ![flag alt >](Docs/Svg_icons/Under_construction.svg): In construction
+<br><br>
+-  &#127992; : Need peer-review
+<br><br>
+-  &#128143; : Need contributors 
+<br><br>
+- &#128142; : ? - you find out
+<br><br>
+- &#128293; : High priority
+```
+
+
+```{note} 
+
+Create specific admonitions related to those symbols and implement within the course
+
+```
+
+````
+
+
+
+
 
 ### Bitesize lessons 
 
-some small lessons
+some small lessons to introduce specific topics. Contributions from other Researcher are welcome and encouraged (Ross) - **Link toward interaction workflow**
 
 ::::{grid} 2
 :::{grid-item-card}  
-Astronomy
+**Astronomy**
 ^^^
 
-
-- Molecular Clouds 
-- Interstellar Dust grains
-- [Star formation](Teaching/Astronomy/Star_formation/Star_formation.md)
-- [Planet formation (bottom-up)](Teaching/Astronomy/Planet_formation_bottom-top/Planet_formation_bottom-top.md)
-- [Planet formation (top-bottom)](Teaching/Astronomy/Planet_formation_top-bottom/Planet_formation_top-bottom.md)
-
+- ![flag alt >](Docs/Svg_icons/Under_construction.svg)   &#128293; &#127992;  - [Astronomy 101](Teaching/Bitesize/Astronomy/Astronomy_101/Astronomy_101)
+- ![flag alt >](Docs/Svg_icons/Under_construction.svg)  &#128142; - [The Solar system](Teaching/Bitesize/Astronomy/The_solar_system/Solar_system.md)
+- ![flag alt >](Docs/Svg_icons/Under_construction.svg)  - [The Interstellar Medium](Teaching/Bitesize/Astronomy/ISM/ISM.md)
+- ![flag alt >](Docs/Svg_icons/Under_construction.svg)  - [Astrochemistry](Teaching/Bitesize/Astronomy/Astrochemistry/Astrochemistry.md)
+- ![flag alt >](Docs/Svg_icons/Under_construction.svg)  - [Interstellar Dust grains](Teaching/Bitesize/Astronomy/Interstellar_dust_grains/Dust.md)
+- ![flag alt >](Docs/Svg_icons/Under_construction.svg)  - [Stars lifecycle](Teaching/Bitesize/Astronomy/Star_formation/Star_formation.md)
+- ![flag alt >](Docs/Svg_icons/Under_construction.svg)  - [Planet formation (bottom-up)](Teaching/Bitesize/Astronomy/Planet_formation_bottom-top/Planet_formation_bottom-top.md)
+- ![flag alt >](Docs/Svg_icons/Under_construction.svg) &#128143; - [Planet formation (top-bottom)](Teaching/Bitesize/Astronomy/Planet_formation_top-bottom/Planet_formation_top-bottom.md)
+- ![flag alt >](Docs/Svg_icons/Under_construction.svg) &#128143; - [JWST](Teaching/Bitesize/Astronomy/JWST/JWST.md)
 
 :::
 :::{grid-item-card} 
-Physics
+**Physics**
 ^^^
 
-- The strange behaviour of Water
-- Infrared Spectroscopy
-- Special Relativity
+- ![flag alt >](Docs/Svg_icons/Under_construction.svg) - [The strange behaviour of Water](Teaching/Bitesize/Physics/Water_physics/Water_physics)
+- ![flag alt >](Docs/Svg_icons/Under_construction.svg) - [Water Ice](Teaching/Bitesize/Physics/Water_ice/Water_ice)
+- ![flag alt >](Docs/Svg_icons/Under_construction.svg) - [Infrared Spectroscopy](Teaching/Bitesize/Physics/IR_Spectro/IR_Spectro)
+- ![flag alt >](Docs/Svg_icons/Under_construction.svg) - [Special Relativity](Teaching/Bitesize/Physics/Special_Relativity/Special_Relativity)
 
 
 :::
@@ -170,27 +200,33 @@ Physics
 
 Some practical tutorials which will accompanied you in producing some material.
 
+```{warning}
+There is a few prerequisties to perform before to jump into those tutorial, go visit () for more information
+```
+
 ::::{grid} 2
 :::{grid-item-card}  
-Web development
+**Web development**
 ^^^
 
-- [HTML \ CSS](Teaching/WebDev/HTML_CSS.md)
-- [Jupyter-Book ](Teaching/WebDev/Jupyter_Book.md)
+- ![flag alt >](Docs/Svg_icons/Under_construction.svg) - [HTML \ CSS](Teaching/Practicle/WebDev/HTML_CSS/HTML_CSS)
+- ![flag alt >](Docs/Svg_icons/Under_construction.svg) &#128293; - [Jupyter-Book ](Teaching/Practicle/WebDev/Jupyter_Book/Jupyter_Book)
 
 :::
 :::{grid-item-card} 
-Python
+**Python**
 ^^^
-- [Introduction to Python](Teaching\Python_Main.md)
-- Plotting Data
+- ![flag alt >](Docs/Svg_icons/Under_construction.svg) - [Introduction to Python](Teaching/Practicle/Python/Step1.md)
+- ![flag alt >](Docs/Svg_icons/Under_construction.svg) - [Plotting Data](Teaching/Practicle/Python/Step2.md)
 
 :::
 ::::
 
-## The Science For The People project
+## Science For The People 
 
 ### Description
+
+
 
 - Empowering researcher to self-publish themselves.
 - Produce an open and transparent peer review process.
@@ -204,111 +240,3 @@ Include diagram to  explain the project
 - Produce a type of **form**, to recover the opinion of people regarding the web-site
 - Create a typee page (button) to welcome contribution
 
-### Business idea
-
-<div class="emphase">
-    Blog 2.0 - fitted for Research
-</div>
-
-
-
-```{warning}
-**Plan**
-- Put online w/ Astra help (8th Aug) - with PhD, Postdoc
-- Link between all those notebooks
-- Share with OU people and close ones
-    - Ross
-    - Giulia
-    - Tom
-    - Pierre
-    - Antoine
-    - Benoit
-    - Le Bro
-    - More ?
-- Improve (work on Phd all week)
-    - Create and implement french dialogue notes
-    - Implement utterance ...
-    - Create opinion google form
-- Share with wider Friend
-    - Ask for comment
-```
-
-
-
-In order to further developp this project but also because science doesn't pay much (especialy when you do it "out of the box"), it seems important to develop potential income solutions:
-
-```{note} Free Version
-
-The main objective of the project is to change the mentality of the scientific community and **a free version must always be available** and favoured in most of the cases.
-
-```
-
-:::::{div} full-width
-::::{grid} 3
-:::{grid-item-card}
-**Free plan**
-^^^
-
-**Description**
-
-A simple template book plus some help to setting it up and resolve any primary issues.
-
-
-**Target**
-- Students (Master, PhD)
-- Early career researcher
-
-**Include**
-
-- 1 template book tailored for research (give link)
-- 1 setting-up session (1/2 a day)
-- 1 subsequent session (2h) to resolve any potential issue
-
-**Outcome**
-
-
-:::
-:::{grid-item-card}
-**Cheap plan** 
-^^^
-**Description**
-
-A more advanced book including some of the previous scientific outputs of the researcher (few hundreds £ depending on the work needed). help to setting it up and resolve any primary issues.
-
-
-**Target**
-- Senior Researcher 
-- General public
-    
-**Include**
-
-- 1 template book tailored for research (give link)
-- 1 setting-up session (1/2 a day)
-- 1 subsequent session (2h) to resolve any potential issue
-+ Tailord accompaniement to include previous research (or objectives)
-
-:::
-
-:::{grid-item-card} 
-**Expensive plan**
-^^^
-**Description**<br>
-
-Books designed for heavy data. All previous but accompaniement all along the lifetime of the project for a *monthly fee*
-
-
-
-**Target**
-- Big scientific groups 
-- Companies
-
-
-
-:::
-::::
-:::::
-
-
-#### Other tools on the market
-
-- [Quarto](https://quarto.org/), looks more professional, more versatil (ie R, Julia), but more complicated and code intensive, less accessible.

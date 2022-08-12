@@ -36,6 +36,7 @@ html:
     
 html:
   comments:
+    hypothesis: true
     utterances:
       repo: "https://github.com/Deugz/Notebook"
       

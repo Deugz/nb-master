@@ -7,29 +7,44 @@ parts:
   - caption: CV
     chapters:
     - file: CV/Academic_CV
-    - file: CV/Cover_letter
+  - caption: Project
+    chapters:
+    - file: Projects/Science_ft_People 
   - caption: Research
     chapters:
     - file: Research/Research_Main
     - file: Research/PhD_main
-      sections:
-      - file: Research/PhD/PhD_1
-      - file: Research/PhD/PhD_2 
     - file: Research/PostDoc_main
-      sections:
-      - file: Research/PostDoc/PostDoc_1
   - caption: Teaching
     chapters:
     - file: Teaching/Teaching_Main
-    - file: Teaching/WebDev_Main
+    - file: Teaching/Bitesize/Bitesize_Main
+    - file: Teaching/Bitesize/Astronomy/Astronomy_Main
       sections:
-      - file: WebDev/HTML_CSS
-      - file: WebDev/Jupyter_Book 
-    - file: Teaching/Python_Main
+      - file: Teaching/Bitesize/Astronomy/Astronomy_101/Astronomy_101
+      - file: Teaching/Bitesize/Astronomy/The_solar_system/Solar_system
+      - file: Teaching/Bitesize/Astronomy/ISM/ISM
+      - file: Teaching/Bitesize/Astronomy/Astrochemistry/Astrochemistry
+      - file: Teaching/Bitesize/Astronomy/Interstellar_dust_grains/Dust
+      - file: Teaching/Bitesize/Astronomy/Star_formation/Star_formation
+      - file: Teaching/Bitesize/Astronomy/Planet_formation_bottom-top/Planet_formation_bottom-top
+      - file: Teaching/Bitesize/Astronomy/Planet_formation_top-bottom/Planet_formation_top-bottom
+      - file: Teaching/Bitesize/Astronomy/JWST/JWST
+    - file: Teaching/Bitesize/Physics/Physics_Main
       sections:
-      - file: Python/Step1
-      - file: Python/Step2
-      - file: Scripts/Ethane_PT_diagram
+      - file: Teaching/Bitesize/Physics/Water_physics/Water_physics
+      - file: Teaching/Bitesize/Physics/Water_ice/Water_ice
+      - file: Teaching/Bitesize/Physics/IR_Spectro/IR_Spectro
+      - file: Teaching/Bitesize/Physics/Special_Relativity/Special_Relativity
+    - file: Teaching/Practicle/Practicle_Main
+    - file: Teaching/Practicle/WebDev/WebDev_Main
+      sections:
+      - file: Teaching/Practicle/WebDev/Jupyter_Book/Jupyter_Book
+      - file: Teaching/Practicle/WebDev/HTML_CSS/HTML_CSS
+    - file: Teaching/Practicle/Python/Python_Main
+      sections:
+      - file: Teaching/Practicle/Python/Step1
+      - file: Teaching/Practicle/Python/Step2
   - caption: Blog
     chapters:
     - file: Blog/Blog_Main
@@ -41,4 +56,9 @@ parts:
   - caption: Appendix
     chapters:
     - file: Appendix/Style_guide
-    - file: Appendix/Help
+    - file: Appendix/Help_main
+      sections:
+      - file: Appendix/Help/The_Turing_Way     
+      - file: Appendix/Help/Anaconda_JB
+      - file: Appendix/Help/Github_JB
+      - file: Appendix/Help/Binder_JB

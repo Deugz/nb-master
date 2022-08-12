@@ -6,8 +6,12 @@ This page is an introduction for the teaching material.
 ***
 Not everybody learn the same way, nor at the same pace and the current mainstream teaching method (every-body sat in a classroom taking notes dicted by the teacher), appear to me extremely old-fashioned, boring and unproductive.
 
-
 ***
+
+## Prerequisties
+
+Install Anaconda
+
 
 ## Web development
 
