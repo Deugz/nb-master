@@ -21,11 +21,14 @@ name: JWST Nircam
 
 ![flag alt >](Docs/Svg_icons/mail-svgrepo-com.svg) vincent.deguin@open.ac.uk
 
-![flag alt >](Docs/Svg_icons/github-svgrepo-com.svg)
+![flag alt >](Docs/Svg_icons/github-svgrepo-com.svg) [Deugz](https://github.com/Deugz)
 
-![flag alt >](Docs/Svg_icons/bitbucket-svgrepo-com.svg)
+![flag alt >](Docs/Svg_icons/bitbucket-svgrepo-com.svg) **To do** (or not)
 
 ![flag alt >](Docs/Svg_icons/orcid-svgrepo-com.svg) **To do**
+
+![flag alt >](Docs/Svg_icons/patreon-v2-svgrepo-com.svg) **To do**
+
 
 ````
 
@@ -34,13 +37,15 @@ name: JWST Nircam
 
 My name is  [Vincent Deguin](https://50.open.ac.uk/photography/vincent) and I am an Astrophysics PhD student at the Open University (as of 1st of August 2022). My PhD focus on **Experimenting with the earliest stages of planet formation** and I am particulary interested in understanding the key role that ice (coating interstellar dust grains) plays in that respect (both from a physical and chemical point of view). I have an insatiable appetite for Open Science, that is unfortunately overlooked by the scientific community. This web-site is an attempt to make the outputs of my scientific journey as **open, accesible and reproducible** as possible, and is dived in 3 main sections:
 
+
+
 ::::{grid} 3
 :::{grid-item-card}
 :link: Research/Research_Main.html
 **Research** <span style="float: right">&#10024;</span>
 ^^^
 
-A place where I intend to share my research outputs
+A place where I intend to share my research outputs in a creative and open access format because, I don' really like to do things "by the book" (especially when they involve paying to publish behind a paywall using a boring template). 
 
 :::
 :::{grid-item-card}
@@ -48,7 +53,7 @@ A place where I intend to share my research outputs
 **Teaching** <span style="float: right">&#128640;</span>
 ^^^
 
-Teaching material based on what I learned during my Scientific journey.
+Teaching material based on what I learned during my scientific journey. Also a plateform where other researcher can come and collaborate to build a better understanding of interdisciplanry science questions (like planet formation for example).
 
 :::
 
@@ -57,7 +62,7 @@ Teaching material based on what I learned during my Scientific journey.
 **Blog** <span style="float: right">&#128165;</span>
 ^^^
 
-I have never been so keen in keeping my mouth shut, mostly when what I want to say is related to injustice. The Scientific world is full of it so here is a place where I will share my say.
+I have never been so keen in keeping my mouth shut, and never used clasical social media plateform (![flag alt >](Docs/Svg_icons/interdiction/twitter_forbidden.png), ![flag alt >](Docs/Svg_icons/interdiction/facebook_forbidden.png), ![flag alt >](Docs/Svg_icons/interdiction/instagram_forbidden.png), ![flag alt >](Docs/Svg_icons/interdiction/linkedin_forbidden.png)) to share my opinions because the format is unadapted, so here they are.
 
 :::
 ::::
@@ -67,166 +72,143 @@ I have never been so keen in keeping my mouth shut, mostly when what I want to s
 
 - Reviewing can be achieved on this web-site using `hypothesis` (buttons on the right corner).
 
-- Every review will be greatly appreciated.
+- **Version**: 0.1.1 (Aug-2022)
+
 ```
 
 ## Research 
 
 ### Academia
 
+:::::{div} full-width
 ::::{card-carousel} 2
 
 :::{card} 
 **First steps**
 ^^^
 
+*Photochemistry of Fe:H<sub>2</sub>O adducts in argon matrixes: a combined experimental and theoretical study in the mid-ir and uv-visible regions*
+
 - Job Type: Internship
 - Discipline: Astrochemistry
 - Duration: 2 month
 
-Photochemistry ...
-
 +++
-&#9989; &#x2192;  **Scientific publication**  &#x2192; <a href="https://pubs.acs.org/doi/abs/10.1021/acs.jpca.7b09681">![flag alt >](Docs/Svg_icons/coins-money-svgrepo-com.svg)</a> or ![flag alt >](Docs/Svg_icons/pdf-svgrepo-com.svg)
+&#9989; &#x2192;  **Scientific publication**  &#x2192; <a href="https://pubs.acs.org/doi/abs/10.1021/acs.jpca.7b09681">![flag alt >](Docs/Svg_icons/coins-money-svgrepo-com.svg)</a> or ![flag alt >](Docs/Svg_icons/pdf-svgrepo-com.svg) {cite}`Deguin2018`
 :::
 
 :::{card} 
-**Highway to hell**
+**Museum of non result**
 ^^^
+
+*Experimenting with the earliest stages of planet formation* (Part 1)
+
 - Job Type: PhD
 - Discipline: Astrophysics / Engeneering / Material Sciences
 - Duration: 4.5 years
 
-Experimenting with the earliest stages of planet formation
+
+
++++
+&#9989; &#x2192; **Jupyter-Book** &#x2192; <a href="https://deugz.github.io/nb-museum/_build/html/">![flag alt >](Docs/Svg_icons/jupyter-svgrepo-com.svg)</a>
+:::
+
+:::{card} 
+**Stairway to Heaven**
+^^^
+
+*Experimenting with the earliest stages of planet formation* (Part 2)
+
+
+- Job Type: PhD
+- Discipline: Astrophysics / Engeneering / Material Sciences
+- Duration: 4.5 years
 
 +++
 ![flag alt >](Docs/Svg_icons/Under_construction.svg) &#x2192; **Jupyter-Book** &#x2192; <a href="https://deugz.github.io/nb-phd/_build/html/">![flag alt >](Docs/Svg_icons/jupyter-svgrepo-com.svg)</a>
 :::
 
 :::{card} 
-**Phoenix Project**
+**Condor Project**
 ^^^
+
+Sprinkle a lot of this {cite}`Hague2020` on top of that {cite}`Souza2017` and you get a pretty cool project:  
+
+*3D tissue modelling with the CONDOR (link) model* 
+
 
 - Job Type: Research Associate (Postdoc)
 - Discipline: Computer Sciences / Biologie
 - Duration: 2 month
 
 
-blabla
-
 +++
 &#x26D4; - **commercial application**
 :::
 
 ::::
-
-### Other
-
-```{note}
-Purpose here would be to create a voting system (pay ?) for people to choose a subject that they want to analyse (using public or personal data ?) and to create a specific book for it. Scientific collaboration with the general public towards subjects of public interests
-
-- Measuring climate change,
-- Biodiversite sur le bassin d'Arcachon (pour toi le JIM)
-- ...
-```
-
-
+:::::
 
 ## Teaching
 
 ````{margin} 
 
-```{admonition} Legend
+```{admonition} Colaboration ![flag alt >](Docs/Svg_icons/handshake-deal-svgrepo-com.svg)
+What is this all about
 
-- ![flag alt >](Docs/Svg_icons/Under_construction.svg): In construction
-<br><br>
--  &#127992; : Need peer-review
-<br><br>
--  &#128143; : Need contributors 
-<br><br>
-- &#128142; : ? - you find out
-<br><br>
-- &#128293; : High priority
-```
-
-
-```{note} 
-
-Create specific admonitions related to those symbols and implement within the course
-
+- link to colaboration workflow
 ```
 
 ````
 
+<article id="P1">
+    
+<div id="subdiv2">
 
 
-
-
-### Bitesize lessons 
-
-some small lessons to introduce specific topics. Contributions from other Researcher are welcome and encouraged (Ross) - **Link toward interaction workflow**
-
-::::{grid} 2
-:::{grid-item-card}  
-**Astronomy**
+:::{grid-item-card}
+:link: "https://deugz.github.io/nb-phd/_build/html/"
+**Teaching** <span style="float: right">&#128165;</span>
 ^^^
-
-- ![flag alt >](Docs/Svg_icons/Under_construction.svg)   &#128293; &#127992;  - [Astronomy 101](Teaching/Bitesize/Astronomy/Astronomy_101/Astronomy_101)
-- ![flag alt >](Docs/Svg_icons/Under_construction.svg)  &#128142; - [The Solar system](Teaching/Bitesize/Astronomy/The_solar_system/Solar_system.md)
-- ![flag alt >](Docs/Svg_icons/Under_construction.svg)  - [The Interstellar Medium](Teaching/Bitesize/Astronomy/ISM/ISM.md)
-- ![flag alt >](Docs/Svg_icons/Under_construction.svg)  - [Astrochemistry](Teaching/Bitesize/Astronomy/Astrochemistry/Astrochemistry.md)
-- ![flag alt >](Docs/Svg_icons/Under_construction.svg)  - [Interstellar Dust grains](Teaching/Bitesize/Astronomy/Interstellar_dust_grains/Dust.md)
-- ![flag alt >](Docs/Svg_icons/Under_construction.svg)  - [Stars lifecycle](Teaching/Bitesize/Astronomy/Star_formation/Star_formation.md)
-- ![flag alt >](Docs/Svg_icons/Under_construction.svg)  - [Planet formation (bottom-up)](Teaching/Bitesize/Astronomy/Planet_formation_bottom-top/Planet_formation_bottom-top.md)
-- ![flag alt >](Docs/Svg_icons/Under_construction.svg) &#128143; - [Planet formation (top-bottom)](Teaching/Bitesize/Astronomy/Planet_formation_top-bottom/Planet_formation_top-bottom.md)
-- ![flag alt >](Docs/Svg_icons/Under_construction.svg) &#128143; - [JWST](Teaching/Bitesize/Astronomy/JWST/JWST.md)
-
+Learn from multiple (finger crossed) scientists about topics like:
+- [Astronomy](https://deugz.github.io/nb-Teaching/_build/html/Bitesize/Astronomy/Astronomy_101/Astronomy_101.html)
+- Water
+- Planet formation
+- The Jupyter ecosystem
+- Python
+- 3JS
 :::
-:::{grid-item-card} 
-**Physics**
-^^^
+    
+</div>
+    
+<div id="subdiv2">    
+  
+Teaching is an important part of the life of a researcher and deserve its own book (click on card or individual courses). However, it is a task that is often controlled and managed by heavy administrative bodies. I think, however that every researcher should be given the chance to share his knowledge in a creative and appealing fashion (that is terribly lacking in academia).  
 
-- ![flag alt >](Docs/Svg_icons/Under_construction.svg) - [The strange behaviour of Water](Teaching/Bitesize/Physics/Water_physics/Water_physics)
-- ![flag alt >](Docs/Svg_icons/Under_construction.svg) - [Water Ice](Teaching/Bitesize/Physics/Water_ice/Water_ice)
-- ![flag alt >](Docs/Svg_icons/Under_construction.svg) - [Infrared Spectroscopy](Teaching/Bitesize/Physics/IR_Spectro/IR_Spectro)
-- ![flag alt >](Docs/Svg_icons/Under_construction.svg) - [Special Relativity](Teaching/Bitesize/Physics/Special_Relativity/Special_Relativity)
-
-
-:::
-::::
+</div>
+    
+</article>
 
 
-### Practical Tutorials
+![flag alt >](Docs/Svg_icons/handshake-deal-svgrepo-com.svg)
+
+- **Bitesize**
+
+Small lessons to introduce specific topics that I encounter during my research journey.  
+Contributions from other Researcher are welcome and encouraged (Ross) - **Link toward interaction workflow**
+
+- **Practicle**
 
 Some practical tutorials which will accompanied you in producing some material.
 
-```{warning}
-There is a few prerequisties to perform before to jump into those tutorial, go visit () for more information
-```
-
-::::{grid} 2
-:::{grid-item-card}  
-**Web development**
-^^^
-
-- ![flag alt >](Docs/Svg_icons/Under_construction.svg) - [HTML \ CSS](Teaching/Practicle/WebDev/HTML_CSS/HTML_CSS)
-- ![flag alt >](Docs/Svg_icons/Under_construction.svg) &#128293; - [Jupyter-Book ](Teaching/Practicle/WebDev/Jupyter_Book/Jupyter_Book)
-
-:::
-:::{grid-item-card} 
-**Python**
-^^^
-- ![flag alt >](Docs/Svg_icons/Under_construction.svg) - [Introduction to Python](Teaching/Practicle/Python/Step1.md)
-- ![flag alt >](Docs/Svg_icons/Under_construction.svg) - [Plotting Data](Teaching/Practicle/Python/Step2.md)
-
-:::
-::::
 
 ## Science For The People 
 
+
+
+<p class="emphase">Self-publication toolbox</p>
+
 ### Description
-
-
 
 - Empowering researcher to self-publish themselves.
 - Produce an open and transparent peer review process.

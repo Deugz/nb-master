@@ -85,3 +85,68 @@ font-family: 'Permanent Marker', cursive;
 font-size: 1em;
 color: rgba(238, 238, 238, 0.7);
 }
+
+#P1
+
+{
+width: 100%;
+display: flex;
+}
+
+#subdiv2
+{
+width:50%;
+padding: 20px;
+}
+
+
+/* 	Button */
+
+.button {
+  display: inline-block;
+  border-radius: 8px;
+  background-color: purple;
+  border:1px solid black;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 1);
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 15px;
+  min-width:120px;
+  width: auto;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: auto;
+}
+
+.button span {
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(237, 210, 22);
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button a {
+  text-decoration: none;
+  color: rgb(237, 210, 22);
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}

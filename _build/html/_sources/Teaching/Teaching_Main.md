@@ -1,7 +1,22 @@
-# Introduction
+# Overview
 
 
 This page is an introduction for the teaching material.
+
+```{admonition} Trafic light system
+
+create sub_menue based on different level:
+- green 
+- orange
+- red
+
+- but also purple, blue for contributions from other fields (Observation, modelling ...)
+
+```
+
+Every body included.
+
+Ask friend from PhD cohorte to write something using those sections
 
 ***
 Not everybody learn the same way, nor at the same pace and the current mainstream teaching method (every-body sat in a classroom taking notes dicted by the teacher), appear to me extremely old-fashioned, boring and unproductive.

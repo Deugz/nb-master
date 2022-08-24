@@ -23,13 +23,17 @@ Some extensions requires a rebuild of jupyter Lab, that need **Node.js**.
 
 #### What exactly is Node.js
 
-
-
 ## Jupyter Book
 
 ### Example
 
 give example w/ Jupyter as the example
+
+
+```{warning}
+Try to understand how the build work. 
+- Can get a bit messy !
+```
 
 ### Create your own admonition
 

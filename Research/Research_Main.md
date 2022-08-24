@@ -1,8 +1,193 @@
-# Introduction
-
-This page is an introduction to the Research material
+# Overview
 
 ***
-There is an urge for collaboration, but no real tools or method exist ...
+**Plan**
+
+- 
+-
+
+Create link to taching 
 
 ***
+
+## Ongoing
+
+### Stairway to Heaven
+
+:::::{margin} 
+::::{grid} 1
+:::{grid-item-card} 
+:img-top: Docs/OU_Logo.svg
+:link: "https://deugz.github.io/nb-phd/_build/html/"
+^^^
+**PhD Part 2** 
++++
+![flag alt >](../Docs/logo_JB.png) Version: 0.1 
+:::
+::::
+:::::
+
+
+<article id="P1">
+    
+<div id="subdiv2">
+
+```{image} Docs/3Dsuccess.png
+:alt: 3D cool plot
+:width: 650px
+```
+
+    
+</div>
+    
+<div id="subdiv2">    
+  
+**Abstract**: study of Amorphous Solid Water physical properties
+    
+    
+</div>
+    
+</article>
+
+***
+
+
+<article id="P1">
+    
+<div id="subdiv2">
+
+**Data**
+
+- Link to figshare
+(test with DR1_Full)
+    
+</div>
+    
+<div id="subdiv2">
+    
+**Interactive Notebooks**
+
+- [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Deugz/ASW_Data_Processing/HEAD?labpath=Data_Analysis_Binder.ipynb)
+
+
+    
+</div>
+    
+</article>
+
+***
+
+```{admonition} A bit of context
+link towards relevant courses
+- Water
+- [Astronomy 101](https://deugz.github.io/nb-Teaching/_build/html/Bitesize/Astronomy/Astronomy_101/Astronomy_101.html)
+```
+
+
+
+
+### The Museum of non result
+
+:::::{margin} 
+::::{grid} 1
+:::{grid-item-card} 
+:img-top: Docs/OU_Logo.svg
+:link: "https://deugz.github.io/nb-phd/_build/html/"
+^^^
+**PhD Part 1**
++++
+
+<br>
+![flag alt >](../Docs/logo_JB.png) Version: 0.1 
+
+Last upload: 24/08/22
+:::
+::::
+:::::
+
+<article id="P1">
+    
+<div id="subdiv2">
+
+```{image} Docs/Bench_And_Glovebox_Assembly_20-12-2019_IMG3.jpg
+:alt: 3D cool plot
+:width: 650px
+```
+
+    
+</div>
+    
+<div id="subdiv2">    
+  
+Description, study of Amorphous Solid Water physical properties
+    
+    
+</div>
+    
+</article>
+
+**Data**
+    
+**Interactive Notebooks**
+
+Still to write !! Thesis 
+
+
+## Legacy
+
+
+### Condor Project 
+
+:::::{margin} 
+::::{grid} 1
+:::{grid-item-card} 
+:img-top: Docs/OU_Logo.svg
+:link: "https://deugz.github.io/nb-phd/_build/html/"
+^^^
+**PostDoc**
++++
+![flag alt >](../Docs/logo_JB.png) Version: 0.1 
+:::
+::::
+:::::
+
+<article id="P1">
+    
+<div id="subdiv2">
+
+```{image} Docs/Capture_Jim.PNG
+:alt: Condor Model
+:width: 650px
+```
+
+    
+</div>
+    
+<div id="subdiv2">    
+  
+Condor Model
+    
+</div>
+    
+</article>
+
+### First Steps
+
+<article id="P1">
+    
+<div id="subdiv2">
+
+```{image} Docs/FeH2O.png
+:alt: Fe:H2O
+:width: 650px
+```
+
+    
+</div>
+    
+<div id="subdiv2">    
+  
+Description, study of Amorphous Solid Water with iron
+</div>
+    
+</article>

@@ -4,57 +4,31 @@
 format: jb-book
 root: intro
 parts:
-  - caption: CV
+  - caption:
     chapters:
     - file: CV/Academic_CV
-  - caption: Project
+  - caption: Science for the people
     chapters:
+    - file: Projects/Manifesto 
     - file: Projects/Science_ft_People 
+    - file: Projects/Contribute    
   - caption: Research
     chapters:
     - file: Research/Research_Main
-    - file: Research/PhD_main
-    - file: Research/PostDoc_main
   - caption: Teaching
     chapters:
     - file: Teaching/Teaching_Main
-    - file: Teaching/Bitesize/Bitesize_Main
-    - file: Teaching/Bitesize/Astronomy/Astronomy_Main
-      sections:
-      - file: Teaching/Bitesize/Astronomy/Astronomy_101/Astronomy_101
-      - file: Teaching/Bitesize/Astronomy/The_solar_system/Solar_system
-      - file: Teaching/Bitesize/Astronomy/ISM/ISM
-      - file: Teaching/Bitesize/Astronomy/Astrochemistry/Astrochemistry
-      - file: Teaching/Bitesize/Astronomy/Interstellar_dust_grains/Dust
-      - file: Teaching/Bitesize/Astronomy/Star_formation/Star_formation
-      - file: Teaching/Bitesize/Astronomy/Planet_formation_bottom-top/Planet_formation_bottom-top
-      - file: Teaching/Bitesize/Astronomy/Planet_formation_top-bottom/Planet_formation_top-bottom
-      - file: Teaching/Bitesize/Astronomy/JWST/JWST
-    - file: Teaching/Bitesize/Physics/Physics_Main
-      sections:
-      - file: Teaching/Bitesize/Physics/Water_physics/Water_physics
-      - file: Teaching/Bitesize/Physics/Water_ice/Water_ice
-      - file: Teaching/Bitesize/Physics/IR_Spectro/IR_Spectro
-      - file: Teaching/Bitesize/Physics/Special_Relativity/Special_Relativity
-    - file: Teaching/Practicle/Practicle_Main
-    - file: Teaching/Practicle/WebDev/WebDev_Main
-      sections:
-      - file: Teaching/Practicle/WebDev/Jupyter_Book/Jupyter_Book
-      - file: Teaching/Practicle/WebDev/HTML_CSS/HTML_CSS
-    - file: Teaching/Practicle/Python/Python_Main
-      sections:
-      - file: Teaching/Practicle/Python/Step1
-      - file: Teaching/Practicle/Python/Step2
   - caption: Blog
     chapters:
     - file: Blog/Blog_Main
     - file: Blog/Blog_1
-  #- caption: The museum of non result  
-  - caption: My Space
+  #- caption: The museum of non result
+  - caption: Bibliography
     chapters:
-    - file: My_Space/Bass
+    - file: Litterature/bibliography 
   - caption: Appendix
     chapters:
+    - file: Litterature/Litterature_Review
     - file: Appendix/Style_guide
     - file: Appendix/Help_main
       sections:
