@@ -35,7 +35,11 @@ name: JWST Nircam
 ## On my academic profile
 
 
-My name is  [Vincent Deguin](https://50.open.ac.uk/photography/vincent) and I am an Astrophysics PhD student at the Open University (as of 1st of August 2022). My PhD focus on **Experimenting with the earliest stages of planet formation** and I am particulary interested in understanding the key role that ice (coating interstellar dust grains) plays in that respect (both from a physical and chemical point of view). I have an insatiable appetite for Open Science, that is unfortunately overlooked by the scientific community. This web-site is an attempt to make the outputs of my scientific journey as **open, accesible and reproducible** as possible, and is dived in 3 main sections:
+My name is  [Vincent Deguin](https://50.open.ac.uk/photography/vincent), I am an Astrophysics PhD student at the Open University and my PhD focus on: 
+
+<p class="emphase">Experimenting with the earliest stages of planet formation</p>
+
+I am particulary interested in understanding the key role that ice (coating interstellar dust grains) plays in that respect (both from a physical and chemical point of view). I have an insatiable appetite for Open Science, that is unfortunately overlooked by the scientific community. This web-site is an attempt to make the outputs of my scientific journey as **open, accesible and reproducible** as possible, and is dived in 3 main sections:
 
 
 
@@ -78,7 +82,27 @@ I have never been so keen in keeping my mouth shut, and never used clasical soci
 
 ## Research 
 
-### Academia
+### Introduction
+
+````{margin} 
+
+```{note} 
+**Anita Dawes** has been my supervisor during the 2<sup>nd</sup> half of my PhD.
+
+- [gender issues in STEM](https://www.youtube.com/watch?v=IDpognCJK9k&list=PLF394wWsaW_DXpWNlWGMN5jaIA0gHqJuv&index=5) 
+
+```
+
+````
+<br>
+
+<video src="_static/videos/EU Space Awareness Career Interviews Anita Dawes, Astrochemist __ FULL 3 min version.mp4" width="100%" height="" controls>
+  Your browser does not support the video tag.
+</video>
+
+### List of projects
+
+chronological order
 
 :::::{div} full-width
 ::::{card-carousel} 2
@@ -90,10 +114,14 @@ I have never been so keen in keeping my mouth shut, and never used clasical soci
 *Photochemistry of Fe:H<sub>2</sub>O adducts in argon matrixes: a combined experimental and theoretical study in the mid-ir and uv-visible regions*
 
 - Job Type: Internship
+- Lead supervisor: Jennifer Noble
 - Discipline: Astrochemistry
 - Duration: 2 month
+- Status: Finished 
 
 +++
+
+
 &#9989; &#x2192;  **Scientific publication**  &#x2192; <a href="https://pubs.acs.org/doi/abs/10.1021/acs.jpca.7b09681">![flag alt >](Docs/Svg_icons/coins-money-svgrepo-com.svg)</a> or ![flag alt >](Docs/Svg_icons/pdf-svgrepo-com.svg) {cite}`Deguin2018`
 :::
 
@@ -104,13 +132,16 @@ I have never been so keen in keeping my mouth shut, and never used clasical soci
 *Experimenting with the earliest stages of planet formation* (Part 1)
 
 - Job Type: PhD
+- Lead supervisor: Helen Fraser
 - Discipline: Astrophysics / Engeneering / Material Sciences
 - Duration: 4.5 years
-
+- Status: ?
 
 
 +++
-&#9989; &#x2192; **Jupyter-Book** &#x2192; <a href="https://deugz.github.io/nb-museum/_build/html/">![flag alt >](Docs/Svg_icons/jupyter-svgrepo-com.svg)</a>
+<div class="wrapper">
+&#9989; &#x2192; <button class="button"><span> <a href="https://deugz.github.io/nb-museum/_build/html/"  title= "" target="blank"> Jupyter Book </a></span></button> 
+</div>
 :::
 
 :::{card} 
@@ -125,7 +156,9 @@ I have never been so keen in keeping my mouth shut, and never used clasical soci
 - Duration: 4.5 years
 
 +++
-![flag alt >](Docs/Svg_icons/Under_construction.svg) &#x2192; **Jupyter-Book** &#x2192; <a href="https://deugz.github.io/nb-phd/_build/html/">![flag alt >](Docs/Svg_icons/jupyter-svgrepo-com.svg)</a>
+<div class="wrapper">
+<img class ="small" src="_images/Under_construction.svg" > &#x2192; <button class="button"><span> <a href="https://deugz.github.io/nb-phd/_build/html/"  title= "" target="blank"> Jupyter Book </a></span></button> 
+</div>
 :::
 
 :::{card} 
@@ -143,6 +176,8 @@ Sprinkle a lot of this {cite}`Hague2020` on top of that {cite}`Souza2017` and yo
 
 
 +++
+
+
 &#x26D4; - **commercial application**
 :::
 
@@ -167,16 +202,23 @@ What is this all about
 
 
 :::{grid-item-card}
-:link: "https://deugz.github.io/nb-phd/_build/html/"
 **Teaching** <span style="float: right">&#128165;</span>
 ^^^
-Learn from multiple (finger crossed) scientists about topics like:
-- [Astronomy](https://deugz.github.io/nb-Teaching/_build/html/Bitesize/Astronomy/Astronomy_101/Astronomy_101.html)
+Learn from multiple (&#129310;) scientists about topics like:
+
+**Bitesize**    
+- [Astronomy](https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/Astronomy_101/Astronomy_101.html)
 - Water
 - Planet formation
+**Practicles** 
 - The Jupyter ecosystem
 - Python
 - 3JS
+    
++++
+<div class="wrapper">
+<button class="button"><span> <a href="https://deugz.github.io/nb-teaching/_build/html/"  title= "" target="blank"> Jupyter Book </a></span></button> 
+</div>
 :::
     
 </div>
