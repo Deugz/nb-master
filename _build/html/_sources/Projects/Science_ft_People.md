@@ -1,6 +1,199 @@
 # Project development
 
-## Until now
+````{margin} 
+```{warning}
+Main goal is **finish my PhD**
+- Deadline: **June 2023**
+```
+````
+
+## Where did you land!
+
+This digital space where you have just set foot, is an **experiment** whose aim is to challenge the current *scientific publication system* by offering a `creative alternative`. There is a long way to go to get there though, and for the time being, it is a collection of `Jupyter Books`. They are canvas to share my research outputs and explore the tools available to make it `Findable, Accesible, Interoperable and Reusable`, but not only...
+
+::::{grid} 1 1 2 4
+:class-container: text-center
+:gutter: 3
+
+:::{grid-item-card}
+:link: https://deugz.github.io/nb-master/_build/html
+:class-header: bg-light
+
+**Master** ![flag alt >](../Docs/Svg_icons/ring-svgrepo-com.svg)
+^^^
+
+Where you are now
+
+:::
+
+:::{grid-item-card}
+:link: https://deugz.github.io/nb-teaching/_build/html
+:class-header: bg-light
+
+**Teaching** 
+^^^
+
+Teaching material
+
+:::
+
+:::{grid-item-card}
+:link: https://deugz.github.io/nb-phd/_build/html
+:class-header: bg-light
+
+**PhD**
+^^^
+
+Project 1
+
+:::
+
+:::{grid-item-card}
+:link: https://deugz.github.io/nb-museum/_build/html
+:class-header: bg-light
+
+**Museum**
+^^^
+
+Project 2
+
+:::
+::::
+
+- (+) 2 others books that are not accessible (Perso and Postdoc).  
+
+
+### What is Jupyter-Book ? ![flag alt >](../Docs/Svg_icons/confused-svgrepo-com.svg)
+
+Jupyter Book is one component of the [Jupyter ecocystem](link to teaching) that help you 
+
+<p class="emphase">build beautiful, publication-quality books and documents from computational content</p>
+
+Takes a collection of `jupyter notebooks` (.ipynb) and `markdown` files (.md), **compile** them to produce a **static web-site** 
+
+
+#### Workflow
+
+##### Science
+
+Science is all about **Data**. Every scientific project involved the generation and interpretation of one or multiple datasets. They can be of many types and shape ...
+
+```{image} Docs/workflow1.png
+:alt: workflow1
+:width: 800px
+```
+
+##### Processing Tools
+
+**Python**
+
+Python is a programming language
+
+
+##### Anaconda
+
+**Jupyter Notebook**
+
+ Combine Python with markdown
+
+**Jupyter Lab**
+
+terminal
+
+**Jupyter Book**
+
+[...]
+
+
+
+**Github**
+
+Version control
+
+
+
+
+#### Skeleton
+
+The following image is a poster I presented at a conference [Open Dialogues Across Physics and Astronomy](https://open-dialogues-phys-and-astro.web.app/) in September 2022 related to the **Science for the Peopple** project
+
+```{note}
+Adapt to show web-sites **Skeleton**
+```
+
+````{div} full-width
+```{image} Docs/Astra_Poster_1.png
+:alt: Astra Poster
+:width: 1500px
+```
+````
+
+## Project aims
+
+### Until PhD submission
+
+<p class="emphase">Finish the Thesis</p>
+
+Is the main **goal**, and there is still a lot to do
+
+- Data Reduction (link notebook) 
+- Data Processing
+- ...
+
+I am planning to write my thesis in Word but during the final year of my PhD, I will keep populating this web-site with my research outputs and use it as a tool to discus the results with my supervision team (and collaborators).
+
+This web-site can Help! (cf benefices section in PhD page - (make link))
+
+<p class="emphase">Notebook and supervision</p>
+
+Notes are taken using `markdown` within the PhD folder and are uploaded weekly on Github, prior to my meeting with Anita
+
+**Supervisory team needs to be involved for Peer Review** (Agreed!). 
+
+- Innovative approach
+- Continuous feedback workflow
+- Open, inclusive ...
+- Easy and fun!
+
+#### Benefits
+
+```{note}
+Include PhD  benefits section
+```
+
+
+<p class="emphase">Sprinkle the Teaching material</p>
+
+Unfolding a Research question requires diving into a lot of complex scientific topics and I will sprinkle the [Teaching](Teaching pages) as I go along. However, the ariane thread related to planet formation span across multiple Scientific fields. For example, I study the formation of planets from a *bottom-up* approach, taking the initial material present in protoplanetary disks, interstellar dust grains and understand how they aggregate to form bigger bodies and eventually planets. Other Scientists take the opposite approach, recovering meteorites and studying them to understand where do they come frome and what is their formation history (top to bottom). Even though we are trying to solve the same question, our background knowledge, investigation techniques and basic language is completely different and it makes it hard sometimes to understand each others.       
+
+<p class="emphase">Community building</p>
+
+Idealy I would like to build a community like those ones:
+
+- [Pangeo](https://pangeo.io/)
+    - [Pythia project](https://projectpythia.org/)
+    
+- [Ncar](https://ncar.ucar.edu/)
+
+### Once PhD submitted
+
+
+In the future I intend to pursue a Web-development course (le Wagon - 2 month)
+
+**Coding school, le `Wagon` (inspiration Benjamin code)
+- 2 month
+- Needs finance (crowdsourcing ?)
+- Transform the Canvas book
+
+
+
+Build a community
+- Involve people using the [Teaching](link) section first (friends ;)
+- Produce an interaction workflow `Github`
+
+
+
+
 
 ### As far as I am concerned 
 
@@ -9,6 +202,10 @@
 </div>
 
 This plateform is an incredible tool 
+
+Yet, there is some other tools:
+
+- [Notion](https://www.notion.so/product)
 
 <div class="emphase">
     Research Portefolio
@@ -170,6 +367,7 @@ Books designed for heavy data. All previous but accompaniement all along the lif
 - [OurResearch](https://ourresearch.org/), various tools to make research more open:
     - to check in more details
 
+- [Cactus](https://cactusglobal.com/)
 
 ### Example 
 

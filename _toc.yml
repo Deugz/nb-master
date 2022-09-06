@@ -4,13 +4,10 @@
 format: jb-book
 root: intro
 parts:
-  - caption:
-    chapters:
-    - file: CV/Academic_CV
   - caption: Science for the people
     chapters:
-    - file: Projects/Manifesto 
     - file: Projects/Science_ft_People 
+    - file: Projects/Manifesto 
     - file: Projects/Contribute    
   - caption: Research
     chapters:
@@ -28,6 +25,7 @@ parts:
     - file: Litterature/bibliography 
   - caption: Appendix
     chapters:
+    - file: CV/Academic_CV
     - file: Litterature/Litterature_Review
     - file: Appendix/Style_guide
     - file: Appendix/Help_main

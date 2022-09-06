@@ -105,6 +105,18 @@ width:50%;
 padding: 20px;
 }
 
+#subdiv2-3
+{
+width:66%;
+padding: 10px;
+}
+
+#subdiv1-3
+{
+width:33%;
+padding: 10px;
+}
+
 .wrapper {
     text-align: center;
 }

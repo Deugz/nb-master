@@ -73,10 +73,25 @@ PhD
 
 ## Teaching/supervising experience
 
-- supervision of Laura Hobbs (work experience 2 month ?)
-- RTO (Radio Telescope Operator) Arrow
+### Teaching
+
+- RTO (Radio Telescope Operator) Arrow - Nov 2019 and **When ?**
+
+### Supervision
+
+- Laura Hobbs, work experience student - 2 month
+
+### Outreach activities
+
+- Moon night --> 6 Dec 2019
+- IAU Outreach night
 
 ## Publications
+
+- Vincent Deguin, Joelle Mascetti, Aude Simon, Nadia Ben Amor, Christian Aupetit, Sandra Latournerie, and Jennifer A. Noble, Photochemistry of Fe:H2O Adducts in Argon Matrixes: A Combined Experimental and Theoretical Study in the Mid-IR and UV−Visible Regions - 2018 (insert link)
+
+- Pierre Ghesquiere ,Vincent Deguin, Sabrina Gärtner and Helen J. Fraser Collision of centimeter-sized particles - 2019
+
 
 ## Research skills
 
@@ -86,8 +101,14 @@ PhD
 
 ## Professional associations
 
+none
+
 ## Other qualifications
 
+- web development
+
 ## Employment
+
+
 
 ## References
