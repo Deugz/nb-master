@@ -137,7 +137,7 @@ name: Aquarium
 
 ## Science For The People 
 
-<p class="emphase">Empower Researchers with the tools to Self Publish</p>
+<p class="emphase">Empower Researchers with an <strong>Open Toolbox</strong> to <strong>Self Publish</strong></p>
 
 ```{warning}
 Well I mean **finish my PhD** first, may be come out with a good thesis and a dirty web-site example, and then we will see,
