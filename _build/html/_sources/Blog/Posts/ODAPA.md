@@ -16,6 +16,15 @@ margin
 
 ````
 
+## My contribution
+
+````{toggle} Poster
+Poster that I presented
+```{div} full-width
+![](Docs/Astra_Poster_1.png)
+```
+````
+
 ## Conference highligts
 
 Mes "coups de coeur"
