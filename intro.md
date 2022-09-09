@@ -403,3 +403,13 @@ Some practical tutorials which will accompanied you in producing some material.
 </div>
     
 </article>
+
+## Comments
+
+<script src="https://utteranc.es/client.js"
+        repo="Deugz/nb_master"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
