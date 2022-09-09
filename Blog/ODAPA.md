@@ -51,7 +51,7 @@ When I imagine a new world, I think about it as a planetary scaled Communist org
 # Comments
 
 <script src="https://utteranc.es/client.js"
-        repo="Deugz/nb_master"
+        repo="Deugz/nb-maste"
         issue-term="pathname"
         theme="github-light"
         crossorigin="anonymous"
