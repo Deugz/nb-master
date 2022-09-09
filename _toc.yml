@@ -18,7 +18,8 @@ parts:
   - caption: Blog
     chapters:
     - file: Blog/Blog_Main
-    - file: Blog/ODAPA
+      sections:
+      - file: Blog/Posts/ODAPA
   #- caption: The museum of non result
   - caption: Bibliography
     chapters:

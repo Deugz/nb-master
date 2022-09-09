@@ -1,4 +1,4 @@
-# Introduction
+# Posts
 
 This page is an Introduction to the Blog
 

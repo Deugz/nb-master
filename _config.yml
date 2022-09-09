@@ -38,7 +38,7 @@ html:
   comments:
     hypothesis: true
     utterances:
-      repo: "https://github.com/Deugz/nb_master"
+      repo: "https://github.com/Deugz/nb-master"
       
 
 sphinx:
