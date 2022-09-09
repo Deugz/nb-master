@@ -39,6 +39,9 @@ html:
     hypothesis: true
     utterances:
       repo: "https://github.com/Deugz/nb-master"
+
+html:
+  google_analytics_id: G-CPYX9S0KDS
       
 
 sphinx:
