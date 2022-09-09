@@ -407,7 +407,7 @@ Some practical tutorials which will accompanied you in producing some material.
 ## Comments
 
 <script src="https://utteranc.es/client.js"
-        repo="Deugz/nb-maste"
+        repo="Deugz/nb-master"
         issue-term="pathname"
         theme="github-light"
         crossorigin="anonymous"
