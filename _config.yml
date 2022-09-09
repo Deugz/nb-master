@@ -25,24 +25,23 @@ repository:
   path_to_book: _build/html/  # Optional path to your book, relative to the repository root
   branch: main  # Which branch of the repository should be used when creating links (optional)
 
-# Add GitHub buttons to your book
-# See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
 html:
-  use_issues_button: true
-  use_repository_button: true
-
-html:
-    announcement: "Current Version: 27/06/2022"
-    
-html:
+  favicon                   : "logo2.png"  
+  use_edit_page_button      : true
+  use_repository_button     : true
+  use_issues_button         : true
+  use_multitoc_numbering    : false
+  extra_navbar              : ""
+  extra_footer              : ""  # Will be displayed underneath the footer.
+  google_analytics_id       : G-CPYX9S0KDS  
+  home_page_in_navbar       : true
+  baseurl                   : "https://deugz.github.io/nb-master/_build/html/"
   comments:
-    hypothesis: true
-    utterances:
+    hypothesis              : true
+    utterances              : 
       repo: "https://github.com/Deugz/nb-master"
+  announcement              : "Current Version: 27/06/2022"
 
-html:
-  google_analytics_id: G-CPYX9S0KDS
-      
 
 sphinx:
   config:
