@@ -23,12 +23,170 @@ Not everybody learn the same way, nor at the same pace and the current mainstrea
 
 ***
 
-## Prerequisties
+## Bitesize tutorials
+
+### Astronomy
+
+::::{card-carousel} 2
+
+:::{card} 
+:class-header: bg-light
+**Astronomy 101**
+^^^
+
+General toolbox to get started with Astronomy 
+
+**Open Learn courses**
+
+- [Astronomy with an online telescope](https://www.open.edu/openlearn/science-maths-technology/astronomy/astronomy-online-telescope/content-section-overview?active-tab=description-tab)
+- [Scales in space and time](https://www.open.edu/openlearn/science-maths-technology/scales-space-and-time/content-section-0?active-tab=description-tab)
+
+**Collaboration**
+- Astronomers
+
++++
+&#128064;  &#x2192; <a href="https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/Astronomy_101/Astronomy_101.html" target="blank"> Lets go </a> 
+
+:::
+
+:::{card} 
+:class-header: bg-light
+**The Solar System**
+^^^
+
+Broad overview of the Solar system and its various objects
+
+**Open Learn courses**
+
+- [The search for water on Mars](https://www.open.edu/openlearn/science-maths-technology/the-search-water-on-mars/content-section-0?active-tab=description-tab)
+- [Moons of our Solar System](https://www.open.edu/openlearn/science-maths-technology/moons-our-solar-system/content-section-overview?active-tab=description-tab)
+
+**Collaboration**
+- Planetary scientists
+    - Annie (Mercury)
+    - Megan (Mars)
+    - Tara (Moon)
++++
+&#128064;  &#x2192; <a href="https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/The_solar_system/Solar_system.html" target="blank"> Lets go </a> 
+
+:::
+
+:::{card} 
+:class-header: bg-light
+**The Interstellar Medium**
+^^^
++++
+&#128064;  &#x2192; <a href="https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/ISM/ISM.html" target="blank"> Lets go </a> 
+:::
+
+:::{card}
+:class-header: bg-light
+**Astrochemistry**
+^^^
+
+**Open Learn courses**
+
+- [Discovering chemistry](https://www.open.edu/openlearn/science-maths-technology/chemistry/discovering-chemistry/content-section-overview?active-tab=description-tab)
++++
+&#128064;  &#x2192; <a href="https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/Astrochemistry/Astrochemistry.html" target="blank"> Lets go </a> 
+
+:::
+
+:::{card} 
+:class-header: bg-light
+**Interstellar Dust Grain**
+^^^
++++
+&#128064;  &#x2192; <a href="https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/Interstellar_dust_grains/Dust.html" target="blank"> Lets go </a> 
+
+:::
+
+:::{card} 
+:class-header: bg-light
+**Stars Lifecycle**
+^^^
++++
+&#128064;  &#x2192; <a href="https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/Star_formation/Star_formation.html" target="blank"> Lets go </a> 
+
+:::
+
+:::{card} 
+:class-header: bg-light
+**Planet formation (bottom-up)**
+^^^
++++
+&#128064;  &#x2192; <a href="https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/Planet_formation_bottom-top/Planet_formation_bottom-top.html" target="blank"> Lets go </a> 
+
+:::
+
+:::{card} 
+:class-header: bg-light
+**Planet formation (top-bottom)**
+^^^
+
+**Open Learn courses**
+
+- [An introduction to geology](https://www.open.edu/openlearn/science-maths-technology/an-introduction-geology/content-section-overview?active-tab=description-tab)
++++
+&#128064;  &#x2192; <a href="https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/Planet_formation_top-bottom/Planet_formation_top-bottom.html" target="blank"> Lets go </a> 
+
+:::
+
+:::{card}
+:class-header: bg-light
+**Exoplanets**
+^^^
+**Open Learn courses**
+
+- [An introduction to exoplanets](https://www.open.edu/openlearn/science-maths-technology/introduction-exoplanets/content-section-overview?active-tab=description-tab)
++++
+&#128064;  &#x2192; <a href="https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/Exoplanets/Exoplanets.html" target="blank"> Lets go </a> 
+
+:::
+
+:::{card} 
+:class-header: bg-light
+**JWST**
+^^^
++++
+&#128064;  &#x2192; <a href="https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/JWST/JWST.html" target="blank"> Lets go </a> 
+
+:::
+
+::::
+
+### Physics
+
+::::{card-carousel} 2
+
+:::{card} The strange behaviour of water
+content
+:::
+
+
+:::{card} Water Ice
+:::
+
+:::{card} Infrared Spectroscopy
+:::
+
+:::{card} Special Relativity
+:::
+
+::::
+
+
+
+
+
+## Practicles
+
+### Prerequisties
 
 Install Anaconda
 
 
-## Web development
+### Web development
 
 ::::{card-carousel} 2
 
@@ -68,26 +226,11 @@ Prerequisties: Web development, *The Basics*
 
 ### Python
 
-::::{card-carousel} 2
+```{note}
 
-:::{card} card 1
-content
-:::
-:::{card} card 2
-Longer
-content
-:::
-:::{card} card 3
-:::
-:::{card} card 4
-:::
-:::{card} card 5
-:::
-:::{card} card 6
-:::
-::::
+- Check Alisson tutorials
 
-### Bitesize Astronomy
+```
 
 ::::{card-carousel} 2
 
@@ -96,7 +239,6 @@ content
 :::
 :::{card} card 2
 Longer
-
 content
 :::
 :::{card} card 3

@@ -1,4 +1,4 @@
-# Project development
+# Roadmap
 
 ````{margin} 
 ```{warning}
@@ -254,6 +254,11 @@ Insert project description + aims (use pictures from touring way)
 - Prepare tutorial to get ready for Jupyter Book
 - Create a template book
 - 
+
+
+
+
+<p class="emphase">Empower Researchers with an <strong>Open Toolbox</strong> to <strong>Self Publish</strong></p>
 
 ## To do
 

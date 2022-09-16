@@ -2,16 +2,13 @@ p {
     text-align: justify;
 }
 
+
 h1 {
+    font-family: Garamond;
     text-align: center !important ;
-    font-size: 3em !important;  
-    margin-top: 60px !important;
-    margin-bottom: 30px !important;
-    padding: 10px !important;
-    border: 1px solid black !important;
-    background-color: #FFB266 !important;
-    margin-left:20% !important;
-    margin-right:20% !important;
+    padding:20px !important;
+    margin-bottom:30px; ;
+    font-size: 4.5em !important; 
 }
 
 
@@ -19,20 +16,36 @@ h1 {
   font-size: 1.4em !important; 
   margin: 0 !important;
   padding-top: 40px !important;  
-  background-color: #FFFFFF !important;
   border: 0 !important;
 }
 
 h2 {
-    
     color: white !important;
-    padding-top: 10px !important;
-    border-top: 2px solid #02006c !important;
-    background:#02006c !important;
-    padding-bottom: 10px !important;
-    border-bottom: 2px solid #02006c !important;
-    padding-left: 20px;
-    border-radius: 10px 10px 10px 10px ;
+    font-size: 2.2em !important;
+    margin-top:50px !important;
+    margin-bottom:30px !important;
+    font-family: Garamond;
+    text-align: center !important ;
+    padding: 15px !important;
+    background: linear-gradient(to bottom right, #003300 0%, #009933 120%);
+    border-radius: 10px;
+}
+
+h3 {
+    font-size: 2.2em !important;
+    font-style: bold !important;
+    color: #145a32 !important;
+    margin-top:40 !important;
+    margin-bottom:30px !important;
+    font-family: Garamond;
+    text-align: left !important ;
+    padding:20px !important;
+}
+
+h4 {
+    color: #f39c12 !important;
+    font-style: bold !important;
+    margin-left:50px !important;
 }
 
 img[alt$=">"] {
@@ -102,7 +115,7 @@ display: flex;
 #subdiv2
 {
 width:50%;
-padding: 20px;
+padding: 10px;
 }
 
 #subdiv2-3
