@@ -1,12 +1,10 @@
-# La Science 2.![flag alt >>](Docs/Anarchy.png) 
+# La Science 2.![flag alt >>](Docs/Anarchy.png)
+
 
 ***
-**Topic**: Experimenting with the Earliest Stages of Planet Formation
+<p class="emphase">Experimenting with the Earliest Stages of Planet Formation</p>
 
-- ![GitHub last commit](https://img.shields.io/github/last-commit/Deugz/nb-master?color=green&style=plastic) - ![GitHub repo size](https://img.shields.io/github/repo-size/Deugz/nb-master?style=plastic) - ![visitors](https://page-views.glitch.me/badge?page_id=https://deugz.github.io/nb-master/_build/html/intro.html)
-
-
-
+- **Info**: ![GitHub last commit](https://img.shields.io/github/last-commit/Deugz/nb-master?color=green&style=plastic) - ![GitHub repo size](https://img.shields.io/github/repo-size/Deugz/nb-master?color=yellow&style=plastic) - ![visitors](https://page-views.glitch.me/badge?page_id=https://deugz.github.io/nb-master/_build/html/intro.html) - ![GitHub contributors](https://img.shields.io/github/contributors/Deugz/nb-master?color=red&style=plastic)
 
 ***
 
@@ -95,9 +93,8 @@ Because why not ?
 
 - Unless clearly stated, the content of this *web-site* have **not been peer-reviewed** and must be taken with caution.
 
-- Reviewing can be achieved on this web-site using `hypothesis` (buttons on the right corner).
+- Reviewing can be achieved (and warmly welcome) on this web-site using `hypothesis` (buttons on the top right corner).
 
-- **Version**: 0.1.1 (Aug-2022)
 ```
 
 
@@ -433,13 +430,13 @@ Desole, la majorite du contenu est en anglais, accessibilite exige! Cependant, j
 
 
 - Job Type: PhD
-- Discipline: Astrophysics / Engeneering / Material Sciences
+- Lead supervisor: Anita Dawes
+- Discipline: Astrochemistry
 - Duration: 4.5 years
+- Status: <img class ="small" src="_images/Under_construction.svg" > &#x2192; ![GitHub last commit](https://img.shields.io/github/last-commit/Deugz/nb-phd?color=green&style=plastic)
 
 +++
-<div class="wrapper">
-<img class ="small" src="_images/Under_construction.svg" > &#x2192; <button class="button"><span> <a href="https://deugz.github.io/nb-phd/_build/html/"  title= "" target="blank"> Jupyter Book </a></span></button> 
-</div>
+&#128064; &#x2192; [![Jupyter Book Badge](https://jupyterbook.org/badge.svg)](https://deugz.github.io/nb-phd/_build/html/)
 :::
 
 :::{card}
@@ -453,14 +450,12 @@ Desole, la majorite du contenu est en anglais, accessibilite exige! Cependant, j
 - Lead supervisor: Helen Fraser
 - Discipline: Astrophysics / Engeneering / Material Sciences
 - Duration: 4.5 years
-- Status: ?
+- Status: <img class ="small" src="_images/Under_construction.svg" > &#x2192; ![GitHub last commit](https://img.shields.io/github/last-commit/Deugz/nb-museum?color=green&style=plastic)
 
 
 
 +++
-<div class="wrapper">
-&#9989; &#x2192; <button class="button"><span> <a href="https://deugz.github.io/nb-museum/_build/html/"  title= "" target="blank"> Jupyter Book </a></span></button> 
-</div>
+&#128064; &#x2192; [![Jupyter Book Badge](https://jupyterbook.org/badge.svg)](https://deugz.github.io/nb-museum/_build/html/)
 :::
 
 :::{card}
@@ -474,20 +469,19 @@ Desole, la majorite du contenu est en anglais, accessibilite exige! Cependant, j
 - Lead supervisor: Jennifer Noble
 - Discipline: Astrochemistry
 - Duration: 2 month
-- Status: Finished 
+- Status: Finished (&#9989;)
 
 <br>
 <br>
 
 
-- [![DOI:10.1021/acs.jpca.7b09681](https://zenodo.org/badge/DOI/10.1021/acs.jpca.7b09681.svg)](https://doi.org/10.1021/acs.jpca.7b09681)
-- [![Citation Badge](https://api.juleskreuer.eu/citation-badge.php?doi=10.1021/acs.jpca.7b09681)]()
+- [![DOI:10.1021/acs.jpca.7b09681](https://zenodo.org/badge/DOI/10.1021/acs.jpca.7b09681.svg)](https://doi.org/10.1021/acs.jpca.7b09681) - [![Citation Badge](https://api.juleskreuer.eu/citation-badge.php?doi=10.1021/acs.jpca.7b09681)]()
 
 
 +++
 
 
-&#9989; &#x2192;  **Scientific publication**  &#x2192; <a href="https://pubs.acs.org/doi/abs/10.1021/acs.jpca.7b09681">![flag alt >](Docs/Svg_icons/coins-money-svgrepo-com.svg)</a> or ![flag alt >](Docs/Svg_icons/pdf-svgrepo-com.svg) {cite}`Deguin2018`
+**Scientific publication**  &#x2192; {cite}`Deguin2018`
 :::
 
 :::{card}
@@ -579,9 +573,9 @@ Code and data repositories.
 ````{margin} 
 
 ```{admonition} Colaboration ![flag alt >](Docs/Svg_icons/handshake-deal-svgrepo-com.svg)
-What is this all about
 
-- link to colaboration workflow
+I am incredibely curious and interested in many aspects of Science, but finding all the informations I need to understand a specific topic can be challenging. I would like to welcome as many contributions as possible from a wide variety of researchers to explain the basics of their disciplines (in a completely free and creative fashion).
+
 ```
 
 ````
@@ -596,12 +590,11 @@ What is this all about
 ^^^
 Learn from multiple (&#129310;) scientists about topics like:
   
-- [Astronomy](https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/Astronomy_101/Astronomy_101.html)
-- Water
-- Planet formation
-- The Jupyter ecosystem
-- Python
-- 3JS
+- [Astronomy 101](https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/Astronomy_101/Astronomy_101.html)
+- [The Solar System](https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/The_solar_system/Solar_system.html)
+- [JWST](https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/JWST/JWST.html) 
+- [Python](https://deugz.github.io/nb-teaching/_build/html/Practicle/Python/Python_Main.html)
+- ...
     
 +++
 <div class="wrapper">

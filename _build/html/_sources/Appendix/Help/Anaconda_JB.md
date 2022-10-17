@@ -10,8 +10,15 @@ Anaconda is the best place to start your data scientist journey.
 
 ***
 
+
 You will now have acces on your computer to the following **Open Source** softwares:
 - Jupyter Notebook
 
-
 ## Good practises
+
+# Jupyter Lab
+
+
+# Jupyter Book
+
+[Complete tuto](https://datascientistforai.github.io/DataScienceStudy/customize/toc.html)
