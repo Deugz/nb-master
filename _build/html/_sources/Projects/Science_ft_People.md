@@ -7,9 +7,7 @@ Main goal is **finish my PhD**
 ```
 ````
 
-## Where did you land!
-
-This digital space where you have just set foot, is an **experiment** whose aim is to challenge the current *scientific publication system* by offering a `creative alternative`. There is a long way to go to get there though, and for the time being, it is a collection of `Jupyter Books`. They are canvas to share my research outputs and explore the tools available to make it `Findable, Accesible, Interoperable and Reusable`, but not only...
+This digital space where you have just set foot, is an **experiment** whose aim is to challenge the current *scientific publication system* by offering a creative alternative. There is a long way to go to get there though, and for the time being, it is a collection of `Jupyter Books`. They are canvas to share my research outputs and explore the tools available to make it `Findable, Accesible, Interoperable and Reusable`.
 
 ::::{grid} 1 1 2 4
 :class-container: text-center
@@ -62,14 +60,6 @@ Project 2
 
 - (+) 2 others books that are not accessible (Perso and Postdoc).  
 
-
-### What is Jupyter-Book ? ![flag alt >](../Docs/Svg_icons/confused-svgrepo-com.svg)
-
-Jupyter Book is one component of the [Jupyter ecocystem](link to teaching) that help you 
-
-<p class="emphase">build beautiful, publication-quality books and documents from computational content</p>
-
-Takes a collection of `jupyter notebooks` (.ipynb) and `markdown` files (.md), **compile** them to produce a **static web-site** 
 
 
 #### Workflow
@@ -286,16 +276,112 @@ Experts from different fields can collaborate towards solving the questions from
 
 
 
+## Things to consider
 
-## Business idea
+### Semantic Web
+
+- Resource Description Framework
+
+[Schema.org](https://schema.org/)
+
+
+
+## Elsewhere
+
+### Other tools on the market
+
+- [Quarto](https://quarto.org/), looks more professional, more versatil (ie R, Julia), but more complicated and code intensive, less accessible.
+
+- [OurResearch](https://ourresearch.org/), various tools to make research more open:
+    - to check in more details
+
+- [Cactus](https://cactusglobal.com/)
+
+- [Astrobetter](https://www.astrobetter.com/)
+
+- [Open Learn Create](https://www.open.edu/openlearncreate/), create your own course material
+
+- [PhD service.org](https://phdservices.org/), a scam ?
+
+### Citizen Science programs
+
+- [Zooniverse](https://www.zooniverse.org)
+
+- [Cos4Cloud](https://cos4cloud-eosc.eu/) European project for producing Citizen science tools
+    - [ISpot](https://www.ispotnature.org/)
+
+
+
+### Other cool Scientific web-sites
+
+#### Science
+
+- [Astrochemistry](http://astrochymist.org/)
+- [Astrobiology](https://astrobiology.com/)
+- [Exoplanet counter](http://exoplanet.eu/team/)
+
+- [mantleplumes](http://www.mantleplumes.org/)
+
+#### Coding
+
+- [neetcode](https://neetcode.io/)
+
+- 
+
+### Coups de &#128150; perso 
+
+- [JIM](https://www.rivenature33.com/)
+
+Mon ami Jimi est une personne incroyable
+
+- [Barry]()
+
+
+
+## Bringing people onboard
+
+### Financialy
 
 In order to further developp this project but also because science doesn't pay much (especialy when you do it "out of the box"), it seems important to develop potential income solutions:
 
+
+
+#### My Expenditures
+
 ```{note} Free Version
-
 The main objective of the project is to change the mentality of the scientific community and **a free version must always be available** and favoured in most of the cases.
-
 ```
+
+<article id="P1">
+    
+<div id="subdiv2">
+
+
+:::{grid-item-card}
+**Premium accounts** <span style="float: right">&#128165;</span>
+^^^
+
+    
+- Notion (price)
+- Github
+- Google drive (or other data repositories)
+- 
+    
+:::
+    
+</div>
+    
+<div id="subdiv2">    
+  
+In order to take full advantage of the tools I used, I need to have <strong>Premium accounts</strong> for a few of them (cf list left)
+    
+</div>
+    
+</article>
+
+
+
+#### Business (rough plan)
 
 :::::{div} full-width
 ::::{grid} 3
@@ -362,42 +448,27 @@ Books designed for heavy data. All previous but accompaniement all along the lif
 ::::
 :::::
 
+## Evolution
 
-## Elsewhere
-
-### Other tools on the market
-
-- [Quarto](https://quarto.org/), looks more professional, more versatil (ie R, Julia), but more complicated and code intensive, less accessible.
-
-- [OurResearch](https://ourresearch.org/), various tools to make research more open:
-    - to check in more details
-
-- [Cactus](https://cactusglobal.com/)
-
-- [Astrobetter](https://www.astrobetter.com/)
-
-### Example 
-
-#### Scientific collaboration
-
-- [Astrochemistry](http://astrochymist.org/)
+- Youtube videos
 
 
-### Citizen Science programs
 
-[Zooniverse](https://www.zooniverse.org)
+<article id="P1">
+  <div class="row">
+    <div class="timelinecontainer">
+      <div class="line"></div>
+      <div class="col"><div class="timelinebox">1<br><span>Extra Text</span></div></div>
+      <div class="col"><div class="timelinebox">2<br><span>Extra Text</span></div></div>
+      <div class="col"><div class="timelinebox">3<br><span>Extra Text</span></div></div>
+      <div class="col"><div class="timelinebox">4<br><span>Extra Text</span></div></div>
+      <div class="col"><div class="timelinebox">5<br><span>Extra Text</span></div></div>
+      <div class="col"><div class="timelinebox">6<br><span>Extra Text</span></div></div>
+      <div class="col"><div class="timelinebox">7<br><span>Extra Text</span></div></div>
+      <div class="col"><div class="timelinebox">8<br><span>Extra Text</span></div></div>
+     </div>
+    </div>
+</article>
 
 
-#### Other cool Scientific web-sites
-
-##### Science
-
-- [Astrochemistry](http://astrochymist.org/)
-- [Astrobiology](https://astrobiology.com/)
-- [Exoplanet counter](http://exoplanet.eu/team/)
-
-##### Coding
-
-- [neetcode](https://neetcode.io/)
-
-- 
+footer

@@ -4,10 +4,10 @@
 format: jb-book
 root: intro
 parts:
-  - caption: Science for the people
+  - caption: Science for the people 
     chapters:
-    - file: Projects/Science_ft_People 
     - file: Projects/Manifesto 
+    - file: Projects/Science_ft_People 
     - file: Projects/Contribute    
   - caption: Research
     chapters:

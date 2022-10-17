@@ -1,4 +1,14 @@
-# Welcome
+# La Science 2.![flag alt >>](Docs/Anarchy.png) 
+
+***
+**Topic**: Experimenting with the Earliest Stages of Planet Formation
+
+- ![GitHub last commit](https://img.shields.io/github/last-commit/Deugz/nb-master?color=green&style=plastic) - ![GitHub repo size](https://img.shields.io/github/repo-size/Deugz/nb-master?style=plastic) - ![visitors](https://page-views.glitch.me/badge?page_id=https://deugz.github.io/nb-master/_build/html/intro.html)
+
+
+
+
+***
 
 ::::{div} full-width
 
@@ -7,10 +17,10 @@
 <div id="subdiv2">
 
     
-My name is  [Vincent Deguin](https://50.open.ac.uk/photography/vincent), I am currently an Astrophysics PhD student at the Open University, passionate about outreach, and an aspiring web developer. The image on the right is the edge of a nearby, young, star-forming region called NGC 3324 in the Carina Nebula, pictured by the recently launched James Webb Space Telescope (JWST). This brand new Infrared telescope will bring exciting times for astronomers like me, but also for you, provided that scientific discoveries are shared in an accessible format (which is not really the case as we speak). Fortunately, I have an insatiable appetite for Open Science and this web-site is an attempt to make the outputs of my scientific journey as **open, accesible and reproducible** as possible but what is is exactly that I do ? 
+My name is  [Vincent Deguin](https://50.open.ac.uk/photography/vincent), I am currently an Astrophysics PhD student at the Open University working on the aformentioned topic. I am passionate about outreach, and an aspiring web developer. The image on the right is the edge of a nearby, young, star-forming region called NGC 3324 in the Carina Nebula, pictured by the recently launched James Webb Space Telescope (JWST). This brand new Infrared space telescope will bring exciting times for astronomers like me, but also for you, provided that scientific discoveries are shared in an accessible format (which is not really the case right now, cf [Manifesto](Projects/Manifesto)). Fortunately, I have an insatiable appetite for Open Science and this web-site is an attempt to make the outputs of my scientific journey as **open, accesible and reproducible** as possible, as well as providing a plateform for self minded researcher to contribute, like an <span class="hovertext" data-hover="Definition">Encyclopaedia</span>. 
+    
+This web-site is dived in 4 main sections:
 
-Well, my PhD is titled ...
-       
 </div>
  
 <div id="subdiv2">  
@@ -19,6 +29,7 @@ Well, my PhD is titled ...
 ```
     
 ```{figure} Docs/JWST_cloud1.jpg
+:name: JWST1
 James Web Space Telescope [JWST](https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/JWST/JWST.html)
 ```
 
@@ -28,10 +39,6 @@ James Web Space Telescope [JWST](https://deugz.github.io/nb-teaching/_build/html
 
     
 </article>
-
-<p class="emphase">Experimenting with the earliest stages of planet formation</p>
-
-I am particulary interested in understanding the key role that ice (coating interstellar dust grains) plays in that respect (both from a physical and chemical point of view). This web-site is dived in 4 main sections:
 
 ::::
 
@@ -44,7 +51,7 @@ I am particulary interested in understanding the key role that ice (coating inte
 :::{grid-item-card}
 :class-header: bg-light
 :link: Projects/Science_ft_People.html
-<span style="float: right">![flag alt >](Docs/Svg_icons/location-on-road-svgrepo-com.svg)</span>  **Project** 
+<span style="float: right">![flag alt >](Docs/Svg_icons/book-svgrepo-com.svg)</span>  **Project** 
 ^^^
 
 What I am trying to achieve and how.
@@ -98,6 +105,8 @@ Because why not ?
 
 ````{margin} 
 
+<div id="colour">
+
 ```{image} Docs/OU_Pic_bubble.png
 ```
 
@@ -141,12 +150,43 @@ or
 <br>
 <br>
 <br>
-<br>
-
 
 <strong><u>Want to collaborate </u>(![flag alt >](Docs/Svg_icons/handshake-deal-svgrepo-com.svg)) ? </strong>
+<br>
+<br>
+<strong>Our community</strong>
+
+<br>
+
+<em>Chief Editor</em>
+
+<br>
+
+![flag alt >](Docs/Svg_icons/think-svgrepo-com.svg) Vincent Deguin
+
+<br>
+
+<em>Content Creator</em>
+
+<br>
+
+![flag alt >](Docs/Svg_icons/think-svgrepo-com.svg) Ross Findlay
+
+![flag alt >](Docs/Svg_icons/think-svgrepo-com.svg) Thomas Webley
+
+![flag alt >](Docs/Svg_icons/think-svgrepo-com.svg) Giulia Degli Alessandrini
+
+<br>
+
+<strong>Our needs</strong>
+
+<br>
+
+- Funding!
 
 
+
+</div>
 
 ````
 
@@ -155,7 +195,7 @@ or
 
 <h3><strong>&#187;  <u>Scientific interests </u></strong></h3>
 
-The role that **interstellar ice** play in the earliest stages of planet formation. We canm find ice in a broad range of environments
+I study the role that <span class="hovertext" data-hover="Oui oui, de la glace! (&#129482;)"><strong>water ice</strong></span> plays during the formation of planets (both from a <span class="hovertext" data-hover="def">physical</span> and <span class="hovertext" data-hover="def">chemical</span> point of view). In space, ice is present in many environments: 
 
 <h4><strong>Interstellar Dusts </strong></h4>
 
@@ -164,6 +204,7 @@ The role that **interstellar ice** play in the earliest stages of planet formati
 <div id="subdiv1-3">    
 
 ```{figure} Docs/Space_Pics/Porous_chondriteIDP.jpg
+:name: dust1
 :width: 300px
 Interstellar Dust Grain. [Source](https://commons.wikimedia.org/wiki/File:Porous_chondriteIDP.jpg)
 ```
@@ -178,9 +219,12 @@ Interstellar Dust Grain. [Source](https://commons.wikimedia.org/wiki/File:Porous
     
 <div id="subdiv2-3">
 
-Explanation blabla
-<br>
-This is actually not an interstellar dust grain but an interplanetary grain (same)
+Dust is <span class="hovertext" data-hover="found everywhere">ubiquitus</span> in space. They are produced by Stars as sub-&micro;m grains made of either carbon or silicate and are subsequently dispersed by the solar winds in the <span class="hovertext" data-hover="InterStellar Medium">ISM</span>. In the high vacuum of space, they provide a surface for <span class="hovertext" data-hover="Ok with those concepts ? if not go and check Astronomy 101">atoms and small molecules</span> to stick and react, and are hence the main <span class="hovertext" data-hover="Definition">catalyst</span> of chemical reactions in the Universe. When the dust is embeded within <span class="hovertext" data-hover="Gigantic clouds with high density (?) and low temperature (20 Kelvin)">Molecular Clouds</span> ({numref}`JWST1`), they are protected from <span class="hovertext" data-hover="like cosmic rays, that destroys the forming molecular layers of the dust">radiation</span> and an <strong>icy layer</strong> can form around the dust grain. 
+Molecular Clouds are the birth place of Stars, and all those tiny &micro;m interstellar dust grains (and gas) contained within the cloud will be the building blocks of all the <span class="hovertext" data-hover="Planets, Moons, Comets ...">solar system bodies</span>.
+    
+Interesting subject to study, don't you think ? 
+    
+**Note**: {numref}`dust1` is actually not an interstellar dust grain but an interplanetary grain (easier to catch - with the Stardust mission)
 <br>
 
 </div>
@@ -212,8 +256,14 @@ Protoplanetary Disk image taken with ALMA (DSHARP project) [Source](https://alma
     
 <div id="subdiv2-3">
 
+Star formation is a complicated process that is not yet perfectly understood. They are the result of the <span class="hovertext" data-hover="effondrement sous le poids de la gravite, ie ...">gravitational collapse</span> of a dense part of a molecular cloud (referred as clump). 
+    
 Protoplanetary Disks are a byproduct of star formation. They contain both Dust and Gas (ratio of 1:99) and in a time scale of a few million years will result in a solar system like our own... 
 
+- Include video on hover of PPD with text explaining that we find our dust grain there
+    
+    
+    
 </div>
    
 </article>
@@ -221,7 +271,7 @@ Protoplanetary Disks are a byproduct of star formation. They contain both Dust a
 ***
 
 
-<h4><strong>Comets</strong></h4>
+<h4><strong>Comets / Icy Moons</strong> </h4>
 
 <article id="P1">
 
@@ -238,33 +288,13 @@ Comet 67P Churyumov-Gerasimenko [Source](https://sci.esa.int/web/rosetta/-/56159
 </div>    
     
 <div id="subdiv2-3">
-
-Comets ... 
-
-</div>
-
     
+Where ice is present today in the solar system
+
+Comets are <span class="hovertext" data-hover="unaltered">pristine</span> solar system bodies that can give us information about the processes at play during the earliest stages of planet formation.
     
-</article>
 
-***
-
-<h4><strong>Icy Moons</strong></h4>
-
-<article id="P1">
-
-<div id="subdiv1-3">    
-
-```{figure} Docs/Space_Pics/512px-PIA17202_-_Approaching_Enceladus.jpg
-:width: 300px
-Enceladus [Source](https://en.wikipedia.org/wiki/Enceladus)
-```
-    
-</div>    
-    
-<div id="subdiv2-3">
-
-Enceladus, Jupyter Moon ... 
+Enceladus, Jupyter Moon ... Water, life tout ca tout ca ...
     
 
 </div>
@@ -273,116 +303,123 @@ Enceladus, Jupyter Moon ...
     
 </article>
 
-***
 
 ## **Science For The People** 
 
-
-Invent new tools and method for **publishing scientific content** 
+<p class="emphase">New tools and methods for publishing scientific content </p>
 
 ::::{grid} 3
 :::{grid-item-card}
-:link: Projects/Science_ft_People.html
-**Project Development**
-^^^
-
-![flag alt >](Docs/Svg_icons/location-pin-svgrepo-com.svg)  good starting point
-
-:::
-:::{grid-item-card}
+:class-header: bg-light
 :link: Projects/Manifesto.html
-**Manifesto** 
+<span style="float: right">![flag alt >](Docs/Svg_icons/fist-svgrepo-com.svg)</span> **Manifesto**  
 ^^^
 
-Why?
+Why am I doing this and what are the values I defend.
 
 :::
-
 :::{grid-item-card}
-:link: BProjects/Contribute.html
-**Contribute**
+:class-header: bg-light
+:link: Projects/Science_ft_People.html
+<span style="float: right">![flag alt >](Docs/Svg_icons/location-on-road-svgrepo-com.svg)</span>
+**Roadmap**
 ^^^
-How?
+
+What I am aiming to achieve with this project, and at what stage we are at.
+
+:::
+:::{grid-item-card}
+:class-header: bg-light
+:link: BProjects/Contribute.html
+<span style="float: right">![flag alt >](Docs/Svg_icons/handshake-deal-svgrepo-com.svg)</span> **Contribute**
+^^^
+
+Come and help
+
 :::
 ::::
 
+I am imagining a world where researchers would be <strong>free</strong> to publish their work in their own terms, far from the current commercial scientific publication system. The internet as provided the emergence of countless <strong>open and free softwares</strong> (cf margin) that are now making this world a reality. This website is an experiment to show an exemple and highlighting all the benefits given by adopting this approach, there is a few
 
+<h3><strong>&#187;  <u> Benefits for ... </u></strong></h3>
 
+:::::{div} full-width
+::::{grid} 3
 
-````{margin} 
-```{admonition} Idea for later
-
-- Add span div that appear when the fish in aquarium is hovered.
-- Create specific admonitions for each fish type
-- Add student fish (floating on his back at surface ^^)
-
-```
-````
-
-<h3><strong>&#187;  <u>Who are you ?</u></strong></h3>
-
-I aim to deliver content for **everybody** `interested in Science`, so let me know who you are and I will point you in the right direction.
-
-<article id="P1">
+<div>
     
-<div id="subdiv2-3">
-
-
+<h4><strong>You, researchers</strong></h4>
+ 
+:::{grid-item-card}
     
-```{image} Docs/Aquarium.png
----
-name: Aquarium
----
-```
+Break free from commercial scientific publication by creating your own <strong>accademic profile</strong>. You will get a lifelong publication plateform that is self maintained and hence, owned by you. It can welcome <strong>all your scientific outputs</strong>:
+- Articles
+- Data
+- Code
+- Notes
+- Method
+- Presentations
+- Teaching
+- ... 
+
+
+Stored, versioned, citable (via `DOI`) and embebeded into a prebuild web-site wich gives you the abillity to link all this content together. This promote an <strong> open, transparent and lifelong peer review </strong>process with a content that can be adapted to fit multiple audiences.     
+    
+:::
+    
 
 </div>
     
-<div id="subdiv1-3">    
-
-**Legend**
+<div>
     
-![flag alt >](Docs/Svg_icons/Fish/fish-svgrepo-com.svg) Anyone
+<h4><strong>The scientific community</strong></h4>
 
-![flag alt >](Docs/Svg_icons/Fish/turtle-svgrepo-com.svg) Friends/Colleagues
+:::{grid-item-card}
 
-![flag alt >](Docs/Svg_icons/Fish/fish-light-svgrepo-com.svg) Teachers
+This website provide a <span class="hovertext" data-hover="Definition">hub</span> for scientists of all fields, interested in the same research question to provide their inputs. Powerfull tool to promote colaboration between interdisciplinary researcher. I think all together we can write science collaboratively, in an <strong> Encyclopaedia 2.0 </strong>. How ? On this web-site you can:
     
-![flag alt >](Docs/Svg_icons/Fish/fish-nemo-svgrepo-com.svg) Researchers (other fields)
+- **Review**: Wether you are a peer, a student or everything in between, you can comment and review this work using `hypothesis` (the three buttons on the right hand corner).
+<br>
+<br>
     
-![flag alt >](Docs/Svg_icons/Fish/shark-svgrepo-com.svg) Researchers (my field)
+- **Comment**: More general comment at the bottom of the page
+<br>
+<br>
     
-![flag alt >](Docs/Svg_icons/Fish/pieuvre.jpg) Supervision team
+- **Contribute**: Writing articles within the existing content (work in progress)
 
+    
+**Participate** and create your own profile 
+:::
+    
 </div>
-    
-</article>
 
-```{admonition} Yo les potes! ![flag alt >](Docs/SVG_icons/dark-dialogue-bubble-svgrepo-com.svg) - ![flag alt >](Docs/SVG_icons/flag-for-flag-france-svgrepo-com.svg)
+<div>
+    
+<h4><strong>Peoples</strong></h4>
+    
+:::{grid-item-card}
+
+- Access to cutting edge science
+    
+- New education method
+    
+:::
+    
+</div>
+
+::::
+:::::
+
+```{admonition} Et vous aussi les potes! ![flag alt >](Docs/SVG_icons/dark-dialogue-bubble-svgrepo-com.svg) - ![flag alt >](Docs/SVG_icons/flag-for-flag-france-svgrepo-com.svg)
 :class: dropdown
 Desole, la majorite du contenu est en anglais, accessibilite exige! Cependant, je pense a vous, et si vous avez la curiosite de vous lancer dans une exploration de ce site, je suis pret a vous accompagner. Suivez ces `admonitions` et tout devrai bien se passer.
 ```
 
 ## **Research** 
 
-### Introduction
+<h3><strong>&#187;  <u> My projects </u></strong></h3>
 
-````{margin} 
-
-```{note} 
-**Anita Dawes** has been my supervisor during the 2<sup>nd</sup> half of my PhD.
-
-- [gender issues in STEM](https://www.youtube.com/watch?v=IDpognCJK9k&list=PLF394wWsaW_DXpWNlWGMN5jaIA0gHqJuv&index=5) 
-
-```
-
-````
-<br>
-
-<video src="_static/videos/EU Space Awareness Career Interviews Anita Dawes, Astrochemist __ FULL 3 min version.mp4" width="100%" height="" controls>
-  Your browser does not support the video tag.
-</video>
-
-### My projects
 
 :::::{div} full-width
 ::::{card-carousel} 2
@@ -419,6 +456,7 @@ Desole, la majorite du contenu est en anglais, accessibilite exige! Cependant, j
 - Status: ?
 
 
+
 +++
 <div class="wrapper">
 &#9989; &#x2192; <button class="button"><span> <a href="https://deugz.github.io/nb-museum/_build/html/"  title= "" target="blank"> Jupyter Book </a></span></button> 
@@ -437,6 +475,14 @@ Desole, la majorite du contenu est en anglais, accessibilite exige! Cependant, j
 - Discipline: Astrochemistry
 - Duration: 2 month
 - Status: Finished 
+
+<br>
+<br>
+
+
+- [![DOI:10.1021/acs.jpca.7b09681](https://zenodo.org/badge/DOI/10.1021/acs.jpca.7b09681.svg)](https://doi.org/10.1021/acs.jpca.7b09681)
+- [![Citation Badge](https://api.juleskreuer.eu/citation-badge.php?doi=10.1021/acs.jpca.7b09681)]()
+
 
 +++
 
@@ -468,7 +514,7 @@ Sprinkle a lot of this {cite}`Hague2020` on top of that {cite}`Souza2017` and yo
 ::::
 :::::
 
-### Your Tools
+<h3><strong>&#187;  <u> Your Tools </u></strong></h3>
 
 :::::{div} full-width
 ::::{grid} 1 1 2 4
@@ -595,10 +641,25 @@ Small lessons to introduce specific topics that I encounter during my research j
 
 Some practical tutorials which will accompanied you in producing some material.
 
-
 </div>
     
 </article>
+
+<p class="emphase">Dive into them and none of the following Pictures will have secret for you ;)</p>
+
+<div class="slider" id="main-slider"><!-- outermost container element -->
+<div class="slider-wrapper"><!-- innermost wrapper element -->
+<figure alt="First" class="slide">
+<img src="_static/assets/Docs/ngc6357.jpg" />
+<figcaption>Caption 1 (src)</figcaption>
+</figure><!-- slides -->
+<figure  alt="Second" class="slide" >
+<img src="_static/assets/Docs/ProtoPDisk.jpg"/>
+<figcaption>Caption 2 (src)</figcaption>
+</figure><!-- slides -->
+</div>
+</div>
+
 
 # Comments
 
