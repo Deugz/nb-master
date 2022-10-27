@@ -78,8 +78,9 @@ Create link to taching
 
 **Data**
 
-- Link to figshare
-(test with DR1_Full)
+- DR1_Full: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7220303.svg)](https://doi.org/10.5281/zenodo.7220303)
+
+
     
 </div>
     
@@ -87,7 +88,7 @@ Create link to taching
     
 **Interactive Notebooks**
 
-- [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Deugz/ASW_Data_Processing/HEAD?labpath=Data_Analysis_Binder.ipynb)
+- Plotting Software: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Deugz/ASW_Data_Processing/HEAD?labpath=Data_Analysis_Binder.ipynb)
 
 
     

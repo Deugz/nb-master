@@ -574,7 +574,7 @@ Code and data repositories.
 
 ```{admonition} Colaboration ![flag alt >](Docs/Svg_icons/handshake-deal-svgrepo-com.svg)
 
-I am incredibely curious and interested in many aspects of Science, but finding all the informations I need to understand a specific topic can be challenging. I would like to welcome as many contributions as possible from a wide variety of researchers to explain the basics of their disciplines (in a completely free and creative fashion).
+I would like to welcome as many contributions as possible from a wide variety of researchers to explain the basics of their disciplines (in a completely free and creative fashion).
 
 ```
 
@@ -606,13 +606,17 @@ Learn from multiple (&#129310;) scientists about topics like:
     
 <div id="subdiv2">    
   
-Teaching is an important part of the life of a researcher and deserve its own book (click on card or individual courses). However, it is a task that is often controlled and managed by heavy administrative bodies. I think, however that every researcher should be given the chance to share his knowledge in a creative and appealing fashion (that is terribly lacking in academia).
+I consider myself a curious person with an inquisitive mind, but despite those qualities, I have never been a studious and full-blown student, and I can see 3 main reasons for that:   
+
+First, I have only encountered a fraction of good teachers and all of them had their hands tied by very <strong>strict curriculum</strong> they had to follow. Secondly, most of the time I spent in a classroom have been religiously listening and copying learning material, which was an incredibely boring activity as well as a complete loss of time. Last but not least, the finality of learning was less about discovering new concepts and having the right tools to describe them, but just to fill your brain with information that had to be spit out during exams so pupils could be ranked and funneled out of Accademia.     
     
+
 </div>
     
 </article>
 
-![flag alt >](Docs/Svg_icons/handshake-deal-svgrepo-com.svg)
+Teaching is an important part of the life of a researcher and I believe it is one of the best and more important job that one can do. However, it is a task that is often controlled and managed by heavy administrative bodies. I think every researcher should be given the chance to share his knowledge in a creative and appealing fashion (that is terribly lacking in academia). 
+    
 
 
 <article id="P1">

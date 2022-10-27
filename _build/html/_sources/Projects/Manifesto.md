@@ -390,7 +390,12 @@ For conducting research
 
 <h5>Iterative documents build</h5>
 
-[Data Science Notes](https://makeuseofdata.com/index.html)
+- [Data Science Notes](https://makeuseofdata.com/index.html)
+
+<h5>Example</h5>
+
+- [Lorana A. Barba website](https://lorenabarba.com/)
+- [High-Energy Physics](https://inspirehep.net/)
 
 
 
@@ -408,7 +413,7 @@ Alors certe, il y a probablement des outils plus efficaces et rapides sur le mar
 
 Write as you go along they said ... It will be fun they said ...
 
-<p class="emphase">Markdown vs latex ?</p>
+<p class="emphase">Markdown vs Latex or Word ?</p>
 
 One is relatively painfull and mostly serve the purpose of fitting within scientific journal edition templates. The other however, with the help of `Jupyter Book` gives you a serie of advantages shown below:  
 
@@ -424,6 +429,29 @@ One is relatively painfull and mostly serve the purpose of fitting within scient
 Overall,
 
 - More than just a template
+
+<h6><u>Readibility</u></h6>
+
+Readability is the search for factors in reading material which could be easily and objectively counted.**Positivist paradigm** stated that reading difficulties is influenced by four factors, content, stylistic elements, format and organisation. Among these elements, factors such as vocabulary load, sentence structure, idea density and human interest appeared to be significantly related to reading difficulty. **Cognitive science** (date) bring a new perspective which emphasized the interactive nature of reading and the constructive nature of comprehension. Comprehension is related to the cognitive process of searching for meaning, that is no longer viewed as coming from the text, but, rather, from the readers mind in interaction with the text.
+
+Because of its collaborative nature, and the ability to collect readers experience, I think this web-site can be a great research plateform to investigate readability, accrose the full spectrum of audiences. 
+
+High **readibility** (process of matching the reader and the text) by allowing the readers () to navigate
+
+
+- [Ref](https://scholar.google.co.uk/scholar?q=Alexander,+P.+%26+Fox,+E.+(2006).%E2%80%9CA+historical+perspective+on+reading+research+and+practice&hl=fr&as_sdt=0&as_vis=1&oi=scholart)
+- [Historical Reviews](https://pressbooks.howardcc.edu/app/uploads/sites/10/2019/06/A_Historical_Perspective_on_Reading_Research_and_P.pdf)
+
+<h4>More</h4>
+
+- [Vocabs - Astronomy thesaurus](https://vocabs.ardc.edu.au/repository/api/lda/aas/the-unified-astronomy-thesaurus/current/resource.html?uri=http://astrothesaurus.org/uat/2092)
+
+```{note}
+
+- Use that vocabulary to generate specific tags for the research produced
+
+```
+
 
 <h4><strong>... And all the other things orbiting around it!</strong></h4>
 
@@ -442,6 +470,10 @@ The body of the tree represent the education system. The trunk being the common 
 - Interdisciplanary Science
     
 The orange leaf is my friend Ross, he is also studying *the earliest stages of planet formation* but he is a **geologist** (poor him I know)    
+  
+**Examples**:
+    
+- [Dartois](http://hebergement.u-psud.fr/edartois/Teaching.html)
 
 </div>
     
@@ -478,6 +510,13 @@ Put them online and give them a quick twist to fit a wider audience.
 - Publication are rattached to your own profile rather than belonging to a journal
 
 - **Free** (no paywall)
+
+
+
+<h4>Example</h4>
+
+- [Formatting idea](https://www.julian.com/)
+
 
 
 <h3><strong>&#187;  <u>Plateform for Collaboration</u></strong></h3> 
