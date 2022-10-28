@@ -13,9 +13,12 @@ Some articles talking about scientific puplication
 
 - [Guardian](https://www.theguardian.com/science/2017/jun/27/profitable-business-scientific-publishing-bad-for-science) *Is the staggeringly profitable business of scientific publishing bad for science?*
 
+
 - [The Atlantic](https://www.theatlantic.com/science/archive/2018/04/the-scientific-paper-is-obsolete/556676/) *The Scientific Paper Is Obsolete, Here’s what’s next.* 
 
+
 - [Works in progress](https://www.worksinprogress.co/issue/the-speed-of-science/) *The speed of science*
+
 
 - [Guardian](https://www.theguardian.com/books/2022/apr/11/the-big-idea-should-we-get-rid-of-the-scientific-paper) *The big idea: should we get rid of the scientific paper?*
 
@@ -25,10 +28,14 @@ Some articles talking about scientific puplication
 
 <h3><strong>&#187;  <u>How it works</u></strong></h3>
 
-Scientific publication begin it's journey 1660 with [Philosophical Transactions of the Royal Society](https://en.wikipedia.org/wiki/Philosophical_Transactions_of_the_Royal_Society) ... (Contributions from Newton, Caroline Hershell - first woman)
+<h4><strong>An historical perspective</strong></h4>
 
-I am not going into details, but the problematic is pretty well resumed in the folowing article:
+Scientific publication begin it's journey in 1665 with the [Philosophical Transactions of the Royal Society](https://en.wikipedia.org/wiki/Philosophical_Transactions_of_the_Royal_Society) with contributions from Isaac Newton, <span class="hovertext" data-hover="First woman ever published in 1787 (An account of a new comet)">Caroline Hershell</span>, Benjamin Franklin, Charles Darwin... Publication of scientific work will remain in the hand of <span class="hovertext" data-hover="Royal Society">scientific society</span> until the end of the second world war, a time when science publishers were notoriously inefficient and constantly broke, but science itself was about to enter a period of unprecedented growth resulting from <strong>government fundings</strong>. 
+This is the time choosen by [Robert Maxwell](https://en.wikipedia.org/wiki/Robert_Maxwell) to enter the emerging business of scientific publication by creating the company <span class="hovertext" data-hover="Now owned by Elsevier">Pergamon Press</span>. As science was expanding, it become clear that it would need new journals to cover new areas of study, and while scientific societies argued about the boundaries of their fields, Pergamon just went to convince prominent academics that their particular fields required a new journal and install that person at the reins of it. They would then begin
 
+<p class="emphase">Selling subscriptions to university libraries</p>
+
+which suddenly had a lot of government money to spend. From 40 journals in 1959, Pergamon was publishing 150 titles by 1965, scientific articles became the only way science was represented, and publishers were seen as a necessary partner in the advancement of science. Maxwell had transformed the business of publishing but science remained unchanged and scientist would published their work to whichever journal was the best fit for their research area. It is in the mid 70's that *publications* became an inherent part of scientists career with the 
 
 <h3><strong>&#187;  <u>What is wrong</u></strong></h3>
 
@@ -511,12 +518,19 @@ Put them online and give them a quick twist to fit a wider audience.
 
 - **Free** (no paywall)
 
+<script src="../_static/assets/svg_animated_links.js"></script>
+
+[source](https://codepen.io/aymak/pen/WNzdLLe)
+
 
 
 <h4>Example</h4>
 
 - [Formatting idea](https://www.julian.com/)
 
+<h5>The Future</h5>
+
+- [StarAtlas](https://staratlas.com/)
 
 
 <h3><strong>&#187;  <u>Plateform for Collaboration</u></strong></h3> 
