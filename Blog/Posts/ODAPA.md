@@ -1,4 +1,4 @@
-# Open Dialogues ...
+# ODAPA
 
 <p class="emphase">... Across Physics and Astronomy</p>
 

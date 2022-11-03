@@ -2,224 +2,145 @@
 
 ## **The Scientific publication system**
 
-````{margin} 
-
-```{seealso}
-
-Some articles talking about scientific puplication
-
-<br>
-<br>
-
-- [Guardian](https://www.theguardian.com/science/2017/jun/27/profitable-business-scientific-publishing-bad-for-science) *Is the staggeringly profitable business of scientific publishing bad for science?*
-
-
-- [The Atlantic](https://www.theatlantic.com/science/archive/2018/04/the-scientific-paper-is-obsolete/556676/) *The Scientific Paper Is Obsolete, Here’s what’s next.* 
-
-
-- [Works in progress](https://www.worksinprogress.co/issue/the-speed-of-science/) *The speed of science*
-
-
-- [Guardian](https://www.theguardian.com/books/2022/apr/11/the-big-idea-should-we-get-rid-of-the-scientific-paper) *The big idea: should we get rid of the scientific paper?*
-
-```
-
-````
-
-<h3><strong>&#187;  <u>How it works</u></strong></h3>
-
-<h4><strong>An historical perspective</strong></h4>
-
-Scientific publication begin it's journey in 1665 with the [Philosophical Transactions of the Royal Society](https://en.wikipedia.org/wiki/Philosophical_Transactions_of_the_Royal_Society) with contributions from Isaac Newton, <span class="hovertext" data-hover="First woman ever published in 1787 (An account of a new comet)">Caroline Hershell</span>, Benjamin Franklin, Charles Darwin... Publication of scientific work will remain in the hand of <span class="hovertext" data-hover="Royal Society">scientific society</span> until the end of the second world war, a time when science publishers were notoriously inefficient and constantly broke, but science itself was about to enter a period of unprecedented growth resulting from <strong>government fundings</strong>. 
-This is the time choosen by [Robert Maxwell](https://en.wikipedia.org/wiki/Robert_Maxwell) to enter the emerging business of scientific publication by creating the company <span class="hovertext" data-hover="Now owned by Elsevier">Pergamon Press</span>. As science was expanding, it become clear that it would need new journals to cover new areas of study, and while scientific societies argued about the boundaries of their fields, Pergamon just went to convince prominent academics that their particular fields required a new journal and install that person at the reins of it. They would then begin
-
-<p class="emphase">Selling subscriptions to university libraries</p>
-
-which suddenly had a lot of government money to spend. From 40 journals in 1959, Pergamon was publishing 150 titles by 1965, scientific articles became the only way science was represented, and publishers were seen as a necessary partner in the advancement of science. Maxwell had transformed the business of publishing but science remained unchanged and scientist would published their work to whichever journal was the best fit for their research area. It is in the mid 70's that *publications* became an inherent part of scientists career with the 
-
-<h3><strong>&#187;  <u>What is wrong</u></strong></h3>
-
-
-
-<h4><strong>Monetisation of knowledge </strong></h4>
-
-:::::{div} full-width
-
-::::{grid} 2
-
-<div>
-
-<h5> <u>for the benefits of <strong>Journals</strong></u> </h5>
-
-- You need to pay to publish (not always, OK, but most of the time)
-- You need to pay to have access to publications.
-
-Of course those "fees" are not paid by scientist themseleves, but rather by their institutions or funding bodies. 
-
-</div>
-    
-
-<div>
-    
-<h5> <u>to the detriment of <strong>Researchers</strong></u> </h5>
-
-Interstingly, while I am writing those lines along with wrapping up my PhD thesis, **I am not paid by my institution** - Pretty cruel system don't you think ?
-
-- Increased poverty amoung PhD students
-- slavery ...
-
-Doesn't really matt]er because we are passionate about what we do right ?
-
-Well passion doesn't bring food in the table.
-
-</div>
-    
-::::
-    
-:::::
-    
-<h5> <u>Open Access</u> </h5>
-
-Yes, some journals offers Open Access, but very often it is a costly options as you need to pay <span class="hovertext" data-hover="How is this money spend, I don't know">Article Processing Charges</span> (APC).
-For Nature they cost 9500 Euros !! (source: <a href="https://www.nature.com/nature-portfolio/open-access" target="blank">Here</a>) 
-
-````{margin}
-
-<div>
-    
-```{figure} Docs/Elephant.png
----
-name: Elephant
----
-Elephant
-```
-
-</div>
-   
-    
-<div>
-    
-```{epigraph}
-And so these men of Indostan
-Disputed loud and long,
-<br>
-<br>
-Each in his own opinion
-Exceeding stiff and strong,
-<br>
-<br>
-Though each was partly in the right,
-And all were in the wrong!
-
--- John Godfrey Saxe (1816-1887)
-```
-</div>
-  
-````
-
-<h4><strong>Promote competition vs collaboration  </strong></h4>
-
-<h5>Metrics</h5>
-
-Scientist are judged by their number of publication to climb the accademic ladder. This is measured using <span class="hovertext" data-hover="Explain, h-index ...">metrics</span>.
-
-
-Hence we all tend to **publish quick and numerous papers, rather than well and low number**
-
-
-    
-- Puts scientist away from their main mission, understanding the **bigger picture**
-    
-
-
-
-<h3><strong>&#187;  <u>What is right</u></strong></h3>
-
-<h4><strong>Peer Review</strong></h4>
-
-
-<h4><strong>Journal template ?</strong></h4>
-
-Very often publishing fees are justified by the employment of an army of editors that needs to be paid by the journal. Now sit down and think about it, you are actually doing the editorial job by using the journal latex template!
-
-Good and bad:
-- You know what you are going to get but:
-- prevent creativity in sharing scientific content.
-- Reproducibility crisis in Science. 
-- Lots of redundancy
-
-Experiments are not described efficiently in scientific papers and hence are **hardly reproducible**, especially when dealing with metastable samples (like ASW)
-
-- Processing softwares not always shared
-- Data in databases is not efficiently described and hard to extract, reprocess (give example)
-
-Overall, Scientific work is published in a **Boring** way, even though every piece of Science is interesting.
-
-
-
-
-<h3><strong>&#187;  <u>Summary</u></strong></h3>
-
-Outdated, current technologies should drive us to do better.
-
-<h4><strong>Tools</strong></h4>
+<h3><strong>&#187;  <u>In a nutshell</u></strong></h3>
 
 
 <article id="P1">
     
-<div id="subdiv2">
+<div id="subdiv1-3">
 
+:::{card} Blog Post
+:link: ../Blog/Posts/Scientific_Publication.md
+:link-type: ref
 
-:::{grid-item-card}
-**Tools** <span style="float: right">&#128165;</span>
-^^^
+Scientific Publication, how it works, what is good and wrong about it.
 
-- [JupyterLab](https://jupyter.org/)    
-- ![flag alt >](../Docs/Svg_icons/py-svgrepo-com.svg) Python
-- ![flag alt >](../Docs/Svg_icons/py-svgrepo-com.svg) Markdown
-- Jupyter Lab
-- ...
-    
+- 20 min read
+
 :::
-
-<br>
-<br>
-    
-- Most usefull for PhD students (use from Start)
-- Adaptable to individual needs    
 
 </div>
     
-<div id="subdiv2">    
+<div id="subdiv2-3">    
+
+The whole system is outdated and current technologies (see below) should drive us to do better.
   
-The journey towards the completion of a PhD is long, hard and students are very often left alone to develop their skills in order to become an accomplished researcher. There is an incentive from `graduate schools` within Universities to help their student cohort but unfortunately (at least for me), this always translated into a set of administrative burden that are conterproductive (cf Blog post on progress monitoring report). I think every student have their own needs and should be given the opportunity to developp their **own set of tools to match those needs**. For me that is:
-    
 </div>
     
 </article>
 
 
+<h4><strong>My PhD journey</strong></h4> 
 
-## **Next level** 
+The journey towards the completion of a PhD is long, hard and students are very often left alone to develop their skills in order to become an accomplished researcher. There is an incentive from `graduate schools` within Universities to help their student cohort but unfortunately (at least for me), this always translated into a set of administrative burden that are conterproductive. I think every student have their **own needs** and should be given the opportunity to developp their **own set of tools** to fulfill those needs. For me that that resulted in the web-site you are navigating into and that I will explain below: 
+  
+
+## **My Alternative**
+
+````{margin}
+
+<div id="colour">
+
+<strong><u>Open Science Toolkit</u></strong> 
+
+<br>
+<br>
+
+```{image} ../Docs/Svg_icons/toolbox.svg
+:width: 100px
+:align: center
+```
+
+<br>
+<br>
+
+**Litterature review** 
+
+![flag alt >](../Docs/Svg_icons/scihub.svg) [Scihub](https://sci-hub.41610.org/)
+
+<br>
+<br>
+
+**Data Storage / Sharing** 
+
+![flag alt >](../Docs/Svg_icons/figshare-svgrepo-com.svg) [Figshare](https://figshare.com/)
 
 
-- <strong>multiscale</strong>
+![flag alt >](../Docs/Svg_icons/zenodo-gradient-round.svg) [Zenodo](https://zenodo.org/)
 
-<h3><strong>&#187;  <u>Research Toolbox</u></strong></h3> 
+<br>
+<br>
 
-Build a single plateform of your own design (web-site) to manage, store and publish your research with 
+**Data Processing** (Python)
 
-<h4><strong>Jupyter-Book </strong></h4> 
+![flag alt >](../Docs/Svg_icons/jupyter-svgrepo-com.svg) [Jupyter Notebook](https://jupyter.org/)
 
-Jupyter Book is one component of the [Jupyter ecocystem](link to teaching), an IDE for python. If you have no idea what this means, (![flag alt >](../Docs/Svg_icons/confused-svgrepo-com.svg)), click on the link and have a read through the tutorial. In a nutshell, it is a collection of (Open source) softwares, that help you 
-
-<p class="emphase">build beautiful, publication-quality books and documents from computational content</p>
-
-Takes a collection of `jupyter notebooks` (.ipynb) and `markdown` files (.md), **compile** them to produce a **static web-site** 
+![flag alt >](../Docs/Svg_icons/jupyter-svgrepo-com.svg) [Jupyter Lab](https://jupyter.org/)
 
 
+<br>
+<br>
 
-:::::{margin} 
+**Managment** 
+
+![flag alt >](../Docs/Svg_icons/notion-svgrepo-com.svg)  [Notion](https://www.notion.so/product)
+
+<br>
+<br>
+
+**Communication** 
+
+![flag alt >](../Docs/Svg_icons/inkscape-svgrepo-com.svg)  [Inkscape](https://inkscape.org/) (Poster)
+
+![flag alt >](../Docs/Svg_icons/notion-svgrepo-com.svg)  [Rise](https://rise.readthedocs.io/en/stable/) (Presentation)
+
+<br>
+<br>
+
+**Edition** (Markdown)
+
+![flag alt >](../Docs/Svg_icons/jupyter-svgrepo-com.svg)  [Jupyter Book](https://jupyterbook.org/en/stable/intro.html) (&#10024;)
+
+<br>
+<br>
+
+**Publication**
+
+![flag alt >](../Docs/Svg_icons/internet-svgrepo-com.svg)  [Internet](https://www.w3.org/)
+
+![flag alt >](../Docs/Svg_icons/researchgate-svgrepo-com.svg)  [Researchgate](https://www.researchgate.net/)
+
+
+<br>
+<br>
+
+**Review**
+
+![flag alt >](../Docs/Svg_icons/Hypothesis.svg)  [Hypothesis](https://web.hypothes.is/) (Peers)
+
+![flag alt >](../Docs/Svg_icons/crystal-ball-svgrepo-com.svg)  [Utterance](https://github.com/utterance) (Public)
+
+
+
+
+<br>
+<br>
+
+**Web hosting / Version control**
+
+![flag alt >](../Docs/Svg_icons/github-svgrepo-com.svg) [Github](https://github.com/)
+
+
+</div>
+
+<br>
+<br>
+
+**<u>Example</u>:**
+
+<p class="emphase">My Thesis</p>
+
+
 ::::{grid} 1
 :::{grid-item-card} 
 :img-top: ../Docs/OU_Logo.svg
@@ -230,25 +151,59 @@ Takes a collection of `jupyter notebooks` (.ipynb) and `markdown` files (.md), *
 ![flag alt >](../Docs/logo_JB.png) Version: 0.1 
 :::
 ::::
-:::::
 
-<h4><strong>Result</strong></h4>
+````
 
-This web-site is a <a href="https://the-turing-way.netlify.app/welcome.html" target="blank"> Research compendium </a> produced using <a href="https://jupyterbook.org/en/stable/intro.html" target="blank"> Jupyter-Book</a>. This book is part of the **Science For the People** project whose aim is to empower researcher to self-publish themselves in an open and innovative way, far from the unsustainable current publication system. This Book focus on my PhD project.
+<h3><strong>&#187;  <u>Outline</u></strong></h3> 
 
-<br>
-<br>
+<p class="emphase"><strong>Aim </strong>: Using 21st century tools to create and sustain a constructive scientific dialogue</p>
 
-Blabla
+The emergence of the internet unfolded new ways to share and discuss content of all sorts. We now have a rich ecocystem of <span class="hovertext" data-hover="def">Open source</span> projects facilitated by the <span class="hovertext" data-hover="Also called CC">Licence creative common</span> and yet, scientists are still relying on a 17th century old method to share their knowledge (scientific papers). The method evolved for centuries to become one of the most lucrative business as well as a technique enslaving scientists to the publication system (by the use of metrics and their importance in career advancement). This is perverting science. I think it is time to go forward in the way we share our research outputs and create a new system designed for <span class="hovertext" data-hover="Who are we ?">our</span> Open Science needs. 
 
 <br>
 <br>
 
-Blabla
+***
+
+<p class="emphase"><strong>How </strong>: By empowering scientists with a single plateform embeding all the necessary tools and methodologies for Open Science</p>
+
+From all the tools mentioned on the right, the one you may be less familiar with is `Jupyter Book`. It is an open software, part of the [Project Jupyter](https://en.wikipedia.org/wiki/Project_Jupyter), that takes a collection of <span class="hovertext" data-hover="(.ipynb)">jupyter notebooks</span>  and <span class="hovertext" data-hover="(.md)">markdown files</span>, compile them to produce a <span class="hovertext" data-hover="collection of .html file">static web-site</span>. I think I can deliver a proof of concept version of a single<strong> web-plateform </strong>designed to help researcher retake possesion of their work. *I see every piece of research like a furniture item, owing a web-site is like having a home within wich you can implement your furniture and design it according to your taste, and those of your guests.* 
+
+<br>
+<br>
+
+***
 
 
+<p class="emphase"><strong>To </strong>: Build, publish and share, beautiful publication-quality books and documents, from all your research outputs</p>
 
-<h4><strong>Benefits</strong></h4>
+
+- Develop and maintain their research toolbox
+- Produce, store, edit and share all their scientific notes, 
+- Publish all your Research Outputs 
+
+
+I think at this point it is best to show you an example: The web-site on the right is a <a href="https://the-turing-way.netlify.app/welcome.html" target="blank"> Research compendium </a> produced using <a href="https://jupyterbook.org/en/stable/intro.html" target="blank"> Jupyter-Book</a>. This book is part of the **Science For the People** project whose aim is to empower researcher to self-publish themselves in an open and innovative way, far from the unsustainable current publication system. This Book focus on my PhD project.
+
+<br>
+<br>
+
+***
+
+<p class="emphase"><strong>For </strong>: Providing an alternative to the current publication system</p>
+
+<h5><strong>Target</strong></h5>
+
+- Most usefull for PhD students (use from Start)
+- Adaptable to individual needs    
+
+- multiscale</strong>
+
+## Benefits
+
+<h3><strong>&#187;  <u>Open Research Toolbox</u></strong></h3> 
+
+Owing and maintaining a website during the course of my PhD (cf example) gave me the folowing advantages: 
 
 :::::{div} full-width
 ::::{grid} 1 1 2 3
@@ -261,17 +216,9 @@ Blabla
 
 Notebook ✏️
 ^^^
-A method to **take, store and display my notes (informatically)**
+A method to take, store, edit and display my notes informatically allowing incrementall implementation. It includes all the requirements of scientific publishing: Bibliography, figure referencing, links and hyperlink ...
 
-Implemented incrementally w/ `JupyterLab` Using `Markdown` and includes all the requirements of scientific publishing: 
-- Bibliography
-- Figure referencing 
-- ...
 
-and more:
-
-- hyperlink -> web ressources
-- ...
 
 
 :::
@@ -283,15 +230,7 @@ and more:
 Storage Place ✨
 ^^^
 
-Web-sites require a solid folder architecture.
-
-- data, 
-- scripts
-- files
-- notes 
-
-Stored all in one place localy (`Hardrive`) and exported periodicly on `Github`
-- **Version control**
+Web-sites require a solid folder architecture to work (ie links ...). So does a PhD with considerable amounts of data, scripts, files, notes, reports ... Stored localy (Hardrive) and exported periodicly on Github for Version control and web hosting. Symbiosis relationship
 
 :::
 
@@ -302,14 +241,7 @@ Stored all in one place localy (`Hardrive`) and exported periodicly on `Github`
 Project Manager 🔁
 ^^^
 
-Keep track of my progress and focus on the right tasks.
-
-Outil d'organisation
-- Notes
-- Agenda
-- Taches 
-- ...
-
+Keep track of my progress and focus on the right tasks. Organisation tool containing notes, agenda, tasks ... 
 :::
 
 :::{grid-item-card}
@@ -381,46 +313,65 @@ Communication &#128489;
 :::::
 
 
-<h4><strong>Other Online tools</strong></h4>
+<h4><strong></strong></h4>
 
-For conducting research
+````{margin} 
 
-<h5>Litterature Review</h5>
+```{admonition} **Other Online tools**
+:class: seealso
+
+**litterature review**
 
 - [Citation Gecko](https://www.citationgecko.com/)
 - [Litmaps](https://www.litmaps.com/)
 - [Connected Papers](https://www.connectedpapers.com/)
 
-<h5>Research Management</h5>
+**Research Management**
 
 - [OSF](https://osf.io/)
 
-<h5>Iterative documents build</h5>
+**Iterative documents build**
 
 - [Data Science Notes](https://makeuseofdata.com/index.html)
 
-<h5>Example</h5>
+**Example**
 
 - [Lorana A. Barba website](https://lorenabarba.com/)
 - [High-Energy Physics](https://inspirehep.net/)
 
+```
 
+````
 
-```{admonition} Dialogue ![flag alt >](Documents/SVG_icons/dark-dialogue-bubble-svgrepo-com.svg) - ![flag alt >](Documents/SVG_icons/flag-for-flag-france-svgrepo-com.svg)
+- Paragraph to explain in plain text the aformentioned benefits
+
+I guess for me, if I had to pick only one, the best advantage is the ability to take notes informaticaly. I have never been consistent in taking hand written notes, and would often leave them uncomplitted, all over the place ... a real nightmare.
+
+```{admonition} Dialogue ![flag alt >](../Docs/SVG_icons/dark-dialogue-bubble-svgrepo-com.svg) - ![flag alt >](../Docs/SVG_icons/flag-for-flag-france-svgrepo-com.svg)
 :class: dropdown
 Alors certe, il y a probablement des outils plus efficaces et rapides sur le marche, mais j'aime faire <strong>l'apologie de la lenteur</strong>, d'autant plus qu'elle s'accompagne de nombreux benefices egalement ... 
 
 ```
 
+<h4><strong>To consider</strong></h4>
+
+- Semantic web workflow (?)
+
+
+<br>
+<br>
+
+***
+
 <h3><strong>&#187;  <u>Editorial canvas</u></strong></h3> 
 
-<strong>Sandbox</strong> - define term
+I have always been frustrated by the fact that I could never play with the <strong>edition</strong> aspect of every piece of science I have been writimg. All the time I had to obey to a certain <strong>template</strong> that I never found appealing to me. Owing my own web-site give me the opportunity to be an integrant part of the edition process as it clearly is an  <span class="hovertext" data-hover="a testing environment in a computer system in which new or untested software or coding can be run securely">editorial sandbox</span>.
 
 <h4><strong>For your Research ...</strong></h4>
 
 Write as you go along they said ... It will be fun they said ...
 
-<p class="emphase">Markdown vs Latex or Word ?</p>
+<p class="emphase"><strong>Markdown</strong> vs Latex or Word ?</p>
 
 One is relatively painfull and mostly serve the purpose of fitting within scientific journal edition templates. The other however, with the help of `Jupyter Book` gives you a serie of advantages shown below:  
 
@@ -458,7 +409,6 @@ High **readibility** (process of matching the reader and the text) by allowing t
 - Use that vocabulary to generate specific tags for the research produced
 
 ```
-
 
 <h4><strong>... And all the other things orbiting around it!</strong></h4>
 
@@ -518,11 +468,6 @@ Put them online and give them a quick twist to fit a wider audience.
 
 - **Free** (no paywall)
 
-<script src="../_static/assets/svg_animated_links.js"></script>
-
-[source](https://codepen.io/aymak/pen/WNzdLLe)
-
-
 
 <h4>Example</h4>
 
@@ -532,9 +477,9 @@ Put them online and give them a quick twist to fit a wider audience.
 
 - [StarAtlas](https://staratlas.com/)
 
+<h4><strong> Lifelong Peer Review </strong></h4>
 
-<h3><strong>&#187;  <u>Plateform for Collaboration</u></strong></h3> 
-
+<h4><strong> Open for Collaboration </strong></h4>
 
 What I would like to explore is how we can bring researchers (from various disciplines) to work together on a given problematic, rather than competing with each other. I think that such a plateform can help in promoting this **collaborative approach**.
 
@@ -548,10 +493,31 @@ You will have to put some efforts to make it work, but you will build a tool tha
 
 I think it is worth a try (link to jupyter-book tuto)
 
+
+
+
+
 <h3><strong>&#187;  <u>Communication</u></strong></h3>
 
+<h4><strong> Create a dialogue</strong></h4>
+
+The most beatifull part of having your work hosted in the internet is that people (all people, cf below) can interact with it and comment, ask questions ...
 
 
+````{margin} 
+```{admonition} Financial support
+
+Reaching an audience would allow the potential for financial support
+
+```
+````
+- ton de la conversation
+- Bienveillance
+
+Dont la finalite n'est pa de generer de l'argent mais bien de creer le dialogue. Quand bien meme des possibilites de soutien financiere sont possibles.
+
+
+<h4><strong> For All Audiences</strong></h4>
 
 ````{margin} 
 ```{admonition} Idea for later
@@ -562,8 +528,6 @@ I think it is worth a try (link to jupyter-book tuto)
 
 ```
 ````
-
-<h4><strong>Who are you ?</strong></h4>
 
 I aim to deliver content for **everybody** `interested in Science`, so let me know who you are and I will point you in the right direction.
 
@@ -600,6 +564,12 @@ name: Aquarium
 </div>
     
 </article>
+
+<h4><strong> To have access to Science</strong></h4>
+
+```{note}
+Create svg diagram of scale (different level), and fish at every scale with lift to help them climb.
+```
 
 
 <h3><strong>&#187;  <u>Sociale & politique</u></strong></h3>

@@ -19,6 +19,8 @@ parts:
     chapters:
     - file: Blog/Blog_Main
       sections:
+      - file: Blog/Posts/Scientific_Publication
+      - file: Blog/Posts/Annie_woman      
       - file: Blog/Posts/ODAPA
   #- caption: The museum of non result
   - caption: Bibliography

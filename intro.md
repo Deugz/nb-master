@@ -303,7 +303,7 @@ Enceladus, Jupyter Moon ... Water, life tout ca tout ca ...
 
 ## **Science For The People** 
 
-<p class="emphase">New tools and methods for publishing scientific content </p>
+<p class="emphase"> New tools and methods for publishing scientific content </p>
 
 ::::{grid} 3
 :::{grid-item-card}
