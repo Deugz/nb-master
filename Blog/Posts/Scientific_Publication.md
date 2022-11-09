@@ -46,6 +46,29 @@ This is the time choosen by [Robert Maxwell](https://en.wikipedia.org/wiki/Rober
 
 which suddenly had a lot of government money to spend. From 40 journals in 1959, Pergamon was publishing 150 titles by 1965, scientific articles became the only way science was represented, and publishers were seen as a necessary partner in the advancement of science. Maxwell had transformed the business of publishing but science remained unchanged and scientist would published their work to whichever journal was the best fit for their research area. It is in the mid 70's that *publications* became an inherent part of scientists career with the 
 
+<h4><strong>Today</strong></h4>
+
+<h5><strong>An example: Elsevier</strong></h5>
+
+now RELX
+
+- [Report 2019](https://www.relx.com/~/media/Files/R/RELX-Group/documents/reports/annual-reports/2019-annual-report.pdf)
+
+**Owned journal:**
+
+- 1
+- 2
+
+
+
+```{note}
+
+- [rd-solution](https://www.elsevier.com/rd-solutions)
+- [scibite](https://www.scibite.com/)
+
+```
+
+
 <h3><strong>&#187;  <u>What is wrong</u></strong></h3>
 
 

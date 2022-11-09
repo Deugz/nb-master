@@ -355,8 +355,12 @@ Alors certe, il y a probablement des outils plus efficaces et rapides sur le mar
 
 <h4><strong>To consider</strong></h4>
 
-- Semantic web workflow (?)
-
+- **Notebook**
+    - Semantic web workflow (?)
+    - Thesaurus for tags ([Astro](https://vocabs.ardc.edu.au/viewById/119), [GH csv](https://github.com/astrothesaurus/UAT/blob/master/UAT.csv) )
+- **Storage**
+    - Files, folder mapping
+    - Ontology ([Webvowl](https://service.tib.eu/webvowl/#sioc), [RDF from CSV](https://stackoverflow.com/questions/13147864/how-to-create-an-ontology-from-raw-data-csv))
 
 <br>
 <br>

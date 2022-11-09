@@ -29,10 +29,9 @@ parts:
   - caption: Appendix
     chapters:
     - file: CV/Academic_CV
-    - file: Litterature/Litterature_Review
-    - file: Appendix/Style_guide
     - file: Appendix/Help_main
       sections:
+      - file: Appendix/Help/Style_guide
       - file: Appendix/Help/The_Turing_Way     
       - file: Appendix/Help/Anaconda_JB
       - file: Appendix/Help/Github_JB
