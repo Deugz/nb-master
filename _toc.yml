@@ -36,3 +36,4 @@ parts:
       - file: Appendix/Help/Anaconda_JB
       - file: Appendix/Help/Github_JB
       - file: Appendix/Help/Binder_JB
+      - file: Appendix/Help/SemanticWeb

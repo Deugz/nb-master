@@ -1,5 +1,12 @@
 # Roadmap
 
+
+This digital space where you have just set foot, is an **experiment** whose aim is to challenge the current *scientific publication system* by offering a creative alternative. There is a long way to go to get there though, and for the time being, it is a collection of `Jupyter Books`. They are canvas to share my research outputs and explore the tools available to make it `Findable, Accesible, Interoperable and Reusable`.
+
+## Introduction
+
+### Template
+
 ````{margin} 
 ```{warning}
 Main goal is **finish my PhD**
@@ -7,7 +14,90 @@ Main goal is **finish my PhD**
 ```
 ````
 
-This digital space where you have just set foot, is an **experiment** whose aim is to challenge the current *scientific publication system* by offering a creative alternative. There is a long way to go to get there though, and for the time being, it is a collection of `Jupyter Books`. They are canvas to share my research outputs and explore the tools available to make it `Findable, Accesible, Interoperable and Reusable`.
+- A template, all in one for all your research need
+
+I would like to use my thesis as a creative opportunity to produce an online **Research compendium**. This would be a **proof of concept** that publishing scientific work online is feasable and add values.
+
+```{note}
+Consider this website as an **evolving template** intended to share my **research work**.
+```
+### Workflow
+
+To produce and publish my work online, I come accross a wide range of tools: 
+
+#### Tools
+
+Science is all about **Data**. Every scientific project involved the generation and interpretation of one or multiple datasets. They can be of many types and shape ...
+
+
+````{margin}
+```{note}
+- I guess the next step on this diagram is **Collaboration**
+    - cf next page
+```
+````
+
+
+```{image} Docs/workflow1.png
+:alt: workflow1
+:width: 1200px
+```
+
+##### Help
+
+
+::::{grid}
+
+:::{grid-item-card}
+:class-header: bg-light
+:columns: 3
+
+**Python**
+^^^
+
+Python is a programming language
+
+:::
+:::{grid-item-card}
+:class-header: bg-light
+:columns: 3
+**Jupyter Lab**
+^^^
+terminal
+:::
+:::{grid-item-card}
+:class-header: bg-light
+:columns: 3
+**Jupyter Book**
+^^^
+Combine Python with markdown
+:::
+:::{grid-item-card}
+:class-header: bg-light
+:columns: 3
+**Github**
+^^^
+Version control
+:::
+
+::::
+
+I think the first thing to achieve is go through the many obstacles necessary to overcome for publishing a **Research Compendium** online. This imply a lot of learning, and I intend to make sure that I implement somewhere the problems / solutions I found along the way to facilitate the process for any other interested individual. 
+
+<h5>To consider</h5>
+
+- Semantic web workflow
+- Knowledge graph
+
+
+#### PhD
+
+In the same fashion than previously described, I use my PhD work to implement the content I generate into various pages and trying to generate a self-contained structure.
+
+
+## Current state
+
+### Skeleton
 
 ::::{grid} 1 1 2 4
 :class-container: text-center
@@ -60,67 +150,28 @@ Project 2
 
 - (+) 2 others books that are not accessible (Perso and Postdoc).  
 
-
-
-#### Workflow
-
-##### Science
-
-Science is all about **Data**. Every scientific project involved the generation and interpretation of one or multiple datasets. They can be of many types and shape ...
-
-```{image} Docs/workflow1.png
-:alt: workflow1
-:width: 800px
-```
-
-##### Processing Tools
-
-**Python**
-
-Python is a programming language
-
-
-##### Anaconda
-
-**Jupyter Notebook**
-
- Combine Python with markdown
-
-**Jupyter Lab**
-
-terminal
-
-**Jupyter Book**
-
-[...]
-
-
-
-**Github**
-
-Version control
-
-
-
-
-#### Skeleton
-
 The following image is a poster I presented at a conference [Open Dialogues Across Physics and Astronomy](https://open-dialogues-phys-and-astro.web.app/) in September 2022 related to the **Science for the Peopple** project
 
-```{note}
-Adapt to show web-sites **Skeleton**
-```
 
-````{div} full-width
-```{image} Docs/Astra_Poster_1.png
-:alt: Astra Poster
-:width: 1500px
+````{margin}
+```{admonition} Explanation
+This diagram is rather complicated so I will talk you through it:
+
+The main feature are the big orange dots that represent 4 different `JupyterBooks` 
+- Master
+- PhD
+- Museum
+- Teaching
+
 ```
 ````
 
-## Project aims
+```{image} Docs/workflow2.png
+:alt: Astra Poster
+:width: 1500px
+```
 
-### Until PhD submission
+### Present and until PhD submission
 
 <p class="emphase">Finish the Thesis</p>
 
@@ -165,7 +216,17 @@ Idealy I would like to build a community like those ones:
     
 - [Ncar](https://ncar.ucar.edu/)
 
-### Once PhD submitted
+
+
+
+
+## Project aims
+
+
+
+## Futur 
+
+### Post PhD submition
 
 
 In the future I intend to pursue a Web-development course (le Wagon - 2 month)
@@ -175,14 +236,26 @@ In the future I intend to pursue a Web-development course (le Wagon - 2 month)
 - Needs finance (crowdsourcing ?)
 - Transform the Canvas book
 
+#### Build a community
 
+<h5>Friends</h5>
 
-Build a community
 - Involve people using the [Teaching](link) section first (friends ;)
 - Produce an interaction workflow `Github`
 
+<h5>Researchers</h5>
 
+<h5>And beyond</h5>
 
+```{note}
+Create a voting system (below accademia - first page) for people to choose a subject that they want to analyse (using public or personal data ?) and to create a specific book for it. Scientific collaboration with the general public towards subjects of public interests.
+
+Experts from different fields can collaborate towards solving the questions from the topic while producing tools for the people to perform further analysis 
+
+- Measuring climate change,
+- Biodiversite sur le bassin d'Arcachon (pour toi le JIM)
+- ...
+```
 
 
 ### As far as I am concerned 
@@ -250,40 +323,6 @@ Insert project description + aims (use pictures from touring way)
 
 <p class="emphase">Empower Researchers with an <strong>Open Toolbox</strong> to <strong>Self Publish</strong></p>
 
-## To do
-
-
-
-## Description
-
-
-
-## Aims
-
-Insert here the long term plan of the project
-
-### Other
-
-```{note}
-Create a voting system (below accademia - first page) for people to choose a subject that they want to analyse (using public or personal data ?) and to create a specific book for it. Scientific collaboration with the general public towards subjects of public interests.
-
-Experts from different fields can collaborate towards solving the questions from the topic while producing tools for the people to perform further analysis 
-
-- Measuring climate change,
-- Biodiversite sur le bassin d'Arcachon (pour toi le JIM)
-- ...
-```
-
-
-
-## Things to consider
-
-### Semantic Web
-
-- Resource Description Framework
-
-[Schema.org](https://schema.org/)
-
 
 
 ## Elsewhere
@@ -337,16 +376,13 @@ Mon ami Jimi est une personne incroyable
 - [Barry]()
 
 
-
-## Bringing people onboard
-
-### Financialy
+## Financial independance
 
 In order to further developp this project but also because science doesn't pay much (especialy when you do it "out of the box"), it seems important to develop potential income solutions:
 
 
 
-#### My Expenditures
+### My Expenditures
 
 ```{note} Free Version
 The main objective of the project is to change the mentality of the scientific community and **a free version must always be available** and favoured in most of the cases.

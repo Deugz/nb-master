@@ -353,14 +353,7 @@ Alors certe, il y a probablement des outils plus efficaces et rapides sur le mar
 
 ```
 
-<h4><strong>To consider</strong></h4>
-
-- **Notebook**
-    - Semantic web workflow (?)
-    - Thesaurus for tags ([Astro](https://vocabs.ardc.edu.au/viewById/119), [GH csv](https://github.com/astrothesaurus/UAT/blob/master/UAT.csv) )
-- **Storage**
-    - Files, folder mapping
-    - Ontology ([Webvowl](https://service.tib.eu/webvowl/#sioc), [RDF from CSV](https://stackoverflow.com/questions/13147864/how-to-create-an-ontology-from-raw-data-csv))
+- Link with **Semantic web** cf Project Roadmap (Anchored)
 
 <br>
 <br>
@@ -417,6 +410,10 @@ High **readibility** (process of matching the reader and the text) by allowing t
 <h4><strong>... And all the other things orbiting around it!</strong></h4>
 
 <h5>Teaching material</h5>
+
+**Editorial experiments of teaching material**:
+
+- {cite}`Mestre2012`
 
 :::::{div} full-width
 
@@ -577,6 +574,16 @@ Create svg diagram of scale (different level), and fish at every scale with lift
 
 
 <h3><strong>&#187;  <u>Sociale & politique</u></strong></h3>
+
+
+<span class="hovertext" data-hover="Within political philosophy and particularly in the work of Chantal Mouffe and Hannah Arendt, “agonism” has been described as representing the notion of being able to challenge and dissent in a productive way">agonistic</span> publishing
+
+- {cite}`Koutsouris2022`
+
+
+- dissociative and associative agonism
+
+<h4><strong> Benefits</strong></h4>
 
 - More **impact** on Society
 

@@ -280,6 +280,11 @@ const thebe_selector_output = ".output, .cell_output"
      Binder
     </a>
    </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../Appendix/Help/SemanticWeb.html">
+     Semantic Web
+    </a>
+   </li>
   </ul>
  </li>
 </ul>
@@ -362,6 +367,43 @@ const thebe_selector_output = ".output, .cell_output"
         <!-- Table of contents -->
         <div class="d-none d-md-block col-md-2 bd-toc show noprint">
             
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#how-it-works">
+   How it works
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#can-we-do-better">
+   Can we do better ?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#how">
+   How ?
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#proposed-system">
+     Proposed system
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#open-research">
+       Open Research
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+            </nav>
         </div>
     </div>
 </div>
@@ -374,6 +416,43 @@ const thebe_selector_output = ".output, .cell_output"
                 <div id="print-main-content">
                     <div id="jb-print-toc">
                         
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#how-it-works">
+   How it works
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#can-we-do-better">
+   Can we do better ?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#how">
+   How ?
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#proposed-system">
+     Proposed system
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#open-research">
+       Open Research
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+                        </nav>
                     </div>
                 </div>
             </div>
@@ -405,14 +484,15 @@ const thebe_selector_output = ".output, .cell_output"
 </ul>
 </div>
 </div>
-<h3><strong>&#187;  <u>How it works</u></strong></h3>
-<h4><strong>An historical perspective</strong></h4>
+<div class="section" id="how-it-works">
+<h2>How it works<a class="headerlink" href="#how-it-works" title="Permalink to this headline">¶</a></h2>
+<h3><strong>&#187;  <u>An historical perspective</u></strong></h3>
 <p>Scientific publication begin it’s journey in 1665 with the <a class="reference external" href="https://en.wikipedia.org/wiki/Philosophical_Transactions_of_the_Royal_Society">Philosophical Transactions of the Royal Society</a> with contributions from Isaac Newton, <span class="hovertext" data-hover="First woman ever published in 1787 (An account of a new comet)">Caroline Hershell</span>, Benjamin Franklin, Charles Darwin… Publication of scientific work will remain in the hand of <span class="hovertext" data-hover="Royal Society">scientific society</span> until the end of the second world war, a time when science publishers were notoriously inefficient and constantly broke, but science itself was about to enter a period of unprecedented growth resulting from <strong>government fundings</strong>.
 This is the time choosen by <a class="reference external" href="https://en.wikipedia.org/wiki/Robert_Maxwell">Robert Maxwell</a> to enter the emerging business of scientific publication by creating the company <span class="hovertext" data-hover="Now owned by Elsevier">Pergamon Press</span>. As science was expanding, it become clear that it would need new journals to cover new areas of study, and while scientific societies argued about the boundaries of their fields, Pergamon just went to convince prominent academics that their particular fields required a new journal and install that person at the reins of it. They would then begin</p>
 <p class="emphase">Selling subscriptions to university libraries</p>
 <p>which suddenly had a lot of government money to spend. From 40 journals in 1959, Pergamon was publishing 150 titles by 1965, scientific articles became the only way science was represented, and publishers were seen as a necessary partner in the advancement of science. Maxwell had transformed the business of publishing but science remained unchanged and scientist would published their work to whichever journal was the best fit for their research area. It is in the mid 70’s that <em>publications</em> became an inherent part of scientists career with the</p>
-<h4><strong>Today</strong></h4>
-<h5><strong>An example: Elsevier</strong></h5>
+<h3><strong>&#187;  <u>Today</u></strong></h3>
+<h4><strong>An example: <em>Elsevier</em></strong></h4>
 <p>now RELX</p>
 <ul class="simple">
 <li><p><a class="reference external" href="https://www.relx.com/~/media/Files/R/RELX-Group/documents/reports/annual-reports/2019-annual-report.pdf">Report 2019</a></p></li>
@@ -429,6 +509,30 @@ This is the time choosen by <a class="reference external" href="https://en.wikip
 <li><p><a class="reference external" href="https://www.scibite.com/">scibite</a></p></li>
 </ul>
 </div>
+<h5>Publication pipeline</h5>
+<ul class="simple">
+<li><p>Preliminary screening by journal editor</p></li>
+<li><p>Anonymous and private review by a very small number of individuals (2-5)</p></li>
+</ul>
+<p><a class="reference external" href="https://retractionwatch.com/">retractionwatch</a></p>
+<h3><strong>&#187;  <u>What is right</u></strong></h3>
+<h4><strong>Peer Review</strong></h4>
+<p>Peer Review is necessary</p>
+<h4><strong>Journal template ?</strong></h4>
+<p>Very often publishing fees are justified by the employment of an army of editors that needs to be paid by the journal. Now sit down and think about it, you are actually doing the editorial job by using the journal latex template!</p>
+<p>Good and bad:</p>
+<ul class="simple">
+<li><p>You know what you are going to get but:</p></li>
+<li><p>prevent creativity in sharing scientific content.</p></li>
+<li><p>Reproducibility crisis in Science.</p></li>
+<li><p>Lots of redundancy</p></li>
+</ul>
+<p>Experiments are not described efficiently in scientific papers and hence are <strong>hardly reproducible</strong>, especially when dealing with metastable samples (like ASW)</p>
+<ul class="simple">
+<li><p>Processing softwares not always shared</p></li>
+<li><p>Data in databases is not efficiently described and hard to extract, reprocess (give example)</p></li>
+</ul>
+<p>Overall, Scientific work is published in a <strong>Boring</strong> way, even though every piece of Science is interesting.</p>
 <h3><strong>&#187;  <u>What is wrong</u></strong></h3>
 <h4><strong>Monetisation of knowledge </strong></h4>
 <div class="full-width docutils">
@@ -458,6 +562,13 @@ This is the time choosen by <a class="reference external" href="https://en.wikip
 <h5> <u>Open Access</u> </h5>
 <p>Yes, some journals offers Open Access, but very often it is a costly options as you need to pay <span class="hovertext" data-hover="How is this money spend, I don't know">Article Processing Charges</span> (APC).
 For Nature they cost 9500 Euros !! (source: <a href="https://www.nature.com/nature-portfolio/open-access" target="blank">Here</a>)</p>
+<p>Also, for me, the problem is deeper.</p>
+<ul class="simple">
+<li><p>Too many journal titles, enclose researcher into very narrow fields.</p></li>
+<li><p>Astro thesaurus example, many subfields but is there a need for as many journal</p></li>
+</ul>
+<p>Make comparaison:</p>
+<p>List of all Asrto journals</p>
 <div class="margin sidebar">
 <p class="sidebar-title"></p>
 <div>
@@ -482,30 +593,67 @@ And all were in the wrong!</p>
 </div></blockquote>
 </div>
 </div>
+<h5>The cost of Scientific publication</h5>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.tandfonline.com/doi/pdf/10.1080/08109021003676359">Article</a></p></li>
+</ul>
 <h4><strong>Promote competition vs collaboration  </strong></h4>
+<p>In the current atmosphere of highly competitive and uncertain research funding, publications are instrumental in determining how resources are distributed, who gets promoted, and in which directions research advances. This has cultivated a publish or perish mentalitywhere the focus is on maximizing the number of publications rather than on the validity and reproducibility of research findings as well as a decrease in the amount of information apportioned to each articles. (<span id="id1">[<a class="reference internal" href="../../Litterature/bibliography.html#id13" title="Satrajit S. Ghosh, Arno Klein, Brian Avants, and K. Jarrod Millman. Learning from open source software projects to improve scientific review. Frontiers in Computational Neuroscience, 2012. doi:10.3389/fncom.2012.00018.">7</a>]</span> copied from Intro)</p>
 <h5>Metrics</h5>
+<h6>Impact Factor</h6>
+<p>Journal</p>
+<h6>H-index</h6>
 <p>Scientist are judged by their number of publication to climb the accademic ladder. This is measured using <span class="hovertext" data-hover="Explain, h-index ...">metrics</span>.</p>
 <p>Hence we all tend to <strong>publish quick and numerous papers, rather than well and low number</strong></p>
 <ul class="simple">
 <li><p>Puts scientist away from their main mission, understanding the <strong>bigger picture</strong></p></li>
 </ul>
-<h3><strong>&#187;  <u>What is right</u></strong></h3>
 <h4><strong>Peer Review</strong></h4>
-<h4><strong>Journal template ?</strong></h4>
-<p>Very often publishing fees are justified by the employment of an army of editors that needs to be paid by the journal. Now sit down and think about it, you are actually doing the editorial job by using the journal latex template!</p>
-<p>Good and bad:</p>
+<p>Yes, I include the Peer Review process in this section as there is many flaws associated with it when performed in the context of commercial publications. <span id="id2">[<a class="reference internal" href="../../Litterature/bibliography.html#id13" title="Satrajit S. Ghosh, Arno Klein, Brian Avants, and K. Jarrod Millman. Learning from open source software projects to improve scientific review. Frontiers in Computational Neuroscience, 2012. doi:10.3389/fncom.2012.00018.">7</a>]</span> identified five of them:</p>
 <ul class="simple">
-<li><p>You know what you are going to get but:</p></li>
-<li><p>prevent creativity in sharing scientific content.</p></li>
-<li><p>Reproducibility crisis in Science.</p></li>
-<li><p>Lots of redundancy</p></li>
+<li><p>Reviewers are expected to have comprehensive expertise</p></li>
+<li><p>Reviewers do not have</p></li>
 </ul>
-<p>Experiments are not described efficiently in scientific papers and hence are <strong>hardly reproducible</strong>, especially when dealing with metastable samples (like ASW)</p>
+</div>
+<div class="section" id="can-we-do-better">
+<h2>Can we do better ?<a class="headerlink" href="#can-we-do-better" title="Permalink to this headline">¶</a></h2>
+<p>I am not the first one that have been asking this question</p>
 <ul class="simple">
-<li><p>Processing softwares not always shared</p></li>
-<li><p>Data in databases is not efficiently described and hard to extract, reprocess (give example)</p></li>
+<li><p><a class="reference external" href="https://www.frontiersin.org/research-topics/137/beyond-open-access-visions-for-open-evaluation-of-scientific-papers-by-post-publication-peer-review#articles">Special issue in frontier</a></p></li>
 </ul>
-<p>Overall, Scientific work is published in a <strong>Boring</strong> way, even though every piece of Science is interesting.</p>
+<p>Below is a selection of a few articles from this special issue</p>
+<ul class="simple">
+<li><p>Is the terrain favorable ?</p>
+<ul>
+<li><p>Are researcher agreeing that a new method is necessary ?</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="how">
+<h2>How ?<a class="headerlink" href="#how" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Learning from open source software projects to improve scientific review <span id="id3">[<a class="reference internal" href="../../Litterature/bibliography.html#id13" title="Satrajit S. Ghosh, Arno Klein, Brian Avants, and K. Jarrod Millman. Learning from open source software projects to improve scientific review. Frontiers in Computational Neuroscience, 2012. doi:10.3389/fncom.2012.00018.">7</a>]</span></p></li>
+</ul>
+<p><strong>Describe</strong>:</p>
+<div class="section" id="proposed-system">
+<h3>Proposed system<a class="headerlink" href="#proposed-system" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><span id="id4">[<a class="reference internal" href="../../Litterature/bibliography.html#id2" title="Dwight J. Kravitz and Chris I. Baker. Toward a new model of scientific publishing: discussion and a proposal. Frontiers in Computational Neuroscience, pages 1-12, 12 2011. doi:10.3389/fncom.2011.00055.">8</a>]</span></p></li>
+</ul>
+<p><strong>Describe</strong>:</p>
+<ul class="simple">
+<li><p><span id="id5">[<a class="reference internal" href="../../Litterature/bibliography.html#id12" title="Nikolaus Kriegeskorte, Alexander Walther, and Diana Deca. An emerging consensus for open evaluation: 18 visions for the future of scientific publishing. Frontiers in Computational Neuroscience, 11 2012. doi:10.3389/fncom.2012.00094.">9</a>]</span></p></li>
+</ul>
+<p><strong>Describe</strong>:</p>
+<div class="section" id="open-research">
+<h4>Open Research<a class="headerlink" href="#open-research" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><span id="id6">[<a class="reference internal" href="../../Litterature/bibliography.html#id14" title="Paul Longley Arthur and Lydia Hearn. Toward open research: a narrative review of the challenges and opportunities for open humanities. Journal of Communication, 9 2021. doi:10.1093/joc/jqab028.">10</a>]</span></p></li>
+</ul>
+</div>
+</div>
+</div>
 </div>
 
     <script type="text/x-thebe-config">
