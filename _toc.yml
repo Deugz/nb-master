@@ -4,6 +4,11 @@
 format: jb-book
 root: intro
 parts:
+  - caption: Profile
+    chapters:
+    - file: Profile/Interests
+    - file: CV/Academic/Academic_CV
+    - file: CV/WebDev/Academic_CV 
   - caption: Science for the people 
     chapters:
     - file: Projects/Manifesto 
@@ -15,20 +20,22 @@ parts:
   - caption: Teaching
     chapters:
     - file: Teaching/Teaching_Main
-  - caption: Blog
+  - caption: Blog / Versions
     chapters:
     - file: Blog/Blog_Main
       sections:
       - file: Blog/Posts/Scientific_Publication
       - file: Blog/Posts/Annie_woman      
       - file: Blog/Posts/ODAPA
+    - file: Blog/Version_Main
+      sections:
+      - file: Blog/Version/version1
   #- caption: The museum of non result
   - caption: Bibliography
     chapters:
     - file: Litterature/bibliography 
   - caption: Appendix
     chapters:
-    - file: CV/Academic_CV
     - file: Appendix/Help_main
       sections:
       - file: Appendix/Help/Style_guide

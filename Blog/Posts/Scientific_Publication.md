@@ -149,6 +149,9 @@ Well passion doesn't bring food in the table.
 Yes, some journals offers Open Access, but very often it is a costly options as you need to pay <span class="hovertext" data-hover="How is this money spend, I don't know">Article Processing Charges</span> (APC).
 For Nature they cost 9500 Euros !! (source: <a href="https://www.nature.com/nature-portfolio/open-access" target="blank">Here</a>) 
 
+###### Tools
+
+- [Sherpa romeo](https://v2.sherpa.ac.uk/romeo/): *online resource that aggregates and analyses publisher open access policies*
 
 Also, for me, the problem is deeper. 
 - Too many journal titles, enclose researcher into very narrow fields.
@@ -208,6 +211,9 @@ In the current atmosphere of highly competitive and uncertain research funding, 
 
 Hierarchical stature of a journal is determined by the Impact factor metrics.
 - Have overtaken the review process as arbiters of quality and significance of research.
+
+- [Astronomy papers ranked](https://www.scimagojr.com/journalrank.php?category=3103&page=1&total_size=89). - Sample size: 89
+
 
 <h6>H-index</h6>
 

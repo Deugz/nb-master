@@ -3,9 +3,31 @@
 
 This digital space where you have just set foot, is an **experiment** whose aim is to challenge the current *scientific publication system* by offering a creative alternative. There is a long way to go to get there though, and for the time being, it is a collection of `Jupyter Books`. They are canvas to share my research outputs and explore the tools available to make it `Findable, Accesible, Interoperable and Reusable`.
 
+## Map 
+
+
+:::::{div} full-width
+
+::::{grid} 2 
+:::{grid-item}
+:columns: 2
+Description
+:::
+:::{grid-item}
+:columns: 10
+
+```{figure} ../Docs/Ontology/Export/Master_Ont_1.png
+:name: Ontology
+:width: 3000px
+Knowledge graph obtain from [webvowl](https://service.tib.eu/webvowl/) using a custom ontology generated via [protege](link) 
+```
+:::
+::::
+:::::
+
 ## Introduction
 
-### Template
+### <strong>&#187;  <u> Template </u></strong>
 
 ````{margin} 
 ```{warning}

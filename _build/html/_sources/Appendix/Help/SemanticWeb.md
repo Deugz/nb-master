@@ -30,7 +30,32 @@
 
 - [Schema.org](https://schema.org/)
     - [Getting started](https://schema.org/docs/gs.html)
+    
+    
+### Build a simple ontologie
 
+**Tutorial serie**:
+- [Youtube_1](https://www.youtube.com/watch?v=mIh6KY0X4IU&list=PLSXoLBYuvBblPoSVWZHRdMe3XDlUJ2nte&index=4)
+
+**Software**: Protege
+
+- Class / Subclass
+    - The different foler / subfolder
+
+- Object properties can be given sense by adding **Characteristic
+
+    - isMarkdown
+    - is Folder
+
+```{note}
+Relation from ensemble theory
+- Fuctional
+- Transitive
+- Symetric
+- Reflexive
+
+**To check**
+```
 
 
 ## How to
@@ -109,9 +134,18 @@ I would like to:
 - ?
 
 
+
+- [Article](https://enterprise-knowledge.com/from-taxonomy-to-ontology/) - from taxonomy to ontology
+
+**Software**: Protege
+
 ## Knowledge graphs
 
 [OU Open knowledge graph](https://data.open.ac.uk/)
+
+**Other examples**
+
+- [from Angelo](https://aida.kmi.open.ac.uk/dashboard/conference/Neural%20Information%20Processing%20Systems%20(NeurIPS)) - This data is extracted from knowledge graph. (is it ?) - How?
 
 ```{admonition} Question
 
@@ -120,7 +154,13 @@ I would like to:
 - Better to generate my own parent website to create a publication plateform linking different work
 ```
 
+- [Blog article I](https://enterprise-knowledge.com/transforming-tabular-data-into-personalized-componentized-content-using-knowledge-graphs-in-python/): Transforming Tabular Data into Personalized, Componentized Content using Knowledge Graphs in Python
+
+- [Blog article II](https://enterprise-knowledge.com/content-personalization-with-knowledge-graphs-in-python/): Content Personalization with Knowledge Graphs in Python
+
 <h3><strong>Web-site architecture mapping</strong></h3>
+
+- [networkx](https://networkx.org/documentation/latest/tutorial.html#creating-a-graph): Python library to plot knowledge graphs
 
 - **Notebook**
     - Semantic web workflow (?)

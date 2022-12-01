@@ -5,6 +5,10 @@
 - Markdown
 - Jupyter Book
 
+**Dedicated tutorial**
+
+- [Page layout](https://jupyterbook.org/en/stable/content/layout.html)
+
 
 ***
 
@@ -30,6 +34,10 @@ Markdown give you the possibility to generate buttons.
 2 main methods:
 - [badgen](https://badgen.net/)
 - [shield](https://shields.io/)
+
+also possible with sphinx
+
+- [Sphinx-doc](https://sphinx-design.readthedocs.io/en/latest/badges_buttons.html#icons)
 
 ### Examples 
 
@@ -172,12 +180,23 @@ $$
 w_{t+1} = (1 + r_{t+1}) s(w_t) + y_{t+1}
 ```
 
+### Tabs
 
+can be embeded in dropdown
 
+- [Sphinx-doc](https://sphinx-design.readthedocs.io/en/latest/tabs.html#tab-set-options)
+
+### Dropdown
+
+- [Sphinx-doc](https://sphinx-design.readthedocs.io/en/latest/dropdowns.html)
 
 ## HTML Symbol
 
 ### Orga
+
+::::{grid} 2
+
+:::{grid-item}
 
 - &#9989; - &#9989 -  ticked box
 - &#x274C; - &#x274C - red cross
@@ -196,3 +215,19 @@ w_{t+1} = (1 + r_{t+1}) s(w_t) + y_{t+1}
 - &#128640; - &#128640 - Rocket 
 
 - &#x26D4; - &#x26D4 - panneau stop
+
+- &#129482; - &#129482 - Ice cube
+    - &#x1F9CA; - &#x1F9CA - Ice cube 2
+ 
+ 
+:::
+
+:::{grid-item}
+
+**PhD**
+
+- 1
+
+:::
+
+::::

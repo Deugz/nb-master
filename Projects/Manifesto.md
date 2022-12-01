@@ -9,10 +9,11 @@
     
 <div id="subdiv1-3">
 
-:::{card} Blog Post
-:link: ../Blog/Posts/Scientific_Publication.md
-:link-type: ref
-
+:::{card} 
+:link: ../Blog/Posts/Scientific_Publication.html
+:class-header: bg-light
+**Blog Post**
+^^^
 Scientific Publication, how it works, what is good and wrong about it.
 
 - 20 min read
@@ -143,12 +144,12 @@ The journey towards the completion of a PhD is long, hard and students are very 
 
 ::::{grid} 1
 :::{grid-item-card} 
-:img-top: ../Docs/OU_Logo.svg
+:img-top: ../Docs/SVG_files/OU_Logo.svg
 :link: "https://deugz.github.io/nb-phd/_build/html/"
 ^^^
 **PhD Part 2** 
 +++
-![flag alt >](../Docs/logo_JB.png) Version: 0.1 
+![flag alt >](../Docs/Images/logo_JB.png) Version: 0.1 
 :::
 ::::
 
@@ -360,6 +361,14 @@ Alors certe, il y a probablement des outils plus efficaces et rapides sur le mar
 
 ***
 
+```{margin}
+
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://assets1.lottiefiles.com/private_files/lf30_yyuin7so.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"  loop  autoplay></lottie-player>
+
+
+```
+
 <h3><strong>&#187;  <u>Editorial canvas</u></strong></h3> 
 
 I have always been frustrated by the fact that I could never play with the <strong>edition</strong> aspect of every piece of science I have been writimg. All the time I had to obey to a certain <strong>template</strong> that I never found appealing to me. Owing my own web-site give me the opportunity to be an integrant part of the edition process as it clearly is an  <span class="hovertext" data-hover="a testing environment in a computer system in which new or untested software or coding can be run securely">editorial sandbox</span>.
@@ -462,6 +471,13 @@ Education image
 
 Put them online and give them a quick twist to fit a wider audience.
 
+```{margin}
+
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://assets3.lottiefiles.com/packages/lf20_7nzxl8xx.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"  loop  autoplay></lottie-player>
+
+
+```
 
 <h3><strong>&#187;  <u>Publication plateform</u></strong></h3>
 
@@ -478,7 +494,22 @@ Put them online and give them a quick twist to fit a wider audience.
 
 - [StarAtlas](https://staratlas.com/)
 
+```{margin}
+
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://assets3.lottiefiles.com/private_files/lf30_hilbd2uq.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"  loop  autoplay></lottie-player>
+
+```
+
 <h4><strong> Lifelong Peer Review </strong></h4>
+
+```{margin}
+
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://assets9.lottiefiles.com/packages/lf20_fg8zotvy.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"  loop  autoplay></lottie-player>
+
+```
+
 
 <h4><strong> Open for Collaboration </strong></h4>
 
@@ -496,7 +527,12 @@ I think it is worth a try (link to jupyter-book tuto)
 
 
 
+```{margin}
 
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://assets7.lottiefiles.com/packages/lf20_AFxIPvJHjK.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"  loop  autoplay></lottie-player>
+
+```
 
 <h3><strong>&#187;  <u>Communication</u></strong></h3>
 
@@ -538,7 +574,7 @@ I aim to deliver content for **everybody** `interested in Science`, so let me kn
 
 
     
-```{image} ../Docs/Aquarium.png
+```{image} ../Docs/Images/Aquarium.png
 ---
 name: Aquarium
 ---
@@ -592,7 +628,83 @@ Create svg diagram of scale (different level), and fish at every scale with lift
 - Créer une société de chercheurs indépendants
 
     - délivré de la bureaucratie qui gangrène le milieu accadémique, mais également du monopole des sociétés de publication.
+ 
+I am imagining a world where researchers would be <strong>free</strong> to publish their work in their own terms, far from the current commercial scientific publication system. The internet as provided the emergence of countless <strong>open and free softwares</strong> (cf margin) that are now making this world a reality. This website is an experiment to show an exemple and highlighting all the benefits given by adopting this approach, there is a few 
+ 
+<h3><strong>&#187;  <u> Benefits for ... </u></strong></h3>
 
+:::::{div} full-width
+::::{grid} 3
+
+<div>
+    
+<h4><strong>You, researchers</strong></h4>
+ 
+:::{grid-item-card}
+    
+Break free from commercial scientific publication by creating your own <strong>accademic profile</strong>. You will get a lifelong publication plateform that is self maintained and hence, owned by you. It can welcome <strong>all your scientific outputs</strong>:
+- Articles
+- Data
+- Code
+- Notes
+- Method
+- Presentations
+- Teaching
+- ... 
+
+
+Stored, versioned, citable (via `DOI`) and embebeded into a prebuild web-site wich gives you the abillity to link all this content together. This promote an <strong> open, transparent and lifelong peer review </strong>process with a content that can be adapted to fit multiple audiences.     
+    
+:::
+    
+
+</div>
+    
+<div>
+    
+<h4><strong>The scientific community</strong></h4>
+
+:::{grid-item-card}
+
+This website provide a <span class="hovertext" data-hover="Definition">hub</span> for scientists of all fields, interested in the same research question to provide their inputs. Powerfull tool to promote colaboration between interdisciplinary researcher. I think all together we can write science collaboratively, in an <strong> Encyclopaedia 2.0 </strong>. How ? On this web-site you can:
+    
+- **Review**: Wether you are a peer, a student or everything in between, you can comment and review this work using `hypothesis` (the three buttons on the right hand corner).
+<br>
+<br>
+    
+- **Comment**: More general comment at the bottom of the page
+<br>
+<br>
+    
+- **Contribute**: Writing articles within the existing content (work in progress)
+
+    
+**Participate** and create your own profile 
+:::
+    
+</div>
+
+<div>
+    
+<h4><strong>Peoples</strong></h4>
+    
+:::{grid-item-card}
+
+- Access to cutting edge science
+    
+- New education method
+    
+:::
+    
+</div>
+
+::::
+:::::
+
+```{admonition} Et vous aussi les potes! ![flag alt >](Docs/SVG_icons/dark-dialogue-bubble-svgrepo-com.svg) - ![flag alt >](Docs/SVG_icons/flag-for-flag-france-svgrepo-com.svg)
+:class: dropdown
+Desole, la majorite du contenu est en anglais, accessibilite exige! Cependant, je pense a vous, et si vous avez la curiosite de vous lancer dans une exploration de ce site, je suis pret a vous accompagner. Suivez ces `admonitions` et tout devrai bien se passer.
+```
 
 # Comments
 

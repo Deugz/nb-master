@@ -1,102 +1,68 @@
 # Overview
 
-***
-**Plan**
-
-- 
--
-
-Create link to taching 
-
-***
-
-## Introduction
-
-
-````{margin} 
-
-```{note} 
-**Anita Dawes** has been my supervisor during the 2<sup>nd</sup> half of my PhD.
-
-- [gender issues in STEM](https://www.youtube.com/watch?v=IDpognCJK9k&list=PLF394wWsaW_DXpWNlWGMN5jaIA0gHqJuv&index=5) 
-
-```
-
-````
-<br>
-
-<video src="../_static/videos/EU Space Awareness Career Interviews Anita Dawes, Astrochemist __ FULL 3 min version.mp4" width="100%" height="" controls>
-  Your browser does not support the video tag.
-</video>
-
-
-## Ongoing
-
-### Stairway to Heaven
-
 :::::{margin} 
 ::::{grid} 1
 :::{grid-item-card} 
 :img-top: Docs/OU_Logo.svg
-:link: "https://deugz.github.io/nb-phd/_build/html/"
-^^^
-**PhD Part 2** 
-+++
-![flag alt >](../Docs/logo_JB.png) Version: 0.1 
+:link: "https://www.open.ac.uk/"
 :::
 ::::
 :::::
 
+# 2023
 
-<article id="P1">
-    
-<div id="subdiv2">
+## PhD Thesis
+
+::::{grid} 2
+:::{grid-item-card}
+:class-header: bg-light
+
+**Part 1**
+^^^
 
 ```{image} Docs/3Dsuccess.png
 :alt: 3D cool plot
 :width: 650px
 ```
 
-    
-</div>
-    
-<div id="subdiv2">    
-  
-**Abstract**: study of Amorphous Solid Water physical properties
-    
-    
-</div>
-    
-</article>
-
-***
-
-
-<article id="P1">
-    
-<div id="subdiv2">
+[Book](https://deugz.github.io/nb-phd/_build/html/)
 
 **Data**
 
 - DR1_Full: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7220303.svg)](https://doi.org/10.5281/zenodo.7220303)
 
-
-    
-</div>
-    
-<div id="subdiv2">
-    
 **Interactive Notebooks**
 
 - Plotting Software: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Deugz/ASW_Data_Processing/HEAD?labpath=Data_Analysis_Binder.ipynb)
 
+**Abstract**: study of Amorphous Solid Water physical properties
 
-    
-</div>
-    
-</article>
+:::
 
-***
+:::{grid-item-card}
+:class-header: bg-light
+
+**PhD Part 2**
+
+^^^
+
+```{image} Docs/Bench_And_Glovebox_Assembly_20-12-2019_IMG3.jpg
+:alt: 3D cool plot
+:width: 650px
+```
+
+**Data**
+    
+**Interactive Notebooks**
+
+Still to write !! Thesis 
+
+
+
+:::
+
+::::
+
 
 ```{admonition} A bit of context
 link towards relevant courses
@@ -107,70 +73,9 @@ link towards relevant courses
 
 
 
-### The Museum of non result
-
-:::::{margin} 
-::::{grid} 1
-:::{grid-item-card} 
-:img-top: Docs/OU_Logo.svg
-:link: "https://deugz.github.io/nb-phd/_build/html/"
-^^^
-**PhD Part 1**
-+++
-
-<br>
-![flag alt >](../Docs/logo_JB.png) Version: 0.1 
-
-Last upload: 24/08/22
-:::
-::::
-:::::
-
-<article id="P1">
-    
-<div id="subdiv2">
-
-```{image} Docs/Bench_And_Glovebox_Assembly_20-12-2019_IMG3.jpg
-:alt: 3D cool plot
-:width: 650px
-```
-
-    
-</div>
-    
-<div id="subdiv2">    
-  
-Description, study of Amorphous Solid Water physical properties
-    
-    
-</div>
-    
-</article>
-
-**Data**
-    
-**Interactive Notebooks**
-
-Still to write !! Thesis 
-
-
-## Legacy
-
+# 2022
 
 ### Condor Project 
-
-:::::{margin} 
-::::{grid} 1
-:::{grid-item-card} 
-:img-top: Docs/OU_Logo.svg
-:link: "https://deugz.github.io/nb-phd/_build/html/"
-^^^
-**PostDoc**
-+++
-![flag alt >](../Docs/logo_JB.png) Version: 0.1 
-:::
-::::
-:::::
 
 <article id="P1">
     
@@ -178,7 +83,7 @@ Still to write !! Thesis
 
 ```{image} Docs/Capture_Jim.PNG
 :alt: Condor Model
-:width: 650px
+:width: 300px
 ```
 
     
@@ -192,6 +97,8 @@ Condor Model
     
 </article>
 
+# 2021
+
 ### First Steps
 
 <article id="P1">
@@ -200,7 +107,7 @@ Condor Model
 
 ```{image} Docs/FeH2O.png
 :alt: Fe:H2O
-:width: 650px
+:width: 300px
 ```
 
     

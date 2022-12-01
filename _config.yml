@@ -47,5 +47,6 @@ sphinx:
   config:
     language: en
     html_extra_path: ['Script']
+    bibtex_reference_style: author_year
   extra_extensions:
   - sphinx_design
