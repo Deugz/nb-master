@@ -4,11 +4,13 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
     <title>Science 2. &#8212; MASTER</title>
     
-  <link href="_static/css/theme.css" rel="stylesheet">
-  <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
 
     
   <link rel="stylesheet"
@@ -18,23 +20,17 @@
   <link rel="preload" as="font" type="font/woff2" crossorigin
     href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
 
-    
-      
-
-    
     <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
+    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=5115cc725059bd94278eecd172e13a965bf8f5a9" type="text/css" />
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
     <link rel="stylesheet" type="text/css" href="_static/custom_style.css" />
-    <link rel="stylesheet" type="text/css" href="_static/.ipynb_checkpoints/custom_style-checkpoint.css" />
-    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
-    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
     <link rel="stylesheet" type="text/css" href="_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
     
-  <link rel="preload" as="script" href="_static/js/index.be7d3bbb2ef33a8344ce.js">
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
 
     <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
     <script src="_static/jquery.js"></script>
@@ -42,12 +38,11 @@
     <script src="_static/doctools.js"></script>
     <script src="_static/clipboard.min.js"></script>
     <script src="_static/copybutton.js"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
     <script src="_static/togglebutton.js"></script>
-    <script src="_static/assets/Picture_display.js"></script>
-    <script src="_static/assets/.ipynb_checkpoints/Picture_display-checkpoint.js"></script>
     <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
     <script kind="utterances">
 
@@ -83,8 +78,8 @@ var addUtterances = () => {
 }
 commentsRunWhenDOMLoaded(addUtterances);
 </script>
+    <script src="_static/assets/Picture_display.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script src="_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
     <script src="_static/design-tabs.js"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
 const thebe_selector = ".thebe,.cell"
@@ -112,7 +107,21 @@ const thebe_selector_output = ".output, .cell_output"
                 </script>
 
   </head>
-  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay overlay-navbar" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<!-- Checkboxes to toggle the in-page toc -->
+<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
+<label class="overlay overlay-pagetoc" for="__page-toc">
+    <div class="visually-hidden">Toggle in-page Table of Contents</div>
+</label>
+<!-- Headers at the top -->
+<div class="announcement header-item noprint">Current Version: 27/06/2022</div>
+<div class="header header-item noprint"></div>
+
     
     <div class="container-fluid" id="banner"></div>
 
@@ -121,9 +130,10 @@ const thebe_selector_output = ".output, .cell_output"
     <div class="container-xl">
       <div class="row">
           
-<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
-    
-        <div class="navbar-brand-box">
+<!-- Sidebar -->
+<div class="bd-sidebar noprint" id="site-navigation">
+    <div class="bd-sidebar__content">
+        <div class="bd-sidebar__top"><div class="navbar-brand-box">
     <a class="navbar-brand text-wrap" href="index.html">
       
         <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
@@ -152,10 +162,27 @@ const thebe_selector_output = ".output, .cell_output"
    Scientific interests
   </a>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="CV/Academic/Academic_CV.html">
-   Academic CV
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="Profile/CVitae.html">
+   Curriculum Vitae
   </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="Profile/CV/Academic/Academic_CV.html">
+     Academic CV
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="Profile/CV/WebDev/WebDev_CV.html">
+     Web-Dev CV
+    </a>
+   </li>
+  </ul>
  </li>
 </ul>
 <p aria-level="2" class="caption" role="heading">
@@ -214,8 +241,8 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal" href="Blog/Blog_Main.html">
    Posts
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
-  <label for="toctree-checkbox-1">
+  <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+  <label for="toctree-checkbox-2">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -241,8 +268,8 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal" href="Blog/Version_Main.html">
    Versions
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
-  <label for="toctree-checkbox-2">
+  <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
+  <label for="toctree-checkbox-3">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -257,37 +284,30 @@ const thebe_selector_output = ".output, .cell_output"
 </ul>
 <p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
-  Bibliography
- </span>
-</p>
-<ul class="nav bd-sidenav">
- <li class="toctree-l1">
-  <a class="reference internal" href="Litterature/bibliography.html">
-   Bibliography
-  </a>
- </li>
-</ul>
-<p aria-level="2" class="caption" role="heading">
- <span class="caption-text">
   Appendix
  </span>
 </p>
 <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="Appendix/Litterature/bibliography.html">
+   Bibliography
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Appendix/Help/Style_guide.html">
+   Guide
+  </a>
+ </li>
  <li class="toctree-l1 has-children">
   <a class="reference internal" href="Appendix/Help_main.html">
    Help
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
-  <label for="toctree-checkbox-3">
+  <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
+  <label for="toctree-checkbox-4">
    <i class="fas fa-chevron-down">
    </i>
   </label>
   <ul>
-   <li class="toctree-l2">
-    <a class="reference internal" href="Appendix/Help/Style_guide.html">
-     Markdown cheatset
-    </a>
-   </li>
    <li class="toctree-l2">
     <a class="reference internal" href="Appendix/Help/The_Turing_Way.html">
      The Turing Way
@@ -318,88 +338,193 @@ const thebe_selector_output = ".output, .cell_output"
 </ul>
 
     </div>
-</nav> <!-- To handle the deprecated key -->
-
-</div>
-
-
-          
-
-
-          
-<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
-    
-    <div class="topbar container-xl fixed-top">
-    <div class="topbar-contents row">
-        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
-        <div class="col pl-md-4 topbar-main">
+</nav></div>
+        <div class="bd-sidebar__bottom">
+             <!-- To handle the deprecated key -->
             
-            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
-                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
-                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
-                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
-                <i class="fas fa-bars"></i>
-                <i class="fas fa-arrow-left"></i>
-                <i class="fas fa-arrow-up"></i>
-            </button>
-            
-            
-<div class="dropdown-buttons-trigger">
-    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
-            class="fas fa-download"></i></button>
-
-    <div class="dropdown-buttons">
-        <!-- ipynb file if we had a myst markdown file -->
-        
-        <!-- Download raw file -->
-        <a class="dropdown-buttons" href="_sources/intro.md"><button type="button"
-                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
-                data-placement="left">.md</button></a>
-        <!-- Download PDF via print -->
-        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
-                onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
-    </div>
-</div>
-
-            <!-- Source interaction buttons -->
-
-<div class="dropdown-buttons-trigger">
-    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
-        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
-    <div class="dropdown-buttons sourcebuttons">
-        <a class="repository-button"
-            href="https://github.com/Deugz/nb-master"><button type="button" class="btn btn-secondary topbarbtn"
-                data-toggle="tooltip" data-placement="left" title="Source repository"><i
-                    class="fab fa-github"></i>repository</button></a>
-        <a class="issues-button"
-            href="https://github.com/Deugz/nb-master/issues/new?title=Issue%20on%20page%20%2Fintro.html&body=Your%20issue%20content%20here."><button
-                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
-                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
-        <a class="edit-button" href="https://github.com/Deugz/nb-master/edit/main/_build/html/intro.md"><button
-                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
-                title="Edit this page"><i class="fas fa-pencil-alt"></i>suggest edit</button></a>
-    </div>
-</div>
-
-            <!-- Full screen (wrap in <a> to have style consistency -->
-
-<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
-        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
-        title="Fullscreen mode"><i
-            class="fas fa-expand"></i></button></a>
-
-            <!-- Launch buttons -->
-
         </div>
+    </div>
+    <div id="rtd-footer-container"></div>
+</div>
 
-        <!-- Table of contents -->
-        <div class="d-none d-md-block col-md-2 bd-toc show noprint">
-            
-            <div class="tocsection onthispage pt-5 pb-3">
-                <i class="fas fa-list"></i> Contents
-            </div>
-            <nav id="bd-toc-nav" aria-label="Page">
-                <ul class="visible nav section-nav flex-column">
+
+          
+
+
+          
+<!-- A tiny helper pixel to detect if we've scrolled -->
+<div class="sbt-scroll-pixel-helper"></div>
+<!-- Main content -->
+<div class="col py-0 content-container">
+    
+    <div class="header-article row sticky-top noprint">
+        
+
+
+
+<div class="col py-1 d-flex header-article-main">
+    <div class="header-article__left">
+        
+        <label for="__navigation"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="right"
+title="Toggle navigation"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-bars"></i>
+  </span>
+
+</label>
+
+        
+    </div>
+    <div class="header-article__right">
+<button onclick="toggleFullScreen()"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="bottom"
+title="Fullscreen mode"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+<div class="menu-dropdown menu-dropdown-repository-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Source repositories">
+      <i class="fab fa-github"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="https://github.com/Deugz/nb-master"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Source repository"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="headerbtn__text-container">repository</span>
+</a>
+
+      </li>
+      
+      <li>
+        <a href="https://github.com/Deugz/nb-master/issues/new?title=Issue%20on%20page%20%2Fintro.html&body=Your%20issue%20content%20here."
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Open an issue"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="headerbtn__text-container">open issue</span>
+</a>
+
+      </li>
+      
+      <li>
+        <a href="https://github.com/Deugz/nb-master/edit/main/_build/html/intro.md"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Edit this page"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-pencil-alt"></i>
+  </span>
+<span class="headerbtn__text-container">suggest edit</span>
+</a>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+<div class="menu-dropdown menu-dropdown-download-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Download this page">
+      <i class="fas fa-download"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="_sources/intro.md"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Download source file"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="headerbtn__text-container">.md</span>
+</a>
+
+      </li>
+      
+      <li>
+        
+<button onclick="printPdf(this)"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="left"
+title="Print to PDF"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="headerbtn__text-container">.pdf</span>
+</button>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
+
+    </div>
+</div>
+
+<!-- Table of contents -->
+<div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
  <li class="toc-h1 nav-item toc-entry">
   <a class="reference internal nav-link" href="#">
    Science 2.
@@ -444,12 +569,11 @@ const thebe_selector_output = ".output, .cell_output"
  </li>
 </ul>
 
-            </nav>
-        </div>
-    </div>
+    </nav>
 </div>
-    <div id="main-content" class="row">
-        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+    </div>
+    <div class="article row">
+        <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
                 <h1>Science 2.</h1>
@@ -510,12 +634,13 @@ const thebe_selector_output = ".output, .cell_output"
                     </div>
                 </div>
             </div>
-            
+            <main id="main-content" role="main">
+                
               <div>
                 
-  <div class="tex2jax_ignore mathjax_ignore section" id="science-2-flag-alt">
-<h1>Science 2.<img alt="flag alt &gt;&gt;" src="_images/Anarchy.png" /><a class="headerlink" href="#science-2-flag-alt" title="Permalink to this headline">¶</a></h1>
-<div class="margin sidebar">
+  <section class="tex2jax_ignore mathjax_ignore" id="science-2-flag-alt">
+<h1>Science 2.<img alt="flag alt &gt;&gt;" src="_images/Anarchy.png" /><a class="headerlink" href="#science-2-flag-alt" title="Permalink to this headline">#</a></h1>
+<aside class="margin sidebar">
 <p class="sidebar-title"></p>
 <div id="colour">
 <img alt="_images/Vincent-Deguin-OpenUniversity50_crop.jpg" src="_images/Vincent-Deguin-OpenUniversity50_crop.jpg" />
@@ -529,7 +654,7 @@ const thebe_selector_output = ".output, .cell_output"
 <p><img alt="flag alt &gt;" src="_images/github-svgrepo-com.svg" /> <a class="reference external" href="https://github.com/Deugz">Deugz</a></p>
 <p><img alt="flag alt &gt;" src="_images/codepen-svgrepo-com.svg" /> <a class="reference external" href="https://codepen.io/deugz/">Deugz</a></p>
 </div>
-</div>
+</aside>
 <hr class="docutils" />
 <div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
 <div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
@@ -568,7 +693,7 @@ const thebe_selector_output = ".output, .cell_output"
 </div>
 <p><span class="hovertext" data-hover="and it's related science questions">*</span></p>
 <hr class="docutils" />
-<div class="margin sidebar">
+<aside class="margin sidebar">
 <p class="sidebar-title"></p>
 <p><strong><u>Want to help </u> (<img alt="flag alt &gt;" src="_images/coins-money-svgrepo-com.svg" />) ? </strong></p>
 <br>
@@ -579,7 +704,7 @@ or
 <br>
 <br>
 <p><img alt="flag alt &gt;" src="_images/patreon-svgrepo-com.svg" /> <a class="reference external" href="https://www.patreon.com/Science_for_the_People">Patreon</a></p>
-</div>
+</aside>
 <br>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
@@ -597,10 +722,12 @@ or
 <p>This web-site is dived in 4 main sections:</p>
 </div>
 <div id="subdiv2">  
-<div class="figure align-default" id="jwst1">
+<figure class="align-default" id="jwst1">
 <img alt="_images/JWST_cloud1.jpg" src="_images/JWST_cloud1.jpg" />
-<p class="caption"><span class="caption-number">Fig. 1 </span><span class="caption-text">James Web Space Telescope <a class="reference external" href="https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/JWST/JWST.html">JWST</a></span><a class="headerlink" href="#jwst1" title="Permalink to this image">¶</a></p>
-</div>
+<figcaption>
+<p><span class="caption-number">Fig. 1 </span><span class="caption-text">James Web Space Telescope <a class="reference external" href="https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/JWST/JWST.html">JWST</a></span><a class="headerlink" href="#jwst1" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
 </div>
 </article>
 </div>
@@ -650,8 +777,8 @@ or
 </div>
 </div>
 </div>
-<div class="section" id="science-for-the-people">
-<h2><strong>Science For The People</strong><a class="headerlink" href="#science-for-the-people" title="Permalink to this headline">¶</a></h2>
+<section id="science-for-the-people">
+<h2><strong>Science For The People</strong><a class="headerlink" href="#science-for-the-people" title="Permalink to this headline">#</a></h2>
 <p class="emphase"> New tools and methods for publishing scientific content </p>
 <div class="full-width docutils">
 <div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
@@ -770,8 +897,8 @@ or
 <svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
 </summary><div class="sd-summary-content sd-card-body docutils">
 <div class="sd-tab-set docutils">
-<input checked="checked" id="63cec0b0-3237-49e5-9016-468b282ac654" name="fe6472b7-5fb0-408c-aed7-b7048511df4c" type="radio">
-</input><label class="sd-tab-label" for="63cec0b0-3237-49e5-9016-468b282ac654">
+<input checked="checked" id="b4fbcad0-0a5a-4106-9b3e-f66368d38f0b" name="76447692-795f-4f33-9b99-8eb1ac70c6ba" type="radio">
+</input><label class="sd-tab-label" for="b4fbcad0-0a5a-4106-9b3e-f66368d38f0b">
 Supervisors</label><div class="sd-tab-content docutils">
 <ul class="simple">
 <li><p class="sd-card-text">PhD</p>
@@ -782,39 +909,39 @@ Supervisors</label><div class="sd-tab-content docutils">
 </li>
 </ul>
 </div>
-<input id="ba0b87f1-44a3-4c52-9359-ad14f6b1fd7c" name="fe6472b7-5fb0-408c-aed7-b7048511df4c" type="radio">
-</input><label class="sd-tab-label" for="ba0b87f1-44a3-4c52-9359-ad14f6b1fd7c">
+<input id="35205b03-b1e2-4cff-aa3e-3d37009feb72" name="76447692-795f-4f33-9b99-8eb1ac70c6ba" type="radio">
+</input><label class="sd-tab-label" for="35205b03-b1e2-4cff-aa3e-3d37009feb72">
 Researchers</label><div class="sd-tab-content docutils">
 <ul class="simple">
 <li><p class="sd-card-text">Go check the <a class="reference external" href="https://deugz.github.io/nb-PhD/_build/html/intro.html">Research</a> page.</p></li>
 </ul>
 </div>
-<input id="102f5f40-9b50-447e-8fb6-018314e76d2f" name="fe6472b7-5fb0-408c-aed7-b7048511df4c" type="radio">
-</input><label class="sd-tab-label" for="102f5f40-9b50-447e-8fb6-018314e76d2f">
+<input id="3352929e-7297-44e7-a590-3bcd0e78b3b6" name="76447692-795f-4f33-9b99-8eb1ac70c6ba" type="radio">
+</input><label class="sd-tab-label" for="3352929e-7297-44e7-a590-3bcd0e78b3b6">
 Students</label><div class="sd-tab-content docutils">
 <p class="sd-card-text">Explore the different sections</p>
 </div>
-<input id="43346aa7-93e8-4653-b5d7-d02c4d74cf33" name="fe6472b7-5fb0-408c-aed7-b7048511df4c" type="radio">
-</input><label class="sd-tab-label" for="43346aa7-93e8-4653-b5d7-d02c4d74cf33">
+<input id="b7fdc7f2-9158-4c76-bafd-2f6f91b995f6" name="76447692-795f-4f33-9b99-8eb1ac70c6ba" type="radio">
+</input><label class="sd-tab-label" for="b7fdc7f2-9158-4c76-bafd-2f6f91b995f6">
 Teachers</label><div class="sd-tab-content docutils">
 <p class="sd-card-text">Check teaching and find the ressource you need</p>
 </div>
-<input id="dc2bddd5-ca68-438d-9614-4575b7623612" name="fe6472b7-5fb0-408c-aed7-b7048511df4c" type="radio">
-</input><label class="sd-tab-label" for="dc2bddd5-ca68-438d-9614-4575b7623612">
+<input id="26f2f216-6874-4599-9191-37329350c33f" name="76447692-795f-4f33-9b99-8eb1ac70c6ba" type="radio">
+</input><label class="sd-tab-label" for="26f2f216-6874-4599-9191-37329350c33f">
 Friends</label><div class="sd-tab-content docutils">
 <p class="sd-card-text">Bon …</p>
 </div>
-<input id="983c5dbe-2359-41d7-a426-5a1bed96405a" name="fe6472b7-5fb0-408c-aed7-b7048511df4c" type="radio">
-</input><label class="sd-tab-label" for="983c5dbe-2359-41d7-a426-5a1bed96405a">
+<input id="9c61e84c-b3e6-474e-8cd8-feb2ca8647a3" name="76447692-795f-4f33-9b99-8eb1ac70c6ba" type="radio">
+</input><label class="sd-tab-label" for="9c61e84c-b3e6-474e-8cd8-feb2ca8647a3">
 Anyone</label><div class="sd-tab-content docutils">
 <p class="sd-card-text">Just explore</p>
 </div>
 </div>
 </div>
-</details></div>
-<div class="section" id="research">
-<h2><strong>Research</strong><a class="headerlink" href="#research" title="Permalink to this headline">¶</a></h2>
-<p>All my research projects are designed following the <span class="hovertext" data-hover="Findability, Accessibility, Interoperability and Reusability"><strong>FAIR</strong></span> <span id="id1">[<a class="reference internal" href="Litterature/bibliography.html#id2" title="Mark D. Wilkinson, Michel Dumontier, IJsbrand Jan Aalbersberg, Gabrielle Appleton, Myles Axton, Arie Baak, Niklas Blomberg, Jan Willem Boiten, Luiz Bonino da Silva Santos, Philip E. Bourne, Jildau Bouwman, Anthony J. Brookes, Tim Clark, Mercè Crosas, Ingrid Dillo, Olivier Dumon, Scott Edmunds, Chris T. Evelo, Richard Finkers, Alejandra Gonzalez-Beltran, Alasdair J.G. Gray, Paul Groth, Carole Goble, Jeffrey S. Grethe, Jaap Heringa, Peter A.C. t Hoen, Rob Hooft, Tobias Kuhn, Ruben Kok, Joost Kok, Scott J. Lusher, Maryann E. Martone, Albert Mons, Abel L. Packer, Bengt Persson, Philippe Rocca-Serra, Marco Roos, Rene van Schaik, Susanna Assunta Sansone, Erik Schultes, Thierry Sengstag, Ted Slater, George Strawn, Morris A. Swertz, Mark Thompson, Johan Van Der Lei, Erik Van Mulligen, Jan Velterop, Andra Waagmeester, Peter Wittenburg, Katherine Wolstencroft, Jun Zhao, and Barend Mons. Comment: the fair guiding principles for scientific data management and stewardship. Scientific Data, 3 2016. doi:10.1038/sdata.2016.18.">Wilkinson <em>et al.</em>, 2016</a>]</span> principles. They are shared <span class="hovertext" data-hover="Daily"><em>”live”</em></span>  on this website which is a one of its kind <strong>scientific publication and colaboration</strong> plateform.</p>
+</details></section>
+<section id="research">
+<h2><strong>Research</strong><a class="headerlink" href="#research" title="Permalink to this headline">#</a></h2>
+<p>All my research projects are designed following the <span class="hovertext" data-hover="Findability, Accessibility, Interoperability and Reusability"><strong>FAIR</strong></span> <span id="id1">[<a class="reference internal" href="Appendix/Litterature/bibliography.html#id2" title="Mark D. Wilkinson, Michel Dumontier, IJsbrand Jan Aalbersberg, Gabrielle Appleton, Myles Axton, Arie Baak, Niklas Blomberg, Jan Willem Boiten, Luiz Bonino da Silva Santos, Philip E. Bourne, Jildau Bouwman, Anthony J. Brookes, Tim Clark, Mercè Crosas, Ingrid Dillo, Olivier Dumon, Scott Edmunds, Chris T. Evelo, Richard Finkers, Alejandra Gonzalez-Beltran, Alasdair J.G. Gray, Paul Groth, Carole Goble, Jeffrey S. Grethe, Jaap Heringa, Peter A.C. t Hoen, Rob Hooft, Tobias Kuhn, Ruben Kok, Joost Kok, Scott J. Lusher, Maryann E. Martone, Albert Mons, Abel L. Packer, Bengt Persson, Philippe Rocca-Serra, Marco Roos, Rene van Schaik, Susanna Assunta Sansone, Erik Schultes, Thierry Sengstag, Ted Slater, George Strawn, Morris A. Swertz, Mark Thompson, Johan Van Der Lei, Erik Van Mulligen, Jan Velterop, Andra Waagmeester, Peter Wittenburg, Katherine Wolstencroft, Jun Zhao, and Barend Mons. Comment: the fair guiding principles for scientific data management and stewardship. Scientific Data, 3 2016. doi:10.1038/sdata.2016.18.">Wilkinson <em>et al.</em>, 2016</a>]</span> principles. They are shared <span class="hovertext" data-hover="Daily"><em>”live”</em></span>  on this website which is a one of its kind <strong>scientific publication and colaboration</strong> plateform.</p>
 <h3><strong>&#187;  <u> Scientific projects </u></strong></h3>
 <h4><strong>My own</strong></h4>
 <br>
@@ -877,7 +1004,7 @@ Anyone</label><div class="sd-tab-content docutils">
 </ul>
 </div>
 <div class="sd-card-footer docutils">
-<p class="sd-card-text"><strong>Scientific publication</strong>  → <span id="id2">[<a class="reference internal" href="Litterature/bibliography.html#id10" title="Vincent Deguin, Joëlle Mascetti, Aude Simon, Nadia Ben Amor, Christian Aupetit, Sandra Latournerie, and Jennifer A. Noble. Photochemistry of fe:h2o adducts in argon matrixes: a combined experimental and theoretical study in the mid-ir and uv-visible regions. Journal of Physical Chemistry A, 122:529-542, 1 2018. doi:10.1021/acs.jpca.7b09681.">Deguin <em>et al.</em>, 2018</a>]</span></p>
+<p class="sd-card-text"><strong>Scientific publication</strong>  → <span id="id2">[<a class="reference internal" href="Appendix/Litterature/bibliography.html#id10" title="Vincent Deguin, Joëlle Mascetti, Aude Simon, Nadia Ben Amor, Christian Aupetit, Sandra Latournerie, and Jennifer A. Noble. Photochemistry of fe:h2o adducts in argon matrixes: a combined experimental and theoretical study in the mid-ir and uv-visible regions. Journal of Physical Chemistry A, 122:529-542, 1 2018. doi:10.1021/acs.jpca.7b09681.">Deguin <em>et al.</em>, 2018</a>]</span></p>
 </div>
 </div>
 <div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm docutils">
@@ -885,7 +1012,7 @@ Anyone</label><div class="sd-tab-content docutils">
 <p class="sd-card-text"><strong>Condor Project</strong></p>
 </div>
 <div class="sd-card-body docutils">
-<p class="sd-card-text">Sprinkle a lot of this <span id="id3">[<a class="reference internal" href="Litterature/bibliography.html#id15" title="J. P. Hague, P. W. Mieczkowski, C. O'Rourke, A. J. Loughlin, and J. B. Phillips. Microscopic biophysical model of self-organization in tissue due to feedback between cell- and macroscopic-scale forces. Physical Review Research, 11 2020. doi:10.1103/PhysRevResearch.2.043217.">Hague <em>et al.</em>, 2020</a>]</span> on top of that <span id="id4">[<a class="reference internal" href="Litterature/bibliography.html#id14" title="Glauco R. Souza, Hubert Tseng, Jacob A. Gage, Arunmani Mani, Pujan Desai, Fransisca Leonard, Angela Liao, Monica Longo, Jerrie S. Refuerzo, and Biana Godin. Magnetically bioprinted human myometrial 3d cell rings as a model for uterine contractility. International Journal of Molecular Sciences, 4 2017. doi:10.3390/ijms18040683.">Souza <em>et al.</em>, 2017</a>]</span> and you get a pretty cool project:</p>
+<p class="sd-card-text">Sprinkle a lot of this <span id="id3">[<a class="reference internal" href="Appendix/Litterature/bibliography.html#id15" title="J. P. Hague, P. W. Mieczkowski, C. O'Rourke, A. J. Loughlin, and J. B. Phillips. Microscopic biophysical model of self-organization in tissue due to feedback between cell- and macroscopic-scale forces. Physical Review Research, 11 2020. doi:10.1103/PhysRevResearch.2.043217.">Hague <em>et al.</em>, 2020</a>]</span> on top of that <span id="id4">[<a class="reference internal" href="Appendix/Litterature/bibliography.html#id14" title="Glauco R. Souza, Hubert Tseng, Jacob A. Gage, Arunmani Mani, Pujan Desai, Fransisca Leonard, Angela Liao, Monica Longo, Jerrie S. Refuerzo, and Biana Godin. Magnetically bioprinted human myometrial 3d cell rings as a model for uterine contractility. International Journal of Molecular Sciences, 4 2017. doi:10.3390/ijms18040683.">Souza <em>et al.</em>, 2017</a>]</span> and you get a pretty cool project:</p>
 <p class="sd-card-text"><em>3D tissue modelling with the CONDOR (link) model</em></p>
 <ul class="simple">
 <li><p class="sd-card-text">Job Type: Research Associate (Postdoc)</p></li>
@@ -1002,10 +1129,10 @@ Code and data repositories.</p>
 </div>
 </div>
 </div>
-</div>
-<div class="section" id="teaching">
-<h2><strong>Teaching</strong><a class="headerlink" href="#teaching" title="Permalink to this headline">¶</a></h2>
-<div class="margin sidebar">
+</section>
+<section id="teaching">
+<h2><strong>Teaching</strong><a class="headerlink" href="#teaching" title="Permalink to this headline">#</a></h2>
+<aside class="margin sidebar">
 <p class="sidebar-title"></p>
 <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 <p><lottie-player src="https://assets7.lottiefiles.com/packages/lf20_ncpnijkz.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"  loop  autoplay></lottie-player></p>
@@ -1013,7 +1140,7 @@ Code and data repositories.</p>
 <p class="admonition-title">Colaboration <img alt="flag alt &gt;" src="_images/handshake-deal-svgrepo-com.svg" /></p>
 <p>I would like to welcome as many contributions as possible from a wide variety of researchers to explain the basics of their disciplines (in a completely free and creative fashion).</p>
 </div>
-</div>
+</aside>
 <div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
 <div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
 <div class="sd-col sd-d-flex-row sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
@@ -1043,8 +1170,8 @@ Code and data repositories.</p>
 </div>
 </div>
 <p>Teaching is an important part of the life of a researcher and I believe it is one of the best and more important job that one can do. However, it is a task that is often controlled and managed by heavy administrative bodies. I think every researcher should be given the chance to share his knowledge in a creative and appealing fashion (that is terribly lacking in academia).</p>
-<div class="section" id="formats">
-<h3>2 Formats<a class="headerlink" href="#formats" title="Permalink to this headline">¶</a></h3>
+<section id="formats">
+<h3>2 Formats<a class="headerlink" href="#formats" title="Permalink to this headline">#</a></h3>
 <div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
 <div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
 <div class="sd-col sd-d-flex-row sd-col-6 sd-col-xs-6 sd-col-sm-6 sd-col-md-6 sd-col-lg-6 docutils">
@@ -1090,11 +1217,11 @@ Code and data repositories.</p>
 </figure><!-- slides -->
 </div>
 </div>
-</div>
-</div>
-</div>
-<div class="tex2jax_ignore mathjax_ignore section" id="comments">
-<h1>Comments<a class="headerlink" href="#comments" title="Permalink to this headline">¶</a></h1>
+</section>
+</section>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="comments">
+<h1>Comments<a class="headerlink" href="#comments" title="Permalink to this headline">#</a></h1>
 <script src="https://utteranc.es/client.js"
         repo="Deugz/nb-master"
         issue-term="pathname"
@@ -1114,9 +1241,7 @@ Code and data repositories.</p>
 </div>
 <div class="toctree-wrapper compound">
 </div>
-<div class="toctree-wrapper compound">
-</div>
-</div>
+</section>
 
     <script type="text/x-thebe-config">
     {
@@ -1140,8 +1265,10 @@ Code and data repositories.</p>
 
               </div>
               
-            
-                <!-- Previous / next buttons -->
+            </main>
+            <footer class="footer-article noprint">
+                
+    <!-- Previous / next buttons -->
 <div class='prev-next-area'>
     <a class='right-next' id="next-link" href="Profile/Interests.html" title="next page">
     <div class="prev-next-info">
@@ -1151,24 +1278,28 @@ Code and data repositories.</p>
     <i class="fas fa-angle-right"></i>
     </a>
 </div>
-            
+            </footer>
         </div>
     </div>
-    <footer class="footer">
-  <p>
+    <div class="footer-content row">
+        <footer class="col footer"><p>
+  
+    By Vincent Deguin<br/>
+  
+      &copy; Copyright 2022.<br/>
+</p>
+        </footer>
+    </div>
     
-      By Vincent Deguin<br/>
-    
-        &copy; Copyright 2021.<br/>
-  </p>
-</footer>
-</main>
+</div>
 
 
       </div>
     </div>
   
-  <script src="_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+
 
   </body>
 </html>

@@ -1,4 +1,4 @@
-# Markdown cheatset
+# Guide
 
 ***
 **Documentation**:
@@ -12,6 +12,62 @@
 
 ***
 
+## A quick guided tour
+
+```{note}
+
+- Insert presentation like tour
+
+```
+
+## The page layout
+
+- How to navigate this web-site
+
+left menue = global
+right menu = local
+
+
+## Legend
+
+### Links
+
+We are all familiar withe the ![flag alt >](../../Docs/Svg_icons/external-link-alt-svgrepo-com.svg) icon
+
+- ![flag alt >](../../Docs/Svg_icons/links/I_link.png) - **Internal link**: same web-site but different page
+- ![flag alt >](../../Docs/Svg_icons/links/E_link.png) - **External link**: different web-site, *Wikipedia* for example
+- ![flag alt >](../../Docs/Svg_icons/links/IE_link.png) - **Internal-External**: different web-site, but still one of mine, those could be:
+    - Teaching
+    - Thesis.A
+    - Thesis.B
+
+```{margin}
+
+2 main methods:
+- [badgen](https://badgen.net/)
+- [shield](https://shields.io/)
+
+also possible with sphinx
+
+- [Sphinx-doc](https://sphinx-design.readthedocs.io/en/latest/badges_buttons.html#icons)
+
+
+```
+
+### Buttons
+
+Markdown give you the possibility to generate buttons. They are a more informative version of the links presented above. I use on this web-site the following buttons:
+
+- DOI
+- Binder
+- Link towards book (Teaching)
+
+```{note}
+
+Insert examples
+
+```
+
 ## Comments
 
 [/----------------------------------------------------------------------------------------------------------------------------------------------------------------------- Is it a comment ?/]: # 
@@ -23,29 +79,6 @@ Implement comments on top of big title to have a clear view of page subdivision 
 
 ## Titles
 
-
-
-## Buttons
-
-### How to
-
-Markdown give you the possibility to generate buttons.
-
-2 main methods:
-- [badgen](https://badgen.net/)
-- [shield](https://shields.io/)
-
-also possible with sphinx
-
-- [Sphinx-doc](https://sphinx-design.readthedocs.io/en/latest/badges_buttons.html#icons)
-
-### Examples 
-
-Present on this web site
-
-- DOI
-- Binder
-- Link towards book (Teaching)
 
 ## Images / figures
 

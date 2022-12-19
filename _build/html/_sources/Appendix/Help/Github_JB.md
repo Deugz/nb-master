@@ -141,6 +141,14 @@ finally you push
 git push -u origin main
 ```
 
+
+#### Potential issues
+
+```{figure} Docs/Github_issue1.png
+:name: Github_issue1
+19/12/2022
+```
+
 ### Github pages
 
 #### Specific features

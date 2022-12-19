@@ -4,11 +4,13 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
     <title>Roadmap &#8212; MASTER</title>
     
-  <link href="../_static/css/theme.css" rel="stylesheet">
-  <link href="../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
 
     
   <link rel="stylesheet"
@@ -18,23 +20,17 @@
   <link rel="preload" as="font" type="font/woff2" crossorigin
     href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
 
-    
-      
-
-    
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
+    <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=5115cc725059bd94278eecd172e13a965bf8f5a9" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
     <link rel="stylesheet" type="text/css" href="../_static/custom_style.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/.ipynb_checkpoints/custom_style-checkpoint.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
     <link rel="stylesheet" type="text/css" href="../_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
     
-  <link rel="preload" as="script" href="../_static/js/index.be7d3bbb2ef33a8344ce.js">
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
 
     <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
     <script src="../_static/jquery.js"></script>
@@ -42,12 +38,11 @@
     <script src="../_static/doctools.js"></script>
     <script src="../_static/clipboard.min.js"></script>
     <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
     <script src="../_static/togglebutton.js"></script>
-    <script src="../_static/assets/Picture_display.js"></script>
-    <script src="../_static/assets/.ipynb_checkpoints/Picture_display-checkpoint.js"></script>
     <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
     <script kind="utterances">
 
@@ -83,8 +78,8 @@ var addUtterances = () => {
 }
 commentsRunWhenDOMLoaded(addUtterances);
 </script>
+    <script src="../_static/assets/Picture_display.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script src="../_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
     <script src="../_static/design-tabs.js"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
 const thebe_selector = ".thebe,.cell"
@@ -113,7 +108,21 @@ const thebe_selector_output = ".output, .cell_output"
                 </script>
 
   </head>
-  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay overlay-navbar" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<!-- Checkboxes to toggle the in-page toc -->
+<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
+<label class="overlay overlay-pagetoc" for="__page-toc">
+    <div class="visually-hidden">Toggle in-page Table of Contents</div>
+</label>
+<!-- Headers at the top -->
+<div class="announcement header-item noprint">Current Version: 27/06/2022</div>
+<div class="header header-item noprint"></div>
+
     
     <div class="container-fluid" id="banner"></div>
 
@@ -122,9 +131,10 @@ const thebe_selector_output = ".output, .cell_output"
     <div class="container-xl">
       <div class="row">
           
-<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
-    
-        <div class="navbar-brand-box">
+<!-- Sidebar -->
+<div class="bd-sidebar noprint" id="site-navigation">
+    <div class="bd-sidebar__content">
+        <div class="bd-sidebar__top"><div class="navbar-brand-box">
     <a class="navbar-brand text-wrap" href="../index.html">
       
         <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
@@ -153,10 +163,27 @@ const thebe_selector_output = ".output, .cell_output"
    Scientific interests
   </a>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="../CV/Academic/Academic_CV.html">
-   Academic CV
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../Profile/CVitae.html">
+   Curriculum Vitae
   </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../Profile/CV/Academic/Academic_CV.html">
+     Academic CV
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../Profile/CV/WebDev/WebDev_CV.html">
+     Web-Dev CV
+    </a>
+   </li>
+  </ul>
  </li>
 </ul>
 <p aria-level="2" class="caption" role="heading">
@@ -215,8 +242,8 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal" href="../Blog/Blog_Main.html">
    Posts
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
-  <label for="toctree-checkbox-1">
+  <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+  <label for="toctree-checkbox-2">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -242,8 +269,8 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal" href="../Blog/Version_Main.html">
    Versions
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
-  <label for="toctree-checkbox-2">
+  <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
+  <label for="toctree-checkbox-3">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -258,37 +285,30 @@ const thebe_selector_output = ".output, .cell_output"
 </ul>
 <p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
-  Bibliography
- </span>
-</p>
-<ul class="nav bd-sidenav">
- <li class="toctree-l1">
-  <a class="reference internal" href="../Litterature/bibliography.html">
-   Bibliography
-  </a>
- </li>
-</ul>
-<p aria-level="2" class="caption" role="heading">
- <span class="caption-text">
   Appendix
  </span>
 </p>
 <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Appendix/Litterature/bibliography.html">
+   Bibliography
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Appendix/Help/Style_guide.html">
+   Guide
+  </a>
+ </li>
  <li class="toctree-l1 has-children">
   <a class="reference internal" href="../Appendix/Help_main.html">
    Help
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
-  <label for="toctree-checkbox-3">
+  <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
+  <label for="toctree-checkbox-4">
    <i class="fas fa-chevron-down">
    </i>
   </label>
   <ul>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../Appendix/Help/Style_guide.html">
-     Markdown cheatset
-    </a>
-   </li>
    <li class="toctree-l2">
     <a class="reference internal" href="../Appendix/Help/The_Turing_Way.html">
      The Turing Way
@@ -319,88 +339,193 @@ const thebe_selector_output = ".output, .cell_output"
 </ul>
 
     </div>
-</nav> <!-- To handle the deprecated key -->
-
-</div>
-
-
-          
-
-
-          
-<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
-    
-    <div class="topbar container-xl fixed-top">
-    <div class="topbar-contents row">
-        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
-        <div class="col pl-md-4 topbar-main">
+</nav></div>
+        <div class="bd-sidebar__bottom">
+             <!-- To handle the deprecated key -->
             
-            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
-                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
-                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
-                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
-                <i class="fas fa-bars"></i>
-                <i class="fas fa-arrow-left"></i>
-                <i class="fas fa-arrow-up"></i>
-            </button>
-            
-            
-<div class="dropdown-buttons-trigger">
-    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
-            class="fas fa-download"></i></button>
-
-    <div class="dropdown-buttons">
-        <!-- ipynb file if we had a myst markdown file -->
-        
-        <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../_sources/Projects/Science_ft_People.md"><button type="button"
-                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
-                data-placement="left">.md</button></a>
-        <!-- Download PDF via print -->
-        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
-                onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
-    </div>
-</div>
-
-            <!-- Source interaction buttons -->
-
-<div class="dropdown-buttons-trigger">
-    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
-        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
-    <div class="dropdown-buttons sourcebuttons">
-        <a class="repository-button"
-            href="https://github.com/Deugz/nb-master"><button type="button" class="btn btn-secondary topbarbtn"
-                data-toggle="tooltip" data-placement="left" title="Source repository"><i
-                    class="fab fa-github"></i>repository</button></a>
-        <a class="issues-button"
-            href="https://github.com/Deugz/nb-master/issues/new?title=Issue%20on%20page%20%2FProjects/Science_ft_People.html&body=Your%20issue%20content%20here."><button
-                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
-                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
-        <a class="edit-button" href="https://github.com/Deugz/nb-master/edit/main/_build/html/Projects/Science_ft_People.md"><button
-                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
-                title="Edit this page"><i class="fas fa-pencil-alt"></i>suggest edit</button></a>
-    </div>
-</div>
-
-            <!-- Full screen (wrap in <a> to have style consistency -->
-
-<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
-        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
-        title="Fullscreen mode"><i
-            class="fas fa-expand"></i></button></a>
-
-            <!-- Launch buttons -->
-
         </div>
+    </div>
+    <div id="rtd-footer-container"></div>
+</div>
 
-        <!-- Table of contents -->
-        <div class="d-none d-md-block col-md-2 bd-toc show noprint">
-            
-            <div class="tocsection onthispage pt-5 pb-3">
-                <i class="fas fa-list"></i> Contents
-            </div>
-            <nav id="bd-toc-nav" aria-label="Page">
-                <ul class="visible nav section-nav flex-column">
+
+          
+
+
+          
+<!-- A tiny helper pixel to detect if we've scrolled -->
+<div class="sbt-scroll-pixel-helper"></div>
+<!-- Main content -->
+<div class="col py-0 content-container">
+    
+    <div class="header-article row sticky-top noprint">
+        
+
+
+
+<div class="col py-1 d-flex header-article-main">
+    <div class="header-article__left">
+        
+        <label for="__navigation"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="right"
+title="Toggle navigation"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-bars"></i>
+  </span>
+
+</label>
+
+        
+    </div>
+    <div class="header-article__right">
+<button onclick="toggleFullScreen()"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="bottom"
+title="Fullscreen mode"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+<div class="menu-dropdown menu-dropdown-repository-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Source repositories">
+      <i class="fab fa-github"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="https://github.com/Deugz/nb-master"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Source repository"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="headerbtn__text-container">repository</span>
+</a>
+
+      </li>
+      
+      <li>
+        <a href="https://github.com/Deugz/nb-master/issues/new?title=Issue%20on%20page%20%2FProjects/Science_ft_People.html&body=Your%20issue%20content%20here."
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Open an issue"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="headerbtn__text-container">open issue</span>
+</a>
+
+      </li>
+      
+      <li>
+        <a href="https://github.com/Deugz/nb-master/edit/main/_build/html/Projects/Science_ft_People.md"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Edit this page"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-pencil-alt"></i>
+  </span>
+<span class="headerbtn__text-container">suggest edit</span>
+</a>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+<div class="menu-dropdown menu-dropdown-download-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Download this page">
+      <i class="fas fa-download"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="../_sources/Projects/Science_ft_People.md"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Download source file"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="headerbtn__text-container">.md</span>
+</a>
+
+      </li>
+      
+      <li>
+        
+<button onclick="printPdf(this)"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="left"
+title="Print to PDF"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="headerbtn__text-container">.pdf</span>
+</button>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
+
+    </div>
+</div>
+
+<!-- Table of contents -->
+<div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#map">
    Map
@@ -570,12 +695,11 @@ const thebe_selector_output = ".output, .cell_output"
  </li>
 </ul>
 
-            </nav>
-        </div>
-    </div>
+    </nav>
 </div>
-    <div id="main-content" class="row">
-        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+    </div>
+    <div class="article row">
+        <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
                 <h1>Roadmap</h1>
@@ -761,14 +885,15 @@ const thebe_selector_output = ".output, .cell_output"
                     </div>
                 </div>
             </div>
-            
+            <main id="main-content" role="main">
+                
               <div>
                 
-  <div class="tex2jax_ignore mathjax_ignore section" id="roadmap">
-<h1>Roadmap<a class="headerlink" href="#roadmap" title="Permalink to this headline">¶</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="roadmap">
+<h1>Roadmap<a class="headerlink" href="#roadmap" title="Permalink to this headline">#</a></h1>
 <p>This digital space where you have just set foot, is an <strong>experiment</strong> whose aim is to challenge the current <em>scientific publication system</em> by offering a creative alternative. There is a long way to go to get there though, and for the time being, it is a collection of <code class="docutils literal notranslate"><span class="pre">Jupyter</span> <span class="pre">Books</span></code>. They are canvas to share my research outputs and explore the tools available to make it <code class="docutils literal notranslate"><span class="pre">Findable,</span> <span class="pre">Accesible,</span> <span class="pre">Interoperable</span> <span class="pre">and</span> <span class="pre">Reusable</span></code>.</p>
-<div class="section" id="map">
-<h2>Map<a class="headerlink" href="#map" title="Permalink to this headline">¶</a></h2>
+<section id="map">
+<h2>Map<a class="headerlink" href="#map" title="Permalink to this headline">#</a></h2>
 <div class="full-width docutils">
 <div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
 <div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
@@ -776,20 +901,22 @@ const thebe_selector_output = ".output, .cell_output"
 <p>Description</p>
 </div>
 <div class="sd-col sd-d-flex-column sd-col-10 sd-col-xs-10 sd-col-sm-10 sd-col-md-10 sd-col-lg-10 docutils">
-<div class="figure align-default" id="ontology">
+<figure class="align-default" id="ontology">
 <a class="reference internal image-reference" href="../_images/Master_Ont_1.png"><img alt="../_images/Master_Ont_1.png" src="../_images/Master_Ont_1.png" style="width: 3000px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 6 </span><span class="caption-text">Knowledge graph obtain from <a class="reference external" href="https://service.tib.eu/webvowl/">webvowl</a> using a custom ontology generated via <span class="xref myst">protege</span></span><a class="headerlink" href="#ontology" title="Permalink to this image">¶</a></p>
+<figcaption>
+<p><span class="caption-number">Fig. 6 </span><span class="caption-text">Knowledge graph obtain from <a class="reference external" href="https://service.tib.eu/webvowl/">webvowl</a> using a custom ontology generated via <span class="xref myst">protege</span></span><a class="headerlink" href="#ontology" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
 </div>
 </div>
 </div>
 </div>
-</div>
-</div>
-<div class="section" id="introduction">
-<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="strong-u-template-u-strong">
-<h3><strong>»  <u> Template </u></strong><a class="headerlink" href="#strong-u-template-u-strong" title="Permalink to this headline">¶</a></h3>
-<div class="margin sidebar">
+</section>
+<section id="introduction">
+<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">#</a></h2>
+<section id="strong-u-template-u-strong">
+<h3><strong>»  <u> Template </u></strong><a class="headerlink" href="#strong-u-template-u-strong" title="Permalink to this headline">#</a></h3>
+<aside class="margin sidebar">
 <p class="sidebar-title"></p>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
@@ -798,7 +925,7 @@ const thebe_selector_output = ".output, .cell_output"
 <li><p>Deadline: <strong>June 2023</strong></p></li>
 </ul>
 </div>
-</div>
+</aside>
 <ul class="simple">
 <li><p>A template, all in one for all your research need</p></li>
 </ul>
@@ -807,14 +934,14 @@ const thebe_selector_output = ".output, .cell_output"
 <p class="admonition-title">Note</p>
 <p>Consider this website as an <strong>evolving template</strong> intended to share my <strong>research work</strong>.</p>
 </div>
-</div>
-<div class="section" id="workflow">
-<h3>Workflow<a class="headerlink" href="#workflow" title="Permalink to this headline">¶</a></h3>
+</section>
+<section id="workflow">
+<h3>Workflow<a class="headerlink" href="#workflow" title="Permalink to this headline">#</a></h3>
 <p>To produce and publish my work online, I come accross a wide range of tools:</p>
-<div class="section" id="tools">
-<h4>Tools<a class="headerlink" href="#tools" title="Permalink to this headline">¶</a></h4>
+<section id="tools">
+<h4>Tools<a class="headerlink" href="#tools" title="Permalink to this headline">#</a></h4>
 <p>Science is all about <strong>Data</strong>. Every scientific project involved the generation and interpretation of one or multiple datasets. They can be of many types and shape …</p>
-<div class="margin sidebar">
+<aside class="margin sidebar">
 <p class="sidebar-title"></p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
@@ -826,10 +953,10 @@ const thebe_selector_output = ".output, .cell_output"
 </li>
 </ul>
 </div>
-</div>
+</aside>
 <a class="reference internal image-reference" href="../_images/workflow1.png"><img alt="workflow1" src="../_images/workflow1.png" style="width: 1200px;" /></a>
-<div class="section" id="help">
-<h5>Help<a class="headerlink" href="#help" title="Permalink to this headline">¶</a></h5>
+<section id="help">
+<h5>Help<a class="headerlink" href="#help" title="Permalink to this headline">#</a></h5>
 <div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
 <div class="sd-row docutils">
 <div class="sd-col sd-d-flex-row sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
@@ -880,18 +1007,18 @@ const thebe_selector_output = ".output, .cell_output"
 <li><p>Semantic web workflow</p></li>
 <li><p>Knowledge graph</p></li>
 </ul>
-</div>
-</div>
-<div class="section" id="phd">
-<h4>PhD<a class="headerlink" href="#phd" title="Permalink to this headline">¶</a></h4>
+</section>
+</section>
+<section id="phd">
+<h4>PhD<a class="headerlink" href="#phd" title="Permalink to this headline">#</a></h4>
 <p>In the same fashion than previously described, I use my PhD work to implement the content I generate into various pages and trying to generate a self-contained structure.</p>
-</div>
-</div>
-</div>
-<div class="section" id="current-state">
-<h2>Current state<a class="headerlink" href="#current-state" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="skeleton">
-<h3>Skeleton<a class="headerlink" href="#skeleton" title="Permalink to this headline">¶</a></h3>
+</section>
+</section>
+</section>
+<section id="current-state">
+<h2>Current state<a class="headerlink" href="#current-state" title="Permalink to this headline">#</a></h2>
+<section id="skeleton">
+<h3>Skeleton<a class="headerlink" href="#skeleton" title="Permalink to this headline">#</a></h3>
 <div class="sd-container-fluid sd-sphinx-override sd-mb-4 text-center docutils">
 <div class="sd-row sd-row-cols-1 sd-row-cols-xs-1 sd-row-cols-sm-1 sd-row-cols-md-2 sd-row-cols-lg-4 sd-g-3 sd-g-xs-3 sd-g-sm-3 sd-g-md-3 sd-g-lg-3 docutils">
 <div class="sd-col sd-d-flex-row docutils">
@@ -940,7 +1067,7 @@ const thebe_selector_output = ".output, .cell_output"
 <li><p>(+) 2 others books that are not accessible (Perso and Postdoc).</p></li>
 </ul>
 <p>The following image is a poster I presented at a conference <a class="reference external" href="https://open-dialogues-phys-and-astro.web.app/">Open Dialogues Across Physics and Astronomy</a> in September 2022 related to the <strong>Science for the Peopple</strong> project</p>
-<div class="margin sidebar">
+<aside class="margin sidebar">
 <p class="sidebar-title"></p>
 <div class="admonition-explanation admonition">
 <p class="admonition-title">Explanation</p>
@@ -953,11 +1080,11 @@ const thebe_selector_output = ".output, .cell_output"
 <li><p>Teaching</p></li>
 </ul>
 </div>
-</div>
+</aside>
 <a class="reference internal image-reference" href="../_images/workflow2.png"><img alt="Astra Poster" src="../_images/workflow2.png" style="width: 1500px;" /></a>
-</div>
-<div class="section" id="present-and-until-phd-submission">
-<h3>Present and until PhD submission<a class="headerlink" href="#present-and-until-phd-submission" title="Permalink to this headline">¶</a></h3>
+</section>
+<section id="present-and-until-phd-submission">
+<h3>Present and until PhD submission<a class="headerlink" href="#present-and-until-phd-submission" title="Permalink to this headline">#</a></h3>
 <p class="emphase">Finish the Thesis</p>
 <p>Is the main <strong>goal</strong>, and there is still a lot to do</p>
 <ul class="simple">
@@ -976,8 +1103,8 @@ const thebe_selector_output = ".output, .cell_output"
 <li><p>Open, inclusive …</p></li>
 <li><p>Easy and fun!</p></li>
 </ul>
-<div class="section" id="benefits">
-<h4>Benefits<a class="headerlink" href="#benefits" title="Permalink to this headline">¶</a></h4>
+<section id="benefits">
+<h4>Benefits<a class="headerlink" href="#benefits" title="Permalink to this headline">#</a></h4>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>Include PhD  benefits section</p>
@@ -994,16 +1121,16 @@ const thebe_selector_output = ".output, .cell_output"
 </li>
 <li><p><a class="reference external" href="https://ncar.ucar.edu/">Ncar</a></p></li>
 </ul>
-</div>
-</div>
-</div>
-<div class="section" id="project-aims">
-<h2>Project aims<a class="headerlink" href="#project-aims" title="Permalink to this headline">¶</a></h2>
-</div>
-<div class="section" id="futur">
-<h2>Futur<a class="headerlink" href="#futur" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="post-phd-submition">
-<h3>Post PhD submition<a class="headerlink" href="#post-phd-submition" title="Permalink to this headline">¶</a></h3>
+</section>
+</section>
+</section>
+<section id="project-aims">
+<h2>Project aims<a class="headerlink" href="#project-aims" title="Permalink to this headline">#</a></h2>
+</section>
+<section id="futur">
+<h2>Futur<a class="headerlink" href="#futur" title="Permalink to this headline">#</a></h2>
+<section id="post-phd-submition">
+<h3>Post PhD submition<a class="headerlink" href="#post-phd-submition" title="Permalink to this headline">#</a></h3>
 <p>In the future I intend to pursue a Web-development course (le Wagon - 2 month)</p>
 <p>**Coding school, le <code class="docutils literal notranslate"><span class="pre">Wagon</span></code> (inspiration Benjamin code)</p>
 <ul class="simple">
@@ -1011,8 +1138,8 @@ const thebe_selector_output = ".output, .cell_output"
 <li><p>Needs finance (crowdsourcing ?)</p></li>
 <li><p>Transform the Canvas book</p></li>
 </ul>
-<div class="section" id="build-a-community">
-<h4>Build a community<a class="headerlink" href="#build-a-community" title="Permalink to this headline">¶</a></h4>
+<section id="build-a-community">
+<h4>Build a community<a class="headerlink" href="#build-a-community" title="Permalink to this headline">#</a></h4>
 <h5>Friends</h5>
 <ul class="simple">
 <li><p>Involve people using the <span class="xref myst">Teaching</span> section first (friends ;)</p></li>
@@ -1030,10 +1157,10 @@ const thebe_selector_output = ".output, .cell_output"
 <li><p>…</p></li>
 </ul>
 </div>
-</div>
-</div>
-<div class="section" id="as-far-as-i-am-concerned">
-<h3>As far as I am concerned<a class="headerlink" href="#as-far-as-i-am-concerned" title="Permalink to this headline">¶</a></h3>
+</section>
+</section>
+<section id="as-far-as-i-am-concerned">
+<h3>As far as I am concerned<a class="headerlink" href="#as-far-as-i-am-concerned" title="Permalink to this headline">#</a></h3>
 <div class="emphase">
     Notebook 3000
 </div>
@@ -1052,10 +1179,12 @@ const thebe_selector_output = ".output, .cell_output"
 </ul>
 <p><strong>Enhanced reproducibility</strong></p>
 <p>spectrum</p>
-<div class="figure align-default" id="id2">
+<figure class="align-default" id="id2">
 <a class="reference internal image-reference" href="../_images/Reproducibility_Spectrum.PNG"><img alt="../_images/Reproducibility_Spectrum.PNG" src="../_images/Reproducibility_Spectrum.PNG" style="width: 650px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 7 </span><span class="caption-text">source: <span id="id1">[<a class="reference internal" href="../Litterature/bibliography.html#id12" title="Roger D. Peng. Reproducible research in computational science. Science, 334:1226-1227, 12 2011. doi:10.1126/science.1213847.">Peng, 2011</a>]</span></span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
-</div>
+<figcaption>
+<p><span class="caption-number">Fig. 7 </span><span class="caption-text">source: <span id="id1">[<a class="reference internal" href="../Appendix/Litterature/bibliography.html#id12" title="Roger D. Peng. Reproducible research in computational science. Science, 334:1226-1227, 12 2011. doi:10.1126/science.1213847.">Peng, 2011</a>]</span></span><a class="headerlink" href="#id2" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
 <ul class="simple">
 <li><p>Data is accessible <code class="docutils literal notranslate"><span class="pre">zenodo</span></code> …</p></li>
 <li><p>Code is interactive (<code class="docutils literal notranslate"><span class="pre">binder</span></code>), commentable (<code class="docutils literal notranslate"><span class="pre">hypotesis</span></code>), reproducible(<code class="docutils literal notranslate"><span class="pre">Github</span></code>) …</p></li>
@@ -1072,21 +1201,21 @@ const thebe_selector_output = ".output, .cell_output"
     Blog 2.0 - fitted for Research
 </div>
 <p>Insert project description + aims (use pictures from touring way)</p>
-</div>
-<div class="section" id="for-others">
-<h3>For others<a class="headerlink" href="#for-others" title="Permalink to this headline">¶</a></h3>
+</section>
+<section id="for-others">
+<h3>For others<a class="headerlink" href="#for-others" title="Permalink to this headline">#</a></h3>
 <ul class="simple">
 <li><p>Prepare tutorial to get ready for Jupyter Book</p></li>
 <li><p>Create a template book</p></li>
 <li></li>
 </ul>
 <p class="emphase">Empower Researchers with an <strong>Open Toolbox</strong> to <strong>Self Publish</strong></p>
-</div>
-</div>
-<div class="section" id="elsewhere">
-<h2>Elsewhere<a class="headerlink" href="#elsewhere" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="other-tools-on-the-market">
-<h3>Other tools on the market<a class="headerlink" href="#other-tools-on-the-market" title="Permalink to this headline">¶</a></h3>
+</section>
+</section>
+<section id="elsewhere">
+<h2>Elsewhere<a class="headerlink" href="#elsewhere" title="Permalink to this headline">#</a></h2>
+<section id="other-tools-on-the-market">
+<h3>Other tools on the market<a class="headerlink" href="#other-tools-on-the-market" title="Permalink to this headline">#</a></h3>
 <ul class="simple">
 <li><p><a class="reference external" href="https://quarto.org/">Quarto</a>, looks more professional, more versatil (ie R, Julia), but more complicated and code intensive, less accessible.</p></li>
 <li><p><a class="reference external" href="https://ourresearch.org/">OurResearch</a>, various tools to make research more open:</p>
@@ -1099,9 +1228,9 @@ const thebe_selector_output = ".output, .cell_output"
 <li><p><a class="reference external" href="https://www.open.edu/openlearncreate/">Open Learn Create</a>, create your own course material</p></li>
 <li><p><a class="reference external" href="https://phdservices.org/">PhD service.org</a>, a scam ?</p></li>
 </ul>
-</div>
-<div class="section" id="citizen-science-programs">
-<h3>Citizen Science programs<a class="headerlink" href="#citizen-science-programs" title="Permalink to this headline">¶</a></h3>
+</section>
+<section id="citizen-science-programs">
+<h3>Citizen Science programs<a class="headerlink" href="#citizen-science-programs" title="Permalink to this headline">#</a></h3>
 <ul class="simple">
 <li><p><a class="reference external" href="https://www.zooniverse.org">Zooniverse</a></p></li>
 <li><p><a class="reference external" href="https://cos4cloud-eosc.eu/">Cos4Cloud</a> European project for producing Citizen science tools</p>
@@ -1110,28 +1239,28 @@ const thebe_selector_output = ".output, .cell_output"
 </ul>
 </li>
 </ul>
-</div>
-<div class="section" id="other-cool-scientific-web-sites">
-<h3>Other cool Scientific web-sites<a class="headerlink" href="#other-cool-scientific-web-sites" title="Permalink to this headline">¶</a></h3>
-<div class="section" id="science">
-<h4>Science<a class="headerlink" href="#science" title="Permalink to this headline">¶</a></h4>
+</section>
+<section id="other-cool-scientific-web-sites">
+<h3>Other cool Scientific web-sites<a class="headerlink" href="#other-cool-scientific-web-sites" title="Permalink to this headline">#</a></h3>
+<section id="science">
+<h4>Science<a class="headerlink" href="#science" title="Permalink to this headline">#</a></h4>
 <ul class="simple">
 <li><p><a class="reference external" href="http://astrochymist.org/">Astrochemistry</a></p></li>
 <li><p><a class="reference external" href="https://astrobiology.com/">Astrobiology</a></p></li>
 <li><p><a class="reference external" href="http://exoplanet.eu/team/">Exoplanet counter</a></p></li>
 <li><p><a class="reference external" href="http://www.mantleplumes.org/">mantleplumes</a></p></li>
 </ul>
-</div>
-<div class="section" id="coding">
-<h4>Coding<a class="headerlink" href="#coding" title="Permalink to this headline">¶</a></h4>
+</section>
+<section id="coding">
+<h4>Coding<a class="headerlink" href="#coding" title="Permalink to this headline">#</a></h4>
 <ul class="simple">
 <li><p><a class="reference external" href="https://neetcode.io/">neetcode</a></p></li>
 <li></li>
 </ul>
-</div>
-</div>
-<div class="section" id="coups-de-perso">
-<h3>Coups de 💖 perso<a class="headerlink" href="#coups-de-perso" title="Permalink to this headline">¶</a></h3>
+</section>
+</section>
+<section id="coups-de-perso">
+<h3>Coups de 💖 perso<a class="headerlink" href="#coups-de-perso" title="Permalink to this headline">#</a></h3>
 <ul class="simple">
 <li><p><a class="reference external" href="https://www.rivenature33.com/">JIM</a></p></li>
 </ul>
@@ -1139,13 +1268,13 @@ const thebe_selector_output = ".output, .cell_output"
 <ul class="simple">
 <li><p><span class="xref myst">Barry</span></p></li>
 </ul>
-</div>
-</div>
-<div class="section" id="financial-independance">
-<h2>Financial independance<a class="headerlink" href="#financial-independance" title="Permalink to this headline">¶</a></h2>
+</section>
+</section>
+<section id="financial-independance">
+<h2>Financial independance<a class="headerlink" href="#financial-independance" title="Permalink to this headline">#</a></h2>
 <p>In order to further developp this project but also because science doesn’t pay much (especialy when you do it “out of the box”), it seems important to develop potential income solutions:</p>
-<div class="section" id="my-expenditures">
-<h3>My Expenditures<a class="headerlink" href="#my-expenditures" title="Permalink to this headline">¶</a></h3>
+<section id="my-expenditures">
+<h3>My Expenditures<a class="headerlink" href="#my-expenditures" title="Permalink to this headline">#</a></h3>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>Free Version
@@ -1173,8 +1302,8 @@ The main objective of the project is to change the mentality of the scientific c
 <p>In order to take full advantage of the tools I used, I need to have <strong>Premium accounts</strong> for a few of them (cf list left)</p>
 </div>
 </article>
-<div class="section" id="business-rough-plan">
-<h4>Business (rough plan)<a class="headerlink" href="#business-rough-plan" title="Permalink to this headline">¶</a></h4>
+<section id="business-rough-plan">
+<h4>Business (rough plan)<a class="headerlink" href="#business-rough-plan" title="Permalink to this headline">#</a></h4>
 <div class="full-width docutils">
 <div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
 <div class="sd-row sd-row-cols-3 sd-row-cols-xs-3 sd-row-cols-sm-3 sd-row-cols-md-3 sd-row-cols-lg-3 docutils">
@@ -1245,11 +1374,11 @@ The main objective of the project is to change the mentality of the scientific c
 </div>
 </div>
 </div>
-</div>
-</div>
-</div>
-<div class="section" id="evolution">
-<h2>Evolution<a class="headerlink" href="#evolution" title="Permalink to this headline">¶</a></h2>
+</section>
+</section>
+</section>
+<section id="evolution">
+<h2>Evolution<a class="headerlink" href="#evolution" title="Permalink to this headline">#</a></h2>
 <ul class="simple">
 <li><p>Youtube videos</p></li>
 </ul>
@@ -1269,8 +1398,8 @@ The main objective of the project is to change the mentality of the scientific c
     </div>
 </article>
 <p>footer</p>
-</div>
-</div>
+</section>
+</section>
 
     <script type="text/x-thebe-config">
     {
@@ -1294,9 +1423,11 @@ The main objective of the project is to change the mentality of the scientific c
 
               </div>
               
-            
-                <!-- Previous / next buttons -->
-<div class='prev-next-area'> 
+            </main>
+            <footer class="footer-article noprint">
+                
+    <!-- Previous / next buttons -->
+<div class='prev-next-area'>
     <a class='left-prev' id="prev-link" href="Manifesto.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
@@ -1312,24 +1443,28 @@ The main objective of the project is to change the mentality of the scientific c
     <i class="fas fa-angle-right"></i>
     </a>
 </div>
-            
+            </footer>
         </div>
     </div>
-    <footer class="footer">
-  <p>
+    <div class="footer-content row">
+        <footer class="col footer"><p>
+  
+    By Vincent Deguin<br/>
+  
+      &copy; Copyright 2022.<br/>
+</p>
+        </footer>
+    </div>
     
-      By Vincent Deguin<br/>
-    
-        &copy; Copyright 2021.<br/>
-  </p>
-</footer>
-</main>
+</div>
 
 
       </div>
     </div>
   
-  <script src="../_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+
 
   </body>
 </html>

@@ -7,8 +7,10 @@ parts:
   - caption: Profile
     chapters:
     - file: Profile/Interests
-    - file: CV/Academic/Academic_CV
-    - file: CV/WebDev/Academic_CV 
+    - file: Profile/CVitae
+      sections:    
+      - file: Profile/CV/Academic/Academic_CV
+      - file: Profile/CV/WebDev/WebDev_CV 
   - caption: Science for the people 
     chapters:
     - file: Projects/Manifesto 
@@ -30,15 +32,13 @@ parts:
     - file: Blog/Version_Main
       sections:
       - file: Blog/Version/version1
-  #- caption: The museum of non result
-  - caption: Bibliography
-    chapters:
-    - file: Litterature/bibliography 
+ 
   - caption: Appendix
     chapters:
+    - file: Appendix/Litterature/bibliography
+    - file: Appendix/Help/Style_guide
     - file: Appendix/Help_main
       sections:
-      - file: Appendix/Help/Style_guide
       - file: Appendix/Help/The_Turing_Way     
       - file: Appendix/Help/Anaconda_JB
       - file: Appendix/Help/Github_JB
