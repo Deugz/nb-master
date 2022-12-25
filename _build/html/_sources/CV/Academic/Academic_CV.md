@@ -1,62 +1,28 @@
 # Academic CV
 
-<article id="P1">
-    
-<div id="subdiv1-3">
-
-:::{card} 
-:link: ../Blog/Posts/Scientific_Publication.html
-:class-header: bg-light
-**Blog Post**
-^^^
-Scientific Publication, how it works, what is good and wrong about it.
-
-- 20 min read
-
-:::
-
-</div>
-    
-<div id="subdiv2-3">    
-
 brief paragraph to explain my scientific intersts
-  
-</div>
-    
-</article>
 
 ## Education
 
 ::::{card-carousel} 2
 
-:::{card}
-2018 - Now
+:::{card} 
+2009
 ^^^
 
-PhD
+Baccalaureat 
 
-* Experimenting with the earliest stages of planet formation *
+LyceeBernard Palissy High School, Agen
 
 :::
 
 :::{card} 
-2017
+2009 - 2011
 ^^^
 
-Master degree in Physical Chemistry (PCCP)
+First year of medical school 
 
 University of Bordeaux
-
-:::
-
-:::{card} 
-2013 - 2016
-^^^
-
-Bachelor degree Chemistry
-
-University of Bordeaux
-
 :::
 
 :::{card} 
@@ -71,23 +37,35 @@ Hygie formation / pharmacy Lassabe
 
 :::
 
-
 :::{card} 
-2009 - 2011
+2013 - 2016
 ^^^
 
-First year of medical school 
+Bachelor degree Chemistry
 
 University of Bordeaux
+
 :::
 
+
 :::{card} 
-2009
+2017
 ^^^
 
-Baccalaureat 
+Master degree in Physical Chemistry (PCCP)
 
-LyceeBernard Palissy High School, Agen
+University of Bordeaux
+
+:::
+
+
+:::{card}
+2018 - Now
+^^^
+
+PhD
+
+* Experimenting with the earliest stages of planet formation *
 
 :::
 

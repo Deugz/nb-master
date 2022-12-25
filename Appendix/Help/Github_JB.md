@@ -144,9 +144,31 @@ git push -u origin main
 
 #### Potential issues
 
+##### Authentification 
+
+Here is a potential issue that can arise when you try to push your book online (for the first time). 
+
 ```{figure} Docs/Github_issue1.png
 :name: Github_issue1
 19/12/2022
+```
+
+In that case, Github doesn't recognise me as the owner of the repository. In order to sole this issue I need to find a way to authentificate myself and this can be done in two ways:
+- HTTPS: identification using identification and password 
+- SSH: identification using a single key.
+
+As far as I am aware, HTTPS is not supported anymore by Github so in the following line we will focus on setting up a **SSH key**
+
+- [link 1](https://docs.github.com/fr/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) - Generate a new SSH key
+- [link 2](https://docs.github.com/fr/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) - Add this new SSH key to your Github account
+
+```{note}
+modify the links with new formatting (picto - red)
+
+- Explain the different steps
+
+format correctly and send to Ross along with JB tutorial for him to try and generate his own book.
+
 ```
 
 ### Github pages

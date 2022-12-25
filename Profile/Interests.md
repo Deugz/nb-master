@@ -8,6 +8,105 @@ Insert collaboration need in right Margin
 
 ```
 
+## The Dust cycle in the galaxy
+
+::::{div} full-width
+
+```{figure} ../Docs/Images/Space_Pics/Gaia_s_sky_in_colour_g.jpg
+:name: galaxy
+:width: 100%
+Dust within the galaxy
+```
+
+::::
+
+Yes, the Galaxy is full of Dust ...
+
+
+:::::{div} full-width
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 6
+
+
+```{figure} ../Docs/Images/Interstellar_dust.PNG
+:name: dust-grain
+:width: 100%
+Dust grain in space 
+```
+
+:::
+
+
+:::{grid-item}
+:columns: 6
+
+```{figure} ../Docs/Images/The-lifecycle-of-gas-dust.png
+:name: dust-cycle
+:width: 100%
+Dust and gas cycle in the galaxy 
+```
+
+:::
+::::
+:::::
+
+```{note}
+- Reference for the pictures
+```
+
+
+::::::{div} full-width
+
+:::::{dropdown} In depth explanation
+
+::::{tab-set}
+
+:::{tab-item} Evolved Star
+
+- produce dust in outflow
+
+:::
+
+:::{tab-item} Diffuse cloud
+
+- conditions
+
+:::
+
+:::{tab-item} Dense cloud
+
+- Ice form around the grain 
+
+
+:::
+
+:::{tab-item} Protostar with outflow
+
+- What happen there
+
+:::
+
+
+:::{tab-item} Young star with disks
+
+- Protoplanetary disk
+
+:::
+
+:::{tab-item} Planetary system
+
+- blabla
+
+:::
+
+::::
+:::::
+::::::
+
+
 ## Ice in space
 
 ### <strong>&#187;  <u>Interstellar Dusts  </u></strong>
@@ -62,8 +161,8 @@ Protoplanetary Disk image taken with ALMA (DSHARP project) [Source](https://alma
 **Want to know more ?** 
 - [Star formation](https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/Star_formation/Star_formation.html)    
 - Planet formation
-    - [![flag alt >](Docs/Svg_icons/rock-svgrepo-com.svg) to ![flag alt >](Docs/Svg_icons/planet-earth-svgrepo-com.svg)](https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/Planet_formation_bottom-top/Planet_formation_bottom-top.html)
-    - [![flag alt >](Docs/Svg_icons/planet-earth-svgrepo-com.svg) to ![flag alt >](Docs/Svg_icons/rock-svgrepo-com.svg)  ](https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/Planet_formation_top-bottom/Planet_formation_top-bottom.html)
+    - [![flag alt >](../Docs/Svg_icons/rock-svgrepo-com.svg) to ![flag alt >](../Docs/Svg_icons/planet-earth-svgrepo-com.svg)](https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/Planet_formation_bottom-top/Planet_formation_bottom-top.html)
+    - [![flag alt >](../Docs/Svg_icons/planet-earth-svgrepo-com.svg) to ![flag alt >](../Docs/Svg_icons/rock-svgrepo-com.svg)  ](https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/Planet_formation_top-bottom/Planet_formation_top-bottom.html)
 - [JWST](https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/JWST/JWST.html)    
 </div>    
     
@@ -114,6 +213,14 @@ Enceladus, Jupyter Moon ... Water, life tout ca tout ca ...
     
     
 </article>
+
+## Astrochemistry
+
+```{note}
+
+- Insert table of molecules, links to molecular zoo
+
+```
 
 ## Science questions
 

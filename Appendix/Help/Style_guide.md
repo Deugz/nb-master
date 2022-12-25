@@ -82,11 +82,12 @@ Implement comments on top of big title to have a clear view of page subdivision 
 
 ## Images / figures
 
-```{image} 
+
+```{image} ../../Docs/Images/JWST_cloud1.jpg 
 ```
     
-```{figure} Docs/JWST_cloud1.jpg
-:name: JWST1
+```{figure} ../../Docs/Images/JWST_cloud1.jpg
+:name: JWST2
 James Web Space Telescope [JWST](https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/JWST/JWST.html)
 ```
 

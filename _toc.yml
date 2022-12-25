@@ -31,8 +31,8 @@ parts:
       - file: Blog/Posts/ODAPA
     - file: Blog/Version_Main
       sections:
-      - file: Blog/Version/version1
- 
+      - file: Blog/Version/version0
+      - file: Blog/Version/version1 
   - caption: Appendix
     chapters:
     - file: Appendix/Litterature/bibliography

@@ -701,7 +701,7 @@ This website provide a <span class="hovertext" data-hover="Definition">hub</span
 ::::
 :::::
 
-```{admonition} Et vous aussi les potes! ![flag alt >](Docs/SVG_icons/dark-dialogue-bubble-svgrepo-com.svg) - ![flag alt >](Docs/SVG_icons/flag-for-flag-france-svgrepo-com.svg)
+```{admonition} Et vous aussi les potes! ![flag alt >](../Docs/SVG_icons/dark-dialogue-bubble-svgrepo-com.svg) - ![flag alt >](../Docs/SVG_icons/flag-for-flag-france-svgrepo-com.svg)
 :class: dropdown
 Desole, la majorite du contenu est en anglais, accessibilite exige! Cependant, je pense a vous, et si vous avez la curiosite de vous lancer dans une exploration de ce site, je suis pret a vous accompagner. Suivez ces `admonitions` et tout devrai bien se passer.
 ```

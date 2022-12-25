@@ -7,9 +7,9 @@
 ```{image} Docs/Images/Vincent-Deguin-OpenUniversity50_crop.jpg
 ```
 
+<br>
+<br>
 
-
-<br><br>
 **<u>Vincent Deguin</u>** (![flag alt >](Docs/Svg_icons/flag-for-flag-france-svgrepo-com.svg)) 
 
 
@@ -198,9 +198,11 @@ Because why not ?
 ::::
 :::::
 
+
+
 ## **Science For The People** 
 
-<p class="emphase"> New tools and methods for publishing scientific content </p>
+<p class="emphase"> New tools and methods for publishing and sharing scientific content </p>
 
 :::::{div} full-width
 ::::{grid} 4
@@ -316,6 +318,11 @@ Writen as blog post
 
 
 :::::{dropdown} <span style="float: right">![flag alt >](Docs/Svg_icons/location-pin-svgrepo-com.svg)</span> Find your way
+
+![flag alt >](Docs/Svg_icons/stop-svgrepo-com.svg) **Everybody** - To check: <span class="hovertext" data-hover="To know what will be discussed in those web-sites"> [Scientific Interests](https://deugz.github.io/nb-master/_build/html/Profile/Interests.html) </span> - <span class="hovertext" data-hover="Why and how I intend to discuss those topics"> [Manifesto](https://deugz.github.io/nb-master/_build/html/Projects/Manifesto.html) </span> 
+
+*Explore, don't be affraid to loose yourself in this ocean of knowledge, and most importantly, have fun :)*
+
 ::::{tab-set}
 
 :::{tab-item} Supervisors
@@ -577,20 +584,7 @@ Code and data repositories.
 
 ## **Teaching**
 
-
-````{margin} 
-
-<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-<lottie-player src="https://assets7.lottiefiles.com/packages/lf20_ncpnijkz.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"  loop  autoplay></lottie-player>
-
-```{admonition} Colaboration ![flag alt >](Docs/Svg_icons/handshake-deal-svgrepo-com.svg)
-
-I would like to welcome as many contributions as possible from a wide variety of researchers to explain the basics of their disciplines (in a completely free and creative fashion).
-
-```
-
-````
-
+:::::{div} full-width
 ::::{grid} 2
 
 :::{grid-item-card}
@@ -618,20 +612,29 @@ Learn from multiple (&#129310;) scientists about topics like:
   
 I consider myself a curious person with an inquisitive mind, but despite those qualities, I have never been a studious and full-blown student, and I can see 3 main reasons for that:   
 
-First, I have only encountered a fraction of good teachers and all of them had their hands tied by very <strong>strict curriculum</strong> they had to follow. Secondly, most of the time I spent in a classroom have been religiously listening and copying learning material, which was an incredibely boring activity as well as a complete loss of time. Last but not least, the finality of learning was less about discovering new concepts and having the right tools to describe them, but just to fill your brain with information that had to be spit out during exams so pupils could be ranked and funneled out of Accademia.     
-    
-:::
-::::
+First, I have only encountered a fraction of good teachers and all of them had their hands tied by very <strong>strict curriculum</strong> they had to follow. 
+<br>
+Secondly, most of the time I spent in a classroom have been religiously listening and copying learning material, which was an incredibely boring activity as well as a complete loss of time. 
+<br>
+Last but not least, the finality of learning was less about discovering new concepts and having the right tools to describe them, but just to fill your brain with information that had to be spit out during exams so pupils could be ranked and funneled out of Accademia.     
 
 Teaching is an important part of the life of a researcher and I believe it is one of the best and more important job that one can do. However, it is a task that is often controlled and managed by heavy administrative bodies. I think every researcher should be given the chance to share his knowledge in a creative and appealing fashion (that is terribly lacking in academia). 
-    
-### 2 Formats
+:::
+::::
+:::::
 
-::::{grid} 2
+
+
+### <strong>&#187;  <u>  3 Formats </u></strong>
+
+
+
+:::::{div} full-width
+::::{grid} 3
 
 :::{grid-item-card}
 :class-header: bg-light
-:columns: 6
+:columns: 4
 
 **Bitesize**
 ^^^
@@ -642,7 +645,7 @@ Small lessons to introduce specific topics that I encounter during my research j
 
 :::{grid-item-card}
 :class-header: bg-light
-:columns: 6
+:columns: 4
 
 **Practicle**
 ^^^
@@ -650,30 +653,68 @@ Small lessons to introduce specific topics that I encounter during my research j
 Some practical tutorials which will accompanied you in producing some material.
 
 :::
+
+:::{grid-item-card}
+:class-header: bg-light
+:columns: 4
+
+**Cours particuliers**
+^^^
+
+![flag alt >](Docs/Svg_icons/flag-for-flag-france-svgrepo-com.svg)
+
+
+:::
+
 ::::
 
-<p class="emphase">Dive into them and none of the following Pictures will have secret for you ;)</p>
+:::::
 
-<div class="slider" id="main-slider"><!-- outermost container element -->
-<div class="slider-wrapper"><!-- innermost wrapper element -->
-<figure alt="First" class="slide">
-<img src="_static/assets/Docs/ngc6357.jpg" />
-<figcaption>Ref</figcaption>
-</figure><!-- slides -->
-<figure  alt="Second" class="slide" >
-<img src="_static/assets/Docs/ProtoPDisk.jpg"/>
-<figcaption>Ref</figcaption>
-</figure><!-- slides -->
-<figure  alt="Third" class="slide" >
-<img src="_static/assets/Docs/weic2219a.jpg"/>
-<figcaption><strong>The Protostar within L1527</strong><a href="https://apod.nasa.gov/apod/ap221118.html">Ref</a></figcaption>
-</figure><!-- slides -->
-<figure  alt="Fourth" class="slide" >
-<img src="_static/assets/Docs/PDS70b.jpg"/>
-<figcaption>Ref</figcaption>
-</figure><!-- slides -->
-</div>
-</div>
+### <strong>&#187;  <u>  Open for collaboration </u></strong>
+
+```{admonition} Colaboration ![flag alt >](Docs/Svg_icons/handshake-deal-svgrepo-com.svg)
+
+I would like to welcome as many contributions as possible from a wide variety of researchers to explain the basics of their disciplines (in a completely free and creative fashion).
+
+```
+
+## Blog
+
+```{margin}
+
+Only my personal opinions are expressed in the following posts and doesn't reflect the positions of my University or any related bodies or persons...
+
+
+```
+
+::::{grid} 2
+
+:::{grid-item-card}
+:class-header: bg-light
+:columns: 6
+
+**Blog**
+^^^
+
+- [Scientific Publication](https://deugz.github.io/nb-master/_build/html/Blog/Posts/Scientific_Publication.html)
+- [Hackaton](https://deugz.github.io/nb-master/_build/html/Blog/Posts/Annie_woman.html) 
+- [ODAPA](https://deugz.github.io/nb-master/_build/html/Blog/Posts/ODAPA.html) 
+
+:::  
+
+:::{grid-item-card}
+:class-header: bg-light
+:columns: 6
+
+**Versions**
+^^^
+
+- [version 0](https://deugz.github.io/nb-master/_build/html/Blog/Version/version0.html) - ![flag alt >](Docs/Svg_icons/flag-for-flag-france-svgrepo-com.svg)
+- [version 1](https://deugz.github.io/nb-master/_build/html/Blog/Version/version1.html)
+
+
+:::
+::::
 
 
 
