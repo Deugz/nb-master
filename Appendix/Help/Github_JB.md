@@ -2,6 +2,16 @@
 
 GitHub is ...
 
+***
+
+**Ressources**:
+
+- [Real Python](https://realpython.com/python-git-github-intro/) - *Intro guide*
+
+***
+
+
+
 ## Upload JupyterBook on Github
 
 **Few rules**

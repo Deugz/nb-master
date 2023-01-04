@@ -335,6 +335,10 @@ Communication &#128489;
 
 - [Data Science Notes](https://makeuseofdata.com/index.html)
 
+**Data processing softwares**
+
+- [ACD/Labs](https://www.acdlabs.com/products/spectrus-platform/spectrus-processor/)
+
 **Example**
 
 - [Lorana A. Barba website](https://lorenabarba.com/)
