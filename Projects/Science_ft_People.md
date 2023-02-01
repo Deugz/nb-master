@@ -3,6 +3,13 @@
 
 This digital space where you have just set foot, is an **experiment** whose aim is to challenge the current *scientific publication system* by offering a creative alternative. There is a long way to go to get there though, and for the time being, it is a collection of `Jupyter Books`. They are canvas to share my research outputs and explore the tools available to make it `Findable, Accesible, Interoperable and Reusable`.
 
+```{admonition} To Explore
+
+- [OFFICE OF ASTRONOMY FOR DEVELOPMENT](https://www.astro4dev.org/collaboration-gateway/)
+    - Create a collaboration
+
+```
+
 ## Map 
 
 

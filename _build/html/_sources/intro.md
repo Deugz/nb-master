@@ -1,3 +1,17 @@
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/63da4028c2f1ac1e2030c5e3/1go68l7fv';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+
 # Science 2.![flag alt >>](Docs/Images/Anarchy.png)
 
 ````{margin} 
@@ -58,12 +72,9 @@
 - ![stars](https://img.shields.io/github/stars/Deugz/nb-master?style=social)
 
 <br>
-<br>
-<br>
 
 <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-<lottie-player src="https://assets6.lottiefiles.com/packages/lf20_ikgare95.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;" hover></lottie-player>
-
+<lottie-player src="https://assets2.lottiefiles.com/private_files/lf30_OadeVs.json"  background="transparent"  speed="1"  style="width:100%; height:100%;" hover></lottie-player>
 
 :::
 
@@ -246,6 +257,26 @@ Writen as blog post
 :::
 ::::
 :::::
+
+<h3><strong>&#187;  <u>Quick guided tour</u></strong></h3>
+
+<input type="radio" name="gallery" id="slide-1"/>
+<input type="radio" name="gallery" id="slide-2"/>
+<input type="radio" name="gallery" id="slide-3"/>
+<input type="radio" name="gallery" id="slide-4"/>
+<input type="radio" name="gallery" id="slide-5"/>
+<input type="radio" name="gallery" id="slide-6"/>
+
+<div id="gallery"></div>
+
+<div class="slides">
+  <label class="labelSC" for="slide-1"></label>
+  <label class="labelSC" for="slide-2"></label>
+  <label class="labelSC" for="slide-3"></label>
+  <label class="labelSC" for="slide-4"></label>
+  <label class="labelSC" for="slide-5"></label>
+  <label class="labelSC" for="slide-6"></label>
+</div>
 
 <h3><strong>&#187;  <u>Audiences ?</u></strong></h3>
 

@@ -306,13 +306,62 @@ width: 12.5%
     padding-top: 20px;
     background: #bda180;
     color: white;
-
-span{
-
-position: relative;
-top: -50px;
-line-height: 25px;
-font-size: 0px;
-transition: all .5s ease;
-}   
+}  
   
+/* 	Slideshow simple */
+
+input {
+  display: none;
+}
+
+.labelSC {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background: #efefef;
+  margin: 8px;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+}
+
+.slides {
+  width: 400px;
+  text-align: center;
+}
+
+#slide-1:checked ~ #gallery {
+  background-image: url('assets/Guide_tour/Title.png');
+}
+#slide-2:checked ~ #gallery {
+  background-image: url('_static/assets/Guide_tour/slide2.png');
+}
+#slide-3:checked ~ #gallery {
+  background-image: url('_static/assets/Guide_tour/slide3.png');
+}
+#slide-4:checked ~ #gallery {
+  background-image: url('_static/assets/Guide_tour/slide4.png');
+}
+#slide-5:checked ~ #gallery {
+  background-image: url('_static/assets/Guide_tour/slide5.png');
+}
+#slide-6:checked ~ #gallery {
+  background-image: url('_static/assets/Guide_tour/slide6.png');
+}
+
+#gallery {
+  width: 800px;
+  height: 450px;
+  background-image:  url('assets/Guide_tour/Title.png');
+  background-size: cover;
+  border-radius: 0.375em;
+  box-shadow: 0 3px 8px 0 grey;
+}
+
+#slide-1:checked ~ .slides label:nth-of-type(1),
+#slide-2:checked ~ .slides label:nth-of-type(2),
+#slide-3:checked ~ .slides label:nth-of-type(3) 
+#slide-4:checked ~ .slides label:nth-of-type(4)
+#slide-5:checked ~ .slides label:nth-of-type(5) 
+#slide-6:checked ~ .slides label:nth-of-type(6) {
+  background: #888;
+}
