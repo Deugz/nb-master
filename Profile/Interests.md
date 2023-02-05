@@ -8,6 +8,26 @@ Insert collaboration need in right Margin
 
 ```
 
+
+<input type="radio" name="gallery" id="slide-1"/>
+<input type="radio" name="gallery" id="slide-2"/>
+<input type="radio" name="gallery" id="slide-3"/>
+<input type="radio" name="gallery" id="slide-4"/>
+<input type="radio" name="gallery" id="slide-5"/>
+<input type="radio" name="gallery" id="slide-6"/>
+
+<div id="gallery"></div>
+
+<div class="slides">
+  <label class="labelSC" for="slide-1"></label>
+  <label class="labelSC" for="slide-2"></label>
+  <label class="labelSC" for="slide-3"></label>
+  <label class="labelSC" for="slide-4"></label>
+  <label class="labelSC" for="slide-5"></label>
+  <label class="labelSC" for="slide-6"></label>
+</div>
+
+
 ## The Dust cycle in the galaxy
 
 ::::{div} full-width

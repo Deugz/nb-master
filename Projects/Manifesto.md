@@ -38,7 +38,7 @@ The journey towards the completion of a PhD is long, hard and students are very 
 
 ## **My Alternative**
 
-````{margin}
+::::{margin}
 
 <div id="colour">
 
@@ -137,23 +137,7 @@ The journey towards the completion of a PhD is long, hard and students are very 
 <br>
 <br>
 
-**<u>Example</u>:**
-
-<p class="emphase">My Thesis</p>
-
-
-::::{grid} 1
-:::{grid-item-card} 
-:img-top: ../Docs/SVG_files/OU_Logo.svg
-:link: "https://deugz.github.io/nb-phd/_build/html/"
-^^^
-**PhD Part 2** 
-+++
-![flag alt >](../Docs/Images/logo_JB.png) Version: 0.1 
-:::
 ::::
-
-````
 
 <h3><strong>&#187;  <u>Outline</u></strong></h3> 
 
@@ -199,6 +183,24 @@ I think at this point it is best to show you an example: The web-site on the rig
 - Adaptable to individual needs    
 
 - multiscale</strong>
+
+
+<h3><strong>&#187;  <u>Examples</u></strong></h3> 
+
+<p class="emphase">My Thesis</p>
+
+
+::::{grid} 1
+:::{grid-item-card} 
+:img-top: ../Docs/SVG_files/OU_Logo.svg
+:link: "https://deugz.github.io/nb-phd/_build/html/"
+^^^
+**PhD Part 2** 
++++
+![flag alt >](../Docs/Images/logo_JB.png) Version: 0.1 
+:::
+::::
+
 
 ## Benefits
 

@@ -14,7 +14,7 @@ s0.parentNode.insertBefore(s1,s0);
 
 # Science 2.![flag alt >>](Docs/Images/Anarchy.png)
 
-````{margin} 
+::::{margin} 
 
 <div id="colour">
 
@@ -44,7 +44,7 @@ s0.parentNode.insertBefore(s1,s0);
 
 </div>
 
-````
+::::
 
 ***
 
@@ -142,7 +142,7 @@ or
 <div id="subdiv2">
 
     
-My name is  [Vincent Deguin](https://50.open.ac.uk/photography/vincent), Astrophysics PhD student at the Open University. I am passionate about my <span class="hovertext" data-hover="Experimenting with the earliest stages of planet formation">scientific topic</span> outreach, as well as an aspiring web developer. The image on the right is the edge of a nearby, young, star-forming region called NGC 3324 in the Carina Nebula, pictured by the recently launched James Webb Space Telescope (JWST). This brand new Infrared space telescope will bring exciting times for astronomers like me, but also for you, provided that scientific discoveries are shared in an accessible format (cf [Manifesto](Projects/Manifesto)). Fortunately, I have an insatiable appetite for Open Science and this web-site is an attempt to make the outputs of my scientific journey as **open, accesible and reproducible** as possible, as well as providing a plateform for self minded researcher to contribute in the production of a research compendium, in an <span class="hovertext" data-hover="Definition">Encyclopaedia</span> style. 
+My name is  [Vincent Deguin](https://50.open.ac.uk/photography/vincent), Astrophysics PhD student at the Open University. I am passionate about my <span class="hovertext" data-hover="Experimenting with the earliest stages of planet formation">scientific topic</span>, outreach and education, as well as an aspiring web developer. The image on the right is the edge of a nearby, young, star-forming region called NGC 3324 in the Carina Nebula, pictured by the recently launched James Webb Space Telescope ([JWST](https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/JWST/JWST.html)). This brand new Infrared space telescope will bring exciting times for astronomers like me, but also for you, provided that scientific discoveries are shared in an accessible format (cf [Manifesto](Projects/Manifesto)). Fortunately, I have an insatiable appetite for Open Science and this web-site is an attempt to make the outputs of my scientific journey as **open, accesible and reproducible** as possible, as well as providing a plateform for self minded researcher to contribute in the production of a research compendium, in an <span class="hovertext" data-hover="Definition">Encyclopaedia</span> style. 
     
 This web-site is dived in 4 main sections:
 
@@ -260,23 +260,33 @@ Writen as blog post
 
 <h3><strong>&#187;  <u>Quick guided tour</u></strong></h3>
 
-<input type="radio" name="gallery" id="slide-1"/>
-<input type="radio" name="gallery" id="slide-2"/>
-<input type="radio" name="gallery" id="slide-3"/>
-<input type="radio" name="gallery" id="slide-4"/>
-<input type="radio" name="gallery" id="slide-5"/>
-<input type="radio" name="gallery" id="slide-6"/>
+::::{margin}
 
-<div id="gallery"></div>
+```{admonition} Jupyter Book
+:class: tip
 
-<div class="slides">
-  <label class="labelSC" for="slide-1"></label>
-  <label class="labelSC" for="slide-2"></label>
-  <label class="labelSC" for="slide-3"></label>
-  <label class="labelSC" for="slide-4"></label>
-  <label class="labelSC" for="slide-5"></label>
-  <label class="labelSC" for="slide-6"></label>
-</div>
+This web-site have been built from a collection of *markdown* files, transformed in *html* using [Jupyter Book](https://jupyterbook.org/en/stable/intro.html). I have added some *css* and *Javascript* of my own but please bear in mind, that producing such a web-site is: 
+
+
+**Accessible to everyone**.
+
+
+- Open
+- Free
+- Easy to use
+
+
+```
+
+::::
+
+<br>
+
+```{figure} _static/assets/Guide_tour/Slide1.png
+:name: galaxy
+:width: 100%
+Dust within the galaxy
+```
 
 <h3><strong>&#187;  <u>Audiences ?</u></strong></h3>
 
@@ -346,7 +356,10 @@ Writen as blog post
 ::::
 :::::
 
+<br>
+<br>
 
+::::::{div} full-width
 
 :::::{dropdown} <span style="float: right">![flag alt >](Docs/Svg_icons/location-pin-svgrepo-com.svg)</span> Find your way
 
@@ -394,26 +407,33 @@ Just explore
 
 :::
 
-
-
-
-
-
 ::::
 :::::
+
+<br>
+
+<p class="emphase"> Want your own accademic web-site?</p>
+
+<p class="emphase2"> <strong> Get in touch! </strong> </p>
+
+::::::
+
+
 
 
 ## **Research**
 
-All my research projects are designed following the <span class="hovertext" data-hover="Findability, Accessibility, Interoperability and Reusability"><strong>FAIR</strong></span> {cite:p}`Wilkinson2016` principles. They are shared <span class="hovertext" data-hover="Daily"><em>"live"</em></span>  on this website which is a one of its kind **scientific publication and colaboration** plateform.
-
-
 <h3><strong>&#187;  <u> Scientific projects </u></strong></h3>
 
-<h4><strong>My own</strong></h4>
+:::{margin}
 
 <br>
-<br>
+
+<sup>*</sup> {cite:p}`Wilkinson2016` 
+
+:::
+
+<p class="emphase"> All my research projects are designed following the <span class="hovertext" data-hover="Findability, Accessibility, Interoperability and Reusability"><strong>FAIR</strong></span><sup>*</sup> principles and are openly shared <span class="hovertext" data-hover="Weekly"><em>"live"</em></span> on the following websites </p>.
 
 :::::{div} full-width
 ::::{card-carousel} 2
@@ -505,48 +525,17 @@ Sprinkle a lot of this {cite}`Hague2020` on top of that {cite}`Souza2017` and yo
 ::::
 :::::
 
-***
-
-<h4><strong>Collaborations</strong></h4>
-
-<br>
-<br>
-
-:::::{div} full-width
-::::{card-carousel} 2
-
-:::{card} 
-:class-header: bg-light
-**Open University Ice Group**
-^^^
-
-Workshop planned 6th January 2023
-
-+++
-<img class ="small" src="_images/Under_construction.svg" >
-:::
-
-:::{card}
-:class-header: bg-light
-**My Friend Ross and I**
-^^^
-
-Ross and I we have a problem. Our scientific intersts ...
-
-
-+++
-<img class ="small" src="_images/Under_construction.svg" >
-:::
-
-::::
-:::::
-
-
-
-
 <h3><strong>&#187;  <u> Your Tools </u></strong></h3>
 
-The online format allow <span class="hovertext" data-hover="The reader of those lines">you</span>, the possibility to directly interact with the content of the page, Peer Review, Discuss, Interact and Download the whole content.
+
+I understand that this publication method might bring some concerns and suspicion about the validity or quality of my work because it didn't follow the <span class="hovertext" data-hover="lol">rigorous</span> **Peer Review** process of accadamic publishing. However ...
+
+:::{div} full-width
+
+<p class="emphase"> <span class="hovertext" data-hover="The experimented scientist, the PhD student,">You</span> can <strong> directly interact </strong> with the content of the page !</p>
+
+:::
+
 
 :::::{div} full-width
 ::::{grid} 1 1 2 5
@@ -613,6 +602,51 @@ Code and data repositories.
 ::::
 :::::
 
+
+<h3><strong>&#187;  <u>For you to </u> </strong></h3>
+
+:::::{div} full-width
+::::{grid} 3
+
+:::{grid-item}
+
+```{admonition} Review ![flag alt >](Docs/Svg_icons/review-svgrepo-com.svg)
+:class: warning, dropdown
+Every word I am writing is to be reviewed, questionned, challenged ... Help yourself with all the aformentionned tools and if you are not sure about how to use it, check the following page:
+
+- [Help/Tools](Appendix/Help/Tools.html)
+
+```
+
+:::
+
+:::{grid-item}
+
+```{admonition} Learn ![flag alt >](Docs/Svg_icons/brain-svgrepo-com.svg)
+:class: tip, dropdown
+Process the data using my online tools ... 
+
+```
+
+:::
+
+:::{grid-item}
+
+```{admonition} Colaborate ![flag alt >](Docs/Svg_icons/handshake-deal-svgrepo-com.svg)
+:class: seealso, dropdown
+
+
+I would like to welcome as many contributions as possible from a wide variety of researchers to explain the basics of their disciplines (in a completely free and creative fashion).
+
+```
+
+:::
+
+::::
+
+:::::
+
+
 ## **Teaching**
 
 :::::{div} full-width
@@ -640,16 +674,15 @@ Learn from multiple (&#129310;) scientists about topics like:
     
 :::{grid-item}
 :columns: 8
+
+<p class="emphase"> Despite a curious and inquisitive mind, I have never been a studious and full-blown student ...  </p>
   
-I consider myself a curious person with an inquisitive mind, but despite those qualities, I have never been a studious and full-blown student, and I can see 3 main reasons for that:   
+I can see 3 main reasons for that:   
+- First, I have only encountered a fraction of good teachers and all of them had their hands tied by very <strong>strict curriculum</strong> they had to follow. 
+- Secondly, most of the time I spent in a classroom have been to religiously listening and copying learning material, which was an incredibely boring activity as well as a complete loss of time. 
+- Last but not least, the finality of learning was less about discovering new concepts and having the right tools to describe them, but just to fill your brain with information that had to be spit out during exams so pupils could be ranked and funneled out of Accademia.     
 
-First, I have only encountered a fraction of good teachers and all of them had their hands tied by very <strong>strict curriculum</strong> they had to follow. 
-<br>
-Secondly, most of the time I spent in a classroom have been religiously listening and copying learning material, which was an incredibely boring activity as well as a complete loss of time. 
-<br>
-Last but not least, the finality of learning was less about discovering new concepts and having the right tools to describe them, but just to fill your brain with information that had to be spit out during exams so pupils could be ranked and funneled out of Accademia.     
-
-Teaching is an important part of the life of a researcher and I believe it is one of the best and more important job that one can do. However, it is a task that is often controlled and managed by heavy administrative bodies. I think every researcher should be given the chance to share his knowledge in a creative and appealing fashion (that is terribly lacking in academia). 
+Teaching is an important part of the life of a researcher and I believe it is one of the best and most important job that one can do. However, it is a task that is often controlled and managed by heavy administrative bodies. I think every researcher should be given the chance to share his knowledge in a creative and appealing fashion (that is terribly lacking in academia). 
 :::
 ::::
 :::::
@@ -667,10 +700,12 @@ Teaching is an important part of the life of a researcher and I believe it is on
 :class-header: bg-light
 :columns: 4
 
-**Bitesize**
+**Bitesize** <span style="float: right">![flag alt >](Docs/Svg_icons/pizza-svgrepo-com.svg)</span>
 ^^^
 
 Small lessons to introduce specific topics that I encounter during my research journey. Overview of the various concepts relative to a scientific topics. 
+
+
 
 :::  
 
@@ -678,7 +713,7 @@ Small lessons to introduce specific topics that I encounter during my research j
 :class-header: bg-light
 :columns: 4
 
-**Practicle**
+**Practicle** <span style="float: right">![flag alt >](Docs/Svg_icons/flexed-biceps-svgrepo-com.svg)</span>
 ^^^
 
 Some practical tutorials which will accompanied you in producing some material.
@@ -689,7 +724,8 @@ Some practical tutorials which will accompanied you in producing some material.
 :class-header: bg-light
 :columns: 4
 
-**Cours particuliers**
+**Cours particuliers** <span style="float: right">![flag alt >](Docs/Svg_icons/diploma-contract-svgrepo-com.svg)</span>
+
 ^^^
 
 ![flag alt >](Docs/Svg_icons/flag-for-flag-france-svgrepo-com.svg)
@@ -701,22 +737,21 @@ Some practical tutorials which will accompanied you in producing some material.
 
 :::::
 
-### <strong>&#187;  <u>  Open for collaboration </u></strong>
 
-```{admonition} Colaboration ![flag alt >](Docs/Svg_icons/handshake-deal-svgrepo-com.svg)
+## **Blog**
 
-I would like to welcome as many contributions as possible from a wide variety of researchers to explain the basics of their disciplines (in a completely free and creative fashion).
+::::{margin}
 
-```
+```{admonition} Opinions
+:class: warning
 
-## Blog
-
-```{margin}
-
-Only my personal opinions are expressed in the following posts and doesn't reflect the positions of my University or any related bodies or persons...
-
+Only my personal opinions are expressed in the following posts and they don't reflect the positions of my University or any related bodies or persons.
 
 ```
+
+::::
+
+<br>
 
 ::::{grid} 2
 
@@ -759,3 +794,38 @@ Only my personal opinions are expressed in the following posts and doesn't refle
         async>
 </script>
 
+
+::::{grid} 2
+
+:::{grid-item-card}
+:class-header: bg-light
+:columns: 5
+
+**Page status**
+^^^
+
+- Completed: &#9989;
+  
+- Reviewed: &#x274C;
+       
+- Updated: 04/02/2023
+   
+:::  
+
+:::{grid-item-card}
+:class-header: bg-light
+:columns: 7
+
+**Notes**
+^^^
+
+```{admonition} Ideas
+:class: tip, dropdown
+
+Nothing
+
+```
+
+
+:::
+::::
