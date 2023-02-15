@@ -7,10 +7,7 @@ parts:
   - caption: Profile
     chapters:
     - file: Profile/Interests
-    - file: Profile/CVitae
-      sections:    
-      - file: Profile/CV/Academic/Academic_CV
-      - file: Profile/CV/WebDev/WebDev_CV 
+    - file: Profile/CV/CV_Main
   - caption: Science for the people 
     chapters:
     - file: Projects/Manifesto 
@@ -41,6 +38,7 @@ parts:
       sections:
       - file: Appendix/Help/The_Turing_Way     
       - file: Appendix/Help/Anaconda_JB
+      - file: Appendix/Help/Jupyter
       - file: Appendix/Help/Github_JB
       - file: Appendix/Help/Binder_JB
       - file: Appendix/Help/SemanticWeb

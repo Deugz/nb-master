@@ -31,11 +31,6 @@ The whole system is outdated and current technologies (see below) should drive u
 </article>
 
 
-<h4><strong>My PhD journey</strong></h4> 
-
-The journey towards the completion of a PhD is long, hard and students are very often left alone to develop their skills in order to become an accomplished researcher. There is an incentive from `graduate schools` within Universities to help their student cohort but unfortunately (at least for me), this always translated into a set of administrative burden that are conterproductive. I think every student have their **own needs** and should be given the opportunity to developp their **own set of tools** to fulfill those needs. For me that that resulted in the web-site you are navigating into and that I will explain below: 
-  
-
 ## **My Alternative**
 
 ::::{margin}
@@ -187,20 +182,87 @@ I think at this point it is best to show you an example: The web-site on the rig
 
 <h3><strong>&#187;  <u>Examples</u></strong></h3> 
 
-<p class="emphase">My Thesis</p>
 
 
-::::{grid} 1
+::::{div} full-width
+
+<p class="emphase2"><strong>My PhD </strong></p>
+
+:::{dropdown} A difficult journey
+
+The journey towards the completion of a PhD is long, hard and students are very often left alone to develop their skills in order to become an accomplished researcher. There is an incentive from `graduate schools` within Universities to help their student cohort but unfortunately (at least for me), this always translated into a set of administrative burden that are conterproductive. I think every student have their **own needs** and should be given the opportunity to developp their **own set of tools** to fulfill those needs. For me that that resulted in the web-site you are navigating into and that I will explain below: 
+  
+
+
+:::
+
+<br>
+
+<p class="emphase">A <strong>Thesis</strong> yes, but more outputs that extend far <strong>beyond</strong> </p>
+
+<br>
+
+::::
+
+
+
+:::::{div} full-width
+::::{grid} 4
+
+:::{grid-item-card} 
+:img-top: ../Docs/SVG_files/OU_Logo.svg
+:link: "https://deugz.github.io/nb-thesis/_build/html/"
+^^^
+**Thesis** 
++++
+![flag alt >](../Docs/Images/logo_JB.png) Version: 0.1 
+
+:::
+
+:::{grid-item-card} 
+:img-top: ../logo2.png
+:link: "https://deugz.github.io/nb-teaching/_build/html/"
+^^^
+**School** 
++++
+![flag alt >](../Docs/Images/logo_JB.png) Version: 0.1 
+
+:::
+
+:::{grid-item-card} 
+:img-top: ../Docs/SVG_files/OU_Logo.svg
+:link: "https://deugz.github.io/nb-museum/_build/html/"
+^^^
+**Notes** - PhD Part 1
++++
+![flag alt >](../Docs/Images/logo_JB.png) Version: 0.1 
+:::
+
 :::{grid-item-card} 
 :img-top: ../Docs/SVG_files/OU_Logo.svg
 :link: "https://deugz.github.io/nb-phd/_build/html/"
 ^^^
-**PhD Part 2** 
+**Notes** - PhD Part 2
 +++
 ![flag alt >](../Docs/Images/logo_JB.png) Version: 0.1 
 :::
+
+
 ::::
 
+:::::
+
+<h4><strong>Thesis</strong></h4> 
+
+Explain difference ...
+
+<h4><strong>Notes</strong></h4>
+
+Explain difference ...
+
+<h4><strong>School</strong></h4> 
+
+Explain difference ...
 
 ## Benefits
 
@@ -336,6 +398,7 @@ Communication &#128489;
 **Iterative documents build**
 
 - [Data Science Notes](https://makeuseofdata.com/index.html)
+- [Good research code handbook](https://goodresearch.dev/index.html)
 
 **Data processing softwares**
 
@@ -367,17 +430,17 @@ Alors certe, il y a probablement des outils plus efficaces et rapides sur le mar
 
 ***
 
-```{margin}
+:::{margin}
 
 <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 <lottie-player src="https://assets1.lottiefiles.com/private_files/lf30_yyuin7so.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"  loop  autoplay></lottie-player>
 
 
-```
+:::
 
 <h3><strong>&#187;  <u>Editorial canvas</u></strong></h3> 
 
-I have always been frustrated by the fact that I could never play with the <strong>edition</strong> aspect of every piece of science I have been writimg. All the time I had to obey to a certain <strong>template</strong> that I never found appealing to me. Owing my own web-site give me the opportunity to be an integrant part of the edition process as it clearly is an  <span class="hovertext" data-hover="a testing environment in a computer system in which new or untested software or coding can be run securely">editorial sandbox</span>.
+I have always been frustrated by the fact that I could never play with the <strong>edition</strong> aspect of every piece of science I have been writimg. All the time I had to obey to a certain <strong>template</strong> that I never found appealing to me. Owing my own web-site give me the opportunity to be an integrant part of the edition process as it clearly is an <span class="hovertext" data-hover="a testing environment in a computer system in which new or untested software or coding can be run securely">editorial sandbox</span>.
 
 <h4><strong>For your Research ...</strong></h4>
 
@@ -541,6 +604,15 @@ I think it is worth a try (link to jupyter-book tuto)
 ```
 
 <h3><strong>&#187;  <u>Communication</u></strong></h3>
+
+    
+<img src="https://imgs.xkcd.com/comics/feature_comparison.png" />
+    
+```{note}
+
+- reproduce with science communication methods
+
+```
 
 <h4><strong> Create a dialogue</strong></h4>
 
@@ -721,3 +793,58 @@ Desole, la majorite du contenu est en anglais, accessibilite exige! Cependant, j
         crossorigin="anonymous"
         async>
 </script>
+
+
+:::::::{div} full-width
+
+::::::{grid} 2
+
+:::::{grid-item-card}
+:class-header: bg-light
+:columns: 9
+
+**Notes**
+^^^
+::::{grid} 2
+:::{grid-item}
+
+```{admonition} To Do
+:class: note, dropdown
+
+- Lots to do here
+- Work it progressively and create a specific admonition for the part that is currently undergoing work
+- create new sftp logo that match the length of OU logo - implement on all example
+- Check about coherent plan and make it clear!!
+
+```
+
+:::
+
+:::{grid-item}
+
+```{admonition} Ideas
+:class: tip, dropdown
+
+Make the aquiarium svg moving
+
+```
+:::
+::::
+:::::
+
+
+
+:::::{grid-item-card}
+:class-header: bg-light
+:columns: 3
+**Page**
+^^^
+
+- Status:  ![flag alt >](../Docs/Svg_icons/Under_construction.svg)
+  
+- Reviewed: <span class="hovertext" data-hover="Insert here who has done what">&#x274C;</span>
+       
+- Updated: 15/02/2023
+   
+::::::
+:::::::

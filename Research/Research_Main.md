@@ -119,3 +119,56 @@ Description, study of Amorphous Solid Water with iron
 </div>
     
 </article>
+
+:::::::{div} full-width
+
+::::::{grid} 2
+
+:::::{grid-item-card}
+:class-header: bg-light
+:columns: 9
+
+**Notes**
+^^^
+::::{grid} 2
+:::{grid-item}
+
+```{admonition} To Do
+:class: note, dropdown
+
+Insert thesis pdf sourcen
+
+Remove OU image (simple link in text)
+
+```
+
+:::
+
+:::{grid-item}
+
+```{admonition} Ideas
+:class: tip, dropdown
+
+
+
+```
+:::
+::::
+:::::
+
+
+
+:::::{grid-item-card}
+:class-header: bg-light
+:columns: 3
+**Page**
+^^^
+
+- Status:  ![flag alt >](../Docs/Svg_icons/Under_construction.svg)
+  
+- Reviewed: <span class="hovertext" data-hover="Insert here who has done what">&#x274C;</span>
+       
+- Updated: 15/02/2023
+   
+::::::
+:::::::

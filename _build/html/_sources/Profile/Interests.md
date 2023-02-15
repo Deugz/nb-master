@@ -1,135 +1,21 @@
 # Scientific interests
 
-I study the role that <span class="hovertext" data-hover="Oui oui, de la glace! (&#129482;)"><strong>water ice</strong></span> plays during the formation of planets (both from a <span class="hovertext" data-hover="def">physical</span> and <span class="hovertext" data-hover="def">chemical</span> point of view). In space, ice is present in many environments: 
+***
+
+<p class="emphase">I study the role that <span class="hovertext" data-hover="Oui oui, de la glace! (&#129482;)"><strong>water ice</strong></span> plays during the formation of planets (both from a <span class="hovertext" data-hover="def">physical</span> and <span class="hovertext" data-hover="def">chemical</span> point of view).</p> 
+
+
+## Water Ices in Space
+
+::::{margin}
 
 ```{note}
-
-Insert collaboration need in right Margin
-
-```
-
-
-<input type="radio" name="gallery" id="slide-1"/>
-<input type="radio" name="gallery" id="slide-2"/>
-<input type="radio" name="gallery" id="slide-3"/>
-<input type="radio" name="gallery" id="slide-4"/>
-<input type="radio" name="gallery" id="slide-5"/>
-<input type="radio" name="gallery" id="slide-6"/>
-
-<div id="gallery"></div>
-
-<div class="slides">
-  <label class="labelSC" for="slide-1"></label>
-  <label class="labelSC" for="slide-2"></label>
-  <label class="labelSC" for="slide-3"></label>
-  <label class="labelSC" for="slide-4"></label>
-  <label class="labelSC" for="slide-5"></label>
-  <label class="labelSC" for="slide-6"></label>
-</div>
-
-
-## The Dust cycle in the galaxy
-
-::::{div} full-width
-
-```{figure} ../Docs/Images/Space_Pics/Gaia_s_sky_in_colour_g.jpg
-:name: galaxy
-:width: 100%
-Dust within the galaxy
+In space, ice is present in many environments. My Research focuses on the first one, Interstellar Dust and their evolution within protoplanetary disks.
 ```
 
 ::::
 
-Yes, the Galaxy is full of Dust ...
-
-
-:::::{div} full-width
-
-::::{grid} 2
-
-:::{grid-item}
-:columns: 6
-
-
-```{figure} ../Docs/Images/Interstellar_dust.PNG
-:name: dust-grain
-:width: 100%
-Dust grain in space 
-```
-
-:::
-
-
-:::{grid-item}
-:columns: 6
-
-```{figure} ../Docs/Images/The-lifecycle-of-gas-dust.png
-:name: dust-cycle
-:width: 100%
-Dust and gas cycle in the galaxy 
-```
-
-:::
-::::
-:::::
-
-```{note}
-- Reference for the pictures
-```
-
-
-::::::{div} full-width
-
-:::::{dropdown} In depth explanation
-
-::::{tab-set}
-
-:::{tab-item} Evolved Star
-
-- produce dust in outflow
-
-:::
-
-:::{tab-item} Diffuse cloud
-
-- conditions
-
-:::
-
-:::{tab-item} Dense cloud
-
-- Ice form around the grain 
-
-
-:::
-
-:::{tab-item} Protostar with outflow
-
-- What happen there
-
-:::
-
-
-:::{tab-item} Young star with disks
-
-- Protoplanetary disk
-
-:::
-
-:::{tab-item} Planetary system
-
-- blabla
-
-:::
-
-::::
-:::::
-::::::
-
-
-## Ice in space
-
-### <strong>&#187;  <u>Interstellar Dusts  </u></strong>
+### <strong>&#187;  <u> Covering Interstellar Dusts  </u></strong>
 
 <article id="P1">
 
@@ -167,7 +53,7 @@ Interesting subject to study, don't you think ?
 
 ***
 
-### <strong>&#187;  <u> Protoplanetary Disks </u></strong>
+### <strong>&#187;  <u>Embeded within Protoplanetary Disks </u></strong>
 
 <article id="P1">
 
@@ -202,7 +88,7 @@ Protoplanetary Disks are a byproduct of star formation. They contain both Dust a
 
 ***
 
-### <strong>&#187;  <u> Comets / Icy Moons </u></strong>
+### <strong>&#187;  <u>Within Comets & Icy Moons </u></strong>
 
 <article id="P1">
 
@@ -234,16 +120,181 @@ Enceladus, Jupyter Moon ... Water, life tout ca tout ca ...
     
 </article>
 
+## Observations, Experiments & Modelling
+
+::::{margin}
+
+```{note}
+No astronomical questions is solved without the interplay of those three disciplines
+```
+
+::::
+
+<p class="emphase">In space, ice is not a crystal like here on earth, but an <strong>amorphous</strong> material with very distinct properties.</p>
+
+### <strong>&#187; <u>JWST</u></strong>
+
+<article id="P1">
+
+<div id="subdiv1-3">    
+
+```{figure} ../Docs/Images/Space_Pics/Webb_2_0.png
+:width: 300px
+JWST
+```
+    
+**Want to know more ?** 
+- [Astronomy 101](https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/Astronomy_101/Astronomy_101.html)
+- [JWST](https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/JWST/JWST.html) 
+    
+</div>    
+    
+<div id="subdiv2-3">
+
+The *James Webb Space Telescope* is a revolution for Astronomers. It will give new insights about ...    
+    
+<br>
+
+</div>
+    
+
+    
+</article>
+
+***
+
+
+
+### <strong>&#187; <u>Amorphous ice experiments</u></strong>
+
+::::{margin}
+
+```{admonition} My Expertise
+:class: tip
+
+This is my confort zone (almost)
+```
+
+::::
+
+
+#### Vapor deposited 
+
+
+#### Hyperquenched
+
+
+
+
+### <strong>&#187; <u>Water Ice Models</u></strong>
+
+
 ## Astrochemistry
+
+<p class="emphase">Most of the chemistry in space occurs within the ice mantle covering interstellar dust.</p>
+
+### <strong>&#187; <u>Molecules in space</u></strong>
 
 ```{note}
 
 - Insert table of molecules, links to molecular zoo
 
+- Insert Ross picture of a meteroite
+
+```
+
+### <strong>&#187; <u>Cosmochemistry</u></strong>
+
+<p class="emphase">The Ariane Thread for Planet Formation</p>
+
+```{note}
+
+Bridging the gap
+- Deuterium fractionation
+
 ```
 
 ## Science questions
 
-### How do we get to comets from Interstellar dust particles?
+From those topics, there is an incredible sets of science questions arising, where Scientists from multiple disciplines have to make a joint effort:
+
+```{note}
+
+- insert here a list of the scientific questions relevant to the above fields
+
+
+```
+
+This lead me to the last of my scientific intrerest
+
+## Tools for Open Science
+
+```{note}
+
+- link to the help section
+
+```
+
+
+
+
+:::::::{div} full-width
+
+::::::{grid} 2
+
+:::::{grid-item-card}
+:class-header: bg-light
+:columns: 9
+
+**Notes**
+^^^
+::::{grid} 2
+:::{grid-item}
+
+```{admonition} To Do
+:class: note, dropdown
+
+- create a presentation following Help/Open-science-tools/presentation style
+
+- Think about coherent plan
+
+- Insert collaboration need in right Margin
+
+
+
+
+```
+
+:::
+
+:::{grid-item}
+
+```{admonition} Ideas
+:class: tip, dropdown
+
+Nothing, just leave it like that.
+
+
+```
+:::
+::::
+:::::
+
+
+
+:::::{grid-item-card}
+:class-header: bg-light
+:columns: 3
+**Page**
+^^^
+
+- Status:  ![flag alt >](../Docs/Svg_icons/Under_construction.svg)
+  
+- Reviewed: <span class="hovertext" data-hover="Insert here who has done what">&#x274C;</span>
+       
+- Updated: 15/02/2023
+   
+::::::
+:::::::
 
 

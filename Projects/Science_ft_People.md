@@ -72,6 +72,8 @@ Science is all about **Data**. Every scientific project involved the generation 
 :width: 1200px
 ```
 
+<img src="https://imgs.xkcd.com/comics/motivation.png" />
+
 ##### Help
 
 
@@ -515,25 +517,62 @@ Books designed for heavy data. All previous but accompaniement all along the lif
 
 ## Evolution
 
-- Youtube videos
+
+:::::::{div} full-width
+
+::::::{grid} 2
+
+:::::{grid-item-card}
+:class-header: bg-light
+:columns: 9
+
+**Notes**
+^^^
+::::{grid} 2
+:::{grid-item}
+
+```{admonition} To Do
+:class: note, dropdown
+
+- Lots to do here
+- Work on coherent plan
+    - How it has help me so far
+    - What is my plan for the future
+        - bring people onboard, participation
+        - create a template for people who want to have the same approach
+        - create an umbrella web-site that connect all trhe sftp Researchers, network
+    - Business possibility (for big existing research group)
+        - What are their needs ?
+
+```
+
+:::
+
+:::{grid-item}
+
+```{admonition} Ideas
+:class: tip, dropdown
+
+Make the aquiarium svg moving
+
+```
+:::
+::::
+:::::
 
 
 
-<article id="P1">
-  <div class="row">
-    <div class="timelinecontainer">
-      <div class="line"></div>
-      <div class="col"><div class="timelinebox">1<br><span>Extra Text</span></div></div>
-      <div class="col"><div class="timelinebox">2<br><span>Extra Text</span></div></div>
-      <div class="col"><div class="timelinebox">3<br><span>Extra Text</span></div></div>
-      <div class="col"><div class="timelinebox">4<br><span>Extra Text</span></div></div>
-      <div class="col"><div class="timelinebox">5<br><span>Extra Text</span></div></div>
-      <div class="col"><div class="timelinebox">6<br><span>Extra Text</span></div></div>
-      <div class="col"><div class="timelinebox">7<br><span>Extra Text</span></div></div>
-      <div class="col"><div class="timelinebox">8<br><span>Extra Text</span></div></div>
-     </div>
-    </div>
-</article>
+:::::{grid-item-card}
+:class-header: bg-light
+:columns: 3
+**Page**
+^^^
 
-
-footer
+- Status:  ![flag alt >](../Docs/Svg_icons/Under_construction.svg)
+  
+- Reviewed: <span class="hovertext" data-hover="Insert here who has done what">&#x274C;</span>
+       
+- Updated: 15/02/2023
+   
+::::::
+:::::::

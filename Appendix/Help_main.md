@@ -1,4 +1,4 @@
-# Help
+# 💡 Help
 
 This section is the place where I implement quick guide related to problems I experienced along the way of producing this work.
 

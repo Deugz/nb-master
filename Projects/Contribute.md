@@ -100,3 +100,67 @@ Choice,
 ```
 jb create mybookname
 ```
+
+
+## Contact
+
+<img src="https://imgs.xkcd.com/comics/asking_scientists_questions.png" />
+
+
+:::::::{div} full-width
+
+::::::{grid} 2
+
+:::::{grid-item-card}
+:class-header: bg-light
+:columns: 9
+
+**Notes**
+^^^
+::::{grid} 2
+:::{grid-item}
+
+```{admonition} To Do
+:class: note, dropdown
+
+- Lots to do here
+- Insert coffe cup from teaching
+- work on coherent plan
+    - Contribute (participate)
+        - Ask Astra about how to work on web-site using github
+    - Contribute (financially)
+        - Coffe cup
+        - Patreon (think about what I can offer)
+
+```
+
+:::
+
+:::{grid-item}
+
+```{admonition} Ideas
+:class: tip, dropdown
+
+Make the aquiarium svg moving
+
+```
+:::
+::::
+:::::
+
+
+
+:::::{grid-item-card}
+:class-header: bg-light
+:columns: 3
+**Page**
+^^^
+
+- Status:  ![flag alt >](../Docs/Svg_icons/Under_construction.svg)
+  
+- Reviewed: <span class="hovertext" data-hover="Insert here who has done what">&#x274C;</span>
+       
+- Updated: 15/02/2023
+   
+::::::
+:::::::

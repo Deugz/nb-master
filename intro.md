@@ -82,10 +82,10 @@ s0.parentNode.insertBefore(s1,s0);
 :columns: 8
 
 <br>
-<p class="emphase">An <strong>online scientific publication plateform</strong>, aimed at promoting collaboration between scientistist of different disciplines, by providing the space and the tools to create and sustain a constructive dialogue shared openly with the public, around a broad scientific topic and it's related science questions. </p>
+<p class="emphase">A self-own, independant and lifelong <strong>online scientific publication plateform</strong>, aimed at promoting collaboration between scientistist of different disciplines, by providing the space and the tools to create and sustain a constructive dialogue shared openly with the public, around a broad scientific topic and it's related science questions. </p>
 
 
-<p class="emphase2"><strong>Space Ice *</strong></p>
+<p class="emphase2"><strong>Space Ice</strong></p>
 
 
 
@@ -99,8 +99,6 @@ Welcome (![flag alt >]( Docs/Svg_icons/waving-hand-svgrepo-com.svg)), and have a
 ```
 :::
 ::::
-
-<p><span class="hovertext" data-hover="and it's related science questions">*</span></p>
 
 ***
 
@@ -174,7 +172,7 @@ James Web Space Telescope [JWST](https://deugz.github.io/nb-teaching/_build/html
 <span style="float: right">![flag alt >](Docs/Svg_icons/book-svgrepo-com.svg)</span>  **Project** 
 ^^^
 
-What I am trying to achieve and how.
+What I am trying to achieve, why and how.
 
 :::
 
@@ -794,38 +792,57 @@ Only my personal opinions are expressed in the following posts and they don't re
         async>
 </script>
 
+<hr>
 
-::::{grid} 2
+:::::::{div} full-width
 
-:::{grid-item-card}
+::::::{grid} 2
+
+:::::{grid-item-card}
 :class-header: bg-light
-:columns: 5
-
-**Page status**
-^^^
-
-- Completed: &#9989;
-  
-- Reviewed: &#x274C;
-       
-- Updated: 04/02/2023
-   
-:::  
-
-:::{grid-item-card}
-:class-header: bg-light
-:columns: 7
+:columns: 9
 
 **Notes**
 ^^^
+::::{grid} 2
+:::{grid-item}
+
+```{admonition} To Do
+:class: note, dropdown
+
+- Send to Friends to Review, comment
+- Orthographique correction
+
+```
+
+:::
+
+:::{grid-item}
 
 ```{admonition} Ideas
 :class: tip, dropdown
 
-Nothing
+Nothing, just leave it like that.
+
 
 ```
-
-
 :::
 ::::
+:::::
+
+
+
+:::::{grid-item-card}
+:class-header: bg-light
+:columns: 3
+**Page**
+^^^
+
+- Status:  &#9989;
+  
+- Reviewed: <span class="hovertext" data-hover="Insert here who has done what">&#x274C;</span>
+       
+- Updated: 15/02/2023
+   
+::::::
+:::::::
