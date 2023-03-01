@@ -51,6 +51,10 @@ caption must include :
 
 ## Edition
 
+### Wiki
+
+- [DokuWiki](https://www.dokuwiki.org/dokuwiki)
+
 ### Poster presentation
 
 - [Youtube tutorial](https://www.youtube.com/watch?v=1RwJbhkCA58)
@@ -77,3 +81,14 @@ caption must include :
 - [Example Jupyter Book](https://the-environmental-ds-book.netlify.app/gallery/exploration/urban-exploration-climate_ukv/urban-exploration-climate_ukv.html)
 
 - [Rohub hosting example](https://reliance.rohub.org/1b8921af-e77f-4ccf-ae38-4813cdceba0f?activetab=overview)
+
+
+## More
+
+### Step by step guide creator
+
+- [Scribehow](https://scribehow.com/)
+
+### Education websites
+
+- [wolframalpha](https://www.wolframalpha.com/)

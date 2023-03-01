@@ -24,6 +24,7 @@ parts:
     - file: Blog/Blog_Main
       sections:
       - file: Blog/Posts/Scientific_Publication
+      - file: Blog/Posts/Outreach
       - file: Blog/Posts/Annie_woman      
       - file: Blog/Posts/ODAPA
     - file: Blog/Version_Main
