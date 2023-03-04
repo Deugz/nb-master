@@ -675,6 +675,14 @@ I would like to welcome as many contributions as possible from a wide variety of
 
 ## **Teaching**
 
+
+<p class="emphase2"><strong> Cutting Edge Science  </strong></p>
+
+<p class="emphase">Free, Creative, Collaborative ...</p>
+
+<br>
+<br>
+
 :::::{div} full-width
 ::::{grid} 2
 
