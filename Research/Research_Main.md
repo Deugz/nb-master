@@ -1,5 +1,25 @@
 # Overview
 
+## Research
+
+:::{margin}
+
+<br>
+
+<sup>*</sup> {cite:p}`Wilkinson2016` 
+
+:::
+
+<p class="emphase"> All my research projects are designed following the <span class="hovertext" data-hover="Findability, Accessibility, Interoperability and Reusability"><strong>FAIR</strong></span><sup>*</sup> principles and are openly shared <span class="hovertext" data-hover="Weekly"><em>"live"</em></span> on the following websites </p>.
+
+### Publications
+
+
+I understand that this publication method might bring some concerns and suspicion about the validity or quality of my work because it didn't follow the <span class="hovertext" data-hover="lol">rigorous</span> **Peer Review** process of accadamic publishing. However ...
+
+
+
+
 :::::{margin} 
 ::::{grid} 1
 :::{grid-item-card} 
@@ -8,6 +28,12 @@
 :::
 ::::
 :::::
+
+
+
+
+
+
 
 # 2023
 

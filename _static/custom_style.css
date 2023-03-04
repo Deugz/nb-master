@@ -325,3 +325,41 @@ input {
 #slide-6:checked ~ .slides label:nth-of-type(6) {
   background: #888;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+#sticky-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: calc((100% - -700px) / 2);
+  bottom: 0;  
+  padding: 5px;
+  transition: 375ms ease-in-out all;
+  transform: translateY(-100%);
+}
+#sticky-video .video-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  padding-bottom: 56.25%;
+}
+#sticky-video .video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 240px;
+  height: 135px;
+  box-shadow: 0 3px 6px rgba(200, 200, 200, 0.6);
+}
+
+
+
+@media screen and (max-width: 700px) {
+  #sticky-video {
+    right: 0;
+  }
+}

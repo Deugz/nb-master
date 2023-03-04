@@ -16,16 +16,17 @@ s0.parentNode.insertBefore(s1,s0);
 
 ::::{margin} 
 
+
 <div id="colour">
-
-```{image} Docs/Images/Vincent-Deguin-OpenUniversity50_crop.jpg
-```
-
+    
+<p class="emphase"> <em>By</em>     
+<br><br><strong>Vincent Deguin</strong> 
 <br>
-<br>
+</p> 
 
-**<u>Vincent Deguin</u>** (![flag alt >](Docs/Svg_icons/flag-for-flag-france-svgrepo-com.svg)) 
-
+***
+    
+![flag alt >](Docs/Svg_icons/flag-for-flag-france-svgrepo-com.svg) French (32 yo)
 
 ![flag alt >](Docs/Svg_icons/Study_level.svg) PhD student
 
@@ -41,12 +42,17 @@ s0.parentNode.insertBefore(s1,s0);
 
 ![flag alt >](Docs/Svg_icons/codepen-svgrepo-com.svg) [Deugz](https://codepen.io/deugz/)
 
-
+![flag alt >](Docs/Svg_icons/youtube-svgrepo-com.svg) [Youtube](https://codepen.io/deugz/)
+    
 </div>
 
 ::::
 
 ***
+
+<br>
+
+<p class="emphase">A self-own, independant, interactive and lifelong <strong>online scientific publication and public engagement plateform</strong>, aimed at promoting collaboration between multi-disciplinary scientistist, by providing the space and the tools to create and sustain a constructive dialogue shared openly with the public, around a broad scientific topic:</p>
 
 
 
@@ -55,23 +61,7 @@ s0.parentNode.insertBefore(s1,s0);
 :::{grid-item}
 :columns: 4
 
-**Web-site info:**
 
-<br>
-<br>
-
-- ![GitHub last commit](https://img.shields.io/github/last-commit/Deugz/nb-master?color=green&style=plastic)
-- ![GitHub repo size](https://img.shields.io/github/repo-size/Deugz/nb-master?color=yellow&style=plastic) 
-- ![GitHub contributors](https://img.shields.io/github/contributors/Deugz/nb-master?color=red&style=plastic)
-- ![visitors](https://page-views.glitch.me/badge?page_id=https://deugz.github.io/nb-master/_build/html/intro.html)
-
-<br>
-<br>
-
-- ![watchers](https://img.shields.io/github/watchers/Deugz/nb-master?style=social)
-- ![stars](https://img.shields.io/github/stars/Deugz/nb-master?style=social)
-
-<br>
 
 <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 <lottie-player src="https://assets2.lottiefiles.com/private_files/lf30_OadeVs.json"  background="transparent"  speed="1"  style="width:100%; height:100%;" hover></lottie-player>
@@ -81,18 +71,16 @@ s0.parentNode.insertBefore(s1,s0);
 :::{grid-item}
 :columns: 8
 
+
 <br>
-<p class="emphase">A self-own, independant and lifelong <strong>online scientific publication plateform</strong>, aimed at promoting collaboration between scientistist of different disciplines, by providing the space and the tools to create and sustain a constructive dialogue shared openly with the public, around a broad scientific topic and it's related science questions. </p>
 
-
-<p class="emphase2"><strong>Space Ice</strong></p>
-
+<p class="emphase2"><strong>Ices in Space</strong></p>
 
 
 
 ```{epigraph}
 
-Welcome (![flag alt >]( Docs/Svg_icons/waving-hand-svgrepo-com.svg)), and have a good read (![flag alt >]( Docs/Svg_icons/book-svgrepo-com.svg)).
+And their role in <strong>Planet Formation</strong>. <br> Explore, have fun, and contribute 😄.
 
 
 -- **Vince**, editor / publisher
@@ -100,71 +88,58 @@ Welcome (![flag alt >]( Docs/Svg_icons/waving-hand-svgrepo-com.svg)), and have a
 :::
 ::::
 
+<br>
+
+
 ***
 
-```{margin}
+**This website**:
 
-<strong><u>Want to help </u> (![flag alt >](Docs/Svg_icons/coins-money-svgrepo-com.svg)) ? </strong>
+:::{div} full-width
 
-<br>
+![flag alt >>](Docs/SVG_files/human-head-silhouette-with-cogwheels-svgrepo-com.svg) - <span class="hovertext" data-hover="Experimenting with the earliest stages of planet formation">Experiment</span> &nbsp;&nbsp;&nbsp;&nbsp; ![flag alt >>](Docs/Svg_icons/Under_construction.svg) - <span class="hovertext" data-hover="Experimenting with the earliest stages of planet formation">Work in progress</span> &nbsp;&nbsp;&nbsp;&nbsp; ![flag alt >>](Docs/Svg_icons/location-on-road-svgrepo-com.svg) - <span class="hovertext" data-hover="Experimenting with the earliest stages of planet formation">a Journey</span> &nbsp;&nbsp;&nbsp;&nbsp; ![flag alt >>](Docs/Svg_icons/handshake-deal-svgrepo-com.svg) - <span class="hovertext" data-hover="Experimenting with the earliest stages of planet formation">Participative</span> &nbsp;&nbsp;&nbsp;&nbsp; ![flag alt >>](Docs/Svg_icons/book-svgrepo-com.svg) - <span class="hovertext" data-hover="Experimenting with the earliest stages of planet formation">Online Free Book</span>
 
-<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Buy me a coffee', '#317315', 'O4O6EZO78');kofiwidget2.draw();</script> 
-<br>
-<br>
-or 
-<br>
-<br>
+:::
 
-![flag alt >](Docs/Svg_icons/patreon-svgrepo-com.svg) [Patreon](https://www.patreon.com/Science_for_the_People) 
 
-```
+
+***
 
 <br>
+<br>
+<br>
 
-```{warning}
 
-- ![flag alt >]( Docs/Svg_icons/Under_construction.svg) This web-site is an ongoing project currently in it's exploratory phase.
-
-- Unless clearly stated, the content of this web-site have **not been peer-reviewed**.
-
-- Reviewing can be achieved (and warmly welcome) on this web-site using `hypothesis`.
-
-```
-
-<h3><strong>&#187;  <u>Introduction </u></strong></h3>
-
-::::{div} full-width
-
-<article id="P1">
-
-<div id="subdiv2">
-
-    
-My name is  [Vincent Deguin](https://50.open.ac.uk/photography/vincent), Astrophysics PhD student at the Open University. I am passionate about my <span class="hovertext" data-hover="Experimenting with the earliest stages of planet formation">scientific topic</span>, outreach and education, as well as an aspiring web developer. The image on the right is the edge of a nearby, young, star-forming region called NGC 3324 in the Carina Nebula, pictured by the recently launched James Webb Space Telescope ([JWST](https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/JWST/JWST.html)). This brand new Infrared space telescope will bring exciting times for astronomers like me, but also for you, provided that scientific discoveries are shared in an accessible format (cf [Manifesto](Projects/Manifesto)). Fortunately, I have an insatiable appetite for Open Science and this web-site is an attempt to make the outputs of my scientific journey as **open, accesible and reproducible** as possible, as well as providing a plateform for self minded researcher to contribute in the production of a research compendium, in an <span class="hovertext" data-hover="Definition">Encyclopaedia</span> style. 
-    
-This web-site is dived in 4 main sections:
-
+<div class="video-div">
+<iframe  id="stickyAnchor" class="v-page-anchor float-left" src="https://www.youtube.com/embed/ZC488_LS42o?enablejsapi=1" frameborder="0" fullscreen width="0" height="0" style="margin:auto;"></iframe>
 </div>
- 
-<div id="subdiv2">  
-    
-```{figure} Docs/Images/JWST_cloud1.jpg
-:name: JWST1
-James Web Space Telescope [JWST](https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/JWST/JWST.html)
-```
-
-    
-</div>
-    
-</article>
-
-::::
+<script src="https://www.youtube.com/iframe_api"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script><script  src="_static/assets/script/scriptvideo.js"></script>
 
 :::::{div} full-width
 
-::::{grid} 1 1 2 4
+
+<p class="emphase2"><span class="hovertext" data-hover="Video"><strong>Welcome</strong></span> &nbsp; 👋 </p>
+
+
+<br>
+<br>
+
+
+
+::::{grid} 1 1 2 5
 :class-container: text-center
 :gutter: 3
+
+:::{grid-item-card}
+:class-header: bg-light
+:link: Profile/Interests.html
+<span style="float: right">![flag alt >](Docs/Svg_icons/book-svgrepo-com.svg)</span>  **Profile** 
+^^^
+
+postcard pic
+
+:::
 
 :::{grid-item-card}
 :class-header: bg-light
@@ -207,13 +182,37 @@ Because why not ?
 ::::
 :::::
 
+<br>
+<br>
+
+
+::::{div} full-width
+
+<h3><strong>&#187;  <u>Map</u></strong></h3>
+
+```{figure} Docs/Ontology/Export/Master_Ont_1.png
+:name: Ontology
+:width: 3000px
+Knowledge graph obtain from [webvowl](https://service.tib.eu/webvowl/) using a custom ontology generated via [protege](link) 
+```
+
+::::
+
 
 
 ## **Science For The People** 
 
-<p class="emphase"> New tools and methods for publishing and sharing scientific content </p>
-
 :::::{div} full-width
+
+<br>
+<br>
+
+<p class="emphase2"> <strong>New tools and methods </strong></p>
+
+<p class="emphase"> to perform, edit, publish, share and discuss <strong>Research</strong> 📖</p>
+
+<br>
+
 ::::{grid} 4
 :::{grid-item-card}
 :class-header: bg-light
@@ -256,41 +255,21 @@ Writen as blog post
 ::::
 :::::
 
-<h3><strong>&#187;  <u>Quick guided tour</u></strong></h3>
-
-::::{margin}
-
-```{admonition} Jupyter Book
-:class: tip
-
-This web-site have been built from a collection of *markdown* files, transformed in *html* using [Jupyter Book](https://jupyterbook.org/en/stable/intro.html). I have added some *css* and *Javascript* of my own but please bear in mind, that producing such a web-site is: 
 
 
-**Accessible to everyone**.
 
 
-- Open
-- Free
-- Easy to use
-
-
-```
-
-::::
-
-<br>
-
-```{figure} _static/assets/Guide_tour/Slide1.png
-:name: galaxy
-:width: 100%
-Dust within the galaxy
-```
 
 <h3><strong>&#187;  <u>Audiences ?</u></strong></h3>
 
 :::::{div} full-width
 
-<p class="emphase"> <strong> Everyone</strong>, interested in Science (see ecosystem below) </p>
+<p class="emphase2"><strong> Everyone</strong></p>
+
+<p class="emphase">Curious and interested in <strong>Science</strong> 🌍 </p>
+
+<br>
+
 
 ::::{grid} 6
 
@@ -408,6 +387,48 @@ Just explore
 ::::
 :::::
 
+
+
+<p class="emphase2"><strong>Free & Open Source </strong></p>
+
+<p class="emphase">Not free of effort though 💪</p>
+
+::::{grid} 2
+:::{grid-item}
+
+
+```{admonition} Jupyter Book
+:class: tip
+
+This web-site have been built from a collection of *markdown* files, transformed in *html* using [Jupyter Book](https://jupyterbook.org/en/stable/intro.html):
+
+
+**Accessible to everyone**.
+
+
+- Open
+- Free
+- Easy to use
+
+
+```
+
+:::
+
+:::{grid-item}
+
+<h4>I can <strong>Help</strong> &nbsp; 😉</h4>
+
+List of help page
+- [1]()
+- [1]()
+
+:::
+::::
+
+<br>
+
+
 <br>
 
 <p class="emphase"> Want your own accademic web-site?</p>
@@ -421,19 +442,17 @@ Just explore
 
 ## **Research**
 
-<h3><strong>&#187;  <u> Scientific projects </u></strong></h3>
-
-:::{margin}
-
+<br>
 <br>
 
-<sup>*</sup> {cite:p}`Wilkinson2016` 
-
-:::
-
-<p class="emphase"> All my research projects are designed following the <span class="hovertext" data-hover="Findability, Accessibility, Interoperability and Reusability"><strong>FAIR</strong></span><sup>*</sup> principles and are openly shared <span class="hovertext" data-hover="Weekly"><em>"live"</em></span> on the following websites </p>.
-
 :::::{div} full-width
+
+<p class="emphase2"><strong>My Scientific Projects</strong></p>
+
+<br>
+<br>
+
+
 ::::{card-carousel} 2
 
 :::{card} 
@@ -523,19 +542,22 @@ Sprinkle a lot of this {cite}`Hague2020` on top of that {cite}`Souza2017` and yo
 ::::
 :::::
 
-<h3><strong>&#187;  <u> Your Tools </u></strong></h3>
-
-
-I understand that this publication method might bring some concerns and suspicion about the validity or quality of my work because it didn't follow the <span class="hovertext" data-hover="lol">rigorous</span> **Peer Review** process of accadamic publishing. However ...
-
-:::{div} full-width
-
-<p class="emphase"> <span class="hovertext" data-hover="The experimented scientist, the PhD student,">You</span> can <strong> directly interact </strong> with the content of the page !</p>
-
-:::
+<br>
+<br>
 
 
 :::::{div} full-width
+
+
+<p class="emphase2"><strong>Your Tools</strong> </p>
+
+<br>
+
+<p class="emphase"> To <strong> directly interact </strong> with the content of the page !</p>
+
+<br>
+
+
 ::::{grid} 1 1 2 5
 :class-container: text-center
 :gutter: 3
@@ -600,10 +622,16 @@ Code and data repositories.
 ::::
 :::::
 
+<br>
+<br>
 
-<h3><strong>&#187;  <u>For you to </u> </strong></h3>
 
 :::::{div} full-width
+
+<p class="emphase2"><strong>So you Can</strong> </p>
+
+<br>
+
 ::::{grid} 3
 
 :::{grid-item}
@@ -784,30 +812,37 @@ Only my personal opinions are expressed in the following posts and they don't re
 
 # Comments
 
-<script src="https://utteranc.es/client.js"
-        repo="Deugz/nb-master"
-        issue-term="pathname"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
 
-<hr>
 
 :::::::{div} full-width
 
-::::::{grid} 2
+::::::{grid} 3
 
 :::::{grid-item-card}
 :class-header: bg-light
-:columns: 9
+:columns: 6
 
 **Notes**
 ^^^
-::::{grid} 2
-:::{grid-item}
+
 
 ```{admonition} To Do
+:class: warning, dropdown
+
+- Create video
+
+
+```
+
+```{admonition} Ideas
+:class: tip, dropdown
+
+- Graffity as title - Barry
+
+
+```
+
+```{admonition} Collaboration
 :class: note, dropdown
 
 - Send to Friends to Review, comment
@@ -815,19 +850,6 @@ Only my personal opinions are expressed in the following posts and they don't re
 
 ```
 
-:::
-
-:::{grid-item}
-
-```{admonition} Ideas
-:class: tip, dropdown
-
-Nothing, just leave it like that.
-
-
-```
-:::
-::::
 :::::
 
 
@@ -838,11 +860,61 @@ Nothing, just leave it like that.
 **Page**
 ^^^
 
+<br>
+<br>
+
+
+- Author:  Vince;
 - Status:  &#9989;
-  
 - Reviewed: <span class="hovertext" data-hover="Insert here who has done what">&#x274C;</span>
-       
 - Updated: 15/02/2023
+
+
+
    
+:::::
+
+:::::{grid-item-card}
+:class-header: bg-light
+:columns: 3
+<span style="float: right">![flag alt >](Docs/Svg_icons/coins-money-svgrepo-com.svg)</span>**Help** 
+^^^
+
+<br>
+
+<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Buy me a coffee', '#317315', 'O4O6EZO78');kofiwidget2.draw();</script> 
+
+<br>
+<br>
+
+or
+
+<br>
+
+![flag alt >](Docs/Svg_icons/patreon-svgrepo-com.svg) [Patreon](https://www.patreon.com/Science_for_the_People) 
+
+:::::
 ::::::
 :::::::
+
+
+
+***
+
+::::{div} full-width
+
+- ![GitHub last commit](https://img.shields.io/github/last-commit/Deugz/nb-master?color=green&style=plastic) - ![GitHub repo size](https://img.shields.io/github/repo-size/Deugz/nb-master?color=yellow&style=plastic) - ![GitHub contributors](https://img.shields.io/github/contributors/Deugz/nb-master?color=red&style=plastic) - ![visitors](https://page-views.glitch.me/badge?page_id=https://deugz.github.io/nb-master/_build/html/intro.html) - ![watchers](https://img.shields.io/github/watchers/Deugz/nb-master?style=social) - ![stars](https://img.shields.io/github/stars/Deugz/nb-master?style=social)
+      
+::::
+
+
+***
+
+<script src="https://utteranc.es/client.js"
+        repo="Deugz/nb-master"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+

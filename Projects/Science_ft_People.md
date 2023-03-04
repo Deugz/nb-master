@@ -23,11 +23,8 @@ Description
 :::{grid-item}
 :columns: 10
 
-```{figure} ../Docs/Ontology/Export/Master_Ont_1.png
-:name: Ontology
-:width: 3000px
-Knowledge graph obtain from [webvowl](https://service.tib.eu/webvowl/) using a custom ontology generated via [protege](link) 
-```
+Map replaced
+
 :::
 ::::
 :::::

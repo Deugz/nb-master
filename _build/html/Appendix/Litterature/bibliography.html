@@ -81,6 +81,8 @@ var addUtterances = () => {
 }
 commentsRunWhenDOMLoaded(addUtterances);
 </script>
+    <script src="../../_static/assets/script/scriptvideo.js"></script>
+    <script src="../../_static/assets/script/.ipynb_checkpoints/scriptvideo-checkpoint.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="../../_static/design-tabs.js"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
@@ -101,14 +103,6 @@ const thebe_selector_output = ".output, .cell_output"
 
     <!-- Google Analytics -->
     
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-CPYX9S0KDS"></script>
-<script>
-                    window.dataLayer = window.dataLayer || [];
-                    function gtag(){ dataLayer.push(arguments); }
-                    gtag('js', new Date());
-                    gtag('config', 'G-CPYX9S0KDS');
-                </script>
-
   </head>
   <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
 <!-- Checkboxes to toggle the left sidebar -->
@@ -122,7 +116,7 @@ const thebe_selector_output = ".output, .cell_output"
     <div class="visually-hidden">Toggle in-page Table of Contents</div>
 </label>
 <!-- Headers at the top -->
-<div class="announcement header-item noprint">Current Version: Jan 2023</div>
+<div class="announcement header-item noprint">Current Version: Feb 2023 ⚠ <u>Thesis Deadline</u>: <strong>October 2023</strong> ⚠</div>
 <div class="header header-item noprint"></div>
 
     
@@ -160,10 +154,27 @@ const thebe_selector_output = ".output, .cell_output"
  </span>
 </p>
 <ul class="nav bd-sidenav">
- <li class="toctree-l1">
+ <li class="toctree-l1 has-children">
   <a class="reference internal" href="../../Profile/Interests.html">
    Scientific interests
   </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference external" href="https://deugz.github.io/nb-phd/_build/html/intro.html">
+     Amorphous Ice (📖 A)
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference external" href="https://deugz.github.io/nb-museum/_build/html/intro.html">
+     Planet Formation (📖 B)
+    </a>
+   </li>
+  </ul>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../../Profile/CV/CV_Main.html">
@@ -173,7 +184,7 @@ const thebe_selector_output = ".output, .cell_output"
 </ul>
 <p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
-  Science for the people
+  Project
  </span>
 </p>
 <ul class="nav bd-sidenav">
@@ -227,8 +238,8 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal" href="../../Blog/Blog_Main.html">
    Posts
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
-  <label for="toctree-checkbox-1">
+  <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+  <label for="toctree-checkbox-2">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -259,8 +270,8 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal" href="../../Blog/Version_Main.html">
    Versions
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
-  <label for="toctree-checkbox-2">
+  <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
+  <label for="toctree-checkbox-3">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -298,8 +309,8 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal" href="../Help_main.html">
    💡 Help
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
-  <label for="toctree-checkbox-3">
+  <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
+  <label for="toctree-checkbox-4">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -532,26 +543,26 @@ title="Print to PDF"
 <h1>Bibliography<a class="headerlink" href="#bibliography" title="Permalink to this headline">#</a></h1>
 <div class="docutils container" id="id1">
 <dl class="citation">
-<dt class="label" id="id2"><span class="brackets">1</span></dt>
-<dd><p>Mark D. Wilkinson, Michel Dumontier, IJsbrand Jan Aalbersberg, Gabrielle Appleton, Myles Axton, Arie Baak, Niklas Blomberg, Jan Willem Boiten, Luiz Bonino da Silva Santos, Philip E. Bourne, Jildau Bouwman, Anthony J. Brookes, Tim Clark, Mercè Crosas, Ingrid Dillo, Olivier Dumon, Scott Edmunds, Chris T. Evelo, Richard Finkers, Alejandra Gonzalez-Beltran, Alasdair J.G. Gray, Paul Groth, Carole Goble, Jeffrey S. Grethe, Jaap Heringa, Peter A.C. t Hoen, Rob Hooft, Tobias Kuhn, Ruben Kok, Joost Kok, Scott J. Lusher, Maryann E. Martone, Albert Mons, Abel L. Packer, Bengt Persson, Philippe Rocca-Serra, Marco Roos, Rene van Schaik, Susanna Assunta Sansone, Erik Schultes, Thierry Sengstag, Ted Slater, George Strawn, Morris A. Swertz, Mark Thompson, Johan Van Der Lei, Erik Van Mulligen, Jan Velterop, Andra Waagmeester, Peter Wittenburg, Katherine Wolstencroft, Jun Zhao, and Barend Mons. Comment: the fair guiding principles for scientific data management and stewardship. <em>Scientific Data</em>, 3 2016. <a class="reference external" href="https://doi.org/10.1038/sdata.2016.18">doi:10.1038/sdata.2016.18</a>.</p>
-</dd>
-<dt class="label" id="id10"><span class="brackets">2</span></dt>
+<dt class="label" id="id10"><span class="brackets">1</span></dt>
 <dd><p>Vincent Deguin, Joëlle Mascetti, Aude Simon, Nadia Ben Amor, Christian Aupetit, Sandra Latournerie, and Jennifer A. Noble. Photochemistry of fe:h2o adducts in argon matrixes: a combined experimental and theoretical study in the mid-ir and uv-visible regions. <em>Journal of Physical Chemistry A</em>, 122:529–542, 1 2018. <a class="reference external" href="https://doi.org/10.1021/acs.jpca.7b09681">doi:10.1021/acs.jpca.7b09681</a>.</p>
 </dd>
-<dt class="label" id="id15"><span class="brackets">3</span></dt>
+<dt class="label" id="id15"><span class="brackets">2</span></dt>
 <dd><p>J. P. Hague, P. W. Mieczkowski, C. O'Rourke, A. J. Loughlin, and J. B. Phillips. Microscopic biophysical model of self-organization in tissue due to feedback between cell- and macroscopic-scale forces. <em>Physical Review Research</em>, 11 2020. <a class="reference external" href="https://doi.org/10.1103/PhysRevResearch.2.043217">doi:10.1103/PhysRevResearch.2.043217</a>.</p>
 </dd>
-<dt class="label" id="id14"><span class="brackets">4</span></dt>
+<dt class="label" id="id14"><span class="brackets">3</span></dt>
 <dd><p>Glauco R. Souza, Hubert Tseng, Jacob A. Gage, Arunmani Mani, Pujan Desai, Fransisca Leonard, Angela Liao, Monica Longo, Jerrie S. Refuerzo, and Biana Godin. Magnetically bioprinted human myometrial 3d cell rings as a model for uterine contractility. <em>International Journal of Molecular Sciences</em>, 4 2017. <a class="reference external" href="https://doi.org/10.3390/ijms18040683">doi:10.3390/ijms18040683</a>.</p>
 </dd>
-<dt class="label" id="id8"><span class="brackets">5</span></dt>
+<dt class="label" id="id8"><span class="brackets">4</span></dt>
 <dd><p>Lori S. Mestre. Student preference for tutorial design: a usability study. <em>Reference Services Review</em>, 40:258–276, 5 2012. <a class="reference external" href="https://doi.org/10.1108/00907321211228318">doi:10.1108/00907321211228318</a>.</p>
 </dd>
-<dt class="label" id="id7"><span class="brackets">6</span></dt>
+<dt class="label" id="id7"><span class="brackets">5</span></dt>
 <dd><p>George Koutsouris, Lauren Stentiford, Simon Benham-Clarke, and David Hall. Agonism in education: a systematic scoping review and discussion of its educational potential. <em>Educational Review</em>, 74:1029–1054, 7 2022. <a class="reference external" href="https://doi.org/10.1080/00131911.2021.1889983">doi:10.1080/00131911.2021.1889983</a>.</p>
 </dd>
-<dt class="label" id="id12"><span class="brackets">7</span></dt>
+<dt class="label" id="id12"><span class="brackets">6</span></dt>
 <dd><p>Roger D. Peng. Reproducible research in computational science. <em>Science</em>, 334:1226–1227, 12 2011. <a class="reference external" href="https://doi.org/10.1126/science.1213847">doi:10.1126/science.1213847</a>.</p>
+</dd>
+<dt class="label" id="id2"><span class="brackets">7</span></dt>
+<dd><p>Mark D. Wilkinson, Michel Dumontier, IJsbrand Jan Aalbersberg, Gabrielle Appleton, Myles Axton, Arie Baak, Niklas Blomberg, Jan Willem Boiten, Luiz Bonino da Silva Santos, Philip E. Bourne, Jildau Bouwman, Anthony J. Brookes, Tim Clark, Mercè Crosas, Ingrid Dillo, Olivier Dumon, Scott Edmunds, Chris T. Evelo, Richard Finkers, Alejandra Gonzalez-Beltran, Alasdair J.G. Gray, Paul Groth, Carole Goble, Jeffrey S. Grethe, Jaap Heringa, Peter A.C. t Hoen, Rob Hooft, Tobias Kuhn, Ruben Kok, Joost Kok, Scott J. Lusher, Maryann E. Martone, Albert Mons, Abel L. Packer, Bengt Persson, Philippe Rocca-Serra, Marco Roos, Rene van Schaik, Susanna Assunta Sansone, Erik Schultes, Thierry Sengstag, Ted Slater, George Strawn, Morris A. Swertz, Mark Thompson, Johan Van Der Lei, Erik Van Mulligen, Jan Velterop, Andra Waagmeester, Peter Wittenburg, Katherine Wolstencroft, Jun Zhao, and Barend Mons. Comment: the fair guiding principles for scientific data management and stewardship. <em>Scientific Data</em>, 3 2016. <a class="reference external" href="https://doi.org/10.1038/sdata.2016.18">doi:10.1038/sdata.2016.18</a>.</p>
 </dd>
 <dt class="label" id="id4"><span class="brackets">8</span></dt>
 <dd><p>Satrajit S. Ghosh, Arno Klein, Brian Avants, and K. Jarrod Millman. Learning from open source software projects to improve scientific review. <em>Frontiers in Computational Neuroscience</em>, 2012. <a class="reference external" href="https://doi.org/10.3389/fncom.2012.00018">doi:10.3389/fncom.2012.00018</a>.</p>
@@ -621,8 +632,7 @@ title="Print to PDF"
   
     <div class="extra_footer">
       
-<img class="CC_licence" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc-sa.svg" alt="Licence CC BY NC SA 2"/>
-  
+<img class="CC_licence" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc-sa.svg" alt="Licence CC BY NC SA 2"/> 
 
     </div>
 </p>

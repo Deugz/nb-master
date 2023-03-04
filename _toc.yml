@@ -7,8 +7,13 @@ parts:
   - caption: Profile
     chapters:
     - file: Profile/Interests
+      sections:
+      - url: https://deugz.github.io/nb-phd/_build/html/intro.html
+        title: "Amorphous Ice (📖 A)"
+      - url: https://deugz.github.io/nb-museum/_build/html/intro.html
+        title: "Planet Formation (📖 B)"
     - file: Profile/CV/CV_Main
-  - caption: Science for the people 
+  - caption: Project
     chapters:
     - file: Projects/Manifesto 
     - file: Projects/Science_ft_People 

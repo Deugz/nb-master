@@ -2,16 +2,215 @@
 
 ***
 
+<div class="video-div">
+<iframe  id="stickyAnchor" class="v-page-anchor float-left" src="https://www.youtube.com/embed/uHFJ9qhR0VM?enablejsapi=1" frameborder="0" fullscreen width="0" height="0" style="margin:auto;"></iframe>
+</div>
+<script src="https://www.youtube.com/iframe_api"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script><script  src="../_static/assets/script/scriptvideo.js"></script>
+
+
+<br>
+
+::::{div} full-width
+
+<p class="emphase2"><strong> Introduction  </strong></p>
+
+
+<article id="P1">
+
+<div id="subdiv2">
+
+    
+My name is  [Vincent Deguin](https://50.open.ac.uk/photography/vincent), Astrophysics PhD student at the Open University. I am passionate about my <span class="hovertext" data-hover="Experimenting with the earliest stages of planet formation">scientific topic</span>, outreach and education, as well as an aspiring web developer. The image on the right is the edge of a nearby, young, star-forming region called NGC 3324 in the Carina Nebula, pictured by the recently launched James Webb Space Telescope ([JWST](https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/JWST/JWST.html)). This brand new Infrared space telescope will bring exciting times for astronomers like me, but also for you, provided that scientific discoveries are shared in an accessible format (cf [Manifesto](Projects/Manifesto)). Fortunately, I have an insatiable appetite for Open Science and this web-site is an attempt to make the outputs of my scientific journey as **open, accesible and reproducible** as possible, as well as providing a plateform for self minded researcher to contribute in the production of a research compendium, in an <span class="hovertext" data-hover="Definition">Encyclopaedia</span> style. 
+    
+This web-site is dived in 4 main sections:
+
+</div>
+ 
+<div id="subdiv2">  
+    
+```{figure} ../Docs/Images/JWST_cloud1.jpg
+:name: JWST1
+James Web Space Telescope [JWST](https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/JWST/JWST.html)
+```
+
+    
+</div>
+    
+</article>
+
+::::
+
+***
+
+
+:::::::{div} full-width
+
+<p class="emphase2"><strong>My Expertise  </strong></p>
+
+<br>
+<br>
+
+::::::{grid} 2
+
+:::::{grid-item}
+:columns: 6
+ 
+ 
+<p class="emphase"><strong> Disciplines  </strong></p>
+
+
+
 <p class="emphase">I study the role that <span class="hovertext" data-hover="Oui oui, de la glace! (&#129482;)"><strong>water ice</strong></span> plays during the formation of planets (both from a <span class="hovertext" data-hover="def">physical</span> and <span class="hovertext" data-hover="def">chemical</span> point of view).</p> 
 
+```{note}
 
-## Water Ices in Space
+Link CV card
+
+``` 
+ 
+ 
+:::::
+
+:::::{grid-item}
+:columns: 6
+
+<p class="emphase"><strong> Disciplines  </strong></p>
+
+::::{grid} 1 1 2 3
+:class-container: text-center
+:gutter: 2
+
+:::{grid-item-card}
+:class-header: bg-light
+:columns: 4
+**Astronomy**
+^^^
+
+```{image} ../Docs/SVG_files/Disciplines/galaxy-svgrepo-com.svg
+
+```
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+:columns: 4
+**Physics**
+^^^
+
+```{image} ../Docs/SVG_files/Disciplines/atoms-physics-svgrepo-com.svg
+
+```
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+:columns: 4
+**Maths**
+^^^
+
+```{image} ../Docs/SVG_files/Disciplines/infinity-symbol-svgrepo-com.svg
+
+```
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+:columns: 4
+**Chemistry**
+^^^
+
+```{image} ../Docs/SVG_files/Disciplines/chemistry-svgrepo-com.svg
+
+```
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+:columns: 4
+**Geology**
+^^^
+
+
+
+```{image} ../Docs/SVG_files/Disciplines/rock-svgrepo-com.svg
+
+```
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+:columns: 4
+**Biology**
+^^^
+```{image} ../Docs/SVG_files/Disciplines/centipede-insect-svgrepo-com.svg
+
+```
+
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+:columns: 4
+**Education**
+^^^
+
+
+```{image} ../Docs/SVG_files/Disciplines/education-svgrepo-com.svg
+
+```
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+:columns: 4
+**Open Science**
+^^^
+
+
+```{image} ../Docs/SVG_files/Disciplines/hand-holding-globe-svgrepo-com.svg
+
+```
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+:columns: 4
+**Big Data**
+^^^
+
+```{image} ../Docs/SVG_files/Disciplines/bigquery-svgrepo-com.svg
+
+```
+
+:::
+
+
+
+::::
+
+:::::
+::::::
+:::::::
+
+
+## Topics
 
 ::::{margin}
 
 ```{note}
 In space, ice is present in many environments. My Research focuses on the first one, Interstellar Dust and their evolution within protoplanetary disks.
 ```
+
+### <strong>&#187;  <u> Water Ices in Space  </u></strong>
+
+
 
 ::::
 

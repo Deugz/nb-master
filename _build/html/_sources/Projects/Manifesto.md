@@ -272,8 +272,8 @@ Owing and maintaining a website during the course of my PhD (cf example) gave me
 
 :::::{div} full-width
 ::::{grid} 1 1 2 3
-:class-container: text-center
-:gutter: 3
+
+:gutter: 2
 
 :::{grid-item-card}
 :link: Appendix/How_do_I.html

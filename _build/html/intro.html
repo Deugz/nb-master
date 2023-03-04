@@ -81,6 +81,8 @@ var addUtterances = () => {
 }
 commentsRunWhenDOMLoaded(addUtterances);
 </script>
+    <script src="_static/assets/script/scriptvideo.js"></script>
+    <script src="_static/assets/script/.ipynb_checkpoints/scriptvideo-checkpoint.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="_static/design-tabs.js"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
@@ -100,14 +102,6 @@ const thebe_selector_output = ".output, .cell_output"
 
     <!-- Google Analytics -->
     
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-CPYX9S0KDS"></script>
-<script>
-                    window.dataLayer = window.dataLayer || [];
-                    function gtag(){ dataLayer.push(arguments); }
-                    gtag('js', new Date());
-                    gtag('config', 'G-CPYX9S0KDS');
-                </script>
-
   </head>
   <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
 <!-- Checkboxes to toggle the left sidebar -->
@@ -121,7 +115,7 @@ const thebe_selector_output = ".output, .cell_output"
     <div class="visually-hidden">Toggle in-page Table of Contents</div>
 </label>
 <!-- Headers at the top -->
-<div class="announcement header-item noprint">Current Version: Jan 2023</div>
+<div class="announcement header-item noprint">Current Version: Feb 2023 ⚠ <u>Thesis Deadline</u>: <strong>October 2023</strong> ⚠</div>
 <div class="header header-item noprint"></div>
 
     
@@ -159,10 +153,27 @@ const thebe_selector_output = ".output, .cell_output"
  </span>
 </p>
 <ul class="nav bd-sidenav">
- <li class="toctree-l1">
+ <li class="toctree-l1 has-children">
   <a class="reference internal" href="Profile/Interests.html">
    Scientific interests
   </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference external" href="https://deugz.github.io/nb-phd/_build/html/intro.html">
+     Amorphous Ice (📖 A)
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference external" href="https://deugz.github.io/nb-museum/_build/html/intro.html">
+     Planet Formation (📖 B)
+    </a>
+   </li>
+  </ul>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="Profile/CV/CV_Main.html">
@@ -172,7 +183,7 @@ const thebe_selector_output = ".output, .cell_output"
 </ul>
 <p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
-  Science for the people
+  Project
  </span>
 </p>
 <ul class="nav bd-sidenav">
@@ -226,8 +237,8 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal" href="Blog/Blog_Main.html">
    Posts
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
-  <label for="toctree-checkbox-1">
+  <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+  <label for="toctree-checkbox-2">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -258,8 +269,8 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal" href="Blog/Version_Main.html">
    Versions
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
-  <label for="toctree-checkbox-2">
+  <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
+  <label for="toctree-checkbox-3">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -297,8 +308,8 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal" href="Appendix/Help_main.html">
    💡 Help
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
-  <label for="toctree-checkbox-3">
+  <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
+  <label for="toctree-checkbox-4">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -680,10 +691,12 @@ s0.parentNode.insertBefore(s1,s0);
 <aside class="margin sidebar">
 <p class="sidebar-title"></p>
 <div id="colour">
-<img alt="_images/Vincent-Deguin-OpenUniversity50_crop.jpg" src="_images/Vincent-Deguin-OpenUniversity50_crop.jpg" />
+<p class="emphase"> <em>By</em>     
+<br><br><strong>Vincent Deguin</strong> 
 <br>
-<br>
-<p><strong><u>Vincent Deguin</u></strong> (<img alt="flag alt &gt;" src="_images/flag-for-flag-france-svgrepo-com1.svg" />)</p>
+</p> 
+<hr class="docutils" />
+<p><img alt="flag alt &gt;" src="_images/flag-for-flag-france-svgrepo-com1.svg" /> French (32 yo)</p>
 <p><img alt="flag alt &gt;" src="_images/Study_level.svg" /> PhD student</p>
 <p><img alt="flag alt &gt;" src="_images/university-svgrepo-com.svg" /> The Open university, UK</p>
 <p><img alt="flag alt &gt;" src="_images/mail-svgrepo-com.svg" /> <a class="reference external" href="mailto:vincent&#46;deguin&#37;&#52;&#48;open&#46;ac&#46;uk">vincent<span>&#46;</span>deguin<span>&#64;</span>open<span>&#46;</span>ac<span>&#46;</span>uk</a></p>
@@ -691,84 +704,59 @@ s0.parentNode.insertBefore(s1,s0);
 <p><img alt="flag alt &gt;" src="_images/orcid-svgrepo-com.svg" /> <a class="reference external" href="https://orcid.org/0000-0003-2280-8273">0000-0003-2280-8273</a></p>
 <p><img alt="flag alt &gt;" src="_images/github-svgrepo-com.svg" /> <a class="reference external" href="https://github.com/Deugz">Deugz</a></p>
 <p><img alt="flag alt &gt;" src="_images/codepen-svgrepo-com.svg" /> <a class="reference external" href="https://codepen.io/deugz/">Deugz</a></p>
+<p><img alt="flag alt &gt;" src="_images/youtube-svgrepo-com.svg" /> <a class="reference external" href="https://codepen.io/deugz/">Youtube</a></p>
 </div>
 </aside>
 <hr class="docutils" />
+<br>
+<p class="emphase">A self-own, independant, interactive and lifelong <strong>online scientific publication and public engagement plateform</strong>, aimed at promoting collaboration between multi-disciplinary scientistist, by providing the space and the tools to create and sustain a constructive dialogue shared openly with the public, around a broad scientific topic:</p>
 <div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
 <div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
 <div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
-<p><strong>Web-site info:</strong></p>
-<br>
-<br>
-<ul class="simple">
-<li><p><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Deugz/nb-master?color=green&amp;style=plastic" /></p></li>
-<li><p><img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/Deugz/nb-master?color=yellow&amp;style=plastic" /></p></li>
-<li><p><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/Deugz/nb-master?color=red&amp;style=plastic" /></p></li>
-<li><p><img alt="visitors" src="https://page-views.glitch.me/badge?page_id=https://deugz.github.io/nb-master/_build/html/intro.html" /></p></li>
-</ul>
-<br>
-<br>
-<ul class="simple">
-<li><p><img alt="watchers" src="https://img.shields.io/github/watchers/Deugz/nb-master?style=social" /></p></li>
-<li><p><img alt="stars" src="https://img.shields.io/github/stars/Deugz/nb-master?style=social" /></p></li>
-</ul>
-<br>
 <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 <p><lottie-player src="https://assets2.lottiefiles.com/private_files/lf30_OadeVs.json"  background="transparent"  speed="1"  style="width:100%; height:100%;" hover></lottie-player></p>
 </div>
 <div class="sd-col sd-d-flex-column sd-col-8 sd-col-xs-8 sd-col-sm-8 sd-col-md-8 sd-col-lg-8 docutils">
 <br>
-<p class="emphase">A self-own, independant and lifelong <strong>online scientific publication plateform</strong>, aimed at promoting collaboration between scientistist of different disciplines, by providing the space and the tools to create and sustain a constructive dialogue shared openly with the public, around a broad scientific topic and it's related science questions. </p>
-<p class="emphase2"><strong>Space Ice</strong></p>
+<p class="emphase2"><strong>Ices in Space</strong></p>
 <blockquote class="epigraph">
-<div><p>Welcome (<img alt="flag alt &gt;" src="_images/waving-hand-svgrepo-com.svg" />), and have a good read (<img alt="flag alt &gt;" src="_images/book-svgrepo-com.svg" />).</p>
+<div><p>And their role in <strong>Planet Formation</strong>. <br> Explore, have fun, and contribute 😄.</p>
 <p class="attribution">—<strong>Vince</strong>, editor / publisher</p>
 </div></blockquote>
 </div>
 </div>
 </div>
+<br>
 <hr class="docutils" />
-<aside class="margin sidebar">
-<p class="sidebar-title"></p>
-<p><strong><u>Want to help </u> (<img alt="flag alt &gt;" src="_images/coins-money-svgrepo-com.svg" />) ? </strong></p>
-<br>
-<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Buy me a coffee', '#317315', 'O4O6EZO78');kofiwidget2.draw();</script> 
-<br>
-<br>
-or 
-<br>
-<br>
-<p><img alt="flag alt &gt;" src="_images/patreon-svgrepo-com.svg" /> <a class="reference external" href="https://www.patreon.com/Science_for_the_People">Patreon</a></p>
-</aside>
-<br>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
-<ul class="simple">
-<li><p><img alt="flag alt &gt;" src="_images/Under_construction.svg" /> This web-site is an ongoing project currently in it’s exploratory phase.</p></li>
-<li><p>Unless clearly stated, the content of this web-site have <strong>not been peer-reviewed</strong>.</p></li>
-<li><p>Reviewing can be achieved (and warmly welcome) on this web-site using <code class="docutils literal notranslate"><span class="pre">hypothesis</span></code>.</p></li>
-</ul>
-</div>
-<h3><strong>&#187;  <u>Introduction </u></strong></h3>
+<p><strong>This website</strong>:</p>
 <div class="full-width docutils">
-<article id="P1">
-<div id="subdiv2">
-<p>My name is  <a class="reference external" href="https://50.open.ac.uk/photography/vincent">Vincent Deguin</a>, Astrophysics PhD student at the Open University. I am passionate about my <span class="hovertext" data-hover="Experimenting with the earliest stages of planet formation">scientific topic</span>, outreach and education, as well as an aspiring web developer. The image on the right is the edge of a nearby, young, star-forming region called NGC 3324 in the Carina Nebula, pictured by the recently launched James Webb Space Telescope (<a class="reference external" href="https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/JWST/JWST.html">JWST</a>). This brand new Infrared space telescope will bring exciting times for astronomers like me, but also for you, provided that scientific discoveries are shared in an accessible format (cf <a class="reference internal" href="Projects/Manifesto.html"><span class="doc std std-doc">Manifesto</span></a>). Fortunately, I have an insatiable appetite for Open Science and this web-site is an attempt to make the outputs of my scientific journey as <strong>open, accesible and reproducible</strong> as possible, as well as providing a plateform for self minded researcher to contribute in the production of a research compendium, in an <span class="hovertext" data-hover="Definition">Encyclopaedia</span> style.</p>
-<p>This web-site is dived in 4 main sections:</p>
+<p><img alt="flag alt &gt;&gt;" src="_images/human-head-silhouette-with-cogwheels-svgrepo-com.svg" /> - <span class="hovertext" data-hover="Experimenting with the earliest stages of planet formation">Experiment</span>      <img alt="flag alt &gt;&gt;" src="_images/Under_construction.svg" /> - <span class="hovertext" data-hover="Experimenting with the earliest stages of planet formation">Work in progress</span>      <img alt="flag alt &gt;&gt;" src="_images/location-on-road-svgrepo-com.svg" /> - <span class="hovertext" data-hover="Experimenting with the earliest stages of planet formation">a Journey</span>      <img alt="flag alt &gt;&gt;" src="_images/handshake-deal-svgrepo-com.svg" /> - <span class="hovertext" data-hover="Experimenting with the earliest stages of planet formation">Participative</span>      <img alt="flag alt &gt;&gt;" src="_images/book-svgrepo-com.svg" /> - <span class="hovertext" data-hover="Experimenting with the earliest stages of planet formation">Online Free Book</span></p>
 </div>
-<div id="subdiv2">  
-<figure class="align-default" id="jwst1">
-<img alt="_images/JWST_cloud1.jpg" src="_images/JWST_cloud1.jpg" />
-<figcaption>
-<p><span class="caption-number">Fig. 1 </span><span class="caption-text">James Web Space Telescope <a class="reference external" href="https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/JWST/JWST.html">JWST</a></span><a class="headerlink" href="#jwst1" title="Permalink to this image">#</a></p>
-</figcaption>
-</figure>
+<hr class="docutils" />
+<br>
+<br>
+<br>
+<div class="video-div">
+<iframe  id="stickyAnchor" class="v-page-anchor float-left" src="https://www.youtube.com/embed/ZC488_LS42o?enablejsapi=1" frameborder="0" fullscreen width="0" height="0" style="margin:auto;"></iframe>
 </div>
-</article>
-</div>
+<script src="https://www.youtube.com/iframe_api"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script><script  src="_static/assets/script/scriptvideo.js"></script>
 <div class="full-width docutils">
+<p class="emphase2"><span class="hovertext" data-hover="Video"><strong>Welcome</strong></span> &nbsp; 👋 </p>
+<br>
+<br>
 <div class="sd-container-fluid sd-sphinx-override sd-mb-4 text-center docutils">
-<div class="sd-row sd-row-cols-1 sd-row-cols-xs-1 sd-row-cols-sm-1 sd-row-cols-md-2 sd-row-cols-lg-4 sd-g-3 sd-g-xs-3 sd-g-sm-3 sd-g-md-3 sd-g-lg-3 docutils">
+<div class="sd-row sd-row-cols-1 sd-row-cols-xs-1 sd-row-cols-sm-1 sd-row-cols-md-2 sd-row-cols-lg-5 sd-g-3 sd-g-xs-3 sd-g-sm-3 sd-g-md-3 sd-g-lg-3 docutils">
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><span style="float: right"><img alt="flag alt &gt;" src="_images/book-svgrepo-com.svg" /></span>  <strong>Profile</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<p class="sd-card-text">postcard pic</p>
+</div>
+<a class="sd-stretched-link reference external" href="Profile/Interests.html"></a></div>
+</div>
 <div class="sd-col sd-d-flex-row docutils">
 <div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
 <div class="sd-card-header bg-light docutils">
@@ -812,10 +800,25 @@ or
 </div>
 </div>
 </div>
+<br>
+<br>
+<div class="full-width docutils">
+<h3><strong>&#187;  <u>Map</u></strong></h3>
+<figure class="align-default" id="ontology">
+<a class="reference internal image-reference" href="_images/Master_Ont_1.png"><img alt="_images/Master_Ont_1.png" src="_images/Master_Ont_1.png" style="width: 3000px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 1 </span><span class="caption-text">Knowledge graph obtain from <a class="reference external" href="https://service.tib.eu/webvowl/">webvowl</a> using a custom ontology generated via <span class="xref myst">protege</span></span><a class="headerlink" href="#ontology" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+</div>
 <section id="science-for-the-people">
 <h2><strong>Science For The People</strong><a class="headerlink" href="#science-for-the-people" title="Permalink to this headline">#</a></h2>
-<p class="emphase"> New tools and methods for publishing and sharing scientific content </p>
 <div class="full-width docutils">
+<br>
+<br>
+<p class="emphase2"> <strong>New tools and methods </strong></p>
+<p class="emphase"> to perform, edit, publish, share and discuss <strong>Research</strong> 📖</p>
+<br>
 <div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
 <div class="sd-row sd-row-cols-4 sd-row-cols-xs-4 sd-row-cols-sm-4 sd-row-cols-md-4 sd-row-cols-lg-4 docutils">
 <div class="sd-col sd-d-flex-row docutils">
@@ -862,30 +865,11 @@ or
 </div>
 </div>
 </div>
-<h3><strong>&#187;  <u>Quick guided tour</u></strong></h3>
-<aside class="margin sidebar">
-<p class="sidebar-title"></p>
-<div class="tip admonition">
-<p class="admonition-title">Jupyter Book</p>
-<p>This web-site have been built from a collection of <em>markdown</em> files, transformed in <em>html</em> using <a class="reference external" href="https://jupyterbook.org/en/stable/intro.html">Jupyter Book</a>. I have added some <em>css</em> and <em>Javascript</em> of my own but please bear in mind, that producing such a web-site is:</p>
-<p><strong>Accessible to everyone</strong>.</p>
-<ul class="simple">
-<li><p>Open</p></li>
-<li><p>Free</p></li>
-<li><p>Easy to use</p></li>
-</ul>
-</div>
-</aside>
-<br>
-<figure class="align-default" id="galaxy">
-<a class="reference internal image-reference" href="_images/Slide1.png"><img alt="_images/Slide1.png" src="_images/Slide1.png" style="width: 100%;" /></a>
-<figcaption>
-<p><span class="caption-number">Fig. 2 </span><span class="caption-text">Dust within the galaxy</span><a class="headerlink" href="#galaxy" title="Permalink to this image">#</a></p>
-</figcaption>
-</figure>
 <h3><strong>&#187;  <u>Audiences ?</u></strong></h3>
 <div class="full-width docutils">
-<p class="emphase"> <strong> Everyone</strong>, interested in Science (see ecosystem below) </p>
+<p class="emphase2"><strong> Everyone</strong></p>
+<p class="emphase">Curious and interested in <strong>Science</strong> 🌍 </p>
+<br>
 <div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
 <div class="sd-row sd-row-cols-6 sd-row-cols-xs-6 sd-row-cols-sm-6 sd-row-cols-md-6 sd-row-cols-lg-6 docutils">
 <div class="sd-col sd-d-flex-row docutils">
@@ -958,8 +942,8 @@ or
 <p class="sd-card-text"><img alt="flag alt &gt;" src="_images/stop-svgrepo-com.svg" /> <strong>Everybody</strong> - To check: <span class="hovertext" data-hover="To know what will be discussed in those web-sites"> <a class="reference external" href="https://deugz.github.io/nb-master/_build/html/Profile/Interests.html">Scientific Interests</a> </span> - <span class="hovertext" data-hover="Why and how I intend to discuss those topics"> <a class="reference external" href="https://deugz.github.io/nb-master/_build/html/Projects/Manifesto.html">Manifesto</a> </span></p>
 <p class="sd-card-text"><em>Explore, don’t be affraid to loose yourself in this ocean of knowledge, and most importantly, have fun :)</em></p>
 <div class="sd-tab-set docutils">
-<input checked="checked" id="643d6c93-f9d5-47df-9502-c230b2e401ed" name="45702e1a-4c2f-4a07-b737-7b7951355af7" type="radio">
-</input><label class="sd-tab-label" for="643d6c93-f9d5-47df-9502-c230b2e401ed">
+<input checked="checked" id="ad6468eb-07be-4ff9-950e-332be8031c25" name="470883a2-857d-47fb-ba1f-2ad9d0168237" type="radio">
+</input><label class="sd-tab-label" for="ad6468eb-07be-4ff9-950e-332be8031c25">
 Supervisors</label><div class="sd-tab-content docutils">
 <ul class="simple">
 <li><p class="sd-card-text">PhD</p>
@@ -970,50 +954,75 @@ Supervisors</label><div class="sd-tab-content docutils">
 </li>
 </ul>
 </div>
-<input id="21543fa7-a3e0-4d38-a27d-a67e29ec275f" name="45702e1a-4c2f-4a07-b737-7b7951355af7" type="radio">
-</input><label class="sd-tab-label" for="21543fa7-a3e0-4d38-a27d-a67e29ec275f">
+<input id="fa29eadd-15b8-49b2-9381-c65bf2c7b4d4" name="470883a2-857d-47fb-ba1f-2ad9d0168237" type="radio">
+</input><label class="sd-tab-label" for="fa29eadd-15b8-49b2-9381-c65bf2c7b4d4">
 Researchers</label><div class="sd-tab-content docutils">
 <ul class="simple">
 <li><p class="sd-card-text">Go check the <a class="reference external" href="https://deugz.github.io/nb-PhD/_build/html/intro.html">Research</a> page.</p></li>
 </ul>
 </div>
-<input id="e25affe5-cf0f-4926-b74a-6d2332ee5e6a" name="45702e1a-4c2f-4a07-b737-7b7951355af7" type="radio">
-</input><label class="sd-tab-label" for="e25affe5-cf0f-4926-b74a-6d2332ee5e6a">
+<input id="93b249d8-5229-4a30-9075-8615347b7ecd" name="470883a2-857d-47fb-ba1f-2ad9d0168237" type="radio">
+</input><label class="sd-tab-label" for="93b249d8-5229-4a30-9075-8615347b7ecd">
 Students</label><div class="sd-tab-content docutils">
 <p class="sd-card-text">Explore the different sections</p>
 </div>
-<input id="694fc26f-f647-48b5-b389-159484f2c2ca" name="45702e1a-4c2f-4a07-b737-7b7951355af7" type="radio">
-</input><label class="sd-tab-label" for="694fc26f-f647-48b5-b389-159484f2c2ca">
+<input id="db9a540c-52ff-472a-9192-affdb730a2ae" name="470883a2-857d-47fb-ba1f-2ad9d0168237" type="radio">
+</input><label class="sd-tab-label" for="db9a540c-52ff-472a-9192-affdb730a2ae">
 Teachers</label><div class="sd-tab-content docutils">
 <p class="sd-card-text">Check teaching and find the ressource you need</p>
 </div>
-<input id="238a01e3-4d6a-40dd-9011-9f8db2dba7c2" name="45702e1a-4c2f-4a07-b737-7b7951355af7" type="radio">
-</input><label class="sd-tab-label" for="238a01e3-4d6a-40dd-9011-9f8db2dba7c2">
+<input id="308904be-06b7-4203-8267-25e6b4a8ca08" name="470883a2-857d-47fb-ba1f-2ad9d0168237" type="radio">
+</input><label class="sd-tab-label" for="308904be-06b7-4203-8267-25e6b4a8ca08">
 Friends</label><div class="sd-tab-content docutils">
 <p class="sd-card-text">Bon …</p>
 </div>
-<input id="e32d5e7f-478a-4193-be13-64bdde7b2ad6" name="45702e1a-4c2f-4a07-b737-7b7951355af7" type="radio">
-</input><label class="sd-tab-label" for="e32d5e7f-478a-4193-be13-64bdde7b2ad6">
+<input id="d1c11389-0c9f-46c0-a990-58921d80e1b5" name="470883a2-857d-47fb-ba1f-2ad9d0168237" type="radio">
+</input><label class="sd-tab-label" for="d1c11389-0c9f-46c0-a990-58921d80e1b5">
 Anyone</label><div class="sd-tab-content docutils">
 <p class="sd-card-text">Just explore</p>
 </div>
 </div>
 </div>
-</details><br>
+</details><p class="emphase2"><strong>Free & Open Source </strong></p>
+<p class="emphase">Not free of effort though 💪</p>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-column docutils">
+<div class="tip admonition">
+<p class="admonition-title">Jupyter Book</p>
+<p>This web-site have been built from a collection of <em>markdown</em> files, transformed in <em>html</em> using <a class="reference external" href="https://jupyterbook.org/en/stable/intro.html">Jupyter Book</a>:</p>
+<p><strong>Accessible to everyone</strong>.</p>
+<ul class="simple">
+<li><p>Open</p></li>
+<li><p>Free</p></li>
+<li><p>Easy to use</p></li>
+</ul>
+</div>
+</div>
+<div class="sd-col sd-d-flex-column docutils">
+<h4>I can <strong>Help</strong> &nbsp; 😉</h4>
+<p>List of help page</p>
+<ul class="simple">
+<li><p><span class="xref myst">1</span></p></li>
+<li><p><span class="xref myst">1</span></p></li>
+</ul>
+</div>
+</div>
+</div>
+<br>
+<br>
 <p class="emphase"> Want your own accademic web-site?</p>
 <p class="emphase2"> <strong> Get in touch! </strong> </p>
 </div>
 </section>
 <section id="research">
 <h2><strong>Research</strong><a class="headerlink" href="#research" title="Permalink to this headline">#</a></h2>
-<h3><strong>&#187;  <u> Scientific projects </u></strong></h3>
-<aside class="margin sidebar">
-<p class="sidebar-title"></p>
 <br>
-<p><sup>*</sup> <span id="id1">[<a class="reference internal" href="Appendix/Litterature/bibliography.html#id2" title="Mark D. Wilkinson, Michel Dumontier, IJsbrand Jan Aalbersberg, Gabrielle Appleton, Myles Axton, Arie Baak, Niklas Blomberg, Jan Willem Boiten, Luiz Bonino da Silva Santos, Philip E. Bourne, Jildau Bouwman, Anthony J. Brookes, Tim Clark, Mercè Crosas, Ingrid Dillo, Olivier Dumon, Scott Edmunds, Chris T. Evelo, Richard Finkers, Alejandra Gonzalez-Beltran, Alasdair J.G. Gray, Paul Groth, Carole Goble, Jeffrey S. Grethe, Jaap Heringa, Peter A.C. t Hoen, Rob Hooft, Tobias Kuhn, Ruben Kok, Joost Kok, Scott J. Lusher, Maryann E. Martone, Albert Mons, Abel L. Packer, Bengt Persson, Philippe Rocca-Serra, Marco Roos, Rene van Schaik, Susanna Assunta Sansone, Erik Schultes, Thierry Sengstag, Ted Slater, George Strawn, Morris A. Swertz, Mark Thompson, Johan Van Der Lei, Erik Van Mulligen, Jan Velterop, Andra Waagmeester, Peter Wittenburg, Katherine Wolstencroft, Jun Zhao, and Barend Mons. Comment: the fair guiding principles for scientific data management and stewardship. Scientific Data, 3 2016. doi:10.1038/sdata.2016.18.">Wilkinson <em>et al.</em>, 2016</a>]</span></p>
-</aside>
-<p class="emphase"> All my research projects are designed following the <span class="hovertext" data-hover="Findability, Accessibility, Interoperability and Reusability"><strong>FAIR</strong></span><sup>*</sup> principles and are openly shared <span class="hovertext" data-hover="Weekly"><em>"live"</em></span> on the following websites </p>.
+<br>
 <div class="full-width docutils">
+<p class="emphase2"><strong>My Scientific Projects</strong></p>
+<br>
+<br>
 <div class="sd-sphinx-override sd-cards-carousel sd-card-cols-2 docutils">
 <div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm docutils">
 <div class="sd-card-header bg-light docutils">
@@ -1071,7 +1080,7 @@ Anyone</label><div class="sd-tab-content docutils">
 </ul>
 </div>
 <div class="sd-card-footer docutils">
-<p class="sd-card-text"><strong>Scientific publication</strong>  → <span id="id2">[<a class="reference internal" href="Appendix/Litterature/bibliography.html#id10" title="Vincent Deguin, Joëlle Mascetti, Aude Simon, Nadia Ben Amor, Christian Aupetit, Sandra Latournerie, and Jennifer A. Noble. Photochemistry of fe:h2o adducts in argon matrixes: a combined experimental and theoretical study in the mid-ir and uv-visible regions. Journal of Physical Chemistry A, 122:529-542, 1 2018. doi:10.1021/acs.jpca.7b09681.">Deguin <em>et al.</em>, 2018</a>]</span></p>
+<p class="sd-card-text"><strong>Scientific publication</strong>  → <span id="id1">[<a class="reference internal" href="Appendix/Litterature/bibliography.html#id10" title="Vincent Deguin, Joëlle Mascetti, Aude Simon, Nadia Ben Amor, Christian Aupetit, Sandra Latournerie, and Jennifer A. Noble. Photochemistry of fe:h2o adducts in argon matrixes: a combined experimental and theoretical study in the mid-ir and uv-visible regions. Journal of Physical Chemistry A, 122:529-542, 1 2018. doi:10.1021/acs.jpca.7b09681.">Deguin <em>et al.</em>, 2018</a>]</span></p>
 </div>
 </div>
 <div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm docutils">
@@ -1079,7 +1088,7 @@ Anyone</label><div class="sd-tab-content docutils">
 <p class="sd-card-text"><strong>Condor Project</strong></p>
 </div>
 <div class="sd-card-body docutils">
-<p class="sd-card-text">Sprinkle a lot of this <span id="id3">[<a class="reference internal" href="Appendix/Litterature/bibliography.html#id15" title="J. P. Hague, P. W. Mieczkowski, C. O'Rourke, A. J. Loughlin, and J. B. Phillips. Microscopic biophysical model of self-organization in tissue due to feedback between cell- and macroscopic-scale forces. Physical Review Research, 11 2020. doi:10.1103/PhysRevResearch.2.043217.">Hague <em>et al.</em>, 2020</a>]</span> on top of that <span id="id4">[<a class="reference internal" href="Appendix/Litterature/bibliography.html#id14" title="Glauco R. Souza, Hubert Tseng, Jacob A. Gage, Arunmani Mani, Pujan Desai, Fransisca Leonard, Angela Liao, Monica Longo, Jerrie S. Refuerzo, and Biana Godin. Magnetically bioprinted human myometrial 3d cell rings as a model for uterine contractility. International Journal of Molecular Sciences, 4 2017. doi:10.3390/ijms18040683.">Souza <em>et al.</em>, 2017</a>]</span> and you get a pretty cool project:</p>
+<p class="sd-card-text">Sprinkle a lot of this <span id="id2">[<a class="reference internal" href="Appendix/Litterature/bibliography.html#id15" title="J. P. Hague, P. W. Mieczkowski, C. O'Rourke, A. J. Loughlin, and J. B. Phillips. Microscopic biophysical model of self-organization in tissue due to feedback between cell- and macroscopic-scale forces. Physical Review Research, 11 2020. doi:10.1103/PhysRevResearch.2.043217.">Hague <em>et al.</em>, 2020</a>]</span> on top of that <span id="id3">[<a class="reference internal" href="Appendix/Litterature/bibliography.html#id14" title="Glauco R. Souza, Hubert Tseng, Jacob A. Gage, Arunmani Mani, Pujan Desai, Fransisca Leonard, Angela Liao, Monica Longo, Jerrie S. Refuerzo, and Biana Godin. Magnetically bioprinted human myometrial 3d cell rings as a model for uterine contractility. International Journal of Molecular Sciences, 4 2017. doi:10.3390/ijms18040683.">Souza <em>et al.</em>, 2017</a>]</span> and you get a pretty cool project:</p>
 <p class="sd-card-text"><em>3D tissue modelling with the CONDOR (link) model</em></p>
 <ul class="simple">
 <li><p class="sd-card-text">Job Type: Research Associate (Postdoc)</p></li>
@@ -1093,12 +1102,13 @@ Anyone</label><div class="sd-tab-content docutils">
 </div>
 </div>
 </div>
-<h3><strong>&#187;  <u> Your Tools </u></strong></h3>
-<p>I understand that this publication method might bring some concerns and suspicion about the validity or quality of my work because it didn’t follow the <span class="hovertext" data-hover="lol">rigorous</span> <strong>Peer Review</strong> process of accadamic publishing. However …</p>
+<br>
+<br>
 <div class="full-width docutils">
-<p class="emphase"> <span class="hovertext" data-hover="The experimented scientist, the PhD student,">You</span> can <strong> directly interact </strong> with the content of the page !</p>
-</div>
-<div class="full-width docutils">
+<p class="emphase2"><strong>Your Tools</strong> </p>
+<br>
+<p class="emphase"> To <strong> directly interact </strong> with the content of the page !</p>
+<br>
 <div class="sd-container-fluid sd-sphinx-override sd-mb-4 text-center docutils">
 <div class="sd-row sd-row-cols-1 sd-row-cols-xs-1 sd-row-cols-sm-1 sd-row-cols-md-2 sd-row-cols-lg-5 sd-g-3 sd-g-xs-3 sd-g-sm-3 sd-g-md-3 sd-g-lg-3 docutils">
 <div class="sd-col sd-d-flex-row docutils">
@@ -1169,8 +1179,11 @@ Code and data repositories.</p>
 </div>
 </div>
 </div>
-<h3><strong>&#187;  <u>For you to </u> </strong></h3>
+<br>
+<br>
 <div class="full-width docutils">
+<p class="emphase2"><strong>So you Can</strong> </p>
+<br>
 <div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
 <div class="sd-row sd-row-cols-3 sd-row-cols-xs-3 sd-row-cols-sm-3 sd-row-cols-md-3 sd-row-cols-lg-3 docutils">
 <div class="sd-col sd-d-flex-column docutils">
@@ -1321,41 +1334,33 @@ Code and data repositories.</p>
 </section>
 <section class="tex2jax_ignore mathjax_ignore" id="comments">
 <h1>Comments<a class="headerlink" href="#comments" title="Permalink to this headline">#</a></h1>
-<script src="https://utteranc.es/client.js"
-        repo="Deugz/nb-master"
-        issue-term="pathname"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
-<hr>
 <div class="full-width docutils">
 <div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
-<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
-<div class="sd-col sd-d-flex-row sd-col-9 sd-col-xs-9 sd-col-sm-9 sd-col-md-9 sd-col-lg-9 docutils">
+<div class="sd-row sd-row-cols-3 sd-row-cols-xs-3 sd-row-cols-sm-3 sd-row-cols-md-3 sd-row-cols-lg-3 docutils">
+<div class="sd-col sd-d-flex-row sd-col-6 sd-col-xs-6 sd-col-sm-6 sd-col-md-6 sd-col-lg-6 docutils">
 <div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
 <div class="sd-card-header bg-light docutils">
 <p class="sd-card-text"><strong>Notes</strong></p>
 </div>
 <div class="sd-card-body docutils">
-<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
-<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
-<div class="sd-col sd-d-flex-column docutils">
-<div class="note dropdown admonition">
+<div class="warning dropdown admonition">
 <p class="admonition-title">To Do</p>
+<ul class="simple">
+<li><p class="sd-card-text">Create video</p></li>
+</ul>
+</div>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Ideas</p>
+<ul class="simple">
+<li><p class="sd-card-text">Graffity as title - Barry</p></li>
+</ul>
+</div>
+<div class="note dropdown admonition">
+<p class="admonition-title">Collaboration</p>
 <ul class="simple">
 <li><p class="sd-card-text">Send to Friends to Review, comment</p></li>
 <li><p class="sd-card-text">Orthographique correction</p></li>
 </ul>
-</div>
-</div>
-<div class="sd-col sd-d-flex-column docutils">
-<div class="tip dropdown admonition">
-<p class="admonition-title">Ideas</p>
-<p class="sd-card-text">Nothing, just leave it like that.</p>
-</div>
-</div>
-</div>
 </div>
 </div>
 </div>
@@ -1366,7 +1371,10 @@ Code and data repositories.</p>
 <p class="sd-card-text"><strong>Page</strong></p>
 </div>
 <div class="sd-card-body docutils">
+<br>
+<br>
 <ul class="simple">
+<li><p class="sd-card-text">Author:  Vince;</p></li>
 <li><p class="sd-card-text">Status:  ✅</p></li>
 <li><p class="sd-card-text">Reviewed: <span class="hovertext" data-hover="Insert here who has done what">❌</span></p></li>
 <li><p class="sd-card-text">Updated: 15/02/2023</p></li>
@@ -1374,9 +1382,39 @@ Code and data repositories.</p>
 </div>
 </div>
 </div>
+<div class="sd-col sd-d-flex-row sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><span style="float: right"><img alt="flag alt &gt;" src="_images/coins-money-svgrepo-com.svg" /></span><strong>Help</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<br>
+<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Buy me a coffee', '#317315', 'O4O6EZO78');kofiwidget2.draw();</script> 
+<br>
+<br>
+<p class="sd-card-text">or</p>
+<br>
+<p class="sd-card-text"><img alt="flag alt &gt;" src="_images/patreon-svgrepo-com.svg" /> <a class="reference external" href="https://www.patreon.com/Science_for_the_People">Patreon</a></p>
 </div>
 </div>
 </div>
+</div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="full-width docutils">
+<ul class="simple">
+<li><p><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Deugz/nb-master?color=green&amp;style=plastic" /> - <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/Deugz/nb-master?color=yellow&amp;style=plastic" /> - <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/Deugz/nb-master?color=red&amp;style=plastic" /> - <img alt="visitors" src="https://page-views.glitch.me/badge?page_id=https://deugz.github.io/nb-master/_build/html/intro.html" /> - <img alt="watchers" src="https://img.shields.io/github/watchers/Deugz/nb-master?style=social" /> - <img alt="stars" src="https://img.shields.io/github/stars/Deugz/nb-master?style=social" /></p></li>
+</ul>
+</div>
+<hr class="docutils" />
+<script src="https://utteranc.es/client.js"
+        repo="Deugz/nb-master"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
 <div class="toctree-wrapper compound">
 </div>
 <div class="toctree-wrapper compound">
@@ -1436,8 +1474,7 @@ Code and data repositories.</p>
   
     <div class="extra_footer">
       
-<img class="CC_licence" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc-sa.svg" alt="Licence CC BY NC SA 2"/>
-  
+<img class="CC_licence" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc-sa.svg" alt="Licence CC BY NC SA 2"/> 
 
     </div>
 </p>

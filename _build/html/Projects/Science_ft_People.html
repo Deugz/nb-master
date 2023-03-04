@@ -81,6 +81,8 @@ var addUtterances = () => {
 }
 commentsRunWhenDOMLoaded(addUtterances);
 </script>
+    <script src="../_static/assets/script/scriptvideo.js"></script>
+    <script src="../_static/assets/script/.ipynb_checkpoints/scriptvideo-checkpoint.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="../_static/design-tabs.js"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
@@ -101,14 +103,6 @@ const thebe_selector_output = ".output, .cell_output"
 
     <!-- Google Analytics -->
     
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-CPYX9S0KDS"></script>
-<script>
-                    window.dataLayer = window.dataLayer || [];
-                    function gtag(){ dataLayer.push(arguments); }
-                    gtag('js', new Date());
-                    gtag('config', 'G-CPYX9S0KDS');
-                </script>
-
   </head>
   <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
 <!-- Checkboxes to toggle the left sidebar -->
@@ -122,7 +116,7 @@ const thebe_selector_output = ".output, .cell_output"
     <div class="visually-hidden">Toggle in-page Table of Contents</div>
 </label>
 <!-- Headers at the top -->
-<div class="announcement header-item noprint">Current Version: Jan 2023</div>
+<div class="announcement header-item noprint">Current Version: Feb 2023 ⚠ <u>Thesis Deadline</u>: <strong>October 2023</strong> ⚠</div>
 <div class="header header-item noprint"></div>
 
     
@@ -160,10 +154,27 @@ const thebe_selector_output = ".output, .cell_output"
  </span>
 </p>
 <ul class="nav bd-sidenav">
- <li class="toctree-l1">
+ <li class="toctree-l1 has-children">
   <a class="reference internal" href="../Profile/Interests.html">
    Scientific interests
   </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference external" href="https://deugz.github.io/nb-phd/_build/html/intro.html">
+     Amorphous Ice (📖 A)
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference external" href="https://deugz.github.io/nb-museum/_build/html/intro.html">
+     Planet Formation (📖 B)
+    </a>
+   </li>
+  </ul>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../Profile/CV/CV_Main.html">
@@ -173,7 +184,7 @@ const thebe_selector_output = ".output, .cell_output"
 </ul>
 <p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
-  Science for the people
+  Project
  </span>
 </p>
 <ul class="current nav bd-sidenav">
@@ -227,8 +238,8 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal" href="../Blog/Blog_Main.html">
    Posts
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
-  <label for="toctree-checkbox-1">
+  <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+  <label for="toctree-checkbox-2">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -259,8 +270,8 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal" href="../Blog/Version_Main.html">
    Versions
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
-  <label for="toctree-checkbox-2">
+  <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
+  <label for="toctree-checkbox-3">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -298,8 +309,8 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal" href="../Appendix/Help_main.html">
    💡 Help
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
-  <label for="toctree-checkbox-3">
+  <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
+  <label for="toctree-checkbox-4">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -911,12 +922,7 @@ title="Print to PDF"
 <p>Description</p>
 </div>
 <div class="sd-col sd-d-flex-column sd-col-10 sd-col-xs-10 sd-col-sm-10 sd-col-md-10 sd-col-lg-10 docutils">
-<figure class="align-default" id="ontology">
-<a class="reference internal image-reference" href="../_images/Master_Ont_1.png"><img alt="../_images/Master_Ont_1.png" src="../_images/Master_Ont_1.png" style="width: 3000px;" /></a>
-<figcaption>
-<p><span class="caption-number">Fig. 8 </span><span class="caption-text">Knowledge graph obtain from <a class="reference external" href="https://service.tib.eu/webvowl/">webvowl</a> using a custom ontology generated via <span class="xref myst">protege</span></span><a class="headerlink" href="#ontology" title="Permalink to this image">#</a></p>
-</figcaption>
-</figure>
+<p>Map replaced</p>
 </div>
 </div>
 </div>
@@ -1193,7 +1199,7 @@ title="Print to PDF"
 <figure class="align-default" id="id2">
 <a class="reference internal image-reference" href="../_images/Reproducibility_Spectrum.PNG"><img alt="../_images/Reproducibility_Spectrum.PNG" src="../_images/Reproducibility_Spectrum.PNG" style="width: 650px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 9 </span><span class="caption-text">source: <span id="id1">[<a class="reference internal" href="../Appendix/Litterature/bibliography.html#id12" title="Roger D. Peng. Reproducible research in computational science. Science, 334:1226-1227, 12 2011. doi:10.1126/science.1213847.">Peng, 2011</a>]</span></span><a class="headerlink" href="#id2" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 8 </span><span class="caption-text">source: <span id="id1">[<a class="reference internal" href="../Appendix/Litterature/bibliography.html#id12" title="Roger D. Peng. Reproducible research in computational science. Science, 334:1226-1227, 12 2011. doi:10.1126/science.1213847.">Peng, 2011</a>]</span></span><a class="headerlink" href="#id2" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <ul class="simple">
@@ -1509,8 +1515,7 @@ The main objective of the project is to change the mentality of the scientific c
   
     <div class="extra_footer">
       
-<img class="CC_licence" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc-sa.svg" alt="Licence CC BY NC SA 2"/>
-  
+<img class="CC_licence" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc-sa.svg" alt="Licence CC BY NC SA 2"/> 
 
     </div>
 </p>
