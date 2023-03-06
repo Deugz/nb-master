@@ -80,7 +80,7 @@ s0.parentNode.insertBefore(s1,s0);
 
 ```{epigraph}
 
-And their role in <strong>Planet Formation</strong>. <br> Explore, have fun, and contribute 😄.
+And their role in <strong>Planet Formation</strong>. <br> Explore, have fun, and contribute.
 
 
 -- **Vince**, editor / publisher
@@ -670,64 +670,317 @@ I would like to welcome as many contributions as possible from a wide variety of
 
 ::::
 
+<br>
+
+
+<br>
+<br>
+
 :::::
+
 
 
 ## **Teaching**
 
+:::::{div} full-width
+
+<br>
+<br>
 
 <p class="emphase2"><strong> Cutting Edge Science  </strong></p>
 
-<p class="emphase">Free, Creative, Collaborative ...</p>
+
+<br>
+<br>
+
+::::{grid} 2    
+:::{grid-item}
+:columns: 8
+
+
+<p class="emphase">My aim is to ...</p>
+
+<p class="emphase"><strong> Free, Creative, Collaborative (&#129310;) ...</strong></p>
+
+
+:::
+
+
+:::{grid-item}
+:columns: 4
+
+<div class="book"></div>
+    
+
+
+:::
+
+::::
+:::::
 
 <br>
 <br>
 
 :::::{div} full-width
-::::{grid} 2
+
+<p class="emphase2"><strong> from Various Disciplines </strong></p>
+
+<br>
+<br>
+
+<p class="emphase">That I, and my friends, studied during the course of our careers</p>
+
+
+::::{grid} 1 1 2 3
+:class-container: text-center
+:gutter: 2
 
 :::{grid-item-card}
-:columns: 4
 :class-header: bg-light
-
-**Teaching** <span style="float: right">![flag alt >](Docs/Svg_icons/book-svgrepo-com.svg)</span>
+:columns: 2
+**Astronomy**
 ^^^
-Learn from multiple (&#129310;) scientists about topics like:
-  
-- [Astronomy 101](https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/Astronomy_101/Astronomy_101.html)
-- [The Solar System](https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/The_solar_system/Solar_system.html)
-- [JWST](https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/JWST/JWST.html) 
-- [Python](https://deugz.github.io/nb-teaching/_build/html/Practicle/Python/Python_Main.html)
-- ...
-    
-+++
 
-&#128064; &#x2192; [![Jupyter Book Badge](https://jupyterbook.org/badge.svg)](https://deugz.github.io/nb-teaching/_build/html/)
-    
+```{image} Docs/SVG_files/Disciplines/galaxy-svgrepo-com.svg
+
+```
+
 :::
-    
-:::{grid-item}
-:columns: 8
 
-<p class="emphase"> Despite a curious and inquisitive mind, I have never been a studious and full-blown student ...  </p>
-  
-I can see 3 main reasons for that:   
-- First, I have only encountered a fraction of good teachers and all of them had their hands tied by very <strong>strict curriculum</strong> they had to follow. 
-- Secondly, most of the time I spent in a classroom have been to religiously listening and copying learning material, which was an incredibely boring activity as well as a complete loss of time. 
-- Last but not least, the finality of learning was less about discovering new concepts and having the right tools to describe them, but just to fill your brain with information that had to be spit out during exams so pupils could be ranked and funneled out of Accademia.     
+:::{grid-item-card}
+:class-header: bg-light
+:columns: 2
+**Physics**
+^^^
 
-Teaching is an important part of the life of a researcher and I believe it is one of the best and most important job that one can do. However, it is a task that is often controlled and managed by heavy administrative bodies. I think every researcher should be given the chance to share his knowledge in a creative and appealing fashion (that is terribly lacking in academia). 
+```{image} Docs/SVG_files/Disciplines/atoms-physics-svgrepo-com.svg
+
+```
+
 :::
+
+:::{grid-item-card}
+:class-header: bg-light
+:columns: 2
+**Chemistry**
+^^^
+
+```{image} Docs/SVG_files/Disciplines/chemistry-svgrepo-com.svg
+
+```
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+:columns: 2
+**Web Dev**
+^^^
+
+```{image} Docs/SVG_files/Disciplines/hand-holding-globe-svgrepo-com.svg
+
+```
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+:columns: 2
+**Python**
+^^^
+
+```{image} Docs/SVG_files/Disciplines/python-svgrepo-com.svg
+
+```
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+:columns: 2
+**More ...**
+^^^
+
+```{image} Docs/SVG_files/Disciplines/infinity-symbol-svgrepo-com.svg
+
+```
+
+
+:::
+
 ::::
+
+
+<br>
+<br>
+
+<p class="emphase">Just pick based on your <strong>interests </strong></p>
+
 :::::
 
 
 
-### <strong>&#187;  <u>  3 Formats </u></strong>
 
+:::::::{div} full-width
+
+<p class="emphase2"><strong> Organised by Topics </strong></p>
+
+::::::{grid} 2
+
+:::::{grid-item}
+:columns: 4
+
+<h4><strong>Astronomy</strong></h4>
+
+::::{grid-item-card}
+:class-header: bg-light
+
+**Topics**
+^^^
+
+<br>
+
+
+- [**Astronomy 101**](https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/Astronomy_101/Astronomy_101.html)  &#x2192; &#128064; 
+
+<br>
+
+
+- [The Solar System](https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/The_solar_system/Solar_system.html)
+
+
+- [Stars Lifecycle](https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/JWST/JWST.html)
+
+
+- [The Interstellar Medium](https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/JWST/JWST.html) 
+
+
+- [Astrochemistry](https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/JWST/JWST.html)
+
+
+- [Interstellar Dust](https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/JWST/JWST.html)
+
+
+- [Planet formation](https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/JWST/JWST.html)
+
+
+- [Planet formation II](https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/JWST/JWST.html)
+
+
+- [Excoplanets](https://deugz.github.io/nb-teaching/_build/html/Practicle/Python/Python_Main.html)
+
+
+- [JWST](https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/JWST/JWST.html) 
+    
+::::
+    
+:::::
+
+:::::{grid-item}
+:columns: 8
+
+:::{div} center-text
+
+<h4> <strong>Astronomy 101</strong></h4>
+
+:::
+
+
+<p class="emphase">Different difficulty levels (🟢 - 🟡 - 🔴 - 🟣) <br> Continuous integration & improvement from real feedbacks <br> Inputs from multiple and diverse scientific actors</p>
+
+<br>
+
+::::{card-carousel} 2
+
+:::{grid-item-card}
+:class-header: bg-light
+:columns: 4
+:margin: 3
+**Introduction**
+^^^
+
+- **Difficulty**: 🟢 
+- **Status**: ![flag alt >](Docs/Svg_icons/Under_construction.svg) - 🔥
+- **Needs**: 🏸 - 💏
+- **Read time**: 5 min
+
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+:columns: 4
+:margin: 3
+**Cosmic Inventory**
+^^^
+
+- **Difficulty**: 🟡 
+- **Status**: ![flag alt >](Docs/Svg_icons/Under_construction.svg) - 🔥
+- **Needs**: 🏸 - 💏
+- **Read time**: 5 min
+
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+:columns: 4
+:margin: 3
+**Historical Perspective**
+^^^
+
+- **Difficulty**: 🔴 
+- **Status**: ![flag alt >](Docs/Svg_icons/Under_construction.svg) - 🔥
+- **Needs**: 🏸 - 💏
+- **Read time**: 1h
+
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+:columns: 4
+:margin: 3
+**Anatomy of a telescope**
+^^^
+
+- **Difficulty**: 🟣 
+- **Status**: ![flag alt >](Docs/Svg_icons/Under_construction.svg) - 🔥
+- **Needs**: 🏸 - 💏
+- **Read time**: 5 min
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+:columns: 4
+:margin: 3
+**Space Missions**
+^^^
+
+- **Difficulty**: 🟡 
+- **Status**: ![flag alt >](Docs/Svg_icons/Under_construction.svg) - 🔥
+- **Needs**: 🏸 - 💏
+- **Read time**: 20 min
+
+:::
+
+::::
+
+:::::
+
+::::::
+
+:::::::
 
 
 :::::{div} full-width
+
+<br>
+<br>
+
+<p class="emphase2"><strong>  3 Formats  </strong></p>
+
 ::::{grid} 3
 
 :::{grid-item-card}
@@ -769,7 +1022,26 @@ Some practical tutorials which will accompanied you in producing some material.
 
 ::::
 
+<br>
+<br>
+
+
+<p class="emphase"> Let's go ? </p>
+
+:::{div} center-text
+
+[![Jupyter Book Badge](https://jupyterbook.org/badge.svg)](https://deugz.github.io/nb-teaching/_build/html/) 
+
+:::
+
+
+
+
+</p>
+
+
 :::::
+
 
 
 ## **Blog**

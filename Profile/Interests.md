@@ -1,4 +1,4 @@
-# Scientific interests
+# Interests
 
 ***
 
@@ -23,8 +23,6 @@
     
 My name is  [Vincent Deguin](https://50.open.ac.uk/photography/vincent), Astrophysics PhD student at the Open University. I am passionate about my <span class="hovertext" data-hover="Experimenting with the earliest stages of planet formation">scientific topic</span>, outreach and education, as well as an aspiring web developer. The image on the right is the edge of a nearby, young, star-forming region called NGC 3324 in the Carina Nebula, pictured by the recently launched James Webb Space Telescope ([JWST](https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/JWST/JWST.html)). This brand new Infrared space telescope will bring exciting times for astronomers like me, but also for you, provided that scientific discoveries are shared in an accessible format (cf [Manifesto](Projects/Manifesto)). Fortunately, I have an insatiable appetite for Open Science and this web-site is an attempt to make the outputs of my scientific journey as **open, accesible and reproducible** as possible, as well as providing a plateform for self minded researcher to contribute in the production of a research compendium, in an <span class="hovertext" data-hover="Definition">Encyclopaedia</span> style. 
     
-This web-site is dived in 4 main sections:
-
 </div>
  
 <div id="subdiv2">  
@@ -40,6 +38,7 @@ James Web Space Telescope [JWST](https://deugz.github.io/nb-teaching/_build/html
 </article>
 
 ::::
+
 
 ***
 

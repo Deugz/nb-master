@@ -2,6 +2,12 @@ p {
     text-align: justify;
 }
 
+.center-text {
+margin: auto;
+display: flex;
+justify-content: center;
+
+}
 
 h1 {
     font-family: Garamond;
