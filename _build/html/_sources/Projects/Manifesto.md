@@ -31,6 +31,39 @@ The whole system is outdated and current technologies (see below) should drive u
 </article>
 
 
+<h3><strong>&#187;  <u>Scientists and the Cave</u></strong></h3>
+
+:::::{div} full-width
+::::{grid} 2 
+
+:::{grid-item}
+:columns: 5 
+
+Explanation. 
+
+- Misconception about commercial scientific publication:
+
+- It is necessary (only provider of peer review)
+- ...
+
+:::
+
+:::{grid-item}
+:columns: 7 
+
+```{image} ../Docs/Images/Cave_allegory.png
+:width: 1000px
+:align: center
+```
+
+:::
+
+::::
+:::::
+
+
+
+
 ## **My Alternative**
 
 ::::{margin}
@@ -268,20 +301,17 @@ Explain difference ...
 
 <h3><strong>&#187;  <u>Open Research Toolbox</u></strong></h3> 
 
-Owing and maintaining a website during the course of my PhD (cf example) gave me the folowing advantages: 
-
 :::::{div} full-width
-::::{grid} 1 1 2 3
-
+::::{grid} 1 1 2 5
 :gutter: 2
 
 :::{grid-item-card}
-:link: Appendix/How_do_I.html
+:link: ../Appendix/How_do/How_do_I.html#content-references-title1
 :class-header: bg-light
 
 Notebook ✏️
 ^^^
-A method to take, store, edit and display my notes informatically allowing incrementall implementation. It includes all the requirements of scientific publishing: Bibliography, figure referencing, links and hyperlink ...
+
 
 
 
@@ -289,47 +319,46 @@ A method to take, store, edit and display my notes informatically allowing incre
 :::
 
 :::{grid-item-card}
-:link: content/myst.md
+:link: ../Appendix/How_do/How_do_I.html#content-references-title2
 :class-header: bg-light
 
 Storage Place ✨
 ^^^
 
-Web-sites require a solid folder architecture to work (ie links ...). So does a PhD with considerable amounts of data, scripts, files, notes, reports ... Stored localy (Hardrive) and exported periodicly on Github for Version control and web hosting. Symbiosis relationship
 
 :::
 
 :::{grid-item-card}
-:link: content/executable/index.md
+:link: ../Appendix/How_do/How_do_I.html#content-references-title3
 :class-header: bg-light
 
 Project Manager 🔁
 ^^^
 
-Keep track of my progress and focus on the right tasks. Organisation tool containing notes, agenda, tasks ... 
+
 :::
 
 :::{grid-item-card}
-:link: interactive/launchbuttons.md
+:link: ../Appendix/How_do/How_do_I.html#content-references-title4
 :class-header: bg-light
 
 Peer-Review Plateform 🚀
 ^^^
-Using `hypothesis` (buttons on the right corner), the whole book content can be commented.
+
 :::
 
 :::{grid-item-card}
-:link: build/publish/web.md
+:link: ../Appendix/How_do/How_do_I.html#content-references-title5
 :class-header: bg-light
 
 Publication gallery  🎁
 ^^^
  
-Share this notebook with my familly, friends and everyone else. 
+ 
 :::
 
 :::{grid-item-card}
-:link: content/components.md
+:link: ../Appendix/How_do/How_do_I.html#content-references-title6
 :class-header: bg-light
 
 FAIR Data ⚡
@@ -339,36 +368,43 @@ Findability, Accessibility, Interoperability and Reusability of my datasets.
 :::
 
 :::{grid-item-card}
-:link: content/components.md
+:link: ../Appendix/How_do/How_do_I.html#content-references-title7
 :class-header: bg-light
 
 Open Processing tools ⚡
 ^^^
 
-Python Notebooks are available and others can interact with it via `binder`.
+
 :::
 
 :::{grid-item-card}
-:link: content/components.md
+:link: ../Appendix/How_do/How_do_I.html#content-references-title8
 :class-header: bg-light
 
 Social media ⚡
 ^^^
 
-Connect Researcher with the general public. Collaboration beyond academia (`utterance` comment)
+
 :::
 
 :::{grid-item-card}
-:link: content/components.md
+:link: ../Appendix/How_do/How_do_I.html#content-references-title9
 :class-header: bg-light
 
 Communication &#128489;
 ^^^
 
-- with my supervisors
-- Reviewers
-- members of the public
-- ...
+
+
+:::
+
+:::{grid-item-card}
+:link: ../Appendix/How_do/How_do_I.html#content-references-title10
+:class-header: bg-light
+
+Public Engagement &#128489;
+^^^
+
 
 
 :::

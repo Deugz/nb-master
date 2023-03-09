@@ -419,9 +419,12 @@ This web-site have been built from a collection of *markdown* files, transformed
 
 <h4>I can <strong>Help</strong> &nbsp; 😉</h4>
 
-List of help page
-- [1]()
-- [1]()
+- [Open Science Tools](Appendix/Help/The_Turing_Way)
+- [Anaconda](Appendix/Help/Anaconda_JB)
+- [Jupyter](Appendix/Help/Jupyter)
+- [Github](Appendix/Help/Github_JB)
+- [Binder](Appendix/Help/Binder_JB)
+- [Semantic Web](Appendix/Help/SemanticWeb)
 
 :::
 ::::
@@ -737,6 +740,7 @@ I would like to welcome as many contributions as possible from a wide variety of
 
 :::{grid-item-card}
 :class-header: bg-light
+:link: https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/Astronomy_Main.html
 :columns: 2
 **Astronomy**
 ^^^
@@ -749,6 +753,7 @@ I would like to welcome as many contributions as possible from a wide variety of
 
 :::{grid-item-card}
 :class-header: bg-light
+:link: https://deugz.github.io/nb-teaching/_build/html/Bitesize/Physics/Physics_Main.html
 :columns: 2
 **Physics**
 ^^^
@@ -761,6 +766,7 @@ I would like to welcome as many contributions as possible from a wide variety of
 
 :::{grid-item-card}
 :class-header: bg-light
+:link: https://deugz.github.io/nb-teaching/_build/html/Bitesize/Chemistry/Chemistry_Main.html
 :columns: 2
 **Chemistry**
 ^^^
@@ -773,6 +779,7 @@ I would like to welcome as many contributions as possible from a wide variety of
 
 :::{grid-item-card}
 :class-header: bg-light
+:link: https://deugz.github.io/nb-teaching/_build/html/Practicle/WebDev/WebDev_Main.html
 :columns: 2
 **Web Dev**
 ^^^
@@ -785,6 +792,7 @@ I would like to welcome as many contributions as possible from a wide variety of
 
 :::{grid-item-card}
 :class-header: bg-light
+:link: https://deugz.github.io/nb-teaching/_build/html/Practicle/Python/Python_Main.html
 :columns: 2
 **Python**
 ^^^
@@ -894,6 +902,7 @@ I would like to welcome as many contributions as possible from a wide variety of
 
 :::{grid-item-card}
 :class-header: bg-light
+:link: https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/Astronomy_101/Astronomy_101.html
 :columns: 4
 :margin: 3
 **Introduction**
@@ -909,6 +918,7 @@ I would like to welcome as many contributions as possible from a wide variety of
 
 :::{grid-item-card}
 :class-header: bg-light
+:link: https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/Astronomy_101/Sub_topics/Cosmic_inventory.html
 :columns: 4
 :margin: 3
 **Cosmic Inventory**
@@ -922,8 +932,10 @@ I would like to welcome as many contributions as possible from a wide variety of
 
 :::
 
+
 :::{grid-item-card}
 :class-header: bg-light
+:link: https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/Astronomy_101/Sub_topics/History.html
 :columns: 4
 :margin: 3
 **Historical Perspective**
@@ -939,6 +951,7 @@ I would like to welcome as many contributions as possible from a wide variety of
 
 :::{grid-item-card}
 :class-header: bg-light
+:link: https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/Astronomy_101/Sub_topics/Telescope_anat.html
 :columns: 4
 :margin: 3
 **Anatomy of a telescope**
@@ -951,11 +964,29 @@ I would like to welcome as many contributions as possible from a wide variety of
 
 :::
 
+
+
 :::{grid-item-card}
 :class-header: bg-light
+:link: https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/Astronomy_101/Sub_topics/Missions.html
 :columns: 4
 :margin: 3
 **Space Missions**
+^^^
+
+- **Difficulty**: 🟡 
+- **Status**: ![flag alt >](Docs/Svg_icons/Under_construction.svg) - 🔥
+- **Needs**: 🏸 - 💏
+- **Read time**: 20 min
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+:link: https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/Astronomy_101/Sub_topics/Exploration.html
+:columns: 4
+:margin: 3
+**Space Exploration**
 ^^^
 
 - **Difficulty**: 🟡 
@@ -1087,6 +1118,7 @@ Only my personal opinions are expressed in the following posts and they don't re
 
 :::
 ::::
+
 
 
 

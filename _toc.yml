@@ -39,7 +39,10 @@ parts:
   - caption: Appendix
     chapters:
     - file: Appendix/Litterature/bibliography
-    - file: Appendix/Help/Style_guide
+    - file: Appendix/How_do/Style_guide
+      sections:
+      - file: Appendix/How_do/How_do_I     
+      - file: Appendix/How_do/How_can_you
     - file: Appendix/Help_main
       sections:
       - file: Appendix/Help/The_Turing_Way     

@@ -251,8 +251,50 @@ Idealy I would like to build a community like those ones:
 ## Project aims
 
 
+<h3><strong>&#187;  <u>Collaboration</u></strong></h3>
 
-## Futur 
+:::::{div} full-width
+
+::::{grid} 2 
+
+:::{grid-item}
+:columns: 7
+
+- What do I look for
+
+- How can we make it work 
+    - link with interaction workflow 
+    
+- How can people be acknowledge properly for their work.
+
+- ...
+
+:::
+
+:::{grid-item}
+:columns: 5 
+
+<div class="blackboard">
+<div class="form">
+      
+<li>Find Collaborators</li>
+    
+<ul>Ross - Cosmochemistry</ul>
+<ul>Zak - Observational Astronomy (JWST)</ul>
+<ul>Hugh - Python, Machine Learning</ul> 
+<ul>Pierre - Modelling</ul>
+<ul>Astra - Physics education</ul>
+<ul>Alessio - Semantic Web</ul>    
+<ul>Giulia - Observation Astronomy</ul>   
+</div>    
+</div>
+
+:::
+
+
+::::
+
+:::::
 
 ### Post PhD submition
 
