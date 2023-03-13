@@ -281,3 +281,17 @@ Below is a selection of a few articles from this special issue
 - {cite:p}`Longley2021`  
 
 
+
+## Open Journals
+
+- [Journal of Open Source Education](https://jose.theoj.org/)
+
+
+```{note}
+
+Ask Ross about volcanology publication (free)
+
+
+```
+
+

@@ -237,53 +237,67 @@ The journey towards the completion of a PhD is long, hard and students are very 
 
 ::::
 
-
-
-:::::{div} full-width
 ::::{grid} 4
+:class-container: text-center
+:gutter: 2
 
-:::{grid-item-card} 
-:img-top: ../Docs/SVG_files/OU_Logo.svg
-:link: "https://deugz.github.io/nb-thesis/_build/html/"
-^^^
-**Thesis** 
-+++
-![flag alt >](../Docs/Images/logo_JB.png) Version: 0.1 
-
-:::
-
-:::{grid-item-card} 
-:img-top: ../logo2.png
+:::{grid-item-card}
+:class-header: bg-light
 :link: "https://deugz.github.io/nb-teaching/_build/html/"
+:columns: 3
+**School 2.A**
 ^^^
-**School** 
-+++
-![flag alt >](../Docs/Images/logo_JB.png) Version: 0.1 
+
+```{image} ../Docs/Logo/logo_SFTP.png
+
+```
 
 :::
 
-:::{grid-item-card} 
-:img-top: ../Docs/SVG_files/OU_Logo.svg
-:link: "https://deugz.github.io/nb-museum/_build/html/"
-^^^
-**Notes** - PhD Part 1
-+++
-![flag alt >](../Docs/Images/logo_JB.png) Version: 0.1 
-:::
-
-:::{grid-item-card} 
-:img-top: ../Docs/SVG_files/OU_Logo.svg
+:::{grid-item-card}
+:class-header: bg-light
 :link: "https://deugz.github.io/nb-phd/_build/html/"
+:columns: 3
+**Open Notes A**
 ^^^
-**Notes** - PhD Part 2
-+++
-![flag alt >](../Docs/Images/logo_JB.png) Version: 0.1 
+
+```{image} ../Docs/Logo/OU/SHIELD/SVG/OU_SHIELD_LOGO_BLUE_125mm.svg
+:width: 80%
+:align: center
+
+```
+
 :::
 
+:::{grid-item-card}
+:class-header: bg-light
+:link: "https://deugz.github.io/nb-museum/_build/html/"
+:columns: 3
+**Open Notes B**
+^^^
 
+```{image} ../Docs/Logo/OU/SHIELD/SVG/OU_SHIELD_LOGO_BLUE_125mm.svg
+:width: 80%
+:align: center
+```
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+:link: "https://deugz.github.io/nb-thesis/_build/html/"
+:columns: 3
+**Thesis**
+^^^
+
+```{image} ../Docs/Logo/OU/SHIELD/SVG/OU_SHIELD_LOGO_BLUE_125mm.svg
+:width: 80%
+:align: center
+```
+
+:::
 ::::
 
-:::::
 
 <h4><strong>Thesis</strong></h4> 
 

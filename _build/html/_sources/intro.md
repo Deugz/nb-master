@@ -106,8 +106,6 @@ And their role in <strong>Planet Formation</strong>. <br> Explore, have fun, and
 ***
 
 <br>
-<br>
-<br>
 
 
 <div class="video-div">
@@ -121,11 +119,11 @@ And their role in <strong>Planet Formation</strong>. <br> Explore, have fun, and
 
 <p class="emphase2"><span class="hovertext" data-hover="Video"><strong>Welcome</strong></span> &nbsp; 👋 </p>
 
-
-<br>
 <br>
 
+<p class="emphase">On my <strong>Accademic Portefolio website</strong>, an umbrella ☂ under which I share all my scientific work.</p>
 
+<br>
 
 ::::{grid} 1 1 2 5
 :class-container: text-center
@@ -183,81 +181,6 @@ Because why not ?
 :::::
 
 <br>
-<br>
-
-
-::::{div} full-width
-
-<h3><strong>&#187;  <u>Map</u></strong></h3>
-
-```{figure} Docs/Ontology/Export/Master_Ont_1.png
-:name: Ontology
-:width: 3000px
-Knowledge graph obtain from [webvowl](https://service.tib.eu/webvowl/) using a custom ontology generated via [protege](link) 
-```
-
-::::
-
-
-
-## **Science For The People** 
-
-:::::{div} full-width
-
-<br>
-<br>
-
-<p class="emphase2"> <strong>New tools and methods </strong></p>
-
-<p class="emphase"> to perform, edit, publish, share and discuss <strong>Research</strong> 📖</p>
-
-<br>
-
-::::{grid} 4
-:::{grid-item-card}
-:class-header: bg-light
-:link: Projects/Manifesto.html
-<span style="float: right">![flag alt >](Docs/Svg_icons/fist-svgrepo-com.svg)</span> **Manifesto**  
-^^^
-
-Why am I doing this and what are the values I defend.
-
-:::
-:::{grid-item-card}
-:class-header: bg-light
-:link: Projects/Science_ft_People.html
-<span style="float: right">![flag alt >](Docs/Svg_icons/location-on-road-svgrepo-com.svg)</span>
-**Roadmap**
-^^^
-
-What I am aiming to achieve with this project, and at what stage we are at.
-
-:::
-:::{grid-item-card}
-:class-header: bg-light
-:link: BProjects/Contribute.html
-<span style="float: right">![flag alt >](Docs/Svg_icons/handshake-deal-svgrepo-com.svg)</span> **Contribute**
-^^^
-
-Come and help
-
-:::
-
-:::{grid-item-card}
-:class-header: bg-light
-:link: Version/Version_Main.html
-<span style="float: right">![flag alt >](Docs/Svg_icons/version-svgrepo-com.svg)</span> **Versions** 
-^^^
-
-Writen as blog post
-
-:::
-::::
-:::::
-
-
-
-
 
 
 <h3><strong>&#187;  <u>Audiences ?</u></strong></h3>
@@ -334,9 +257,20 @@ Writen as blog post
 :::::
 
 <br>
+
+<h3><strong>&#187;  <u>Map</u></strong></h3>
+
+:::{div} full-width
+
+```{image} Docs/Images/Web_site_map.png
+:name: map
+:width: 2000px 
+```
+:::
+
+<br>
 <br>
 
-::::::{div} full-width
 
 :::::{dropdown} <span style="float: right">![flag alt >](Docs/Svg_icons/location-pin-svgrepo-com.svg)</span> Find your way
 
@@ -389,18 +323,85 @@ Just explore
 
 
 
+
+
+
+## **Science For The People** 
+
+:::::{div} full-width
+
+<br>
+<br>
+
+<p class="emphase2"> <strong>New tools and methods </strong></p>
+
+<p class="emphase"> to perform, edit, publish, share and discuss <strong>Research</strong> 📖</p>
+
+<br>
+
+::::{grid} 4
+:::{grid-item-card}
+:class-header: bg-light
+:link: Projects/Manifesto.html
+<span style="float: right">![flag alt >](Docs/Svg_icons/fist-svgrepo-com.svg)</span> **Manifesto**  
+^^^
+
+Why am I doing this and what are the values I defend.
+
+:::
+:::{grid-item-card}
+:class-header: bg-light
+:link: Projects/Science_ft_People.html
+<span style="float: right">![flag alt >](Docs/Svg_icons/location-on-road-svgrepo-com.svg)</span>
+**Roadmap**
+^^^
+
+What I am aiming to achieve with this project, and at what stage we are at.
+
+:::
+:::{grid-item-card}
+:class-header: bg-light
+:link: BProjects/Contribute.html
+<span style="float: right">![flag alt >](Docs/Svg_icons/handshake-deal-svgrepo-com.svg)</span> **Contribute**
+^^^
+
+Come and help
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+:link: Version/Version_Main.html
+<span style="float: right">![flag alt >](Docs/Svg_icons/version-svgrepo-com.svg)</span> **Versions** 
+^^^
+
+Writen as blog post
+
+:::
+::::
+:::::
+
+
+:::::{div} full-width
+
+<br>
+<br>
+
 <p class="emphase2"><strong>Free & Open Source </strong></p>
 
 <p class="emphase">Not free of effort though 💪</p>
 
-::::{grid} 2
+::::{grid} 3
 :::{grid-item}
+:columns: 6 
 
 
 ```{admonition} Jupyter Book
 :class: tip
 
-This web-site have been built from a collection of *markdown* files, transformed in *html* using [Jupyter Book](https://jupyterbook.org/en/stable/intro.html):
+This web-site have been built from a collection of *markdown* files, transformed in *html* using:
+
+<p class="emphase"><a href="https://jupyterbook.org/en/stable/intro.html" target="_blank">Jupyter Book</a></p>
 
 
 **Accessible to everyone**.
@@ -415,7 +416,60 @@ This web-site have been built from a collection of *markdown* files, transformed
 
 :::
 
+:::{grid-item-card}
+:columns: 3
+:margin: 4 4 0 0
+:class-header: bg-light
+How I use this book <span style="float: right">🙃</span> 
+^^^
+
++++
+
+[Learn more](Appendix/How_do/How_do_I)
+
+:::
+
+:::{grid-item-card}
+:columns: 3
+:margin: 4 4 0 0
+:class-header: bg-light
+<span style="float: right">![flag alt >](Docs/Svg_icons/hands-and-leaves-svgrepo-com.svg)</span> How **You** can use it
+^^^
+
++++
+
+[Learn more](Appendix/How_do/How_do_I)
+
+:::
+::::
+
+:::::
+
+
+<br>
+<br>
+
+:::::{div} full-width
+
+::::{grid} 2
+
 :::{grid-item}
+:columns: 8 
+
+<br>
+
+<p class="emphase"> Want your own accademic web-site?</p>
+
+<br>
+
+<p class="emphase2"> <strong> Get in touch! </strong> </p>
+
+:::
+
+
+:::{grid-item}
+:columns: 4 
+
 
 <h4>I can <strong>Help</strong> &nbsp; 😉</h4>
 
@@ -427,19 +481,10 @@ This web-site have been built from a collection of *markdown* files, transformed
 - [Semantic Web](Appendix/Help/SemanticWeb)
 
 :::
+
 ::::
 
-<br>
-
-
-<br>
-
-<p class="emphase"> Want your own accademic web-site?</p>
-
-<p class="emphase2"> <strong> Get in touch! </strong> </p>
-
-::::::
-
+:::::
 
 
 

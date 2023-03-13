@@ -3,7 +3,7 @@
 
 title: "MASTER"
 author: <strong>Vincent Deguin</strong> (with ❤️)
-logo: logo2.png
+logo: Docs/Logo/logo_SFTP.png
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
@@ -26,7 +26,7 @@ repository:
   branch: main  # Which branch of the repository should be used when creating links (optional)
 
 html:
-  favicon                   : "logo2.png"  
+  favicon                   : "Docs/Logo/logo_SFTP.png"  
   use_edit_page_button      : true
   use_repository_button     : true
   use_issues_button         : true

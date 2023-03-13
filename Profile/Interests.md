@@ -43,181 +43,24 @@ James Web Space Telescope [JWST](https://deugz.github.io/nb-teaching/_build/html
 ***
 
 
-:::::::{div} full-width
+::::{div} full-width
 
-<p class="emphase2"><strong>My Expertise  </strong></p>
+<p class="emphase2"><strong>My niche </strong></p>
 
-<br>
-<br>
-
-::::::{grid} 2
-
-:::::{grid-item}
-:columns: 6
- 
- 
-<p class="emphase"><strong> Disciplines  </strong></p>
-
-
-
-<p class="emphase">I study the role that <span class="hovertext" data-hover="Oui oui, de la glace! (&#129482;)"><strong>water ice</strong></span> plays during the formation of planets (both from a <span class="hovertext" data-hover="def">physical</span> and <span class="hovertext" data-hover="def">chemical</span> point of view).</p> 
-
-```{note}
-
-Link CV card
-
-``` 
- 
- 
-:::::
-
-:::::{grid-item}
-:columns: 6
-
-<p class="emphase"><strong> Disciplines  </strong></p>
-
-::::{grid} 1 1 2 3
-:class-container: text-center
-:gutter: 2
-
-:::{grid-item-card}
-:class-header: bg-light
-:columns: 4
-**Astronomy**
-^^^
-
-```{image} ../Docs/SVG_files/Disciplines/galaxy-svgrepo-com.svg
-
-```
-
-:::
-
-:::{grid-item-card}
-:class-header: bg-light
-:columns: 4
-**Physics**
-^^^
-
-```{image} ../Docs/SVG_files/Disciplines/atoms-physics-svgrepo-com.svg
-
-```
-
-:::
-
-:::{grid-item-card}
-:class-header: bg-light
-:columns: 4
-**Maths**
-^^^
-
-```{image} ../Docs/SVG_files/Disciplines/infinity-symbol-svgrepo-com.svg
-
-```
-
-:::
-
-:::{grid-item-card}
-:class-header: bg-light
-:columns: 4
-**Chemistry**
-^^^
-
-```{image} ../Docs/SVG_files/Disciplines/chemistry-svgrepo-com.svg
-
-```
-
-:::
-
-:::{grid-item-card}
-:class-header: bg-light
-:columns: 4
-**Geology**
-^^^
-
-
-
-```{image} ../Docs/SVG_files/Disciplines/rock-svgrepo-com.svg
-
-```
-:::
-
-:::{grid-item-card}
-:class-header: bg-light
-:columns: 4
-**Biology**
-^^^
-```{image} ../Docs/SVG_files/Disciplines/centipede-insect-svgrepo-com.svg
-
-```
-
-
-:::
-
-:::{grid-item-card}
-:class-header: bg-light
-:columns: 4
-**Education**
-^^^
-
-
-```{image} ../Docs/SVG_files/Disciplines/education-svgrepo-com.svg
-
-```
-:::
-
-:::{grid-item-card}
-:class-header: bg-light
-:columns: 4
-**Open Science**
-^^^
-
-
-```{image} ../Docs/SVG_files/Disciplines/hand-holding-globe-svgrepo-com.svg
-
-```
-
-:::
-
-:::{grid-item-card}
-:class-header: bg-light
-:columns: 4
-**Big Data**
-^^^
-
-```{image} ../Docs/SVG_files/Disciplines/bigquery-svgrepo-com.svg
-
-```
-
-:::
-
-
+<p class="emphase">I am a laboratory astrophysicists that study <strong>amorphous water ices</strong>. I am particulary interested by the key role that ices plays during the formation of planets </p> 
 
 ::::
 
-:::::
-::::::
-:::::::
+## Water Ices in Space  
+
+<p class="emphase">In space, ice is present in many environments</p>
 
 
-## Topics
+:::{margin}
 
-::::{margin}
-
-```{note}
-In space, ice is present in many environments. My Research focuses on the first one, Interstellar Dust and their evolution within protoplanetary disks.
-```
-
-### <strong>&#187;  <u> Water Ices in Space  </u></strong>
-
-
-
-::::
-
-### <strong>&#187;  <u> Covering Interstellar Dusts  </u></strong>
-
-<article id="P1">
-
-<div id="subdiv1-3">    
+<br>
+<br>
+<br>
 
 ```{figure} ../Docs/Images/Space_Pics/Porous_chondriteIDP.jpg
 :name: dust1
@@ -231,9 +74,9 @@ Interstellar Dust Grain. [Source](https://commons.wikimedia.org/wiki/File:Porous
 - [Interstellar Dust Grains](https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/Interstellar_dust_grains/Dust.html)
 - [Astrochemistry](https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/Astrochemistry/Astrochemistry.html)
     
-</div>    
-    
-<div id="subdiv2-3">
+:::
+
+### <strong>&#187;  <u> Covering Interstellar Dusts  </u></strong>
 
 Dust is <span class="hovertext" data-hover="found everywhere">ubiquitus</span> in space. They are produced by Stars as sub-&micro;m grains made of either carbon or silicate and are subsequently dispersed by the solar winds in the <span class="hovertext" data-hover="InterStellar Medium">ISM</span>. In the high vacuum of space, they provide a surface for <span class="hovertext" data-hover="Ok with those concepts ? if not go and check Astronomy 101">atoms and small molecules</span> to stick and react, and are hence the main <span class="hovertext" data-hover="Definition">catalyst</span> of chemical reactions in the Universe. When the dust is embeded within <span class="hovertext" data-hover="Gigantic clouds with high density (?) and low temperature (20 Kelvin)">Molecular Clouds</span> ({numref}`JWST1`), they are protected from <span class="hovertext" data-hover="like cosmic rays, that destroys the forming molecular layers of the dust">radiation</span> and an <strong>icy layer</strong> can form around the dust grain. 
 Molecular Clouds are the birth place of Stars, and all those tiny &micro;m interstellar dust grains (and gas) contained within the cloud will be the building blocks of all the <span class="hovertext" data-hover="Planets, Moons, Comets ...">solar system bodies</span>.
@@ -241,21 +84,17 @@ Molecular Clouds are the birth place of Stars, and all those tiny &micro;m inter
 Interesting subject to study, don't you think ? 
     
 **Note**: {numref}`dust1` is actually not an interstellar dust grain but an interplanetary grain (easier to catch - with the Stardust mission)
-<br>
 
-</div>
-    
-
-    
-</article>
 
 ***
 
-### <strong>&#187;  <u>Embeded within Protoplanetary Disks </u></strong>
+<br>
 
-<article id="P1">
+:::{margin}
 
-<div id="subdiv1-3">    
+<br>
+<br>
+<br>  
 
 ```{figure} ../Docs/Images/Space_Pics/Dsharp_PPD.PNG
 :width: 300px
@@ -264,33 +103,38 @@ Protoplanetary Disk image taken with ALMA (DSHARP project) [Source](https://alma
 
 **Want to know more ?** 
 - [Star formation](https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/Star_formation/Star_formation.html)    
-- Planet formation
-    - [![flag alt >](../Docs/Svg_icons/rock-svgrepo-com.svg) to ![flag alt >](../Docs/Svg_icons/planet-earth-svgrepo-com.svg)](https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/Planet_formation_bottom-top/Planet_formation_bottom-top.html)
-    - [![flag alt >](../Docs/Svg_icons/planet-earth-svgrepo-com.svg) to ![flag alt >](../Docs/Svg_icons/rock-svgrepo-com.svg)  ](https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/Planet_formation_top-bottom/Planet_formation_top-bottom.html)
+- [Planet formation I](https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/Planet_formation_bottom-top/Planet_formation_bottom-top.html)
+- [Planet formation II](https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/Planet_formation_top-bottom/Planet_formation_top-bottom.html)
 - [JWST](https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/JWST/JWST.html)    
-</div>    
-    
-<div id="subdiv2-3">
 
-Star formation is a complicated process that is not yet perfectly understood. They are the result of the <span class="hovertext" data-hover="effondrement sous le poids de la gravite, ie ...">gravitational collapse</span> of a dense part of a molecular cloud (referred as clump). 
-    
-Protoplanetary Disks are a byproduct of star formation. They contain both Dust and Gas (ratio of 1:99) and in a time scale of a few million years will result in a solar system like our own... 
+:::
+
+### <strong>&#187;  <u>In Protoplanetary Disks </u></strong>
+
+Star formation is a complicated process that is not yet perfectly understood. They are the result of the <span class="hovertext" data-hover="effondrement sous le poids de la gravite, ie ...">gravitational collapse</span> of a dense part of a molecular cloud (referred as clump). Protoplanetary Disks are a byproduct of star formation. They contain both Dust and Gas (ratio of 1:99) and in a time scale of a few million years will result in a solar system like our own... 
+
+- substructure
+
+- snowline: thought to promote planet formation ...
 
 - Include video on hover of PPD with text explaining that we find our dust grain there
-    
-    
-    
-</div>
-   
-</article>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ***
 
-### <strong>&#187;  <u>Within Comets & Icy Moons </u></strong>
+<br>
 
-<article id="P1">
+:::{margin}
 
-<div id="subdiv1-3">    
+<br>
+<br>
+<br>    
 
 ```{figure} ../Docs/Images/Space_Pics/1567215981081-Rosetta_NavCam_comet_67P_20150707_enhanced_625.jpg
 :width: 300px
@@ -300,9 +144,9 @@ Comet 67P Churyumov-Gerasimenko [Source](https://sci.esa.int/web/rosetta/-/56159
 **Want to know more ?** 
 - [Astronomy 101](https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/Astronomy_101/Astronomy_101.html)  
         
-</div>    
+:::    
     
-<div id="subdiv2-3">
+### <strong>&#187;  <u>Within Comets & Icy Moons </u></strong>
     
 Where ice is present today in the solar system
 
@@ -310,13 +154,31 @@ Comets are <span class="hovertext" data-hover="unaltered">pristine</span> solar 
     
 
 Enceladus, Jupyter Moon ... Water, life tout ca tout ca ...
-    
 
-</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
-    
-    
-</article>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+:::{margin}
+ 
+
+```{image} ../Docs/Images/puzzle_pieces.png
+:width: 300px
+```
+
+:::
 
 ## Observations, Experiments & Modelling
 
