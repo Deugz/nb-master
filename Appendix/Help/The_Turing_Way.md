@@ -55,6 +55,13 @@ caption must include :
 
 - [DokuWiki](https://www.dokuwiki.org/dokuwiki)
 
+```{note}
+
+- work using php -> Need to have web-hosting solution
+    - Raspberry Pi web server as a free and self own hosting solution ?
+
+```
+
 ### Poster presentation
 
 - [Youtube tutorial](https://www.youtube.com/watch?v=1RwJbhkCA58)
