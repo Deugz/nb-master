@@ -1,104 +1,957 @@
-# How I do ...
+# How do I use
 
-***
-**Info**:
+<p class="emphase2"><strong>Online Books </strong> </p>
 
-This page details how I use **All** the books (4), and is not only relevant to this one.
+<br>
 
-***
+::::{grid} 7
+:class-container: text-center
+:gutter: 3
 
-Can I use a subclassification ie:
-- For me
-- interact w/ my peers
-- public engagement
 
-Owing and maintaining a website during the course of my PhD (cf example) gave me the folowing advantages: 
+:::{grid-item-card}
+:class-header: bg-light
+:link: "https://deugz.github.io/nb-master/_build/html/"
+:columns: 2
+**Master**
+^^^
+
+```{image} ../../Docs/Logo/logo_SFTP.png
+
+```
+
++++
+
+![flag alt >](../../_static/Svg_icons/web-svgrepo-com.svg)
+
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+:link: "https://deugz.github.io/nb-phd/_build/html/"
+:columns: 2
+**Notes A**
+^^^
+
+```{image} ../../Docs/Logo/OU/SHIELD/SVG/OU_SHIELD_LOGO_BLUE_125mm.svg
+:width: 80%
+:align: center
+
+```
+
++++
+
+![flag alt >](../../_static/Svg_icons/web-svgrepo-com.svg)
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+:link: "https://deugz.github.io/nb-museum/_build/html/"
+:columns: 2
+**Notes B**
+^^^
+
+```{image} ../../Docs/Logo/OU/SHIELD/SVG/OU_SHIELD_LOGO_BLUE_125mm.svg
+:width: 80%
+:align: center
+```
+
++++
+
+![flag alt >](../../_static/Svg_icons/web-svgrepo-com.svg)
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+:link: "https://deugz.github.io/nb-thesis/_build/html/"
+:columns: 2
+**Thesis**
+^^^
+
+```{image} ../../Docs/Logo/OU/SHIELD/SVG/OU_SHIELD_LOGO_BLUE_125mm.svg
+:width: 80%
+:align: center
+```
+
++++
+
+![flag alt >](../../_static/Svg_icons/pdf-svgrepo-com.svg)
+
+:::
+
+
+
+:::{grid-item-card}
+:class-header: bg-light
+:link: "https://deugz.github.io/nb-teaching/_build/html/"
+:columns: 2
+**School 2.A**
+^^^
+
+```{image} ../../Docs/Logo/logo_SFTP.png
+
+```
+
++++
+
+![flag alt >](../../_static/Svg_icons/web-svgrepo-com.svg)
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+:link: "https://deugz.github.io/nb-odapa/_build/html/"
+:columns: 2
+**ODAPA**
+^^^
+
+```{image} ../../_static/Logo/ODAPA/master-logo-open-dialogues-open.svg
+
+```
+
++++
+
+![flag alt >](../../_static/Svg_icons/web-svgrepo-com.svg)
+
+
+:::
+
+::::
+
+<br>
+
+<p class="emphase">On top of the obvious advantages of owing a website to share science, there is multiple <strong>benefits arising from the building method</strong> itself</p>
+
+<br>
+
+
+
+
+:::{margin}
+
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://assets5.lottiefiles.com/private_files/lf30_cldvedro.json"  background="transparent"  speed="1"  style="width: 100%; height: auto;"  loop  autoplay></lottie-player>
+
+:::
+
+<br>
 
 (content:references:Title1)=  
 ##  Notebook
 
-### Why ?
+<br>
+<br>
 
-```{note}
+:::{div} full-width
 
-Insert paragraphe about difficulties to take notes.
-- Notebook insuficient (1D)
+<p class="emphase2"> <strong> The Need </strong> </p>
+
+<p class="emphase"> <strong> Limitations </strong> with hand written notebooks ✍ </p>
+
+:::
+
+<br>
+
+::::::{div} full-width
+
+:::::{grid} 2
+::::{grid-item}
+:columns: 5 
+
+
+:::{dropdown} Limited inputs 
+Only text notes are available (sorry for stating the obvious), however a whole diversity of content is now generated: videos, podcasts, websites ... It is impossible to refer to the wide variety of content available within a written notebook.
+:::
+
+:::{dropdown} 1 Dimension 
+A written notebook is unidimensional, one entry after the other  
+:::
+
+:::{dropdown} Inadapted for online content
+No ability to save links towards ressources along with notes
+:::
+
+:::{dropdown} No iterative implementation
+blabla
+:::
+
+:::{dropdown} No compartimentation
+blabla
+:::
+
+:::{dropdown} Constant formatting
+Hard to maintain and keep consistent over time
+:::
+
+:::{dropdown} Finite lifetime
+blabla
+:::
+
+
+
+::::
+
+::::{grid-item}
+:columns: 7
+
+```{image} Docs/Notebook_example.jpg 
+:width: 100%
 
 ```
 
-A method to take, store, edit and display my notes informatically allowing incrementall implementation. It includes all the requirements of scientific publishing: 
+:::::
 
+<br>
+
+<p class="emphase">No <span class="hovertext" data-hover="Students and researchers are not a good customer target">bespoke</span> alternative</p>
+
+::::::
+
+
+<br>
+<br>
+
+:::{div} full-width
+
+<p class="emphase2"> <strong> My Solution  </strong> </p>
+
+<p class="emphase">  Markdown <img src="..\..\_static\Svg_icons\file-markdown-svgrepo-com.svg" style="width: 20px; margin: 5px;"> + Jupyter Lab <img src="..\..\_static\Svg_icons\jupyter-svgrepo-com.svg" style="width: 20px; margin: 5px;"> = <strong>Jupyter Book</strong> <img src="..\..\_static\Images\logo_JB.png" style="width: 20px; margin: 5px;"></p>
+
+
+***
+
+:::
+
+<br>
+<br>
+
+::::::{div} full-width
+:::::{grid}
+::::{grid-item}
+:columns: 5 
+
+:::{dropdown} All kind of inputs 
+Only text notes are available (sorry for stating the obvious), however a whole diversity of content is now generated: videos, podcasts, websites ... It is impossible to refer to the wide variety of content available within a written notebook.
+:::
+
+:::{dropdown} Multiple outputs
+pdf and html
+:::
+
+:::{dropdown} All in one software
+**Python** notebook and **Markdown** notebook using the **same software**
+:::
+
+:::{dropdown} Fitted for scientific writing 
 - Bibliography 
 - References
     - Figures
     - Tables
     - Equations
-- Links and hyperlink ...
+- Links and hyperlink ... 
+:::
 
-### How ?
+:::{dropdown} 2 Dimension 
+Implement diagram  
+:::
 
-<p class="emphase2"> Markdown </p>
+:::{dropdown} Compartiment knowledge
+blabla
+:::
+
+:::{dropdown} Iterative implementation
+blabla
+:::
+
+:::{dropdown} Consistant formatting
+Hard to maintain and keep consistent over time
+:::
+
+:::{dropdown} infinite lifetime
+blabla
+:::
+
+:::{dropdown} Transferable
+blabla
+:::
+
+:::{dropdown} Semantic Web compatible
+blabla
+:::
 
 
-<p class="emphase2"> Jupyter Lab </p>
 
+::::
 
-```{note}
+::::{grid-item}
+:columns: 7
 
-Insert a picture of the working environment (all in one)
-- **Python** notebook and **Markdown** notebook using the **same software**
+```{image} Docs/Working_env.png 
+:width: 100%
 
 ```
 
-(content:references:Title2)=  
-##  Storage  
 
-Web-sites require a solid folder architecture to work (ie links ...). So does a PhD with considerable amounts of data, scripts, files, notes, reports ... Stored localy (Hardrive) and exported periodicly on Github for Version control and web hosting. Symbiosis relationship.
+::::
+:::::
 
-### Local
+::::::
 
-- Hardrive
+:::::{div} full-width
 
-```{note}
+<br>
 
-Web-site force you to adopt and constantly work on ...
+<p class="emphase2"> <strong> Result  </strong> </p>
 
-```
+::::{grid} 2
 
-### Version Control
+:::{grid-item}
+:columns: 5
 
-<p class="emphase2"> Github </p>
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://assets7.lottiefiles.com/packages/lf20_ZAY921.json"  background="transparent"  speed="1"  style="width: 100%; height: auto;"  loop  autoplay></lottie-player>
+
+:::
+
+:::{grid-item}
+:columns: 7
+
+<p class="emphase">  Multiple research compendiums organised in a <strong> Knowledge Base</strong> <br> <img src="..\..\_static\Svg_icons\brain-svgrepo-com.svg" style="width: 20px; margin: 5px;"> </p>
+
+<p class="emphase"> <strong>Iterative workflow </strong><br><img src="..\..\_static\Svg_icons\iteration-filled-svgrepo-com.svg" style="width: 20px; margin: 5px;"> </p>
+
+<p class="emphase" ><strong>Infinite lifetime</strong> <br><img src="..\..\_static\Svg_icons\infinity-svgrepo-com.svg" style="width: 20px; margin: 5px;"> </p>
+
+
+:::
+
+::::
+
+***
+
+<p class="emphase" style="color: green;">A <strong>method</strong> <img src="..\..\_static\Svg_icons\cogs-svgrepo-com.svg" style="width: 20px; margin: 5px;"> that <span class="hovertext" data-hover="It makes me go slow, but hopefully very far">works for me</span>, and that I am <strong>happy</strong> 😁 to use !!</p>
+
+:::::
 
 
 
 
-(content:references:Title3)=  
-##  Management
+<br>
+<br>
 
-Keep track of my progress and focus on the right tasks. Organisation tool containing notes, agenda, tasks ... 
 
-### Tools I need
+:::{margin}
 
-By oposition to the tools I am supposed to use.
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://assets1.lottiefiles.com/private_files/lf30_yyuin7so.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"  loop  autoplay></lottie-player>
 
-Usually University provide an unique Project management method *designed for all*, and hence usefull to no one.
 
- 
-### Keep track of my progress
+:::
 
-- Daily notes
+<br>
+
 
 (content:references:Title4)=
 ## Edition
 
+<br>
 
-### Canvas 
+::::{div} full-width
 
-My style, my rules
+<p class="emphase2"> <strong> Versatile Canvas  </strong> </p>
+
+<p class="emphase">  My own style, my own rules: open to <strong>experiment and innovation</strong>  <img src="..\..\_static\Svg_icons\brush-paint-wide-brush-paint-brush-repair-painting-svgrepo-com.svg" style="width: 20px; margin: 5px;"> </p>
+
+
+<figure id="transition-img">
+<div class="images-JWST">
+<img src="../../_static/assets/MC/Gaia_s_sky_in_colour.jpg" alt="" class="two">
+<img src="../../_static/assets/MC/MC_Distribution_galaxy.png" alt="" class="one">
+</div>
+<figcaption>Hover the figure to switch between images - <a href="https://www.esa.int/Science_Exploration/Space_Science/Gaia/Gaia_creates_richest_star_map_of_our_Galaxy_and_beyond" target="blank"> Image 1 </a> Gaia image of the Galactic plane  - <a href="https://lweb.cfa.harvard.edu/mmw/Fig2_Dame.pdf" target="blank"> Image 2 </a> Molecular cloud mapping </figcaption>
+</figure>
+
+<p class="emphase">✨</p>
+
+
+:::{dropdown} **Astronomical Images**
+
+```{figure} ../../_static/Images/HST_Images.png
+---
+name: HST_gallery
+width: 1200px
+---
+[source](https://hubblesite.org/contents/media/images/2022/013/01FX6199GW73PSN2MHVHSMPPFM?itemsPerPage=100)
+```
+
+<p class="emphase">I mean, c'mon ...</p>
+
+:::
+
+::::
+
+<br>
+
+
+:::::{div} full-width
+
+<p class="emphase2"> <strong> Endless Formatting Options </strong> </p>
+
+<p class="emphase"> I can embrace <strong>my creative self</strong> 😘 </p>
+
+
+::::{grid} 4
+
+:::{grid-item-card}
+:class-header: bg-light
+**HTML**
+^^^ 
+
+Standard markup language for Web pages
+
++++
+
+[Learn more](https://deugz.github.io/nb-teaching/_build/html/Practicle/WebDev/HTML_CSS/HTML_CSS.html) ![flag alt >](../../_static/Logo/logo_SFTP.png)
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+**CSS**
+^^^
+
+Control the page layout and formatting options
+
+
++++
+
+[Learn more](https://deugz.github.io/nb-teaching/_build/html/Practicle/WebDev/HTML_CSS/HTML_CSS.html) ![flag alt >](../../_static/Logo/logo_SFTP.png)
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+**Javascript**
+^^^
+
+Allow for user interaction with the page content
+
++++
+
+[Learn more](https://deugz.github.io/nb-teaching/_build/html/Practicle/WebDev/Javascript/Javascript.html) ![flag alt >](../../_static/Logo/logo_SFTP.png)
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+**Open Ressources**
+^^^ 
+
++++
+
+[Check](https://codepen.io/) ![flag alt >](../../_static/SVG_icons/codepen-svgrepo-com.svg)
+
+:::
+
+::::
+
+
+
+
+:::::
+
+
+
+
+
+
+
+
+
+:::{margin}
+
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://assets10.lottiefiles.com/packages/lf20_0nssneim.json"  background="transparent"  speed="1"  style="width: 100%; height: auto;"  loop  autoplay></lottie-player>
+
+:::
+
+
+(content:references:Title2)=  
+##  Storage  
+
+<br>
+
+:::::{div} full-width
+
+<p class="emphase2"> <strong>4 Options</strong></p>
+
+<p class="emphase"> Complementary</p>
+
+<br>
+
+
+
+::::{grid} 4
+
+:::{grid-item-card}
+:class-header: bg-light
+**Local computer**
+^^^
+
+- Daily
+
+
++++
+No headach
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+**Hardrive**
+^^^
+
+- Monthly
+
++++
+Back-ups 
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+**Github**
+^^^ 
+
+- Weekly
+
++++
+Version Control
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+**Data repository**
+^^^ 
+
+- As needed
+
++++
+Sharing is caring
+
+:::
+
+::::
+:::::
+
+<br>
+
+```{note}
+
+Maintaining a website require a *good and consistent* **archiving** method, with a solid folder architecture to work.
+- Good incentive to keep work folder tidy
+
+```
+
+
+:::{margin}
+
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://assets1.lottiefiles.com/packages/lf20_X8wA00rqrk.json"  background="transparent"  speed="1"  style="width: 100%; height: auto;"  loop  autoplay></lottie-player>
+
+:::
+
+(content:references:Title7)=
+## Open Science
+
+:::::{div} full-width
+
+<br>
+
+<p class="emphase2"> <strong>FAIR</strong> Data Principles</p>
+
+<br>
+
+::::{grid} 4
+
+:::{grid-item-card}
+:class-header: bg-light
+<span class="hovertext" data-hover="The first step in (re)using data is to find them. Metadata and data should be easy to find for both humans and computers"><strong>Findable</strong></span>
+^^^
+
+- **Data Repository**
+
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+<span class="hovertext" data-hover="Once the user finds the required data, she/he/they need to know how they can be accessed, possibly including authentication and authorisation"><strong>Accessible</strong></span>
+^^^
+
+
+- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7220303.svg)](https://doi.org/10.5281/zenodo.7220303)
+
+ 
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+<span class="hovertext" data-hover="The data usually need to be integrated with other data. In addition, the data need to interoperate with applications or workflows for analysis, storage, and processing"><strong>Interoperable</strong></span>
+^^^ 
+
+- [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Deugz/ASW_Data_Processing/HEAD?labpath=Data_Analysis_Binder.ipynb)
+
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+<span class="hovertext" data-hover="The ultimate goal of FAIR is to optimise the reuse of data. To achieve this, metadata and data should be well-described so that they can be replicated and/or combined in different settings"><strong>Reusable</strong></span>
+^^^ 
+
+- ![forks](https://img.shields.io/github/forks/Deugz/nb-master?style=social)
+
+
+
+:::
+
+::::
+
+<br>
+
+<p class="emphase"> <strong>Easy</strong>, As simple as clicking on a button</p>
+
+:::::
+
+:::{div} full-width
+
+<p class="emphase2"> <strong>Free & Accessible to All</strong></p>
+
+<p class="emphase"> Not only scientist, but also members of the public, policy makers ...</p>
+
+
+:::
+
+
+
+:::{margin}
+
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://assets8.lottiefiles.com/packages/lf20_yZ9gAl.json"  background="transparent"  speed="1"  style="width: 100%; height: auto;"  loop  autoplay></lottie-player>
+
+:::
+
+
+(content:references:Title6)=  
+## Communication 
+
+:::{div} full-width
+
+<p class="emphase2"> <strong>By me</strong> </p>
+
+<p class="emphase"><strong>Hybrid</strong></p>
+
+:::
+
+:::::{div} full-width
+
+::::{grid} 3
+
+:::{grid-item-card}
+:class-header: bg-light
+**Web support**
+^^^
+
+- Multiple style
+    - Presentation
+    - Text
+    
+- Participatif
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+**Video**
+^^^
+
+- Guide you through the page
+
+- Keep your attention
+
+
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+**Links**
+^^^
+
+:::
+
+::::
+
+:::::
+
+
+:::::{div} full-width
+
+
+<p class="emphase2"> <strong>For all</strong> </p>
+
+::::{grid} 6
+
+:::{grid-item-card}
+:class-header: bg-light
+<span class="hovertext" data-hover="Looking to check, correct peer-review my work">Supervisors</span> 
+^^^
+```{image} ../../Docs/Svg_icons/Fish/turtle-svgrepo-com.svg
+```
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+<span class="hovertext" data-hover="From all fields">Researchers</span>
+^^^
+```{image} ../../Docs/Svg_icons/Fish/shark-svgrepo-com.svg
+```
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+<span class="hovertext" data-hover="That will follow-up on the work I have done">Students</span>
+^^^
+
+```{image} ../../Docs/Svg_icons/Fish/fish-student-svgrepo-com.svg
+```
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+<span class="hovertext" data-hover="Looking for great teaching recourses">Teachers</span>
+
+^^^
+
+```{image} ../../Docs/Svg_icons/Fish/fish-light-svgrepo-com.svg
+```
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+<span class="hovertext" data-hover="Le voici ce site-web ^^">Friends</span>
+^^^
+```{image} ../../Docs/Svg_icons/Fish/fish-nemo-svgrepo-com.svg
+```
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+<span class="hovertext" data-hover="Looking to discover something new">Anyone</span>
+^^^
+```{image} ../../Docs/Svg_icons/Fish/fish-svgrepo-com.svg
+```
+
+
+:::
+
+::::
+
+<br>
+<br>
+
+<p class="emphase"><strong>My Job is to point you in the right direction</strong></p>
+
+
+:::::
+
+
+
+
+
+:::{div} full-width
+
+<p class="emphase2"> <strong>With you</strong> </p>
+
+<p class="emphase"> Multiple ways </p>
+
+:::
+
+
+:::::{div} full-width
+
+::::{grid} 4
+
+:::{grid-item-card}
+:class-header: bg-light
+**Notes**
+^^^
+
+- 
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+**Comments**
+^^^
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+**Annotations**
+^^^
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+**Chat**
+^^^
+
+:::
+
+::::
+
+:::::
+
+
+
+
+
+
+- with my supervisors
+- Reviewers
+- members of the public
+- ...
+
+**Video**: Communicating differently
+
+- feedback
+
+### Peer-Review Plateform
+
+Using `hypothesis` (buttons on the right corner), the whole book content can be commented.
+
+
+
+:::{margin}
+
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://assets7.lottiefiles.com/packages/lf20_xehjh2eh.json"  background="transparent"  speed="1"  style="width: 100%; height: auto;" autoplay></lottie-player>
+
+:::
+
+(content:references:Title8)=   
+## Collaboration
+
+<br>
+
+<p class="emphase2"> <strong>Example</strong></p>
+
+<br>
+
+:::::{div} full-width
+::::{grid} 2
+
+:::{grid-item}
+:columns: 7
+
+<video src="../../_static/videos/ssc2004-08v2_h264_vga.mov" width="100%" height="" controls>
+  Your browser does not support the video tag.
+</video>
+
+:::
+
+:::{grid-item}
+:columns: 5
+
+<p class="emphase"><strong>How do planets forms ?</strong></p>
+
+
+```{image} ../../_static/Images/puzzle_pieces.png
+:width: 60%
+:align: center
+```
+
+<br>
+
+<p class="emphase">Require <strong>multidisciplinary</strong> expertise</p>
+
+:::
+::::
+:::::
+
+
+::::::{div} full-width
+
+<br>
+
+<p class="emphase2"> <strong>Collaboration 101</strong></p>
+
+<p class="emphase"> Creating a space for each expert to give an overview of his field </p>
+
+<br>
+
+
+:::::{grid} 2
+
+::::{grid-item-card}
+
+
+**Bottom to Top** <span style="float: right">![flag alt >](../../Docs/Svg_icons/rock-svgrepo-com.svg) -> ![flag alt >](../../Docs/Svg_icons/planet-earth-svgrepo-com.svg)</span> 
+
+^^^
+
+::::
+
+::::{grid-item-card}
+
+**Top to  bottom** <span style="float: right"> ![flag alt >](../../Docs/Svg_icons/planet-earth-svgrepo-com.svg) -> ![flag alt >](../../Docs/Svg_icons/rock-svgrepo-com.svg)  </span> 
+
+^^^
+
+::::
+
+
+:::::
+
+::::::
+
+
+<p class="emphase2"> <strong>Collaborative Space</strong></p>
+
+<p class="emphase"> <strong>Still to explore</strong></p>
+
+
+
+
+:::{margin}
+
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://assets10.lottiefiles.com/packages/lf20_7xiNQz.json"  background="transparent"  speed="1"  style="width: 100%; height: auto;"  loop  autoplay></lottie-player>
+
+:::
+
 
 
 (content:references:Title5)=  
 ## Publications
+
+<p class="emphase2"> <strong>Example</strong></p>
+
+<p class="emphase"> How do planets forms ?</p>
 
 ### Scientific Gallery
 
@@ -111,47 +964,14 @@ Broader reach -> Bigger impact
 ```
 
 
-(content:references:Title6)=  
-## Communication 
-
-
-- with my supervisors
-- Reviewers
-- members of the public
-- ...
-
-**Video**: Communicating differently
-
-
-### Peer-Review Plateform
-
-Using `hypothesis` (buttons on the right corner), the whole book content can be commented.
-
-
-
-(content:references:Title7)=
-## Open Science
-
-
-### FAIR Data
-
-- Definition of the principles ...
-
-
-### Open Processing tools
-
-Python Notebooks are available and others can interact with it via `binder`.
-
-
-- Interactive
-
-- Binder
-
- 
-
-
-(content:references:Title8)=   
+(content:references:Title9)=   
 ## Engagement
+
+<p class="emphase2"> <strong>Multiple Actors</strong></p>
+
+<p class="emphase2"> Scientist, Artists, Policy makers, the public</p>
+
+
 
 ### Public 
 
@@ -160,11 +980,67 @@ Python Notebooks are available and others can interact with it via `binder`.
 
 From different disciplines
 
-(content:references:Title9)=  
+
+
+
+
+:::{margin}
+
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://assets9.lottiefiles.com/packages/lf20_moe1l8ie.json"  background="transparent"  speed="1"  style="width: 100%; height: auto;"  loop autoplay></lottie-player>
+
+
+:::
+
+<br>
+
+
+
+(content:references:Title3)=  
+##  Management
+
+<p class="emphase2"> <strong>Tools I need</strong></p>
+
+<p class="emphase"> vs the tools I am told to use</p>
+
+- Can develop and implement the tools that I need
+
+<p class="emphase2"> <strong>Keep track</strong></p>
+
+- Plan
+- Progress
+- Meetings
+- ...
+
+Keep track of my progress and focus on the right tasks. Organisation tool containing notes, agenda, tasks ... 
+
+
+
+By oposition to the tools I am supposed to use.
+
+Usually University provide an unique Project management method *designed for all*, and hence usefull to no one.
+
+ 
+### Keep track of my progress
+
+- Daily notes
+
+
+
+
+
+:::{margin}
+
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://assets4.lottiefiles.com/packages/lf20_fjv8qxqn.json"  background="transparent"  speed="1"  style="width: 100%; height: auto;"  loop  autoplay></lottie-player>
+
+:::
+
+
+(content:references:Title10)=  
 ## Social media
 
 Connect Researcher with the general public. Collaboration beyond academia (`utterance` comment)
-
 
 
 

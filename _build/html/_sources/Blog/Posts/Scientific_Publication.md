@@ -233,6 +233,19 @@ Yes, I include the Peer Review process in this section as there is many flaws as
 - Reviewers do not have
 
 
+## Actors of Scientific Publishing
+
+### Clarivate 
+
+[Wikipedia](https://fr.wikipedia.org/wiki/Clarivate)
+
+**Own**:
+- Web of Science
+- Endnote
+- Journal Citation Report (Responsible for Impact Factor of many publications) - cf 2022 report []()
+
+**Revenus** : 1,254 billion USD
+
 
 ## Can we do better ?
 

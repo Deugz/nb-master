@@ -423,6 +423,17 @@ This web-site have been built from a collection of *markdown* files, transformed
 How I use this book <span style="float: right">🙃</span> 
 ^^^
 
+- Notebook
+- Edition
+- Storage
+- Open Science
+- Communication
+- Collaboration
+- Publications
+- Engagement
+- Management
+- Social media
+
 +++
 
 [Learn more](Appendix/How_do/How_do_I)
