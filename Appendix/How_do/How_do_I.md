@@ -4,123 +4,6 @@
 
 <br>
 
-::::{grid} 7
-:class-container: text-center
-:gutter: 3
-
-
-:::{grid-item-card}
-:class-header: bg-light
-:link: "https://deugz.github.io/nb-master/_build/html/"
-:columns: 2
-**Master**
-^^^
-
-```{image} ../../Docs/Logo/logo_SFTP.png
-
-```
-
-+++
-
-![flag alt >](../../_static/Svg_icons/web-svgrepo-com.svg)
-
-
-:::
-
-:::{grid-item-card}
-:class-header: bg-light
-:link: "https://deugz.github.io/nb-phd/_build/html/"
-:columns: 2
-**Notes A**
-^^^
-
-```{image} ../../Docs/Logo/OU/SHIELD/SVG/OU_SHIELD_LOGO_BLUE_125mm.svg
-:width: 80%
-:align: center
-
-```
-
-+++
-
-![flag alt >](../../_static/Svg_icons/web-svgrepo-com.svg)
-
-:::
-
-:::{grid-item-card}
-:class-header: bg-light
-:link: "https://deugz.github.io/nb-museum/_build/html/"
-:columns: 2
-**Notes B**
-^^^
-
-```{image} ../../Docs/Logo/OU/SHIELD/SVG/OU_SHIELD_LOGO_BLUE_125mm.svg
-:width: 80%
-:align: center
-```
-
-+++
-
-![flag alt >](../../_static/Svg_icons/web-svgrepo-com.svg)
-
-:::
-
-:::{grid-item-card}
-:class-header: bg-light
-:link: "https://deugz.github.io/nb-thesis/_build/html/"
-:columns: 2
-**Thesis**
-^^^
-
-```{image} ../../Docs/Logo/OU/SHIELD/SVG/OU_SHIELD_LOGO_BLUE_125mm.svg
-:width: 80%
-:align: center
-```
-
-+++
-
-![flag alt >](../../_static/Svg_icons/pdf-svgrepo-com.svg)
-
-:::
-
-
-
-:::{grid-item-card}
-:class-header: bg-light
-:link: "https://deugz.github.io/nb-teaching/_build/html/"
-:columns: 2
-**School 2.A**
-^^^
-
-```{image} ../../Docs/Logo/logo_SFTP.png
-
-```
-
-+++
-
-![flag alt >](../../_static/Svg_icons/web-svgrepo-com.svg)
-
-:::
-
-:::{grid-item-card}
-:class-header: bg-light
-:link: "https://deugz.github.io/nb-odapa/_build/html/"
-:columns: 2
-**ODAPA**
-^^^
-
-```{image} ../../_static/Logo/ODAPA/master-logo-open-dialogues-open.svg
-
-```
-
-+++
-
-![flag alt >](../../_static/Svg_icons/web-svgrepo-com.svg)
-
-
-:::
-
-::::
-
 <br>
 
 <p class="emphase">On top of the obvious advantages of owing a website to share science, there is multiple <strong>benefits arising from the building method</strong> itself</p>
@@ -400,8 +283,9 @@ width: 1200px
 
 <p class="emphase2"> <strong> Endless Formatting Options </strong> </p>
 
-<p class="emphase"> I can embrace <strong>my creative self</strong> 😘 </p>
+<p class="emphase"> Aring from the <strong>web-development tools</strong> and community </p>
 
+<br>
 
 ::::{grid} 4
 
@@ -459,7 +343,11 @@ Allow for user interaction with the page content
 ::::
 
 
+<br>
 
+<p class="emphase"> I can embrace <strong>my creative self</strong> 😘 </p>
+
+<br>
 
 :::::
 
@@ -549,13 +437,12 @@ Sharing is caring
 :::::
 
 <br>
+<br>
 
-```{note}
+<p class="emphase"> *good and consistent* **archiving** method</p>
 
-Maintaining a website require a *good and consistent* **archiving** method, with a solid folder architecture to work.
-- Good incentive to keep work folder tidy
-
-```
+<br>
+<br>
 
 
 :::{margin}
@@ -625,18 +512,19 @@ Maintaining a website require a *good and consistent* **archiving** method, with
 
 <br>
 
-<p class="emphase"> <strong>Easy</strong>, As simple as clicking on a button</p>
+<p class="emphase2"> <strong>Easy</strong></p>
+
+<br>
+
+<p class="emphase">As simple as clicking on a button</p>
+
+
+<br>
+<br>
 
 :::::
 
-:::{div} full-width
 
-<p class="emphase2"> <strong>Free & Accessible to All</strong></p>
-
-<p class="emphase"> Not only scientist, but also members of the public, policy makers ...</p>
-
-
-:::
 
 
 
@@ -703,8 +591,14 @@ Maintaining a website require a *good and consistent* **archiving** method, with
 
 :::::{div} full-width
 
+<br>
 
-<p class="emphase2"> <strong>For all</strong> </p>
+
+<p class="emphase2"> <strong>For Everyone</strong> </p>
+
+<p class="emphase">Curious and interested in <strong>Science</strong> 🌍 </p>
+
+<br>
 
 ::::{grid} 6
 
@@ -770,10 +664,78 @@ Maintaining a website require a *good and consistent* **archiving** method, with
 <br>
 <br>
 
-<p class="emphase"><strong>My Job is to point you in the right direction</strong></p>
+<p class="emphase">My Job to <strong>point you in the right direction</strong></p>
 
 
 :::::
+
+<br>
+
+:::{div} full-width
+
+<p class="emphase2"><strong>Map</strong></p>
+
+
+```{image} ../../Docs/Images/Web_site_map.png
+:name: map
+:width: 2000px 
+```
+
+:::
+
+<br>
+
+::::::{div} full-width
+
+:::::{dropdown} <span style="float: right">![flag alt >](../../_static/Svg_icons/location-pin-svgrepo-com.svg)</span> Find your way
+
+*Explore, don't be affraid to loose yourself in this ocean of knowledge, and most importantly, have fun :)*
+
+::::{tab-set}
+
+:::{tab-item} Supervisors
+
+- PhD 
+    - [Thesis .A](https://deugz.github.io/nb-phd/_build/html/intro.html)
+    - [Thesis .B](https://deugz.github.io/nb-museum/_build/html/intro.html)
+:::
+
+:::{tab-item} Researchers
+
+- Go check the [Research](https://deugz.github.io/nb-PhD/_build/html/intro.html) page.
+
+:::
+
+:::{tab-item} Students
+
+Explore the different sections
+
+:::
+
+:::{tab-item} Teachers
+
+Check teaching and find the ressource you need
+
+:::
+
+
+:::{tab-item} Friends
+
+Bon ...
+
+:::
+
+:::{tab-item} Anyone
+
+Just explore
+
+:::
+
+::::
+:::::
+::::::
+
+
 
 
 
@@ -784,6 +746,8 @@ Maintaining a website require a *good and consistent* **archiving** method, with
 <p class="emphase2"> <strong>With you</strong> </p>
 
 <p class="emphase"> Multiple ways </p>
+
+<br>
 
 :::
 
@@ -824,25 +788,15 @@ Maintaining a website require a *good and consistent* **archiving** method, with
 
 ::::
 
+
+<br>
+
+<p class="emphase">To <span class="hovertext" data-hover="Big thanks to my supervisors for their support and involvment in that regard.">Test</span></p>
+
+<br>
+<br>
+
 :::::
-
-
-
-
-
-
-- with my supervisors
-- Reviewers
-- members of the public
-- ...
-
-**Video**: Communicating differently
-
-- feedback
-
-### Peer-Review Plateform
-
-Using `hypothesis` (buttons on the right corner), the whole book content can be commented.
 
 
 
@@ -908,32 +862,164 @@ Using `hypothesis` (buttons on the right corner), the whole book content can be 
 :::::{grid} 2
 
 ::::{grid-item-card}
+:class-header: bg-light
 
-
-**Bottom to Top** <span style="float: right">![flag alt >](../../Docs/Svg_icons/rock-svgrepo-com.svg) -> ![flag alt >](../../Docs/Svg_icons/planet-earth-svgrepo-com.svg)</span> 
+**Vincent Deguin** <span style="float: right">![flag alt >](../../Docs/Svg_icons/rock-svgrepo-com.svg) -> ![flag alt >](../../Docs/Svg_icons/planet-earth-svgrepo-com.svg)</span> 
 
 ^^^
+
+<p class="emphase"><strong> Bottom to Top </strong></p>
+
+**Thesis**: *Experimenting with the Earliest Stages of Planet Formation*
+
+***
+
+<br>
+
+<p class="emphase"> Interstellar Dust</p>
+
+<br>
+<br>
+<br>
+
+```{image} ../../_static/Images/Interstellar_dust.png
+
+```
+
+<br>
+<br>
+<br>
+
+
+
+- **Background**: Astronomy
+
++++
+
+[Learn more](https://deugz.github.io/nb-teaching/_build/html/Practicle/WebDev/Javascript/Javascript.html) <span style="float: right">![flag alt >](../../_static/Logo/logo_SFTP.png) </span> 
+
 
 ::::
 
 ::::{grid-item-card}
+:class-header: bg-light
 
-**Top to  bottom** <span style="float: right"> ![flag alt >](../../Docs/Svg_icons/planet-earth-svgrepo-com.svg) -> ![flag alt >](../../Docs/Svg_icons/rock-svgrepo-com.svg)  </span> 
+**Ross Findlay** <span style="float: right"> ![flag alt >](../../Docs/Svg_icons/planet-earth-svgrepo-com.svg) -> ![flag alt >](../../Docs/Svg_icons/rock-svgrepo-com.svg)  </span> 
 
 ^^^
 
-::::
+<p class="emphase"><strong> Top to  bottom </strong></p>
 
+**Thesis**: *Deciphering the Complex Alteration in Primitive Asteroids*
+
+***
+
+<br>
+
+<p class="emphase"> Meteroites</p>
+
+
+```{image} ../../_static/Images/Ross_meteroite_image.jpg
+:width: 80%
+:align: center
+
+```
+
+<br>
+
+
+- **Background**: Geology
+
++++
+
+[Learn more](https://deugz.github.io/nb-teaching/_build/html/Practicle/WebDev/Javascript/Javascript.html) <span style="float: right">![flag alt >](../../_static/Logo/logo_SFTP.png) </span> 
+
+
+::::
 
 :::::
 
 ::::::
 
+<br>
+
+***
+
+<br>
+
+:::::{div} full-width
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 4
+
+<br>
+
+```{image} ../../_static/SVG_files/loving-charity-svgrepo-com.svg
+:width: 50%
+:align: center
+
+```
+
+:::
+
+:::{grid-item}
+:columns: 8
+
+<br>
 
 <p class="emphase2"> <strong>Collaborative Space</strong></p>
 
-<p class="emphase"> <strong>Still to explore</strong></p>
+<p class="emphase"> To <strong><span class="hovertext" data-hover="Wiki ?">Explore</span></strong></p>
 
+:::
+
+::::
+
+:::::
+
+
+:::{margin}
+
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://assets9.lottiefiles.com/packages/lf20_moe1l8ie.json"  background="transparent"  speed="1"  style="width: 100%; height: auto;"  loop autoplay></lottie-player>
+
+
+:::
+
+<br>
+
+
+
+(content:references:Title3)=  
+##  Management
+
+<p class="emphase2"> <strong>Tools I need</strong></p>
+
+<p class="emphase"> vs the tools I am told to use</p>
+
+- Can develop and implement the tools that I need
+
+<p class="emphase2"> <strong>Keep track</strong></p>
+
+- Plan
+- Progress
+- Meetings
+- ...
+
+Keep track of my progress and focus on the right tasks. Organisation tool containing notes, agenda, tasks ... 
+
+
+
+By oposition to the tools I am supposed to use.
+
+Usually University provide an unique Project management method *designed for all*, and hence usefull to no one.
+
+ 
+### Keep track of my progress
+
+- Daily notes
 
 
 
@@ -984,48 +1070,6 @@ From different disciplines
 
 
 
-:::{margin}
-
-<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-<lottie-player src="https://assets9.lottiefiles.com/packages/lf20_moe1l8ie.json"  background="transparent"  speed="1"  style="width: 100%; height: auto;"  loop autoplay></lottie-player>
-
-
-:::
-
-<br>
-
-
-
-(content:references:Title3)=  
-##  Management
-
-<p class="emphase2"> <strong>Tools I need</strong></p>
-
-<p class="emphase"> vs the tools I am told to use</p>
-
-- Can develop and implement the tools that I need
-
-<p class="emphase2"> <strong>Keep track</strong></p>
-
-- Plan
-- Progress
-- Meetings
-- ...
-
-Keep track of my progress and focus on the right tasks. Organisation tool containing notes, agenda, tasks ... 
-
-
-
-By oposition to the tools I am supposed to use.
-
-Usually University provide an unique Project management method *designed for all*, and hence usefull to no one.
-
- 
-### Keep track of my progress
-
-- Daily notes
-
-
 
 
 
@@ -1045,6 +1089,12 @@ Connect Researcher with the general public. Collaboration beyond academia (`utte
 
 
 
+
+<div class="video-div">
+<iframe  id="stickyAnchor" class="v-page-anchor float-left" src="https://www.youtube.com/embed/ZC488_LS42o?enablejsapi=1" frameborder="0" fullscreen width="0" height="0" style="margin:auto;"></iframe>
+</div>
+<script src="https://www.youtube.com/iframe_api"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script><script  src="../../_static/assets/script/scriptvideo.js"></script>
 
 
 

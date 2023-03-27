@@ -14,6 +14,64 @@ s0.parentNode.insertBefore(s1,s0);
 
 # Science 2.![flag alt >>](Docs/Images/Anarchy.png)
 
+<div class="video-div">
+<iframe  id="stickyAnchor" class="v-page-anchor float-left" src="https://www.youtube.com/embed/ZC488_LS42o?enablejsapi=1" frameborder="0" fullscreen width="0" height="0" style="margin:auto;"></iframe>
+</div>
+<script src="https://www.youtube.com/iframe_api"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script><script  src="_static/assets/script/scriptvideo.js"></script>
+
+***
+
+:::::{div} full-width
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 9
+
+<p class="emphase2"><span class="hovertext" data-hover="Video"><strong>Welcome</strong></span> &nbsp; 👋 </p>
+
+<p class="emphase"> <span class="hovertext" data-hover="JupyterBooks site used to take scientific notes"><strong>Accademic websites</strong></span> <strong> Portefolio </strong><br><br> covering</p>
+
+
+:::
+
+:::{grid-item}
+:columns: 3
+
+<div class="stage" style="width: 100%; height:auto">
+    <div class="cubespinner">
+        <div class="face1">Be</div>
+        <div class="face2">Curious</div>
+        <div class="face3">Be</div>
+        <div class="face4">Creative</div>
+        <div class="face5">Be</div>
+        <div class="face6">Confident</div>
+    </div>
+</div>
+
+
+:::
+
+
+:::::
+
+
+::::{div} full-width
+
+<br>
+    
+<div id="note">
+
+<p class="emphase2"><strong>Interstellar Dust Grains, Ices &  Planet Formation</strong></p>
+    
+</div>
+
+<br>
+
+::::
+
+    
 ::::{margin} 
 
 
@@ -44,69 +102,173 @@ s0.parentNode.insertBefore(s1,s0);
 
 ![flag alt >](Docs/Svg_icons/youtube-svgrepo-com.svg) [Youtube](https://codepen.io/deugz/)
     
+- Facebook
+    
+- Twitter
+    
+- Linkedin
+    
 </div>
 
 ::::
 
+
 ***
 
 <br>
 
-<p class="emphase">A self-own, independant, interactive and lifelong <strong>online scientific publication and public engagement plateform</strong>, aimed at promoting collaboration between multi-disciplinary scientistist, by providing the space and the tools to create and sustain a constructive dialogue shared openly with the public, around a broad scientific topic:</p>
+<p class="emphase2"><strong>Project Goals</strong> </p>
 
 
+<p class="emphase"><strong>Online scientific publication and public engagement plateform</strong>, <br><span class="hovertext" data-hover="My own scientific journal"><img src="_static\Svg_icons\newspaper-svgrepo-com.svg" style="width: 40px; pading: 80px; margin-bottom: 30px; margin-top: 20px;"></span><br>
+Self-own, creative, independant, interactive and lifelong, <br><span class="hovertext" data-hover="I am in control"><img src="_static\Svg_icons\keys-svgrepo-com.svg" style="width: 40px; pading: 80px; margin-bottom: 30px; margin-top: 20px;"></span><br>
+Aimed at promoting collaboration between multi-disciplinary scientistist, <br><span class="hovertext" data-hover="And by-passing the classical publication system 🤫"><img src="_static\Svg_icons\handshake-deal-svgrepo-com.svg" style="width: 40px; pading: 80px; margin-bottom: 30px; margin-top: 20px;"></span><br> 
+By providing the space and the tools To create and sustain an open and constructive dialogue<br><span class="hovertext" data-hover="Around trustworthy and peer reviewed pieces of research"><img src="_static\Svg_icons\bubble-svgrepo-com.svg" style="width: 40px; pading: 80px; margin-bottom: 30px; margin-top: 20px;"></span><br>
 
-::::{grid} 2
+:::::{div} full-width
+    
 
-:::{grid-item}
-:columns: 4
+<br>    
 
+<p class="emphase2"><strong>5 websites</strong></p>
 
+<br>   
 
-<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-<lottie-player src="https://assets2.lottiefiles.com/private_files/lf30_OadeVs.json"  background="transparent"  speed="1"  style="width:100%; height:100%;" hover></lottie-player>
-
-:::
-
-:::{grid-item}
-:columns: 8
-
-
-<br>
-
-<p class="emphase2"><strong>Ices in Space</strong></p>
+::::{grid} 7
+:class-container: text-center
+:gutter: 3
 
 
+:::{grid-item-card}
+:class-header: bg-light
+:link: "https://deugz.github.io/nb-master/_build/html/"
+:columns: 2
+**Master**
+^^^
 
-```{epigraph}
+```{image} ../../Docs/Logo/logo_SFTP.png
 
-And their role in <strong>Planet Formation</strong>. <br> Explore, have fun, and contribute.
-
-
--- **Vince**, editor / publisher
 ```
+
++++
+
+![flag alt >](../../_static/Svg_icons/web-svgrepo-com.svg)
+
+
 :::
+
+:::{grid-item-card}
+:class-header: bg-light
+:link: "https://deugz.github.io/nb-phd/_build/html/"
+:columns: 2
+**Notes A**
+^^^
+
+```{image} ../../Docs/Logo/OU/SHIELD/SVG/OU_SHIELD_LOGO_BLUE_125mm.svg
+:width: 80%
+:align: center
+
+```
+
++++
+
+![flag alt >](../../_static/Svg_icons/web-svgrepo-com.svg)
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+:link: "https://deugz.github.io/nb-museum/_build/html/"
+:columns: 2
+**Notes B**
+^^^
+
+```{image} ../../Docs/Logo/OU/SHIELD/SVG/OU_SHIELD_LOGO_BLUE_125mm.svg
+:width: 80%
+:align: center
+```
+
++++
+
+![flag alt >](../../_static/Svg_icons/web-svgrepo-com.svg)
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+:link: "https://deugz.github.io/nb-thesis/_build/html/"
+:columns: 2
+**Thesis**
+^^^
+
+```{image} ../../Docs/Logo/OU/SHIELD/SVG/OU_SHIELD_LOGO_BLUE_125mm.svg
+:width: 80%
+:align: center
+```
+
++++
+
+![flag alt >](../../_static/Svg_icons/pdf-svgrepo-com.svg)
+
+:::
+
+
+
+:::{grid-item-card}
+:class-header: bg-light
+:link: "https://deugz.github.io/nb-teaching/_build/html/"
+:columns: 2
+**School 2.A**
+^^^
+
+```{image} ../../Docs/Logo/logo_SFTP.png
+
+```
+
++++
+
+![flag alt >](../../_static/Svg_icons/web-svgrepo-com.svg)
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+:link: "https://deugz.github.io/nb-odapa/_build/html/"
+:columns: 2
+**ODAPA**
+^^^
+
+```{image} ../../_static/Logo/ODAPA/master-logo-open-dialogues-open.svg
+
+```
+
++++
+
+![flag alt >](../../_static/Svg_icons/web-svgrepo-com.svg)
+
+
+:::
+
 ::::
 
 <br>
+<br>
 
-
-***
-
-**This website**:
-
-:::{div} full-width
-
-![flag alt >>](Docs/SVG_files/human-head-silhouette-with-cogwheels-svgrepo-com.svg) - <span class="hovertext" data-hover="Experimenting with the earliest stages of planet formation">Experiment</span> &nbsp;&nbsp;&nbsp;&nbsp; ![flag alt >>](Docs/Svg_icons/Under_construction.svg) - <span class="hovertext" data-hover="Experimenting with the earliest stages of planet formation">Work in progress</span> &nbsp;&nbsp;&nbsp;&nbsp; ![flag alt >>](Docs/Svg_icons/location-on-road-svgrepo-com.svg) - <span class="hovertext" data-hover="Experimenting with the earliest stages of planet formation">a Journey</span> &nbsp;&nbsp;&nbsp;&nbsp; ![flag alt >>](Docs/Svg_icons/handshake-deal-svgrepo-com.svg) - <span class="hovertext" data-hover="Experimenting with the earliest stages of planet formation">Participative</span> &nbsp;&nbsp;&nbsp;&nbsp; ![flag alt >>](Docs/Svg_icons/book-svgrepo-com.svg) - <span class="hovertext" data-hover="Experimenting with the earliest stages of planet formation">Online Free Book</span>
-
-:::
-
-
-
-***
+<p class="emphase"><strong>Current State</strong> </p>
 
 <br>
 
+
+***  
+    
+![flag alt >>](Docs/SVG_files/human-head-silhouette-with-cogwheels-svgrepo-com.svg) - <span class="hovertext" data-hover="I am trying to experiment with how research can be made interactive and entertaining for the general public (within which I count all researchers) ">Experiment</span> &nbsp;&nbsp;&nbsp;&nbsp; ![flag alt >>](Docs/Svg_icons/Under_construction.svg) - <span class="hovertext" data-hover="I intend to use this plateform over the whole length of my scientific career so bear with me">Work in progress</span> &nbsp;&nbsp;&nbsp;&nbsp; ![flag alt >>](Docs/Svg_icons/location-on-road-svgrepo-com.svg) - <span class="hovertext" data-hover="Lifelong">a Journey</span> &nbsp;&nbsp;&nbsp;&nbsp; ![flag alt >>](Docs/Svg_icons/handshake-deal-svgrepo-com.svg) - <span class="hovertext" data-hover="I would love to get contributions from as many researchers (and not only). Could be a freelance scientific journalist">Participative</span> &nbsp;&nbsp;&nbsp;&nbsp; ![flag alt >>](Docs/Svg_icons/book-svgrepo-com.svg) - <span class="hovertext" data-hover="This content is to be read like a book (not necessarily pages by pages in order)">Online Free Book</span>
+
+
+    
+:::::
+
+
+***
 
 <div class="video-div">
 <iframe  id="stickyAnchor" class="v-page-anchor float-left" src="https://www.youtube.com/embed/ZC488_LS42o?enablejsapi=1" frameborder="0" fullscreen width="0" height="0" style="margin:auto;"></iframe>
@@ -116,12 +278,9 @@ And their role in <strong>Planet Formation</strong>. <br> Explore, have fun, and
 
 :::::{div} full-width
 
-
-<p class="emphase2"><span class="hovertext" data-hover="Video"><strong>Welcome</strong></span> &nbsp; 👋 </p>
-
 <br>
 
-<p class="emphase">On my <strong>Accademic Portefolio website</strong>, an umbrella ☂ under which I share all my scientific work.</p>
+<p class="emphase2"><strong>Master</strong> </p>
 
 <br>
 
@@ -135,7 +294,10 @@ And their role in <strong>Planet Formation</strong>. <br> Explore, have fun, and
 <span style="float: right">![flag alt >](Docs/Svg_icons/book-svgrepo-com.svg)</span>  **Profile** 
 ^^^
 
-postcard pic
+- Scientific Interests
+
+- CV
+
 
 :::
 
@@ -145,7 +307,7 @@ postcard pic
 <span style="float: right">![flag alt >](Docs/Svg_icons/book-svgrepo-com.svg)</span>  **Project** 
 ^^^
 
-What I am trying to achieve, why and how.
+*Science for the people*, project description
 
 :::
 
@@ -155,7 +317,7 @@ What I am trying to achieve, why and how.
 <span style="float: right">![flag alt >](Docs/Svg_icons/solar-system-orbit-svgrepo-com.svg)</span>  **Research** 
 ^^^
 
-My research outputs, classified by projects, written in a creative and open access format. 
+My research outputs, classified by projects. 
 
 :::
 :::{grid-item-card}
@@ -164,7 +326,7 @@ My research outputs, classified by projects, written in a creative and open acce
 <span style="float: right">&#128640;</span> **Teaching** 
 ^^^
 
-Teaching material based on what I learned during my scientific journey and collaborative space.
+Teaching material and collaborative space.
 
 :::
 
@@ -181,146 +343,6 @@ Because why not ?
 :::::
 
 <br>
-
-
-<h3><strong>&#187;  <u>Audiences ?</u></strong></h3>
-
-:::::{div} full-width
-
-<p class="emphase2"><strong> Everyone</strong></p>
-
-<p class="emphase">Curious and interested in <strong>Science</strong> 🌍 </p>
-
-<br>
-
-
-::::{grid} 6
-
-:::{grid-item-card}
-:class-header: bg-light
-<span class="hovertext" data-hover="Looking to check, correct peer-review my work">Supervisors</span> 
-^^^
-```{image} Docs/Svg_icons/Fish/turtle-svgrepo-com.svg
-```
-
-:::
-
-:::{grid-item-card}
-:class-header: bg-light
-<span class="hovertext" data-hover="From all fields">Researchers</span>
-^^^
-```{image} Docs/Svg_icons/Fish/shark-svgrepo-com.svg
-```
-:::
-
-:::{grid-item-card}
-:class-header: bg-light
-<span class="hovertext" data-hover="That will follow-up on the work I have done">Students</span>
-^^^
-
-```{image} Docs/Svg_icons/Fish/fish-student-svgrepo-com.svg
-```
-
-:::
-
-:::{grid-item-card}
-:class-header: bg-light
-<span class="hovertext" data-hover="Looking for great teaching recourses">Teachers</span>
-
-^^^
-
-```{image} Docs/Svg_icons/Fish/fish-light-svgrepo-com.svg
-```
-
-:::
-
-:::{grid-item-card}
-:class-header: bg-light
-<span class="hovertext" data-hover="Le voici ce site-web ^^">Friends</span>
-^^^
-```{image} Docs/Svg_icons/Fish/fish-nemo-svgrepo-com.svg
-```
-
-:::
-
-:::{grid-item-card}
-:class-header: bg-light
-<span class="hovertext" data-hover="Looking to discover something new">Anyone</span>
-^^^
-```{image} Docs/Svg_icons/Fish/fish-svgrepo-com.svg
-```
-
-
-:::
-
-::::
-:::::
-
-<br>
-
-<h3><strong>&#187;  <u>Map</u></strong></h3>
-
-:::{div} full-width
-
-```{image} Docs/Images/Web_site_map.png
-:name: map
-:width: 2000px 
-```
-:::
-
-<br>
-<br>
-
-
-:::::{dropdown} <span style="float: right">![flag alt >](Docs/Svg_icons/location-pin-svgrepo-com.svg)</span> Find your way
-
-![flag alt >](Docs/Svg_icons/stop-svgrepo-com.svg) **Everybody** - To check: <span class="hovertext" data-hover="To know what will be discussed in those web-sites"> [Scientific Interests](https://deugz.github.io/nb-master/_build/html/Profile/Interests.html) </span> - <span class="hovertext" data-hover="Why and how I intend to discuss those topics"> [Manifesto](https://deugz.github.io/nb-master/_build/html/Projects/Manifesto.html) </span> 
-
-*Explore, don't be affraid to loose yourself in this ocean of knowledge, and most importantly, have fun :)*
-
-::::{tab-set}
-
-:::{tab-item} Supervisors
-
-- PhD 
-    - [Thesis .A](https://deugz.github.io/nb-phd/_build/html/intro.html)
-    - [Thesis .B](https://deugz.github.io/nb-museum/_build/html/intro.html)
-:::
-
-:::{tab-item} Researchers
-
-- Go check the [Research](https://deugz.github.io/nb-PhD/_build/html/intro.html) page.
-
-:::
-
-:::{tab-item} Students
-
-Explore the different sections
-
-:::
-
-:::{tab-item} Teachers
-
-Check teaching and find the ressource you need
-
-:::
-
-
-:::{tab-item} Friends
-
-Bon ...
-
-:::
-
-:::{tab-item} Anyone
-
-Just explore
-
-:::
-
-::::
-:::::
-
 
 
 
@@ -341,41 +363,54 @@ Just explore
 
 ::::{grid} 4
 :::{grid-item-card}
-:class-header: bg-light
-:link: Projects/Manifesto.html
-<span style="float: right">![flag alt >](Docs/Svg_icons/fist-svgrepo-com.svg)</span> **Manifesto**  
+:class-header: bg-light 
+<span style="float: right">![flag alt >](_static/Svg_icons/fist-svgrepo-com.svg)</span> **Manifesto**  
 ^^^
 
-Why am I doing this and what are the values I defend.
+<span class="hovertext" data-hover="What are the issues I am trying to solve and what are the values I defend">Why !</span>
+
++++
+
+[Learn more](Projects/Manifesto)
 
 :::
 :::{grid-item-card}
 :class-header: bg-light
-:link: Projects/Science_ft_People.html
-<span style="float: right">![flag alt >](Docs/Svg_icons/location-on-road-svgrepo-com.svg)</span>
+<span style="float: right">![flag alt >](_static/Svg_icons/location-on-road-svgrepo-com.svg)</span>
 **Roadmap**
 ^^^
 
-What I am aiming to achieve with this project, and at what stage we are at.
+<span class="hovertext" data-hover="What I am aiming to achieve with this project, and at what stage we are at.">How !</span>
+
++++
+
+[Learn more](Projects/Science_ft_People)
 
 :::
 :::{grid-item-card}
 :class-header: bg-light
-:link: BProjects/Contribute.html
-<span style="float: right">![flag alt >](Docs/Svg_icons/handshake-deal-svgrepo-com.svg)</span> **Contribute**
+<span style="float: right">![flag alt >](_static/Svg_icons/handshake-deal-svgrepo-com.svg)</span> **Contribute**
 ^^^
 
-Come and help
+<span class="hovertext" data-hover="Everybody really so come and help">w/ Who ?</span>
+
++++
+
+[Learn more](Projects/Contribute)
+
 
 :::
 
 :::{grid-item-card}
 :class-header: bg-light
-:link: Version/Version_Main.html
-<span style="float: right">![flag alt >](Docs/Svg_icons/version-svgrepo-com.svg)</span> **Versions** 
+<span style="float: right">![flag alt >](_static/Svg_icons/version-svgrepo-com.svg)</span> **Versions** 
 ^^^
 
-Writen as blog post
+Later
+
++++
+
+[Learn more](Projects/Version_Main)
 
 :::
 ::::
@@ -399,7 +434,7 @@ Writen as blog post
 ```{admonition} Jupyter Book
 :class: tip
 
-This web-site have been built from a collection of *markdown* files, transformed in *html* using:
+This web-site have been built from a collection of `markdown` files, transformed in `html` using:
 
 <p class="emphase"><a href="https://jupyterbook.org/en/stable/intro.html" target="_blank">Jupyter Book</a></p>
 
@@ -411,6 +446,7 @@ This web-site have been built from a collection of *markdown* files, transformed
 - Free
 - Easy to use
 
+<br>
 
 ```
 
@@ -449,7 +485,7 @@ How I use this book <span style="float: right">🙃</span>
 
 +++
 
-[Learn more](Appendix/How_do/How_do_I)
+[Learn more](Appendix/How_do/How_can_you)
 
 :::
 ::::
@@ -608,11 +644,11 @@ Sprinkle a lot of this {cite}`Hague2020` on top of that {cite}`Souza2017` and yo
 :::::{div} full-width
 
 
-<p class="emphase2"><strong>Your Tools</strong> </p>
+<p class="emphase2"><strong>Collaborative</strong> </p>
 
 <br>
 
-<p class="emphase"> To <strong> directly interact </strong> with the content of the page !</p>
+<p class="emphase"> Tools to interact with the page</p>
 
 <br>
 
@@ -621,16 +657,6 @@ Sprinkle a lot of this {cite}`Hague2020` on top of that {cite}`Souza2017` and yo
 :class-container: text-center
 :gutter: 3
 
-:::{grid-item-card}
-:class-header: bg-light
-
-**Peer Review**
-
-^^^
-Annotate every word in this web-site.
-+++
-![flag alt >](Docs/Svg_icons/Hypothesis.svg) Hypothesis
-:::
 
 
 :::{grid-item-card}
@@ -647,12 +673,13 @@ Interact and play with the code
 
 :::{grid-item-card}
 :class-header: bg-light
-**Comment**
-^^^
-`Utterances` (needs login - Github account) is a space at the bottom of each page for more relax comments.
 
+**Annotate**
+
+^^^
+Annotate every word in this web-site.
 +++
-![flag alt >](Docs/Svg_icons/crystal-ball-svgrepo-com.svg) Utterance
+![flag alt >](Docs/Svg_icons/Hypothesis.svg) Hypothesis
 :::
 
 :::{grid-item-card}
@@ -669,6 +696,19 @@ Code and data repositories.
 ![flag alt >](Docs/Svg_icons/github-svgrepo-com.svg) Github / Figshare
 :::
 
+
+:::{grid-item-card}
+:class-header: bg-light
+**Comment**
+^^^
+`Utterances` (needs login - Github account) is a space at the bottom of each page for more relax comments.
+
++++
+![flag alt >](Docs/Svg_icons/crystal-ball-svgrepo-com.svg) Utterance
+:::
+
+
+
 :::{grid-item-card}
 :class-header: bg-light
 **Chat / Forum**
@@ -682,34 +722,29 @@ Code and data repositories.
 :::::
 
 <br>
-<br>
+
 
 
 :::::{div} full-width
 
-<p class="emphase2"><strong>So you Can</strong> </p>
 
+```{image} _static/Images/splitting-research.png
+:width: 100%
+
+```
+
+<br>
 <br>
 
 ::::{grid} 3
 
 :::{grid-item}
 
-```{admonition} Review ![flag alt >](Docs/Svg_icons/review-svgrepo-com.svg)
+```{admonition} Peer-Review ![flag alt >](Docs/Svg_icons/review-svgrepo-com.svg)
 :class: warning, dropdown
 Every word I am writing is to be reviewed, questionned, challenged ... Help yourself with all the aformentionned tools and if you are not sure about how to use it, check the following page:
 
 - [Help/Tools](Appendix/Help/Tools.html)
-
-```
-
-:::
-
-:::{grid-item}
-
-```{admonition} Learn ![flag alt >](Docs/Svg_icons/brain-svgrepo-com.svg)
-:class: tip, dropdown
-Process the data using my online tools ... 
 
 ```
 
@@ -727,77 +762,67 @@ I would like to welcome as many contributions as possible from a wide variety of
 
 :::
 
+:::{grid-item}
+
+```{admonition} Discuss ![flag alt >](Docs/Svg_icons/brain-svgrepo-com.svg)
+:class: tip, dropdown
+Process the data using my online tools ... 
+
+```
+
+:::
+
+
+
 ::::
 
 <br>
 
+<p class="emphase">All we need to create and sustain an ... </p>
 
 <br>
+
+<p class="emphase2"><strong>Open Dialogue</strong> 😁 </p>
+
 <br>
+
 
 :::::
 
-
+<br>
 
 ## **Teaching**
 
-:::::{div} full-width
+:::::::{div} full-width
 
 <br>
+
+<p class="emphase2"> <strong>Cutting Edge Science </strong></p>
+
+
+<p class="emphase"> From multiple disciplines </p>
+
 <br>
 
-<p class="emphase2"><strong> Cutting Edge Science  </strong></p>
+::::::{grid} 2
 
-
-<br>
-<br>
-
-::::{grid} 2    
-:::{grid-item}
+:::::{grid-item}
 :columns: 8
 
-
-<p class="emphase">My aim is to ...</p>
-
-<p class="emphase"><strong> Free, Creative, Collaborative (&#129310;) ...</strong></p>
-
-
-:::
-
-
-:::{grid-item}
-:columns: 4
-
-<div class="book"></div>
-    
-
-
-:::
-
-::::
-:::::
-
-<br>
-<br>
-
-:::::{div} full-width
-
-<p class="emphase2"><strong> from Various Disciplines </strong></p>
-
-<br>
-<br>
-
-<p class="emphase">That I, and my friends, studied during the course of our careers</p>
-
-
-::::{grid} 1 1 2 3
+::::{grid} 1 1 2 5
 :class-container: text-center
 :gutter: 2
+
+:::{grid-item}
+:columns: 1
+
+
+:::
 
 :::{grid-item-card}
 :class-header: bg-light
 :link: https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/Astronomy_Main.html
-:columns: 2
+:columns: 3
 **Astronomy**
 ^^^
 
@@ -810,7 +835,7 @@ I would like to welcome as many contributions as possible from a wide variety of
 :::{grid-item-card}
 :class-header: bg-light
 :link: https://deugz.github.io/nb-teaching/_build/html/Bitesize/Physics/Physics_Main.html
-:columns: 2
+:columns: 3
 **Physics**
 ^^^
 
@@ -823,7 +848,7 @@ I would like to welcome as many contributions as possible from a wide variety of
 :::{grid-item-card}
 :class-header: bg-light
 :link: https://deugz.github.io/nb-teaching/_build/html/Bitesize/Chemistry/Chemistry_Main.html
-:columns: 2
+:columns: 3
 **Chemistry**
 ^^^
 
@@ -833,10 +858,22 @@ I would like to welcome as many contributions as possible from a wide variety of
 
 :::
 
+:::{grid-item}
+:columns: 2
+
+
+:::
+
+:::{grid-item}
+:columns: 1
+
+
+:::
+
 :::{grid-item-card}
 :class-header: bg-light
 :link: https://deugz.github.io/nb-teaching/_build/html/Practicle/WebDev/WebDev_Main.html
-:columns: 2
+:columns: 3
 **Web Dev**
 ^^^
 
@@ -849,7 +886,7 @@ I would like to welcome as many contributions as possible from a wide variety of
 :::{grid-item-card}
 :class-header: bg-light
 :link: https://deugz.github.io/nb-teaching/_build/html/Practicle/Python/Python_Main.html
-:columns: 2
+:columns: 3
 **Python**
 ^^^
 
@@ -861,7 +898,7 @@ I would like to welcome as many contributions as possible from a wide variety of
 
 :::{grid-item-card}
 :class-header: bg-light
-:columns: 2
+:columns: 3
 **More ...**
 ^^^
 
@@ -872,22 +909,39 @@ I would like to welcome as many contributions as possible from a wide variety of
 
 :::
 
+:::{grid-item}
+:columns: 2
+
+
+:::
+
 ::::
 
+:::::
 
-<br>
-<br>
+:::::{grid-item}
+:columns: 4
 
-<p class="emphase">Just pick based on your <strong>interests </strong></p>
+<div class="book"></div>
 
 :::::
+    
+::::::
+
+:::::::
 
 
 
 
 :::::::{div} full-width
 
-<p class="emphase2"><strong> Organised by Topics </strong></p>
+<br>
+
+<p class="emphase2"><strong> Fun and Creative</strong></p>
+
+<p class="emphase">Organised by <span class="hovertext" data-hover="And not within a rigid curriculum">Topics</span> </p>
+
+<br>
 
 ::::::{grid} 2
 
@@ -1067,6 +1121,10 @@ I would like to welcome as many contributions as possible from a wide variety of
 <br>
 
 <p class="emphase2"><strong>  3 Formats  </strong></p>
+
+<p class="emphase"><strong> <span class="hovertext" data-hover="Fuck off with your deadlines !! 🤭">Lifelong</span></strong> implementation  </p>
+
+<br>
 
 ::::{grid} 3
 
@@ -1264,7 +1322,6 @@ or
 :::::
 ::::::
 :::::::
-
 
 
 ***
