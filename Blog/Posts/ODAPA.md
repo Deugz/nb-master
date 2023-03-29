@@ -2,6 +2,200 @@
 
 <p class="emphase">... Across Physics and Astronomy</p>
 
+## Session 2 - March 2023
+
+## Panel discussion - Using Data to answer scientific question
+
+**Speakers**
+- Dr Charanjit Kaur
+- Dr Pierre Ghesquierre
+- Cat
+- Astra
+- Andrew Cassidy
+
+<br>
+**Chair**: Amber
+
+Variability of data processing between disciplines
+
+Hard, we don't speak the same language
+
+Data from different sources, how to compare
+
+### Amber - Building a molecular Nitrogen clock
+
+```{note}
+
+```
+
+Searches for dark matter
+
+*Are fundamental constants constant?*
+
+Standard model says yes but standard model
+
+- QSNET consortium
+    - µ (proton - electron mass ratio) vs alpha
+
+#### Quantum clock
+
+- clock:
+    - oscilator 
+    - reference 
+    - counter
+
+same with quantum - laser interacting with molecule oscillating from state 1 to state 2
+
+
+
+### Natasha - Sussex 
+
+```{note}
+Very cool explanation of what BEC is and nice results
+```
+
+
+Bose Einstein condensates - **quantum phase**
+- condensed matter and quantum information
+
+#### Bose einstein condensates
+
+rubidium
+
+- Low T: de Briglie wavelength
+- T = Tcrit: Bose Einstein condensation
+
+
+
+
+#### Qauntum phase
+
+
+
+
+#### Radio frquency dressing
+
+- Matter wave interference
+
+Is it coherent splitting
+
+
+### Timothy Leese Scalable Quantum computing
+
+```{note}
+Cool introduction to quantume sensing, Great diagram
+```
+
+Qubits -> Quantume sensors (ex quantum clocks)
+
+Qubit lose information through decay & dephasing
+
+How can we reduce the information that we loose
+
+- Great diagram
+
+
+
+
+### Siobhan Patrick Quantum computing
+
+```{note}
+Very comprehensive, nice work
+```
+
+cold neutral atoms manipulated by light
+
+- qubits
+
+How can you trap atoms ?
+- Optical
+
+#### Quantume gates
+
+- NOT (1 qbit)
+- CNOT (2 qbit)
+
+Rydberg atom
+
+Laser cooling: Magneto optical trap (MOT)
+
+3 pairs of beams 
+
+- Dipole traps: trap small groups or indiv atoms
+
+#### Measuring Temperature
+
+Gas expansion
+
+
+### Discussion Panel: Open Dialogue in Physics
+
+:::{margin}
+
+**Speakers**
+- Dr Annika Lohstroh
+- Dr Charanjit Kaur
+- Dr Pamela Campbell
+- Dr Laura Blackburn
+
+<br>
+**Chair**: Astra Sword
+
+:::
+
+#### How did the dialogue kept open during covid 
+
+
+### Opening Keynote: Catxere Casacio
+
+:::{margin}
+
+- nature.com/nature_education
+
+
+- BioRender.com
+    - Implement in biology teaching main page (tool section)
+
+:::
+
+```{note}
+On December 10, 2008 Osamu Shimomura, Martin Chalfie and Roger Tsien were awarded the Nobel Prize in Chemistry for "the discovery and development of the green fluorescent protein, GFP
+```
+
+**Life on the edge** (John templeton foundation) - Surrey university
+
+- 5 groups - Cat is: Experimental quantum biology in the lab
+
+**Coherence**: ripple - interference (classical but quantum correspondance)
+
+**Decoherence**: : big waves,
+
+Edge means understanding the processes at the interface of quantum and classic (between femto and pico second processes)
+
+
+- **Sample:** Green fluorescent protein - 3 aminoacides (chromophore)
+    - Absorption 10-15 s
+    - Emission 10-9 s
+
+What happen in between ?
+
+
+
+Dimers protein, energy interaction, coherency
+
+Attach cysteine allow attachement of protein to DNA
+
+- Absorption/Emission same -> Attachment to DNA doesn't modify physical properties of GFP
+
+**Anisotropy** (What does it mean in that context)
+
+**Transient Absorption spectroscopy**
+
+
+
+
+## Session 1 - September 2022
+
 
 What a delightfull parentheses that was on this early September 2022 in Southampton at the student conference *Open Dialogues across Physics and Astronomy*. Wonderfully chaired by Astra Sword who invited students and accademics from phyics, astronomy and related fields, to welcome interdisciplinary talk and open dialogues around underlooked issue in Physics and Accademia. This conference was a perfect example of kindness ... 
 

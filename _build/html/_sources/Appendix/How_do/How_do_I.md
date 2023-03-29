@@ -434,12 +434,15 @@ Sharing is caring
 :::
 
 ::::
+
+
+<br>
+<br>
+
+<p class="emphase"> good and consistent <strong>archiving</strong> method</p>
+
 :::::
 
-<br>
-<br>
-
-<p class="emphase"> *good and consistent* **archiving** method</p>
 
 <br>
 <br>
@@ -999,28 +1002,18 @@ Just explore
 
 <p class="emphase"> vs the tools I am told to use</p>
 
-- Can develop and implement the tools that I need
 
-<p class="emphase2"> <strong>Keep track</strong></p>
+<p class="emphase2"> <strong>Keep track of progress</strong></p>
 
-- Plan
-- Progress
-- Meetings
-- ...
+```{note}
+- Insert Gant Chart
 
-Keep track of my progress and focus on the right tasks. Organisation tool containing notes, agenda, tasks ... 
+- Insert notes
+    - Daily notes
+    - Monthly meetings
+    - ...
 
-
-
-By oposition to the tools I am supposed to use.
-
-Usually University provide an unique Project management method *designed for all*, and hence usefull to no one.
-
- 
-### Keep track of my progress
-
-- Daily notes
-
+```
 
 
 :::{margin}
@@ -1035,13 +1028,60 @@ Usually University provide an unique Project management method *designed for all
 (content:references:Title5)=  
 ## Publications
 
-<p class="emphase2"> <strong>Example</strong></p>
+<br>
 
-<p class="emphase"> How do planets forms ?</p>
 
-### Scientific Gallery
+:::{div} full-width
 
-Share this notebook with my familly, friends and everyone else.
+<p class="emphase2"> <strong>Scientific Publication System</strong></p>
+
+:::
+
+<br>
+
+
+:::::{div} full-width
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 9 
+
+```{image} ../../Docs/Images/Cave_allegory.png
+:width: 800px
+:align: center
+```
+
+:::
+
+
+:::{grid-item-card} 
+:link: ../../Blog/Posts/Scientific_Publication.html
+:class-header: bg-light
+:columns: 3
+**Blog Post**
+^^^
+*Scientific Publication, how it works, what is good and wrong about it.*
+
+
++++
+- 20 min read
+
+:::
+
+
+
+::::
+
+:::::
+
+
+
+<br>
+
+<p class="emphase2"> <strong>Changing the publication Culture</strong></p>
+
+<p class="emphase"> Why ?</p>
 
 ```{note}
 
@@ -1050,26 +1090,64 @@ Broader reach -> Bigger impact
 ```
 
 
+
+
 (content:references:Title9)=   
 ## Engagement
 
+:::::{div} full-width
+
 <p class="emphase2"> <strong>Multiple Actors</strong></p>
 
-<p class="emphase2"> Scientist, Artists, Policy makers, the public</p>
+<p class="emphase"> Scientist, Artists, Policy makers, the public</p>
+
+::::{grid} 4
 
 
-
-### Public 
-
+:::{grid-item}
+:columns: 3
 
 ### Scientist
 
 From different disciplines
 
+:::
+
+:::{grid-item}
+:columns: 3
+
+### Artists
+
+- Marta: Comics
+
+:::
+
+:::{grid-item}
+:columns: 3
+
+### Policy makers
+
+
+
+:::
+
+:::{grid-item}
+:columns: 3
+
+
+### Public 
+
+
+:::
 
 
 
 
+
+
+::::
+
+:::::
 
 
 
