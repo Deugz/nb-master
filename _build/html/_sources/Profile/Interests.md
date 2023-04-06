@@ -27,7 +27,7 @@ My name is  [Vincent Deguin](https://50.open.ac.uk/photography/vincent), Astroph
  
 <div id="subdiv2">  
     
-```{figure} ../Docs/Images/JWST_cloud1.jpg
+```{figure} ../_static/Images/JWST_cloud1.jpg
 :name: JWST1
 James Web Space Telescope [JWST](https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/JWST/JWST.html)
 ```
@@ -43,15 +43,188 @@ James Web Space Telescope [JWST](https://deugz.github.io/nb-teaching/_build/html
 ***
 
 
-::::{div} full-width
+:::::{div} full-width
+
 
 <p class="emphase2"><strong>My niche </strong></p>
 
-<p class="emphase">I am a laboratory astrophysicists that study <strong>amorphous water ices</strong>. I am particulary interested by the key role that ices plays during the formation of planets </p> 
+<br>
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 6
+
+<br>
+<br>
+<br>
+
+<p class="emphase">I am a laboratory astrophysicists studying the <strong>icy mantle coating interstellar dust grains</strong>. </p> 
+
+
+:::
+
+:::{grid-item}
+:columns: 6
+
+```{image} ../_static/Images/Interstellar_dust.PNG
+
+```
+
+:::
 
 ::::
 
-## Water Ices in Space  
+
+<br>
+<br>
+
+<p class="emphase2"><strong>My Scientific Interests </strong></p>
+
+
+
+:::::
+
+## Interstellar Dust Grains
+
+### <strong>&#187;  <u> Interstellar ?</u></strong>
+
+:::{div} full-width
+
+<p class="emphase">Not the the movie, but actually the medium we find between the stars</p>
+
+<figure id="transition-img">
+<div class="images-JWST">
+<img src="../_static/assets/MC/Gaia_s_sky_in_colour.jpg" alt="" class="two">
+<img src="../_static/assets/MC/MC_Distribution_galaxy.png" alt="" class="one">
+</div>
+<figcaption>Hover the figure to switch between images - <a href="https://www.esa.int/Science_Exploration/Space_Science/Gaia/Gaia_creates_richest_star_map_of_our_Galaxy_and_beyond" target="blank"> Image 1 </a> Gaia image of the Galactic plane  - <a href="https://lweb.cfa.harvard.edu/mmw/Fig2_Dame.pdf" target="blank"> Image 2 </a> Molecular cloud mapping </figcaption>
+</figure>
+
+<p class="emphase">Hopefully you have had the chance to see the galaxie in your lifetime... Now focus on the dark feature</p>
+
+:::
+
+### <strong>&#187;  <u>Dust Grains  </u></strong>
+
+#### <strong>Formation</strong>
+
+:::::{div} full-width
+
+::::{grid} 3
+
+:::{grid-item}
+:columns: 4
+
+#### Solar Winds
+
+
+:::
+
+:::{grid-item}
+:columns: 4
+
+#### Nova
+
+
+:::
+
+:::{grid-item}
+:columns: 4
+
+#### Supernovae
+
+
+:::
+
+
+::::
+
+
+:::::
+
+
+#### <strong>Evolution</strong>
+
+
+:::::{div} full-width
+
+::::{grid} 2
+
+
+:::{grid-item}
+:columns: 6
+
+```{note}
+
+Dust grain evolve throughout the ISM and play an important role ...
+
+```
+
+:::
+
+:::{grid-item}
+:columns: 6
+
+
+```{figure} ../_static/Images/Space_Pics/The-lifecycle-of-gas-dust.png
+.jpg
+:name: Dust cycle in Galaxy
+Source
+```
+
+:::
+
+
+::::
+
+
+:::::
+
+
+
+
+
+#### <strong>Role</strong>
+
+:::::{div} full-width
+::::{grid} 2 
+
+:::{grid-item-card}
+Astrochemistry
+^^^
+
+<br>
+<br>
+
+<video src="../_static/videos/water_form_dust_leiden.mp4" width="100%" height="" controls>
+  Your browser does not support the video tag.
+</video>
+
+
++++
+link note.A
+
+:::
+
+:::{grid-item-card}
+Planet formation
+^^^
+
+
+<video src="../_static/videos/ssc2004-08v2_h264_vga.mov" width="100%" height="" controls>
+  Your browser does not support the video tag.
+</video>
+
+
++++
+link note.B
+
+:::
+::::
+:::::
+
+## Ices in Space  
 
 <p class="emphase">In space, ice is present in many environments</p>
 
@@ -62,7 +235,7 @@ James Web Space Telescope [JWST](https://deugz.github.io/nb-teaching/_build/html
 <br>
 <br>
 
-```{figure} ../Docs/Images/Space_Pics/Porous_chondriteIDP.jpg
+```{figure} ../_static/Images/Space_Pics/Porous_chondriteIDP.jpg
 :name: dust1
 :width: 300px
 Interstellar Dust Grain. [Source](https://commons.wikimedia.org/wiki/File:Porous_chondriteIDP.jpg)
@@ -96,7 +269,7 @@ Interesting subject to study, don't you think ?
 <br>
 <br>  
 
-```{figure} ../Docs/Images/Space_Pics/Dsharp_PPD.PNG
+```{figure} ../_static/Images/Space_Pics/Dsharp_PPD.PNG
 :width: 300px
 Protoplanetary Disk image taken with ALMA (DSHARP project) [Source](https://almascience.eso.org/almadata/lp/DSHARP/)
 ```
@@ -136,7 +309,7 @@ Star formation is a complicated process that is not yet perfectly understood. Th
 <br>
 <br>    
 
-```{figure} ../Docs/Images/Space_Pics/1567215981081-Rosetta_NavCam_comet_67P_20150707_enhanced_625.jpg
+```{figure} ../_static/Images/Space_Pics/1567215981081-Rosetta_NavCam_comet_67P_20150707_enhanced_625.jpg
 :width: 300px
 Comet 67P Churyumov-Gerasimenko [Source](https://sci.esa.int/web/rosetta/-/56159-comet-67p-on-7-july-2015-navcam-enhanced)
 ```
@@ -174,7 +347,7 @@ Enceladus, Jupyter Moon ... Water, life tout ca tout ca ...
 :::{margin}
  
 
-```{image} ../Docs/Images/puzzle_pieces.png
+```{image} ../_static/Images/puzzle_pieces.png
 :width: 300px
 ```
 
@@ -198,7 +371,7 @@ No astronomical questions is solved without the interplay of those three discipl
 
 <div id="subdiv1-3">    
 
-```{figure} ../Docs/Images/Space_Pics/Webb_2_0.png
+```{figure} ../_static/Images/Space_Pics/Webb_2_0.png
 :width: 300px
 JWST
 ```
@@ -244,12 +417,10 @@ This is my confort zone (almost)
 #### Hyperquenched
 
 
-
-
 ### <strong>&#187; <u>Water Ice Models</u></strong>
 
 
-## Astrochemistry
+## Astrochemistry vs Geochemistry
 
 <p class="emphase">Most of the chemistry in space occurs within the ice mantle covering interstellar dust.</p>
 
@@ -348,7 +519,7 @@ Nothing, just leave it like that.
 **Page**
 ^^^
 
-- Status:  ![flag alt >](../Docs/Svg_icons/Under_construction.svg)
+- Status:  ![flag alt >](../_static/Svg_icons/Under_construction.svg)
   
 - Reviewed: <span class="hovertext" data-hover="Insert here who has done what">&#x274C;</span>
        

@@ -12,10 +12,10 @@ s0.parentNode.insertBefore(s1,s0);
 </script>
 <!--End of Tawk.to Script-->
 
-# Science 2.![flag alt >>](Docs/Images/Anarchy.png)
+# Science 2.![flag alt >>](_static/Images/Anarchy.png)
 
 <div class="video-div">
-<iframe  id="stickyAnchor" class="v-page-anchor float-left" src="https://www.youtube.com/embed/ZC488_LS42o?enablejsapi=1" frameborder="0" fullscreen width="0" height="0" style="margin:auto;"></iframe>
+<iframe  id="stickyAnchor" class="v-page-anchor float-left" src="https://www.youtube.com/embed/XKaY_N8puZc?enablejsapi=1" frameborder="0" fullscreen width="0" height="0" style="margin:auto;" allowfullscreen></iframe>
 </div>
 <script src="https://www.youtube.com/iframe_api"></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script><script  src="_static/assets/script/scriptvideo.js"></script>
@@ -84,23 +84,23 @@ s0.parentNode.insertBefore(s1,s0);
 
 ***
     
-![flag alt >](Docs/Svg_icons/flag-for-flag-france-svgrepo-com.svg) French (32 yo)
+![flag alt >](_static/Svg_icons/flag-for-flag-france-svgrepo-com.svg) French (32 yo)
 
-![flag alt >](Docs/Svg_icons/Study_level.svg) PhD student
+![flag alt >](_static/Svg_icons/Study_level.svg) PhD student
 
-![flag alt >](Docs/Svg_icons/university-svgrepo-com.svg) The Open university, UK
+![flag alt >](_static/Svg_icons/university-svgrepo-com.svg) The Open university, UK
 
-![flag alt >](Docs/Svg_icons/mail-svgrepo-com.svg) vincent.deguin@open.ac.uk
+![flag alt >](_static/Svg_icons/mail-svgrepo-com.svg) vincent.deguin@open.ac.uk
 
-![flag alt >](Docs/Svg_icons/researchgate-svgrepo-com.svg) [Vincent Deguin](https://www.researchgate.net/profile/Vincent-Deguin)
+![flag alt >](_static/Svg_icons/researchgate-svgrepo-com.svg) [Vincent Deguin](https://www.researchgate.net/profile/Vincent-Deguin)
 
-![flag alt >](Docs/Svg_icons/orcid-svgrepo-com.svg) [0000-0003-2280-8273](https://orcid.org/0000-0003-2280-8273)
+![flag alt >](_static/Svg_icons/orcid-svgrepo-com.svg) [0000-0003-2280-8273](https://orcid.org/0000-0003-2280-8273)
 
-![flag alt >](Docs/Svg_icons/github-svgrepo-com.svg) [Deugz](https://github.com/Deugz)
+![flag alt >](_static/Svg_icons/github-svgrepo-com.svg) [Deugz](https://github.com/Deugz)
 
-![flag alt >](Docs/Svg_icons/codepen-svgrepo-com.svg) [Deugz](https://codepen.io/deugz/)
+![flag alt >](_static/Svg_icons/codepen-svgrepo-com.svg) [Deugz](https://codepen.io/deugz/)
 
-![flag alt >](Docs/Svg_icons/youtube-svgrepo-com.svg) [Youtube](https://codepen.io/deugz/)
+![flag alt >](_static/Svg_icons/youtube-svgrepo-com.svg) [Science By People](https://www.youtube.com/@Science-By-People)
     
 - Facebook
     
@@ -146,13 +146,13 @@ By providing the space and the tools To create and sustain an open and construct
 **Master**
 ^^^
 
-```{image} ../../Docs/Logo/logo_SFTP.png
+```{image} _static/Logo/logo_SFTP.png
 
 ```
 
 +++
 
-![flag alt >](../../_static/Svg_icons/web-svgrepo-com.svg)
+![flag alt >](_static/Svg_icons/web-svgrepo-com.svg)
 
 
 :::
@@ -164,7 +164,7 @@ By providing the space and the tools To create and sustain an open and construct
 **Notes A**
 ^^^
 
-```{image} ../../Docs/Logo/OU/SHIELD/SVG/OU_SHIELD_LOGO_BLUE_125mm.svg
+```{image} _static/Logo/OU/SHIELD/SVG/OU_SHIELD_LOGO_BLUE_125mm.svg
 :width: 80%
 :align: center
 
@@ -172,7 +172,7 @@ By providing the space and the tools To create and sustain an open and construct
 
 +++
 
-![flag alt >](../../_static/Svg_icons/web-svgrepo-com.svg)
+![flag alt >](_static/Svg_icons/web-svgrepo-com.svg)
 
 :::
 
@@ -183,14 +183,14 @@ By providing the space and the tools To create and sustain an open and construct
 **Notes B**
 ^^^
 
-```{image} ../../Docs/Logo/OU/SHIELD/SVG/OU_SHIELD_LOGO_BLUE_125mm.svg
+```{image} _static/Logo/OU/SHIELD/SVG/OU_SHIELD_LOGO_BLUE_125mm.svg
 :width: 80%
 :align: center
 ```
 
 +++
 
-![flag alt >](../../_static/Svg_icons/web-svgrepo-com.svg)
+![flag alt >](_static/Svg_icons/web-svgrepo-com.svg)
 
 :::
 
@@ -201,14 +201,14 @@ By providing the space and the tools To create and sustain an open and construct
 **Thesis**
 ^^^
 
-```{image} ../../Docs/Logo/OU/SHIELD/SVG/OU_SHIELD_LOGO_BLUE_125mm.svg
+```{image} _static/Logo/OU/SHIELD/SVG/OU_SHIELD_LOGO_BLUE_125mm.svg
 :width: 80%
 :align: center
 ```
 
 +++
 
-![flag alt >](../../_static/Svg_icons/pdf-svgrepo-com.svg)
+![flag alt >](_static/Svg_icons/pdf-svgrepo-com.svg)
 
 :::
 
@@ -221,13 +221,13 @@ By providing the space and the tools To create and sustain an open and construct
 **School 2.A**
 ^^^
 
-```{image} ../../Docs/Logo/logo_SFTP.png
+```{image} _static/Logo/logo_SFTP.png
 
 ```
 
 +++
 
-![flag alt >](../../_static/Svg_icons/web-svgrepo-com.svg)
+![flag alt >](_static/Svg_icons/web-svgrepo-com.svg)
 
 :::
 
@@ -238,13 +238,13 @@ By providing the space and the tools To create and sustain an open and construct
 **ODAPA**
 ^^^
 
-```{image} ../../_static/Logo/ODAPA/master-logo-open-dialogues-open.svg
+```{image} _static/Logo/ODAPA/master-logo-open-dialogues-open.svg
 
 ```
 
 +++
 
-![flag alt >](../../_static/Svg_icons/web-svgrepo-com.svg)
+![flag alt >](_static/Svg_icons/web-svgrepo-com.svg)
 
 
 :::
@@ -261,7 +261,7 @@ By providing the space and the tools To create and sustain an open and construct
 
 ***  
     
-![flag alt >>](Docs/SVG_files/human-head-silhouette-with-cogwheels-svgrepo-com.svg) - <span class="hovertext" data-hover="I am trying to experiment with how research can be made interactive and entertaining for the general public (within which I count all researchers) ">Experiment</span> &nbsp;&nbsp;&nbsp;&nbsp; ![flag alt >>](Docs/Svg_icons/Under_construction.svg) - <span class="hovertext" data-hover="I intend to use this plateform over the whole length of my scientific career so bear with me">Work in progress</span> &nbsp;&nbsp;&nbsp;&nbsp; ![flag alt >>](Docs/Svg_icons/location-on-road-svgrepo-com.svg) - <span class="hovertext" data-hover="Lifelong">a Journey</span> &nbsp;&nbsp;&nbsp;&nbsp; ![flag alt >>](Docs/Svg_icons/handshake-deal-svgrepo-com.svg) - <span class="hovertext" data-hover="I would love to get contributions from as many researchers (and not only). Could be a freelance scientific journalist">Participative</span> &nbsp;&nbsp;&nbsp;&nbsp; ![flag alt >>](Docs/Svg_icons/book-svgrepo-com.svg) - <span class="hovertext" data-hover="This content is to be read like a book (not necessarily pages by pages in order)">Online Free Book</span>
+![flag alt >>](_static/SVG_files/human-head-silhouette-with-cogwheels-svgrepo-com.svg) - <span class="hovertext" data-hover="I am trying to experiment with how research can be made interactive and entertaining for the general public (within which I count all researchers) ">Experiment</span> &nbsp;&nbsp;&nbsp;&nbsp; ![flag alt >>](_static/Svg_icons/Under_construction.svg) - <span class="hovertext" data-hover="I intend to use this plateform over the whole length of my scientific career so bear with me">Work in progress</span> &nbsp;&nbsp;&nbsp;&nbsp; ![flag alt >>](_static/Svg_icons/location-on-road-svgrepo-com.svg) - <span class="hovertext" data-hover="Lifelong">a Journey</span> &nbsp;&nbsp;&nbsp;&nbsp; ![flag alt >>](_static/Svg_icons/handshake-deal-svgrepo-com.svg) - <span class="hovertext" data-hover="I would love to get contributions from as many researchers (and not only). Could be a freelance scientific journalist">Participative</span> &nbsp;&nbsp;&nbsp;&nbsp; ![flag alt >>](_static/Svg_icons/book-svgrepo-com.svg) - <span class="hovertext" data-hover="This content is to be read like a book (not necessarily pages by pages in order)">Online Free Book</span>
 
 
     
@@ -291,7 +291,7 @@ By providing the space and the tools To create and sustain an open and construct
 :::{grid-item-card}
 :class-header: bg-light
 :link: Profile/Interests.html
-<span style="float: right">![flag alt >](Docs/Svg_icons/book-svgrepo-com.svg)</span>  **Profile** 
+<span style="float: right">![flag alt >](_static/Svg_icons/book-svgrepo-com.svg)</span>  **Profile** 
 ^^^
 
 - Scientific Interests
@@ -303,8 +303,8 @@ By providing the space and the tools To create and sustain an open and construct
 
 :::{grid-item-card}
 :class-header: bg-light
-:link: Projects/Science_ft_People.html
-<span style="float: right">![flag alt >](Docs/Svg_icons/book-svgrepo-com.svg)</span>  **Project** 
+:link: Projects/Roadmap.html
+<span style="float: right">![flag alt >](_static/Svg_icons/book-svgrepo-com.svg)</span>  **Project** 
 ^^^
 
 *Science for the people*, project description
@@ -314,7 +314,7 @@ By providing the space and the tools To create and sustain an open and construct
 :::{grid-item-card}
 :class-header: bg-light
 :link: Research/Research_Main.html
-<span style="float: right">![flag alt >](Docs/Svg_icons/solar-system-orbit-svgrepo-com.svg)</span>  **Research** 
+<span style="float: right">![flag alt >](_static/Svg_icons/solar-system-orbit-svgrepo-com.svg)</span>  **Research** 
 ^^^
 
 My research outputs, classified by projects. 
@@ -348,7 +348,7 @@ Because why not ?
 
 
 
-## **Science For The People** 
+## **Science By & For People** 
 
 :::::{div} full-width
 
@@ -480,7 +480,7 @@ How I use this book <span style="float: right">🙃</span>
 :columns: 3
 :margin: 4 4 0 0
 :class-header: bg-light
-<span style="float: right">![flag alt >](Docs/Svg_icons/hands-and-leaves-svgrepo-com.svg)</span> How **You** can use it
+<span style="float: right">![flag alt >](_static/Svg_icons/hands-and-leaves-svgrepo-com.svg)</span> How **You** can use it
 ^^^
 
 +++
@@ -667,7 +667,7 @@ Sprinkle a lot of this {cite}`Hague2020` on top of that {cite}`Souza2017` and yo
 Interact and play with the code
 
 +++
-![flag alt >](Docs/Svg_icons/rocket-launch-svgrepo-com.svg) Binder
+![flag alt >](_static/Svg_icons/rocket-launch-svgrepo-com.svg) Binder
 
 :::
 
@@ -679,7 +679,7 @@ Interact and play with the code
 ^^^
 Annotate every word in this web-site.
 +++
-![flag alt >](Docs/Svg_icons/Hypothesis.svg) Hypothesis
+![flag alt >](_static/Svg_icons/Hypothesis.svg) Hypothesis
 :::
 
 :::{grid-item-card}
@@ -693,7 +693,7 @@ Annotate every word in this web-site.
 Code and data repositories.
 
 +++
-![flag alt >](Docs/Svg_icons/github-svgrepo-com.svg) Github / Figshare
+![flag alt >](_static/Svg_icons/github-svgrepo-com.svg) Github / Figshare
 :::
 
 
@@ -704,7 +704,7 @@ Code and data repositories.
 `Utterances` (needs login - Github account) is a space at the bottom of each page for more relax comments.
 
 +++
-![flag alt >](Docs/Svg_icons/crystal-ball-svgrepo-com.svg) Utterance
+![flag alt >](_static/Svg_icons/crystal-ball-svgrepo-com.svg) Utterance
 :::
 
 
@@ -715,7 +715,7 @@ Code and data repositories.
 ^^^
 
 +++
-![flag alt >](Docs/Svg_icons/Under_construction.svg) Futur
+![flag alt >](_static/Svg_icons/Under_construction.svg) Futur
 :::
 
 ::::
@@ -740,7 +740,7 @@ Code and data repositories.
 
 :::{grid-item}
 
-```{admonition} Peer-Review ![flag alt >](Docs/Svg_icons/review-svgrepo-com.svg)
+```{admonition} Peer-Review ![flag alt >](_static/Svg_icons/review-svgrepo-com.svg)
 :class: warning, dropdown
 Every word I am writing is to be reviewed, questionned, challenged ... Help yourself with all the aformentionned tools and if you are not sure about how to use it, check the following page:
 
@@ -752,7 +752,7 @@ Every word I am writing is to be reviewed, questionned, challenged ... Help your
 
 :::{grid-item}
 
-```{admonition} Colaborate ![flag alt >](Docs/Svg_icons/handshake-deal-svgrepo-com.svg)
+```{admonition} Colaborate ![flag alt >](_static/Svg_icons/handshake-deal-svgrepo-com.svg)
 :class: seealso, dropdown
 
 
@@ -764,7 +764,7 @@ I would like to welcome as many contributions as possible from a wide variety of
 
 :::{grid-item}
 
-```{admonition} Discuss ![flag alt >](Docs/Svg_icons/brain-svgrepo-com.svg)
+```{admonition} Discuss ![flag alt >](_static/Svg_icons/brain-svgrepo-com.svg)
 :class: tip, dropdown
 Process the data using my online tools ... 
 
@@ -826,7 +826,7 @@ Process the data using my online tools ...
 **Astronomy**
 ^^^
 
-```{image} Docs/SVG_files/Disciplines/galaxy-svgrepo-com.svg
+```{image} _static/SVG_files/Disciplines/galaxy-svgrepo-com.svg
 
 ```
 
@@ -839,7 +839,7 @@ Process the data using my online tools ...
 **Physics**
 ^^^
 
-```{image} Docs/SVG_files/Disciplines/atoms-physics-svgrepo-com.svg
+```{image} _static/SVG_files/Disciplines/atoms-physics-svgrepo-com.svg
 
 ```
 
@@ -852,7 +852,7 @@ Process the data using my online tools ...
 **Chemistry**
 ^^^
 
-```{image} Docs/SVG_files/Disciplines/chemistry-svgrepo-com.svg
+```{image} _static/SVG_files/Disciplines/chemistry-svgrepo-com.svg
 
 ```
 
@@ -877,7 +877,7 @@ Process the data using my online tools ...
 **Web Dev**
 ^^^
 
-```{image} Docs/SVG_files/Disciplines/hand-holding-globe-svgrepo-com.svg
+```{image} _static/SVG_files/Disciplines/hand-holding-globe-svgrepo-com.svg
 
 ```
 
@@ -890,7 +890,7 @@ Process the data using my online tools ...
 **Python**
 ^^^
 
-```{image} Docs/SVG_files/Disciplines/python-svgrepo-com.svg
+```{image} _static/SVG_files/Disciplines/python-svgrepo-com.svg
 
 ```
 
@@ -902,7 +902,7 @@ Process the data using my online tools ...
 **More ...**
 ^^^
 
-```{image} Docs/SVG_files/Disciplines/infinity-symbol-svgrepo-com.svg
+```{image} _static/SVG_files/Disciplines/infinity-symbol-svgrepo-com.svg
 
 ```
 
@@ -1019,7 +1019,7 @@ Process the data using my online tools ...
 ^^^
 
 - **Difficulty**: 🟢 
-- **Status**: ![flag alt >](Docs/Svg_icons/Under_construction.svg) - 🔥
+- **Status**: ![flag alt >](_static/Svg_icons/Under_construction.svg) - 🔥
 - **Needs**: 🏸 - 💏
 - **Read time**: 5 min
 
@@ -1035,7 +1035,7 @@ Process the data using my online tools ...
 ^^^
 
 - **Difficulty**: 🟡 
-- **Status**: ![flag alt >](Docs/Svg_icons/Under_construction.svg) - 🔥
+- **Status**: ![flag alt >](_static/Svg_icons/Under_construction.svg) - 🔥
 - **Needs**: 🏸 - 💏
 - **Read time**: 5 min
 
@@ -1052,7 +1052,7 @@ Process the data using my online tools ...
 ^^^
 
 - **Difficulty**: 🔴 
-- **Status**: ![flag alt >](Docs/Svg_icons/Under_construction.svg) - 🔥
+- **Status**: ![flag alt >](_static/Svg_icons/Under_construction.svg) - 🔥
 - **Needs**: 🏸 - 💏
 - **Read time**: 1h
 
@@ -1068,7 +1068,7 @@ Process the data using my online tools ...
 ^^^
 
 - **Difficulty**: 🟣 
-- **Status**: ![flag alt >](Docs/Svg_icons/Under_construction.svg) - 🔥
+- **Status**: ![flag alt >](_static/Svg_icons/Under_construction.svg) - 🔥
 - **Needs**: 🏸 - 💏
 - **Read time**: 5 min
 
@@ -1085,7 +1085,7 @@ Process the data using my online tools ...
 ^^^
 
 - **Difficulty**: 🟡 
-- **Status**: ![flag alt >](Docs/Svg_icons/Under_construction.svg) - 🔥
+- **Status**: ![flag alt >](_static/Svg_icons/Under_construction.svg) - 🔥
 - **Needs**: 🏸 - 💏
 - **Read time**: 20 min
 
@@ -1100,7 +1100,7 @@ Process the data using my online tools ...
 ^^^
 
 - **Difficulty**: 🟡 
-- **Status**: ![flag alt >](Docs/Svg_icons/Under_construction.svg) - 🔥
+- **Status**: ![flag alt >](_static/Svg_icons/Under_construction.svg) - 🔥
 - **Needs**: 🏸 - 💏
 - **Read time**: 20 min
 
@@ -1132,7 +1132,7 @@ Process the data using my online tools ...
 :class-header: bg-light
 :columns: 4
 
-**Bitesize** <span style="float: right">![flag alt >](Docs/Svg_icons/pizza-svgrepo-com.svg)</span>
+**Bitesize** <span style="float: right">![flag alt >](_static/Svg_icons/pizza-svgrepo-com.svg)</span>
 ^^^
 
 Small lessons to introduce specific topics that I encounter during my research journey. Overview of the various concepts relative to a scientific topics. 
@@ -1145,7 +1145,7 @@ Small lessons to introduce specific topics that I encounter during my research j
 :class-header: bg-light
 :columns: 4
 
-**Practicle** <span style="float: right">![flag alt >](Docs/Svg_icons/flexed-biceps-svgrepo-com.svg)</span>
+**Practicle** <span style="float: right">![flag alt >](_static/Svg_icons/flexed-biceps-svgrepo-com.svg)</span>
 ^^^
 
 Some practical tutorials which will accompanied you in producing some material.
@@ -1156,11 +1156,11 @@ Some practical tutorials which will accompanied you in producing some material.
 :class-header: bg-light
 :columns: 4
 
-**Cours particuliers** <span style="float: right">![flag alt >](Docs/Svg_icons/diploma-contract-svgrepo-com.svg)</span>
+**Cours particuliers** <span style="float: right">![flag alt >](_static/Svg_icons/diploma-contract-svgrepo-com.svg)</span>
 
 ^^^
 
-![flag alt >](Docs/Svg_icons/flag-for-flag-france-svgrepo-com.svg)
+![flag alt >](_static/Svg_icons/flag-for-flag-france-svgrepo-com.svg)
 
 
 :::
@@ -1226,7 +1226,7 @@ Only my personal opinions are expressed in the following posts and they don't re
 **Versions**
 ^^^
 
-- [version 0](https://deugz.github.io/nb-master/_build/html/Blog/Version/version0.html) - ![flag alt >](Docs/Svg_icons/flag-for-flag-france-svgrepo-com.svg)
+- [version 0](https://deugz.github.io/nb-master/_build/html/Blog/Version/version0.html) - ![flag alt >](_static/Svg_icons/flag-for-flag-france-svgrepo-com.svg)
 - [version 1](https://deugz.github.io/nb-master/_build/html/Blog/Version/version1.html)
 
 
@@ -1303,7 +1303,7 @@ Only my personal opinions are expressed in the following posts and they don't re
 :::::{grid-item-card}
 :class-header: bg-light
 :columns: 3
-<span style="float: right">![flag alt >](Docs/Svg_icons/coins-money-svgrepo-com.svg)</span>**Help** 
+<span style="float: right">![flag alt >](_static/Svg_icons/coins-money-svgrepo-com.svg)</span>**Help** 
 ^^^
 
 <br>
@@ -1317,7 +1317,7 @@ or
 
 <br>
 
-![flag alt >](Docs/Svg_icons/patreon-svgrepo-com.svg) [Patreon](https://www.patreon.com/Science_for_the_People) 
+![flag alt >](_static/Svg_icons/patreon-svgrepo-com.svg) [Patreon](https://www.patreon.com/Science_for_the_People) 
 
 :::::
 ::::::

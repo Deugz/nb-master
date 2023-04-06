@@ -739,7 +739,7 @@ Nothing, just leave it like that.
 **Page**
 ^^^
 
-- Status:  ![flag alt >](../../Docs/Svg_icons/Under_construction.svg)
+- Status:  ![flag alt >](../../_static/Svg_icons/Under_construction.svg)
   
 - Reviewed: <span class="hovertext" data-hover="Insert here who has done what">&#x274C;</span>
        

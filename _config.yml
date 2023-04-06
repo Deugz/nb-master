@@ -3,7 +3,7 @@
 
 title: "MASTER"
 author: <strong>Vincent Deguin</strong> (with ❤️)
-logo: Docs/Logo/logo_SFTP.png
+logo: _static/Logo/logo_SFTP.png
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
@@ -17,7 +17,7 @@ latex:
 
 # Add a bibtex file so that we can create citations
 bibtex_bibfiles:
-  - references.bib
+  - Appendix/Biblio/references.bib
 
 # Information about where the book exists on the web
 repository:
@@ -26,7 +26,7 @@ repository:
   branch: main  # Which branch of the repository should be used when creating links (optional)
 
 html:
-  favicon                   : "Docs/Logo/logo_SFTP.png"  
+  favicon                   : "_static/Logo/logo_SFTP.png"  
   use_edit_page_button      : true
   use_repository_button     : true
   use_issues_button         : true
@@ -34,16 +34,18 @@ html:
   extra_navbar              : ""
   extra_footer: |
   
-    <img class="CC_licence" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc-sa.svg" alt="Licence CC BY NC SA 2"/> 
+  
+  
+    <br><img class="CC_licence" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc-sa.svg" alt="Licence CC BY NC SA 2"/> 
     
-#  google_analytics_id       : G-CPYX9S0KDS  
+  google_analytics_id       : G-CPYX9S0KDS  
   home_page_in_navbar       : false
   baseurl                   : "https://deugz.github.io/nb-master/_build/html/"
   comments:
     hypothesis              : true
     utterances              : 
       repo: "https://github.com/Deugz/nb-master"
-  announcement              : "Current Version: Feb 2023 ⚠ <u>Thesis Deadline</u>: <strong>October 2023</strong> ⚠"
+  announcement              : "Current Version: April 2023 ⚠ <u>Thesis Deadline</u>: <strong>October 2023</strong> ⚠ 👀 → <a href='https://deugz.github.io/nb-museum/_build/html/intro.html' target='_blank'>Museum</a>"
 
 
 sphinx:

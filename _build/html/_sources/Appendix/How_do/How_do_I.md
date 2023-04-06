@@ -146,7 +146,13 @@ blabla
 :::
 
 :::{dropdown} Iterative implementation
-blabla
+Write as you go along they said ... It will be fun they said ...
+:::
+
+
+:::{dropdown} Allow Feedback
+Work is publishable as you go along (or not), and you can get **feedback** at every steps during your scientific journey.
+
 :::
 
 :::{dropdown} Consistant formatting
@@ -157,8 +163,12 @@ Hard to maintain and keep consistent over time
 blabla
 :::
 
-:::{dropdown} Transferable
-blabla
+:::{dropdown} Transferable / Recyclable
+
+- Recycle your talks ! 
+Put them online and give them a quick twist to fit a wider audience.
+
+
 :::
 
 :::{dropdown} Semantic Web compatible
@@ -176,6 +186,10 @@ blabla
 :width: 100%
 
 ```
+
+<br>
+
+<p class="emphase"><strong>Markdown</strong> vs Latex or Word ?</p>
 
 
 ::::
@@ -271,6 +285,9 @@ width: 1200px
 ```
 
 <p class="emphase">I mean, c'mon ...</p>
+
+I have always been frustrated by the fact that I could never play with the <strong>edition</strong> aspect of every piece of science I have been writimg. All the time I had to obey to a certain <strong>template</strong> that I never found appealing to me. Owing my own web-site give me the opportunity to be an integrant part of the edition process as it clearly is an <span class="hovertext" data-hover="a testing environment in a computer system in which new or untested software or coding can be run securely">editorial sandbox</span>.
+
 
 :::
 

@@ -1,15 +1,15 @@
 # Contribute / Help
 
-````{margin} 
+::::{margin} 
 
 <div id="colour">
 
-<strong><u>Want to help </u> (![flag alt >](../Docs/Svg_icons/coins-money-svgrepo-com.svg)) ? </strong>
+<strong><u>Want to help </u> (![flag alt >](../_static/Svg_icons/coins-money-svgrepo-com.svg)) ? </strong>
 
 <br>
 
 
-![flag alt >](../Docs/Svg_icons/patreon-svgrepo-com.svg) [Patreon](https://www.patreon.com/Science_for_the_People)
+![flag alt >](../_static/Svg_icons/patreon-svgrepo-com.svg) [Patreon](https://www.patreon.com/Science_for_the_People)
 
 <br>
 
@@ -25,7 +25,7 @@ or
 <br>
 <br>
 
-<strong><u>Want to collaborate </u>(![flag alt >](../Docs/Svg_icons/handshake-deal-svgrepo-com.svg)) ? </strong>
+<strong><u>Want to collaborate </u>(![flag alt >](../_static/Svg_icons/handshake-deal-svgrepo-com.svg)) ? </strong>
 <br>
 <br>
 <strong>Our community</strong>
@@ -36,7 +36,7 @@ or
 
 <br>
 
-![flag alt >](../Docs/Svg_icons/think-svgrepo-com.svg) Vincent Deguin
+![flag alt >](../_static/Svg_icons/think-svgrepo-com.svg) Vincent Deguin
 
 <br>
 
@@ -44,11 +44,11 @@ or
 
 <br>
 
-![flag alt >](../Docs/Svg_icons/think-svgrepo-com.svg) Ross Findlay
+![flag alt >](../_static/Svg_icons/think-svgrepo-com.svg) Ross Findlay
 
-![flag alt >](../Docs/Svg_icons/think-svgrepo-com.svg) Thomas Webley
+![flag alt >](../_static/Svg_icons/think-svgrepo-com.svg) Thomas Webley
 
-![flag alt >](../Docs/Svg_icons/think-svgrepo-com.svg) Giulia Degli Alessandrini
+![flag alt >](../_static/Svg_icons/think-svgrepo-com.svg) Giulia Degli Alessandrini
 
 <br>
 
@@ -62,7 +62,7 @@ or
 
 </div>
 
-````
+::::
 
 
 This project is intended to be **collaborative** and there is many ways in which you can contribute!
@@ -241,7 +241,7 @@ Make the aquiarium svg moving
 **Page**
 ^^^
 
-- Status:  ![flag alt >](../Docs/Svg_icons/Under_construction.svg)
+- Status:  ![flag alt >](../_static/Svg_icons/Under_construction.svg)
   
 - Reviewed: <span class="hovertext" data-hover="Insert here who has done what">&#x274C;</span>
        

@@ -175,3 +175,6 @@ cython_debug/
 #.idea/
 
 # End of https://www.toptal.com/developers/gitignore/api/jupyternotebooks,python
+
+_static/videos/Vincent_Deguin_ODAPA2023_RAW.mov
+_build/html/_static/videos/Vincent_Deguin_ODAPA2023_RAW.mov
