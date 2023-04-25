@@ -7,7 +7,7 @@
 
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
     <title>Scientific Publication &#8212; MASTER</title>
   
@@ -43,6 +43,9 @@
     <link rel="stylesheet" type="text/css" href="../../_static/css/custom_style.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/css/CV_1.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/css/style_book_shell.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/style_flipping_card.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/.ipynb_checkpoints/custom_style-checkpoint.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/.ipynb_checkpoints/style_flipping_card-checkpoint.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
@@ -52,6 +55,7 @@
     <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../_static/doctools.js"></script>
     <script src="../../_static/clipboard.min.js"></script>
     <script src="../../_static/copybutton.js"></script>
@@ -96,7 +100,9 @@ var addUtterances = () => {
 commentsRunWhenDOMLoaded(addUtterances);
 </script>
     <script src="../../_static/assets/script/scriptvideo.js"></script>
+    <script src="../../_static/assets/script/script_flipping_card.js"></script>
     <script src="../../_static/assets/script/.ipynb_checkpoints/scriptvideo-checkpoint.js"></script>
+    <script src="../../_static/assets/script/.ipynb_checkpoints/script_blob-checkpoint.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script src="../../_static/design-tabs.js"></script>
     <script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-CPYX9S0KDS"></script>
@@ -265,10 +271,14 @@ const thebe_selector_output = ".output, .cell_output"
 </li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../../Appendix/Help_main.html">💡 Help</a><input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-6"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="../../Appendix/Help/Open_Science.html">Open Science Tools</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../Appendix/Help/Executable-Book/Executable-Book.html">Executable Books</a><input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-7"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../Appendix/Help/Executable-Book/Jupyter.html">Jupyter Book</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../Appendix/Help/Executable-Book/MyST.html">MyST</a></li>
+</ul>
+</li>
 <li class="toctree-l2"><a class="reference internal" href="../../Appendix/Help/Education.html">Education</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../Appendix/Help/Anaconda_JB.html">Anaconda</a></li>
 
-<li class="toctree-l2"><a class="reference internal" href="../../Appendix/Help/Jupyter.html">Jupyter</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../Appendix/Help/Github_JB.html">Github</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../Appendix/Help/Binder_JB.html">Binder</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../Appendix/Help/SemanticWeb.html">Semantic Web</a></li>
@@ -513,7 +523,7 @@ document.write(`
                 <article class="bd-article" role="main">
                   
   <section class="tex2jax_ignore mathjax_ignore" id="scientific-publication">
-<h1>Scientific Publication<a class="headerlink" href="#scientific-publication" title="Permalink to this headline">#</a></h1>
+<h1>Scientific Publication<a class="headerlink" href="#scientific-publication" title="Permalink to this heading">#</a></h1>
 <hr class="docutils" />
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
@@ -538,7 +548,7 @@ document.write(`
 </div>
 </aside>
 <section id="how-it-works">
-<h2>How it works<a class="headerlink" href="#how-it-works" title="Permalink to this headline">#</a></h2>
+<h2>How it works<a class="headerlink" href="#how-it-works" title="Permalink to this heading">#</a></h2>
 <h3><strong>&#187;  <u>An historical perspective</u></strong></h3>
 <p>Scientific publication begin it’s journey in 1665 with the <a class="reference external" href="https://en.wikipedia.org/wiki/Philosophical_Transactions_of_the_Royal_Society">Philosophical Transactions of the Royal Society</a> with contributions from Isaac Newton, <span class="hovertext" data-hover="First woman ever published in 1787 (An account of a new comet)">Caroline Hershell</span>, Benjamin Franklin, Charles Darwin… Publication of scientific work will remain in the hand of <span class="hovertext" data-hover="Royal Society">scientific society</span> until the end of the second world war, a time when science publishers were notoriously inefficient and constantly broke, but science itself was about to enter a period of unprecedented growth resulting from <strong>government fundings</strong>.
 This is the time choosen by <a class="reference external" href="https://en.wikipedia.org/wiki/Robert_Maxwell">Robert Maxwell</a> to enter the emerging business of scientific publication by creating the company <span class="hovertext" data-hover="Now owned by Elsevier">Pergamon Press</span>. As science was expanding, it become clear that it would need new journals to cover new areas of study, and while scientific societies argued about the boundaries of their fields, Pergamon just went to convince prominent academics that their particular fields required a new journal and install that person at the reins of it. They would then begin</p>
@@ -616,7 +626,7 @@ This is the time choosen by <a class="reference external" href="https://en.wikip
 <p>Yes, some journals offers Open Access, but very often it is a costly options as you need to pay <span class="hovertext" data-hover="How is this money spend, I don't know">Article Processing Charges</span> (APC).
 For Nature they cost 9500 Euros !! (source: <a href="https://www.nature.com/nature-portfolio/open-access" target="blank">Here</a>)</p>
 <section id="tools">
-<h3>Tools<a class="headerlink" href="#tools" title="Permalink to this headline">#</a></h3>
+<h3>Tools<a class="headerlink" href="#tools" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
 <li><p><a class="reference external" href="https://v2.sherpa.ac.uk/romeo/">Sherpa romeo</a>: <em>online resource that aggregates and analyses publisher open access policies</em></p></li>
 </ul>
@@ -633,7 +643,7 @@ For Nature they cost 9500 Euros !! (source: <a href="https://www.nature.com/natu
 <figure class="align-default" id="elephant">
 <img alt="../../_images/Elephant.png" src="../../_images/Elephant.png" />
 <figcaption>
-<p><span class="caption-number">Fig. 7 </span><span class="caption-text">Elephant</span><a class="headerlink" href="#elephant" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 10 </span><span class="caption-text">Elephant</span><a class="headerlink" href="#elephant" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 </div>
@@ -681,9 +691,9 @@ And all were in the wrong!</p>
 </section>
 </section>
 <section id="actors-of-scientific-publishing">
-<h2>Actors of Scientific Publishing<a class="headerlink" href="#actors-of-scientific-publishing" title="Permalink to this headline">#</a></h2>
+<h2>Actors of Scientific Publishing<a class="headerlink" href="#actors-of-scientific-publishing" title="Permalink to this heading">#</a></h2>
 <section id="clarivate">
-<h3>Clarivate<a class="headerlink" href="#clarivate" title="Permalink to this headline">#</a></h3>
+<h3>Clarivate<a class="headerlink" href="#clarivate" title="Permalink to this heading">#</a></h3>
 <p><a class="reference external" href="https://fr.wikipedia.org/wiki/Clarivate">Wikipedia</a></p>
 <p><strong>Own</strong>:</p>
 <ul class="simple">
@@ -695,7 +705,7 @@ And all were in the wrong!</p>
 </section>
 </section>
 <section id="can-we-do-better">
-<h2>Can we do better ?<a class="headerlink" href="#can-we-do-better" title="Permalink to this headline">#</a></h2>
+<h2>Can we do better ?<a class="headerlink" href="#can-we-do-better" title="Permalink to this heading">#</a></h2>
 <p>I am not the first one that have been asking this question</p>
 <ul class="simple">
 <li><p><a class="reference external" href="https://www.frontiersin.org/research-topics/137/beyond-open-access-visions-for-open-evaluation-of-scientific-papers-by-post-publication-peer-review#articles">Special issue in frontier</a></p></li>
@@ -711,7 +721,7 @@ And all were in the wrong!</p>
 </ul>
 </section>
 <section id="how">
-<h2>How ?<a class="headerlink" href="#how" title="Permalink to this headline">#</a></h2>
+<h2>How ?<a class="headerlink" href="#how" title="Permalink to this heading">#</a></h2>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <ul class="simple">
@@ -723,7 +733,7 @@ And all were in the wrong!</p>
 </ul>
 <p><strong>Describe</strong>:</p>
 <section id="proposed-system">
-<h3>Proposed system<a class="headerlink" href="#proposed-system" title="Permalink to this headline">#</a></h3>
+<h3>Proposed system<a class="headerlink" href="#proposed-system" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
 <li><p><span id="id4">[<a class="reference internal" href="../../Appendix/Biblio/bibliography.html#id6" title="Dwight J. Kravitz and Chris I. Baker. Toward a new model of scientific publishing: discussion and a proposal. Frontiers in Computational Neuroscience, pages 1-12, 12 2011. doi:10.3389/fncom.2011.00055.">Kravitz and Baker, 2011</a>]</span></p></li>
 </ul>
@@ -733,7 +743,7 @@ And all were in the wrong!</p>
 </ul>
 <p><strong>Describe</strong>:</p>
 <section id="open-research">
-<h4>Open Research<a class="headerlink" href="#open-research" title="Permalink to this headline">#</a></h4>
+<h4>Open Research<a class="headerlink" href="#open-research" title="Permalink to this heading">#</a></h4>
 <ul class="simple">
 <li><p><span id="id6">[<a class="reference internal" href="../../Appendix/Biblio/bibliography.html#id3" title="Paul Longley Arthur and Lydia Hearn. Toward open research: a narrative review of the challenges and opportunities for open humanities. Journal of Communication, 9 2021. doi:10.1093/joc/jqab028.">Arthur and Hearn, 2021</a>]</span></p></li>
 </ul>
@@ -741,7 +751,7 @@ And all were in the wrong!</p>
 </section>
 </section>
 <section id="open-journals">
-<h2>Open Journals<a class="headerlink" href="#open-journals" title="Permalink to this headline">#</a></h2>
+<h2>Open Journals<a class="headerlink" href="#open-journals" title="Permalink to this heading">#</a></h2>
 <ul class="simple">
 <li><p><a class="reference external" href="https://jose.theoj.org/">Journal of Open Source Education</a></p></li>
 </ul>

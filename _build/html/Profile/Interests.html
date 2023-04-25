@@ -7,7 +7,7 @@
 
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
     <title>Interests &#8212; MASTER</title>
   
@@ -43,6 +43,9 @@
     <link rel="stylesheet" type="text/css" href="../_static/css/custom_style.css" />
     <link rel="stylesheet" type="text/css" href="../_static/css/CV_1.css" />
     <link rel="stylesheet" type="text/css" href="../_static/css/style_book_shell.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/css/style_flipping_card.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/css/.ipynb_checkpoints/custom_style-checkpoint.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/css/.ipynb_checkpoints/style_flipping_card-checkpoint.css" />
     <link rel="stylesheet" type="text/css" href="../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
@@ -52,6 +55,7 @@
     <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
     <script src="../_static/jquery.js"></script>
     <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../_static/doctools.js"></script>
     <script src="../_static/clipboard.min.js"></script>
     <script src="../_static/copybutton.js"></script>
@@ -96,7 +100,9 @@ var addUtterances = () => {
 commentsRunWhenDOMLoaded(addUtterances);
 </script>
     <script src="../_static/assets/script/scriptvideo.js"></script>
+    <script src="../_static/assets/script/script_flipping_card.js"></script>
     <script src="../_static/assets/script/.ipynb_checkpoints/scriptvideo-checkpoint.js"></script>
+    <script src="../_static/assets/script/.ipynb_checkpoints/script_blob-checkpoint.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script src="../_static/design-tabs.js"></script>
     <script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-CPYX9S0KDS"></script>
@@ -265,10 +271,14 @@ const thebe_selector_output = ".output, .cell_output"
 </li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../Appendix/Help_main.html">💡 Help</a><input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-6"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="../Appendix/Help/Open_Science.html">Open Science Tools</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../Appendix/Help/Executable-Book/Executable-Book.html">Executable Books</a><input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-7"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../Appendix/Help/Executable-Book/Jupyter.html">Jupyter Book</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../Appendix/Help/Executable-Book/MyST.html">MyST</a></li>
+</ul>
+</li>
 <li class="toctree-l2"><a class="reference internal" href="../Appendix/Help/Education.html">Education</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../Appendix/Help/Anaconda_JB.html">Anaconda</a></li>
 
-<li class="toctree-l2"><a class="reference internal" href="../Appendix/Help/Jupyter.html">Jupyter</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../Appendix/Help/Github_JB.html">Github</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../Appendix/Help/Binder_JB.html">Binder</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../Appendix/Help/SemanticWeb.html">Semantic Web</a></li>
@@ -529,7 +539,7 @@ document.write(`
                 <article class="bd-article" role="main">
                   
   <section class="tex2jax_ignore mathjax_ignore" id="interests">
-<h1>Interests<a class="headerlink" href="#interests" title="Permalink to this headline">#</a></h1>
+<h1>Interests<a class="headerlink" href="#interests" title="Permalink to this heading">#</a></h1>
 <hr class="docutils" />
 <div class="video-div">
 <iframe  id="stickyAnchor" class="v-page-anchor float-left" src="https://www.youtube.com/embed/uHFJ9qhR0VM?enablejsapi=1" frameborder="0" fullscreen width="0" height="0" style="margin:auto;"></iframe>
@@ -566,7 +576,12 @@ document.write(`
 <p class="emphase">I am a laboratory astrophysicists studying the <strong>icy mantle coating interstellar dust grains</strong>. </p> 
 </div>
 <div class="sd-col sd-d-flex-column sd-col-6 sd-col-xs-6 sd-col-sm-6 sd-col-md-6 sd-col-lg-6 docutils">
+<figure class="align-default" id="interstellar-dust">
 <img alt="../_images/Interstellar_dust.PNG" src="../_images/Interstellar_dust.PNG" />
+<figcaption>
+<p><span class="caption-number">Fig. 2 </span><span class="caption-text">[Source]</span><a class="headerlink" href="#interstellar-dust" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
 </div>
 </div>
 </div>
@@ -575,9 +590,9 @@ document.write(`
 <p class="emphase2"><strong>My Scientific Interests </strong></p>
 </div>
 <section id="interstellar-dust-grains">
-<h2>Interstellar Dust Grains<a class="headerlink" href="#interstellar-dust-grains" title="Permalink to this headline">#</a></h2>
+<h2>Interstellar Dust Grains<a class="headerlink" href="#interstellar-dust-grains" title="Permalink to this heading">#</a></h2>
 <section id="strong-u-interstellar-u-strong">
-<h3><strong>»  <u> Interstellar ?</u></strong><a class="headerlink" href="#strong-u-interstellar-u-strong" title="Permalink to this headline">#</a></h3>
+<h3><strong>»  <u> Interstellar ?</u></strong><a class="headerlink" href="#strong-u-interstellar-u-strong" title="Permalink to this heading">#</a></h3>
 <div class="full-width docutils">
 <p class="emphase">Not the the movie, but actually the medium we find between the stars</p>
 <figure id="transition-img">
@@ -587,13 +602,55 @@ document.write(`
 </div>
 <figcaption>Hover the figure to switch between images - <a href="https://www.esa.int/Science_Exploration/Space_Science/Gaia/Gaia_creates_richest_star_map_of_our_Galaxy_and_beyond" target="blank"> Image 1 </a> Gaia image of the Galactic plane  - <a href="https://lweb.cfa.harvard.edu/mmw/Fig2_Dame.pdf" target="blank"> Image 2 </a> Molecular cloud mapping </figcaption>
 </figure>
-<p class="emphase">Hopefully you have had the chance to see the galaxie in your lifetime... Now focus on the dark feature</p>
+<br>
+<p class="emphase">Hopefully you have had the chance to see the galaxie in your lifetime... Now focus on the dark feature:</p>
+<br>
+</div>
+<div class="full-width docutils">
+<p class="emphase2"><strong>Molecular Clouds</strong></p>
+<br>
+<br>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-column sd-col-7 sd-col-xs-7 sd-col-sm-7 sd-col-md-7 sd-col-lg-7 docutils">
+<p>izhfpizoarzihgozirhizghiozrhzoirhrzihzairh</p>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-5 sd-col-xs-5 sd-col-sm-5 sd-col-md-5 sd-col-lg-5 docutils">
+<div class='flip-card'>
+<div class='flip_box'>
+<div class='front'>
+<p class='b_headline'>Pillars of creation<br><hr></p>
+</div>
+<div class='back'>
+<p class='b_headline'><span class="hovertext" data-hover="You may feel a bit lost at this point, but don't worry I have got you covered with a dedicated set of tutorials">Tutorials</span><br><hr></p>    
+<p class='b_text'> </p>
+<br>    
+<div class="wrapper">
+<button class="button"><span> <a href="Astronomy_101.html"  title= "" target="blank"> Astronomy 101 </a></span></button> 
+</div>
+<br> 
+<br>
+<div class="wrapper">
+<button class="button"><span> <a href="Astronomy_101.html"  title= "" target="blank"> The ISM </a></span></button> 
+</div>
+</div>
+</div>
+<div class='r_wrap'>
+<div class='b_round'></div>
+<div class='s_round'>
+<div class='s_arrow'></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 </div>
 </section>
 <section id="strong-u-dust-grains-u-strong">
-<h3><strong>»  <u>Dust Grains  </u></strong><a class="headerlink" href="#strong-u-dust-grains-u-strong" title="Permalink to this headline">#</a></h3>
+<h3><strong>»  <u>Dust Grains  </u></strong><a class="headerlink" href="#strong-u-dust-grains-u-strong" title="Permalink to this heading">#</a></h3>
 <section id="strong-formation-strong">
-<h4><strong>Formation</strong><a class="headerlink" href="#strong-formation-strong" title="Permalink to this headline">#</a></h4>
+<h4><strong>Formation</strong><a class="headerlink" href="#strong-formation-strong" title="Permalink to this heading">#</a></h4>
 <div class="full-width docutils">
 <div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
 <div class="sd-row sd-row-cols-3 sd-row-cols-xs-3 sd-row-cols-sm-3 sd-row-cols-md-3 sd-row-cols-lg-3 docutils">
@@ -601,17 +658,29 @@ document.write(`
 <p class="rubric">Solar Winds</p>
 </div>
 <div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
-<p class="rubric">Nova</p>
+<p class="rubric">Stellar Atmosphere</p>
+<figure class="align-default" id="eclispse-solar-winds">
+<img alt="../_images/SOLARECLIPSE2021FORDISTROHighRes.jpg" src="../_images/SOLARECLIPSE2021FORDISTROHighRes.jpg" />
+<figcaption>
+<p><span class="caption-number">Fig. 3 </span><span class="caption-text"><a class="reference external" href="https://apod.nasa.gov/apod/ap211209.html">Source</a></span><a class="headerlink" href="#eclispse-solar-winds" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
 </div>
 <div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
 <p class="rubric">Supernovae</p>
+<figure class="align-default" id="id1">
+<img alt="../_images/CrabNebula_Hubble_3864.jpg" src="../_images/CrabNebula_Hubble_3864.jpg" />
+<figcaption>
+<p><span class="caption-number">Fig. 4 </span><span class="caption-text"><a class="reference external" href="https://apod.nasa.gov/apod/ap230115.html">Source</a></span><a class="headerlink" href="#id1" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
 </div>
 </div>
 </div>
 </div>
 </section>
 <section id="strong-evolution-strong">
-<h4><strong>Evolution</strong><a class="headerlink" href="#strong-evolution-strong" title="Permalink to this headline">#</a></h4>
+<h4><strong>Evolution</strong><a class="headerlink" href="#strong-evolution-strong" title="Permalink to this heading">#</a></h4>
 <div class="full-width docutils">
 <div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
 <div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
@@ -622,12 +691,12 @@ document.write(`
 </div>
 </div>
 <div class="sd-col sd-d-flex-column sd-col-6 sd-col-xs-6 sd-col-sm-6 sd-col-md-6 sd-col-lg-6 docutils">
-<figure class="align-default" id="id1">
+<figure class="align-default" id="id2">
 <img alt="../_images/The-lifecycle-of-gas-dust.png" src="../_images/The-lifecycle-of-gas-dust.png" />
 <figcaption>
-<p><span class="caption-number">Fig. 2 </span><span class="caption-text">.jpg
+<p><span class="caption-number">Fig. 5 </span><span class="caption-text">.jpg
 :name: Dust cycle in Galaxy
-Source</span><a class="headerlink" href="#id1" title="Permalink to this image">#</a></p>
+Source</span><a class="headerlink" href="#id2" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 </div>
@@ -636,18 +705,16 @@ Source</span><a class="headerlink" href="#id1" title="Permalink to this image">#
 </div>
 </section>
 <section id="strong-role-strong">
-<h4><strong>Role</strong><a class="headerlink" href="#strong-role-strong" title="Permalink to this headline">#</a></h4>
+<h4><strong>Role</strong><a class="headerlink" href="#strong-role-strong" title="Permalink to this heading">#</a></h4>
 <div class="full-width docutils">
 <div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
 <div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
-<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-col sd-d-flex-row sd-col-7 sd-col-xs-7 sd-col-sm-7 sd-col-md-7 sd-col-lg-7 docutils">
 <div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
 <div class="sd-card-header docutils">
 <p class="sd-card-text">Astrochemistry</p>
 </div>
 <div class="sd-card-body docutils">
-<br>
-<br>
 <video src="../_static/videos/water_form_dust_leiden.mp4" width="100%" height="" controls>
   Your browser does not support the video tag.
 </video>
@@ -657,12 +724,13 @@ Source</span><a class="headerlink" href="#id1" title="Permalink to this image">#
 </div>
 </div>
 </div>
-<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-col sd-d-flex-row sd-col-5 sd-col-xs-5 sd-col-sm-5 sd-col-md-5 sd-col-lg-5 docutils">
 <div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
 <div class="sd-card-header docutils">
 <p class="sd-card-text">Planet formation</p>
 </div>
 <div class="sd-card-body docutils">
+<br>
 <video src="../_static/videos/ssc2004-08v2_h264_vga.mov" width="100%" height="" controls>
   Your browser does not support the video tag.
 </video>
@@ -679,7 +747,7 @@ Source</span><a class="headerlink" href="#id1" title="Permalink to this image">#
 </section>
 </section>
 <section id="ices-in-space">
-<h2>Ices in Space<a class="headerlink" href="#ices-in-space" title="Permalink to this headline">#</a></h2>
+<h2>Ices in Space<a class="headerlink" href="#ices-in-space" title="Permalink to this heading">#</a></h2>
 <p class="emphase">In space, ice is present in many environments</p>
 <aside class="margin sidebar">
 <p class="sidebar-title"></p>
@@ -689,7 +757,7 @@ Source</span><a class="headerlink" href="#id1" title="Permalink to this image">#
 <figure class="align-default" id="dust1">
 <a class="reference internal image-reference" href="../_images/Porous_chondriteIDP.jpg"><img alt="../_images/Porous_chondriteIDP.jpg" src="../_images/Porous_chondriteIDP.jpg" style="width: 300px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 3 </span><span class="caption-text">Interstellar Dust Grain. <a class="reference external" href="https://commons.wikimedia.org/wiki/File:Porous_chondriteIDP.jpg">Source</a></span><a class="headerlink" href="#dust1" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 6 </span><span class="caption-text">Interstellar Dust Grain. <a class="reference external" href="https://commons.wikimedia.org/wiki/File:Porous_chondriteIDP.jpg">Source</a></span><a class="headerlink" href="#dust1" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <p><strong>Want to know more ?</strong></p>
@@ -701,11 +769,11 @@ Source</span><a class="headerlink" href="#id1" title="Permalink to this image">#
 </ul>
 </aside>
 <section id="strong-u-covering-interstellar-dusts-u-strong">
-<h3><strong>»  <u> Covering Interstellar Dusts  </u></strong><a class="headerlink" href="#strong-u-covering-interstellar-dusts-u-strong" title="Permalink to this headline">#</a></h3>
+<h3><strong>»  <u> Covering Interstellar Dusts  </u></strong><a class="headerlink" href="#strong-u-covering-interstellar-dusts-u-strong" title="Permalink to this heading">#</a></h3>
 <p>Dust is <span class="hovertext" data-hover="found everywhere">ubiquitus</span> in space. They are produced by Stars as sub-µm grains made of either carbon or silicate and are subsequently dispersed by the solar winds in the <span class="hovertext" data-hover="InterStellar Medium">ISM</span>. In the high vacuum of space, they provide a surface for <span class="hovertext" data-hover="Ok with those concepts ? if not go and check Astronomy 101">atoms and small molecules</span> to stick and react, and are hence the main <span class="hovertext" data-hover="Definition">catalyst</span> of chemical reactions in the Universe. When the dust is embeded within <span class="hovertext" data-hover="Gigantic clouds with high density (?) and low temperature (20 Kelvin)">Molecular Clouds</span> (<a class="reference internal" href="#jwst1"><span class="std std-numref">Fig. 1</span></a>), they are protected from <span class="hovertext" data-hover="like cosmic rays, that destroys the forming molecular layers of the dust">radiation</span> and an <strong>icy layer</strong> can form around the dust grain.
 Molecular Clouds are the birth place of Stars, and all those tiny µm interstellar dust grains (and gas) contained within the cloud will be the building blocks of all the <span class="hovertext" data-hover="Planets, Moons, Comets ...">solar system bodies</span>.</p>
 <p>Interesting subject to study, don’t you think ?</p>
-<p><strong>Note</strong>: <a class="reference internal" href="#dust1"><span class="std std-numref">Fig. 3</span></a> is actually not an interstellar dust grain but an interplanetary grain (easier to catch - with the Stardust mission)</p>
+<p><strong>Note</strong>: <a class="reference internal" href="#dust1"><span class="std std-numref">Fig. 6</span></a> is actually not an interstellar dust grain but an interplanetary grain (easier to catch - with the Stardust mission)</p>
 <hr class="docutils" />
 <br>
 <aside class="margin sidebar">
@@ -713,10 +781,10 @@ Molecular Clouds are the birth place of Stars, and all those tiny µm interstell
 <br>
 <br>
 <br>  
-<figure class="align-default" id="id2">
+<figure class="align-default" id="id3">
 <a class="reference internal image-reference" href="../_images/Dsharp_PPD.PNG"><img alt="../_images/Dsharp_PPD.PNG" src="../_images/Dsharp_PPD.PNG" style="width: 300px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 4 </span><span class="caption-text">Protoplanetary Disk image taken with ALMA (DSHARP project) <a class="reference external" href="https://almascience.eso.org/almadata/lp/DSHARP/">Source</a></span><a class="headerlink" href="#id2" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 7 </span><span class="caption-text">Protoplanetary Disk image taken with ALMA (DSHARP project) <a class="reference external" href="https://almascience.eso.org/almadata/lp/DSHARP/">Source</a></span><a class="headerlink" href="#id3" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <p><strong>Want to know more ?</strong></p>
@@ -729,7 +797,7 @@ Molecular Clouds are the birth place of Stars, and all those tiny µm interstell
 </aside>
 </section>
 <section id="strong-u-in-protoplanetary-disks-u-strong">
-<h3><strong>»  <u>In Protoplanetary Disks </u></strong><a class="headerlink" href="#strong-u-in-protoplanetary-disks-u-strong" title="Permalink to this headline">#</a></h3>
+<h3><strong>»  <u>In Protoplanetary Disks </u></strong><a class="headerlink" href="#strong-u-in-protoplanetary-disks-u-strong" title="Permalink to this heading">#</a></h3>
 <p>Star formation is a complicated process that is not yet perfectly understood. They are the result of the <span class="hovertext" data-hover="effondrement sous le poids de la gravite, ie ...">gravitational collapse</span> of a dense part of a molecular cloud (referred as clump). Protoplanetary Disks are a byproduct of star formation. They contain both Dust and Gas (ratio of 1:99) and in a time scale of a few million years will result in a solar system like our own…</p>
 <ul class="simple">
 <li><p>substructure</p></li>
@@ -749,10 +817,10 @@ Molecular Clouds are the birth place of Stars, and all those tiny µm interstell
 <br>
 <br>
 <br>    
-<figure class="align-default" id="id3">
+<figure class="align-default" id="id4">
 <a class="reference internal image-reference" href="../_images/1567215981081-Rosetta_NavCam_comet_67P_20150707_enhanced_625.jpg"><img alt="../_images/1567215981081-Rosetta_NavCam_comet_67P_20150707_enhanced_625.jpg" src="../_images/1567215981081-Rosetta_NavCam_comet_67P_20150707_enhanced_625.jpg" style="width: 300px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 5 </span><span class="caption-text">Comet 67P Churyumov-Gerasimenko <a class="reference external" href="https://sci.esa.int/web/rosetta/-/56159-comet-67p-on-7-july-2015-navcam-enhanced">Source</a></span><a class="headerlink" href="#id3" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 8 </span><span class="caption-text">Comet 67P Churyumov-Gerasimenko <a class="reference external" href="https://sci.esa.int/web/rosetta/-/56159-comet-67p-on-7-july-2015-navcam-enhanced">Source</a></span><a class="headerlink" href="#id4" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <p><strong>Want to know more ?</strong></p>
@@ -762,7 +830,7 @@ Molecular Clouds are the birth place of Stars, and all those tiny µm interstell
 </aside>
 </section>
 <section id="strong-u-within-comets-icy-moons-u-strong">
-<h3><strong>»  <u>Within Comets &amp; Icy Moons </u></strong><a class="headerlink" href="#strong-u-within-comets-icy-moons-u-strong" title="Permalink to this headline">#</a></h3>
+<h3><strong>»  <u>Within Comets &amp; Icy Moons </u></strong><a class="headerlink" href="#strong-u-within-comets-icy-moons-u-strong" title="Permalink to this heading">#</a></h3>
 <p>Where ice is present today in the solar system</p>
 <p>Comets are <span class="hovertext" data-hover="unaltered">pristine</span> solar system bodies that can give us information about the processes at play during the earliest stages of planet formation.</p>
 <p>Enceladus, Jupyter Moon … Water, life tout ca tout ca …</p>
@@ -785,7 +853,7 @@ Molecular Clouds are the birth place of Stars, and all those tiny µm interstell
 </section>
 </section>
 <section id="observations-experiments-modelling">
-<h2>Observations, Experiments &amp; Modelling<a class="headerlink" href="#observations-experiments-modelling" title="Permalink to this headline">#</a></h2>
+<h2>Observations, Experiments &amp; Modelling<a class="headerlink" href="#observations-experiments-modelling" title="Permalink to this heading">#</a></h2>
 <aside class="margin sidebar">
 <p class="sidebar-title"></p>
 <div class="admonition note">
@@ -795,13 +863,13 @@ Molecular Clouds are the birth place of Stars, and all those tiny µm interstell
 </aside>
 <p class="emphase">In space, ice is not a crystal like here on earth, but an <strong>amorphous</strong> material with very distinct properties.</p>
 <section id="strong-u-jwst-u-strong">
-<h3><strong>» <u>JWST</u></strong><a class="headerlink" href="#strong-u-jwst-u-strong" title="Permalink to this headline">#</a></h3>
+<h3><strong>» <u>JWST</u></strong><a class="headerlink" href="#strong-u-jwst-u-strong" title="Permalink to this heading">#</a></h3>
 <article id="P1">
 <div id="subdiv1-3">    
-<figure class="align-default" id="id4">
+<figure class="align-default" id="id5">
 <a class="reference internal image-reference" href="../_images/Webb_2_0.png"><img alt="../_images/Webb_2_0.png" src="../_images/Webb_2_0.png" style="width: 300px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 6 </span><span class="caption-text">JWST</span><a class="headerlink" href="#id4" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 9 </span><span class="caption-text">JWST</span><a class="headerlink" href="#id5" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <p><strong>Want to know more ?</strong></p>
@@ -818,7 +886,7 @@ Molecular Clouds are the birth place of Stars, and all those tiny µm interstell
 </section>
 <hr class="docutils" />
 <section id="strong-u-amorphous-ice-experiments-u-strong">
-<h3><strong>» <u>Amorphous ice experiments</u></strong><a class="headerlink" href="#strong-u-amorphous-ice-experiments-u-strong" title="Permalink to this headline">#</a></h3>
+<h3><strong>» <u>Amorphous ice experiments</u></strong><a class="headerlink" href="#strong-u-amorphous-ice-experiments-u-strong" title="Permalink to this heading">#</a></h3>
 <aside class="margin sidebar">
 <p class="sidebar-title"></p>
 <div class="tip admonition">
@@ -827,21 +895,21 @@ Molecular Clouds are the birth place of Stars, and all those tiny µm interstell
 </div>
 </aside>
 <section id="vapor-deposited">
-<h4>Vapor deposited<a class="headerlink" href="#vapor-deposited" title="Permalink to this headline">#</a></h4>
+<h4>Vapor deposited<a class="headerlink" href="#vapor-deposited" title="Permalink to this heading">#</a></h4>
 </section>
 <section id="hyperquenched">
-<h4>Hyperquenched<a class="headerlink" href="#hyperquenched" title="Permalink to this headline">#</a></h4>
+<h4>Hyperquenched<a class="headerlink" href="#hyperquenched" title="Permalink to this heading">#</a></h4>
 </section>
 </section>
 <section id="strong-u-water-ice-models-u-strong">
-<h3><strong>» <u>Water Ice Models</u></strong><a class="headerlink" href="#strong-u-water-ice-models-u-strong" title="Permalink to this headline">#</a></h3>
+<h3><strong>» <u>Water Ice Models</u></strong><a class="headerlink" href="#strong-u-water-ice-models-u-strong" title="Permalink to this heading">#</a></h3>
 </section>
 </section>
 <section id="astrochemistry-vs-geochemistry">
-<h2>Astrochemistry vs Geochemistry<a class="headerlink" href="#astrochemistry-vs-geochemistry" title="Permalink to this headline">#</a></h2>
+<h2>Astrochemistry vs Geochemistry<a class="headerlink" href="#astrochemistry-vs-geochemistry" title="Permalink to this heading">#</a></h2>
 <p class="emphase">Most of the chemistry in space occurs within the ice mantle covering interstellar dust.</p>
 <section id="strong-u-molecules-in-space-u-strong">
-<h3><strong>» <u>Molecules in space</u></strong><a class="headerlink" href="#strong-u-molecules-in-space-u-strong" title="Permalink to this headline">#</a></h3>
+<h3><strong>» <u>Molecules in space</u></strong><a class="headerlink" href="#strong-u-molecules-in-space-u-strong" title="Permalink to this heading">#</a></h3>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <ul class="simple">
@@ -851,7 +919,7 @@ Molecular Clouds are the birth place of Stars, and all those tiny µm interstell
 </div>
 </section>
 <section id="strong-u-cosmochemistry-u-strong">
-<h3><strong>» <u>Cosmochemistry</u></strong><a class="headerlink" href="#strong-u-cosmochemistry-u-strong" title="Permalink to this headline">#</a></h3>
+<h3><strong>» <u>Cosmochemistry</u></strong><a class="headerlink" href="#strong-u-cosmochemistry-u-strong" title="Permalink to this heading">#</a></h3>
 <p class="emphase">The Ariane Thread for Planet Formation</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
@@ -863,7 +931,7 @@ Molecular Clouds are the birth place of Stars, and all those tiny µm interstell
 </section>
 </section>
 <section id="science-questions">
-<h2>Science questions<a class="headerlink" href="#science-questions" title="Permalink to this headline">#</a></h2>
+<h2>Science questions<a class="headerlink" href="#science-questions" title="Permalink to this heading">#</a></h2>
 <p>From those topics, there is an incredible sets of science questions arising, where Scientists from multiple disciplines have to make a joint effort:</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
@@ -874,7 +942,7 @@ Molecular Clouds are the birth place of Stars, and all those tiny µm interstell
 <p>This lead me to the last of my scientific intrerest</p>
 </section>
 <section id="tools-for-open-science">
-<h2>Tools for Open Science<a class="headerlink" href="#tools-for-open-science" title="Permalink to this headline">#</a></h2>
+<h2>Tools for Open Science<a class="headerlink" href="#tools-for-open-science" title="Permalink to this heading">#</a></h2>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <ul class="simple">

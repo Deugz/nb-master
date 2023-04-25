@@ -67,8 +67,13 @@ James Web Space Telescope [JWST](https://deugz.github.io/nb-teaching/_build/html
 :::{grid-item}
 :columns: 6
 
-```{image} ../_static/Images/Interstellar_dust.PNG
+```{image} 
 
+```
+
+```{figure} ../_static/Images/Interstellar_dust.PNG
+:name: Interstellar Dust
+[Source]
 ```
 
 :::
@@ -101,9 +106,79 @@ James Web Space Telescope [JWST](https://deugz.github.io/nb-teaching/_build/html
 <figcaption>Hover the figure to switch between images - <a href="https://www.esa.int/Science_Exploration/Space_Science/Gaia/Gaia_creates_richest_star_map_of_our_Galaxy_and_beyond" target="blank"> Image 1 </a> Gaia image of the Galactic plane  - <a href="https://lweb.cfa.harvard.edu/mmw/Fig2_Dame.pdf" target="blank"> Image 2 </a> Molecular cloud mapping </figcaption>
 </figure>
 
-<p class="emphase">Hopefully you have had the chance to see the galaxie in your lifetime... Now focus on the dark feature</p>
+<br>
+
+<p class="emphase">Hopefully you have had the chance to see the galaxie in your lifetime... Now focus on the dark feature:</p>
+
+<br>
 
 :::
+
+:::::{div} full-width
+
+<p class="emphase2"><strong>Molecular Clouds</strong></p>
+
+<br>
+<br>
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 7
+
+izhfpizoarzihgozirhizghiozrhzoirhrzihzairh
+
+:::
+
+:::{grid-item}
+:columns: 5
+
+<div class='flip-card'>
+
+<div class='flip_box'>
+<div class='front'>
+<p class='b_headline'>Pillars of creation<br><hr></p>
+</div>
+
+<div class='back'>
+<p class='b_headline'><span class="hovertext" data-hover="You may feel a bit lost at this point, but don't worry I have got you covered with a dedicated set of tutorials">Tutorials</span><br><hr></p>    
+<p class='b_text'> </p>
+
+<br>    
+    
+<div class="wrapper">
+<button class="button"><span> <a href="Astronomy_101.html"  title= "" target="blank"> Astronomy 101 </a></span></button> 
+</div>
+    
+<br> 
+<br>
+    
+<div class="wrapper">
+<button class="button"><span> <a href="Astronomy_101.html"  title= "" target="blank"> The ISM </a></span></button> 
+</div>
+    
+    
+</div>
+
+</div>
+
+<div class='r_wrap'>
+
+<div class='b_round'></div>
+<div class='s_round'>
+<div class='s_arrow'></div>
+</div>
+</div>
+
+</div>
+
+:::
+
+::::
+
+
+:::::
+
 
 ### <strong>&#187;  <u>Dust Grains  </u></strong>
 
@@ -124,7 +199,13 @@ James Web Space Telescope [JWST](https://deugz.github.io/nb-teaching/_build/html
 :::{grid-item}
 :columns: 4
 
-#### Nova
+#### Stellar Atmosphere
+
+```{figure} ../_static/Images/Space_Pics/SOLARECLIPSE2021FORDISTROHighRes.jpg
+:name: Eclispse solar winds
+[Source](https://apod.nasa.gov/apod/ap211209.html)
+```
+
 
 
 :::
@@ -133,6 +214,14 @@ James Web Space Telescope [JWST](https://deugz.github.io/nb-teaching/_build/html
 :columns: 4
 
 #### Supernovae
+
+
+```{figure} ../_static/Images/Space_Pics/CrabNebula_Hubble_3864.jpg
+:name: Interstellar Dust
+[Source](https://apod.nasa.gov/apod/ap230115.html)
+```
+
+
 
 
 :::
@@ -191,11 +280,10 @@ Source
 ::::{grid} 2 
 
 :::{grid-item-card}
+:columns: 7
 Astrochemistry
 ^^^
 
-<br>
-<br>
 
 <video src="../_static/videos/water_form_dust_leiden.mp4" width="100%" height="" controls>
   Your browser does not support the video tag.
@@ -208,9 +296,11 @@ link note.A
 :::
 
 :::{grid-item-card}
+:columns: 5
 Planet formation
 ^^^
 
+<br>
 
 <video src="../_static/videos/ssc2004-08v2_h264_vga.mov" width="100%" height="" controls>
   Your browser does not support the video tag.

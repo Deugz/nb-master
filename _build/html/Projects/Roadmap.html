@@ -7,7 +7,7 @@
 
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
     <title>Roadmap &#8212; MASTER</title>
   
@@ -43,6 +43,9 @@
     <link rel="stylesheet" type="text/css" href="../_static/css/custom_style.css" />
     <link rel="stylesheet" type="text/css" href="../_static/css/CV_1.css" />
     <link rel="stylesheet" type="text/css" href="../_static/css/style_book_shell.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/css/style_flipping_card.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/css/.ipynb_checkpoints/custom_style-checkpoint.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/css/.ipynb_checkpoints/style_flipping_card-checkpoint.css" />
     <link rel="stylesheet" type="text/css" href="../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
@@ -52,6 +55,7 @@
     <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
     <script src="../_static/jquery.js"></script>
     <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../_static/doctools.js"></script>
     <script src="../_static/clipboard.min.js"></script>
     <script src="../_static/copybutton.js"></script>
@@ -96,7 +100,9 @@ var addUtterances = () => {
 commentsRunWhenDOMLoaded(addUtterances);
 </script>
     <script src="../_static/assets/script/scriptvideo.js"></script>
+    <script src="../_static/assets/script/script_flipping_card.js"></script>
     <script src="../_static/assets/script/.ipynb_checkpoints/scriptvideo-checkpoint.js"></script>
+    <script src="../_static/assets/script/.ipynb_checkpoints/script_blob-checkpoint.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script src="../_static/design-tabs.js"></script>
     <script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-CPYX9S0KDS"></script>
@@ -265,10 +271,14 @@ const thebe_selector_output = ".output, .cell_output"
 </li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../Appendix/Help_main.html">💡 Help</a><input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-6"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="../Appendix/Help/Open_Science.html">Open Science Tools</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../Appendix/Help/Executable-Book/Executable-Book.html">Executable Books</a><input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-7"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../Appendix/Help/Executable-Book/Jupyter.html">Jupyter Book</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../Appendix/Help/Executable-Book/MyST.html">MyST</a></li>
+</ul>
+</li>
 <li class="toctree-l2"><a class="reference internal" href="../Appendix/Help/Education.html">Education</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../Appendix/Help/Anaconda_JB.html">Anaconda</a></li>
 
-<li class="toctree-l2"><a class="reference internal" href="../Appendix/Help/Jupyter.html">Jupyter</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../Appendix/Help/Github_JB.html">Github</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../Appendix/Help/Binder_JB.html">Binder</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../Appendix/Help/SemanticWeb.html">Semantic Web</a></li>
@@ -495,15 +505,13 @@ document.write(`
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#present">Present</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#do-research">Do Research</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#keep-up-to-date-with-myst-js">Keep up to date with MYST-JS</a></li>
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#next-steps">Next Steps</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#validate-the-method-by-securing-funding">Validate the method by securing funding</a><ul class="nav section-nav flex-column">
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#open-business-creators-fund">Open Business Creators Fund</a></li>
-</ul>
-</li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#present-and-until-phd-submission">Present and until PhD submission</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#benefits">Benefits</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#community-building">Community building</a></li>
 </ul>
 </li>
 </ul>
@@ -535,15 +543,15 @@ document.write(`
                 <article class="bd-article" role="main">
                   
   <section class="tex2jax_ignore mathjax_ignore" id="roadmap">
-<h1>Roadmap<a class="headerlink" href="#roadmap" title="Permalink to this headline">#</a></h1>
+<h1>Roadmap<a class="headerlink" href="#roadmap" title="Permalink to this heading">#</a></h1>
 <hr class="docutils" />
 <p class="emphase2"><strong> Objectives  </strong></p>
 <p>This digital space where you have just set foot, is an <strong>experiment</strong> whose aim is to challenge the current <em>scientific publication system</em> by offering a creative alternative. There is a long way to go to get there though, and for the time being, it is a collection of <code class="docutils literal notranslate"><span class="pre">Jupyter</span> <span class="pre">Books</span></code>. They are canvas to share my research outputs and explore the tools available to make it <code class="docutils literal notranslate"><span class="pre">Findable,</span> <span class="pre">Accesible,</span> <span class="pre">Interoperable</span> <span class="pre">and</span> <span class="pre">Reusable</span></code>.</p>
 <hr class="docutils" />
 <section id="what-is-done">
-<h2>What is done<a class="headerlink" href="#what-is-done" title="Permalink to this headline">#</a></h2>
+<h2>What is done<a class="headerlink" href="#what-is-done" title="Permalink to this heading">#</a></h2>
 <section id="strong-u-research-toolbox-u-strong">
-<h3><strong>»  <u>Research Toolbox</u></strong><a class="headerlink" href="#strong-u-research-toolbox-u-strong" title="Permalink to this headline">#</a></h3>
+<h3><strong>»  <u>Research Toolbox</u></strong><a class="headerlink" href="#strong-u-research-toolbox-u-strong" title="Permalink to this heading">#</a></h3>
 <br>
 <div class="full-width docutils">
 <div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
@@ -591,7 +599,7 @@ document.write(`
 </div>
 </section>
 <section id="strong-u-research-outputs-u-strong">
-<h3><strong>»  <u>Research Outputs</u></strong><a class="headerlink" href="#strong-u-research-outputs-u-strong" title="Permalink to this headline">#</a></h3>
+<h3><strong>»  <u>Research Outputs</u></strong><a class="headerlink" href="#strong-u-research-outputs-u-strong" title="Permalink to this heading">#</a></h3>
 <br>
 <div class="full-width docutils">
 <div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
@@ -606,6 +614,14 @@ document.write(`
 </div>
 <div class="sd-card-body docutils">
 <p class="sd-card-text">Where you are now</p>
+<ul class="simple">
+<li><p class="sd-card-text"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Deugz/nb-master?color=green&amp;style=plastic" /></p></li>
+<li><p class="sd-card-text"><img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/Deugz/nb-master?color=yellow&amp;style=plastic" /></p></li>
+<li><p class="sd-card-text"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/Deugz/nb-master?color=red&amp;style=plastic" /></p></li>
+<li><p class="sd-card-text"><img alt="visitors" src="https://page-views.glitch.me/badge?page_id=https://deugz.github.io/nb-master/_build/html/intro.html" /></p></li>
+<li><p class="sd-card-text"><img alt="watchers" src="https://img.shields.io/github/watchers/Deugz/nb-master?style=social" /></p></li>
+<li><p class="sd-card-text"><img alt="stars" src="https://img.shields.io/github/stars/Deugz/nb-master?style=social" /></p></li>
+</ul>
 </div>
 <a class="sd-stretched-link reference external" href="https://deugz.github.io/nb-master/_build/html"></a></div>
 </div>
@@ -616,6 +632,14 @@ document.write(`
 </div>
 <div class="sd-card-body docutils">
 <p class="sd-card-text">Teaching material</p>
+<ul class="simple">
+<li><p class="sd-card-text"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Deugz/nb-teaching?color=green&amp;style=plastic" /></p></li>
+<li><p class="sd-card-text"><img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/Deugz/nb-teaching?color=yellow&amp;style=plastic" /></p></li>
+<li><p class="sd-card-text"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/Deugz/nb-teaching?color=red&amp;style=plastic" /></p></li>
+<li><p class="sd-card-text"><img alt="visitors" src="https://page-views.glitch.me/badge?page_id=https://deugz.github.io/nb-teaching/_build/html/intro.html" /></p></li>
+<li><p class="sd-card-text"><img alt="watchers" src="https://img.shields.io/github/watchers/Deugz/nb-teaching?style=social" /></p></li>
+<li><p class="sd-card-text"><img alt="stars" src="https://img.shields.io/github/stars/Deugz/nb-teaching?style=social" /></p></li>
+</ul>
 </div>
 <a class="sd-stretched-link reference external" href="https://deugz.github.io/nb-teaching/_build/html"></a></div>
 </div>
@@ -626,6 +650,14 @@ document.write(`
 </div>
 <div class="sd-card-body docutils">
 <p class="sd-card-text">Project 1</p>
+<ul class="simple">
+<li><p class="sd-card-text"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Deugz/nb-phd?color=green&amp;style=plastic" /></p></li>
+<li><p class="sd-card-text"><img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/Deugz/nb-teaching?color=yellow&amp;style=plastic" /></p></li>
+<li><p class="sd-card-text"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/Deugz/nb-teaching?color=red&amp;style=plastic" /></p></li>
+<li><p class="sd-card-text"><img alt="visitors" src="https://page-views.glitch.me/badge?page_id=https://deugz.github.io/nb-teaching/_build/html/intro.html" /></p></li>
+<li><p class="sd-card-text"><img alt="watchers" src="https://img.shields.io/github/watchers/Deugz/nb-teaching?style=social" /></p></li>
+<li><p class="sd-card-text"><img alt="stars" src="https://img.shields.io/github/stars/Deugz/nb-teaching?style=social" /></p></li>
+</ul>
 </div>
 <a class="sd-stretched-link reference external" href="https://deugz.github.io/nb-phd/_build/html"></a></div>
 </div>
@@ -670,7 +702,7 @@ document.write(`
 </div>
 </section>
 <section id="strong-u-workflow-u-strong">
-<h3><strong>»  <u>Workflow</u></strong><a class="headerlink" href="#strong-u-workflow-u-strong" title="Permalink to this headline">#</a></h3>
+<h3><strong>»  <u>Workflow</u></strong><a class="headerlink" href="#strong-u-workflow-u-strong" title="Permalink to this heading">#</a></h3>
 <div class="full-width docutils">
 <details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
 <summary class="sd-summary-title sd-card-header">
@@ -683,7 +715,7 @@ How it all work together <div class="sd-summary-down docutils">
 </div>
 </details></div>
 <section id="tools">
-<h4>Tools<a class="headerlink" href="#tools" title="Permalink to this headline">#</a></h4>
+<h4>Tools<a class="headerlink" href="#tools" title="Permalink to this heading">#</a></h4>
 <a class="reference internal image-reference" href="../_images/workflow1.png"><img alt="workflow1" src="../_images/workflow1.png" style="width: 1200px;" /></a>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
@@ -697,7 +729,7 @@ How it all work together <div class="sd-summary-down docutils">
 </section>
 </section>
 <section id="present">
-<h2>Present<a class="headerlink" href="#present" title="Permalink to this headline">#</a></h2>
+<h2>Present<a class="headerlink" href="#present" title="Permalink to this heading">#</a></h2>
 <aside class="margin sidebar">
 <p class="sidebar-title"></p>
 <div class="admonition warning">
@@ -709,15 +741,25 @@ How it all work together <div class="sd-summary-down docutils">
 </div>
 </aside>
 <section id="do-research">
-<h3>Do Research<a class="headerlink" href="#do-research" title="Permalink to this headline">#</a></h3>
+<h3>Do Research<a class="headerlink" href="#do-research" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p><strong>Focus</strong>: nb-museum</p></li>
+</ul>
+</section>
+<section id="keep-up-to-date-with-myst-js">
+<h3>Keep up to date with MYST-JS<a class="headerlink" href="#keep-up-to-date-with-myst-js" title="Permalink to this heading">#</a></h3>
+<p>Using the Hip-Hop website we are creating with Barry</p>
+<ul class="simple">
+<li></li>
+</ul>
 </section>
 </section>
 <section id="next-steps">
-<h2>Next Steps<a class="headerlink" href="#next-steps" title="Permalink to this headline">#</a></h2>
+<h2>Next Steps<a class="headerlink" href="#next-steps" title="Permalink to this heading">#</a></h2>
 <section id="validate-the-method-by-securing-funding">
-<h3>Validate the method by securing funding<a class="headerlink" href="#validate-the-method-by-securing-funding" title="Permalink to this headline">#</a></h3>
+<h3>Validate the method by securing funding<a class="headerlink" href="#validate-the-method-by-securing-funding" title="Permalink to this heading">#</a></h3>
 <section id="open-business-creators-fund">
-<h4>Open Business Creators Fund<a class="headerlink" href="#open-business-creators-fund" title="Permalink to this headline">#</a></h4>
+<h4>Open Business Creators Fund<a class="headerlink" href="#open-business-creators-fund" title="Permalink to this heading">#</a></h4>
 <ul class="simple">
 <li><p><span class="xref myst">Presentation</span></p></li>
 </ul>
@@ -741,38 +783,10 @@ How it all work together <div class="sd-summary-down docutils">
 <li><p><a class="reference external" href="https://socialshifters.co/">Social shifters</a></p></li>
 </ul>
 </section>
-</section>
 <hr class="docutils" />
-<section id="present-and-until-phd-submission">
-<h3>Present and until PhD submission<a class="headerlink" href="#present-and-until-phd-submission" title="Permalink to this headline">#</a></h3>
-<p class="emphase">Finish the Thesis</p>
-<p>Is the main <strong>goal</strong>, and there is still a lot to do</p>
-<ul class="simple">
-<li><p>Data Reduction (link notebook)</p></li>
-<li><p>Data Processing</p></li>
-<li><p>…</p></li>
-</ul>
-<p>I am planning to write my thesis in Word but during the final year of my PhD, I will keep populating this web-site with my research outputs and use it as a tool to discus the results with my supervision team (and collaborators).</p>
-<p>This web-site can Help! (cf benefices section in PhD page - (make link))</p>
-<p class="emphase">Notebook and supervision</p>
-<p>Notes are taken using <code class="docutils literal notranslate"><span class="pre">markdown</span></code> within the PhD folder and are uploaded weekly on Github, prior to my meeting with Anita</p>
-<p><strong>Supervisory team needs to be involved for Peer Review</strong> (Agreed!).</p>
-<ul class="simple">
-<li><p>Innovative approach</p></li>
-<li><p>Continuous feedback workflow</p></li>
-<li><p>Open, inclusive …</p></li>
-<li><p>Easy and fun!</p></li>
-</ul>
-<section id="benefits">
-<h4>Benefits<a class="headerlink" href="#benefits" title="Permalink to this headline">#</a></h4>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Include PhD  benefits section</p>
-</div>
-<p class="emphase">Sprinkle the Teaching material</p>
-<p>Unfolding a Research question requires diving into a lot of complex scientific topics and I will sprinkle the [Teaching](Teaching pages) as I go along. However, the ariane thread related to planet formation span across multiple Scientific fields. For example, I study the formation of planets from a <em>bottom-up</em> approach, taking the initial material present in protoplanetary disks, interstellar dust grains and understand how they aggregate to form bigger bodies and eventually planets. Other Scientists take the opposite approach, recovering meteorites and studying them to understand where do they come frome and what is their formation history (top to bottom). Even though we are trying to solve the same question, our background knowledge, investigation techniques and basic language is completely different and it makes it hard sometimes to understand each others.</p>
-<p class="emphase">Community building</p>
-<p>Idealy I would like to build a community like those ones:</p>
+<section id="community-building">
+<h4>Community building<a class="headerlink" href="#community-building" title="Permalink to this heading">#</a></h4>
+<p class="emphase">Idealy I would like to build a community like those ones</p>
 <ul class="simple">
 <li><p><a class="reference external" href="https://pangeo.io/">Pangeo</a></p>
 <ul>
@@ -781,11 +795,15 @@ How it all work together <div class="sd-summary-down docutils">
 </li>
 <li><p><a class="reference external" href="https://ncar.ucar.edu/">Ncar</a></p></li>
 </ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Create a discussion tab within Github repo !!</p>
+</div>
 </section>
 </section>
 </section>
 <section id="project-aims">
-<h2>Project aims<a class="headerlink" href="#project-aims" title="Permalink to this headline">#</a></h2>
+<h2>Project aims<a class="headerlink" href="#project-aims" title="Permalink to this heading">#</a></h2>
 <h3><strong>&#187;  <u>Collaboration</u></strong></h3>
 <div class="full-width docutils">
 <div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
@@ -820,7 +838,7 @@ How it all work together <div class="sd-summary-down docutils">
 </div>
 </div>
 <section id="post-phd-submition">
-<h3>Post PhD submition<a class="headerlink" href="#post-phd-submition" title="Permalink to this headline">#</a></h3>
+<h3>Post PhD submition<a class="headerlink" href="#post-phd-submition" title="Permalink to this heading">#</a></h3>
 <p>In the future I intend to pursue a Web-development course (le Wagon - 2 month)</p>
 <p>**Coding school, le <code class="docutils literal notranslate"><span class="pre">Wagon</span></code> (inspiration Benjamin code)</p>
 <ul class="simple">
@@ -829,7 +847,7 @@ How it all work together <div class="sd-summary-down docutils">
 <li><p>Transform the Canvas book</p></li>
 </ul>
 <section id="build-a-community">
-<h4>Build a community<a class="headerlink" href="#build-a-community" title="Permalink to this headline">#</a></h4>
+<h4>Build a community<a class="headerlink" href="#build-a-community" title="Permalink to this heading">#</a></h4>
 <h5>Friends</h5>
 <ul class="simple">
 <li><p>Involve people using the <span class="xref myst">Teaching</span> section first (friends ;)</p></li>
@@ -851,10 +869,10 @@ How it all work together <div class="sd-summary-down docutils">
 </section>
 </section>
 <section id="financial-independance">
-<h2>Financial independance<a class="headerlink" href="#financial-independance" title="Permalink to this headline">#</a></h2>
+<h2>Financial independance<a class="headerlink" href="#financial-independance" title="Permalink to this heading">#</a></h2>
 <p>In order to further developp this project but also because science doesn’t pay much (especialy when you do it “out of the box”), it seems important to develop potential income solutions:</p>
 <section id="my-expenditures">
-<h3>My Expenditures<a class="headerlink" href="#my-expenditures" title="Permalink to this headline">#</a></h3>
+<h3>My Expenditures<a class="headerlink" href="#my-expenditures" title="Permalink to this heading">#</a></h3>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>Free Version
@@ -883,7 +901,7 @@ The main objective of the project is to change the mentality of the scientific c
 </div>
 </article>
 <section id="business-rough-plan">
-<h4>Business (rough plan)<a class="headerlink" href="#business-rough-plan" title="Permalink to this headline">#</a></h4>
+<h4>Business (rough plan)<a class="headerlink" href="#business-rough-plan" title="Permalink to this heading">#</a></h4>
 <div class="full-width docutils">
 <div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
 <div class="sd-row sd-row-cols-3 sd-row-cols-xs-3 sd-row-cols-sm-3 sd-row-cols-md-3 sd-row-cols-lg-3 docutils">
@@ -958,7 +976,7 @@ The main objective of the project is to change the mentality of the scientific c
 </section>
 </section>
 <section id="evolution">
-<h2>Evolution<a class="headerlink" href="#evolution" title="Permalink to this headline">#</a></h2>
+<h2>Evolution<a class="headerlink" href="#evolution" title="Permalink to this heading">#</a></h2>
 <div class="full-width docutils">
 <div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
 <div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
@@ -1098,15 +1116,13 @@ The main objective of the project is to change the mentality of the scientific c
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#present">Present</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#do-research">Do Research</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#keep-up-to-date-with-myst-js">Keep up to date with MYST-JS</a></li>
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#next-steps">Next Steps</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#validate-the-method-by-securing-funding">Validate the method by securing funding</a><ul class="nav section-nav flex-column">
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#open-business-creators-fund">Open Business Creators Fund</a></li>
-</ul>
-</li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#present-and-until-phd-submission">Present and until PhD submission</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#benefits">Benefits</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#community-building">Community building</a></li>
 </ul>
 </li>
 </ul>

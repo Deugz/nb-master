@@ -96,6 +96,13 @@ For people
 
 Where you are now
 
+- ![GitHub last commit](https://img.shields.io/github/last-commit/Deugz/nb-master?color=green&style=plastic) 
+- ![GitHub repo size](https://img.shields.io/github/repo-size/Deugz/nb-master?color=yellow&style=plastic) 
+- ![GitHub contributors](https://img.shields.io/github/contributors/Deugz/nb-master?color=red&style=plastic) 
+- ![visitors](https://page-views.glitch.me/badge?page_id=https://deugz.github.io/nb-master/_build/html/intro.html) 
+- ![watchers](https://img.shields.io/github/watchers/Deugz/nb-master?style=social) 
+- ![stars](https://img.shields.io/github/stars/Deugz/nb-master?style=social)
+
 :::
 
 :::{grid-item-card}
@@ -107,6 +114,13 @@ Where you are now
 
 Teaching material
 
+- ![GitHub last commit](https://img.shields.io/github/last-commit/Deugz/nb-teaching?color=green&style=plastic) 
+- ![GitHub repo size](https://img.shields.io/github/repo-size/Deugz/nb-teaching?color=yellow&style=plastic) 
+- ![GitHub contributors](https://img.shields.io/github/contributors/Deugz/nb-teaching?color=red&style=plastic) 
+- ![visitors](https://page-views.glitch.me/badge?page_id=https://deugz.github.io/nb-teaching/_build/html/intro.html) 
+- ![watchers](https://img.shields.io/github/watchers/Deugz/nb-teaching?style=social) 
+- ![stars](https://img.shields.io/github/stars/Deugz/nb-teaching?style=social)
+
 :::
 
 :::{grid-item-card}
@@ -117,6 +131,13 @@ Teaching material
 ^^^
 
 Project 1
+
+- ![GitHub last commit](https://img.shields.io/github/last-commit/Deugz/nb-phd?color=green&style=plastic) 
+- ![GitHub repo size](https://img.shields.io/github/repo-size/Deugz/nb-teaching?color=yellow&style=plastic) 
+- ![GitHub contributors](https://img.shields.io/github/contributors/Deugz/nb-teaching?color=red&style=plastic) 
+- ![visitors](https://page-views.glitch.me/badge?page_id=https://deugz.github.io/nb-teaching/_build/html/intro.html) 
+- ![watchers](https://img.shields.io/github/watchers/Deugz/nb-teaching?style=social) 
+- ![stars](https://img.shields.io/github/stars/Deugz/nb-teaching?style=social)
 
 :::
 
@@ -229,6 +250,18 @@ Main goal is **finish my PhD**
 
 ### Do Research
 
+- **Focus**: nb-museum
+
+
+### Keep up to date with MYST-JS
+
+Using the Hip-Hop website we are creating with Barry
+
+- 
+
+
+
+
 
 ## Next Steps
 
@@ -262,45 +295,11 @@ Insert notes in version
 ***
 
 
-### Present and until PhD submission
+#### Community building
+  
 
-<p class="emphase">Finish the Thesis</p>
+<p class="emphase">Idealy I would like to build a community like those ones</p>
 
-Is the main **goal**, and there is still a lot to do
-
-- Data Reduction (link notebook) 
-- Data Processing
-- ...
-
-I am planning to write my thesis in Word but during the final year of my PhD, I will keep populating this web-site with my research outputs and use it as a tool to discus the results with my supervision team (and collaborators).
-
-This web-site can Help! (cf benefices section in PhD page - (make link))
-
-<p class="emphase">Notebook and supervision</p>
-
-Notes are taken using `markdown` within the PhD folder and are uploaded weekly on Github, prior to my meeting with Anita
-
-**Supervisory team needs to be involved for Peer Review** (Agreed!). 
-
-- Innovative approach
-- Continuous feedback workflow
-- Open, inclusive ...
-- Easy and fun!
-
-#### Benefits
-
-```{note}
-Include PhD  benefits section
-```
-
-
-<p class="emphase">Sprinkle the Teaching material</p>
-
-Unfolding a Research question requires diving into a lot of complex scientific topics and I will sprinkle the [Teaching](Teaching pages) as I go along. However, the ariane thread related to planet formation span across multiple Scientific fields. For example, I study the formation of planets from a *bottom-up* approach, taking the initial material present in protoplanetary disks, interstellar dust grains and understand how they aggregate to form bigger bodies and eventually planets. Other Scientists take the opposite approach, recovering meteorites and studying them to understand where do they come frome and what is their formation history (top to bottom). Even though we are trying to solve the same question, our background knowledge, investigation techniques and basic language is completely different and it makes it hard sometimes to understand each others.       
-
-<p class="emphase">Community building</p>
-
-Idealy I would like to build a community like those ones:
 
 - [Pangeo](https://pangeo.io/)
     - [Pythia project](https://projectpythia.org/)
@@ -308,6 +307,11 @@ Idealy I would like to build a community like those ones:
 - [Ncar](https://ncar.ucar.edu/)
 
 
+:::{note}
+
+Create a discussion tab within Github repo !!
+
+:::
 
 
 

@@ -42,6 +42,9 @@ Quick paragraph to explain the need and the revolutionary movement in the US
 - Science for the people link 
     - That is how I was planning to call my project but already taken
     - [scienceforthepeople](https://scienceforthepeople.org/)
+    
+    
+Include: [openscholarlyinfrastructure](https://openscholarlyinfrastructure.org/)
 
 
 ```
@@ -89,6 +92,7 @@ better but still a business ie Nature charging fees
 ::::::
 
 ## **My Solution**
+
 
 ::::{margin}
 
@@ -190,6 +194,22 @@ better but still a business ie Nature charging fees
 <br>
 
 ::::
+
+<br>
+
+```{image} ../_static/SVG_files/science-2a.svg
+:width: 1000px
+:align: center
+```
+
+<br>
+
+```{note}
+
+To animate like [calligrapher](https://www.calligrapher.ai/)
+
+```
+
 
 <h3><strong>&#187;  <u>Outline</u></strong></h3> 
 
@@ -480,7 +500,6 @@ Clicking on each card will bring you to the specific section of the [How do I](h
 
 <br>
 <br>
-
 
 :::
 

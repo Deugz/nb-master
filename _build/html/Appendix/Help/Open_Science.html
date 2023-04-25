@@ -7,7 +7,7 @@
 
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
     <title>Open Science Tools &#8212; MASTER</title>
   
@@ -43,6 +43,9 @@
     <link rel="stylesheet" type="text/css" href="../../_static/css/custom_style.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/css/CV_1.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/css/style_book_shell.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/style_flipping_card.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/.ipynb_checkpoints/custom_style-checkpoint.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/.ipynb_checkpoints/style_flipping_card-checkpoint.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
@@ -52,6 +55,7 @@
     <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../_static/doctools.js"></script>
     <script src="../../_static/clipboard.min.js"></script>
     <script src="../../_static/copybutton.js"></script>
@@ -96,7 +100,9 @@ var addUtterances = () => {
 commentsRunWhenDOMLoaded(addUtterances);
 </script>
     <script src="../../_static/assets/script/scriptvideo.js"></script>
+    <script src="../../_static/assets/script/script_flipping_card.js"></script>
     <script src="../../_static/assets/script/.ipynb_checkpoints/scriptvideo-checkpoint.js"></script>
+    <script src="../../_static/assets/script/.ipynb_checkpoints/script_blob-checkpoint.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script src="../../_static/design-tabs.js"></script>
     <script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-CPYX9S0KDS"></script>
@@ -117,7 +123,7 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="shortcut icon" href="../../_static/logo_SFTP.png"/>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Education" href="Education.html" />
+    <link rel="next" title="Executable Books" href="Executable-Book/Executable-Book.html" />
     <link rel="prev" title="💡 Help" href="../Help_main.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -265,10 +271,14 @@ const thebe_selector_output = ".output, .cell_output"
 </li>
 <li class="toctree-l1 current active has-children"><a class="reference internal" href="../Help_main.html">💡 Help</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-6"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
 <li class="toctree-l2 current active"><a class="current reference internal" href="#">Open Science Tools</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="Executable-Book/Executable-Book.html">Executable Books</a><input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-7"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="Executable-Book/Jupyter.html">Jupyter Book</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Executable-Book/MyST.html">MyST</a></li>
+</ul>
+</li>
 <li class="toctree-l2"><a class="reference internal" href="Education.html">Education</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Anaconda_JB.html">Anaconda</a></li>
 
-<li class="toctree-l2"><a class="reference internal" href="Jupyter.html">Jupyter</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Github_JB.html">Github</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Binder_JB.html">Binder</a></li>
 <li class="toctree-l2"><a class="reference internal" href="SemanticWeb.html">Semantic Web</a></li>
@@ -542,19 +552,19 @@ document.write(`
                 <article class="bd-article" role="main">
                   
   <section class="tex2jax_ignore mathjax_ignore" id="open-science-tools">
-<h1>Open Science Tools<a class="headerlink" href="#open-science-tools" title="Permalink to this headline">#</a></h1>
+<h1>Open Science Tools<a class="headerlink" href="#open-science-tools" title="Permalink to this heading">#</a></h1>
 <hr class="docutils" />
 <p>There is currently a lot of Open Tools available on the market. The biggest difficulties is to actually find them sor here is a quick overview of those I found so far</p>
 <hr class="docutils" />
 <section id="open-research">
-<h2>Open Research<a class="headerlink" href="#open-research" title="Permalink to this headline">#</a></h2>
+<h2>Open Research<a class="headerlink" href="#open-research" title="Permalink to this heading">#</a></h2>
 <section id="a-good-guide">
-<h3>A Good Guide<a class="headerlink" href="#a-good-guide" title="Permalink to this headline">#</a></h3>
+<h3>A Good Guide<a class="headerlink" href="#a-good-guide" title="Permalink to this heading">#</a></h3>
 <section id="the-turing-way">
-<h4>The Turing Way<a class="headerlink" href="#the-turing-way" title="Permalink to this headline">#</a></h4>
+<h4>The Turing Way<a class="headerlink" href="#the-turing-way" title="Permalink to this heading">#</a></h4>
 <p>Great source of documentation for open data science.</p>
 <section id="images">
-<h5>Images<a class="headerlink" href="#images" title="Permalink to this headline">#</a></h5>
+<h5>Images<a class="headerlink" href="#images" title="Permalink to this heading">#</a></h5>
 <p>from Scriberia - licence CC</p>
 <p><a class="reference external" href="https://zenodo.org/record/3695300#.YvZLvRzMKUk">Zenodo_img_repo</a></p>
 <p>caption must include :</p>
@@ -566,11 +576,11 @@ document.write(`
 </section>
 </section>
 <section id="examples">
-<h3>Examples<a class="headerlink" href="#examples" title="Permalink to this headline">#</a></h3>
+<h3>Examples<a class="headerlink" href="#examples" title="Permalink to this heading">#</a></h3>
 </section>
 </section>
 <section id="id1">
-<h2>Open Science Tools<a class="headerlink" href="#id1" title="Permalink to this headline">#</a></h2>
+<h2>Open Science Tools<a class="headerlink" href="#id1" title="Permalink to this heading">#</a></h2>
 <h4><strong></strong></h4>
 <aside class="margin sidebar">
 <p class="sidebar-title"></p>
@@ -617,7 +627,7 @@ document.write(`
 <br>
 </section>
 <section id="data">
-<h2>Data<a class="headerlink" href="#data" title="Permalink to this headline">#</a></h2>
+<h2>Data<a class="headerlink" href="#data" title="Permalink to this heading">#</a></h2>
 <hr class="docutils" />
 <ul class="simple">
 <li><p><a class="reference external" href="https://towardsdatascience.com/10-free-tools-to-instantly-get-started-with-data-visualisation-d7fadb5f6dce">article 11 free tools</a></p></li>
@@ -627,7 +637,7 @@ document.write(`
 <li><p><a class="reference external" href="https://plotly.com/">Plotly</a></p></li>
 </ul>
 <section id="visualisation">
-<h3>Visualisation<a class="headerlink" href="#visualisation" title="Permalink to this headline">#</a></h3>
+<h3>Visualisation<a class="headerlink" href="#visualisation" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
 <li><p><a class="reference external" href="https://flourish.studio/pricing/">Flourish</a> html embed needs entreprise account</p></li>
 <li><p><a class="reference external" href="https://www.rawgraphs.io/">RAWGraph</a> Graph can be exported in svg (no html embed)</p></li>
@@ -635,9 +645,9 @@ document.write(`
 </section>
 </section>
 <section id="edition">
-<h2>Edition<a class="headerlink" href="#edition" title="Permalink to this headline">#</a></h2>
+<h2>Edition<a class="headerlink" href="#edition" title="Permalink to this heading">#</a></h2>
 <section id="wiki">
-<h3>Wiki<a class="headerlink" href="#wiki" title="Permalink to this headline">#</a></h3>
+<h3>Wiki<a class="headerlink" href="#wiki" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
 <li><p><a class="reference external" href="https://www.dokuwiki.org/dokuwiki">DokuWiki</a></p></li>
 </ul>
@@ -653,7 +663,7 @@ document.write(`
 </div>
 </section>
 <section id="poster-presentation">
-<h3>Poster presentation<a class="headerlink" href="#poster-presentation" title="Permalink to this headline">#</a></h3>
+<h3>Poster presentation<a class="headerlink" href="#poster-presentation" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
 <li><p><a class="reference external" href="https://www.youtube.com/watch?v=1RwJbhkCA58">Youtube tutorial</a></p></li>
 <li><p><a class="reference external" href="https://www.youtube.com/watch?v=uj_Maf-xdhw">Multi plateform sharing</a></p></li>
@@ -661,7 +671,7 @@ document.write(`
 </ul>
 </section>
 <section id="timelines">
-<h3>Timelines<a class="headerlink" href="#timelines" title="Permalink to this headline">#</a></h3>
+<h3>Timelines<a class="headerlink" href="#timelines" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
 <li><p><a class="reference external" href="https://timeline.knightlab.com/#examples">timeline - knightlab</a></p>
 <ul>
@@ -672,12 +682,12 @@ document.write(`
 </section>
 </section>
 <section id="hosting">
-<h2>Hosting<a class="headerlink" href="#hosting" title="Permalink to this headline">#</a></h2>
+<h2>Hosting<a class="headerlink" href="#hosting" title="Permalink to this heading">#</a></h2>
 <section id="github">
-<h3>Github<a class="headerlink" href="#github" title="Permalink to this headline">#</a></h3>
+<h3>Github<a class="headerlink" href="#github" title="Permalink to this heading">#</a></h3>
 </section>
 <section id="rohub">
-<h3>Rohub<a class="headerlink" href="#rohub" title="Permalink to this headline">#</a></h3>
+<h3>Rohub<a class="headerlink" href="#rohub" title="Permalink to this heading">#</a></h3>
 <p>?</p>
 <ul class="simple">
 <li><p><a class="reference external" href="https://the-environmental-ds-book.netlify.app/gallery/exploration/urban-exploration-climate_ukv/urban-exploration-climate_ukv.html">Example Jupyter Book</a></p></li>
@@ -686,21 +696,21 @@ document.write(`
 </section>
 </section>
 <section id="more">
-<h2>More<a class="headerlink" href="#more" title="Permalink to this headline">#</a></h2>
+<h2>More<a class="headerlink" href="#more" title="Permalink to this heading">#</a></h2>
 <section id="step-by-step-guide-creator">
-<h3>Step by step guide creator<a class="headerlink" href="#step-by-step-guide-creator" title="Permalink to this headline">#</a></h3>
+<h3>Step by step guide creator<a class="headerlink" href="#step-by-step-guide-creator" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
 <li><p><a class="reference external" href="https://scribehow.com/">Scribehow</a></p></li>
 </ul>
 </section>
 <section id="education-websites">
-<h3>Education websites<a class="headerlink" href="#education-websites" title="Permalink to this headline">#</a></h3>
+<h3>Education websites<a class="headerlink" href="#education-websites" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
 <li><p><a class="reference external" href="https://www.wolframalpha.com/">wolframalpha</a></p></li>
 </ul>
 </section>
 <section id="as-far-as-i-am-concerned">
-<h3>As far as I am concerned<a class="headerlink" href="#as-far-as-i-am-concerned" title="Permalink to this headline">#</a></h3>
+<h3>As far as I am concerned<a class="headerlink" href="#as-far-as-i-am-concerned" title="Permalink to this heading">#</a></h3>
 <div class="emphase">
     Notebook 3000
 </div>
@@ -722,7 +732,7 @@ document.write(`
 <figure class="align-default" id="id5">
 <a class="reference internal image-reference" href="Appendix/Help/Docs/Reproducibility_Spectrum.PNG"><img alt="Appendix/Help/Docs/Reproducibility_Spectrum.PNG" src="Appendix/Help/Docs/Reproducibility_Spectrum.PNG" style="width: 650px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 12 </span><span class="caption-text">source: <span id="id2">[<a class="reference internal" href="../Biblio/bibliography.html#id12" title="Roger D. Peng. Reproducible research in computational science. Science, 334:1226-1227, 12 2011. doi:10.1126/science.1213847.">Peng, 2011</a>]</span></span><a class="headerlink" href="#id5" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 15 </span><span class="caption-text">source: <span id="id2">[<a class="reference internal" href="../Biblio/bibliography.html#id12" title="Roger D. Peng. Reproducible research in computational science. Science, 334:1226-1227, 12 2011. doi:10.1126/science.1213847.">Peng, 2011</a>]</span></span><a class="headerlink" href="#id5" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <ul class="simple">
@@ -743,7 +753,7 @@ document.write(`
 <p>Insert project description + aims (use pictures from touring way)</p>
 </section>
 <section id="for-others">
-<h3>For others<a class="headerlink" href="#for-others" title="Permalink to this headline">#</a></h3>
+<h3>For others<a class="headerlink" href="#for-others" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
 <li><p>Prepare tutorial to get ready for Jupyter Book</p></li>
 <li><p>Create a template book</p></li>
@@ -753,9 +763,9 @@ document.write(`
 </section>
 </section>
 <section id="id3">
-<h2>Examples<a class="headerlink" href="#id3" title="Permalink to this headline">#</a></h2>
+<h2>Examples<a class="headerlink" href="#id3" title="Permalink to this heading">#</a></h2>
 <section id="other-tools-on-the-market">
-<h3>Other tools on the market<a class="headerlink" href="#other-tools-on-the-market" title="Permalink to this headline">#</a></h3>
+<h3>Other tools on the market<a class="headerlink" href="#other-tools-on-the-market" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
 <li><p><a class="reference external" href="https://quarto.org/">Quarto</a>, looks more professional, more versatil (ie R, Julia), but more complicated and code intensive, less accessible.</p></li>
 <li><p><a class="reference external" href="https://ourresearch.org/">OurResearch</a>, various tools to make research more open:</p>
@@ -767,10 +777,11 @@ document.write(`
 <li><p><a class="reference external" href="https://www.astrobetter.com/">Astrobetter</a></p></li>
 <li><p><a class="reference external" href="https://www.open.edu/openlearncreate/">Open Learn Create</a>, create your own course material</p></li>
 <li><p><a class="reference external" href="https://phdservices.org/">PhD service.org</a>, a scam ?</p></li>
+<li><p><a class="reference external" href="https://themes.gohugo.io/themes/starter-hugo-academic/">Hugo web-site theme</a></p></li>
 </ul>
 </section>
 <section id="citizen-science-programs">
-<h3>Citizen Science programs<a class="headerlink" href="#citizen-science-programs" title="Permalink to this headline">#</a></h3>
+<h3>Citizen Science programs<a class="headerlink" href="#citizen-science-programs" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
 <li><p><a class="reference external" href="https://www.zooniverse.org">Zooniverse</a></p></li>
 <li><p><a class="reference external" href="https://cos4cloud-eosc.eu/">Cos4Cloud</a> European project for producing Citizen science tools</p>
@@ -781,9 +792,9 @@ document.write(`
 </ul>
 </section>
 <section id="other-cool-scientific-web-sites">
-<h3>Other cool Scientific web-sites<a class="headerlink" href="#other-cool-scientific-web-sites" title="Permalink to this headline">#</a></h3>
+<h3>Other cool Scientific web-sites<a class="headerlink" href="#other-cool-scientific-web-sites" title="Permalink to this heading">#</a></h3>
 <section id="science">
-<h4>Science<a class="headerlink" href="#science" title="Permalink to this headline">#</a></h4>
+<h4>Science<a class="headerlink" href="#science" title="Permalink to this heading">#</a></h4>
 <ul class="simple">
 <li><p><a class="reference external" href="http://astrochymist.org/">Astrochemistry</a></p></li>
 <li><p><a class="reference external" href="https://astrobiology.com/">Astrobiology</a></p></li>
@@ -792,7 +803,7 @@ document.write(`
 </ul>
 </section>
 <section id="coding">
-<h4>Coding<a class="headerlink" href="#coding" title="Permalink to this headline">#</a></h4>
+<h4>Coding<a class="headerlink" href="#coding" title="Permalink to this heading">#</a></h4>
 <ul class="simple">
 <li><p><a class="reference external" href="https://neetcode.io/">neetcode</a></p></li>
 <li></li>
@@ -800,7 +811,7 @@ document.write(`
 </section>
 </section>
 <section id="coups-de-perso">
-<h3>Coups de 💖 perso<a class="headerlink" href="#coups-de-perso" title="Permalink to this headline">#</a></h3>
+<h3>Coups de 💖 perso<a class="headerlink" href="#coups-de-perso" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
 <li><p><a class="reference external" href="https://www.rivenature33.com/">JIM</a></p></li>
 </ul>
@@ -811,7 +822,7 @@ document.write(`
 </section>
 </section>
 <section id="open-science">
-<h2>Open Science<a class="headerlink" href="#open-science" title="Permalink to this headline">#</a></h2>
+<h2>Open Science<a class="headerlink" href="#open-science" title="Permalink to this heading">#</a></h2>
 <h3><strong>&#187;  <u>Communication</u></strong></h3>
 <img src="https://imgs.xkcd.com/comics/feature_comparison.png" />
 <div class="admonition note">
@@ -989,11 +1000,11 @@ document.write(`
       </div>
     </a>
     <a class="right-next"
-       href="Education.html"
+       href="Executable-Book/Executable-Book.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Education</p>
+        <p class="prev-next-title">Executable Books</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>

@@ -7,7 +7,7 @@
 
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
     <title>Github &#8212; MASTER</title>
   
@@ -43,6 +43,9 @@
     <link rel="stylesheet" type="text/css" href="../../_static/css/custom_style.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/css/CV_1.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/css/style_book_shell.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/style_flipping_card.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/.ipynb_checkpoints/custom_style-checkpoint.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/.ipynb_checkpoints/style_flipping_card-checkpoint.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
@@ -52,6 +55,7 @@
     <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../_static/doctools.js"></script>
     <script src="../../_static/clipboard.min.js"></script>
     <script src="../../_static/copybutton.js"></script>
@@ -96,7 +100,9 @@ var addUtterances = () => {
 commentsRunWhenDOMLoaded(addUtterances);
 </script>
     <script src="../../_static/assets/script/scriptvideo.js"></script>
+    <script src="../../_static/assets/script/script_flipping_card.js"></script>
     <script src="../../_static/assets/script/.ipynb_checkpoints/scriptvideo-checkpoint.js"></script>
+    <script src="../../_static/assets/script/.ipynb_checkpoints/script_blob-checkpoint.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script src="../../_static/design-tabs.js"></script>
     <script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-CPYX9S0KDS"></script>
@@ -118,7 +124,7 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link rel="next" title="Binder" href="Binder_JB.html" />
-    <link rel="prev" title="Jupyter" href="Jupyter.html" />
+    <link rel="prev" title="Anaconda" href="Anaconda_JB.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -265,10 +271,14 @@ const thebe_selector_output = ".output, .cell_output"
 </li>
 <li class="toctree-l1 current active has-children"><a class="reference internal" href="../Help_main.html">💡 Help</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-6"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="Open_Science.html">Open Science Tools</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="Executable-Book/Executable-Book.html">Executable Books</a><input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-7"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="Executable-Book/Jupyter.html">Jupyter Book</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Executable-Book/MyST.html">MyST</a></li>
+</ul>
+</li>
 <li class="toctree-l2"><a class="reference internal" href="Education.html">Education</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Anaconda_JB.html">Anaconda</a></li>
 
-<li class="toctree-l2"><a class="reference internal" href="Jupyter.html">Jupyter</a></li>
 <li class="toctree-l2 current active"><a class="current reference internal" href="#">Github</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Binder_JB.html">Binder</a></li>
 <li class="toctree-l2"><a class="reference internal" href="SemanticWeb.html">Semantic Web</a></li>
@@ -502,6 +512,7 @@ document.write(`
 </li>
 </ul>
 </li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#organization">Organization</a></li>
 </ul>
             </nav>
         </div>
@@ -514,7 +525,7 @@ document.write(`
                 <article class="bd-article" role="main">
                   
   <section class="tex2jax_ignore mathjax_ignore" id="github">
-<h1>Github<a class="headerlink" href="#github" title="Permalink to this headline">#</a></h1>
+<h1>Github<a class="headerlink" href="#github" title="Permalink to this heading">#</a></h1>
 <p>GitHub is …</p>
 <hr class="docutils" />
 <p><strong>Ressources</strong>:</p>
@@ -523,16 +534,16 @@ document.write(`
 </ul>
 <hr class="docutils" />
 <section id="upload-jupyterbook-on-github">
-<h2>Upload JupyterBook on Github<a class="headerlink" href="#upload-jupyterbook-on-github" title="Permalink to this headline">#</a></h2>
+<h2>Upload JupyterBook on Github<a class="headerlink" href="#upload-jupyterbook-on-github" title="Permalink to this heading">#</a></h2>
 <p><strong>Few rules</strong></p>
 <ul class="simple">
 <li><p>you can’t upload files bigger than 100 MB (Or you need to use git LFS system)</p></li>
 </ul>
 <section id="create-your-git-repository">
-<h3>Create your git repository<a class="headerlink" href="#create-your-git-repository" title="Permalink to this headline">#</a></h3>
+<h3>Create your git repository<a class="headerlink" href="#create-your-git-repository" title="Permalink to this heading">#</a></h3>
 </section>
 <section id="push-your-book-online">
-<h3>Push your book online<a class="headerlink" href="#push-your-book-online" title="Permalink to this headline">#</a></h3>
+<h3>Push your book online<a class="headerlink" href="#push-your-book-online" title="Permalink to this heading">#</a></h3>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
 <p>How about only pushing on github the _build folder ?</p>
@@ -608,14 +619,14 @@ create the 2 following files</p>
 </pre></div>
 </div>
 <section id="potential-issues">
-<h4>Potential issues<a class="headerlink" href="#potential-issues" title="Permalink to this headline">#</a></h4>
+<h4>Potential issues<a class="headerlink" href="#potential-issues" title="Permalink to this heading">#</a></h4>
 <section id="authentification">
-<h5>Authentification<a class="headerlink" href="#authentification" title="Permalink to this headline">#</a></h5>
+<h5>Authentification<a class="headerlink" href="#authentification" title="Permalink to this heading">#</a></h5>
 <p>Here is a potential issue that can arise when you try to push your book online (for the first time).</p>
 <figure class="align-default" id="github-issue1">
 <img alt="../../_images/Github_issue1.png" src="../../_images/Github_issue1.png" />
 <figcaption>
-<p><span class="caption-number">Fig. 14 </span><span class="caption-text">19/12/2022</span><a class="headerlink" href="#github-issue1" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 18 </span><span class="caption-text">19/12/2022</span><a class="headerlink" href="#github-issue1" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <p>In that case, Github doesn’t recognise me as the owner of the repository. In order to sole this issue I need to find a way to authentificate myself and this can be done in two ways:</p>
@@ -640,17 +651,25 @@ create the 2 following files</p>
 </section>
 </section>
 <section id="github-pages">
-<h3>Github pages<a class="headerlink" href="#github-pages" title="Permalink to this headline">#</a></h3>
+<h3>Github pages<a class="headerlink" href="#github-pages" title="Permalink to this heading">#</a></h3>
 <section id="specific-features">
-<h4>Specific features<a class="headerlink" href="#specific-features" title="Permalink to this headline">#</a></h4>
+<h4>Specific features<a class="headerlink" href="#specific-features" title="Permalink to this heading">#</a></h4>
 <section id="password-your-gh-pages-book">
-<h5>Password your GH pages Book<a class="headerlink" href="#password-your-gh-pages-book" title="Permalink to this headline">#</a></h5>
+<h5>Password your GH pages Book<a class="headerlink" href="#password-your-gh-pages-book" title="Permalink to this heading">#</a></h5>
 <ul class="simple">
 <li><p><span class="xref myst">Access control</span></p></li>
 </ul>
 </section>
 </section>
 </section>
+</section>
+<section id="organization">
+<h2>Organization<a class="headerlink" href="#organization" title="Permalink to this heading">#</a></h2>
+<hr class="docutils" />
+<ul class="simple">
+<li><p><a class="reference external" href="https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/about-organizations">Tutorial</a></p></li>
+</ul>
+<hr class="docutils" />
 </section>
 </section>
 
@@ -683,12 +702,12 @@ create the 2 following files</p>
                   <!-- Previous / next buttons -->
 <div class="prev-next-area">
     <a class="left-prev"
-       href="Jupyter.html"
+       href="Anaconda_JB.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Jupyter</p>
+        <p class="prev-next-title">Anaconda</p>
       </div>
     </a>
     <a class="right-next"
@@ -733,6 +752,7 @@ create the 2 following files</p>
 </li>
 </ul>
 </li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#organization">Organization</a></li>
 </ul>
   </nav></div>
 

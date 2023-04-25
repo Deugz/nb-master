@@ -7,7 +7,7 @@
 
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
     <title>Guide &#8212; MASTER</title>
   
@@ -43,6 +43,9 @@
     <link rel="stylesheet" type="text/css" href="../../_static/css/custom_style.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/css/CV_1.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/css/style_book_shell.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/style_flipping_card.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/.ipynb_checkpoints/custom_style-checkpoint.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/.ipynb_checkpoints/style_flipping_card-checkpoint.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
@@ -52,6 +55,7 @@
     <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../_static/doctools.js"></script>
     <script src="../../_static/clipboard.min.js"></script>
     <script src="../../_static/copybutton.js"></script>
@@ -96,7 +100,9 @@ var addUtterances = () => {
 commentsRunWhenDOMLoaded(addUtterances);
 </script>
     <script src="../../_static/assets/script/scriptvideo.js"></script>
+    <script src="../../_static/assets/script/script_flipping_card.js"></script>
     <script src="../../_static/assets/script/.ipynb_checkpoints/scriptvideo-checkpoint.js"></script>
+    <script src="../../_static/assets/script/.ipynb_checkpoints/script_blob-checkpoint.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script src="../../_static/design-tabs.js"></script>
     <script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-CPYX9S0KDS"></script>
@@ -267,10 +273,14 @@ const thebe_selector_output = ".output, .cell_output"
 </li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../Help_main.html">💡 Help</a><input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-6"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="../Help/Open_Science.html">Open Science Tools</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../Help/Executable-Book/Executable-Book.html">Executable Books</a><input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-7"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../Help/Executable-Book/Jupyter.html">Jupyter Book</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../Help/Executable-Book/MyST.html">MyST</a></li>
+</ul>
+</li>
 <li class="toctree-l2"><a class="reference internal" href="../Help/Education.html">Education</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../Help/Anaconda_JB.html">Anaconda</a></li>
 
-<li class="toctree-l2"><a class="reference internal" href="../Help/Jupyter.html">Jupyter</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../Help/Github_JB.html">Github</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../Help/Binder_JB.html">Binder</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../Help/SemanticWeb.html">Semantic Web</a></li>
@@ -522,7 +532,7 @@ document.write(`
                 <article class="bd-article" role="main">
                   
   <section class="tex2jax_ignore mathjax_ignore" id="guide">
-<h1>Guide<a class="headerlink" href="#guide" title="Permalink to this headline">#</a></h1>
+<h1>Guide<a class="headerlink" href="#guide" title="Permalink to this heading">#</a></h1>
 <hr class="docutils" />
 <p><strong>Documentation</strong>:</p>
 <ul class="simple">
@@ -535,7 +545,7 @@ document.write(`
 </ul>
 <hr class="docutils" />
 <section id="a-quick-guided-tour">
-<h2>A quick guided tour<a class="headerlink" href="#a-quick-guided-tour" title="Permalink to this headline">#</a></h2>
+<h2>A quick guided tour<a class="headerlink" href="#a-quick-guided-tour" title="Permalink to this heading">#</a></h2>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <ul class="simple">
@@ -544,7 +554,7 @@ document.write(`
 </div>
 </section>
 <section id="the-page-layout">
-<h2>The page layout<a class="headerlink" href="#the-page-layout" title="Permalink to this headline">#</a></h2>
+<h2>The page layout<a class="headerlink" href="#the-page-layout" title="Permalink to this heading">#</a></h2>
 <ul class="simple">
 <li><p>How to navigate this web-site</p></li>
 </ul>
@@ -552,9 +562,9 @@ document.write(`
 right menu = local</p>
 </section>
 <section id="legend">
-<h2>Legend<a class="headerlink" href="#legend" title="Permalink to this headline">#</a></h2>
+<h2>Legend<a class="headerlink" href="#legend" title="Permalink to this heading">#</a></h2>
 <section id="links">
-<h3>Links<a class="headerlink" href="#links" title="Permalink to this headline">#</a></h3>
+<h3>Links<a class="headerlink" href="#links" title="Permalink to this heading">#</a></h3>
 <p>We are all familiar withe the <img alt="flag alt &gt;" src="Docs/Svg_icons/external-link-alt-svgrepo-com.svg" /> icon</p>
 <ul class="simple">
 <li><p><img alt="flag alt &gt;" src="Docs/Svg_icons/links/I_link.png" /> - <strong>Internal link</strong>: same web-site but different page</p></li>
@@ -581,7 +591,7 @@ right menu = local</p>
 </aside>
 </section>
 <section id="buttons">
-<h3>Buttons<a class="headerlink" href="#buttons" title="Permalink to this headline">#</a></h3>
+<h3>Buttons<a class="headerlink" href="#buttons" title="Permalink to this heading">#</a></h3>
 <p>Markdown give you the possibility to generate buttons. They are a more informative version of the links presented above. I use on this web-site the following buttons:</p>
 <ul class="simple">
 <li><p>DOI</p></li>
@@ -595,27 +605,27 @@ right menu = local</p>
 </section>
 </section>
 <section id="comments">
-<h2>Comments<a class="headerlink" href="#comments" title="Permalink to this headline">#</a></h2>
+<h2>Comments<a class="headerlink" href="#comments" title="Permalink to this heading">#</a></h2>
 <p>Implement comments on top of big title to have a clear view of page subdivision (usefull when coding with vs code and having very long md files)</p>
 </section>
 <section id="titles">
-<h2>Titles<a class="headerlink" href="#titles" title="Permalink to this headline">#</a></h2>
+<h2>Titles<a class="headerlink" href="#titles" title="Permalink to this heading">#</a></h2>
 </section>
 <section id="images-figures">
-<h2>Images / figures<a class="headerlink" href="#images-figures" title="Permalink to this headline">#</a></h2>
+<h2>Images / figures<a class="headerlink" href="#images-figures" title="Permalink to this heading">#</a></h2>
 <img alt="Docs/Images/JWST_cloud1.jpg" src="Docs/Images/JWST_cloud1.jpg" />
 <figure class="align-default" id="jwst2">
 <img alt="Docs/Images/JWST_cloud1.jpg" src="Docs/Images/JWST_cloud1.jpg" />
 <figcaption>
-<p><span class="caption-number">Fig. 9 </span><span class="caption-text">James Web Space Telescope <a class="reference external" href="https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/JWST/JWST.html">JWST</a></span><a class="headerlink" href="#jwst2" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 12 </span><span class="caption-text">James Web Space Telescope <a class="reference external" href="https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/JWST/JWST.html">JWST</a></span><a class="headerlink" href="#jwst2" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 </section>
 <section id="tables">
-<h2>Tables<a class="headerlink" href="#tables" title="Permalink to this headline">#</a></h2>
+<h2>Tables<a class="headerlink" href="#tables" title="Permalink to this heading">#</a></h2>
 </section>
 <section id="notes">
-<h2>Notes<a class="headerlink" href="#notes" title="Permalink to this headline">#</a></h2>
+<h2>Notes<a class="headerlink" href="#notes" title="Permalink to this heading">#</a></h2>
 <p>Explain what notes correspond to what (proper admonition)</p>
 <div class="dropdown admonition note">
 <p class="admonition-title">Note</p>
@@ -633,10 +643,10 @@ right menu = local</p>
 </div>
 </section>
 <section id="grid">
-<h2>Grid<a class="headerlink" href="#grid" title="Permalink to this headline">#</a></h2>
+<h2>Grid<a class="headerlink" href="#grid" title="Permalink to this heading">#</a></h2>
 <p>put example</p>
 <section id="with-adaptable-column-width">
-<h3>with adaptable column width<a class="headerlink" href="#with-adaptable-column-width" title="Permalink to this headline">#</a></h3>
+<h3>with adaptable column width<a class="headerlink" href="#with-adaptable-column-width" title="Permalink to this heading">#</a></h3>
 <div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
 <div class="sd-row docutils">
 <div class="sd-col sd-d-flex-column sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 sd-border-1 docutils">
@@ -655,7 +665,7 @@ right menu = local</p>
 </div>
 </section>
 <section id="multiple-row">
-<h3>Multiple row<a class="headerlink" href="#multiple-row" title="Permalink to this headline">#</a></h3>
+<h3>Multiple row<a class="headerlink" href="#multiple-row" title="Permalink to this heading">#</a></h3>
 <div class="full-width docutils">
 <div class="sd-container-fluid sd-sphinx-override sd-mb-4 text-center docutils">
 <div class="sd-row sd-row-cols-1 sd-row-cols-xs-1 sd-row-cols-sm-1 sd-row-cols-md-2 sd-row-cols-lg-3 sd-g-3 sd-g-xs-3 sd-g-sm-3 sd-g-md-3 sd-g-lg-3 docutils">
@@ -700,7 +710,7 @@ right menu = local</p>
 </div>
 </section>
 <section id="full-width-content">
-<h3>Full width content<a class="headerlink" href="#full-width-content" title="Permalink to this headline">#</a></h3>
+<h3>Full width content<a class="headerlink" href="#full-width-content" title="Permalink to this heading">#</a></h3>
 <div class="full-width docutils">
 </div>
 <h3><strong>&#187;  <u>Formatting </u></strong></h3>
@@ -717,23 +727,23 @@ right menu = local</p>
 <span class="eqno">(1)<a class="headerlink" href="#equation-my-label" title="Permalink to this equation">#</a></span>\[w_{t+1} = (1 + r_{t+1}) s(w_t) + y_{t+1}\]</div>
 </section>
 <section id="tabs">
-<h3>Tabs<a class="headerlink" href="#tabs" title="Permalink to this headline">#</a></h3>
+<h3>Tabs<a class="headerlink" href="#tabs" title="Permalink to this heading">#</a></h3>
 <p>can be embeded in dropdown</p>
 <ul class="simple">
 <li><p><a class="reference external" href="https://sphinx-design.readthedocs.io/en/latest/tabs.html#tab-set-options">Sphinx-doc</a></p></li>
 </ul>
 </section>
 <section id="dropdown">
-<h3>Dropdown<a class="headerlink" href="#dropdown" title="Permalink to this headline">#</a></h3>
+<h3>Dropdown<a class="headerlink" href="#dropdown" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
 <li><p><a class="reference external" href="https://sphinx-design.readthedocs.io/en/latest/dropdowns.html">Sphinx-doc</a></p></li>
 </ul>
 </section>
 </section>
 <section id="html-symbol">
-<h2>HTML Symbol<a class="headerlink" href="#html-symbol" title="Permalink to this headline">#</a></h2>
+<h2>HTML Symbol<a class="headerlink" href="#html-symbol" title="Permalink to this heading">#</a></h2>
 <section id="orga">
-<h3>Orga<a class="headerlink" href="#orga" title="Permalink to this headline">#</a></h3>
+<h3>Orga<a class="headerlink" href="#orga" title="Permalink to this heading">#</a></h3>
 <div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
 <div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
 <div class="sd-col sd-d-flex-column docutils">

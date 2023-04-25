@@ -43,6 +43,9 @@
     <link rel="stylesheet" type="text/css" href="../../_static/css/custom_style.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/css/CV_1.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/css/style_book_shell.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/style_flipping_card.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/.ipynb_checkpoints/custom_style-checkpoint.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/.ipynb_checkpoints/style_flipping_card-checkpoint.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
@@ -96,7 +99,9 @@ var addUtterances = () => {
 commentsRunWhenDOMLoaded(addUtterances);
 </script>
     <script src="../../_static/assets/script/scriptvideo.js"></script>
+    <script src="../../_static/assets/script/script_flipping_card.js"></script>
     <script src="../../_static/assets/script/.ipynb_checkpoints/scriptvideo-checkpoint.js"></script>
+    <script src="../../_static/assets/script/.ipynb_checkpoints/script_blob-checkpoint.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script src="../../_static/design-tabs.js"></script>
     <script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-CPYX9S0KDS"></script>
@@ -461,7 +466,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -477,6 +484,14 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#jupyter-book">Jupyter Book</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -488,6 +503,29 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="jupyter">
 <h1>Jupyter<a class="headerlink" href="#jupyter" title="Permalink to this headline">#</a></h1>
+<section id="jupyter-book">
+<h2>Jupyter Book<a class="headerlink" href="#jupyter-book" title="Permalink to this headline">#</a></h2>
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>quickstart/
+  ├── 🆕 _build
+  │   ├── exports
+  │   ├── site
+  │   │   ├── content
+  │   │   ├── public
+  │   │   └── config.json
+  │   ├── temp
+  │   └── templates
+  │       ├── site/myst/book-theme
+  │       └── tex/myst/arxiv_two_column
+  ├── images
+  │   ├── image.png
+  │   └── image.gif
+  ├── 01-paper.md
+  ├── 02-notebook.ipynb
+  ├── README.md
+  └── 🆕 myst.yml
+</pre></div>
+</div>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -542,6 +580,20 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#jupyter-book">Jupyter Book</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>

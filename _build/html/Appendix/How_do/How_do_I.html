@@ -7,7 +7,7 @@
 
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
     <title>How do I use &#8212; MASTER</title>
   
@@ -43,6 +43,9 @@
     <link rel="stylesheet" type="text/css" href="../../_static/css/custom_style.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/css/CV_1.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/css/style_book_shell.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/style_flipping_card.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/.ipynb_checkpoints/custom_style-checkpoint.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/.ipynb_checkpoints/style_flipping_card-checkpoint.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
@@ -52,6 +55,7 @@
     <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../_static/doctools.js"></script>
     <script src="../../_static/clipboard.min.js"></script>
     <script src="../../_static/copybutton.js"></script>
@@ -96,7 +100,9 @@ var addUtterances = () => {
 commentsRunWhenDOMLoaded(addUtterances);
 </script>
     <script src="../../_static/assets/script/scriptvideo.js"></script>
+    <script src="../../_static/assets/script/script_flipping_card.js"></script>
     <script src="../../_static/assets/script/.ipynb_checkpoints/scriptvideo-checkpoint.js"></script>
+    <script src="../../_static/assets/script/.ipynb_checkpoints/script_blob-checkpoint.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script src="../../_static/design-tabs.js"></script>
     <script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-CPYX9S0KDS"></script>
@@ -265,10 +271,14 @@ const thebe_selector_output = ".output, .cell_output"
 </li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../Help_main.html">💡 Help</a><input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-6"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="../Help/Open_Science.html">Open Science Tools</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../Help/Executable-Book/Executable-Book.html">Executable Books</a><input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-7"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../Help/Executable-Book/Jupyter.html">Jupyter Book</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../Help/Executable-Book/MyST.html">MyST</a></li>
+</ul>
+</li>
 <li class="toctree-l2"><a class="reference internal" href="../Help/Education.html">Education</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../Help/Anaconda_JB.html">Anaconda</a></li>
 
-<li class="toctree-l2"><a class="reference internal" href="../Help/Jupyter.html">Jupyter</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../Help/Github_JB.html">Github</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../Help/Binder_JB.html">Binder</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../Help/SemanticWeb.html">Semantic Web</a></li>
@@ -506,7 +516,7 @@ document.write(`
                 <article class="bd-article" role="main">
                   
   <section class="tex2jax_ignore mathjax_ignore" id="how-do-i-use">
-<h1>How do I use<a class="headerlink" href="#how-do-i-use" title="Permalink to this headline">#</a></h1>
+<h1>How do I use<a class="headerlink" href="#how-do-i-use" title="Permalink to this heading">#</a></h1>
 <p class="emphase2"><strong>Online Books </strong> </p>
 <br>
 <br>
@@ -519,7 +529,7 @@ document.write(`
 </aside>
 <br>
 <section id="notebook">
-<span id="content-references-title1"></span><h2>Notebook<a class="headerlink" href="#notebook" title="Permalink to this headline">#</a></h2>
+<span id="content-references-title1"></span><h2>Notebook<a class="headerlink" href="#notebook" title="Permalink to this heading">#</a></h2>
 <br>
 <br>
 <div class="full-width docutils">
@@ -775,7 +785,7 @@ Semantic Web compatible<div class="sd-summary-down docutils">
 <br>
 </section>
 <section id="edition">
-<span id="content-references-title4"></span><h2>Edition<a class="headerlink" href="#edition" title="Permalink to this headline">#</a></h2>
+<span id="content-references-title4"></span><h2>Edition<a class="headerlink" href="#edition" title="Permalink to this heading">#</a></h2>
 <br>
 <div class="full-width docutils">
 <p class="emphase2"> <strong> Versatile Canvas  </strong> </p>
@@ -798,7 +808,7 @@ Semantic Web compatible<div class="sd-summary-down docutils">
 <figure class="align-default" id="hst-gallery">
 <a class="reference internal image-reference" href="../../_images/HST_Images.png"><img alt="../../_images/HST_Images.png" src="../../_images/HST_Images.png" style="width: 1200px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 10 </span><span class="caption-text"><a class="reference external" href="https://hubblesite.org/contents/media/images/2022/013/01FX6199GW73PSN2MHVHSMPPFM?itemsPerPage=100">source</a></span><a class="headerlink" href="#hst-gallery" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 13 </span><span class="caption-text"><a class="reference external" href="https://hubblesite.org/contents/media/images/2022/013/01FX6199GW73PSN2MHVHSMPPFM?itemsPerPage=100">source</a></span><a class="headerlink" href="#hst-gallery" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <p class="emphase">I mean, c'mon ...</p>
@@ -876,7 +886,7 @@ Semantic Web compatible<div class="sd-summary-down docutils">
 </aside>
 </section>
 <section id="storage">
-<span id="content-references-title2"></span><h2>Storage<a class="headerlink" href="#storage" title="Permalink to this headline">#</a></h2>
+<span id="content-references-title2"></span><h2>Storage<a class="headerlink" href="#storage" title="Permalink to this heading">#</a></h2>
 <br>
 <div class="full-width docutils">
 <p class="emphase2"> <strong>4 Options</strong></p>
@@ -959,7 +969,7 @@ Semantic Web compatible<div class="sd-summary-down docutils">
 </aside>
 </section>
 <section id="open-science">
-<span id="content-references-title7"></span><h2>Open Science<a class="headerlink" href="#open-science" title="Permalink to this headline">#</a></h2>
+<span id="content-references-title7"></span><h2>Open Science<a class="headerlink" href="#open-science" title="Permalink to this heading">#</a></h2>
 <div class="full-width docutils">
 <br>
 <p class="emphase2"> <strong>FAIR</strong> Data Principles</p>
@@ -1030,7 +1040,7 @@ Semantic Web compatible<div class="sd-summary-down docutils">
 </aside>
 </section>
 <section id="communication">
-<span id="content-references-title6"></span><h2>Communication<a class="headerlink" href="#communication" title="Permalink to this headline">#</a></h2>
+<span id="content-references-title6"></span><h2>Communication<a class="headerlink" href="#communication" title="Permalink to this heading">#</a></h2>
 <div class="full-width docutils">
 <p class="emphase2"> <strong>By me</strong> </p>
 <p class="emphase"><strong>Hybrid</strong></p>
@@ -1267,7 +1277,7 @@ Anyone</label><div class="sd-tab-content docutils">
 </aside>
 </section>
 <section id="collaboration">
-<span id="content-references-title8"></span><h2>Collaboration<a class="headerlink" href="#collaboration" title="Permalink to this headline">#</a></h2>
+<span id="content-references-title8"></span><h2>Collaboration<a class="headerlink" href="#collaboration" title="Permalink to this heading">#</a></h2>
 <br>
 <p class="emphase2"> <strong>Example</strong></p>
 <br>
@@ -1373,7 +1383,7 @@ Anyone</label><div class="sd-tab-content docutils">
 <br>
 </section>
 <section id="management">
-<span id="content-references-title3"></span><h2>Management<a class="headerlink" href="#management" title="Permalink to this headline">#</a></h2>
+<span id="content-references-title3"></span><h2>Management<a class="headerlink" href="#management" title="Permalink to this heading">#</a></h2>
 <p class="emphase2"> <strong>Tools I need</strong></p>
 <p class="emphase"> vs the tools I am told to use</p>
 <p class="emphase2"> <strong>Keep track of progress</strong></p>
@@ -1397,7 +1407,7 @@ Anyone</label><div class="sd-tab-content docutils">
 </aside>
 </section>
 <section id="publications">
-<span id="content-references-title5"></span><h2>Publications<a class="headerlink" href="#publications" title="Permalink to this headline">#</a></h2>
+<span id="content-references-title5"></span><h2>Publications<a class="headerlink" href="#publications" title="Permalink to this heading">#</a></h2>
 <br>
 <div class="full-width docutils">
 <p class="emphase2"> <strong>Scientific Publication System</strong></p>
@@ -1436,7 +1446,7 @@ Anyone</label><div class="sd-tab-content docutils">
 </div>
 </section>
 <section id="engagement">
-<span id="content-references-title9"></span><h2>Engagement<a class="headerlink" href="#engagement" title="Permalink to this headline">#</a></h2>
+<span id="content-references-title9"></span><h2>Engagement<a class="headerlink" href="#engagement" title="Permalink to this heading">#</a></h2>
 <div class="full-width docutils">
 <p class="emphase2"> <strong>Multiple Actors</strong></p>
 <p class="emphase"> Scientist, Artists, Policy makers, the public</p>
@@ -1468,7 +1478,7 @@ Anyone</label><div class="sd-tab-content docutils">
 </aside>
 </section>
 <section id="social-media">
-<span id="content-references-title10"></span><h2>Social media<a class="headerlink" href="#social-media" title="Permalink to this headline">#</a></h2>
+<span id="content-references-title10"></span><h2>Social media<a class="headerlink" href="#social-media" title="Permalink to this heading">#</a></h2>
 <p>Connect Researcher with the general public. Collaboration beyond academia (<code class="docutils literal notranslate"><span class="pre">utterance</span></code> comment)</p>
 <div class="video-div">
 <iframe  id="stickyAnchor" class="v-page-anchor float-left" src="https://www.youtube.com/embed/ZC488_LS42o?enablejsapi=1" frameborder="0" fullscreen width="0" height="0" style="margin:auto;"></iframe>

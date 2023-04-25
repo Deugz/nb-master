@@ -1,6 +1,18 @@
 # Education
 
 ***
+**Scientific Journals**:
+- International Journal of Information and Education Technology - [link](http://ojs.ejournal.net/index.php/ijiet/index)
+- ...
+
+***
+
+## E-Learning
+
+- Technology Acceptance Model ?
+
+
+
 
 ## Teaching
 

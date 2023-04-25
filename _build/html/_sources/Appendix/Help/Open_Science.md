@@ -240,6 +240,8 @@ Insert project description + aims (use pictures from touring way)
 
 - [PhD service.org](https://phdservices.org/), a scam ?
 
+- [Hugo web-site theme](https://themes.gohugo.io/themes/starter-hugo-academic/)
+
 ### Citizen Science programs
 
 - [Zooniverse](https://www.zooniverse.org)

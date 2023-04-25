@@ -7,7 +7,7 @@
 
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
     <title>Semantic Web &#8212; MASTER</title>
   
@@ -43,6 +43,9 @@
     <link rel="stylesheet" type="text/css" href="../../_static/css/custom_style.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/css/CV_1.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/css/style_book_shell.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/style_flipping_card.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/.ipynb_checkpoints/custom_style-checkpoint.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/.ipynb_checkpoints/style_flipping_card-checkpoint.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
@@ -52,6 +55,7 @@
     <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../_static/doctools.js"></script>
     <script src="../../_static/clipboard.min.js"></script>
     <script src="../../_static/copybutton.js"></script>
@@ -96,7 +100,9 @@ var addUtterances = () => {
 commentsRunWhenDOMLoaded(addUtterances);
 </script>
     <script src="../../_static/assets/script/scriptvideo.js"></script>
+    <script src="../../_static/assets/script/script_flipping_card.js"></script>
     <script src="../../_static/assets/script/.ipynb_checkpoints/scriptvideo-checkpoint.js"></script>
+    <script src="../../_static/assets/script/.ipynb_checkpoints/script_blob-checkpoint.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script src="../../_static/design-tabs.js"></script>
     <script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-CPYX9S0KDS"></script>
@@ -264,10 +270,14 @@ const thebe_selector_output = ".output, .cell_output"
 </li>
 <li class="toctree-l1 current active has-children"><a class="reference internal" href="../Help_main.html">💡 Help</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-6"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="Open_Science.html">Open Science Tools</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="Executable-Book/Executable-Book.html">Executable Books</a><input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-7"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="Executable-Book/Jupyter.html">Jupyter Book</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Executable-Book/MyST.html">MyST</a></li>
+</ul>
+</li>
 <li class="toctree-l2"><a class="reference internal" href="Education.html">Education</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Anaconda_JB.html">Anaconda</a></li>
 
-<li class="toctree-l2"><a class="reference internal" href="Jupyter.html">Jupyter</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Github_JB.html">Github</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Binder_JB.html">Binder</a></li>
 <li class="toctree-l2 current active"><a class="current reference internal" href="#">Semantic Web</a></li>
@@ -517,7 +527,7 @@ document.write(`
                 <article class="bd-article" role="main">
                   
   <section class="tex2jax_ignore mathjax_ignore" id="semantic-web">
-<h1>Semantic Web<a class="headerlink" href="#semantic-web" title="Permalink to this headline">#</a></h1>
+<h1>Semantic Web<a class="headerlink" href="#semantic-web" title="Permalink to this heading">#</a></h1>
 <aside class="margin sidebar">
 <p class="sidebar-title"></p>
 <div class="note admonition">
@@ -541,7 +551,7 @@ document.write(`
 </div>
 </aside>
 <section id="introduction">
-<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">#</a></h2>
+<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this heading">#</a></h2>
 <ul class="simple">
 <li><p><a class="reference external" href="https://schema.org/">Schema.org</a></p>
 <ul>
@@ -550,7 +560,7 @@ document.write(`
 </li>
 </ul>
 <section id="build-a-simple-ontologie">
-<h3>Build a simple ontologie<a class="headerlink" href="#build-a-simple-ontologie" title="Permalink to this headline">#</a></h3>
+<h3>Build a simple ontologie<a class="headerlink" href="#build-a-simple-ontologie" title="Permalink to this heading">#</a></h3>
 <p><strong>Tutorial serie</strong>:</p>
 <ul class="simple">
 <li><p><a class="reference external" href="https://www.youtube.com/watch?v=mIh6KY0X4IU&amp;list=PLSXoLBYuvBblPoSVWZHRdMe3XDlUJ2nte&amp;index=4">Youtube_1</a></p></li>
@@ -583,12 +593,12 @@ document.write(`
 </section>
 </section>
 <section id="how-to">
-<h2>How to<a class="headerlink" href="#how-to" title="Permalink to this headline">#</a></h2>
+<h2>How to<a class="headerlink" href="#how-to" title="Permalink to this heading">#</a></h2>
 <section id="html">
-<h3>HTML<a class="headerlink" href="#html" title="Permalink to this headline">#</a></h3>
+<h3>HTML<a class="headerlink" href="#html" title="Permalink to this heading">#</a></h3>
 <p>Embed semantic web tag into html documents</p>
 <section id="example">
-<h4>Example<a class="headerlink" href="#example" title="Permalink to this headline">#</a></h4>
+<h4>Example<a class="headerlink" href="#example" title="Permalink to this heading">#</a></h4>
 <div class="highlight-html notranslate"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">div</span> <span class="na">itemscope</span> <span class="na">itemtype </span><span class="o">=</span><span class="s">&quot;https://schema.org/Movie&quot;</span><span class="p">&gt;</span>
   <span class="p">&lt;</span><span class="nt">h1</span> <span class="na">itemprop</span><span class="o">=</span><span class="s">&quot;name&quot;</span><span class="p">&gt;</span>Avatar<span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
   <span class="p">&lt;</span><span class="nt">div</span> <span class="na">itemprop</span><span class="o">=</span><span class="s">&quot;director&quot;</span> <span class="na">itemscope</span> <span class="na">itemtype</span><span class="o">=</span><span class="s">&quot;https://schema.org/Person&quot;</span><span class="p">&gt;</span>
@@ -606,11 +616,11 @@ document.write(`
 </ul>
 </section>
 <section id="application">
-<h4>Application<a class="headerlink" href="#application" title="Permalink to this headline">#</a></h4>
+<h4>Application<a class="headerlink" href="#application" title="Permalink to this heading">#</a></h4>
 <p>I don’t really use html tags (ie it is the point of JupyterBook to releive you from using use by building html from markdown files).
 However there is a few exception to this rule:</p>
 <section id="definitions">
-<h5>Definitions<a class="headerlink" href="#definitions" title="Permalink to this headline">#</a></h5>
+<h5>Definitions<a class="headerlink" href="#definitions" title="Permalink to this heading">#</a></h5>
 <p>To explain complicated words I use <kbd>span</kbd> tags.</p>
 <ul class="simple">
 <li><p><span class="hovertext" data-hover="Def"> Ontology </span></p></li>
@@ -619,7 +629,7 @@ However there is a few exception to this rule:</p>
 </section>
 </section>
 <section id="online-tutorials">
-<h3>Online tutorials<a class="headerlink" href="#online-tutorials" title="Permalink to this headline">#</a></h3>
+<h3>Online tutorials<a class="headerlink" href="#online-tutorials" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
 <li><p><a class="reference external" href="https://rml.io/yarrrml/tutorial/getting-started/#existing-data-sources">YARRRML</a></p></li>
 <li><p><a class="reference external" href="https://enterprise-knowledge.com/transforming-tabular-data-into-personalized-componentized-content-using-knowledge-graphs-in-python/">From CSV to RDF via python</a></p></li>
@@ -627,7 +637,7 @@ However there is a few exception to this rule:</p>
 </section>
 </section>
 <section id="to-do">
-<h2>To do<a class="headerlink" href="#to-do" title="Permalink to this headline">#</a></h2>
+<h2>To do<a class="headerlink" href="#to-do" title="Permalink to this heading">#</a></h2>
 <div class="admonition-to-do admonition">
 <p class="admonition-title">To do</p>
 <ul class="simple">
@@ -654,14 +664,14 @@ However there is a few exception to this rule:</p>
 </ul>
 </div>
 <section id="what-do-i-need-to-do">
-<h3>What do I need to do<a class="headerlink" href="#what-do-i-need-to-do" title="Permalink to this headline">#</a></h3>
+<h3>What do I need to do<a class="headerlink" href="#what-do-i-need-to-do" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
 <li><p>Have a look at the preexisting ontologies (?) and select the one that are of interest</p></li>
 <li><p>Think about what is important and need highlighting</p></li>
 </ul>
 </section>
 <section id="ontology">
-<h3>Ontology<a class="headerlink" href="#ontology" title="Permalink to this headline">#</a></h3>
+<h3>Ontology<a class="headerlink" href="#ontology" title="Permalink to this heading">#</a></h3>
 <p>I would like to:</p>
 <ul class="simple">
 <li><p>?</p></li>
@@ -671,7 +681,7 @@ However there is a few exception to this rule:</p>
 </section>
 </section>
 <section id="knowledge-graphs">
-<h2>Knowledge graphs<a class="headerlink" href="#knowledge-graphs" title="Permalink to this headline">#</a></h2>
+<h2>Knowledge graphs<a class="headerlink" href="#knowledge-graphs" title="Permalink to this heading">#</a></h2>
 <p><a class="reference external" href="https://data.open.ac.uk/">OU Open knowledge graph</a></p>
 <p><strong>Other examples</strong></p>
 <ul class="simple">

@@ -7,7 +7,7 @@
 
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
     <title>💡 Help &#8212; MASTER</title>
   
@@ -43,6 +43,9 @@
     <link rel="stylesheet" type="text/css" href="../_static/css/custom_style.css" />
     <link rel="stylesheet" type="text/css" href="../_static/css/CV_1.css" />
     <link rel="stylesheet" type="text/css" href="../_static/css/style_book_shell.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/css/style_flipping_card.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/css/.ipynb_checkpoints/custom_style-checkpoint.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/css/.ipynb_checkpoints/style_flipping_card-checkpoint.css" />
     <link rel="stylesheet" type="text/css" href="../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
@@ -52,6 +55,7 @@
     <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
     <script src="../_static/jquery.js"></script>
     <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../_static/doctools.js"></script>
     <script src="../_static/clipboard.min.js"></script>
     <script src="../_static/copybutton.js"></script>
@@ -96,7 +100,9 @@ var addUtterances = () => {
 commentsRunWhenDOMLoaded(addUtterances);
 </script>
     <script src="../_static/assets/script/scriptvideo.js"></script>
+    <script src="../_static/assets/script/script_flipping_card.js"></script>
     <script src="../_static/assets/script/.ipynb_checkpoints/scriptvideo-checkpoint.js"></script>
+    <script src="../_static/assets/script/.ipynb_checkpoints/script_blob-checkpoint.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script src="../_static/design-tabs.js"></script>
     <script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-CPYX9S0KDS"></script>
@@ -265,10 +271,14 @@ const thebe_selector_output = ".output, .cell_output"
 </li>
 <li class="toctree-l1 current active has-children"><a class="current reference internal" href="#">💡 Help</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-6"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="Help/Open_Science.html">Open Science Tools</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="Help/Executable-Book/Executable-Book.html">Executable Books</a><input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-7"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="Help/Executable-Book/Jupyter.html">Jupyter Book</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Help/Executable-Book/MyST.html">MyST</a></li>
+</ul>
+</li>
 <li class="toctree-l2"><a class="reference internal" href="Help/Education.html">Education</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Help/Anaconda_JB.html">Anaconda</a></li>
 
-<li class="toctree-l2"><a class="reference internal" href="Help/Jupyter.html">Jupyter</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Help/Github_JB.html">Github</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Help/Binder_JB.html">Binder</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Help/SemanticWeb.html">Semantic Web</a></li>
@@ -500,14 +510,14 @@ document.write(`
                 <article class="bd-article" role="main">
                   
   <section class="tex2jax_ignore mathjax_ignore" id="help">
-<h1>💡 Help<a class="headerlink" href="#help" title="Permalink to this headline">#</a></h1>
+<h1>💡 Help<a class="headerlink" href="#help" title="Permalink to this heading">#</a></h1>
 <p>This section is the place where I implement quick guide related to problems I experienced along the way of producing this work.</p>
 <section id="page-format">
-<h2>Page format<a class="headerlink" href="#page-format" title="Permalink to this headline">#</a></h2>
+<h2>Page format<a class="headerlink" href="#page-format" title="Permalink to this heading">#</a></h2>
 <figure class="align-default" id="galaxy">
 <a class="reference internal image-reference" href="../_images/Slide1.png"><img alt="../_images/Slide1.png" src="../_images/Slide1.png" style="width: 100%;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 11 </span><span class="caption-text">Dust within the galaxy</span><a class="headerlink" href="#galaxy" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 14 </span><span class="caption-text">Dust within the galaxy</span><a class="headerlink" href="#galaxy" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <div class="admonition note">
@@ -522,18 +532,18 @@ document.write(`
 </div>
 </section>
 <section id="inkscape">
-<h2>Inkscape<a class="headerlink" href="#inkscape" title="Permalink to this headline">#</a></h2>
+<h2>Inkscape<a class="headerlink" href="#inkscape" title="Permalink to this heading">#</a></h2>
 <p><a class="reference external" href="https://www.google.com/search?q=hyperlink+in+svg+inkscape&amp;rlz=1C1YTUH_frFR1036FR1036&amp;oq=hyperlink+in+svg+inkscape&amp;aqs=chrome..69i57j33i22i29i30.9626j0j7&amp;sourceid=chrome&amp;ie=UTF-8#fpstate=ive&amp;vld=cid:347e9356,vid:EoPGVN0Hv-8">Hyperlink in svg</a></p>
 <ul class="simple">
 <li><p><a class="reference external" href="https://www.svgator.com/">SVGator</a></p></li>
 </ul>
 </section>
 <section id="partitioned-hard-drive">
-<h2>Partitioned hard-drive<a class="headerlink" href="#partitioned-hard-drive" title="Permalink to this headline">#</a></h2>
+<h2>Partitioned hard-drive<a class="headerlink" href="#partitioned-hard-drive" title="Permalink to this heading">#</a></h2>
 <p>First make a back-up of old hardrive (just in case)</p>
 </section>
 <section id="create-link-towards-pdf">
-<h2>Create link towards pdf<a class="headerlink" href="#create-link-towards-pdf" title="Permalink to this headline">#</a></h2>
+<h2>Create link towards pdf<a class="headerlink" href="#create-link-towards-pdf" title="Permalink to this heading">#</a></h2>
 </section>
 <div class="toctree-wrapper compound">
 </div>

@@ -7,7 +7,7 @@
 
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
     <title>ODAPA &#8212; MASTER</title>
   
@@ -43,6 +43,9 @@
     <link rel="stylesheet" type="text/css" href="../../_static/css/custom_style.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/css/CV_1.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/css/style_book_shell.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/style_flipping_card.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/.ipynb_checkpoints/custom_style-checkpoint.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/.ipynb_checkpoints/style_flipping_card-checkpoint.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
@@ -52,6 +55,7 @@
     <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../_static/doctools.js"></script>
     <script src="../../_static/clipboard.min.js"></script>
     <script src="../../_static/copybutton.js"></script>
@@ -96,7 +100,9 @@ var addUtterances = () => {
 commentsRunWhenDOMLoaded(addUtterances);
 </script>
     <script src="../../_static/assets/script/scriptvideo.js"></script>
+    <script src="../../_static/assets/script/script_flipping_card.js"></script>
     <script src="../../_static/assets/script/.ipynb_checkpoints/scriptvideo-checkpoint.js"></script>
+    <script src="../../_static/assets/script/.ipynb_checkpoints/script_blob-checkpoint.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script src="../../_static/design-tabs.js"></script>
     <script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-CPYX9S0KDS"></script>
@@ -265,10 +271,14 @@ const thebe_selector_output = ".output, .cell_output"
 </li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../../Appendix/Help_main.html">💡 Help</a><input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-6"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="../../Appendix/Help/Open_Science.html">Open Science Tools</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../Appendix/Help/Executable-Book/Executable-Book.html">Executable Books</a><input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-7"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../Appendix/Help/Executable-Book/Jupyter.html">Jupyter Book</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../Appendix/Help/Executable-Book/MyST.html">MyST</a></li>
+</ul>
+</li>
 <li class="toctree-l2"><a class="reference internal" href="../../Appendix/Help/Education.html">Education</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../Appendix/Help/Anaconda_JB.html">Anaconda</a></li>
 
-<li class="toctree-l2"><a class="reference internal" href="../../Appendix/Help/Jupyter.html">Jupyter</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../Appendix/Help/Github_JB.html">Github</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../Appendix/Help/Binder_JB.html">Binder</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../Appendix/Help/SemanticWeb.html">Semantic Web</a></li>
@@ -534,13 +544,13 @@ document.write(`
                 <article class="bd-article" role="main">
                   
   <section class="tex2jax_ignore mathjax_ignore" id="odapa">
-<h1>ODAPA<a class="headerlink" href="#odapa" title="Permalink to this headline">#</a></h1>
+<h1>ODAPA<a class="headerlink" href="#odapa" title="Permalink to this heading">#</a></h1>
 <p class="emphase">... Across Physics and Astronomy</p>
 <section id="session-2-march-2023">
-<h2>Session 2 - March 2023<a class="headerlink" href="#session-2-march-2023" title="Permalink to this headline">#</a></h2>
+<h2>Session 2 - March 2023<a class="headerlink" href="#session-2-march-2023" title="Permalink to this heading">#</a></h2>
 </section>
 <section id="panel-discussion-using-data-to-answer-scientific-question">
-<h2>Panel discussion - Using Data to answer scientific question<a class="headerlink" href="#panel-discussion-using-data-to-answer-scientific-question" title="Permalink to this headline">#</a></h2>
+<h2>Panel discussion - Using Data to answer scientific question<a class="headerlink" href="#panel-discussion-using-data-to-answer-scientific-question" title="Permalink to this heading">#</a></h2>
 <p><strong>Speakers</strong></p>
 <ul class="simple">
 <li><p>Dr Charanjit Kaur</p></li>
@@ -555,7 +565,7 @@ document.write(`
 <p>Hard, we don’t speak the same language</p>
 <p>Data from different sources, how to compare</p>
 <section id="amber-building-a-molecular-nitrogen-clock">
-<h3>Amber - Building a molecular Nitrogen clock<a class="headerlink" href="#amber-building-a-molecular-nitrogen-clock" title="Permalink to this headline">#</a></h3>
+<h3>Amber - Building a molecular Nitrogen clock<a class="headerlink" href="#amber-building-a-molecular-nitrogen-clock" title="Permalink to this heading">#</a></h3>
 <p>Searches for dark matter</p>
 <p><em>Are fundamental constants constant?</em></p>
 <p>Standard model says yes but standard model</p>
@@ -567,7 +577,7 @@ document.write(`
 </li>
 </ul>
 <section id="quantum-clock">
-<h4>Quantum clock<a class="headerlink" href="#quantum-clock" title="Permalink to this headline">#</a></h4>
+<h4>Quantum clock<a class="headerlink" href="#quantum-clock" title="Permalink to this heading">#</a></h4>
 <ul class="simple">
 <li><p>clock:</p>
 <ul>
@@ -581,7 +591,7 @@ document.write(`
 </section>
 </section>
 <section id="natasha-sussex">
-<h3>Natasha - Sussex<a class="headerlink" href="#natasha-sussex" title="Permalink to this headline">#</a></h3>
+<h3>Natasha - Sussex<a class="headerlink" href="#natasha-sussex" title="Permalink to this heading">#</a></h3>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>Very cool explanation of what BEC is and nice results</p>
@@ -591,7 +601,7 @@ document.write(`
 <li><p>condensed matter and quantum information</p></li>
 </ul>
 <section id="bose-einstein-condensates">
-<h4>Bose einstein condensates<a class="headerlink" href="#bose-einstein-condensates" title="Permalink to this headline">#</a></h4>
+<h4>Bose einstein condensates<a class="headerlink" href="#bose-einstein-condensates" title="Permalink to this heading">#</a></h4>
 <p>rubidium</p>
 <ul class="simple">
 <li><p>Low T: de Briglie wavelength</p></li>
@@ -599,10 +609,10 @@ document.write(`
 </ul>
 </section>
 <section id="qauntum-phase">
-<h4>Qauntum phase<a class="headerlink" href="#qauntum-phase" title="Permalink to this headline">#</a></h4>
+<h4>Qauntum phase<a class="headerlink" href="#qauntum-phase" title="Permalink to this heading">#</a></h4>
 </section>
 <section id="radio-frquency-dressing">
-<h4>Radio frquency dressing<a class="headerlink" href="#radio-frquency-dressing" title="Permalink to this headline">#</a></h4>
+<h4>Radio frquency dressing<a class="headerlink" href="#radio-frquency-dressing" title="Permalink to this heading">#</a></h4>
 <ul class="simple">
 <li><p>Matter wave interference</p></li>
 </ul>
@@ -610,7 +620,7 @@ document.write(`
 </section>
 </section>
 <section id="timothy-leese-scalable-quantum-computing">
-<h3>Timothy Leese Scalable Quantum computing<a class="headerlink" href="#timothy-leese-scalable-quantum-computing" title="Permalink to this headline">#</a></h3>
+<h3>Timothy Leese Scalable Quantum computing<a class="headerlink" href="#timothy-leese-scalable-quantum-computing" title="Permalink to this heading">#</a></h3>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>Cool introduction to quantume sensing, Great diagram</p>
@@ -623,7 +633,7 @@ document.write(`
 </ul>
 </section>
 <section id="siobhan-patrick-quantum-computing">
-<h3>Siobhan Patrick Quantum computing<a class="headerlink" href="#siobhan-patrick-quantum-computing" title="Permalink to this headline">#</a></h3>
+<h3>Siobhan Patrick Quantum computing<a class="headerlink" href="#siobhan-patrick-quantum-computing" title="Permalink to this heading">#</a></h3>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>Very comprehensive, nice work</p>
@@ -637,7 +647,7 @@ document.write(`
 <li><p>Optical</p></li>
 </ul>
 <section id="quantume-gates">
-<h4>Quantume gates<a class="headerlink" href="#quantume-gates" title="Permalink to this headline">#</a></h4>
+<h4>Quantume gates<a class="headerlink" href="#quantume-gates" title="Permalink to this heading">#</a></h4>
 <ul class="simple">
 <li><p>NOT (1 qbit)</p></li>
 <li><p>CNOT (2 qbit)</p></li>
@@ -650,12 +660,12 @@ document.write(`
 </ul>
 </section>
 <section id="measuring-temperature">
-<h4>Measuring Temperature<a class="headerlink" href="#measuring-temperature" title="Permalink to this headline">#</a></h4>
+<h4>Measuring Temperature<a class="headerlink" href="#measuring-temperature" title="Permalink to this heading">#</a></h4>
 <p>Gas expansion</p>
 </section>
 </section>
 <section id="discussion-panel-open-dialogue-in-physics">
-<h3>Discussion Panel: Open Dialogue in Physics<a class="headerlink" href="#discussion-panel-open-dialogue-in-physics" title="Permalink to this headline">#</a></h3>
+<h3>Discussion Panel: Open Dialogue in Physics<a class="headerlink" href="#discussion-panel-open-dialogue-in-physics" title="Permalink to this heading">#</a></h3>
 <aside class="margin sidebar">
 <p class="sidebar-title"></p>
 <p><strong>Speakers</strong></p>
@@ -669,11 +679,11 @@ document.write(`
 **Chair**: Astra Sword
 </aside>
 <section id="how-did-the-dialogue-kept-open-during-covid">
-<h4>How did the dialogue kept open during covid<a class="headerlink" href="#how-did-the-dialogue-kept-open-during-covid" title="Permalink to this headline">#</a></h4>
+<h4>How did the dialogue kept open during covid<a class="headerlink" href="#how-did-the-dialogue-kept-open-during-covid" title="Permalink to this heading">#</a></h4>
 </section>
 </section>
 <section id="opening-keynote-catxere-casacio">
-<h3>Opening Keynote: Catxere Casacio<a class="headerlink" href="#opening-keynote-catxere-casacio" title="Permalink to this headline">#</a></h3>
+<h3>Opening Keynote: Catxere Casacio<a class="headerlink" href="#opening-keynote-catxere-casacio" title="Permalink to this heading">#</a></h3>
 <aside class="margin sidebar">
 <p class="sidebar-title"></p>
 <ul class="simple">
@@ -715,7 +725,7 @@ document.write(`
 </section>
 </section>
 <section id="session-1-september-2022">
-<h2>Session 1 - September 2022<a class="headerlink" href="#session-1-september-2022" title="Permalink to this headline">#</a></h2>
+<h2>Session 1 - September 2022<a class="headerlink" href="#session-1-september-2022" title="Permalink to this heading">#</a></h2>
 <p>What a delightfull parentheses that was on this early September 2022 in Southampton at the student conference <em>Open Dialogues across Physics and Astronomy</em>. Wonderfully chaired by Astra Sword who invited students and accademics from phyics, astronomy and related fields, to welcome interdisciplinary talk and open dialogues around underlooked issue in Physics and Accademia. This conference was a perfect example of kindness …</p>
 <aside class="margin sidebar">
 <p class="sidebar-title"></p>
@@ -725,7 +735,7 @@ document.write(`
 </aside>
 </section>
 <section id="my-contribution">
-<h2>My contribution<a class="headerlink" href="#my-contribution" title="Permalink to this headline">#</a></h2>
+<h2>My contribution<a class="headerlink" href="#my-contribution" title="Permalink to this heading">#</a></h2>
 <div class="toggle docutils container">
 <p>Poster that I presented</p>
 <div class="full-width docutils">
@@ -734,14 +744,14 @@ document.write(`
 </div>
 </section>
 <section id="conference-highligts">
-<h2>Conference highligts<a class="headerlink" href="#conference-highligts" title="Permalink to this headline">#</a></h2>
+<h2>Conference highligts<a class="headerlink" href="#conference-highligts" title="Permalink to this heading">#</a></h2>
 <p>Mes “coups de coeur”</p>
 <section id="diversity-and-inclusion">
-<h3>Diversity and inclusion<a class="headerlink" href="#diversity-and-inclusion" title="Permalink to this headline">#</a></h3>
+<h3>Diversity and inclusion<a class="headerlink" href="#diversity-and-inclusion" title="Permalink to this heading">#</a></h3>
 <p>Great representation</p>
 </section>
 <section id="conference-dinner-of-course">
-<h3>Conference dinner (of course)<a class="headerlink" href="#conference-dinner-of-course" title="Permalink to this headline">#</a></h3>
+<h3>Conference dinner (of course)<a class="headerlink" href="#conference-dinner-of-course" title="Permalink to this heading">#</a></h3>
 <p>It’s been a while since I haven’t done a Conference, the reason being that since two years, they are mostly online. I mean, what is the point if you can’t have a chat with your</p>
 <div class="admonition-note-catxere admonition">
 <p class="admonition-title">Note Catxere </p>
@@ -750,12 +760,12 @@ document.write(`
 <p>When I imagine a new world, I think about it as a planetary scaled Communist organisation, in the sense of global collection , organisation and distribution of the Earth ressources. As such, the whole humanity can ensure that we don’t extract more  than what we actually need and can perform  those tasks in the most possible efficient way (energy saving). Of course, I don’t see the Earth governed by a single human and deep in my heart, I also like my country and it’s borders.</p>
 </section>
 <section id="phd-hidden-curriculum-kindness">
-<h3>PhD hidden curriculum, kindness<a class="headerlink" href="#phd-hidden-curriculum-kindness" title="Permalink to this headline">#</a></h3>
+<h3>PhD hidden curriculum, kindness<a class="headerlink" href="#phd-hidden-curriculum-kindness" title="Permalink to this heading">#</a></h3>
 </section>
 </section>
 </section>
 <section class="tex2jax_ignore mathjax_ignore" id="comments">
-<h1>Comments<a class="headerlink" href="#comments" title="Permalink to this headline">#</a></h1>
+<h1>Comments<a class="headerlink" href="#comments" title="Permalink to this heading">#</a></h1>
 <script src="https://utteranc.es/client.js"
         repo="Deugz/nb-master"
         issue-term="pathname"

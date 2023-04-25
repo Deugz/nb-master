@@ -7,7 +7,7 @@
 
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
     <title>Education &#8212; MASTER</title>
   
@@ -43,6 +43,9 @@
     <link rel="stylesheet" type="text/css" href="../../_static/css/custom_style.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/css/CV_1.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/css/style_book_shell.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/style_flipping_card.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/.ipynb_checkpoints/custom_style-checkpoint.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/.ipynb_checkpoints/style_flipping_card-checkpoint.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
@@ -52,6 +55,7 @@
     <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../_static/doctools.js"></script>
     <script src="../../_static/clipboard.min.js"></script>
     <script src="../../_static/copybutton.js"></script>
@@ -96,7 +100,9 @@ var addUtterances = () => {
 commentsRunWhenDOMLoaded(addUtterances);
 </script>
     <script src="../../_static/assets/script/scriptvideo.js"></script>
+    <script src="../../_static/assets/script/script_flipping_card.js"></script>
     <script src="../../_static/assets/script/.ipynb_checkpoints/scriptvideo-checkpoint.js"></script>
+    <script src="../../_static/assets/script/.ipynb_checkpoints/script_blob-checkpoint.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script src="../../_static/design-tabs.js"></script>
     <script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-CPYX9S0KDS"></script>
@@ -118,7 +124,7 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link rel="next" title="Anaconda" href="Anaconda_JB.html" />
-    <link rel="prev" title="Open Science Tools" href="Open_Science.html" />
+    <link rel="prev" title="MyST" href="Executable-Book/MyST.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -265,10 +271,14 @@ const thebe_selector_output = ".output, .cell_output"
 </li>
 <li class="toctree-l1 current active has-children"><a class="reference internal" href="../Help_main.html">💡 Help</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-6"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="Open_Science.html">Open Science Tools</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="Executable-Book/Executable-Book.html">Executable Books</a><input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-7"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="Executable-Book/Jupyter.html">Jupyter Book</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Executable-Book/MyST.html">MyST</a></li>
+</ul>
+</li>
 <li class="toctree-l2 current active"><a class="current reference internal" href="#">Education</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Anaconda_JB.html">Anaconda</a></li>
 
-<li class="toctree-l2"><a class="reference internal" href="Jupyter.html">Jupyter</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Github_JB.html">Github</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Binder_JB.html">Binder</a></li>
 <li class="toctree-l2"><a class="reference internal" href="SemanticWeb.html">Semantic Web</a></li>
@@ -499,10 +509,10 @@ document.write(`
                 <article class="bd-article" role="main">
                   
   <section class="tex2jax_ignore mathjax_ignore" id="education">
-<h1>Education<a class="headerlink" href="#education" title="Permalink to this headline">#</a></h1>
+<h1>Education<a class="headerlink" href="#education" title="Permalink to this heading">#</a></h1>
 <hr class="docutils" />
 <section id="teaching">
-<h2>Teaching<a class="headerlink" href="#teaching" title="Permalink to this headline">#</a></h2>
+<h2>Teaching<a class="headerlink" href="#teaching" title="Permalink to this heading">#</a></h2>
 <h5>Teaching material</h5>
 <p><strong>Editorial experiments of teaching material</strong>:</p>
 <ul class="simple">
@@ -526,7 +536,7 @@ document.write(`
 <figure class="align-default" id="tree">
 <img alt="Appendix/Help/Docs/Education_tree.png" src="Appendix/Help/Docs/Education_tree.png" />
 <figcaption>
-<p><span class="caption-number">Fig. 13 </span><span class="caption-text">Education image</span><a class="headerlink" href="#tree" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 17 </span><span class="caption-text">Education image</span><a class="headerlink" href="#tree" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 </div>
@@ -534,7 +544,7 @@ document.write(`
 </div>
 </section>
 <section id="to-check">
-<h2>To Check<a class="headerlink" href="#to-check" title="Permalink to this headline">#</a></h2>
+<h2>To Check<a class="headerlink" href="#to-check" title="Permalink to this heading">#</a></h2>
 <h4>Example</h4>
 <ul class="simple">
 <li><p><a class="reference external" href="https://www.julian.com/">Formatting idea</a></p></li>
@@ -570,7 +580,7 @@ document.write(`
 </aside>
 </section>
 <section id="readibility">
-<h2>Readibility<a class="headerlink" href="#readibility" title="Permalink to this headline">#</a></h2>
+<h2>Readibility<a class="headerlink" href="#readibility" title="Permalink to this heading">#</a></h2>
 <p>Readability is the search for factors in reading material which could be easily and objectively counted.<strong>Positivist paradigm</strong> stated that reading difficulties is influenced by four factors, content, stylistic elements, format and organisation. Among these elements, factors such as vocabulary load, sentence structure, idea density and human interest appeared to be significantly related to reading difficulty. <strong>Cognitive science</strong> (date) bring a new perspective which emphasized the interactive nature of reading and the constructive nature of comprehension. Comprehension is related to the cognitive process of searching for meaning, that is no longer viewed as coming from the text, but, rather, from the readers mind in interaction with the text.</p>
 <p>Because of its collaborative nature, and the ability to collect readers experience, I think this web-site can be a great research plateform to investigate readability, accrose the full spectrum of audiences.</p>
 <p>High <strong>readibility</strong> (process of matching the reader and the text) by allowing the readers () to navigate</p>
@@ -620,12 +630,12 @@ document.write(`
                   <!-- Previous / next buttons -->
 <div class="prev-next-area">
     <a class="left-prev"
-       href="Open_Science.html"
+       href="Executable-Book/MyST.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Open Science Tools</p>
+        <p class="prev-next-title">MyST</p>
       </div>
     </a>
     <a class="right-next"

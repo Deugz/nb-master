@@ -49,9 +49,12 @@ parts:
     - file: Appendix/Help_main
       sections:
       - file: Appendix/Help/Open_Science
+      - file: Appendix/Help/Executable-Book/Executable-Book      
+        sections:
+        - file: Appendix/Help/Executable-Book/Jupyter
+        - file: Appendix/Help/Executable-Book/MyST
       - file: Appendix/Help/Education
       - file: Appendix/Help/Anaconda_JB
-      - file: Appendix/Help/Jupyter
       - file: Appendix/Help/Github_JB
       - file: Appendix/Help/Binder_JB
       - file: Appendix/Help/SemanticWeb
