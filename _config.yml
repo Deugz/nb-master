@@ -45,7 +45,7 @@ html:
     hypothesis              : true
     utterances              : 
       repo: "https://github.com/Deugz/nb-master"
-  announcement              : "Current Version: April 2023 ⚠ <u>Thesis Deadline</u>: <strong>October 2023</strong> ⚠ 👀 → <a href='https://deugz.github.io/nb-museum/_build/html/intro.html' target='_blank'>Museum</a>"
+  announcement              : "Current Version: April 2023 ⚠ <u>Thesis Deadline</u>: <strong>December 2023</strong> ⚠' target='_blank'>Museum</a>"
 
 
 sphinx:

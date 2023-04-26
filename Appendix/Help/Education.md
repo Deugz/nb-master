@@ -11,6 +11,10 @@
 
 - Technology Acceptance Model ?
 
+**Litterature**: 
+
+- {cite}`Tarhini2013`
+- {cite}`Tan2013`
 
 
 

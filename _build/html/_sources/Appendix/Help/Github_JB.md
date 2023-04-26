@@ -10,6 +10,37 @@ GitHub is ...
 
 ***
 
+## Overview
+
+### How it works
+
+
+### Commands
+
+#### Delete git commits
+
+This is needed when you try to push a commit and it doesn't work (they can be many reasons for that)
+
+- [Youtube tuto](https://www.youtube.com/watch?v=Z6oBzXWxa8Q)
+
+The best command to use is 
+
+```
+
+git rebase -i HEAD~2
+
+```
+
+Best to do: 
+
+
+```
+git log
+```
+
+To check what is the history of the latest commits
+ 
+
 
 
 ## Upload JupyterBook on Github
