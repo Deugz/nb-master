@@ -4,6 +4,12 @@
 
 There is currently a lot of Open Tools available on the market. The biggest difficulties is to actually find them sor here is a quick overview of those I found so far
 
+
+**To include:**
+
+- [Etherpad](https://etherpad.org/doc/v1.2.1/)
+
+
 ***
 
 ## Open Research

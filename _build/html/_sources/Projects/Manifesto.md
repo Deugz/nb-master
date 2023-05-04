@@ -46,6 +46,9 @@ Quick paragraph to explain the need and the revolutionary movement in the US
     
 Include: [openscholarlyinfrastructure](https://openscholarlyinfrastructure.org/)
 
+- [Force11](https://force11.org/)
+    - [Manifesto](https://force11.org/info/force11-manifesto/#Xhargreaves2011)
+
 
 ```
 

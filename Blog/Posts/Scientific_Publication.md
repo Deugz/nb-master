@@ -120,6 +120,11 @@ Overall, Scientific work is published in a **Boring** way, even though every pie
 
 Of course those "fees" are not paid by scientist themseleves, but rather by their institutions or funding bodies. 
 
+
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://assets2.lottiefiles.com/packages/lf20_qzsgm3gz.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
+    
+    
 </div>
     
 
@@ -233,6 +238,18 @@ Yes, I include the Peer Review process in this section as there is many flaws as
 - Reviewers do not have
 
 
+### Alternatives 
+
+#### Altmetrics
+
+[Manifesto](http://altmetrics.org/manifesto/)
+
+```{note}
+
+To explore
+
+```
+
 ## Actors of Scientific Publishing
 
 ### Clarivate 
@@ -308,3 +325,28 @@ Ask Ross about volcanology publication (free)
 ```
 
 
+## To Add
+
+### Wrong
+
+- Existing Formats Are Not Tailored for Knowledge Transfer
+
+The recent development of new media and communicative possibilities using information technology, and the need to communicate and comprehend increasing amounts of additional information such as numerical and multimedia data, make the traditional forms inadequate. Continued reliance on paper documents and their electronic shadows make it very difficult or impossible to incorporate massive amounts of data, moving images or software; there is simply no natural way to associate such ancillary information ‘into’ the traditional publication. Additionally, any software-based text mining or information extraction procedures require that paper-based information first be converted into machine-tractable form and made freely available for such mining.
+
+- The Ever-Increasing Problem of Information Overload
+
+Scholars have experienced information overload for more than a century {cite:p}`VICKERY1999` and the problem is just getting worse. Online access provides much better knowledge discovery and aggregation tools, but these tools struggle with the fragmentation of research communication caused by the rapid proliferation of increasingly specialized and overlapping journals, some with decreasing quality of reviewing.
+
+- Verifying Claims and Re-using Results
+
+Even in the rare cases where the data are part of the research communication, these are typically relegated to the status of *supplementary material*, whose format {cite:p}`Murray-Rust2008` and preservation (find citation) are inadequate. 
+At present it is difficult for a scholar easily and sustainably to record the data on which the work is based in a form that others can absorb and use, and to maintain links to the associated textual publication.
+
+Best solution is to be in charge during the whole precess!
+
+```{note}
+
+- Give example of astronomical (telescope) data
+
+
+```

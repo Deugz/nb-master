@@ -1,23 +1,56 @@
 # Github
 
+## Overview
+
 GitHub is ...
+
+### Beginners Guide
+
+:::::{div} full-width
+
+::::{grid} 3
+
+:::{grid-item}
+:columns: 4
+
+Github description
+
+:::
+
+:::{grid-item}
+:columns: 1
+
+:::
+
+:::{grid-item}
+:columns: 7
+
+<div class="embedresize">
+<iframe width="100%" height="56.25%" src="https://www.youtube.com/embed/RGOj5yH7evk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+:::
+
+::::
+
+:::::
 
 ***
 
-**Ressources**:
+**Other Ressources**:
 
 - [Real Python](https://realpython.com/python-git-github-intro/) - *Intro guide*
 
 ***
 
-## Overview
-
 ### How it works
 
+May be a walk through example
 
-### Commands
 
-#### Delete git commits
+## Commands
+
+### Delete git commits
 
 This is needed when you try to push a commit and it doesn't work (they can be many reasons for that)
 

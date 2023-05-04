@@ -1,0 +1,1778 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Online Format &#8212; MASTER</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../_static/styles/theme.css?digest=12da95d707ffb74b382d" rel="stylesheet" />
+<link href="../../_static/styles/bootstrap.css?digest=12da95d707ffb74b382d" rel="stylesheet" />
+<link href="../../_static/styles/pydata-sphinx-theme.css?digest=12da95d707ffb74b382d" rel="stylesheet" />
+
+  
+  <link href="../../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=12da95d707ffb74b382d" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" href="../../_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/.ipynb_checkpoints/Cube-checkpoint.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/.ipynb_checkpoints/custom_style-checkpoint.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/.ipynb_checkpoints/CV_1-checkpoint.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/assets/GC/GC6-08-2022_fichiers/stylesheet.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/coffee_cup.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/Cube.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/custom_style.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/CV_1.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/style_book_shell.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/style_flipping_card.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/.ipynb_checkpoints/custom_style-checkpoint.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/.ipynb_checkpoints/style_flipping_card-checkpoint.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../_static/scripts/bootstrap.js?digest=12da95d707ffb74b382d" />
+<link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=12da95d707ffb74b382d" />
+
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/clipboard.min.js"></script>
+    <script src="../../_static/copybutton.js"></script>
+    <script src="../../_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../../_static/togglebutton.js"></script>
+    <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
+    <script kind="utterances">
+
+    var commentsRunWhenDOMLoaded = cb => {
+    if (document.readyState != 'loading') {
+        cb()
+    } else if (document.addEventListener) {
+        document.addEventListener('DOMContentLoaded', cb)
+    } else {
+        document.attachEvent('onreadystatechange', function() {
+        if (document.readyState == 'complete') cb()
+        })
+    }
+}
+
+var addUtterances = () => {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src = "https://utteranc.es/client.js";
+    script.async = "async";
+
+    script.setAttribute("repo", "https://github.com/Deugz/nb-master");
+    script.setAttribute("issue-term", "pathname");
+    script.setAttribute("theme", "github-light");
+    script.setAttribute("label", "💬 comment");
+    script.setAttribute("crossorigin", "anonymous");
+
+    sections = document.querySelectorAll("div.section");
+    if (sections !== null) {
+        section = sections[sections.length-1];
+        section.appendChild(script);
+    }
+}
+commentsRunWhenDOMLoaded(addUtterances);
+</script>
+    <script src="../../_static/assets/script/scriptvideo.js"></script>
+    <script src="../../_static/assets/script/script_flipping_card.js"></script>
+    <script src="../../_static/assets/script/.ipynb_checkpoints/scriptvideo-checkpoint.js"></script>
+    <script src="../../_static/assets/script/.ipynb_checkpoints/script_blob-checkpoint.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../../_static/design-tabs.js"></script>
+    <script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-CPYX9S0KDS"></script>
+    <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){ dataLayer.push(arguments); }
+                gtag('js', new Date());
+                gtag('config', 'G-CPYX9S0KDS');
+            </script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'Research/PhD/How-it-works';</script>
+    <link rel="canonical" href="https://deugz.github.io/nb-master/_build/html/Research/PhD/How-it-works.html" />
+    <link rel="shortcut icon" href="../../_static/logo_SFTP.png"/>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Overview" href="../../Teaching/Teaching_Main.html" />
+    <link rel="prev" title="PhD Thesis" href="PhD-Orga.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+
+  <div class="bd-header-announcement container-fluid bd-header-announcement">
+    <div class="bd-header-announcement__content">Current Version: April 2023 ⚠ <u>Thesis Deadline</u>: <strong>December 2023</strong> ⚠' target='_blank'>Museum</a></div>
+  </div>
+
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+  
+
+<a class="navbar-brand logo" href="../../intro.html">
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../../_static/logo_SFTP.png" class="logo__image only-light" alt="Logo image"/>
+    <script>document.write(`<img src="../../_static/logo_SFTP.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Profile</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../../Profile/Interests.html">Interests</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../Profile/CV/CV_Main.html">Curriculum Vitae</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Project</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../../Projects/Manifesto.html">Manifesto</a></li>
+
+<li class="toctree-l1"><a class="reference internal" href="../../Projects/Roadmap.html">Roadmap</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../Projects/Contribute.html">Contribute / Help</a></li>
+
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Research</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../Research_Main.html">Overview</a></li>
+
+
+
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="PhD-Orga.html">PhD Thesis</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
+<li class="toctree-l2 current active has-children"><a class="current reference internal" href="#">Online Format</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference external" href="https://deugz.github.io/nb-phd/_build/html/intro.html">Amorphous Ice (📖 A)</a></li>
+<li class="toctree-l3"><a class="reference external" href="https://deugz.github.io/nb-museum/_build/html/intro.html">Planet Formation (📖 B)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Teaching</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../../Teaching/Teaching_Main.html">Overview</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Blog / Versions</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Blog/Blog_Main.html">Posts</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Blog/Posts/Scientific_Publication.html">Scientific Publication</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../Blog/Posts/Entrepreneur/Entrepreneur.html">My Entrepreneurship Journey</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-4"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../Blog/Posts/Entrepreneur/DIY-Toolkit.html">DIY Toolkit</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../Blog/Posts/Outreach.html">Outreach</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Blog/Posts/Annie_woman.html">Hackaton</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Blog/Posts/ODAPA.html">ODAPA</a></li>
+
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Blog/Version_Main.html">Versions</a><input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-5"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Blog/Version/version0.html">Version 0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Blog/Version/version1.html">Version 1. </a></li>
+</ul>
+</li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Appendix</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../../Appendix/Biblio/bibliography.html">Bibliography</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Appendix/How_do/Style_guide.html">Guide</a><input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-6"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Appendix/How_do/How_do_I.html">How do I use</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Appendix/How_do/How_can_you.html">How <strong>You</strong> can …</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Appendix/Help_main.html">💡 Help</a><input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-7"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Appendix/Help/Open_Science.html">Open Science Tools</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../Appendix/Help/Executable-Book/Executable-Book.html">Executable Books</a><input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-8"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../Appendix/Help/Executable-Book/Jupyter.html">Jupyter Book</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../Appendix/Help/Executable-Book/MyST.html">MyST</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../Appendix/Help/Education.html">Education</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Appendix/Help/Anaconda_JB.html">Anaconda</a></li>
+
+<li class="toctree-l2"><a class="reference internal" href="../../Appendix/Help/Github_JB.html">Github</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Appendix/Help/Binder_JB.html">Binder</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Appendix/Help/SemanticWeb.html">Semantic Web</a></li>
+</ul>
+</li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/Deugz/nb-master" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/Deugz/nb-master/edit/main/_build/html/Research/PhD/How-it-works.md" target="_blank"
+   class="btn btn-sm btn-source-edit-button dropdown-item"
+   title="Suggest edit"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-pencil-alt"></i>
+  </span>
+<span class="btn__text-container">Suggest edit</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/Deugz/nb-master/issues/new?title=Issue%20on%20page%20%2FResearch/PhD/How-it-works.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../../_sources/Research/PhD/How-it-works.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+<script>
+document.write(`
+  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
+    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
+    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  </button>
+`);
+</script>
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Online Format</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#how">How ?</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#strong-u-tools-u-strong"><strong> ‣ <u> Tools </u></strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#strong-u-workflow-u-strong"><strong> ‣ <u> Workflow </u></strong></a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#strong-daily-notes-implementation-strong"><strong> ‣ ‣ Daily Notes Implementation </strong></a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#strong-supervision-strong"><strong> ‣ ‣ Supervision </strong></a><ul class="nav section-nav flex-column">
+<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#strong-interaction-post-it-strong"><strong> Interaction Post-it </strong></a></li>
+</ul>
+</li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#strong-publication-strong"><strong> ‣ ‣ Publication </strong></a><ul class="nav section-nav flex-column">
+<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#strong-differences-between-notes-and-thesis-strong"><strong>Differences between notes and thesis</strong></a></li>
+</ul>
+</li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#strong-peer-review-strong"><strong> ‣ ‣ Peer Review</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#why">Why ?</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#strong-u-differences-u-strong"><strong> ‣ <u> Differences </u></strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#strong-u-create-a-dialogue-u-strong"><strong> ‣ <u> Create a dialogue …</u></strong></a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#strong-with-the-full-spectrum-of-audiences-strong"><strong> ‣ ‣ … with the full spectrum of audiences</strong></a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#strong-and-the-help-of-strong"><strong> ‣ ‣ And the help of </strong></a><ul class="nav section-nav flex-column">
+<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#strong-school-2-a-strong"><strong>School 2.A</strong></a></li>
+<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#strong-other-researchers-strong"><strong>Other Researchers</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#can-i">Can I ?</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#strong-u-a-bit-of-context-u-strong"><strong>»  <u>A bit of context </u></strong></a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#strong-the-open-university-strong"><strong> The Open University</strong></a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#strong-my-phd-strong"><strong> My PhD</strong></a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#strong-u-phd-thesis-requirements-u-strong"><strong>»  <u>PhD Thesis requirements  </u></strong></a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-next">What is next ?</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="online-format">
+<h1>Online Format<a class="headerlink" href="#online-format" title="Permalink to this heading">#</a></h1>
+<hr class="docutils" />
+<h3> <strong> <u>  Introduction </u></strong> </h3>
+<br>
+<div class="full-width docutils">
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-3 sd-row-cols-xs-3 sd-row-cols-sm-3 sd-row-cols-md-3 sd-row-cols-lg-3 docutils">
+<div class="sd-col sd-d-flex-column sd-col-6 sd-col-xs-6 sd-col-sm-6 sd-col-md-6 sd-col-lg-6 docutils">
+<p>During my PhD, I spent quite a fair bit of time to think about novel methodology to publish research.</p>
+<p><strong>Those online book are</strong>:</p>
+<ul class="simple">
+<li><p>lifelong notes related to the topic of planet formation and amorphous ice</p></li>
+<li><p>an intermediate step towards the production of my Master Thesis.</p></li>
+</ul>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-1 sd-col-xs-1 sd-col-sm-1 sd-col-md-1 sd-col-lg-1 docutils">
+</div>
+<div class="sd-col sd-d-flex-column sd-col-5 sd-col-xs-5 sd-col-sm-5 sd-col-md-5 sd-col-lg-5 docutils">
+<p><strong>Plan</strong></p>
+<ul class="simple">
+<li><p><a class="reference internal" href="../../Appendix/How_do/How_do_I.html#content-references-title1"><span class="std std-ref"><strong>How</strong></span></a></p>
+<ul>
+<li><p>Tools</p></li>
+<li><p>Workflow</p>
+<ul>
+<li><p>Daily Notes Implementation</p></li>
+<li><p>Supervision</p></li>
+<li><p>Publication</p></li>
+<li><p>Peer Review</p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<br>
+<ul class="simple">
+<li><p><a class="reference internal" href="../../Appendix/How_do/How_do_I.html#content-references-title2"><span class="std std-ref"><strong>Why</strong></span></a></p>
+<ul>
+<li><p>Open Toolbox</p></li>
+<li><p>Alternative Publication</p></li>
+<li><p>Enhanced Science Communication</p>
+<ul>
+<li><p>Create a Dialogue</p></li>
+<li><p>Greater Impact</p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<br>
+<ul class="simple">
+<li><p><a class="reference internal" href="#content-references-title3"><span class="std std-ref"><strong>Can I?</strong></span></a></p>
+<ul>
+<li><p>A Bit of Context</p>
+<ul>
+<li><p>The Open University</p></li>
+<li><p>My PhD</p></li>
+</ul>
+</li>
+<li><p>PhD Thesis Requirement</p></li>
+</ul>
+</li>
+</ul>
+<br>
+<ul class="simple">
+<li><p><a class="reference internal" href="#content-references-title4"><span class="std std-ref"><strong>What is next?</strong></span></a></p></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="full-width docutils">
+<p class="emphase2"><strong>Multiple Outputs</strong></p>
+<p class="emphase">As a result, the outputs of my scientific journey extend far beyond the restrictive scope of a thesis</p>
+<p class="emphase"><img src="../../_static\Svg_icons\solar-system-orbit-svgrepo-com.svg" style="width: 40px; pading: 80px; margin-bottom: 30px; margin-top: 20px;"></p>
+<br>
+</div>
+<div class="full-width docutils">
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-4 sd-row-cols-xs-4 sd-row-cols-sm-4 sd-row-cols-md-4 sd-row-cols-lg-4 docutils">
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Open Notes A</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<a class="reference internal image-reference" href="../../_images/logo_SFTP.png"><img alt="../../_images/logo_SFTP.png" class="align-center" src="../../_images/logo_SFTP.png" style="width: 83%;" /></a>
+</div>
+<div class="sd-card-footer docutils">
+<p class="sd-card-text">Anita</p>
+</div>
+<a class="sd-stretched-link reference external" href="https://deugz.github.io/nb-phd/_build/html/intro.html"></a></div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Open Notes B</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<a class="reference internal image-reference" href="../../_images/logo_SFTP.png"><img alt="../../_images/logo_SFTP.png" class="align-center" src="../../_images/logo_SFTP.png" style="width: 83%;" /></a>
+</div>
+<div class="sd-card-footer docutils">
+<p class="sd-card-text">Helen</p>
+</div>
+<a class="sd-stretched-link reference external" href="https://deugz.github.io/nb-museum/_build/html/intro.html"></a></div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Web</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<br>
+<img alt="../../_images/OU_logo.png" src="../../_images/OU_logo.png" />
+<br>
+<br>
+</div>
+<div class="sd-card-footer docutils">
+<p class="sd-card-text">Corpus + Extra material</p>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>School 2.A</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<a class="reference internal image-reference" href="../../_images/logo_SFTP.png"><img alt="../../_images/logo_SFTP.png" class="align-center" src="../../_images/logo_SFTP.png" style="width: 83%;" /></a>
+</div>
+<div class="sd-card-footer docutils">
+<p class="sd-card-text">Extra Work</p>
+</div>
+<a class="sd-stretched-link reference external" href="https://deugz.github.io/nb-teaching/_build/html/intro.html"></a></div>
+</div>
+</div>
+</div>
+</div>
+<hr class="docutils" />
+<aside class="margin sidebar">
+<p class="sidebar-title"></p>
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<p><lottie-player src="https://assets10.lottiefiles.com/packages/lf20_tsdnk8ut.json"  background="transparent"  speed="1"  style="width: 100%; height: auto;"  loop  autoplay></lottie-player></p>
+</aside>
+<section id="how">
+<span id="content-references-title1"></span><h2>How ?<a class="headerlink" href="#how" title="Permalink to this heading">#</a></h2>
+<p class="emphase2"> with <strong> Markdown </strong></p>
+<p class="emphase"> And very few lines of code </p>
+<div class="full-width docutils">
+<blockquote>
+<div><p>The first thing I hear when I tell people that I am writing a website is: <em>Oh that must be difficult</em>. It is actually <strong>easy</strong> and rely on two tools, both developped by the <a class="reference external" href="https://executablebooks.org/en/latest/">Executable Books</a> organization. They both gives the opportunity to build a static website from a collection of markdown files.</p>
+</div></blockquote>
+</div>
+<section id="strong-u-tools-u-strong">
+<h3><strong> ‣ <u> Tools </u></strong><a class="headerlink" href="#strong-u-tools-u-strong" title="Permalink to this heading">#</a></h3>
+<div class="full-width docutils">
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><span style="float: right"><img alt="flag alt &gt;" src="../../_images/JB-small.svg" /></span> <strong>Jupyter Book</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<p class="emphase"> A command-line interface for building <strong>beautiful, publication-quality books</strong> and documents from computational content. </p>
+</div>
+<div class="sd-card-footer docutils">
+<ul class="simple">
+<li><p class="sd-card-text"><a class="reference external" href="https://jupyterbook.org/en/stable/intro.html">Documentation</a></p></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><span style="float: right"><img alt="flag alt &gt;" src="../../_images/Myst-small.svg" /></span> <strong>Myst Markdown</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<p class="emphase"> An extensible, semantic, and community-driven flavor of <em>markdown</em> designed for <strong>scientific and computational narratives</strong>. </p>
+</div>
+<div class="sd-card-footer docutils">
+<ul class="simple">
+<li><p class="sd-card-text"><a class="reference external" href="https://myst-tools.org/">Documentation</a> / <a class="reference external" href="https://myst-tools.org/sandbox">Demonstration</a></p></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<br>
+<p class="emphase2"> <strong> The Mindset </strong></p>
+<p class="emphase"> Good values inherited from the <strong>Open Science</strong> community</p>
+<br>
+<br>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-7 sd-row-cols-xs-7 sd-row-cols-sm-7 sd-row-cols-md-7 sd-row-cols-lg-7 docutils">
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Open</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<img alt="../../_images/open-svgrepo-com.svg" src="../../_images/open-svgrepo-com.svg" /></div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Transparent</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<img alt="../../_images/color-lineal-magnifying-glass-svgrepo-com.svg" src="../../_images/color-lineal-magnifying-glass-svgrepo-com.svg" /></div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Kind</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<img alt="../../_images/loving-charity-svgrepo-com.svg" src="../../_images/loving-charity-svgrepo-com.svg" /></div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Interactif</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<img alt="../../_images/basketball-player-with-the-ball-svgrepo-com.svg" src="../../_images/basketball-player-with-the-ball-svgrepo-com.svg" /></div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Creatif</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<img alt="../../_images/abstract-painting-ic-national-culture-paris-svgrepo-com.svg" src="../../_images/abstract-painting-ic-national-culture-paris-svgrepo-com.svg" /></div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Inclusif</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<img alt="../../_images/global-community-population-overpopulation-svgrepo-com.svg" src="../../_images/global-community-population-overpopulation-svgrepo-com.svg" /></div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Collaboratif</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<img alt="../../_images/work-together-collaborate-co-operate-join-forces-svgrepo-com.svg" src="../../_images/work-together-collaborate-co-operate-join-forces-svgrepo-com.svg" /></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="strong-u-workflow-u-strong">
+<h3><strong> ‣ <u> Workflow </u></strong><a class="headerlink" href="#strong-u-workflow-u-strong" title="Permalink to this heading">#</a></h3>
+<section id="strong-daily-notes-implementation-strong">
+<h4><strong> ‣ ‣ Daily Notes Implementation </strong><a class="headerlink" href="#strong-daily-notes-implementation-strong" title="Permalink to this heading">#</a></h4>
+<br>
+<div class="full-width docutils">
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-3 sd-row-cols-xs-3 sd-row-cols-sm-3 sd-row-cols-md-3 sd-row-cols-lg-3 docutils">
+<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<blockquote>
+<div><p>The <strong>scientific method</strong> is well established since the 17<sup>th</sup> century, and every step rely on carefull notes to document the process. Very little progress (nor investigations or effort) have been made in note taking capabilities to reflect the recent technological advancement of our society and enhance scientific notes. I believe my online note taking routine is a great improvement (with respect to hand written notes) and it gives me multiple benefits (cf card right)</p>
+</div></blockquote>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-5 sd-col-xs-5 sd-col-sm-5 sd-col-md-5 sd-col-lg-5 docutils">
+<a class="reference internal image-reference" href="../../_images/The_Scientific_Method.svg"><img alt="../../_images/The_Scientific_Method.svg" class="align-center" src="../../_images/The_Scientific_Method.svg" width="90%" /></a>
+</div>
+<div class="sd-col sd-d-flex-row sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>How do I</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<ul class="simple">
+<li><p class="sd-card-text">Notebook</p></li>
+<li><p class="sd-card-text">Edition</p></li>
+<li><p class="sd-card-text">Storage</p></li>
+<li><p class="sd-card-text">Open Science</p></li>
+<li><p class="sd-card-text">Communication</p></li>
+<li><p class="sd-card-text">Collaboration</p></li>
+<li><p class="sd-card-text">Publications</p></li>
+<li><p class="sd-card-text">Engagement</p></li>
+<li><p class="sd-card-text">Management</p></li>
+<li><p class="sd-card-text">Social media</p></li>
+</ul>
+</div>
+<a class="sd-stretched-link reference external" href="https://deugz.github.io/nb-master/_build/html/Appendix/How_do/How_do_I.html"></a></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<hr class="docutils" />
+<section id="strong-supervision-strong">
+<h4><strong> ‣ ‣ Supervision </strong><a class="headerlink" href="#strong-supervision-strong" title="Permalink to this heading">#</a></h4>
+<div class="full-width docutils">
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-column sd-col-9 sd-col-xs-9 sd-col-sm-9 sd-col-md-9 sd-col-lg-9 docutils">
+<blockquote>
+<div><p>It is not trivial to get the best out of your supervisory team. The Open University pay a third party company for a <em>PGR Manager</em>, but like any tool designed for all, it is nowhere near fitting everyone need. Everybody should be given the chance to developp his/her own tools. Click on the card to know more (cf right)</p>
+</div></blockquote>
+</div>
+<div class="sd-col sd-d-flex-row sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Supervision / Plan</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<ul class="simple">
+<li><p class="sd-card-text">Montly Plan</p></li>
+<li><p class="sd-card-text">Weekly Notes</p></li>
+</ul>
+</div>
+<a class="sd-stretched-link reference external" href="Organisation.html"></a></div>
+</div>
+</div>
+</div>
+</div>
+<section id="strong-interaction-post-it-strong">
+<h5><strong> Interaction Post-it </strong><a class="headerlink" href="#strong-interaction-post-it-strong" title="Permalink to this heading">#</a></h5>
+<div class="full-width docutils">
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-4 sd-row-cols-xs-4 sd-row-cols-sm-4 sd-row-cols-md-4 sd-row-cols-lg-4 docutils">
+<div class="admonition-note-question admonition">
+<p class="admonition-title">Note / Question</p>
+<p>Sometimes, for the purpose of interactivity, I will ask you some questions, feel free to comment your answers 😉</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>I would ❤ you to comment every word of this website. But please be <strong>mindfull</strong> of the ✏ pages that are formal thesis pages.</p>
+</div>
+<div class="tip admonition">
+<p class="admonition-title">Info / Idea</p>
+<p>Info and Ideas</p>
+</div>
+<div class="seealso admonition">
+<p class="admonition-title">See also</p>
+<p>The best advantage of a web-site is that you can link to various other pages or documents, so go check those out!</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+</section>
+<hr class="docutils" />
+<section id="strong-publication-strong">
+<h4><strong> ‣ ‣ Publication </strong><a class="headerlink" href="#strong-publication-strong" title="Permalink to this heading">#</a></h4>
+<br>
+<div class="full-width docutils">
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<br>
+<div class="sd-col sd-d-flex-column sd-col-6 sd-col-xs-6 sd-col-sm-6 sd-col-md-6 sd-col-lg-6 docutils">
+<p class="rubric">Notes</p>
+<br>
+<p class="emphase">Not submitted</p>
+<br>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Open Notes A</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<a class="reference internal image-reference" href="../../_images/logo_SFTP.png"><img alt="../../_images/logo_SFTP.png" class="align-center" src="../../_images/logo_SFTP.png" style="width: 83%;" /></a>
+</div>
+<div class="sd-card-footer docutils">
+<p class="sd-card-text">Anita</p>
+</div>
+<a class="sd-stretched-link reference external" href="https://deugz.github.io/nb-phd/_build/html/intro.html"></a></div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Open Notes B</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<a class="reference internal image-reference" href="../../_images/logo_SFTP.png"><img alt="../../_images/logo_SFTP.png" class="align-center" src="../../_images/logo_SFTP.png" style="width: 83%;" /></a>
+</div>
+<div class="sd-card-footer docutils">
+<p class="sd-card-text">Helen</p>
+</div>
+<a class="sd-stretched-link reference external" href="https://deugz.github.io/nb-museum/_build/html/intro.html"></a></div>
+</div>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-6 sd-col-xs-6 sd-col-sm-6 sd-col-md-6 sd-col-lg-6 docutils">
+<p class="rubric">Thesis</p>
+<br>
+<p class="emphase"><strong>Submitted</strong></p>
+<br>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<br>
+<br>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Web</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<br>
+<img alt="../../_images/OU_logo.png" src="../../_images/OU_logo.png" />
+<br>
+<br>
+</div>
+<div class="sd-card-footer docutils">
+<p class="sd-card-text">Corpus + Extra material</p>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>PDF</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<br>
+<img alt="../../_images/OU_logo.png" src="../../_images/OU_logo.png" />
+<br>
+<br>
+</div>
+<div class="sd-card-footer docutils">
+<p class="sd-card-text">Corpus</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<img alt="../../_images/Tools-overview2.png" src="../../_images/Tools-overview2.png" />
+</div>
+<br>
+<br>
+<div class="full-width docutils">
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-column docutils">
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+More info<div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+</div>
+</details></div>
+<div class="sd-col sd-d-flex-column docutils">
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+More info<div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+</div>
+</details></div>
+</div>
+</div>
+</div>
+<br>
+<br>
+<aside class="margin sidebar">
+<p class="sidebar-title"></p>
+<div class="admonition-upload-span-style-float-right-flag-alt-static-svg-icons-github-svgrepo-com-svg-span admonition">
+<p class="admonition-title">Upload <span style="float: right"><img alt="flag alt &gt;" src="../../_images/github-svgrepo-com.svg" /></span></p>
+<br>
+<ul class="simple">
+<li><p><strong>Notes</strong>: weekly</p></li>
+<li><p><strong>Thesis</strong>: monthly</p></li>
+</ul>
+</div>
+</aside>
+<blockquote>
+<div><p>Multiple ways to publish, all complementary</p>
+</div></blockquote>
+<section id="strong-differences-between-notes-and-thesis-strong">
+<h5><strong>Differences between notes and thesis</strong><a class="headerlink" href="#strong-differences-between-notes-and-thesis-strong" title="Permalink to this heading">#</a></h5>
+<div class="full-width docutils">
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+Sesction per section <div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<div class="sd-tab-set docutils">
+<input checked="checked" id="sd-tab-item-0" name="sd-tab-set-0" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-0">
+Introduction</label><div class="sd-tab-content docutils">
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-column docutils">
+<p class="sd-card-text">Explanation, difference between the 2 format</p>
+<ul class="simple">
+<li><p class="sd-card-text">More inputs: video, podcast (link with litterature below (Bourne))</p></li>
+</ul>
+</div>
+<div class="sd-col sd-d-flex-column docutils">
+<figure class="align-default" id="funnel-explanation">
+<a class="reference internal image-reference" href="../../_images/Funnel_final.png"><img alt="../../_images/Funnel_final.png" src="../../_images/Funnel_final.png" style="width: 400px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 10 </span><span class="caption-text">Explanation</span><a class="headerlink" href="#funnel-explanation" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<input id="sd-tab-item-1" name="sd-tab-set-0" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-1">
+Method</label><div class="sd-tab-content docutils">
+</div>
+<input id="sd-tab-item-2" name="sd-tab-set-0" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-2">
+Results</label><div class="sd-tab-content docutils">
+</div>
+</div>
+</div>
+</details></div>
+</section>
+</section>
+<hr class="docutils" />
+<section id="strong-peer-review-strong">
+<h4><strong> ‣ ‣ Peer Review</strong><a class="headerlink" href="#strong-peer-review-strong" title="Permalink to this heading">#</a></h4>
+<aside class="margin sidebar">
+<p class="sidebar-title"></p>
+<a class="float reference internal image-reference" href="../../_images/Hypothesis_symbols.png"><img alt="../../_images/Hypothesis_symbols.png" class="float align-center" src="../../_images/Hypothesis_symbols.png" style="width: 50px;" /></a>
+</aside>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-column sd-col-7 sd-col-xs-7 sd-col-sm-7 sd-col-md-7 sd-col-lg-7 docutils">
+<blockquote>
+<div><p>I am using <code class="docutils literal notranslate"><span class="pre">Hypothesis</span></code> as a Peer Review tool. Just higlight any word, sentense or paragraph of this website and you will see apeearing two buttons as shown in the image. If you click on the <strong>annotate button</strong>, you will be able to write your comment directly on the web-page.</p>
+</div></blockquote>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-5 sd-col-xs-5 sd-col-sm-5 sd-col-md-5 sd-col-lg-5 docutils">
+<a class="float reference internal image-reference" href="../../_images/Coment_capture.PNG"><img alt="../../_images/Coment_capture.PNG" class="float align-center" src="../../_images/Coment_capture.PNG" style="width: 400px;" /></a>
+</div>
+</div>
+</div>
+<div class="full-width docutils">
+<p class="emphase2"> in <strong> Summary </strong></p>
+<p class="emphase">Proof of concept that science can be self-published and delivered online as a Research <span class="hovertext" data-hover="a comprehensive collection of information and analysis pertaining to a body of knowledge"><strong>compendium</strong></span></p>
+</div>
+<aside class="margin sidebar">
+<p class="sidebar-title"></p>
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<p><lottie-player src="https://assets1.lottiefiles.com/private_files/lf30_3ijiy6.json"  background="transparent"  speed="0.3"  style="width: 100%; height: auto;"  loop  autoplay></lottie-player></p>
+</aside>
+</section>
+</section>
+</section>
+<section id="why">
+<span id="id1"></span><h2>Why ?<a class="headerlink" href="#why" title="Permalink to this heading">#</a></h2>
+<p class="emphase2"> <strong> Open Toolbox </strong></p>
+<p class="emphase"> For PhD Students and Researchers interested in <strong>Open Science</strong></p>
+<div class="full-width docutils">
+<blockquote>
+<div><p>Publishing my research online has proven extremely challenging and I had to learn many skills along the way (hopefully the developper community is incredibely open but the information is scattered all over the internet). While learning and implementing the solutions I found, I took time to developpe some tutorials to help like minded scientist to follow my path.</p>
+</div></blockquote>
+<br>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-6 sd-row-cols-xs-6 sd-row-cols-sm-6 sd-row-cols-md-6 sd-row-cols-lg-6 docutils">
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Open Science</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<a class="reference internal image-reference" href="../../_images/Open_Access_logo_PLoS_transparent.svg"><img alt="../../_images/Open_Access_logo_PLoS_transparent.svg" class="align-center" src="../../_images/Open_Access_logo_PLoS_transparent.svg" width="60%" /></a>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Anaconda</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<img alt="../../_images/Anaconda_logo.png" src="../../_images/Anaconda_logo.png" />
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Online Books</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<a class="reference internal image-reference" href="../../_images/logo_JB.png"><img alt="../../_images/logo_JB.png" src="../../_images/logo_JB.png" style="width: 110%;" /></a>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Github</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<a class="reference internal image-reference" href="../../_images/github-svgrepo-com1.svg"><img alt="../../_images/github-svgrepo-com1.svg" class="align-center" src="../../_images/github-svgrepo-com1.svg" width="90%" /></a>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Binder</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<img alt="../../_images/Binder_logo.png" src="../../_images/Binder_logo.png" />
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Semantic Web</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<br>
+<img alt="../../_images/w3c_home_nb-v.svg" src="../../_images/w3c_home_nb-v.svg" /></div>
+</div>
+</div>
+</div>
+</div>
+<br>
+<p class="emphase"> And many more, all together opening the doors for ...</p>
+</div>
+<br>
+<div class="full-width docutils">
+<p class="emphase2"> <strong> Alternative publication </strong></p>
+<p class="emphase"> We all know scientific publication needs to change! </p>
+</div>
+<div class="full-width docutils">
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-column sd-col-9 sd-col-xs-9 sd-col-sm-9 sd-col-md-9 sd-col-lg-9 docutils">
+<blockquote>
+<div><p>Scientific communication today is designed around print documents and pay-walled access to content. Over the last decade, the open-science movement has accelerated the use of pre-print services and data archives that are vastly improving the accessibility of scientific content. However, these systems are not designed for communicating modern scientific outputs, which encompasses so much more than a paper-centric model of the scholarly literature.</p>
+</div></blockquote>
+<ul class="simple">
+<li><p><span id="id2">[<a class="reference internal" href="../../Appendix/Biblio/bibliography.html#id3" title="Philip E. Bourne, Timothy W. Clark, Robert Dale, Anita de Waard, Ivan Herman, Eduard H. Hovy, and David Shotton. Improving the future of research communications and e-scholarship. Dagstuhl Manifestos, 1:41-60, 2012. URL: http://drops.dagstuhl.de/opus/volltexte/2012/3445, doi:10.4230/DagMan.1.1.41.">Bourne <em>et al.</em>, 2012</a>]</span></p></li>
+</ul>
+</div>
+<div class="sd-col sd-d-flex-row sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Manifesto</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<ul class="simple">
+<li><p class="sd-card-text">Manifesto</p></li>
+<li><p class="sd-card-text">Scientific Publication</p></li>
+</ul>
+</div>
+<a class="sd-stretched-link reference external" href="https://deugz.github.io/nb-master/_build/html/Projects/Manifesto.html"></a></div>
+</div>
+</div>
+</div>
+<p class="emphase"> So why not <strong>experiment </strong> ?</p>
+</div>
+<div class="full-width docutils">
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-3 sd-row-cols-xs-3 sd-row-cols-sm-3 sd-row-cols-md-3 sd-row-cols-lg-3 docutils">
+<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<p class="rubric">Papers</p>
+<p>Explain</p>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<br>
+<blockquote>
+<div><p>There is two main ways in which scientists share their work:</p>
+</div></blockquote>
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<p><lottie-player src="https://assets9.lottiefiles.com/packages/lf20_aiwawyjf.json"  background="transparent"  speed="0.8"  style="width: 100%; height: auto;"  loop  autoplay></lottie-player></p>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<p class="rubric">Presentations</p>
+<p>Explain</p>
+</div>
+</div>
+</div>
+</div>
+<section id="strong-u-differences-u-strong">
+<h3><strong> ‣ <u> Differences </u></strong><a class="headerlink" href="#strong-u-differences-u-strong" title="Permalink to this heading">#</a></h3>
+<div class="full-width docutils">
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+PhD Deliverables<div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<figure class="align-default" id="mc-x">
+<a class="reference internal image-reference" href="../../_images/PhD_V2_fancy.png"><img alt="../../_images/PhD_V2_fancy.png" src="../../_images/PhD_V2_fancy.png" style="width: 2000px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 11 </span><span class="caption-text">Source</span><a class="headerlink" href="#mc-x" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+</div>
+</details><ul class="simple">
+<li><p>Granularity</p></li>
+<li><p>self-own /</p></li>
+<li><p>lifelong</p></li>
+</ul>
+<p class="emphase"> Is it better ? I don't know but it is a good starting point to explore how we can change the publication landscape </p>
+</div>
+<div class="full-width docutils">
+<br>
+<p class="emphase2"> <strong> Enhanced Science Communication </strong></p>
+<p class="emphase"> Science can be very daunting at first </p>
+<br>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-column sd-col-6 sd-col-xs-6 sd-col-sm-6 sd-col-md-6 sd-col-lg-6 docutils">
+<blockquote>
+<div><p>And it is, actually, a frightening place to set foot.</p>
+</div></blockquote>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-6 sd-col-xs-6 sd-col-sm-6 sd-col-md-6 sd-col-lg-6 docutils">
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<p><lottie-player src="https://assets10.lottiefiles.com/packages/lf20_qsgqcwag.json"  background="transparent"  speed="1"  style="width: 100%; height: auto;"  loop  autoplay></lottie-player></p>
+</div>
+</div>
+</div>
+<br>
+<p class="emphase"> The reason lie in it's publication method </p>
+<br>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-column sd-col-6 sd-col-xs-6 sd-col-sm-6 sd-col-md-6 sd-col-lg-6 docutils">
+<blockquote>
+<div><p>Explanation</p>
+</div></blockquote>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-6 sd-col-xs-6 sd-col-sm-6 sd-col-md-6 sd-col-lg-6 docutils">
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<p><lottie-player src="https://assets4.lottiefiles.com/private_files/lf30_nep75hmm.json"  background="transparent"  speed="0.4"  style="width: 100%; height: auto;"  loop  autoplay></lottie-player></p>
+</div>
+</div>
+</div>
+<br>
+<p class="emphase"> My Solution </p>
+<br>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-column sd-col-6 sd-col-xs-6 sd-col-sm-6 sd-col-md-6 sd-col-lg-6 docutils">
+<blockquote>
+<div><p>Different approach to publication</p>
+</div></blockquote>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-6 sd-col-xs-6 sd-col-sm-6 sd-col-md-6 sd-col-lg-6 docutils">
+<figure class="align-default" id="id3">
+<img alt="../../_images/Red_sea_coral_reef.jpg" src="../../_images/Red_sea_coral_reef.jpg" />
+<figcaption>
+<p><span class="caption-number">Fig. 12 </span><span class="caption-text"><a class="reference external" href="https://commons.wikimedia.org/wiki/File:Red_sea_coral_reef.jpg">Source</a></span><a class="headerlink" href="#id3" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="strong-u-create-a-dialogue-u-strong">
+<h3><strong> ‣ <u> Create a dialogue …</u></strong><a class="headerlink" href="#strong-u-create-a-dialogue-u-strong" title="Permalink to this heading">#</a></h3>
+<div class="full-width docutils">
+<blockquote>
+<div><p>I aim to deliver the scientific knowledge that I produced using a <strong>conversational tone</strong>. I think it can help attracting a much wider audience without doing any harm to the scientific content itself. A website offer a limitless set of tools to achieve that goal.</p>
+</div></blockquote>
+</div>
+<section id="strong-with-the-full-spectrum-of-audiences-strong">
+<h4><strong> ‣ ‣ … with the full spectrum of audiences</strong><a class="headerlink" href="#strong-with-the-full-spectrum-of-audiences-strong" title="Permalink to this heading">#</a></h4>
+<div class="full-width docutils">
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-column sd-col-8 sd-col-xs-8 sd-col-sm-8 sd-col-md-8 sd-col-lg-8 docutils">
+<blockquote>
+<div><p>This web-site is an experiment aimed at <strong>communicating research </strong>. Communication involve an audience, and there is a whole diapora of possible audiences for this project:
+In order to communicate, I will leave notes (4 types, cf below) here and there, sometimes with a tag refering to the audience they are adressed to.</p>
+</div></blockquote>
+</div>
+<div class="sd-col sd-d-flex-row sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Legend</strong> <span style="float: right"><img alt="flag alt &gt;" src="../../_images/ecology-svgrepo-com.svg" /></span></p>
+</div>
+<div class="sd-card-body docutils">
+<ul class="simple">
+<li><p class="sd-card-text"><img alt="flag alt &gt;" src="../../_images/pieuvre.jpg" /> <span class="hovertext" data-hover="">Supervision team</span></p></li>
+<li><p class="sd-card-text"><img alt="flag alt &gt;" src="../../_images/shark-svgrepo-com.svg" /> <span class="hovertext" data-hover="">Researchers (my field)</span></p></li>
+<li><p class="sd-card-text"><img alt="flag alt &gt;" src="../../_images/turtle-svgrepo-com.svg" /> <span class="hovertext" data-hover="">Friends/Colleagues</span></p></li>
+<li><p class="sd-card-text"><img alt="flag alt &gt;" src="../../_images/fish-svgrepo-com.svg" /> <span class="hovertext" data-hover="">Anyone</span></p></li>
+<li><p class="sd-card-text"><img alt="flag alt &gt;" src="../../_images/fish-light-svgrepo-com.svg" /> <span class="hovertext" data-hover="">Teachers</span></p></li>
+<li><p class="sd-card-text"><img alt="flag alt &gt;" src="../../_images/fish-nemo-svgrepo-com.svg" /> <span class="hovertext" data-hover="">Researchers (other fields)</span></p></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="strong-and-the-help-of-strong">
+<h4><strong> ‣ ‣ And the help of </strong><a class="headerlink" href="#strong-and-the-help-of-strong" title="Permalink to this heading">#</a></h4>
+<section id="strong-school-2-a-strong">
+<h5><strong>School 2.A</strong><a class="headerlink" href="#strong-school-2-a-strong" title="Permalink to this heading">#</a></h5>
+<div class="full-width docutils">
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-column sd-col-9 sd-col-xs-9 sd-col-sm-9 sd-col-md-9 sd-col-lg-9 docutils">
+<blockquote>
+<div><p>Explain</p>
+</div></blockquote>
+<ul class="simple">
+<li><p>We learn best when we teach what we learn.</p></li>
+<li><p>We learn best not from experts, but from someone who’s only one step ahead.</p></li>
+</ul>
+</div>
+<div class="sd-col sd-d-flex-row sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>School 2.A</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<a class="reference internal image-reference" href="../../_images/logo_SFTP.png"><img alt="../../_images/logo_SFTP.png" class="align-center" src="../../_images/logo_SFTP.png" style="width: 83%;" /></a>
+</div>
+<div class="sd-card-footer docutils">
+<p class="sd-card-text">Extra Work</p>
+</div>
+<a class="sd-stretched-link reference external" href="https://deugz.github.io/nb-teaching/_build/html/intro.html"></a></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="strong-other-researchers-strong">
+<h5><strong>Other Researchers</strong><a class="headerlink" href="#strong-other-researchers-strong" title="Permalink to this heading">#</a></h5>
+<h3><strong>&#187;  <u>Greater Impact </u></strong></h3> 
+</section>
+</section>
+</section>
+</section>
+<section id="can-i">
+<span id="content-references-title3"></span><h2>Can I ?<a class="headerlink" href="#can-i" title="Permalink to this heading">#</a></h2>
+<p class="emphase"> Actually submit an <strong>Online Thesis </strong></p>
+<section id="strong-u-a-bit-of-context-u-strong">
+<h3><strong>»  <u>A bit of context </u></strong><a class="headerlink" href="#strong-u-a-bit-of-context-u-strong" title="Permalink to this heading">#</a></h3>
+<section id="strong-the-open-university-strong">
+<h4><strong> The Open University</strong><a class="headerlink" href="#strong-the-open-university-strong" title="Permalink to this heading">#</a></h4>
+<blockquote>
+<div><p>The Open University (OU) is a values-led institution which seeks to be <em>“Open to people, places, methods and ideas”</em>. It also says to champions openly shared, engaged research of all kinds alongside its world-leading approach to online teaching (<a class="reference external" href="https://www.open.ac.uk/research/support-researchers/open-university-statement-responsible-use-research-metrics">Source</a>).</p>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>insert card toward OU web-site with logo …</p>
+</div>
+</section>
+<section id="strong-my-phd-strong">
+<h4><strong> My PhD</strong><a class="headerlink" href="#strong-my-phd-strong" title="Permalink to this heading">#</a></h4>
+<div class="full-width docutils">
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+PhD Journey (in a nutshell)<div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<div class="sd-tab-set docutils">
+<input checked="checked" id="sd-tab-item-3" name="sd-tab-set-1" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-3">
+The Start</label><div class="sd-tab-content docutils">
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-column sd-col-9 sd-col-xs-9 sd-col-sm-9 sd-col-md-9 sd-col-lg-9 docutils">
+</div>
+<div class="sd-col sd-d-flex-column sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<p class="sd-card-text"><lottie-player src="https://assets5.lottiefiles.com/temp/lf20_2BmOqX.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player></p>
+</div>
+</div>
+</div>
+</div>
+<input id="sd-tab-item-4" name="sd-tab-set-1" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-4">
+Project B</label><div class="sd-tab-content docutils">
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-column sd-col-9 sd-col-xs-9 sd-col-sm-9 sd-col-md-9 sd-col-lg-9 docutils">
+<p class="sd-card-text">Explanation</p>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<p class="sd-card-text"><lottie-player src="https://assets2.lottiefiles.com/datafiles/79YVXEKLbyXqdNpBhLN2HNpIaf0riunhFmey8w9J/animation.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player></p>
+</div>
+</div>
+</div>
+</div>
+<input id="sd-tab-item-5" name="sd-tab-set-1" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-5">
+Troubles</label><div class="sd-tab-content docutils">
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-column sd-col-9 sd-col-xs-9 sd-col-sm-9 sd-col-md-9 sd-col-lg-9 docutils">
+<p class="sd-card-text">Explanation</p>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<p class="sd-card-text"><lottie-player src="https://assets2.lottiefiles.com/datafiles/kMQNVR3bKPEcxj17aYmvNOqBHkaTLJlv1ECQLqNs/Animation.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player></p>
+</div>
+</div>
+</div>
+</div>
+<input id="sd-tab-item-6" name="sd-tab-set-1" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-6">
+Project A</label><div class="sd-tab-content docutils">
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-column sd-col-9 sd-col-xs-9 sd-col-sm-9 sd-col-md-9 sd-col-lg-9 docutils">
+<p class="sd-card-text">Explanation</p>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<p class="sd-card-text"><lottie-player src="https://assets2.lottiefiles.com/datafiles/w6iRO3X4bUd71c8WhIdAipc4b7fZaNekKEyjbQ1L/Animation.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player></p>
+</div>
+</div>
+</div>
+</div>
+<input id="sd-tab-item-7" name="sd-tab-set-1" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-7">
+Thesis Writing</label><div class="sd-tab-content docutils">
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-column sd-col-9 sd-col-xs-9 sd-col-sm-9 sd-col-md-9 sd-col-lg-9 docutils">
+<p class="sd-card-text">Explanation</p>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<p class="sd-card-text"><lottie-player src="https://assets2.lottiefiles.com/datafiles/kRhvpsl7lHKUn6dPxM4o5TOHuR8hAzkLqdMhyR9Q/animation.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</details></div>
+</section>
+</section>
+<section id="strong-u-phd-thesis-requirements-u-strong">
+<h3><strong>»  <u>PhD Thesis requirements  </u></strong><a class="headerlink" href="#strong-u-phd-thesis-requirements-u-strong" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p><strong>Documents</strong>: <a class="reference download internal" download="" href="../../_downloads/b777518682e61c46e335baa396eee5b7/research-degree-regulations.pdf"><span class="xref download myst">Research Degree Regulations - OU</span></a></p></li>
+</ul>
+<hr class="docutils" />
+<div class="full-width docutils">
+<blockquote class="epigraph">
+<div><p>A PhD, MPhil or Professional Doctorate OU dissertation is normally a <span class="hovertext" data-hover="Definition">monograph</span>, that is, a single, coherent narrative that articulates the thesis and the evidence that supports it. Any additional elements (e.g., non-book components) must be properly integrated into the narrative to provide a coherent and comprehensive whole. The dissertation must satisfy OU standards of presentation and the QAA research degree characteristics (Appendix 1 of the Research Degree Regulations)</p>
+<p class="attribution">—Thesis Submission Guidelines, Research Degrees, The Open University</p>
+</div></blockquote>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+Requirements<div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<div class="sd-tab-set docutils">
+<input checked="checked" id="sd-tab-item-8" name="sd-tab-set-2" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-8">
+1</label><div class="sd-tab-content docutils">
+<p class="emphase">Search for, discover, access, retrieve, sift, interpret, analyse, evaluate, manage, conserve and communicate an ever-increasing volume of knowledge from a range of sources. </p>
+</div>
+<input id="sd-tab-item-9" name="sd-tab-set-2" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-9">
+2</label><div class="sd-tab-content docutils">
+<p class="emphase">Think critically about problems to produce innovative solutions and create new knowledge</p>
+</div>
+<input id="sd-tab-item-10" name="sd-tab-set-2" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-10">
+3</label><div class="sd-tab-content docutils">
+<p class="emphase">Plan, manage and deliver projects, selecting and justifying appropriate methodological processes while recognising, evaluating and minimising the risks involved and impact on the environment</p>
+</div>
+<input id="sd-tab-item-11" name="sd-tab-set-2" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-11">
+4</label><div class="sd-tab-content docutils">
+<p class="emphase"> Exercise professional standards in research and research integrity, and engage in professional practice, including ethical, legal, and health and safety aspects, bringing enthusiasm, perseverance and integrity to bear on their work activities </p>
+</div>
+<input id="sd-tab-item-12" name="sd-tab-set-2" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-12">
+5</label><div class="sd-tab-content docutils">
+<p class="emphase"> Support, collaborate with and lead colleagues, using a range of teaching, communication and networking skills to influence practice and policy in diverse environments </p>
+</div>
+<input id="sd-tab-item-13" name="sd-tab-set-2" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-13">
+6</label><div class="sd-tab-content docutils">
+<p class="emphase"> Appreciate the need to engage in research with impact and to be able to communicate it to diverse audiences, including the public </p>
+</div>
+<input id="sd-tab-item-14" name="sd-tab-set-2" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-14">
+7</label><div class="sd-tab-content docutils">
+<p class="emphase"> Build relationships with peers, senior colleagues, students and stakeholders with sensitivity to equality, diversity and cultural issues </p>
+</div>
+</div>
+</div>
+</details><p class="rubric"><strong> Book / Non-Book Component </strong></p>
+<blockquote>
+<div><p>I have not found any precision about what is meant by book in the <em>Research Degree Regulations</em>, hence I went to look for a definition in the Oxford dictionary where it is said that:</p>
+</div></blockquote>
+<p class="emphase">A <strong>book</strong> is a written work published in printed or <strong>electronic</strong> form</p>
+<blockquote>
+<div><p>It is stipulated that a non-book component can be included. As a result I think I should be allowed to publish a thesis that is 100% online</p>
+</div></blockquote>
+<p class="rubric"><strong> Physical copie </strong></p>
+<blockquote class="epigraph">
+<div><p>You will need to submit an electronic copy of your thesis at submission. The electronic copy should be submitted in <strong>PDF</strong> format to the Research Degrees Team through <a class="reference external" href="https://doctoral-research-system.open.ac.uk/">PGR Manager</a></p>
+<p class="attribution">—Thesis Submission Guidelines, Research Degrees, The Open University
+</p>
+</div></blockquote>
+<blockquote>
+<div><p>It is stipulated in the regulation that a pdf copy has to be submitted. This is the only sentence that is preventing me to submit my thesis as a web-site … It doesn’t look like much, considering all the       &gt; benefits that could arise from such a way to publish, and yet I have been told this is incredibely complicated to change. This is how far we are from progress.</p>
+</div></blockquote>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+Personal reflexion on the inefficiency and detrimental effect of heavy administration <div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<div class="sd-tab-set docutils">
+<input checked="checked" id="sd-tab-item-15" name="sd-tab-set-3" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-15">
+Gender equality</label><div class="sd-tab-content docutils">
+<p class="emphase"> Pay Gap </p>
+</div>
+<input id="sd-tab-item-16" name="sd-tab-set-3" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-16">
+Topic 2</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">Topic 2</p>
+</div>
+</div>
+</div>
+</details></div>
+</section>
+</section>
+<section id="what-is-next">
+<span id="content-references-title4"></span><h2>What is next ?<a class="headerlink" href="#what-is-next" title="Permalink to this heading">#</a></h2>
+</section>
+<div class="toctree-wrapper compound">
+</div>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./Research\PhD"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+                <footer class="bd-footer-article">
+                  <!-- Previous / next buttons -->
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="PhD-Orga.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">PhD Thesis</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="../../Teaching/Teaching_Main.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Overview</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#how">How ?</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#strong-u-tools-u-strong"><strong> ‣ <u> Tools </u></strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#strong-u-workflow-u-strong"><strong> ‣ <u> Workflow </u></strong></a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#strong-daily-notes-implementation-strong"><strong> ‣ ‣ Daily Notes Implementation </strong></a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#strong-supervision-strong"><strong> ‣ ‣ Supervision </strong></a><ul class="nav section-nav flex-column">
+<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#strong-interaction-post-it-strong"><strong> Interaction Post-it </strong></a></li>
+</ul>
+</li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#strong-publication-strong"><strong> ‣ ‣ Publication </strong></a><ul class="nav section-nav flex-column">
+<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#strong-differences-between-notes-and-thesis-strong"><strong>Differences between notes and thesis</strong></a></li>
+</ul>
+</li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#strong-peer-review-strong"><strong> ‣ ‣ Peer Review</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#why">Why ?</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#strong-u-differences-u-strong"><strong> ‣ <u> Differences </u></strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#strong-u-create-a-dialogue-u-strong"><strong> ‣ <u> Create a dialogue …</u></strong></a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#strong-with-the-full-spectrum-of-audiences-strong"><strong> ‣ ‣ … with the full spectrum of audiences</strong></a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#strong-and-the-help-of-strong"><strong> ‣ ‣ And the help of </strong></a><ul class="nav section-nav flex-column">
+<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#strong-school-2-a-strong"><strong>School 2.A</strong></a></li>
+<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#strong-other-researchers-strong"><strong>Other Researchers</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#can-i">Can I ?</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#strong-u-a-bit-of-context-u-strong"><strong>»  <u>A bit of context </u></strong></a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#strong-the-open-university-strong"><strong> The Open University</strong></a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#strong-my-phd-strong"><strong> My PhD</strong></a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#strong-u-phd-thesis-requirements-u-strong"><strong>»  <u>PhD Thesis requirements  </u></strong></a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-next">What is next ?</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            <div class="bd-footer-content__inner">
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By <strong>Vincent Deguin</strong> (with ❤️)
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+<div class="extra_footer">
+  
+
+
+<br><img class="CC_licence" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc-sa.svg" alt="Licence CC BY NC SA 2"/> 
+
+</div>
+  </div>
+  
+</div></div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../../_static/scripts/bootstrap.js?digest=12da95d707ffb74b382d"></script>
+<script src="../../_static/scripts/pydata-sphinx-theme.js?digest=12da95d707ffb74b382d"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

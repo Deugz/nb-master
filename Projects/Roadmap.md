@@ -294,6 +294,11 @@ Insert notes in version
 
 ***
 
+#### More Funding opportunities
+
+- [EOSC](https://eoscfuture-grants.eu/provider/research-data-alliance#anchor-open) - European Open Science Cloud 
+    - Envisioned by the European Commission as a supporting landscape to foster open science and open innovation
+
 
 #### Community building
   

@@ -16,6 +16,14 @@
 
 :::
 
+## Gant Chart
+
+:::::{div} full-width
+
+<iframe class="preview-iframe" id="preview-iframe" src="../../_static/assets/GC/GC6-08-2022.htm" width="100%" height="800"></iframe>
+
+:::::
+
 
 ## Monthly Plan
 
@@ -103,7 +111,7 @@ I want to have the Data Reduction finished as quick as I can and push the Data P
 +++
 
 
-<progress value="0" max="100" style="width:100%; height:25px;"  > 32% </progress>
+<progress value="20" max="100" style="width:100%; height:25px;"  > 32% </progress>
 :::
 
 :::{grid-item-card}
