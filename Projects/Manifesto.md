@@ -521,6 +521,44 @@ Clicking on each card will bring you to the specific section of the [How do I](h
 :::
 
 
+## Describe the new model
+
+
+## Is it feasable 
+
+### Technical aspect
+
+
+### Community acceptance
+
+<p class="emphase"> The introduction of a single innovation in technology cannot be successful until it is accompanied by an appropriate set of social, behavioural, organisational, and institutional   innovations.</p>
+
+- {cite:p}`Goldhar1977`
+
+
+### Funding  
+
+#### Externaly funded
+
+Learned societies, university ...
+
+
+- pros
+
+money
+
+- cons
+
+loss of independance
+
+#### Sponsorship ?
+
+
+
+#### Subscription model
+
+No (need to be freely accessible to everyone)
+
 
 
 # Comments

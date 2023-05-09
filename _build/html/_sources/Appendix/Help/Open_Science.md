@@ -12,26 +12,143 @@ There is currently a lot of Open Tools available on the market. The biggest diff
 
 ***
 
+## Introduction
+
+### <strong> &#x2023; <u> Open Science </u></strong>
+
+#### <strong> &#x2023; &#x2023; Prerequisites </strong>
+
+
+:::::{div} full-width
+
+::::{grid} 3
+
+
+:::{grid-item}
+:columns: 6
+
+> I have written two blogposts that I think are good introduction to the topic of Open Research. Click on the cards to know more
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+:columns: 3
+:link: https://deugz.github.io/nb-master/_build/html/Blog/Posts/Scientific_Publication.html
+**Scientifique Publication** 
+^^^
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+:columns: 3
+:link: https://deugz.github.io/nb-master/_build/html/Blog/Posts/Scientific_Publication.html
+**Open Science** 
+^^^
+
+:::
+
+
+::::
+
+:::::
+
+#### <strong> &#x2023; &#x2023; Guides </strong>
+
+##### <strong> The Turing Way </strong>
+
+:::::{div} full-width
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 9
+
+> Great source of documentation for open data science.
+
+
+```{admonition} Images - Scriberia
+:class: note, dropdown
+
+**Documents**:
+- Images: from Scriberia - licence CC [Zenodo_img_repo](https://zenodo.org/record/3695300#.YvZLvRzMKUk)
+
+
+caption must include :
+- This image was created by Scriberia for The Turing Way community and is used under a CC-BY licence
+
+[Modify_image_main color](https://alexwlchan.net/2020/02/adjusting-the-dominant-colour-of-an-image/)
+
+```
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+:columns: 3
+:link: https://the-turing-way.netlify.app/index.html
+**The Turing Way** 
+^^^
+
+```{image} Docs/The_Turing_Way_Logo.png
+
+```
+
+:::
+
+::::
+
+:::::
+
+### <strong> &#x2023; <u> Tools </u></strong> 
+
+#### <strong> &#x2023; &#x2023; Overview </strong>
+
+::::{div} full-width
+
+```{figure} Docs/compliance-tools-workflow_cropped.png
+
+[Source](https://101innovations.wordpress.com/workflows/)
+```
+
+***
+
+**To expolore**:
+- [400+ Tools Sheet](https://docs.google.com/spreadsheets/d/1KUMSeq_Pzp4KveZ7pb5rddcssk1XBTiLHniD0d3nDqo/edit#gid=0)
+
+
+::::
+
+#### <strong> &#x2023; &#x2023; Be mindfull </strong>
+
+::::{div} full-width
+
+```{figure} Docs/Elsevier_toolkit.png
+
+[Source](https://101innovations.wordpress.com/workflows/)
+```
+
+
+> Above are some Research tools owned by **Elsevier**. Now remember that half of Elsevier profit come from analytics
+
+
+
+<p class="emphase"><em>If you are not paying for a service; You are the product being sold.</em></p>
+
+
+::::
+
+
 ## Open Research
 
 ### A Good Guide
 
 #### The Turing Way
 
-Great source of documentation for open data science.
+
 
 ##### Images
-
-from Scriberia - licence CC
-
-[Zenodo_img_repo](https://zenodo.org/record/3695300#.YvZLvRzMKUk)
-
-caption must include :
-
-- This image was created by Scriberia for The Turing Way community and is used under a CC-BY licence
-
-
-[Modify_image_main color](https://alexwlchan.net/2020/02/adjusting-the-dominant-colour-of-an-image/)
 
 
 ### Examples

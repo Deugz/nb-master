@@ -45,8 +45,11 @@
     <link rel="stylesheet" type="text/css" href="../_static/css/CV_1.css" />
     <link rel="stylesheet" type="text/css" href="../_static/css/style_book_shell.css" />
     <link rel="stylesheet" type="text/css" href="../_static/css/style_flipping_card.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/css/style_wheel.css" />
     <link rel="stylesheet" type="text/css" href="../_static/css/.ipynb_checkpoints/custom_style-checkpoint.css" />
     <link rel="stylesheet" type="text/css" href="../_static/css/.ipynb_checkpoints/style_flipping_card-checkpoint.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/css/.ipynb_checkpoints/style_wheel-checkpoint.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/css/.ipynb_checkpoints/wheel_style-checkpoint.css" />
     <link rel="stylesheet" type="text/css" href="../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
@@ -102,6 +105,7 @@ commentsRunWhenDOMLoaded(addUtterances);
 </script>
     <script src="../_static/assets/script/scriptvideo.js"></script>
     <script src="../_static/assets/script/script_flipping_card.js"></script>
+    <script src="../_static/assets/script/script_wheel.js"></script>
     <script src="../_static/assets/script/.ipynb_checkpoints/scriptvideo-checkpoint.js"></script>
     <script src="../_static/assets/script/.ipynb_checkpoints/script_blob-checkpoint.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
@@ -172,7 +176,7 @@ const thebe_selector_output = ".output, .cell_output"
 
 
   <div class="bd-header-announcement container-fluid bd-header-announcement">
-    <div class="bd-header-announcement__content">Current Version: April 2023 ⚠ <u>Thesis Deadline</u>: <strong>December 2023</strong> ⚠' target='_blank'>Museum</a></div>
+    <div class="bd-header-announcement__content">Current Version: May 2023 ⚠ <u>Thesis Deadline</u>: <strong>December 2023</strong>  ⚠</div>
   </div>
 
   
@@ -214,12 +218,16 @@ const thebe_selector_output = ".output, .cell_output"
 </a></div>
         <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
-        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Profile</span></p>
+        <ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../Intro/Introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Intro/table_of_content.html">Table of Content</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">👽 Profile</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../Profile/Interests.html">Interests</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Profile/Interests.html">Scientific Interests</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../Profile/CV/CV_Main.html">Curriculum Vitae</a></li>
 </ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Project</span></p>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">✊ Project</span></p>
 <ul class="current nav bd-sidenav">
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">Manifesto</a></li>
 
@@ -227,7 +235,7 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l1"><a class="reference internal" href="Contribute.html">Contribute / Help</a></li>
 
 </ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Research</span></p>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">💫 Research</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../Research/Research_Main.html">Overview</a></li>
 
@@ -242,14 +250,15 @@ const thebe_selector_output = ".output, .cell_output"
 </ul>
 </li>
 </ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Teaching</span></p>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">🎓 Teaching</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../Teaching/Teaching_Main.html">Overview</a></li>
 </ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Blog / Versions</span></p>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">💥 Blog / Versions</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1 has-children"><a class="reference internal" href="../Blog/Blog_Main.html">Posts</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="../Blog/Posts/Scientific_Publication.html">Scientific Publication</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Blog/Posts/Open_Science.html">Open Science</a></li>
 <li class="toctree-l2 has-children"><a class="reference internal" href="../Blog/Posts/Entrepreneur/Entrepreneur.html">My Entrepreneurship Journey</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-4"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l3"><a class="reference internal" href="../Blog/Posts/Entrepreneur/DIY-Toolkit.html">DIY Toolkit</a></li>
 </ul>
@@ -503,6 +512,18 @@ document.write(`
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-scientific-publication-system"><strong>The Scientific publication system</strong></a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#my-solution"><strong>My Solution</strong></a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#benefits">Benefits</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#describe-the-new-model">Describe the new model</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#is-it-feasable">Is it feasable</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#technical-aspect">Technical aspect</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#community-acceptance">Community acceptance</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#funding">Funding</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#externaly-funded">Externaly funded</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#sponsorship">Sponsorship ?</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#subscription-model">Subscription model</a></li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#comments">Comments</a></li>
@@ -878,6 +899,44 @@ A difficult journey<div class="sd-summary-down docutils">
 <p class="emphase2"><strong>Inclusive</strong></p>
 </div>
 </section>
+<section id="describe-the-new-model">
+<h2>Describe the new model<a class="headerlink" href="#describe-the-new-model" title="Permalink to this heading">#</a></h2>
+</section>
+<section id="is-it-feasable">
+<h2>Is it feasable<a class="headerlink" href="#is-it-feasable" title="Permalink to this heading">#</a></h2>
+<section id="technical-aspect">
+<h3>Technical aspect<a class="headerlink" href="#technical-aspect" title="Permalink to this heading">#</a></h3>
+</section>
+<section id="community-acceptance">
+<h3>Community acceptance<a class="headerlink" href="#community-acceptance" title="Permalink to this heading">#</a></h3>
+<p class="emphase"> The introduction of a single innovation in technology cannot be successful until it is accompanied by an appropriate set of social, behavioural, organisational, and institutional   innovations.</p>
+<ul class="simple">
+<li><p><span id="id1">[<a class="reference internal" href="../Appendix/Biblio/bibliography.html#id48" title="Joel D. Goldhar. Obtaining and using information in the year 2002. IEEE Transactions on Professional Communication, PC-20:126-129, 1977. doi:10.1109/TPC.1977.6592347.">Goldhar, 1977</a>]</span></p></li>
+</ul>
+</section>
+<section id="funding">
+<h3>Funding<a class="headerlink" href="#funding" title="Permalink to this heading">#</a></h3>
+<section id="externaly-funded">
+<h4>Externaly funded<a class="headerlink" href="#externaly-funded" title="Permalink to this heading">#</a></h4>
+<p>Learned societies, university …</p>
+<ul class="simple">
+<li><p>pros</p></li>
+</ul>
+<p>money</p>
+<ul class="simple">
+<li><p>cons</p></li>
+</ul>
+<p>loss of independance</p>
+</section>
+<section id="sponsorship">
+<h4>Sponsorship ?<a class="headerlink" href="#sponsorship" title="Permalink to this heading">#</a></h4>
+</section>
+<section id="subscription-model">
+<h4>Subscription model<a class="headerlink" href="#subscription-model" title="Permalink to this heading">#</a></h4>
+<p>No (need to be freely accessible to everyone)</p>
+</section>
+</section>
+</section>
 </section>
 <section class="tex2jax_ignore mathjax_ignore" id="comments">
 <h1>Comments<a class="headerlink" href="#comments" title="Permalink to this heading">#</a></h1>
@@ -1005,6 +1064,18 @@ A difficult journey<div class="sd-summary-down docutils">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-scientific-publication-system"><strong>The Scientific publication system</strong></a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#my-solution"><strong>My Solution</strong></a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#benefits">Benefits</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#describe-the-new-model">Describe the new model</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#is-it-feasable">Is it feasable</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#technical-aspect">Technical aspect</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#community-acceptance">Community acceptance</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#funding">Funding</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#externaly-funded">Externaly funded</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#sponsorship">Sponsorship ?</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#subscription-model">Subscription model</a></li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#comments">Comments</a></li>

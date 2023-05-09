@@ -1,4 +1,4 @@
-# Interests
+# Scientific Interests
 
 ***
 
@@ -316,7 +316,7 @@ link note.B
 
 ## Ices in Space  
 
-<p class="emphase">In space, ice is present in many environments</p>
+<p class="emphase">In space, ice is not a crystal like here on earth, but an <strong>amorphous</strong> material with very distinct properties. It is present in many environments:</p>
 
 
 :::{margin}
@@ -445,21 +445,20 @@ Enceladus, Jupyter Moon ... Water, life tout ca tout ca ...
 
 ## Observations, Experiments & Modelling
 
-::::{margin}
 
-```{note}
-No astronomical questions is solved without the interplay of those three disciplines
-```
+<p class="emphase">No astronomical questions is solved without the interplay of those three disciplines</p>
 
-::::
 
-<p class="emphase">In space, ice is not a crystal like here on earth, but an <strong>amorphous</strong> material with very distinct properties.</p>
+:::::{div} full-width
 
-### <strong>&#187; <u>JWST</u></strong>
+::::{grid} 3
 
-<article id="P1">
+:::{grid-item}
 
-<div id="subdiv1-3">    
+### <strong>&#187; <u>Observations</u></strong>
+
+JWST
+
 
 ```{figure} ../_static/Images/Space_Pics/Webb_2_0.png
 :width: 300px
@@ -470,35 +469,23 @@ JWST
 - [Astronomy 101](https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/Astronomy_101/Astronomy_101.html)
 - [JWST](https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/JWST/JWST.html) 
     
-</div>    
-    
-<div id="subdiv2-3">
-
 The *James Webb Space Telescope* is a revolution for Astronomers. It will give new insights about ...    
     
-<br>
 
-</div>
-    
+:::
 
-    
-</article>
-
-***
-
+:::{grid-item}
 
 
 ### <strong>&#187; <u>Amorphous ice experiments</u></strong>
 
-::::{margin}
+
 
 ```{admonition} My Expertise
 :class: tip
 
 This is my confort zone (almost)
 ```
-
-::::
 
 
 #### Vapor deposited 
@@ -507,8 +494,22 @@ This is my confort zone (almost)
 #### Hyperquenched
 
 
+
+
+:::
+
+
+:::{grid-item}
+
+
 ### <strong>&#187; <u>Water Ice Models</u></strong>
 
+
+:::
+
+::::
+
+:::::
 
 ## Astrochemistry vs Geochemistry
 

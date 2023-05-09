@@ -20,7 +20,21 @@ s0.parentNode.insertBefore(s1,s0);
 <script src="https://www.youtube.com/iframe_api"></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script><script  src="_static/assets/script/scriptvideo.js"></script>
 
-***
+::::{div} full-width
+
+<br>
+    
+<div id="note">
+
+<p class="emphase2"><strong>Interstellar Dust Grains, Ices &  Planet Formation</strong></p>
+    
+</div>
+
+<br>
+
+::::
+
+<br>
 
 :::::{div} full-width
 
@@ -29,15 +43,24 @@ s0.parentNode.insertBefore(s1,s0);
 :::{grid-item}
 :columns: 9
 
-<p class="emphase2"><span class="hovertext" data-hover="Video"><strong>Welcome</strong></span> &nbsp; 👋 </p>
+<p class="emphase2"><strong>Welcome</strong> &nbsp; 👋 </p>
 
-<p class="emphase"> <span class="hovertext" data-hover="JupyterBooks site used to take scientific notes"><strong>Accademic websites</strong></span> <strong> Portefolio </strong><br><br> covering</p>
+```{epigraph}
 
+You have just set foot on my <strong>accademic websites portefolio</strong>. They are the product of an innovative note taking method resulting in a free and creative way to share <strong>science</strong> while giving it an interactive and collaborative dimension. 
+<br>Hope you enjoy !  
+
+
+-- Vince (Creator, editor)
+
+```
 
 :::
 
 :::{grid-item}
 :columns: 3
+
+<br>
 
 <div class="stage" style="width: 100%; height:auto">
     <div class="cubespinner">
@@ -53,23 +76,9 @@ s0.parentNode.insertBefore(s1,s0);
 
 :::
 
+::::
 
 :::::
-
-
-::::{div} full-width
-
-<br>
-    
-<div id="note">
-
-<p class="emphase2"><strong>Interstellar Dust Grains, Ices &  Planet Formation</strong></p>
-    
-</div>
-
-<br>
-
-::::
 
     
 ::::{margin} 

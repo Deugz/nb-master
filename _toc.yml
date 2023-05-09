@@ -4,16 +4,20 @@
 format: jb-book
 root: intro
 parts:
-  - caption: Profile
+  - caption: ""
+    chapters:
+    - file: Intro/Introduction
+    - file: Intro/table_of_content
+  - caption: 👽 Profile
     chapters:
     - file: Profile/Interests
     - file: Profile/CV/CV_Main
-  - caption: Project
+  - caption: ✊ Project
     chapters:
     - file: Projects/Manifesto 
     - file: Projects/Roadmap 
     - file: Projects/Contribute    
-  - caption: Research
+  - caption: 💫 Research
     chapters:
     - file: Research/Research_Main
     - file: Research/PhD/PhD-Orga
@@ -24,14 +28,15 @@ parts:
           title: "Amorphous Ice (📖 A)"
         - url: https://deugz.github.io/nb-museum/_build/html/intro.html
           title: "Planet Formation (📖 B)"
-  - caption: Teaching
+  - caption: 🎓 Teaching
     chapters:
     - file: Teaching/Teaching_Main
-  - caption: Blog / Versions
+  - caption: 💥 Blog / Versions
     chapters:
     - file: Blog/Blog_Main
       sections:
       - file: Blog/Posts/Scientific_Publication
+      - file: Blog/Posts/Open_Science
       - file: Blog/Posts/Entrepreneur/Entrepreneur
         sections:
         - file: Blog/Posts/Entrepreneur/DIY-Toolkit

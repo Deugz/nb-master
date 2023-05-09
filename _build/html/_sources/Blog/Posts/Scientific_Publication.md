@@ -2,16 +2,128 @@
 
 ***
 
-```{warning}
+**Interesting Stuffs:**
 
-- Include Post fellowship application note 
-
-```
+- Blog:
+    - [BishopBlog](http://deevybee.blogspot.com/)
 
 ***
 
 
-````{margin} 
+
+:::{margin}
+
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://assets4.lottiefiles.com/private_files/lf30_ms08pknf.json"  background="transparent"  speed="1"  style="width: 100%; height: auto;"  loop  autoplay></lottie-player>
+
+:::
+
+## Introduction
+
+:::{div} full-width
+
+<p class="emphase"> Definition </p>
+
+:::
+
+### Role
+
+:::::{div} full-width
+::::{grid} 3
+
+:::{grid-item-card}
+:class-header: bg-light
+:columns: 4
+**Editorial**
+^^^
+The most obvious role of the journal is the selection  of  material. This is mainly subject based, *Does this item fall within the remit of the journal and/or would it be of interest to our readers?*.
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+:columns: 4
+**Quality control (Content)**
+^^^
+This is the part played by the **referees**. A major part of the effort that sets the reputation of a journal is carried out by the referees.
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+:columns: 4
+**Quality control (Form)**
+^^^
+The copy editing and general page design that make a journal look professional is carried out by copy editors and other non-academic professionals.
+
+:::
+
+::::
+
+<br>
+
+::::{grid} 3
+
+:::{grid-item-card}
+:class-header: bg-light
+:columns: 4
+**Recognition of work done**
+^^^
+In terms of importance this ranks first from the point of view of many authors    
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+:columns: 4
+**Marketing**
+^^^
+Marketing of the journal to possible readers and other customers, e.g. libraries.
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+:columns: 4
+**Delivering / Disseminating**
+^^^
+The delivery of the information (in the form of the physical item) to the purchaser or reader
+
+:::
+
+::::
+
+:::::
+
+### Publication types
+
+| Publisher types     | # Articles       | 1    | 2        | 3        | 
+| ----------- | ----------- |----------- | ----------- | ----------- |
+| Commercial      |    |  |  |  |
+| Government      |  |  |  |  |
+| Independant      |    |  |  |  |
+| Institute      |  |  |  |  |
+| Non-Profit      |    |  |  |  |
+| Society      |  |  |  |  |
+| Society or institution     |    |  |  |  |
+| University      |  |  |  |  |
+| University Press      |  |  |  |  |
+
+taken from {cite:p}`Morrison2022`
+
+```{note}
+
+To keep exctracting (don't forget to keep up to date)
+
+```
+
+**More**:
+
+- [Article](https://www.huffpost.com/entry/academic-journals-the-mos_b_6368204)
+
+### <strong>&#187;  <u>How it works</u></strong></h3>
+
+:::{margin} 
 
 ```{seealso}
 
@@ -33,20 +145,60 @@ Some articles talking about scientific puplication
 
 ```
 
-````
+:::
 
-## How it works
-
-<h3><strong>&#187;  <u>An historical perspective</u></strong></h3>
+#### <strong>&#187; &#187;  An historical perspective</strong>
 
 Scientific publication begin it's journey in 1665 with the [Philosophical Transactions of the Royal Society](https://en.wikipedia.org/wiki/Philosophical_Transactions_of_the_Royal_Society) with contributions from Isaac Newton, <span class="hovertext" data-hover="First woman ever published in 1787 (An account of a new comet)">Caroline Hershell</span>, Benjamin Franklin, Charles Darwin... Publication of scientific work will remain in the hand of <span class="hovertext" data-hover="Royal Society">scientific society</span> until the end of the second world war, a time when science publishers were notoriously inefficient and constantly broke, but science itself was about to enter a period of unprecedented growth resulting from <strong>government fundings</strong>. 
 This is the time choosen by [Robert Maxwell](https://en.wikipedia.org/wiki/Robert_Maxwell) to enter the emerging business of scientific publication by creating the company <span class="hovertext" data-hover="Now owned by Elsevier">Pergamon Press</span>. As science was expanding, it become clear that it would need new journals to cover new areas of study, and while scientific societies argued about the boundaries of their fields, Pergamon just went to convince prominent academics that their particular fields required a new journal and install that person at the reins of it. They would then begin
 
 <p class="emphase">Selling subscriptions to university libraries</p>
 
-which suddenly had a lot of government money to spend. From 40 journals in 1959, Pergamon was publishing 150 titles by 1965, scientific articles became the only way science was represented, and publishers were seen as a necessary partner in the advancement of science. Maxwell had transformed the business of publishing but science remained unchanged and scientist would published their work to whichever journal was the best fit for their research area. It is in the mid 70's that *publications* became an inherent part of scientists career with the 
+which suddenly had a lot of government money to spend. From 40 journals in 1959, Pergamon was publishing 150 titles by 1965, scientific articles became the only way science was represented, and publishers were seen as a necessary partner in the advancement of science. Maxwell had transformed the business of publishing but science remained unchanged and scientist would published their work to whichever journal was the best fit for their research area. It is in the mid 70's that *publications* became an inherent part of scientists career with the.
+
+#### The Internet revolution
+
+##### Arxiv
+
+PhysicsE-print  Archive, founded by [Paul Ginsparg](https://fr.wikipedia.org/wiki/Paul_Ginsparg) {cite:p}`Ginsparg1994`
+
+<p class="emphase">This "e-print archive" began as an experimental means of circumventing recognized inadequacies of research journals</p>
+
+##### Others e-publishing models
+
+- {cite:p}`Swinnerton-Dyer1992`: Publishing  model  heavily  influenced  bythe  paper  model  in operation  and  based around  a centralised  server
+- [to ref](https://www.sciencedirect.com/science/article/abs/pii/0098791394900345)
+- {cite:p}`Odlyzko1995`: outline  model  based  on  the **interactive  and  less  formal  possibilities** of net-based publishing
+- [to ref](https://journals.sagepub.com/doi/10.1111/j.1467-9280.1990.tb00234.x): concerned mainly with the pre-formal communication stage  between  researchers
+- [to ref](https://eprints.soton.ac.uk/252900/1/harnad96.peer.review.html): elaborates  the  earlier model  to  include  a  mechanism  for  peer-review.
+- {cite:p}`Ginsparg1997`: describes    theoperation  of  a  real  working  e-publishingmodel.  In  this  case  the  question  is  notwhether   it   works   (use   of   the   PhysicsE-prints  Archive  is  currently  running   ataround  70,000  connections  per  day6)  butwhether  the  implicit  model  it  embodies  isapplicable    to    other    areas    of    research.
+    - It does (give example of bioarxiv, psyarxiv etc)
+
+
 
 <h3><strong>&#187;  <u>Today</u></strong></h3>
+
+
+#### Society vs Commercial publishers
+
+- ACS: American Chemical Society [Link](https://pubs.acs.org/)
+- RAS: Royal Astronomical Society
+- ...
+
+```{note}
+
+- May be can create a table to keep a log of the main ones
+
+
+ Are all of those society non-for-profit organizations? the ACS is non-profit but it is also condidered predatory for high journal price etc ...
+
+
+```
+
+
+
+
+
 
 <h4><strong>An example: <em>Elsevier</em></strong></h4>
 
@@ -98,7 +250,19 @@ Experiments are not described efficiently in scientific papers and hence are **h
 Overall, Scientific work is published in a **Boring** way, even though every piece of Science is interesting.
 
 
+### Oligarchy of scientific publishing
 
+- {cite:p}`Lariviere2015`
+
+- **Economics of scholarly publishing**: [Online article](https://firstmonday.org/ojs/index.php/fm/article/view/4370/3685)
+
+#### How much does it cost
+
+- {cite:p}`Walters2007`: speak about different business models
+
+
+
+- [thecostofknowledge](http://thecostofknowledge.com/)
 
 
 <h3><strong>&#187;  <u>What is wrong</u></strong></h3>
@@ -120,7 +284,10 @@ Overall, Scientific work is published in a **Boring** way, even though every pie
 
 Of course those "fees" are not paid by scientist themseleves, but rather by their institutions or funding bodies. 
 
+- How much does it cost to publish an article: {cite:p}`Grossmann2021`
 
+    
+    
 <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_qzsgm3gz.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
     
@@ -131,6 +298,8 @@ Of course those "fees" are not paid by scientist themseleves, but rather by thei
 <div>
     
 <h5> <u>to the detriment of <strong>Researchers</strong></u> </h5>
+    
+- **Loss of property rights over your work**
 
 Interstingly, while I am writing those lines along with wrapping up my PhD thesis, **I am not paid by my institution** - Pretty cruel system don't you think ?
 
@@ -145,14 +314,38 @@ Well passion doesn't bring food in the table.
     
 ::::    
 :::::
+
+#### A Monopoly
   
 
-  
+
+
+#### What do they do with that money ?
+
+##### Surveillance
+
+:::{margin}
+
+To redo, make links towards open science and open science tools
+
+:::
+
+```{figure} Docs/science_tracking.png
+
+To modify
+```
+
   
 <h5> <u>Open Access</u> </h5>
 
 Yes, some journals offers Open Access, but very often it is a costly options as you need to pay <span class="hovertext" data-hover="How is this money spend, I don't know">Article Processing Charges</span> (APC).
 For Nature they cost 9500 Euros !! (source: <a href="https://www.nature.com/nature-portfolio/open-access" target="blank">Here</a>) 
+
+****: [Directory of Open Access Journals](https://doaj.org/)
+
+##### Journal Ranking
+
+<p class="emphase">Prestige, not quality</p>
 
 ###### Tools
 
@@ -220,6 +413,18 @@ Hierarchical stature of a journal is determined by the Impact factor metrics.
 - [Astronomy papers ranked](https://www.scimagojr.com/journalrank.php?category=3103&page=1&total_size=89). - Sample size: 89
 
 
+
+#### Are metrics a good indicator of paper quality
+
+- **Review**: {cite:p}`Brembs2013`
+
+
+
+- {cite:p}`Berghmans2003`
+- {cite:p}`Tressoldi2013`
+- {cite:p}`Fraley2014`
+- {cite:p}`Macleod2015`
+
 <h6>H-index</h6>
 
 Scientist are judged by their number of publication to climb the accademic ladder. This is measured using <span class="hovertext" data-hover="Explain, h-index ...">metrics</span>.
@@ -230,12 +435,37 @@ Hence we all tend to **publish quick and numerous papers, rather than well and l
 
     
 - Puts scientist away from their main mission, understanding the **bigger picture**
+
+#### The scatter problem
+
+
     
 <h4><strong>Peer Review</strong></h4>
 
 Yes, I include the Peer Review process in this section as there is many flaws associated with it when performed in the context of commercial publications. {cite:p}`Ghosh2012` identified five of them:
 - Reviewers are expected to have comprehensive expertise
 - Reviewers do not have
+
+
+#### Pressure to publish
+
+
+### Poor reproducability
+
+- {cite:p}`Munafo2017`
+
+#### Crisis ?
+
+- {cite:p}`Fanelli2018`
+
+<p class="emphase">Ok but journal put things in place, but is it effective</p>
+
+- {cite:p}`Stodden2018`
+
+#### Reproducability vs replicability
+
+
+- {cite:p}`Plesser2018`
 
 
 ### Alternatives 
@@ -312,6 +542,14 @@ Below is a selection of a few articles from this special issue
 
 
 
+
+## Alternatives
+
+### Publishing Cooperatives
+
+- {cite:p}`Raym2006`:
+
+
 ## Open Journals
 
 - [Journal of Open Source Education](https://jose.theoj.org/)
@@ -323,6 +561,10 @@ Ask Ross about volcanology publication (free)
 
 
 ```
+
+## Law Aspects
+
+- {cite:p}`Manley2019`:
 
 
 ## To Add
@@ -350,3 +592,68 @@ Best solution is to be in charge during the whole precess!
 
 
 ```
+
+### Other Problems
+
+#### Papermills
+
+- [Citation (still under review)](https://europepmc.org/article/ppr/ppr540787)
+- [more](https://psyarxiv.com/6mbgv)
+
+
+## Solution
+
+### The Deconstructed Journeal
+
+- {cite:p}`Smith1999`
+
+```{note}
+
+Looks interesting, to read
+
+```
+
+## More
+
+### Scientific revolution
+
+- {cite:p}`Kuhn1970`
+
+```{note}
+Interesting but bulky (to read though)
+```
+
+## Alternatives
+
+### JSTOR
+
+Contraction of journal storage
+
+- [Wikipedia](https://en.wikipedia.org/wiki/JSTOR)
+
+- [Link](https://www.jstor.org/)
+
+<p class="emphase">Solution to the increasing number of academic journals in existence.</p>
+
+- {cite:p}`Garlock1997`
+
+
+## Electronic publishing
+
+- {cite:p}`Schauder1994`
+
+## Other Kinds of Scientific publication
+
+[Research Compendiums](https://research-compendium.science/)
+
+```{note}
+
+To check for examples
+
+```
+
+## Replacement
+
+- {cite:p}`Susi2021`
+
+

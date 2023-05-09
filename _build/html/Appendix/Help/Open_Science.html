@@ -45,8 +45,11 @@
     <link rel="stylesheet" type="text/css" href="../../_static/css/CV_1.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/css/style_book_shell.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/css/style_flipping_card.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/style_wheel.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/css/.ipynb_checkpoints/custom_style-checkpoint.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/css/.ipynb_checkpoints/style_flipping_card-checkpoint.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/.ipynb_checkpoints/style_wheel-checkpoint.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/.ipynb_checkpoints/wheel_style-checkpoint.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
@@ -102,6 +105,7 @@ commentsRunWhenDOMLoaded(addUtterances);
 </script>
     <script src="../../_static/assets/script/scriptvideo.js"></script>
     <script src="../../_static/assets/script/script_flipping_card.js"></script>
+    <script src="../../_static/assets/script/script_wheel.js"></script>
     <script src="../../_static/assets/script/.ipynb_checkpoints/scriptvideo-checkpoint.js"></script>
     <script src="../../_static/assets/script/.ipynb_checkpoints/script_blob-checkpoint.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
@@ -172,7 +176,7 @@ const thebe_selector_output = ".output, .cell_output"
 
 
   <div class="bd-header-announcement container-fluid bd-header-announcement">
-    <div class="bd-header-announcement__content">Current Version: April 2023 ⚠ <u>Thesis Deadline</u>: <strong>December 2023</strong> ⚠' target='_blank'>Museum</a></div>
+    <div class="bd-header-announcement__content">Current Version: May 2023 ⚠ <u>Thesis Deadline</u>: <strong>December 2023</strong>  ⚠</div>
   </div>
 
   
@@ -214,12 +218,16 @@ const thebe_selector_output = ".output, .cell_output"
 </a></div>
         <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
-        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Profile</span></p>
+        <ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../../Intro/Introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../Intro/table_of_content.html">Table of Content</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">👽 Profile</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../../Profile/Interests.html">Interests</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../Profile/Interests.html">Scientific Interests</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../Profile/CV/CV_Main.html">Curriculum Vitae</a></li>
 </ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Project</span></p>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">✊ Project</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../../Projects/Manifesto.html">Manifesto</a></li>
 
@@ -227,7 +235,7 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l1"><a class="reference internal" href="../../Projects/Contribute.html">Contribute / Help</a></li>
 
 </ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Research</span></p>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">💫 Research</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../../Research/Research_Main.html">Overview</a></li>
 
@@ -242,14 +250,15 @@ const thebe_selector_output = ".output, .cell_output"
 </ul>
 </li>
 </ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Teaching</span></p>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">🎓 Teaching</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../../Teaching/Teaching_Main.html">Overview</a></li>
 </ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Blog / Versions</span></p>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">💥 Blog / Versions</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1 has-children"><a class="reference internal" href="../../Blog/Blog_Main.html">Posts</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="../../Blog/Posts/Scientific_Publication.html">Scientific Publication</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Blog/Posts/Open_Science.html">Open Science</a></li>
 <li class="toctree-l2 has-children"><a class="reference internal" href="../../Blog/Posts/Entrepreneur/Entrepreneur.html">My Entrepreneurship Journey</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-4"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l3"><a class="reference internal" href="../../Blog/Posts/Entrepreneur/DIY-Toolkit.html">DIY Toolkit</a></li>
 </ul>
@@ -499,6 +508,22 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduction">Introduction</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#strong-u-open-science-u-strong"><strong> ‣ <u> Open Science </u></strong></a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#strong-prerequisites-strong"><strong> ‣ ‣ Prerequisites </strong></a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#strong-guides-strong"><strong> ‣ ‣ Guides </strong></a><ul class="nav section-nav flex-column">
+<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#strong-the-turing-way-strong"><strong> The Turing Way </strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#strong-u-tools-u-strong"><strong> ‣ <u> Tools </u></strong></a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#strong-overview-strong"><strong> ‣ ‣ Overview </strong></a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#strong-be-mindfull-strong"><strong> ‣ ‣ Be mindfull </strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#open-research">Open Research</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#a-good-guide">A Good Guide</a><ul class="nav section-nav flex-column">
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#the-turing-way">The Turing Way</a><ul class="nav section-nav flex-column">
@@ -565,22 +590,125 @@ document.write(`
 <li><p><a class="reference external" href="https://etherpad.org/doc/v1.2.1/">Etherpad</a></p></li>
 </ul>
 <hr class="docutils" />
+<section id="introduction">
+<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this heading">#</a></h2>
+<section id="strong-u-open-science-u-strong">
+<h3><strong> ‣ <u> Open Science </u></strong><a class="headerlink" href="#strong-u-open-science-u-strong" title="Permalink to this heading">#</a></h3>
+<section id="strong-prerequisites-strong">
+<h4><strong> ‣ ‣ Prerequisites </strong><a class="headerlink" href="#strong-prerequisites-strong" title="Permalink to this heading">#</a></h4>
+<div class="full-width docutils">
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-3 sd-row-cols-xs-3 sd-row-cols-sm-3 sd-row-cols-md-3 sd-row-cols-lg-3 docutils">
+<div class="sd-col sd-d-flex-column sd-col-6 sd-col-xs-6 sd-col-sm-6 sd-col-md-6 sd-col-lg-6 docutils">
+<blockquote>
+<div><p>I have written two blogposts that I think are good introduction to the topic of Open Research. Click on the cards to know more</p>
+</div></blockquote>
+</div>
+<div class="sd-col sd-d-flex-row sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Scientifique Publication</strong></p>
+</div>
+<div class="sd-card-body docutils">
+</div>
+<a class="sd-stretched-link reference external" href="https://deugz.github.io/nb-master/_build/html/Blog/Posts/Scientific_Publication.html"></a></div>
+</div>
+<div class="sd-col sd-d-flex-row sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Open Science</strong></p>
+</div>
+<div class="sd-card-body docutils">
+</div>
+<a class="sd-stretched-link reference external" href="https://deugz.github.io/nb-master/_build/html/Blog/Posts/Scientific_Publication.html"></a></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="strong-guides-strong">
+<h4><strong> ‣ ‣ Guides </strong><a class="headerlink" href="#strong-guides-strong" title="Permalink to this heading">#</a></h4>
+<section id="strong-the-turing-way-strong">
+<h5><strong> The Turing Way </strong><a class="headerlink" href="#strong-the-turing-way-strong" title="Permalink to this heading">#</a></h5>
+<div class="full-width docutils">
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-column sd-col-9 sd-col-xs-9 sd-col-sm-9 sd-col-md-9 sd-col-lg-9 docutils">
+<blockquote>
+<div><p>Great source of documentation for open data science.</p>
+</div></blockquote>
+<div class="note dropdown admonition">
+<p class="admonition-title">Images - Scriberia</p>
+<p><strong>Documents</strong>:</p>
+<ul class="simple">
+<li><p>Images: from Scriberia - licence CC <a class="reference external" href="https://zenodo.org/record/3695300#.YvZLvRzMKUk">Zenodo_img_repo</a></p></li>
+</ul>
+<p>caption must include :</p>
+<ul class="simple">
+<li><p>This image was created by Scriberia for The Turing Way community and is used under a CC-BY licence</p></li>
+</ul>
+<p><a class="reference external" href="https://alexwlchan.net/2020/02/adjusting-the-dominant-colour-of-an-image/">Modify_image_main color</a></p>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>The Turing Way</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<img alt="../../_images/The_Turing_Way_Logo.png" src="../../_images/The_Turing_Way_Logo.png" />
+</div>
+<a class="sd-stretched-link reference external" href="https://the-turing-way.netlify.app/index.html"></a></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section id="strong-u-tools-u-strong">
+<h3><strong> ‣ <u> Tools </u></strong><a class="headerlink" href="#strong-u-tools-u-strong" title="Permalink to this heading">#</a></h3>
+<section id="strong-overview-strong">
+<h4><strong> ‣ ‣ Overview </strong><a class="headerlink" href="#strong-overview-strong" title="Permalink to this heading">#</a></h4>
+<div class="full-width docutils">
+<figure class="align-default" id="id5">
+<img alt="../../_images/compliance-tools-workflow_cropped.png" src="../../_images/compliance-tools-workflow_cropped.png" />
+<figcaption>
+<p><span class="caption-number">Fig. 20 </span><span class="caption-text"><a class="reference external" href="https://101innovations.wordpress.com/workflows/">Source</a></span><a class="headerlink" href="#id5" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<hr class="docutils" />
+<p><strong>To expolore</strong>:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://docs.google.com/spreadsheets/d/1KUMSeq_Pzp4KveZ7pb5rddcssk1XBTiLHniD0d3nDqo/edit#gid=0">400+ Tools Sheet</a></p></li>
+</ul>
+</div>
+</section>
+<section id="strong-be-mindfull-strong">
+<h4><strong> ‣ ‣ Be mindfull </strong><a class="headerlink" href="#strong-be-mindfull-strong" title="Permalink to this heading">#</a></h4>
+<div class="full-width docutils">
+<figure class="align-default" id="id6">
+<img alt="../../_images/Elsevier_toolkit.png" src="../../_images/Elsevier_toolkit.png" />
+<figcaption>
+<p><span class="caption-number">Fig. 21 </span><span class="caption-text"><a class="reference external" href="https://101innovations.wordpress.com/workflows/">Source</a></span><a class="headerlink" href="#id6" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<blockquote>
+<div><p>Above are some Research tools owned by <strong>Elsevier</strong>. Now remember that half of Elsevier profit come from analytics</p>
+</div></blockquote>
+<p class="emphase"><em>If you are not paying for a service; You are the product being sold.</em></p>
+</div>
+</section>
+</section>
+</section>
 <section id="open-research">
 <h2>Open Research<a class="headerlink" href="#open-research" title="Permalink to this heading">#</a></h2>
 <section id="a-good-guide">
 <h3>A Good Guide<a class="headerlink" href="#a-good-guide" title="Permalink to this heading">#</a></h3>
 <section id="the-turing-way">
 <h4>The Turing Way<a class="headerlink" href="#the-turing-way" title="Permalink to this heading">#</a></h4>
-<p>Great source of documentation for open data science.</p>
 <section id="images">
 <h5>Images<a class="headerlink" href="#images" title="Permalink to this heading">#</a></h5>
-<p>from Scriberia - licence CC</p>
-<p><a class="reference external" href="https://zenodo.org/record/3695300#.YvZLvRzMKUk">Zenodo_img_repo</a></p>
-<p>caption must include :</p>
-<ul class="simple">
-<li><p>This image was created by Scriberia for The Turing Way community and is used under a CC-BY licence</p></li>
-</ul>
-<p><a class="reference external" href="https://alexwlchan.net/2020/02/adjusting-the-dominant-colour-of-an-image/">Modify_image_main color</a></p>
 </section>
 </section>
 </section>
@@ -738,10 +866,10 @@ document.write(`
 </ul>
 <p><strong>Enhanced reproducibility</strong></p>
 <p>spectrum</p>
-<figure class="align-default" id="id5">
+<figure class="align-default" id="id7">
 <a class="reference internal image-reference" href="Appendix/Help/Docs/Reproducibility_Spectrum.PNG"><img alt="Appendix/Help/Docs/Reproducibility_Spectrum.PNG" src="Appendix/Help/Docs/Reproducibility_Spectrum.PNG" style="width: 650px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 18 </span><span class="caption-text">source: <span id="id2">[<a class="reference internal" href="../Biblio/bibliography.html#id16" title="Roger D. Peng. Reproducible research in computational science. Science, 334:1226-1227, 12 2011. doi:10.1126/science.1213847.">Peng, 2011</a>]</span></span><a class="headerlink" href="#id5" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 22 </span><span class="caption-text">source: <span id="id2">[<a class="reference internal" href="../Biblio/bibliography.html#id5" title="Roger D. Peng. Reproducible research in computational science. Science, 334:1226-1227, 12 2011. doi:10.1126/science.1213847.">Peng, 2011</a>]</span></span><a class="headerlink" href="#id7" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <ul class="simple">
@@ -889,7 +1017,7 @@ document.write(`
 <h3><strong>&#187;  <u>Sociale & politique</u></strong></h3>
 <p><span class="hovertext" data-hover="Within political philosophy and particularly in the work of Chantal Mouffe and Hannah Arendt, “agonism” has been described as representing the notion of being able to challenge and dissent in a productive way">agonistic</span> publishing</p>
 <ul class="simple">
-<li><p><span id="id4">[<a class="reference internal" href="../Biblio/bibliography.html#id11" title="George Koutsouris, Lauren Stentiford, Simon Benham-Clarke, and David Hall. Agonism in education: a systematic scoping review and discussion of its educational potential. Educational Review, 74:1029-1054, 7 2022. doi:10.1080/00131911.2021.1889983.">Koutsouris <em>et al.</em>, 2022</a>]</span></p></li>
+<li><p><span id="id4">[<a class="reference internal" href="../Biblio/bibliography.html#id10" title="George Koutsouris, Lauren Stentiford, Simon Benham-Clarke, and David Hall. Agonism in education: a systematic scoping review and discussion of its educational potential. Educational Review, 74:1029-1054, 7 2022. doi:10.1080/00131911.2021.1889983.">Koutsouris <em>et al.</em>, 2022</a>]</span></p></li>
 <li><p>dissociative and associative agonism</p></li>
 </ul>
 <h4><strong> Benefits</strong></h4>
@@ -1032,6 +1160,22 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduction">Introduction</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#strong-u-open-science-u-strong"><strong> ‣ <u> Open Science </u></strong></a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#strong-prerequisites-strong"><strong> ‣ ‣ Prerequisites </strong></a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#strong-guides-strong"><strong> ‣ ‣ Guides </strong></a><ul class="nav section-nav flex-column">
+<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#strong-the-turing-way-strong"><strong> The Turing Way </strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#strong-u-tools-u-strong"><strong> ‣ <u> Tools </u></strong></a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#strong-overview-strong"><strong> ‣ ‣ Overview </strong></a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#strong-be-mindfull-strong"><strong> ‣ ‣ Be mindfull </strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#open-research">Open Research</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#a-good-guide">A Good Guide</a><ul class="nav section-nav flex-column">
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#the-turing-way">The Turing Way</a><ul class="nav section-nav flex-column">
