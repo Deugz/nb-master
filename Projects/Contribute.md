@@ -1,4 +1,4 @@
-# Contribute / Help
+# Contribute
 
 ::::{margin} 
 

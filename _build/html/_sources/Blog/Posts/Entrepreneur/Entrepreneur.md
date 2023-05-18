@@ -4,11 +4,68 @@
 
 **Based on OU course**
 
-
-
 I use this page to take notes from the above OU course
 
 ***
+
+As a scientist I fall into the broad category of **knowledge workers**.
+
+## The Big Idea(s)
+
+:::{div} full-width
+
+<p class="emphase">I want to self-publish the outputs of my research, online.</p>
+
+<p class="emphase">I want those outputs to be open, transparent, interactive, reproducible ...</p>
+
+<p class="emphase">I want to be the owner of my work, and have the freedom to use any template, format of my choice and be in charge of the edition process.</p>
+
+<p class="emphase"> To achieve the aformentioned goals, I am exploiting a bundle of open-source tools and open science practices. </p>
+    
+<p class="emphase">I want to developp guidelines and tutorials to help like-minded researchers to do the same.</p>
+
+<p class="emphase">I want to create a new scientific publication model.</p>
+
+:::
+
+
+## Where do I fit within the industry landscape
+
+
+### Creative Industry 
+
+**Definition:**
+
+<p class="emphase">Industries ‘which have their origin in individual creativity, skill and talent and which have a potential for wealth and job creation through the generation and exploitation of intellectual property’</p>
+
+Definition from [Source](https://web.archive.org/web/20080727021512/http://www.culture.gov.uk/reference_library/publications/4632.aspx)
+
+Where does scientists fit within the definition? 
+
+[Mapping the Creative economy](https://creativeconomy.britishcouncil.org/media/uploads/files/English_mapping_the_creative_industries_a_toolkit_2-2.pdf)
+
+
+
+
+
+
+
+
+## Business personal thoughts
+
+<p class="emphase"> Scrientists create new knowledge, which can be seen as a source of value. However they purpusfully give away what they produce to scientific publishers that generate money out of what should be a common good.</p>
+
+<p class="emphase2">My idea is to create</p>
+
+<p class="emphase">... </p>
+
+
+```{epigraph}
+
+- Bring together 
+
+```
+
 
 ## Week 1
 
@@ -161,4 +218,374 @@ This is your ability to find, supply and keep on getting new sales, contracts an
 to implement
 
 ```
+
+## Planning for growth
+
+- Getting, delivering and running my business
+
+### Difference between small and medium businesses
+
+- Small businesses tend to be concerned with survival and viability, and may also be based around the lifestyle of the owner.
+
+- A medium-sized business is concerned with growth and scaling up, which requires a different mindset and managerial behaviours as a result
+
+### Reflexion:
+
+- **What does running your own business mean to you?**
+
+- **What is your business all about? What is its purpose – or to use the jargon – its mission?**
+
+- **Who else will be affected by your decisions?**
+
+- **Thinking ahead five years, where do you see yourself, your family, your business?**
+
+- **Now consider your own personal values – what is important to you? Does your image of the future square with your values? Are there any that are likely to conflict?**
+
+
+## Intellectual Property
+
+- **Patents** – provide the inventor with the right to prevent other people from making, using or selling the subject matter under patent. Patents are the best protection for a new product.
+
+- **Copyright** – covers original works of art, authorship or written copy (books, music, film etc.).
+
+- **Trademarks** – protect the value of a name, brand, logo or other symbols that allow your product to be distinguished from others. Think of the three stripes or the tick for Adidas and Nike. Before you register your company and website address or consider a business that operates in international markets, it is worth considering whether you can have these and use them without infringing any other business. You may also want to consider any cultural references that make your product less attractive overseas. In addition, it makes sense to ensure that your product and company name work for customers and other stakeholders. Is it memorable? Can it be spelled and therefore found?
+
+- **Trade secrets** – allow the owner to take action against anyone who breaches the agreement to keep something confidential – for example a family recipe.
+
+- **Creative Commons** ?
+
+### To consider
+
+- If you are currently working for someone else, you should check the terms of your employment to ensure that your employer does not own any new ideas or inventions. Similarly, working on your own idea under the radar, in their time and using their resources, could create problems for you further down the line. Keep a clear distinction between your employed work and your new venture.
+- A non-disclosure document or confidentiality agreement will allow you to have conversations with experts and advisers about your ideas without jeopardising your position.
+- As you work up your idea you will possibly have sought and gained lots of input from friends, colleagues and others. These conversations may even result in joint ideas or loose proposals to be co-founders. Once there is an agreement between you and others, you need to agree on the terms of the relationship to prevent huge problems down the line.
+- If you are going to be working with other people on your business idea – perhaps employing independent contractors – then you should ensure that all IP rights are assigned to your company. If you employ someone from a competitor, then ensure that they aren’t bound by any confidentiality or non-compete conditions.
+- If you are using open source software as part of your product, you need to carefully check the rights and permissions. Similarly, if you intend to use images on your website, you do not want to infringe others’ copyright.
+- Protection should cover all the country markets that you intend to trade in.
+
+#### Starting a business ressources:
+
+- [GOV.uk](https://www.gov.uk/)
+- [Forbes](https://www.forbes.com/)
+- [Techcrunch](https://techcrunch.com/)
+
+## Business structures
+
+Difference between the **legal forms** (1) and **organisational types** (1 or more)
+
+### Legal Options
+
+- **Sole trader** – the simplest way to operate. However, there are implications for how you raise finance and your personal liability for debts and tax. As a sole trader you are not separate from the operation.
+
+- **Partnerships** – where two or more people co-own a business and share the income from it. As with sole traders, in the law, the business is not seen as separate from its operators.
+
+- **Limited liability partnerships** – require at least one general partner and one limited partner – but you cannot be both. Limited partners contribute to the funding to start the company and are liable for debts up to the amount contributed. A limited partner cannot manage the business. General partners manage the business and are liable for any debts the business cannot pay.
+
+- **Limited company** – the business is separate from the operators. Its finances are separate from the owner’s personal finances. Companies can retain profits after paying corporation tax. Companies need directors and shares, memorandum and articles of association and, in the UK, need to be registered with Companies House.
+
+- **Franchise** – a business in which the owner or franchisor gives a third party (franchisee) the right to use their business name, logo and business model. McDonalds and Subway are well known examples of franchises on the high street. This is one way to start a business which avoids much of the activity required for a new business. It is also a way to scale your own business idea.
+
+- **Social businesses** – there are common organisational types used by social businesses:
+
+    -  &#9745; **Social enterprise** – a business with primarily social objectives. Profit is mostly reinvested in the business or in the community, rather than maximising profit for shareholders and owners.
+
+    - **Community enterprise** – generally taken to be a social enterprise owned and run by a geographical community or a community of interest.
+
+    - **Co-operative** – an autonomous association of persons united voluntarily to meet their common economic, social and cultural needs and aspirations through a jointly-owned and democratically controlled       enterprise (International Co-operative Alliance definition). There are many types of co-operative:
+
+        – worker co-operative – co-operative owned and run by its workers
+
+        – housing co-operative – co-operative owned and run by its tenants
+
+        – consumer co-operative – co-operative owned and run by its customers
+
+        – co-operative consortium – co-operative owned and run by other businesses which use the services of the co-operative
+
+        – multi-stakeholder co-operative – a mixture of any or all of the above.
+        
+- **Community land trust** – an organisation created to hold land as an asset for community use.
+
+- **Credit union** – a non-profit financial institution that is owned and operated entirely by its members.
+
+- **Development trust** – a community-based enterprise that secures and manages community assets.
+
+- **Social firm** – a business committed to creating employment and training opportunities for people who are furthest from the labour market.
+
+```{note}
+
+Deciding what structure your business should take requires thinking about how you will finance it and what size of business you anticipate it will become
+
+- an individual can trade for a social purpose as well as being a sole trader, and call themselves a social business
+    - ie social business (providing knowledge to people + trading web-sites for interested scientists)
+
+```
+
+#### Not for profit
+
+
+### What structure do I need?
+
+- **Are you planning on starting the business on your own or with one or more others? What would you want to happen in future in the event of one or other wanting to leave, for example retiring or moving away?**
+
+- **How much administration is needed? Although you will always need to keep adequate records for tax and other reasons, some structures do not require you to register your company, incorporate it, file accounts or have them audited, or to make annual returns ?**
+
+- **How much finance do you need? Where will your finance come from? What assets do you have and are prepared to use as a collateral if necessary to borrow capital to invest in your business? Will it come from you or from loans and shareholders? How does having shareholders impact on your growth plan?**
+
+- **Do you need to consider tax advantages or protection of personal assets?**
+
+- **What about other considerations like your community, surroundings or the environment?**
+
+##  tasks and roles 
+
+<p class="emphase"> That you would need to consider when running your business</p>
+
+### Finance
+
+### Administration and governance
+
+### Sales, marketing and customer service
+
+
+**Usefull ressource to check**:
+
+- [Link](https://www.open.edu/openlearn/mod/oucontent/view.php?id=80696&section=6.2)
+
+- [Social entrprise](https://www.socialenterprise.org.uk/)
+
+- [Guide](https://www.socialenterprise.org.uk/app/uploads/2022/07/Start-your-social-enterprise-guide-1.pdf)
+
+
+
+
+
+## Business Canvas
+
+
+There is 3 main business models:
+- Traditional product-oriented system
+- McKinsey’s value delivery system
+- Business model canvas
+
+
+
+
+::::{div} full-width
+
+```{figure} Docs/Business_Model_Canvas.png
+
+
+Business Model Canvas
+```
+
+::::
+
+
+<div class="embedresize">
+<iframe width="100%" height="56.25%" src="https://www.youtube.com/embed/IP0cUBWTgpY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+
+## Digital publishing business models
+
+- Extracted from [Source](https://www.copypress.com/kb/content-marketing/everything-you-need-to-know-about-digital-publishing/)
+
+Digital publishing and digital media are a wide-reaching industry. Different companies use digital publishing for a variety of reasons, depending on factors like:
+
+- Target audience
+- Relevancy and uniqueness of their content
+- Content development strategies
+- Diversity of income streams
+- Collaborations with influencers or other brands
+
+Depending on a company’s combinations of these factors, they may choose one of three popular digital publishing business models to incorporate into their marketing strategy. These business models are:
+
+- (Currently used by Scientific publishers) Memberships, subscriptions, and paid content: In this business model, companies require readers and viewers to sign up and pay to have access to their new and archived digital publications and content. This model is popular for things like online magazines and newspapers.
+
+- (Yes) ECommerce or retail: In this business model, companies direct their marketing to individual consumers, promoting singular products or services. This model may be popular for things like eBooks, software programs, or video games.
+
+- (May-be, collaborative aspect) Branded content and programmatic advertising: In this business model, companies focus strictly on marketing their brands rather than on individual products or services. They may use tactics like pay-per-click (PPC) advertising, influencer relationships, or content syndication to increase brand awareness.
+
+
+### Digital transformation of Business Models 
+
+{cite:p}`Li2020`
+
+
+## The Value Proposition
+
+### Current state of Scientific Publication
+
+<p class="emphase">Every person in the world is one of Science stakeholders.</p>
+
+#### The Constat 
+
+:::::{div} full-width
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 9
+
+> Scientific publication is a niche, that get very little attention from the general public nor policy makers. And yet it is partly (if not mostly) funded by the public, and is one of the most lucrative business in the world.   
+
+
+:::
+
+:::{grid-item-card}
+:columns: 3
+:class-header: bg-light
+**Scientific Publication**
+^^^
+
+Link to blog post
+
+
++++
+
+:::
+
+::::
+
+:::::
+
+#### The emerging field of Open Science 
+
+:::::{div} full-width
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 9
+
+> Oportunity for new business model - (current scientific publishers are using this emerging trend to make even more money by applying APC). They don't serve science  
+
+
+:::
+
+:::{grid-item-card}
+:columns: 3
+:class-header: bg-light
+**Open Science**
+^^^
+
+Link to blog post
+
+
++++
+
+:::
+
+::::
+
+:::::
+
+
+### Where I fit
+
+
+:::::{div} full-width
+
+::::{grid} 2
+
+:::{grid-item-card}
+:columns: 6
+:class-header: bg-light
+**Problems**
+^^^
+
+- The outdated scientific publication system
+
+- Reproducibility of scientific experiments
+
+:::
+
+:::{grid-item-card}
+:columns: 6
+:class-header: bg-light
+**Needs**
+^^^
+
+- Deliver good science to the general public
+
+- New model for scientific publication
+
+- Mkae scientifc publication up-to-date and allowing all the modern media channels to be incorporated in scientific outputs
+
+- Make scientific work machine readable and inter-linked
+    - Semantic Web
+    - Thesaurus ...
+
+- Add interactivity to scientific publication
+
+- lifelong Peer Review
+
+:::
+
+::::
+
+:::::
+
+
+
+
+
+## Customer Segments
+
+- Researchers
+    - That are willing to embrace new methods to challenge the current publication system
+    - That seeks new way for more efficient, broader scientific collaboration.
+    
+- Teachers
+    - Looking for good ressources to teach or to entertain their students
+
+- Public 
+    - That want to learn about Science
+
+- Policy makers ?
+
+## Channels 
+
+<p class="emphase">How do my products gets to my customers</p>
+
+- Mailing list
+- Advertisement
+- via networking
+    - Conferences / Seminars
+
+- Social media ...
+
+## Customer Relationships
+
+<p class="emphase">How do I get, keep and grow my customers</p>
+
+```{note}
+
+split between Researchers and Public
+
+
+```
+
+## Revenue Streams
+
+<p class="emphase">What value is the customer paying for</p>
+
+
+
+## Ressources
+
+- Finance
+- Physics
+- Intellectual
+- Human
+
+## Partners
+
+- Executable Books
+- Endnote ?
+
+
+## Activities
+
+
+## Costs
 

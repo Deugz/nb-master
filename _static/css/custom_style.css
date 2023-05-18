@@ -301,65 +301,6 @@ padding: 10px;
 
 /* 	Slideshow simple */
 
-input {
-  display: none;
-}
-
-.labelSC {
-  display: inline-block;
-  width: 15px;
-  height: 15px;
-  background: #efefef;
-  margin: 8px;
-  border: 2px solid #ccc;
-  border-radius: 50%;
-}
-
-.slides {
-  width: 400px;
-  text-align: center;
-}
-
-#slide-1:checked ~ #gallery {
-  background-image: url('assets/Guide_tour/Title.png');
-}
-#slide-2:checked ~ #gallery {
-  background-image: url('assets/Guide_tour/Slide1.png');
-}
-#slide-3:checked ~ #gallery {
-  background-image: url('assets/Guide_tour/Slide2.png');
-}
-#slide-4:checked ~ #gallery {
-  background-image: url('assets/Guide_tour/Slide3.png');
-}
-#slide-5:checked ~ #gallery {
-  background-image: url('assets/Guide_tour/slide4.png');
-}
-#slide-6:checked ~ #gallery {
-  background-image: url('_static/assets/Guide_tour/slide5.png');
-}
-
-#gallery {
-  width: 752px;
-  height: 423px;
-  background-image: url('assets/Guide_tour/Title.png');
-  background-size: cover;
-  border-radius: 0.375em;
-  box-shadow: 0 3px 8px 0 grey;
-}
-
-#slide-1:checked ~ .slides label:nth-of-type(1),
-#slide-2:checked ~ .slides label:nth-of-type(2),
-#slide-3:checked ~ .slides label:nth-of-type(3) 
-#slide-4:checked ~ .slides label:nth-of-type(4)
-#slide-5:checked ~ .slides label:nth-of-type(5) 
-#slide-6:checked ~ .slides label:nth-of-type(6) {
-  background: #888;
-}
-
-* {
-  box-sizing: border-box;
-}
 
 #sticky-video {
   position: fixed;
@@ -386,8 +327,6 @@ input {
   height: 135px;
   box-shadow: 0 3px 6px rgba(200, 200, 200, 0.6);
 }
-
-
 
 @media screen and (max-width: 700px) {
   #sticky-video {
@@ -471,5 +410,101 @@ color: rgba(238, 238, 238, 0.7);
   transform: translateX(100%);
 }
 
+/* Slideshow container */
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+  margin-right: 10px;  
+
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  border-radius: 5px;  
+  background-color: #FFF8E7 !important;
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px; 
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
 
 

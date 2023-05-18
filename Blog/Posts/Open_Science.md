@@ -24,3 +24,7 @@
 ### Astropy
 
 {cite:p}`Price-Whelan2018`
+
+## Researchers view
+
+{cite:p}`Boukacem-Zeghmouri2018`

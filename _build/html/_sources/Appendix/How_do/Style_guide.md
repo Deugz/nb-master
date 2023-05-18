@@ -1,4 +1,6 @@
-# Guide
+# Guides
+
+> A web-site is a completely different communication channel than the classic scientific paper format. It may be difficult to get around at first so I have prepared two guide to explain how I use those those online books and more importantly how you can interact with them
 
 ***
 **Documentation**:

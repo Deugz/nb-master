@@ -1,12 +1,8 @@
-# How do I use
-
-<p class="emphase2"><strong>Online Books </strong> </p>
+# **I** use online books
 
 <br>
 
-<br>
-
-<p class="emphase">On top of the obvious advantages of owing a website to share science, there is multiple <strong>benefits arising from the building method</strong> itself</p>
+<p class="emphase">On top of the obvious advantages of owing a website to share science, there is multiple <strong>benefits arising from the building method</strong> itself </p>
 
 <br>
 
@@ -30,9 +26,9 @@
 
 :::{div} full-width
 
-<p class="emphase2"> <strong> The Need </strong> </p>
+<p class="emphase2"> Fitted for <strong> My Needs </strong> </p>
 
-<p class="emphase"> <strong> Limitations </strong> with hand written notebooks ✍ </p>
+<p class="emphase"> I have <strong> Limitations </strong> with hand written notebooks ✍ </p>
 
 :::
 
@@ -89,7 +85,7 @@ blabla
 
 <br>
 
-<p class="emphase">No <span class="hovertext" data-hover="Students and researchers are not a good customer target">bespoke</span> alternative</p>
+<p class="emphase">and found no <span class="hovertext" data-hover="Students and researchers are not a good customer target">bespoke</span> alternative, so I designed my own</p>
 
 ::::::
 
@@ -99,7 +95,7 @@ blabla
 
 :::{div} full-width
 
-<p class="emphase2"> <strong> My Solution  </strong> </p>
+<p class="emphase2"> <strong> Solution  </strong> </p>
 
 <p class="emphase">  Markdown <img src="..\..\_static\Svg_icons\file-markdown-svgrepo-com.svg" style="width: 20px; margin: 5px;"> + Jupyter Lab <img src="..\..\_static\Svg_icons\jupyter-svgrepo-com.svg" style="width: 20px; margin: 5px;"> = <strong>Jupyter Book</strong> <img src="..\..\_static\Images\logo_JB.png" style="width: 20px; margin: 5px;"></p>
 
@@ -254,13 +250,49 @@ blabla
 (content:references:Title4)=
 ## Edition
 
+
+:::::{div} full-width
+
+<p class="emphase2"> <strong> I am in charge </strong> </p>
+
+<p class="emphase"> My own style, my own rules: open to <strong>experiment and innovation</strong>  <img src="..\..\_static\Svg_icons\brush-paint-wide-brush-paint-brush-repair-painting-svgrepo-com.svg" style="width: 20px; margin: 5px;"> </p>
+
+
+::::{grid} 2
+
+:::{grid-item}
+
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://assets7.lottiefiles.com/private_files/lf30_vnbcd4ev.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
+
+:::
+
+:::{grid-item}
+
+
+```{epigraph}
+
+Scientist are already in charge of the edition burden of their work, by using latex template to fit the journal format requirements. Those requirements are based upon print publication, even though most of the content is read online. As a result we are constrained by unnecessary guidelines.       
+
+```
+
+:::
+
+:::::
+
+<p class="emphase"> <strong> Freedom </strong></p>
+
+
+
+
+
 <br>
 
 ::::{div} full-width
 
 <p class="emphase2"> <strong> Versatile Canvas  </strong> </p>
 
-<p class="emphase">  My own style, my own rules: open to <strong>experiment and innovation</strong>  <img src="..\..\_static\Svg_icons\brush-paint-wide-brush-paint-brush-repair-painting-svgrepo-com.svg" style="width: 20px; margin: 5px;"> </p>
+<p class="emphase"> I can do much (much) more than what is allowed by a paper based model of publication </p>
 
 
 <figure id="transition-img">
@@ -389,6 +421,34 @@ Allow for user interaction with the page content
 
 <br>
 
+:::{div} full-width
+
+<p class="emphase2"> <strong> All in 1  </strong> </p>
+
+<p class="emphase"> I am the owner of my work, and hence don't have to scatter it around</p>
+
+
+
+:::
+
+
+
+
+:::{div} full-width
+
+<p class="emphase2"> <strong> Evolving Architecture  </strong> </p>
+
+<p class="emphase"> I often spoke with my supervisor about how a PhD is an <strong>eveloving creature</strong></p>
+
+
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://assets4.lottiefiles.com/packages/lf20_4eipbkty.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
+
+
+:::
+
+
+
 :::::{div} full-width
 
 <p class="emphase2"> <strong>4 Options</strong></p>
@@ -462,6 +522,15 @@ Sharing is caring
 
 
 <br>
+
+
+<br>
+
+
+
+
+
+
 <br>
 
 
@@ -1105,6 +1174,9 @@ Just explore
 Broader reach -> Bigger impact
 
 ```
+
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://assets10.lottiefiles.com/packages/lf20_tu7879me.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
 
 
 

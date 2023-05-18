@@ -106,8 +106,10 @@ commentsRunWhenDOMLoaded(addUtterances);
     <script src="../../_static/assets/script/scriptvideo.js"></script>
     <script src="../../_static/assets/script/script_flipping_card.js"></script>
     <script src="../../_static/assets/script/script_wheel.js"></script>
+    <script src="../../_static/assets/script/slideshow.js"></script>
     <script src="../../_static/assets/script/.ipynb_checkpoints/scriptvideo-checkpoint.js"></script>
     <script src="../../_static/assets/script/.ipynb_checkpoints/script_blob-checkpoint.js"></script>
+    <script src="../../_static/assets/script/.ipynb_checkpoints/slideshow-checkpoint.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script src="../../_static/design-tabs.js"></script>
     <script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-CPYX9S0KDS"></script>
@@ -231,8 +233,13 @@ const thebe_selector_output = ".output, .cell_output"
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../../Projects/Manifesto.html">Manifesto</a></li>
 
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Projects/How_do/How_main.html">How ?</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Projects/How_do/How_do_I.html"><strong>I</strong> use online books</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Projects/How_do/How_can_you.html"><strong>You</strong> can interact</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="../../Projects/Roadmap.html">Roadmap</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../Projects/Contribute.html">Contribute / Help</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../Projects/Contribute.html">Contribute</a></li>
 
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">💫 Research</span></p>
@@ -241,8 +248,8 @@ const thebe_selector_output = ".output, .cell_output"
 
 
 
-<li class="toctree-l1 has-children"><a class="reference internal" href="../../Research/PhD/PhD-Orga.html">PhD Thesis</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l2 has-children"><a class="reference internal" href="../../Research/PhD/How-it-works.html">Online Format</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Research/PhD/PhD-Orga.html">PhD Thesis</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../Research/PhD/How-it-works.html">Online Format</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l3"><a class="reference external" href="https://deugz.github.io/nb-phd/_build/html/intro.html">Amorphous Ice (📖 A)</a></li>
 <li class="toctree-l3"><a class="reference external" href="https://deugz.github.io/nb-museum/_build/html/intro.html">Planet Formation (📖 B)</a></li>
 </ul>
@@ -254,13 +261,15 @@ const thebe_selector_output = ".output, .cell_output"
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../../Teaching/Teaching_Main.html">Overview</a></li>
 </ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">💥 Blog / Versions</span></p>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">💥 Blog</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1 has-children"><a class="reference internal" href="../../Blog/Blog_Main.html">Posts</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Blog/Blog_Main.html">Posts</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-4"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="../../Blog/Posts/Scientific_Publication.html">Scientific Publication</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../Blog/Posts/Open_Science.html">Open Science</a></li>
-<li class="toctree-l2 has-children"><a class="reference internal" href="../../Blog/Posts/Entrepreneur/Entrepreneur.html">My Entrepreneurship Journey</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-4"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Blog/Posts/Education/Education.html">Education</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../Blog/Posts/Entrepreneur/Entrepreneur.html">My Entrepreneurship Journey</a><input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-5"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l3"><a class="reference internal" href="../../Blog/Posts/Entrepreneur/DIY-Toolkit.html">DIY Toolkit</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../Blog/Posts/Entrepreneur/Business_model.html">Business model Canvas</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../../Blog/Posts/Outreach.html">Outreach</a></li>
@@ -269,23 +278,12 @@ const thebe_selector_output = ".output, .cell_output"
 
 </ul>
 </li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="../../Blog/Version_Main.html">Versions</a><input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-5"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="../../Blog/Version/version0.html">Version 0</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../Blog/Version/version1.html">Version 1. </a></li>
 </ul>
-</li>
-</ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Appendix</span></p>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">🔧 Appendix</span></p>
 <ul class="current nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../Biblio/bibliography.html">Bibliography</a></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="../How_do/Style_guide.html">Guide</a><input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-6"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="../How_do/How_do_I.html">How do I use</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../How_do/How_can_you.html">How <strong>You</strong> can …</a></li>
-</ul>
-</li>
-<li class="toctree-l1 current active has-children"><a class="reference internal" href="../Help_main.html">💡 Help</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-7"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="../Help_main.html">Help</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-6"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="Open_Science.html">Open Science Tools</a></li>
-<li class="toctree-l2 has-children"><a class="reference internal" href="Executable-Book/Executable-Book.html">Executable Books</a><input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-8"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="Executable-Book/Executable-Book.html">Executable Books</a><input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-7"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l3"><a class="reference internal" href="Executable-Book/Jupyter.html">Jupyter Book</a></li>
 <li class="toctree-l3"><a class="reference internal" href="Executable-Book/MyST.html">MyST</a></li>
 </ul>
@@ -298,6 +296,14 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l2"><a class="reference internal" href="SemanticWeb.html">Semantic Web</a></li>
 </ul>
 </li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Blog/Version_Main.html">Versions</a><input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-8"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Blog/Version/version0.html">Version 0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Blog/Version/version1.html">Version 1. </a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Biblio/bibliography.html">Bibliography</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Biblio/Lists.html">Lists</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Acknowledgments.html">Acknowledgments</a></li>
 </ul>
 
     </div>
@@ -539,8 +545,8 @@ document.write(`
 </ul>
 <p><strong>Litterature</strong>:</p>
 <ul class="simple">
-<li><p><span id="id1">[<a class="reference internal" href="../Biblio/bibliography.html#id16" title="Ali Tarhini, Kate Hone, and Xiaohui Liu. Factors affecting students’ acceptance of e-learning environments in developing countries:a structural equation modeling approach. International Journal of Information and Education Technology, pages 54-59, 2013. doi:10.7763/ijiet.2013.v3.233.">Tarhini <em>et al.</em>, 2013</a>]</span></p></li>
-<li><p><span id="id2">[<a class="reference internal" href="../Biblio/bibliography.html#id17" title="Paul Juinn Bing Tan. Applying the utaut to understand factors affecting the use of english e-learning websites in taiwan. SAGE Open, 11 2013. doi:10.1177/2158244013503837.">Tan, 2013</a>]</span></p></li>
+<li><p><span id="id1">[<a class="reference internal" href="../Biblio/bibliography.html#id46" title="Ali Tarhini, Kate Hone, and Xiaohui Liu. Factors affecting students’ acceptance of e-learning environments in developing countries:a structural equation modeling approach. International Journal of Information and Education Technology, pages 54-59, 2013. doi:10.7763/ijiet.2013.v3.233.">Tarhini <em>et al.</em>, 2013</a>]</span></p></li>
+<li><p><span id="id2">[<a class="reference internal" href="../Biblio/bibliography.html#id45" title="Paul Juinn Bing Tan. Applying the utaut to understand factors affecting the use of english e-learning websites in taiwan. SAGE Open, 11 2013. doi:10.1177/2158244013503837.">Tan, 2013</a>]</span></p></li>
 </ul>
 </section>
 <section id="teaching">
@@ -548,7 +554,7 @@ document.write(`
 <h5>Teaching material</h5>
 <p><strong>Editorial experiments of teaching material</strong>:</p>
 <ul class="simple">
-<li><p><span id="id3">[<a class="reference internal" href="../Biblio/bibliography.html#id9" title="Lori S. Mestre. Student preference for tutorial design: a usability study. Reference Services Review, 40:258-276, 5 2012. doi:10.1108/00907321211228318.">Mestre, 2012</a>]</span></p></li>
+<li><p><span id="id3">[<a class="reference internal" href="../Biblio/bibliography.html#id53" title="Lori S. Mestre. Student preference for tutorial design: a usability study. Reference Services Review, 40:258-276, 5 2012. doi:10.1108/00907321211228318.">Mestre, 2012</a>]</span></p></li>
 </ul>
 <div class="full-width docutils">
 <article id="P1">
@@ -568,7 +574,7 @@ document.write(`
 <figure class="align-default" id="tree">
 <img alt="Appendix/Help/Docs/Education_tree.png" src="Appendix/Help/Docs/Education_tree.png" />
 <figcaption>
-<p><span class="caption-number">Fig. 24 </span><span class="caption-text">Education image</span><a class="headerlink" href="#tree" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 28 </span><span class="caption-text">Education image</span><a class="headerlink" href="#tree" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 </div>

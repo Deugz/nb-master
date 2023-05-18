@@ -9,6 +9,19 @@ This digital space where you have just set foot, is an **experiment** whose aim 
 
 ***
 
+## Innovation Journey
+
+:::{div} full-width
+
+```{figure} Docs/Innovation_flowchart.png
+
+
+implement list of figures
+```
+
+:::
+
+
 ## What is done
 
 ### <strong>&#187;  <u>Research Toolbox</u></strong>
@@ -317,6 +330,28 @@ Insert notes in version
 Create a discussion tab within Github repo !!
 
 :::
+
+
+
+### Get recognised
+
+#### Scientific Community
+
+```{note}
+
+Keep a list of people interested in Open Science and that are suceptible to embrace the project.
+- Send them an email **post PhD submission** with online thesis
+
+```
+
+
+
+#### Web community
+
+- [Webby Awards](https://www.webbyawards.com/)
+
+- [Awwwards](https://www.awwwards.com/)
+
 
 
 

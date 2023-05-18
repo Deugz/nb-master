@@ -15,7 +15,11 @@ parts:
   - caption: ✊ Project
     chapters:
     - file: Projects/Manifesto 
-    - file: Projects/Roadmap 
+    - file: Projects/How_do/How_main
+      sections:
+      - file: Projects/How_do/How_do_I     
+      - file: Projects/How_do/How_can_you
+    - file: Projects/Roadmap
     - file: Projects/Contribute    
   - caption: 💫 Research
     chapters:
@@ -31,38 +35,41 @@ parts:
   - caption: 🎓 Teaching
     chapters:
     - file: Teaching/Teaching_Main
-  - caption: 💥 Blog / Versions
+  - caption: 💥 Blog 
     chapters:
     - file: Blog/Blog_Main
       sections:
       - file: Blog/Posts/Scientific_Publication
       - file: Blog/Posts/Open_Science
+      - file: Blog/Posts/Knowledge_info/Knowledge_info            
+      - file: Blog/Posts/Education/Education
       - file: Blog/Posts/Entrepreneur/Entrepreneur
         sections:
         - file: Blog/Posts/Entrepreneur/DIY-Toolkit
+        - file: Blog/Posts/Entrepreneur/Business_model                
       - file: Blog/Posts/Outreach
       - file: Blog/Posts/Annie_woman      
       - file: Blog/Posts/ODAPA
-    - file: Blog/Version_Main
-      sections:
-      - file: Blog/Version/version0
-      - file: Blog/Version/version1 
-  - caption: Appendix
+  - caption: 🔧 Appendix
     chapters:
-    - file: Appendix/Biblio/bibliography
-    - file: Appendix/How_do/Style_guide
-      sections:
-      - file: Appendix/How_do/How_do_I     
-      - file: Appendix/How_do/How_can_you
     - file: Appendix/Help_main
       sections:
       - file: Appendix/Help/Open_Science
+      - file: Appendix/Help/Markdown
       - file: Appendix/Help/Executable-Book/Executable-Book      
         sections:
         - file: Appendix/Help/Executable-Book/Jupyter
         - file: Appendix/Help/Executable-Book/MyST
-      - file: Appendix/Help/Education
       - file: Appendix/Help/Anaconda_JB
       - file: Appendix/Help/Github_JB
       - file: Appendix/Help/Binder_JB
       - file: Appendix/Help/SemanticWeb
+    - file: Blog/Version_Main
+      sections:
+      - file: Blog/Version/version0
+      - file: Blog/Version/version1 
+    - file: Appendix/Biblio/bibliography
+    - file: Appendix/Biblio/Lists
+    - file: Appendix/Acknowledgments
+
+

@@ -2,6 +2,12 @@
 
 ## **The Scientific publication system**
 
+```{note}
+
+To insert: number of internet user worldwilde: [Statistics](https://www.statista.com/statistics/617136/digital-population-worldwide/#:~:text=As%20of%20January%202021%20there,the%20internet%20via%20mobile%20devices.)
+
+```
+
 <h3><strong>&#187;  <u>In a nutshell</u></strong></h3>
 
 
@@ -558,6 +564,19 @@ loss of independance
 #### Subscription model
 
 No (need to be freely accessible to everyone)
+
+## Evidence Planning
+
+:::{div} full-width
+
+```{figure} Docs/Evidence_planning.png
+
+
+Evidence Planning
+```
+
+
+:::
 
 
 

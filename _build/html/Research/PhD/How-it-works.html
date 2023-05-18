@@ -39,6 +39,7 @@
     <link rel="stylesheet" type="text/css" href="../../_static/.ipynb_checkpoints/custom_style-checkpoint.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/.ipynb_checkpoints/CV_1-checkpoint.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/assets/GC/GC6-08-2022_fichiers/stylesheet.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/assets/Specific_pages/Business-canvas/style_business_canvas.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/css/coffee_cup.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/css/Cube.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/css/custom_style.css" />
@@ -47,6 +48,7 @@
     <link rel="stylesheet" type="text/css" href="../../_static/css/style_flipping_card.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/css/style_wheel.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/css/.ipynb_checkpoints/custom_style-checkpoint.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/.ipynb_checkpoints/style_business_canvas-checkpoint.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/css/.ipynb_checkpoints/style_flipping_card-checkpoint.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/css/.ipynb_checkpoints/style_wheel-checkpoint.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/css/.ipynb_checkpoints/wheel_style-checkpoint.css" />
@@ -106,8 +108,10 @@ commentsRunWhenDOMLoaded(addUtterances);
     <script src="../../_static/assets/script/scriptvideo.js"></script>
     <script src="../../_static/assets/script/script_flipping_card.js"></script>
     <script src="../../_static/assets/script/script_wheel.js"></script>
+    <script src="../../_static/assets/script/slideshow.js"></script>
     <script src="../../_static/assets/script/.ipynb_checkpoints/scriptvideo-checkpoint.js"></script>
     <script src="../../_static/assets/script/.ipynb_checkpoints/script_blob-checkpoint.js"></script>
+    <script src="../../_static/assets/script/.ipynb_checkpoints/slideshow-checkpoint.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script src="../../_static/design-tabs.js"></script>
     <script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-CPYX9S0KDS"></script>
@@ -231,8 +235,13 @@ const thebe_selector_output = ".output, .cell_output"
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../../Projects/Manifesto.html">Manifesto</a></li>
 
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Projects/How_do/How_main.html">How ?</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Projects/How_do/How_do_I.html"><strong>I</strong> use online books</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Projects/How_do/How_can_you.html"><strong>You</strong> can interact</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="../../Projects/Roadmap.html">Roadmap</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../Projects/Contribute.html">Contribute / Help</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../Projects/Contribute.html">Contribute</a></li>
 
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">💫 Research</span></p>
@@ -241,8 +250,8 @@ const thebe_selector_output = ".output, .cell_output"
 
 
 
-<li class="toctree-l1 current active has-children"><a class="reference internal" href="PhD-Orga.html">PhD Thesis</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
-<li class="toctree-l2 current active has-children"><a class="current reference internal" href="#">Online Format</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="PhD-Orga.html">PhD Thesis</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
+<li class="toctree-l2 current active has-children"><a class="current reference internal" href="#">Online Format</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l3"><a class="reference external" href="https://deugz.github.io/nb-phd/_build/html/intro.html">Amorphous Ice (📖 A)</a></li>
 <li class="toctree-l3"><a class="reference external" href="https://deugz.github.io/nb-museum/_build/html/intro.html">Planet Formation (📖 B)</a></li>
 </ul>
@@ -254,13 +263,16 @@ const thebe_selector_output = ".output, .cell_output"
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../../Teaching/Teaching_Main.html">Overview</a></li>
 </ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">💥 Blog / Versions</span></p>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">💥 Blog</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1 has-children"><a class="reference internal" href="../../Blog/Blog_Main.html">Posts</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Blog/Blog_Main.html">Posts</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-4"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="../../Blog/Posts/Scientific_Publication.html">Scientific Publication</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../Blog/Posts/Open_Science.html">Open Science</a></li>
-<li class="toctree-l2 has-children"><a class="reference internal" href="../../Blog/Posts/Entrepreneur/Entrepreneur.html">My Entrepreneurship Journey</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-4"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Blog/Posts/Knowledge_info/Knowledge_info.html">Knowledge &amp; Information</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Blog/Posts/Education/Education.html">Education</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../Blog/Posts/Entrepreneur/Entrepreneur.html">My Entrepreneurship Journey</a><input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-5"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l3"><a class="reference internal" href="../../Blog/Posts/Entrepreneur/DIY-Toolkit.html">DIY Toolkit</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../Blog/Posts/Entrepreneur/Business_model.html">Business model Canvas</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../../Blog/Posts/Outreach.html">Outreach</a></li>
@@ -269,28 +281,17 @@ const thebe_selector_output = ".output, .cell_output"
 
 </ul>
 </li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="../../Blog/Version_Main.html">Versions</a><input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-5"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="../../Blog/Version/version0.html">Version 0</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../Blog/Version/version1.html">Version 1. </a></li>
 </ul>
-</li>
-</ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Appendix</span></p>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">🔧 Appendix</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../../Appendix/Biblio/bibliography.html">Bibliography</a></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="../../Appendix/How_do/Style_guide.html">Guide</a><input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-6"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="../../Appendix/How_do/How_do_I.html">How do I use</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../Appendix/How_do/How_can_you.html">How <strong>You</strong> can …</a></li>
-</ul>
-</li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="../../Appendix/Help_main.html">💡 Help</a><input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-7"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="../../Appendix/Help/Open_Science.html">Open Science Tools</a></li>
-<li class="toctree-l2 has-children"><a class="reference internal" href="../../Appendix/Help/Executable-Book/Executable-Book.html">Executable Books</a><input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-8"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Appendix/Help_main.html">Tools</a><input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-6"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Appendix/Help/Open_Science.html">Open Source Ecocystem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Appendix/Help/Markdown.html">Markdown</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../Appendix/Help/Executable-Book/Executable-Book.html">Executable Books</a><input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-7"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l3"><a class="reference internal" href="../../Appendix/Help/Executable-Book/Jupyter.html">Jupyter Book</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../Appendix/Help/Executable-Book/MyST.html">MyST</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../../Appendix/Help/Education.html">Education</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../Appendix/Help/Anaconda_JB.html">Anaconda</a></li>
 
 <li class="toctree-l2"><a class="reference internal" href="../../Appendix/Help/Github_JB.html">Github</a></li>
@@ -298,6 +299,14 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l2"><a class="reference internal" href="../../Appendix/Help/SemanticWeb.html">Semantic Web</a></li>
 </ul>
 </li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Blog/Version_Main.html">Versions</a><input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-8"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Blog/Version/version0.html">Version 0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Blog/Version/version1.html">Version 1. </a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../Appendix/Biblio/bibliography.html">Bibliography</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../Appendix/Biblio/Lists.html">Lists</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../Appendix/Acknowledgments.html">Acknowledgments</a></li>
 </ul>
 
     </div>
@@ -580,7 +589,7 @@ document.write(`
 <div class="sd-col sd-d-flex-column sd-col-5 sd-col-xs-5 sd-col-sm-5 sd-col-md-5 sd-col-lg-5 docutils">
 <p><strong>Plan</strong></p>
 <ul class="simple">
-<li><p><a class="reference internal" href="../../Appendix/How_do/How_do_I.html#content-references-title1"><span class="std std-ref"><strong>How</strong></span></a></p>
+<li><p><a class="reference internal" href="../../Projects/How_do/How_do_I.html#content-references-title1"><span class="std std-ref"><strong>How</strong></span></a></p>
 <ul>
 <li><p>Tools</p></li>
 <li><p>Workflow</p>
@@ -596,7 +605,7 @@ document.write(`
 </ul>
 <br>
 <ul class="simple">
-<li><p><a class="reference internal" href="../../Appendix/How_do/How_do_I.html#content-references-title2"><span class="std std-ref"><strong>Why</strong></span></a></p>
+<li><p><a class="reference internal" href="../../Projects/How_do/How_do_I.html#content-references-title2"><span class="std std-ref"><strong>Why</strong></span></a></p>
 <ul>
 <li><p>Open Toolbox</p></li>
 <li><p>Alternative Publication</p></li>
@@ -1081,7 +1090,7 @@ Introduction</label><div class="sd-tab-content docutils">
 <figure class="align-default" id="funnel-explanation">
 <a class="reference internal image-reference" href="../../_images/Funnel_final.png"><img alt="../../_images/Funnel_final.png" src="../../_images/Funnel_final.png" style="width: 400px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 11 </span><span class="caption-text">Explanation</span><a class="headerlink" href="#funnel-explanation" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 15 </span><span class="caption-text">Explanation</span><a class="headerlink" href="#funnel-explanation" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 </div>
@@ -1221,7 +1230,7 @@ Results</label><div class="sd-tab-content docutils">
 <div><p>Scientific communication today is designed around print documents and pay-walled access to content. Over the last decade, the open-science movement has accelerated the use of pre-print services and data archives that are vastly improving the accessibility of scientific content. However, these systems are not designed for communicating modern scientific outputs, which encompasses so much more than a paper-centric model of the scholarly literature.</p>
 </div></blockquote>
 <ul class="simple">
-<li><p><span id="id2">[<a class="reference internal" href="../../Appendix/Biblio/bibliography.html#id18" title="Philip E. Bourne, Timothy W. Clark, Robert Dale, Anita de Waard, Ivan Herman, Eduard H. Hovy, and David Shotton. Improving the future of research communications and e-scholarship. Dagstuhl Manifestos, 1:41-60, 2012. URL: http://drops.dagstuhl.de/opus/volltexte/2012/3445, doi:10.4230/DagMan.1.1.41.">Bourne <em>et al.</em>, 2012</a>]</span></p></li>
+<li><p><span id="id2">[<a class="reference internal" href="../../Appendix/Biblio/bibliography.html#id44" title="Philip E. Bourne, Timothy W. Clark, Robert Dale, Anita de Waard, Ivan Herman, Eduard H. Hovy, and David Shotton. Improving the future of research communications and e-scholarship. Dagstuhl Manifestos, 1:41-60, 2012. URL: http://drops.dagstuhl.de/opus/volltexte/2012/3445, doi:10.4230/DagMan.1.1.41.">Bourne <em>et al.</em>, 2012</a>]</span></p></li>
 </ul>
 </div>
 <div class="sd-col sd-d-flex-row sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
@@ -1276,7 +1285,7 @@ PhD Deliverables<div class="sd-summary-down docutils">
 <figure class="align-default" id="mc-x">
 <a class="reference internal image-reference" href="../../_images/PhD_V2_fancy.png"><img alt="../../_images/PhD_V2_fancy.png" src="../../_images/PhD_V2_fancy.png" style="width: 2000px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 12 </span><span class="caption-text">Source</span><a class="headerlink" href="#mc-x" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 16 </span><span class="caption-text">Source</span><a class="headerlink" href="#mc-x" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 </div>
@@ -1335,7 +1344,7 @@ PhD Deliverables<div class="sd-summary-down docutils">
 <figure class="align-default" id="id3">
 <img alt="../../_images/Red_sea_coral_reef.jpg" src="../../_images/Red_sea_coral_reef.jpg" />
 <figcaption>
-<p><span class="caption-number">Fig. 13 </span><span class="caption-text"><a class="reference external" href="https://commons.wikimedia.org/wiki/File:Red_sea_coral_reef.jpg">Source</a></span><a class="headerlink" href="#id3" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 17 </span><span class="caption-text"><a class="reference external" href="https://commons.wikimedia.org/wiki/File:Red_sea_coral_reef.jpg">Source</a></span><a class="headerlink" href="#id3" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 </div>

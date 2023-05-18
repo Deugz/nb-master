@@ -6,8 +6,226 @@
 
 - Blog:
     - [BishopBlog](http://deevybee.blogspot.com/)
+    
+    
+- Books
+    - [to check](https://www.cambridge.org/core/books/abs/handbook-of-journal-publishing/introduction-to-journals/13AB1AAFE234C79E1F908801376C40BE)
+
+- More
+    - [to check](https://press.rebus.community/scholarlyreading/front-matter/introduction/)
 
 ***
+
+## Introduction
+
+:::::{div} full-width
+
+<p class="emphase2"> <strong> Research </strong></p>
+
+<br>
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 5
+
+> Introduction
+- Watever the field you are within
+    - You will apply the scientific method
+    - you will have to communicate your research
+
+:::
+
+:::{grid-item}
+:columns: 7
+
+<div class="container">
+  <div class="mySlides" style="display: block;">
+    <div class="numbertext">1 / 6</div>
+    <img src="https://imgs.xkcd.com/comics/research_areas_by_size_and_countedness.png" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+    <img src="../../_static/Images/The_Scientific_Method.svg" style="width:96%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+    <img src="https://imgs.xkcd.com/comics/research_areas_by_size_and_countedness.png" style="width:100%">
+  </div>
+    
+<div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+    <img src="https://imgs.xkcd.com/comics/research_areas_by_size_and_countedness.png" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+    <img src="https://imgs.xkcd.com/comics/research_areas_by_size_and_countedness.png" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+    <img src="https://imgs.xkcd.com/comics/research_areas_by_size_and_countedness.png" style="width:100%">
+  </div>
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="https://imgs.xkcd.com/comics/research_areas_by_size_and_countedness.png" style="width:100%" onclick="currentSlide(1)" alt="The various scientific fields ">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="../../_static/Images/The_Scientific_Method.svg" style="width:100%" onclick="currentSlide(2)" alt="The scientific method">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://imgs.xkcd.com/comics/research_areas_by_size_and_countedness.png" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://imgs.xkcd.com/comics/research_areas_by_size_and_countedness.png" style="width:100%" onclick="currentSlide(4)" alt="The Woods">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://imgs.xkcd.com/comics/research_areas_by_size_and_countedness.png" style="width:100%" onclick="currentSlide(5)" alt="Cinque Terre">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://imgs.xkcd.com/comics/research_areas_by_size_and_countedness.png" style="width:100%" onclick="currentSlide(6)" alt="Mountains and fjords">
+    </div>
+  </div>
+</div>
+
+<script src="../../_static/assets/script/slideshow.js"> </script>
+
+
+:::
+
+::::
+
+:::::
+
+:::{div} full-width
+
+<br>
+
+<p class="emphase2"> <strong> Communication </strong></p>
+
+<p class="emphase"> There is two main channels that scientists use to share their work</p>
+
+<br>
+
+:::
+
+:::::::{div} full-width
+
+::::::{grid} 2
+
+:::::{grid-item-card}
+:columns: 6
+:class-header: bg-light
+
+**Conferences / Seminars** 
+
+^^^
+
+- **Talk**
+
+<div class="embedresize">
+<iframe width="100%" height="56.25%" src="https://www.youtube.com/embed/XKaY_N8puZc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+<br>
+
+***
+
+<br>
+
+- **Poster**
+
+::::{grid} 3
+
+:::{grid-item-card}
+:columns: 4
+
+:::
+
+:::{grid-item-card}
+:columns: 4
+
+:::
+
+:::{grid-item-card}
+:columns: 4
+
+:::
+
+::::
+
+:::::
+
+:::::{grid-item-card}
+:columns: 6
+:class-header: bg-light
+
+**Scientific paper** 
+
+^^^
+
+- **Example**
+
+<iframe class="preview-iframe" id="preview-iframe" src="../../_static/assets/pdf/Deguin et al. - 2018 - Photochemistry of FeH sub2sub O Adducts in A.pdf" width="100%" height="600px"></iframe>
+
+
+:::::
+
+
+
+::::::
+
+:::::::
+
+##  Academic Journals
+
+<br>
+
+<p class="emphase"> A periodical publication in which scholarship relating to a particular academic discipline is published</p>
+
+
+### <h3><strong> &#x2023; <u> An historical perspective </u></strong></h3>
+
+:::::{div} full-width
+
+<br>
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 7
+
+> Explanation of how it work ...
+
+:::
+
+:::{grid-item}
+:columns: 5
+
+```{figure} Docs/Philosophical_Transactions_Volume_1_frontispiece.jpg
+
+[Source](https://commons.wikimedia.org/wiki/File:Philosophical_Transactions_Volume_1_frontispiece.jpg)
+```
+
+:::
+
+::::
+
+:::::
+
+
+
 
 
 
@@ -18,76 +236,61 @@
 
 :::
 
-## Introduction
+### <h3><strong> &#x2023; <u> Role </u></strong></h3> 
 
-:::{div} full-width
-
-<p class="emphase"> Definition </p>
-
-:::
-
-### Role
+<p class="emphase"> Communicatig research </p>
 
 :::::{div} full-width
-::::{grid} 3
+::::{grid} 5
 
 :::{grid-item-card}
 :class-header: bg-light
-:columns: 4
 **Editorial**
 ^^^
-The most obvious role of the journal is the selection  of  material. This is mainly subject based, *Does this item fall within the remit of the journal and/or would it be of interest to our readers?*.
+
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://assets8.lottiefiles.com/packages/lf20_acxjjfqm.json"  background="transparent"  speed="1"  style="width: 100%; height: auto;" hover   autoplay></lottie-player>
 
 :::
 
 :::{grid-item-card}
 :class-header: bg-light
-:columns: 4
-**Quality control (Content)**
+**Quality check**
 ^^^
-This is the part played by the **referees**. A major part of the effort that sets the reputation of a journal is carried out by the referees.
+
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://assets7.lottiefiles.com/packages/lf20_bdlrkrqv.json"  background="transparent"  speed="1"  style="width: 100%; height: auto;"   hover autoplay></lottie-player>
 
 :::
 
+
 :::{grid-item-card}
 :class-header: bg-light
-:columns: 4
-**Quality control (Form)**
+**Recognition**
 ^^^
-The copy editing and general page design that make a journal look professional is carried out by copy editors and other non-academic professionals.
 
-:::
-
-::::
-
-<br>
-
-::::{grid} 3
-
-:::{grid-item-card}
-:class-header: bg-light
-:columns: 4
-**Recognition of work done**
-^^^
-In terms of importance this ranks first from the point of view of many authors    
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://assets9.lottiefiles.com/packages/lf20_ctwkstoj.json" background="transparent"  speed="1"  style="width: 100%; height: auto;" hover autoplay></lottie-player>
 
 :::
 
 :::{grid-item-card}
 :class-header: bg-light
-:columns: 4
 **Marketing**
 ^^^
-Marketing of the journal to possible readers and other customers, e.g. libraries.
+
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://assets9.lottiefiles.com/packages/lf20_wk7nynfq.json"  background="transparent"  speed="1"  style="width: 100%; height: auto;" hover   autoplay></lottie-player>
 
 :::
 
 :::{grid-item-card}
 :class-header: bg-light
-:columns: 4
-**Delivering / Disseminating**
+**Disseminating**
 ^^^
-The delivery of the information (in the form of the physical item) to the purchaser or reader
+
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://assets2.lottiefiles.com/packages/lf20_kgs50qu6.json"  background="transparent"  speed="1"  style="width: 100%; height: auto;" hover loop  ></lottie-player>
 
 :::
 
@@ -95,7 +298,65 @@ The delivery of the information (in the form of the physical item) to the purcha
 
 :::::
 
-### Publication types
+
+
+::::::{div} full-width
+:::::{dropdown} In Depth Explanation
+
+::::{tab-set}
+
+:::{tab-item} Editorial
+
+The most obvious role of the journal is the selection  of  material. This is mainly subject based, *Does this item fall within the remit of the journal and/or would it be of interest to our readers?*.
+
+
+:::
+
+:::{tab-item} Quality control (Content)
+
+This is the part played by the **referees**. A major part of the effort that sets the reputation of a journal is carried out by the referees.
+
+
+:::
+
+:::{tab-item} Quality control (Form)
+
+The copy editing and general page design that make a journal look professional is carried out by copy editors and other non-academic professionals.
+
+:::
+
+:::{tab-item} Recognition of work done
+
+In terms of importance this ranks first from the point of view of many authors 
+
+:::
+
+
+:::{tab-item} Marketing
+
+Marketing of the journal to possible readers and other customers, e.g. libraries.
+
+:::
+
+:::{tab-item} Delivering / Disseminating
+
+The delivery of the information (in the form of the physical item) to the purchaser or reader
+
+:::
+
+
+
+::::
+:::::
+::::::
+
+
+
+
+#### Actors
+
+> Now let's have a look at the different actors of the publication sector
+
 
 | Publisher types     | # Articles       | 1    | 2        | 3        | 
 | ----------- | ----------- |----------- | ----------- | ----------- |
@@ -148,6 +409,12 @@ Some articles talking about scientific puplication
 :::
 
 #### <strong>&#187; &#187;  An historical perspective</strong>
+
+- **Review**: {cite:p}`Nwagwu2015`
+
+```{note}
+Use this to subsection the history
+```
 
 Scientific publication begin it's journey in 1665 with the [Philosophical Transactions of the Royal Society](https://en.wikipedia.org/wiki/Philosophical_Transactions_of_the_Royal_Society) with contributions from Isaac Newton, <span class="hovertext" data-hover="First woman ever published in 1787 (An account of a new comet)">Caroline Hershell</span>, Benjamin Franklin, Charles Darwin... Publication of scientific work will remain in the hand of <span class="hovertext" data-hover="Royal Society">scientific society</span> until the end of the second world war, a time when science publishers were notoriously inefficient and constantly broke, but science itself was about to enter a period of unprecedented growth resulting from <strong>government fundings</strong>. 
 This is the time choosen by [Robert Maxwell](https://en.wikipedia.org/wiki/Robert_Maxwell) to enter the emerging business of scientific publication by creating the company <span class="hovertext" data-hover="Now owned by Elsevier">Pergamon Press</span>. As science was expanding, it become clear that it would need new journals to cover new areas of study, and while scientific societies argued about the boundaries of their fields, Pergamon just went to convince prominent academics that their particular fields required a new journal and install that person at the reins of it. They would then begin
@@ -232,6 +499,11 @@ now RELX
 Peer Review is necessary
 
 
+- {cite:p}`Tennant2017`:
+
+- [Interactive timeline](https://dgraziotin.shinyapps.io/peerreviewtimeline/)
+
+
 <h4><strong>Journal template ?</strong></h4>
 
 Very often publishing fees are justified by the employment of an army of editors that needs to be paid by the journal. Now sit down and think about it, you are actually doing the editorial job by using the journal latex template!
@@ -255,6 +527,8 @@ Overall, Scientific work is published in a **Boring** way, even though every pie
 - {cite:p}`Lariviere2015`
 
 - **Economics of scholarly publishing**: [Online article](https://firstmonday.org/ojs/index.php/fm/article/view/4370/3685)
+
+more on economics from improve publication model: [online article](https://www.sciencedirect.com/science/article/abs/pii/B9781843346203500118?via%3Dihub)
 
 #### How much does it cost
 
@@ -625,6 +899,13 @@ Interesting but bulky (to read though)
 
 ## Alternatives
 
+- {cite:p}`Priem2013`
+
+- **Review**: {cite:p}`Herman2020`: Propose that journal transition can be splitted into 3 categories:
+    - Enhanced models of the traditional scholarly journal
+    - Innovative models of the traditional scholarly journal
+    - Alternative modes of knowledge dissemination
+
 ### JSTOR
 
 Contraction of journal storage
@@ -637,6 +918,110 @@ Contraction of journal storage
 
 - {cite:p}`Garlock1997`
 
+
+### Preprints
+
+- **Experimental**: {cite:p}`Chiarelli2019`
+
+#### Definition
+
+::::::{div} full-width
+:::::{dropdown} Components
+
+reproduced from {cite:p}`Chiarelli2019`
+
+- Keep checking to implement citations
+
+::::{tab-set}
+
+:::{tab-item} Genre
+
+The type of output that a preprint is meant to be 
+
+- part of the scientific literature
+
+<p class="emphase">A preprint is a complete scientific manuscript</p>
+
+
+**Litterature**
+
+:::
+
+:::{tab-item} Timing
+
+The position of a preprint in the knowledge production process 
+
+- prior to formal publication
+
+<p class="emphase">A ‘preprint’ is typically a version of a research paper that is shared on an online platform prior to, or during, a formal peer review process.</p>
+
+
+**Litterature**
+
+:::
+
+:::{tab-item} Versioning
+
+Preprints as different versions of an output at different stages of the outputs’ lifecycle 
+
+- before peer review
+
+<p class="emphase">Preprints are made available “before, or in parallel to, submitting them to journals for traditional peer review.”</p>
+
+**Litterature**
+
+:::
+
+:::{tab-item} Accessibility
+
+The availability of preprints
+
+- preprints are openly available online
+
+<p class="emphase">A preprint “can be viewed without charge on the Web.</p>
+
+**Litterature**
+
+:::
+
+
+:::{tab-item} Responsibility
+
+The individual(s) responsible for posting preprints
+
+- normally the author
+
+<p class="emphase">A preprint “is uploaded by the authors to a public server.</p>
+
+
+**Litterature**
+
+:::
+
+:::{tab-item} Value
+
+The usefulness of preprints to readers
+
+- preprints are considered valuable
+
+<p class="emphase">“A preprint is a research output that has not completed a typical publication pipeline but is of value to the community and deserving of being easily discovered and accessed.</p>
+
+**Litterature**
+
+:::
+
+
+
+::::
+:::::
+::::::
+
+
+#### Beyond
+
+##### Commenting
+
+- {cite:p}`Marra2018`: check the commenting options from **Arxiv**
 
 ## Electronic publishing
 
@@ -652,8 +1037,20 @@ To check for examples
 
 ```
 
+### Overlay Journals
+
+[Wikipedia](https://en.wikipedia.org/wiki/Overlay_journal)
+
 ## Replacement
 
 - {cite:p}`Susi2021`
+
+## Digital publishing
+
+### Business Model
+
+- {cite:p}`Laifi2016`
+
+[cyberlibris](https://www.cyberlibris.com/chiffresCles.html)
 
 
