@@ -79,7 +79,7 @@ Introduction about the business model canvas
 
 :::::::{div} full-width
 
-```{image} Docs/Business_model_2.png
+```{image} Docs/Business_model_2.svg
 :width: 100%
 ```
 
@@ -92,7 +92,7 @@ Introduction about the business model canvas
 
 :::::::{div} full-width
 
-```{image} Docs/Business_model_3.png
+```{image} Docs/Business_model_3.svg
 :width: 100%
 ```
 
@@ -105,7 +105,7 @@ Introduction about the business model canvas
 
 :::::::{div} full-width
 
-```{image} Docs/Business_model_4.png
+```{image} Docs/Business_model_4.svg
 :width: 100%
 ```
 
@@ -120,7 +120,7 @@ Introduction about the business model canvas
 
 :::::::{div} full-width
 
-```{image} Docs/Business_model_5.png
+```{image} Docs/Business_model_5.svg
 :width: 100%
 ```
 
@@ -158,7 +158,7 @@ Introduction about the business model canvas
 
 :::::::{div} full-width
 
-```{image} Docs/Business_model_6.png
+```{image} Docs/Business_model_6.svg
 :width: 100%
 ```
 
@@ -283,8 +283,11 @@ If I am successfull, I would like to buy:
     - science-bf-people.org: 10 x 10 = 100 £
     - sbfp-vdeguin.com: 10 x 10 = 100 £
     - sbfp-vd-teaching.com: 10 x 10 = 100 £
-- pay for my OU writing fees:
-    - check price
-- with the rest, I will print some visit cards to give to my friends and colleagues.
+- pay for my OU writing fees (to submit my thesis and pursue my accademic career):
+    - 565 £
+- pay a freelancer to work on a new logo
+    - 50£
+- print visit cards 
+    - 500 cards 50£
     
 
