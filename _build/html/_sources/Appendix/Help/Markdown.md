@@ -1,148 +1,280 @@
 # Markdown
 
+## What is it
+
+
+
+### Creators 
+
+developped by [John Gruber](https://daringfireball.net/projects/markdown/) and [Aaron Swartz](https://fr.wikipedia.org/wiki/Aaron_Swartz)
+
+
+
 ***
-**Scientific Journals**:
-- International Journal of Information and Education Technology - [link](http://ojs.ejournal.net/index.php/ijiet/index)
-- ...
+**Documentation**:
+- Markdown
+- Jupyter Book
+
+**Dedicated tutorial**
+
+- [Page layout](https://jupyterbook.org/en/stable/content/layout.html)
+
 
 ***
 
-## E-Learning
-
-- Technology Acceptance Model ?
-
-**Litterature**: 
-
-- {cite}`Tarhini2013`
-- {cite}`Tan2013`
-
-
-
-## Teaching
-
-
-<h5>Teaching material</h5>
-
-**Editorial experiments of teaching material**:
-
-- {cite}`Mestre2012`
-
-:::::{div} full-width
-
-<article id="P1">
-
-<div id="subdiv2">
-
-This is a brief attempt to explain how **Education** works.
-    
-The body of the tree represent the education system. The trunk being the common set of knowledge that we are given in highschool (which is mandatory for all, as far as I know). The branches represent the University, and at that point the system diverge into different discipline, at bachelor level and subsequently when you get to do a Master. The leafs actually represent Researches that **creates new knowledge**    
-    
-- Interdisciplanary Science
-    
-The orange leaf is my friend Ross, he is also studying *the earliest stages of planet formation* but he is a **geologist** (poor him I know)    
-  
-**Examples**:
-    
-- [Dartois](http://hebergement.u-psud.fr/edartois/Teaching.html)
-
-</div>
-    
-    
-    
-<div id="subdiv2">
-
-
-
-```{figure} Docs/Education_tree.png
----
-name: Tree
----
-Education image
-```
-
-</div>
-    
-
-</article>
-    
-:::::
-
-
-## To Check
-
-
-
-<h4>Example</h4>
-
-- [Formatting idea](https://www.julian.com/)
-
-<h5>The Future</h5>
-
-- [StarAtlas](https://staratlas.com/)
-
-```{margin}
-
-<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-<lottie-player src="https://assets3.lottiefiles.com/private_files/lf30_hilbd2uq.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"  loop  autoplay></lottie-player>
-
-```
-
-<h4><strong> Lifelong Peer Review </strong></h4>
-
-```{margin}
-
-<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-<lottie-player src="https://assets9.lottiefiles.com/packages/lf20_fg8zotvy.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"  loop  autoplay></lottie-player>
-
-```
-
-
-<h4><strong> Open for Collaboration </strong></h4>
-
-What I would like to explore is how we can bring researchers (from various disciplines) to work together on a given problematic, rather than competing with each other. I think that such a plateform can help in promoting this **collaborative approach**.
-
-- promote collaboration rather than competition
-
-- L'entraide pour rendre accessible du contenue educatif de pointe, de qualite et accessible a tous!
-
-L'emploie du ton familier (universel).
-
-You will have to put some efforts to make it work, but you will build a tool that can follow you during your whole career. 
-
-I think it is worth a try (link to jupyter-book tuto)
-
-
-
-```{margin}
-
-<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-<lottie-player src="https://assets7.lottiefiles.com/packages/lf20_AFxIPvJHjK.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"  loop  autoplay></lottie-player>
-
-```
-
-
-
-
-
-## Readibility
-
-
-Readability is the search for factors in reading material which could be easily and objectively counted.**Positivist paradigm** stated that reading difficulties is influenced by four factors, content, stylistic elements, format and organisation. Among these elements, factors such as vocabulary load, sentence structure, idea density and human interest appeared to be significantly related to reading difficulty. **Cognitive science** (date) bring a new perspective which emphasized the interactive nature of reading and the constructive nature of comprehension. Comprehension is related to the cognitive process of searching for meaning, that is no longer viewed as coming from the text, but, rather, from the readers mind in interaction with the text.
-
-Because of its collaborative nature, and the ability to collect readers experience, I think this web-site can be a great research plateform to investigate readability, accrose the full spectrum of audiences. 
-
-High **readibility** (process of matching the reader and the text) by allowing the readers () to navigate
-
-
-- [Ref](https://scholar.google.co.uk/scholar?q=Alexander,+P.+%26+Fox,+E.+(2006).%E2%80%9CA+historical+perspective+on+reading+research+and+practice&hl=fr&as_sdt=0&as_vis=1&oi=scholart)
-- [Historical Reviews](https://pressbooks.howardcc.edu/app/uploads/sites/10/2019/06/A_Historical_Perspective_on_Reading_Research_and_P.pdf)
-
-<h4>More</h4>
-
-- [Vocabs - Astronomy thesaurus](https://vocabs.ardc.edu.au/repository/api/lda/aas/the-unified-astronomy-thesaurus/current/resource.html?uri=http://astrothesaurus.org/uat/2092)
+## A quick guided tour
 
 ```{note}
 
-- Use that vocabulary to generate specific tags for the research produced
+- Insert presentation like tour
 
 ```
+
+## The page layout
+
+- How to navigate this web-site
+
+left menue = global
+right menu = local
+
+
+## Legend
+
+### Links
+
+We are all familiar withe the ![flag alt >](../../Docs/Svg_icons/external-link-alt-svgrepo-com.svg) icon
+
+- ![flag alt >](../../Docs/Svg_icons/links/I_link.png) - **Internal link**: same web-site but different page
+- ![flag alt >](../../Docs/Svg_icons/links/E_link.png) - **External link**: different web-site, *Wikipedia* for example
+- ![flag alt >](../../Docs/Svg_icons/links/IE_link.png) - **Internal-External**: different web-site, but still one of mine, those could be:
+    - Teaching
+    - Thesis.A
+    - Thesis.B
+
+```{margin}
+
+2 main methods:
+- [badgen](https://badgen.net/)
+- [shield](https://shields.io/)
+
+also possible with sphinx
+
+- [Sphinx-doc](https://sphinx-design.readthedocs.io/en/latest/badges_buttons.html#icons)
+
+
+```
+
+### Buttons
+
+Markdown give you the possibility to generate buttons. They are a more informative version of the links presented above. I use on this web-site the following buttons:
+
+- DOI
+- Binder
+- Link towards book (Teaching)
+
+```{note}
+
+Insert examples
+
+```
+
+## Comments
+
+[/----------------------------------------------------------------------------------------------------------------------------------------------------------------------- Is it a comment ?/]: # 
+
+
+Implement comments on top of big title to have a clear view of page subdivision (usefull when coding with vs code and having very long md files)
+
+
+
+## Titles
+
+
+## Images / figures
+
+
+```{image} ../../Docs/Images/JWST_cloud1.jpg 
+```
+    
+```{figure} ../../Docs/Images/JWST_cloud1.jpg
+:name: JWST2
+James Web Space Telescope [JWST](https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/JWST/JWST.html)
+```
+
+## Tables
+
+
+## Notes
+
+Explain what notes correspond to what (proper admonition)
+
+
+
+```{note}
+:class: dropdown
+The note body will be hidden!
+```
+
+```{warning}
+- Copy notes from PhD
+```
+
+:::{tip}
+This text is **standard** _Markdown_
+:::
+
+## Grid
+
+put example
+
+### with adaptable column width
+
+::::{grid}
+
+:::{grid-item}
+:outline:
+:columns: 3
+A
+:::
+:::{grid-item}
+:outline:
+:columns: 9
+B
+:::
+:::{grid-item}
+:outline:
+:columns: 6
+C
+:::
+:::{grid-item}
+:outline:
+:columns: 6
+D
+:::
+
+::::
+
+
+### Multiple row
+
+:::::{div} full-width
+::::{grid} 1 1 2 3
+:class-container: text-center
+:gutter: 3
+
+
+:::{grid-item-card}
+:class-header: bg-light
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+
+:::
+
+::::
+:::::
+
+### Full width content
+
+:::::{div} full-width
+
+:::::
+
+
+<h3><strong>&#187;  <u>Formatting </u></strong></h3>
+
+formatting is mood dependant and likely to change.
+
+<h4>Maths</h4>
+
+Different methods to write equation, bith can be referred in the following equation list
+
+<h5>Method 1</h5>
+
+$$
+  \int_0^\infty \frac{x^3}{e^x-1}\,dx = \frac{\pi^4}{15}
+$$
+
+<h5>Method 2</h5>
+
+```{math}
+:label: my_label
+w_{t+1} = (1 + r_{t+1}) s(w_t) + y_{t+1}
+```
+
+### Tabs
+
+can be embeded in dropdown
+
+- [Sphinx-doc](https://sphinx-design.readthedocs.io/en/latest/tabs.html#tab-set-options)
+
+### Dropdown
+
+- [Sphinx-doc](https://sphinx-design.readthedocs.io/en/latest/dropdowns.html)
+
+## HTML Symbol
+
+### Orga
+
+::::{grid} 2
+
+:::{grid-item}
+
+- &#9989; - &#9989 -  ticked box
+- &#x274C; - &#x274C - red cross
+- &#x2192; - right arrow:
+- &#127992; - magnifying glass
+- &#128143; - Lovely couple
+- &#128142; - Diamond
+- &#128293; - Fire
+
+- &#10024; - &#10024 - Stars
+
+- &#128064; - &#128064 - Eyes
+
+- &#128165; - Explosion
+
+- &#128640; - &#128640 - Rocket 
+
+- &#x26D4; - &#x26D4 - panneau stop
+
+- &#129482; - &#129482 - Ice cube
+    - &#x1F9CA; - &#x1F9CA - Ice cube 2
+ 
+ 
+:::
+
+:::{grid-item}
+
+**PhD**
+
+- 1
+
+:::
+
+::::
+
+
+

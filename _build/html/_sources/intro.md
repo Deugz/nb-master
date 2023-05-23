@@ -109,7 +109,7 @@ You have just set foot on my <strong>accademic websites portefolio</strong>. The
 
 ![flag alt >](_static/Svg_icons/codepen-svgrepo-com.svg) [Deugz](https://codepen.io/deugz/)
 
-![flag alt >](_static/Svg_icons/youtube-svgrepo-com.svg) [Science By People](https://www.youtube.com/@Science-By-People)
+![flag alt >](_static/Svg_icons/youtube-svgrepo-com.svg) [Science By & For People](https://www.youtube.com/channel/UCfAsBZ1atxP-hyltfiCiM2w)
     
 - Facebook
     
@@ -383,17 +383,32 @@ Because why not ?
 [Learn more](Projects/Manifesto)
 
 :::
+
+:::{grid-item-card}
+:class-header: bg-light
+<span style="float: right">![flag alt >](_static/Svg_icons/version-svgrepo-com.svg)</span> **Guides** 
+^^^
+
+<span class="hovertext" data-hover="How do I (and potentially you) use online books and how you can interact with them">How !</span>
+
+
++++
+
+[Learn more](Projects/How_do/How_main)
+
+:::
+
 :::{grid-item-card}
 :class-header: bg-light
 <span style="float: right">![flag alt >](_static/Svg_icons/location-on-road-svgrepo-com.svg)</span>
 **Roadmap**
 ^^^
 
-<span class="hovertext" data-hover="What I am aiming to achieve with this project, and at what stage we are at.">How !</span>
+<span class="hovertext" data-hover="What I am aiming to achieve with this project, and at what stage we are at.">When !</span>
 
 +++
 
-[Learn more](Projects/Science_ft_People)
+[Learn more](Projects/Roadmap)
 
 :::
 :::{grid-item-card}
@@ -410,18 +425,6 @@ Because why not ?
 
 :::
 
-:::{grid-item-card}
-:class-header: bg-light
-<span style="float: right">![flag alt >](_static/Svg_icons/version-svgrepo-com.svg)</span> **Versions** 
-^^^
-
-Later
-
-+++
-
-[Learn more](Projects/Version_Main)
-
-:::
 ::::
 :::::
 
@@ -468,20 +471,20 @@ This web-site have been built from a collection of `markdown` files, transformed
 How I use this book <span style="float: right">🙃</span> 
 ^^^
 
-- Notebook
-- Edition
-- Storage
-- Open Science
-- Communication
-- Collaboration
-- Publications
-- Engagement
-- Management
-- Social media
+- [Notebook](content:references:How_do_I_Title1)
+- [Edition](content:references:How_do_I_Title2)
+- [Storage](content:references:How_do_I_Title3)
+- [Open Science](content:references:How_do_I_Title4)
+- [Communication](content:references:How_do_I_Title5)
+- [Collaboration](content:references:How_do_I_Title6)
+- [Publications](content:references:How_do_I_Title7)
+- [Engagement](content:references:How_do_I_Title8)
+- [Management](content:references:How_do_I_Title9)
+- [Social media](content:references:How_do_I_Title10)
 
 +++
 
-[Learn more](Appendix/How_do/How_do_I)
+[Learn more](Projects/How_do/How_do_I)
 
 :::
 
@@ -492,9 +495,18 @@ How I use this book <span style="float: right">🙃</span>
 <span style="float: right">![flag alt >](_static/Svg_icons/hands-and-leaves-svgrepo-com.svg)</span> How **You** can use it
 ^^^
 
+- [Who are you](content:references:How_can_you_Title1)   
+- [Interact](content:references:How_can_you_Title2)
+    - [Collaborate](content:references:How_can_you_Title2.1)
+    - [Review](content:references:How_can_you_Title2.2)
+    - [Comment](content:references:How_can_you_Title2.3)
+    - [Discuss](content:references:How_can_you_Title2.4)
+    - [Chat](content:references:How_can_you_Title2.5)
+
+
 +++
 
-[Learn more](Appendix/How_do/How_can_you)
+[Learn more](Projects/How_do/How_can_you)
 
 :::
 ::::

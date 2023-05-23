@@ -198,3 +198,8 @@ Remove OU image (simple link in text)
    
 ::::::
 :::::::
+
+
+## To explore
+
+- [Europlanet TA2 Facilities](https://www.europlanet-society.org/europlanet-2024-ri/ta2-dplf/)

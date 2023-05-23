@@ -127,6 +127,8 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'Appendix/Help/Markdown';</script>
     <link rel="canonical" href="https://deugz.github.io/nb-master/_build/html/Appendix/Help/Markdown.html" />
     <link rel="shortcut icon" href="../../_static/logo_SFTP.png"/>
@@ -235,7 +237,7 @@ const thebe_selector_output = ".output, .cell_output"
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../../Projects/Manifesto.html">Manifesto</a></li>
 
-<li class="toctree-l1 has-children"><a class="reference internal" href="../../Projects/How_do/How_main.html">How ?</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Projects/How_do/How_main.html">Guides</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="../../Projects/How_do/How_do_I.html"><strong>I</strong> use online books</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../Projects/How_do/How_can_you.html"><strong>You</strong> can interact</a></li>
 </ul>
@@ -266,18 +268,18 @@ const thebe_selector_output = ".output, .cell_output"
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">💥 Blog</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1 has-children"><a class="reference internal" href="../../Blog/Blog_Main.html">Posts</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-4"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="../../Blog/Posts/Scientific_Publication.html">Scientific Publication</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../Blog/Posts/Open_Science.html">Open Science</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Blog/Posts/Scientific_publication/Scientific_Publication.html">Scientific Publication</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Blog/Posts/Open_Science/Open_Science.html">Open Science</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../Blog/Posts/Knowledge_info/Knowledge_info.html">Knowledge &amp; Information</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../Blog/Posts/Education/Education.html">Education</a></li>
-<li class="toctree-l2 has-children"><a class="reference internal" href="../../Blog/Posts/Entrepreneur/Entrepreneur.html">My Entrepreneurship Journey</a><input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-5"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l3"><a class="reference internal" href="../../Blog/Posts/Entrepreneur/DIY-Toolkit.html">DIY Toolkit</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../Blog/Posts/Entrepreneur/Entrepreneur.html">The Bright Idea</a><input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-5"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../Blog/Posts/Entrepreneur/DIY-Toolkit.html">The Journey</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../Blog/Posts/Entrepreneur/Business_model.html">Business model</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../../Blog/Posts/Outreach.html">Outreach</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../Blog/Posts/Annie_woman.html">Hackaton</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../Blog/Posts/ODAPA.html">ODAPA</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Blog/Posts/More/Outreach.html">Outreach</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Blog/Posts/More/Annie_woman.html">Hackaton</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Blog/Posts/More/ODAPA.html">ODAPA</a></li>
 
 </ul>
 </li>
@@ -517,10 +519,34 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#e-learning">E-Learning</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#teaching">Teaching</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#to-check">To Check</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#readibility">Readibility</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-it">What is it</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#creators">Creators</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#a-quick-guided-tour">A quick guided tour</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-page-layout">The page layout</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#legend">Legend</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#links">Links</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#buttons">Buttons</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#comments">Comments</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#titles">Titles</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#images-figures">Images / figures</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#tables">Tables</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#notes">Notes</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#grid">Grid</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#with-adaptable-column-width">with adaptable column width</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#multiple-row">Multiple row</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#full-width-content">Full width content</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#tabs">Tabs</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#dropdown">Dropdown</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#html-symbol">HTML Symbol</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#orga">Orga</a></li>
+</ul>
+</li>
 </ul>
             </nav>
         </div>
@@ -534,111 +560,256 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="markdown">
 <h1>Markdown<a class="headerlink" href="#markdown" title="Permalink to this heading">#</a></h1>
+<section id="what-is-it">
+<h2>What is it<a class="headerlink" href="#what-is-it" title="Permalink to this heading">#</a></h2>
+<section id="creators">
+<h3>Creators<a class="headerlink" href="#creators" title="Permalink to this heading">#</a></h3>
+<p>developped by <a class="reference external" href="https://daringfireball.net/projects/markdown/">John Gruber</a> and <a class="reference external" href="https://fr.wikipedia.org/wiki/Aaron_Swartz">Aaron Swartz</a></p>
 <hr class="docutils" />
-<p><strong>Scientific Journals</strong>:</p>
+<p><strong>Documentation</strong>:</p>
 <ul class="simple">
-<li><p>International Journal of Information and Education Technology - <a class="reference external" href="http://ojs.ejournal.net/index.php/ijiet/index">link</a></p></li>
-<li><p>…</p></li>
+<li><p>Markdown</p></li>
+<li><p>Jupyter Book</p></li>
 </ul>
+<p><strong>Dedicated tutorial</strong></p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://jupyterbook.org/en/stable/content/layout.html">Page layout</a></p></li>
+</ul>
+</section>
+</section>
 <hr class="docutils" />
-<section id="e-learning">
-<h2>E-Learning<a class="headerlink" href="#e-learning" title="Permalink to this heading">#</a></h2>
-<ul class="simple">
-<li><p>Technology Acceptance Model ?</p></li>
-</ul>
-<p><strong>Litterature</strong>:</p>
-<ul class="simple">
-<li><p><span id="id1">[<a class="reference internal" href="../Biblio/bibliography.html#id46" title="Ali Tarhini, Kate Hone, and Xiaohui Liu. Factors affecting students’ acceptance of e-learning environments in developing countries:a structural equation modeling approach. International Journal of Information and Education Technology, pages 54-59, 2013. doi:10.7763/ijiet.2013.v3.233.">Tarhini <em>et al.</em>, 2013</a>]</span></p></li>
-<li><p><span id="id2">[<a class="reference internal" href="../Biblio/bibliography.html#id45" title="Paul Juinn Bing Tan. Applying the utaut to understand factors affecting the use of english e-learning websites in taiwan. SAGE Open, 11 2013. doi:10.1177/2158244013503837.">Tan, 2013</a>]</span></p></li>
-</ul>
-</section>
-<section id="teaching">
-<h2>Teaching<a class="headerlink" href="#teaching" title="Permalink to this heading">#</a></h2>
-<h5>Teaching material</h5>
-<p><strong>Editorial experiments of teaching material</strong>:</p>
-<ul class="simple">
-<li><p><span id="id3">[<a class="reference internal" href="../Biblio/bibliography.html#id53" title="Lori S. Mestre. Student preference for tutorial design: a usability study. Reference Services Review, 40:258-276, 5 2012. doi:10.1108/00907321211228318.">Mestre, 2012</a>]</span></p></li>
-</ul>
-<div class="full-width docutils">
-<article id="P1">
-<div id="subdiv2">
-<p>This is a brief attempt to explain how <strong>Education</strong> works.</p>
-<p>The body of the tree represent the education system. The trunk being the common set of knowledge that we are given in highschool (which is mandatory for all, as far as I know). The branches represent the University, and at that point the system diverge into different discipline, at bachelor level and subsequently when you get to do a Master. The leafs actually represent Researches that <strong>creates new knowledge</strong></p>
-<ul class="simple">
-<li><p>Interdisciplanary Science</p></li>
-</ul>
-<p>The orange leaf is my friend Ross, he is also studying <em>the earliest stages of planet formation</em> but he is a <strong>geologist</strong> (poor him I know)</p>
-<p><strong>Examples</strong>:</p>
-<ul class="simple">
-<li><p><a class="reference external" href="http://hebergement.u-psud.fr/edartois/Teaching.html">Dartois</a></p></li>
-</ul>
-</div>
-<div id="subdiv2">
-<figure class="align-default" id="tree">
-<img alt="Appendix/Help/Docs/Education_tree.png" src="Appendix/Help/Docs/Education_tree.png" />
-<figcaption>
-<p><span class="caption-number">Fig. 27 </span><span class="caption-text">Education image</span><a class="headerlink" href="#tree" title="Permalink to this image">#</a></p>
-</figcaption>
-</figure>
-</div>
-</article>
-</div>
-</section>
-<section id="to-check">
-<h2>To Check<a class="headerlink" href="#to-check" title="Permalink to this heading">#</a></h2>
-<h4>Example</h4>
-<ul class="simple">
-<li><p><a class="reference external" href="https://www.julian.com/">Formatting idea</a></p></li>
-</ul>
-<h5>The Future</h5>
-<ul class="simple">
-<li><p><a class="reference external" href="https://staratlas.com/">StarAtlas</a></p></li>
-</ul>
-<aside class="margin sidebar">
-<p class="sidebar-title"></p>
-<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-<p><lottie-player src="https://assets3.lottiefiles.com/private_files/lf30_hilbd2uq.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"  loop  autoplay></lottie-player></p>
-</aside>
-<h4><strong> Lifelong Peer Review </strong></h4>
-<aside class="margin sidebar">
-<p class="sidebar-title"></p>
-<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-<p><lottie-player src="https://assets9.lottiefiles.com/packages/lf20_fg8zotvy.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"  loop  autoplay></lottie-player></p>
-</aside>
-<h4><strong> Open for Collaboration </strong></h4>
-<p>What I would like to explore is how we can bring researchers (from various disciplines) to work together on a given problematic, rather than competing with each other. I think that such a plateform can help in promoting this <strong>collaborative approach</strong>.</p>
-<ul class="simple">
-<li><p>promote collaboration rather than competition</p></li>
-<li><p>L’entraide pour rendre accessible du contenue educatif de pointe, de qualite et accessible a tous!</p></li>
-</ul>
-<p>L’emploie du ton familier (universel).</p>
-<p>You will have to put some efforts to make it work, but you will build a tool that can follow you during your whole career.</p>
-<p>I think it is worth a try (link to jupyter-book tuto)</p>
-<aside class="margin sidebar">
-<p class="sidebar-title"></p>
-<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-<p><lottie-player src="https://assets7.lottiefiles.com/packages/lf20_AFxIPvJHjK.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"  loop  autoplay></lottie-player></p>
-</aside>
-</section>
-<section id="readibility">
-<h2>Readibility<a class="headerlink" href="#readibility" title="Permalink to this heading">#</a></h2>
-<p>Readability is the search for factors in reading material which could be easily and objectively counted.<strong>Positivist paradigm</strong> stated that reading difficulties is influenced by four factors, content, stylistic elements, format and organisation. Among these elements, factors such as vocabulary load, sentence structure, idea density and human interest appeared to be significantly related to reading difficulty. <strong>Cognitive science</strong> (date) bring a new perspective which emphasized the interactive nature of reading and the constructive nature of comprehension. Comprehension is related to the cognitive process of searching for meaning, that is no longer viewed as coming from the text, but, rather, from the readers mind in interaction with the text.</p>
-<p>Because of its collaborative nature, and the ability to collect readers experience, I think this web-site can be a great research plateform to investigate readability, accrose the full spectrum of audiences.</p>
-<p>High <strong>readibility</strong> (process of matching the reader and the text) by allowing the readers () to navigate</p>
-<ul class="simple">
-<li><p><a class="reference external" href="https://scholar.google.co.uk/scholar?q=Alexander,+P.+%26+Fox,+E.+(2006).%E2%80%9CA+historical+perspective+on+reading+research+and+practice&amp;hl=fr&amp;as_sdt=0&amp;as_vis=1&amp;oi=scholart">Ref</a></p></li>
-<li><p><a class="reference external" href="https://pressbooks.howardcc.edu/app/uploads/sites/10/2019/06/A_Historical_Perspective_on_Reading_Research_and_P.pdf">Historical Reviews</a></p></li>
-</ul>
-<h4>More</h4>
-<ul class="simple">
-<li><p><a class="reference external" href="https://vocabs.ardc.edu.au/repository/api/lda/aas/the-unified-astronomy-thesaurus/current/resource.html?uri=http://astrothesaurus.org/uat/2092">Vocabs - Astronomy thesaurus</a></p></li>
-</ul>
+<section id="a-quick-guided-tour">
+<h2>A quick guided tour<a class="headerlink" href="#a-quick-guided-tour" title="Permalink to this heading">#</a></h2>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <ul class="simple">
-<li><p>Use that vocabulary to generate specific tags for the research produced</p></li>
+<li><p>Insert presentation like tour</p></li>
 </ul>
 </div>
+</section>
+<section id="the-page-layout">
+<h2>The page layout<a class="headerlink" href="#the-page-layout" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>How to navigate this web-site</p></li>
+</ul>
+<p>left menue = global
+right menu = local</p>
+</section>
+<section id="legend">
+<h2>Legend<a class="headerlink" href="#legend" title="Permalink to this heading">#</a></h2>
+<section id="links">
+<h3>Links<a class="headerlink" href="#links" title="Permalink to this heading">#</a></h3>
+<p>We are all familiar withe the <img alt="flag alt &gt;" src="Docs/Svg_icons/external-link-alt-svgrepo-com.svg" /> icon</p>
+<ul class="simple">
+<li><p><img alt="flag alt &gt;" src="Docs/Svg_icons/links/I_link.png" /> - <strong>Internal link</strong>: same web-site but different page</p></li>
+<li><p><img alt="flag alt &gt;" src="Docs/Svg_icons/links/E_link.png" /> - <strong>External link</strong>: different web-site, <em>Wikipedia</em> for example</p></li>
+<li><p><img alt="flag alt &gt;" src="Docs/Svg_icons/links/IE_link.png" /> - <strong>Internal-External</strong>: different web-site, but still one of mine, those could be:</p>
+<ul>
+<li><p>Teaching</p></li>
+<li><p>Thesis.A</p></li>
+<li><p>Thesis.B</p></li>
+</ul>
+</li>
+</ul>
+<aside class="margin sidebar">
+<p class="sidebar-title"></p>
+<p>2 main methods:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://badgen.net/">badgen</a></p></li>
+<li><p><a class="reference external" href="https://shields.io/">shield</a></p></li>
+</ul>
+<p>also possible with sphinx</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://sphinx-design.readthedocs.io/en/latest/badges_buttons.html#icons">Sphinx-doc</a></p></li>
+</ul>
+</aside>
+</section>
+<section id="buttons">
+<h3>Buttons<a class="headerlink" href="#buttons" title="Permalink to this heading">#</a></h3>
+<p>Markdown give you the possibility to generate buttons. They are a more informative version of the links presented above. I use on this web-site the following buttons:</p>
+<ul class="simple">
+<li><p>DOI</p></li>
+<li><p>Binder</p></li>
+<li><p>Link towards book (Teaching)</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Insert examples</p>
+</div>
+</section>
+</section>
+<section id="comments">
+<h2>Comments<a class="headerlink" href="#comments" title="Permalink to this heading">#</a></h2>
+<p>Implement comments on top of big title to have a clear view of page subdivision (usefull when coding with vs code and having very long md files)</p>
+</section>
+<section id="titles">
+<h2>Titles<a class="headerlink" href="#titles" title="Permalink to this heading">#</a></h2>
+</section>
+<section id="images-figures">
+<h2>Images / figures<a class="headerlink" href="#images-figures" title="Permalink to this heading">#</a></h2>
+<img alt="Docs/Images/JWST_cloud1.jpg" src="Docs/Images/JWST_cloud1.jpg" />
+<figure class="align-default" id="jwst2">
+<img alt="Docs/Images/JWST_cloud1.jpg" src="Docs/Images/JWST_cloud1.jpg" />
+<figcaption>
+<p><span class="caption-number">Fig. 27 </span><span class="caption-text">James Web Space Telescope <a class="reference external" href="https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/JWST/JWST.html">JWST</a></span><a class="headerlink" href="#jwst2" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="tables">
+<h2>Tables<a class="headerlink" href="#tables" title="Permalink to this heading">#</a></h2>
+</section>
+<section id="notes">
+<h2>Notes<a class="headerlink" href="#notes" title="Permalink to this heading">#</a></h2>
+<p>Explain what notes correspond to what (proper admonition)</p>
+<div class="dropdown admonition note">
+<p class="admonition-title">Note</p>
+<p>The note body will be hidden!</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<ul class="simple">
+<li><p>Copy notes from PhD</p></li>
+</ul>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>This text is <strong>standard</strong> <em>Markdown</em></p>
+</div>
+</section>
+<section id="grid">
+<h2>Grid<a class="headerlink" href="#grid" title="Permalink to this heading">#</a></h2>
+<p>put example</p>
+<section id="with-adaptable-column-width">
+<h3>with adaptable column width<a class="headerlink" href="#with-adaptable-column-width" title="Permalink to this heading">#</a></h3>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row docutils">
+<div class="sd-col sd-d-flex-column sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 sd-border-1 docutils">
+<p>A</p>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-9 sd-col-xs-9 sd-col-sm-9 sd-col-md-9 sd-col-lg-9 sd-border-1 docutils">
+<p>B</p>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-6 sd-col-xs-6 sd-col-sm-6 sd-col-md-6 sd-col-lg-6 sd-border-1 docutils">
+<p>C</p>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-6 sd-col-xs-6 sd-col-sm-6 sd-col-md-6 sd-col-lg-6 sd-border-1 docutils">
+<p>D</p>
+</div>
+</div>
+</div>
+</section>
+<section id="multiple-row">
+<h3>Multiple row<a class="headerlink" href="#multiple-row" title="Permalink to this heading">#</a></h3>
+<div class="full-width docutils">
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 text-center docutils">
+<div class="sd-row sd-row-cols-1 sd-row-cols-xs-1 sd-row-cols-sm-1 sd-row-cols-md-2 sd-row-cols-lg-3 sd-g-3 sd-g-xs-3 sd-g-sm-3 sd-g-md-3 sd-g-lg-3 docutils">
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="full-width-content">
+<h3>Full width content<a class="headerlink" href="#full-width-content" title="Permalink to this heading">#</a></h3>
+<div class="full-width docutils">
+</div>
+<h3><strong>&#187;  <u>Formatting </u></strong></h3>
+<p>formatting is mood dependant and likely to change.</p>
+<h4>Maths</h4>
+<p>Different methods to write equation, bith can be referred in the following equation list</p>
+<h5>Method 1</h5>
+<div class="math notranslate nohighlight">
+\[
+  \int_0^\infty \frac{x^3}{e^x-1}\,dx = \frac{\pi^4}{15}
+\]</div>
+<h5>Method 2</h5>
+<div class="math notranslate nohighlight" id="equation-my-label">
+<span class="eqno">(1)<a class="headerlink" href="#equation-my-label" title="Permalink to this equation">#</a></span>\[w_{t+1} = (1 + r_{t+1}) s(w_t) + y_{t+1}\]</div>
+</section>
+<section id="tabs">
+<h3>Tabs<a class="headerlink" href="#tabs" title="Permalink to this heading">#</a></h3>
+<p>can be embeded in dropdown</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://sphinx-design.readthedocs.io/en/latest/tabs.html#tab-set-options">Sphinx-doc</a></p></li>
+</ul>
+</section>
+<section id="dropdown">
+<h3>Dropdown<a class="headerlink" href="#dropdown" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://sphinx-design.readthedocs.io/en/latest/dropdowns.html">Sphinx-doc</a></p></li>
+</ul>
+</section>
+</section>
+<section id="html-symbol">
+<h2>HTML Symbol<a class="headerlink" href="#html-symbol" title="Permalink to this heading">#</a></h2>
+<section id="orga">
+<h3>Orga<a class="headerlink" href="#orga" title="Permalink to this heading">#</a></h3>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-column docutils">
+<ul class="simple">
+<li><p>✅ - &amp;#9989 -  ticked box</p></li>
+<li><p>❌ - &amp;#x274C - red cross</p></li>
+<li><p>→ - right arrow:</p></li>
+<li><p>🏸 - magnifying glass</p></li>
+<li><p>💏 - Lovely couple</p></li>
+<li><p>💎 - Diamond</p></li>
+<li><p>🔥 - Fire</p></li>
+<li><p>✨ - &amp;#10024 - Stars</p></li>
+<li><p>👀 - &amp;#128064 - Eyes</p></li>
+<li><p>💥 - Explosion</p></li>
+<li><p>🚀 - &amp;#128640 - Rocket</p></li>
+<li><p>⛔ - &amp;#x26D4 - panneau stop</p></li>
+<li><p>🧊 - &amp;#129482 - Ice cube</p>
+<ul>
+<li><p>🧊 - &amp;#x1F9CA - Ice cube 2</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="sd-col sd-d-flex-column docutils">
+<p><strong>PhD</strong></p>
+<ul class="simple">
+<li><p>1</p></li>
+</ul>
+</div>
+</div>
+</div>
+</section>
 </section>
 </section>
 
@@ -703,10 +874,34 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#e-learning">E-Learning</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#teaching">Teaching</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#to-check">To Check</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#readibility">Readibility</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-it">What is it</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#creators">Creators</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#a-quick-guided-tour">A quick guided tour</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-page-layout">The page layout</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#legend">Legend</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#links">Links</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#buttons">Buttons</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#comments">Comments</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#titles">Titles</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#images-figures">Images / figures</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#tables">Tables</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#notes">Notes</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#grid">Grid</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#with-adaptable-column-width">with adaptable column width</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#multiple-row">Multiple row</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#full-width-content">Full width content</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#tabs">Tabs</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#dropdown">Dropdown</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#html-symbol">HTML Symbol</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#orga">Orga</a></li>
+</ul>
+</li>
 </ul>
   </nav></div>
 

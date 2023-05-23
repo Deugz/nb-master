@@ -33,7 +33,7 @@ I want to create a **social entreprise** that empower researcher with a turnkey 
 
 <br>
 
-:::::::{div} full-width
+::::::::{div} full-width
 
 
 <p class="emphase2"><strong>Desirability</strong></p>
@@ -48,57 +48,125 @@ I want to create a **social entreprise** that empower researcher with a turnkey 
 <br>
 
 
-::::::{dropdown} More info 
+:::::::{dropdown} More info 
 
-:::::{tab-set}
+::::::{tab-set}
 
-::::{tab-item} Tab **A**
+:::::{tab-item} Tab **A**
+
+**Markdown** is a lightweight markup language for creating formatted text using a plain-text editor. It allows you to write using an easy-to-read, easy-to-write plain text format and then **convert it to structurally valid HTML**. I came accross it during my `Python` deep dive, where I discovered that you could mix Python and Markdown using a web application called `Jupyter Notebook`. To me, that was a novice python programmer at the time, that was a game changer as I could now code in a step-by-step fashion with text cells between code cells resulting in a self explanatory program (and less frightening I must say, more in Tab B). Later I discovered that Jupyter was in fact a whole ecocystem of open source software, encompassing `Jupyter Lab`, and more importantly `Jupyter-Book`. The later is defined as a tool to: 
+
+<br>
+
+<p class="emphase">Build beautiful, publication-quality books and documents from computational content</p>
+
+<br>
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 9
+
+
+Somehow that sounded like what I wanted to achieve with my PhD thesis, but after one year of use, I think the capabilities extend far beyond this restrictive scope. Indeed, the online format gives me a much broader type of inputs (video, podcasts, animations, hyperlinks ...) and have a potentially infinite depth. I can also test some new way of communicate science that have never been experimented before, finding my own style.  
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+:columns: 3
+
+**Links**
+
+^^^
+
+- [Markdown](../../../Appendix/Help/Markdown)
+<br>
+- [Executable Books](../../../Appendix/Help/Executable-Book/Executable-Book)
+    - [Jupyter-Book](../../../Appendix/Help/Executable-Book/Jupyter)
+    - [MyST](../../../Appendix/Help/Executable-Book/MyST)
+<br>    
+- [How do I](../../../Projects/How_do/How_do_I) use
+- [How you can](../../../Projects/How_do/How_can_you) interact
+
+:::
+::::
+
+:::::
+
+:::::{tab-item} Tab **B**
+
+I can directly link my data and softwares within my notes and this is a great improvment in term of **reproducibility**, a key feature of science that is in crisis. 
+
+I also have the possibility to make my software interactive and directly emebed into the web page and I believe this is the future of Scientific programming.
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 9
+
+```{note}
+
+The interactivity is a feature I tested, but it still need to be perfected
+
+```  
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+:columns: 3
+
+**Links**
+
+^^^
+
+- [Open Science Tools](../../../Appendix/Help/Markdown)
+- [Binder](../../../Appendix/Help/Markdown)
+
+
+:::
+::::
+
+
+
+:::::
+
+:::::{tab-item} Tab **C**
 
 Explain
 
-::::
+:::::
 
-::::{tab-item} Tab **B**
-
-Explain
-
-::::
-
-::::{tab-item} Tab **C**
+:::::{tab-item} Tab **D**
 
 Explain
 
-::::
+:::::
 
-::::{tab-item} Tab **D**
-
-Explain
-
-::::
-
-::::{tab-item} Tab **E**
+:::::{tab-item} Tab **E**
 
 Explain
 
-::::
+:::::
 
-::::{tab-item} Tab **F**
-
-Explain
-
-::::
-
-::::{tab-item} Tab **F**
+:::::{tab-item} Tab **F**
 
 Explain
 
-::::
+:::::
+
+:::::{tab-item} Tab **G**
+
+Explain
 
 :::::
 
 ::::::
 
 :::::::
+
+::::::::
 
 
 <br>
@@ -1312,7 +1380,7 @@ Explain your solution and key features to this problem. Try to keep it simple. Y
 :::{grid-item-card}
 :class-header: bg-light
 
-<span style="float: right">![flag alt >](../../../_static/Svg_icons/Under_construction.svg)</span> **Build A Website**
+<span style="float: right">**Pr.1**</span> **Build A Website**
 
 ^^^
 

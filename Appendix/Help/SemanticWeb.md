@@ -28,10 +28,31 @@
 
 ## Introduction
 
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 8
+
 - [Schema.org](https://schema.org/)
     - [Getting started](https://schema.org/docs/gs.html)
     
+- [Swartz article](http://blogspace.com/rdf/SwartzHendler)
     
+:::
+
+:::{grid-item-card}
+:columns: 4
+Vocabulary
+^^^
+
+- RDF: Resource Description Framework - data model for metadata
+- XML: Extensible Markup Language
+
+:::
+
+::::
+
 ### Build a simple ontologie
 
 **Tutorial serie**:

@@ -39,17 +39,17 @@ parts:
     chapters:
     - file: Blog/Blog_Main
       sections:
-      - file: Blog/Posts/Scientific_Publication
-      - file: Blog/Posts/Open_Science
+      - file: Blog/Posts/Scientific_publication/Scientific_Publication
+      - file: Blog/Posts/Open_Science/Open_Science
       - file: Blog/Posts/Knowledge_info/Knowledge_info            
       - file: Blog/Posts/Education/Education
       - file: Blog/Posts/Entrepreneur/Entrepreneur
         sections:
         - file: Blog/Posts/Entrepreneur/DIY-Toolkit
         - file: Blog/Posts/Entrepreneur/Business_model                
-      - file: Blog/Posts/Outreach
-      - file: Blog/Posts/Annie_woman      
-      - file: Blog/Posts/ODAPA
+      - file: Blog/Posts/More/Outreach
+      - file: Blog/Posts/More/Annie_woman      
+      - file: Blog/Posts/More/ODAPA
   - caption: 🔧 Appendix
     chapters:
     - file: Appendix/Help_main

@@ -905,6 +905,30 @@ Interesting but bulky (to read though)
     - Enhanced models of the traditional scholarly journal
     - Innovative models of the traditional scholarly journal
     - Alternative modes of knowledge dissemination
+    
+    
+### Important Peoples
+
+
+::::{grid} 2
+
+:::{grid-item}
+
+Aaron Swartz
+
+[Manifesto](../../_static/assets/pdf/Swartz_OpenAccess2008.pdf)
+
+:::
+
+
+:::{grid-item}
+
+Scihub
+
+
+:::
+
+::::
 
 ### JSTOR
 

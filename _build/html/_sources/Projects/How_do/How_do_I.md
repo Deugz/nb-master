@@ -18,7 +18,7 @@
 
 <br>
 
-(content:references:Title1)=  
+(content:references:How_do_I_Title1)=  
 ##  Notebook
 
 <br>
@@ -247,7 +247,7 @@ blabla
 <br>
 
 
-(content:references:Title4)=
+(content:references:How_do_I_Title2)=
 ## Edition
 
 
@@ -416,7 +416,7 @@ Allow for user interaction with the page content
 :::
 
 
-(content:references:Title2)=  
+(content:references:How_do_I_Title3)=  
 ##  Storage  
 
 <br>
@@ -541,7 +541,7 @@ Sharing is caring
 
 :::
 
-(content:references:Title7)=
+(content:references:How_do_I_Title4)=
 ## Open Science
 
 :::::{div} full-width
@@ -625,7 +625,7 @@ Sharing is caring
 :::
 
 
-(content:references:Title6)=  
+(content:references:How_do_I_Title5)=  
 ## Communication 
 
 :::{div} full-width
@@ -896,7 +896,7 @@ Just explore
 
 :::
 
-(content:references:Title8)=   
+(content:references:How_do_I_Title6)=   
 ## Collaboration
 
 <br>
@@ -1081,7 +1081,7 @@ Just explore
 
 
 
-(content:references:Title3)=  
+(content:references:How_do_I_Title7)=  
 ##  Management
 
 <p class="emphase2"> <strong>Tools I need</strong></p>
@@ -1111,7 +1111,7 @@ Just explore
 
 
 
-(content:references:Title5)=  
+(content:references:How_do_I_Title8)=  
 ## Publications
 
 <br>
@@ -1181,7 +1181,7 @@ Broader reach -> Bigger impact
 
 
 
-(content:references:Title9)=   
+(content:references:How_do_I_Title9)=   
 ## Engagement
 
 :::::{div} full-width
@@ -1248,7 +1248,7 @@ From different disciplines
 :::
 
 
-(content:references:Title10)=  
+(content:references:How_do_I_Title10)=  
 ## Social media
 
 Connect Researcher with the general public. Collaboration beyond academia (`utterance` comment)
