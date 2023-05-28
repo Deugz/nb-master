@@ -67,13 +67,11 @@ James Web Space Telescope [JWST](https://deugz.github.io/nb-teaching/_build/html
 :::{grid-item}
 :columns: 6
 
-```{image} 
 
-```
+```{figure} ../_static/Images/Interstellar_dust.png
+:name: Interstellar_Dust_interests
 
-```{figure} ../_static/Images/Interstellar_dust.PNG
-:name: Interstellar Dust
-[Source]
+[Source](to find)
 ```
 
 :::
@@ -126,7 +124,8 @@ James Web Space Telescope [JWST](https://deugz.github.io/nb-teaching/_build/html
 :::{grid-item}
 :columns: 7
 
-izhfpizoarzihgozirhizghiozrhzoirhrzihzairh
+This a typical and vary famous interstellar environment, *the Pillars of Creation*.
+- Molecular Cloud
 
 :::
 
