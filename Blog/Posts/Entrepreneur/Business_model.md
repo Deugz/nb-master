@@ -9,7 +9,8 @@
 
 :::{epigraph}
 
-I want to create a **social entreprise** that empower researcher with a turnkey solution to self-publish their scientific work online.
+I want to create a **social entreprise** that empower researcher with a turnkey solution to self-publish their scientific work online. 
+- paradigm schift to break free from the commercial publication system, a parasit that feed from the academic community. (link to Manifesto) 
 
 :::
 
@@ -21,6 +22,24 @@ I want to create a **social entreprise** that empower researcher with a turnkey 
 
 **Plan**
 
+- [Canvas](content:references:Business_Model_Title1)
+
+    - Desirability
+    - Feasibility
+    - Viability
+    
+<br>
+
+- [Testing](content:references:Business_Model_Title2)
+
+    - Critical Assumptions
+    - Test types
+    
+<br>
+
+- [Expenditures](content:references:Business_Model_Title3)
+
+
 ::::
 
 
@@ -28,7 +47,7 @@ I want to create a **social entreprise** that empower researcher with a turnkey 
 
 ::::::
 
-
+(content:references:Business_Model_Title1)=
 <h2>Canvas</h2>
 
 <br>
@@ -68,7 +87,13 @@ I want to create a **social entreprise** that empower researcher with a turnkey 
 :columns: 9
 
 
-Somehow that sounded like what I wanted to achieve with my PhD thesis, but after one year of use, I think the capabilities extend far beyond this restrictive scope. Indeed, the online format gives me a much broader type of inputs (video, podcasts, animations, hyperlinks ...) and have a potentially infinite depth. I can also test some new way of communicate science that have never been experimented before, finding my own style.  
+Somehow that sounded like what I wanted to achieve with my PhD thesis, but after one year of use, I think the capabilities extend far beyond this restrictive scope. Indeed, the online format gives me a much broader type of inputs (video, podcasts, animations, hyperlinks ...) and have a potentially infinite depth. I can also test some new way of communicate science that have never been experimented before, finding my own style. 
+
+<br>
+
+**Competitors:** 
+- [Notion](https://www.notion.so/fr-fr): A great note taking, web-scrapping, knowledge base software that also allow IA. It is a good software but I don't see it as being dedicated for research purposes, at least not in the way I intend to design my plateform. It is a great source of aspiration though. 
+- [Obsidian](https://obsidian.md/): I need to test it but looks like there is no build option to get a web-site and only allow md files (where jupyter book also allow .ipynb (python notebook))
 
 :::
 
@@ -80,7 +105,7 @@ Somehow that sounded like what I wanted to achieve with my PhD thesis, but after
 
 ^^^
 
-- [Markdown](../../../Appendix/Help/Markdown)
+- [Markdown](../../../Appendix/Help/Markdown/Markdown)
 <br>
 - [Executable Books](../../../Appendix/Help/Executable-Book/Executable-Book)
     - [Jupyter-Book](../../../Appendix/Help/Executable-Book/Jupyter)
@@ -96,9 +121,13 @@ Somehow that sounded like what I wanted to achieve with my PhD thesis, but after
 
 :::::{tab-item} Tab **B**
 
-I can directly link my data and softwares within my notes and this is a great improvment in term of **reproducibility**, a key feature of science that is in crisis. 
+Science must be **reproducibile**, and there is evidence that this is not always the case (ref). This is main reason why the FAIR Principles {cite:p}`Wilkinson2016` have been put in place, in order for the data to be:
+- Findable
+- Accessible
+- Interoperable
+- Reusable
 
-I also have the possibility to make my software interactive and directly emebed into the web page and I believe this is the future of Scientific programming.
+The paper based publication model is not built for that purpose and very often this is resumed by a link towards a data repository at the end of a scientific paper. However, with my publication model, I can directly link my data and softwares within my notes and this is already a great improvment. But there is also a scope to go much further than this. Indeed, I have the possibility to make my software **interactive** and directly emebed into the web page. 
 
 ::::{grid} 2
 
@@ -121,8 +150,8 @@ The interactivity is a feature I tested, but it still need to be perfected
 
 ^^^
 
-- [Open Science Tools](../../../Appendix/Help/Markdown)
-- [Binder](../../../Appendix/Help/Markdown)
+- [Open Science Tools](../../../Appendix/Help/OpenScience/Open_Science)
+- [Binder](../../../Appendix/Help/Binder/Binder_JB)
 
 
 :::
@@ -134,13 +163,15 @@ The interactivity is a feature I tested, but it still need to be perfected
 
 :::::{tab-item} Tab **C**
 
-Explain
+You are currently navigating on my website which is the cover (the top of the iceberg) of a much deeper self own publication plateform.  
 
 :::::
 
 :::::{tab-item} Tab **D**
 
-Explain
+**Competitors / Partners**:
+
+- [SciAni](https://sciani.com/): Extremely pricey but also very qualitative work
 
 :::::
 
@@ -867,7 +898,7 @@ I publish for free and scientist not only have access but can also participate.
 
 ::::::::
 
-
+(content:references:Business_Model_Title2)=
 ## Testing
 
 <br>
@@ -1111,7 +1142,7 @@ Explain the problem you are solving. Investigate if your Customer Segments actua
 - ![flag alt >](../../../_static/Svg_icons/Under_construction.svg) [Scientific Publication](../Scientific_Publication)
 
 
-- ![flag alt >](../../../_static/Svg_icons/Under_construction.svg) [Knowledge / Information](../Knowledge_info/Knowledge_info)
+- ![flag alt >](../../../_static/Svg_icons/delete-remove-uncheck-svgrepo-com.svg) [Knowledge / Information](../Knowledge_info/Knowledge_info)
 
 
 - ![flag alt >](../../../_static/Svg_icons/Under_construction.svg) [Education](../Education/Education)
@@ -1163,7 +1194,7 @@ Explain your solution and key features to this problem. Try to keep it simple. Y
 :::{grid-item-card}
 :class-header: bg-light
 
-<span style="float: right">![flag alt >](../../../_static/Svg_icons/delete-remove-uncheck-svgrepo-com.svg)</span>**Litterature Review**
+<span style="float: right">**Re.1**</span>**Litterature Review**
 
 ^^^
 
@@ -1173,11 +1204,11 @@ Explain your solution and key features to this problem. Try to keep it simple. Y
 :::{grid-item-card}
 :class-header: bg-light
 
-<span style="float: right">![flag alt >](../../../_static/Svg_icons/Under_construction.svg)</span> **Trend Analysis**
+<span style="float: right">**Re.2**</span> **Trend Analysis**
 
 ^^^
 
-- [Open Science]()
+- ![flag alt >](../../../_static/Svg_icons/Under_construction.svg) [Open Science]()
 
 :::
 
@@ -1190,7 +1221,7 @@ Explain your solution and key features to this problem. Try to keep it simple. Y
 :::{grid-item-card}
 :class-header: bg-light
 
-<span style="float: right">![flag alt >](../../../_static/Svg_icons/Under_construction.svg)</span>**Market Size / Competitor Analysis**
+<span style="float: right">**Re.3**</span>**Market Size / Competitor Analysis**
 
 
 ^^^
@@ -1201,7 +1232,7 @@ Explain your solution and key features to this problem. Try to keep it simple. Y
 :::{grid-item-card}
 :class-header: bg-light
 
-<span style="float: right">![flag alt >](../../../_static/Svg_icons/Under_construction.svg)</span>**Observation**
+<span style="float: right">**Re.4**</span>**Observation**
 
 ^^^
 
@@ -1209,12 +1240,6 @@ Explain your solution and key features to this problem. Try to keep it simple. Y
 :::
 
 ::::
-
-:::::
-
-:::::{tab-item} Train
-
-
 
 :::::
 
@@ -1240,7 +1265,7 @@ Explain your solution and key features to this problem. Try to keep it simple. Y
 :::{grid-item-card}
 :class-header: bg-light
 
-<span style="float: right">![flag alt >](../../../_static/Svg_icons/Under_construction.svg)</span> **Discovery Survey**
+<span style="float: right">**Su.1**</span> **Discovery Survey**
 
 ^^^
 
@@ -1250,7 +1275,7 @@ Explain your solution and key features to this problem. Try to keep it simple. Y
 :::{grid-item-card}
 :class-header: bg-light
 
-<span style="float: right">![flag alt >](../../../_static/Svg_icons/delete-remove-uncheck-svgrepo-com.svg)</span>**A/B Testing**
+<span style="float: right">**Su.2**</span>**A/B Testing**
 
 ^^^
 
@@ -1266,7 +1291,7 @@ Explain your solution and key features to this problem. Try to keep it simple. Y
 :::{grid-item-card}
 :class-header: bg-light
 
-<span style="float: right">![flag alt >](../../../_static/Svg_icons/Under_construction.svg)</span>**Feature Ranking**
+<span style="float: right">**Su.3**</span>**Feature Ranking**
 
 
 ^^^
@@ -1277,7 +1302,7 @@ Explain your solution and key features to this problem. Try to keep it simple. Y
 :::{grid-item-card}
 :class-header: bg-light
 
-<span style="float: right">![flag alt >](../../../_static/Svg_icons/Under_construction.svg)</span>**Demographic Survey**
+<span style="float: right">**Su.4**</span>**Demographic Survey**
 
 ^^^
 
@@ -1310,7 +1335,7 @@ Explain your solution and key features to this problem. Try to keep it simple. Y
 :::{grid-item-card}
 :class-header: bg-light
 
-<span style="float: right">![flag alt >](../../../_static/Svg_icons/Under_construction.svg)</span> **Customer Interviews**
+<span style="float: right">**In.1**</span> **Customer Interviews**
 
 ^^^
 
@@ -1320,7 +1345,7 @@ Explain your solution and key features to this problem. Try to keep it simple. Y
 :::{grid-item-card}
 :class-header: bg-light
 
-<span style="float: right">![flag alt >](../../../_static/Svg_icons/delete-remove-uncheck-svgrepo-com.svg)</span>**Focus Groups**
+<span style="float: right">**In.2**</span>**Focus Groups**
 
 ^^^
 
@@ -1336,7 +1361,7 @@ Explain your solution and key features to this problem. Try to keep it simple. Y
 :::{grid-item-card}
 :class-header: bg-light
 
-<span style="float: right">![flag alt >](../../../_static/Svg_icons/Under_construction.svg)</span>**Talk To Partners**
+<span style="float: right">**In.3**</span>**Talk To Partners**
 
 
 ^^^
@@ -1347,7 +1372,7 @@ Explain your solution and key features to this problem. Try to keep it simple. Y
 :::{grid-item-card}
 :class-header: bg-light
 
-<span style="float: right">![flag alt >](../../../_static/Svg_icons/Under_construction.svg)</span>**Talk To Experts**
+<span style="float: right">**In.4**</span>**Talk To Experts**
 
 ^^^
 
@@ -1390,7 +1415,7 @@ Explain your solution and key features to this problem. Try to keep it simple. Y
 :::{grid-item-card}
 :class-header: bg-light
 
-<span style="float: right">![flag alt >](../../../_static/Svg_icons/delete-remove-uncheck-svgrepo-com.svg)</span>**Explainer Video**
+<span style="float: right">**Pr.2**</span>**Explainer Video**
 
 ^^^
 
@@ -1406,7 +1431,7 @@ Explain your solution and key features to this problem. Try to keep it simple. Y
 :::{grid-item-card}
 :class-header: bg-light
 
-<span style="float: right">![flag alt >](../../../_static/Svg_icons/Under_construction.svg)</span>**Clickable Wireframe**
+<span style="float: right">**Pr.3**</span>**Clickable Wireframe**
 
 
 ^^^
@@ -1417,7 +1442,7 @@ Explain your solution and key features to this problem. Try to keep it simple. Y
 :::{grid-item-card}
 :class-header: bg-light
 
-<span style="float: right">![flag alt >](../../../_static/Svg_icons/Under_construction.svg)</span>**Social Media Campaign**
+<span style="float: right">**Pr.4**</span>**Social Media Campaign**
 
 ^^^
 
@@ -1425,6 +1450,18 @@ Explain your solution and key features to this problem. Try to keep it simple. Y
 :::
 
 ::::
+
+:::::
+
+:::::{tab-item} Teach
+
+
+
+:::::
+
+:::::{tab-item} Collaborate
+
+
 
 :::::
 
@@ -1450,7 +1487,7 @@ Explain your solution and key features to this problem. Try to keep it simple. Y
 :::{grid-item-card}
 :class-header: bg-light
 
-<span style="float: right">![flag alt >](../../../_static/Svg_icons/Under_construction.svg)</span> **Online Shop**
+<span style="float: right">**Se.1**</span> **Online Shop**
 
 ^^^
 
@@ -1460,7 +1497,7 @@ Explain your solution and key features to this problem. Try to keep it simple. Y
 :::{grid-item-card}
 :class-header: bg-light
 
-<span style="float: right">![flag alt >](../../../_static/Svg_icons/delete-remove-uncheck-svgrepo-com.svg)</span>**Pop-Up**
+<span style="float: right">**Se.2**</span>**Pop-Up**
 
 ^^^
 
@@ -1476,7 +1513,7 @@ Explain your solution and key features to this problem. Try to keep it simple. Y
 :::{grid-item-card}
 :class-header: bg-light
 
-<span style="float: right">![flag alt >](../../../_static/Svg_icons/Under_construction.svg)</span>**Presale**
+<span style="float: right">**Se.3**</span>**Presale**
 
 
 ^^^
@@ -1487,7 +1524,7 @@ Explain your solution and key features to this problem. Try to keep it simple. Y
 :::{grid-item-card}
 :class-header: bg-light
 
-<span style="float: right">![flag alt >](../../../_static/Svg_icons/Under_construction.svg)</span>**Crowdfunding**
+<span style="float: right">**Se.4**</span>**Crowdfunding**
 
 ^^^
 
@@ -1504,8 +1541,8 @@ Explain your solution and key features to this problem. Try to keep it simple. Y
 :::::::
 
 
-
-## Money Spending 
+(content:references:Business_Model_Title3)=
+## Expenditures 
 
 If I am successfull, I would like to buy:
 

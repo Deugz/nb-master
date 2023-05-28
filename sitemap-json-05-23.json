@@ -1,0 +1,316 @@
+{
+  "urlset": {
+    "url": [
+      {
+        "loc": "https://deugz.github.io/nb-master/_build/html/intro.html",
+        "lastmod": "2023-05-23T16:22:55+00:00",
+        "priority": 1
+      },
+      {
+        "loc": "https://deugz.github.io/nb-master/_build/html/Intro/Introduction.html",
+        "lastmod": "2023-05-23T16:22:54+00:00",
+        "priority": 0.8
+      },
+      {
+        "loc": "https://deugz.github.io/nb-master/_build/html/Intro/table_of_content.html",
+        "lastmod": "2023-05-23T16:22:54+00:00",
+        "priority": 0.8
+      },
+      {
+        "loc": "https://deugz.github.io/nb-master/_build/html/Profile/Interests.html",
+        "lastmod": "2023-05-23T16:22:54+00:00",
+        "priority": 0.8
+      },
+      {
+        "loc": "https://deugz.github.io/nb-master/_build/html/Profile/CV/CV_Main.html",
+        "lastmod": "2023-05-23T16:22:54+00:00",
+        "priority": 0.8
+      },
+      {
+        "loc": "https://deugz.github.io/nb-master/_build/html/Projects/Manifesto.html",
+        "lastmod": "2023-05-23T16:22:54+00:00",
+        "priority": 0.8
+      },
+      {
+        "loc": "https://deugz.github.io/nb-master/_build/html/Projects/How_do/How_main.html",
+        "lastmod": "2023-05-23T16:22:54+00:00",
+        "priority": 0.8
+      },
+      {
+        "loc": "https://deugz.github.io/nb-master/_build/html/Projects/How_do/How_do_I.html",
+        "lastmod": "2023-05-23T16:22:54+00:00",
+        "priority": 0.8
+      },
+      {
+        "loc": "https://deugz.github.io/nb-master/_build/html/Projects/How_do/How_can_you.html",
+        "lastmod": "2023-05-23T16:22:54+00:00",
+        "priority": 0.8
+      },
+      {
+        "loc": "https://deugz.github.io/nb-master/_build/html/Projects/Roadmap.html",
+        "lastmod": "2023-05-23T16:22:54+00:00",
+        "priority": 0.8
+      },
+      {
+        "loc": "https://deugz.github.io/nb-master/_build/html/Projects/Contribute.html",
+        "lastmod": "2023-05-23T16:22:54+00:00",
+        "priority": 0.8
+      },
+      {
+        "loc": "https://deugz.github.io/nb-master/_build/html/Research/Research_Main.html",
+        "lastmod": "2023-05-23T16:22:54+00:00",
+        "priority": 0.8
+      },
+      {
+        "loc": "https://deugz.github.io/nb-master/_build/html/Research/PhD/PhD-Orga.html",
+        "lastmod": "2023-05-23T16:22:54+00:00",
+        "priority": 0.8
+      },
+      {
+        "loc": "https://deugz.github.io/nb-master/_build/html/Research/PhD/How-it-works.html",
+        "lastmod": "2023-05-23T16:22:54+00:00",
+        "priority": 0.8
+      },
+      {
+        "loc": "https://deugz.github.io/nb-master/_build/html/Teaching/Teaching_Main.html",
+        "lastmod": "2023-05-23T16:22:54+00:00",
+        "priority": 0.8
+      },
+      {
+        "loc": "https://deugz.github.io/nb-master/_build/html/Blog/Blog_Main.html",
+        "lastmod": "2023-05-23T16:22:54+00:00",
+        "priority": 0.8
+      },
+      {
+        "loc": "https://deugz.github.io/nb-master/_build/html/Blog/Posts/Scientific_publication/Scientific_Publication.html",
+        "lastmod": "2023-05-23T16:22:54+00:00",
+        "priority": 0.8
+      },
+      {
+        "loc": "https://deugz.github.io/nb-master/_build/html/Blog/Posts/Open_Science/Open_Science.html",
+        "lastmod": "2023-05-23T16:22:54+00:00",
+        "priority": 0.8
+      },
+      {
+        "loc": "https://deugz.github.io/nb-master/_build/html/Blog/Posts/Knowledge_info/Knowledge_info.html",
+        "lastmod": "2023-05-23T16:22:54+00:00",
+        "priority": 0.8
+      },
+      {
+        "loc": "https://deugz.github.io/nb-master/_build/html/Blog/Posts/Education/Education.html",
+        "lastmod": "2023-05-23T16:22:54+00:00",
+        "priority": 0.8
+      },
+      {
+        "loc": "https://deugz.github.io/nb-master/_build/html/Blog/Posts/Entrepreneur/Entrepreneur.html",
+        "lastmod": "2023-05-23T16:22:54+00:00",
+        "priority": 0.8
+      },
+      {
+        "loc": "https://deugz.github.io/nb-master/_build/html/Blog/Posts/Entrepreneur/DIY-Toolkit.html",
+        "lastmod": "2023-05-23T16:22:54+00:00",
+        "priority": 0.8
+      },
+      {
+        "loc": "https://deugz.github.io/nb-master/_build/html/Blog/Posts/Entrepreneur/Business_model.html",
+        "lastmod": "2023-05-23T16:22:54+00:00",
+        "priority": 0.8
+      },
+      {
+        "loc": "https://deugz.github.io/nb-master/_build/html/Blog/Posts/More/Outreach.html",
+        "lastmod": "2023-05-23T16:22:54+00:00",
+        "priority": 0.8
+      },
+      {
+        "loc": "https://deugz.github.io/nb-master/_build/html/Blog/Posts/More/Annie_woman.html",
+        "lastmod": "2023-05-23T16:22:54+00:00",
+        "priority": 0.8
+      },
+      {
+        "loc": "https://deugz.github.io/nb-master/_build/html/Blog/Posts/More/ODAPA.html",
+        "lastmod": "2023-05-23T16:22:54+00:00",
+        "priority": 0.8
+      },
+      {
+        "loc": "https://deugz.github.io/nb-master/_build/html/Appendix/Help_main.html",
+        "lastmod": "2023-05-23T16:22:54+00:00",
+        "priority": 0.8
+      },
+      {
+        "loc": "https://deugz.github.io/nb-master/_build/html/Appendix/Help/Open_Science.html",
+        "lastmod": "2023-05-23T16:22:54+00:00",
+        "priority": 0.8
+      },
+      {
+        "loc": "https://deugz.github.io/nb-master/_build/html/Appendix/Help/Markdown.html",
+        "lastmod": "2023-05-23T16:22:54+00:00",
+        "priority": 0.8
+      },
+      {
+        "loc": "https://deugz.github.io/nb-master/_build/html/Appendix/Help/Executable-Book/Executable-Book.html",
+        "lastmod": "2023-05-23T16:22:54+00:00",
+        "priority": 0.8
+      },
+      {
+        "loc": "https://deugz.github.io/nb-master/_build/html/Appendix/Help/Executable-Book/Jupyter.html",
+        "lastmod": "2023-05-23T16:22:54+00:00",
+        "priority": 0.8
+      },
+      {
+        "loc": "https://deugz.github.io/nb-master/_build/html/Appendix/Help/Executable-Book/MyST.html",
+        "lastmod": "2023-05-23T16:22:54+00:00",
+        "priority": 0.8
+      },
+      {
+        "loc": "https://deugz.github.io/nb-master/_build/html/Appendix/Help/Anaconda_JB.html",
+        "lastmod": "2023-05-23T16:22:54+00:00",
+        "priority": 0.8
+      },
+      {
+        "loc": "https://deugz.github.io/nb-master/_build/html/Appendix/Help/Github_JB.html",
+        "lastmod": "2023-05-23T16:22:54+00:00",
+        "priority": 0.8
+      },
+      {
+        "loc": "https://deugz.github.io/nb-master/_build/html/Appendix/Help/Binder_JB.html",
+        "lastmod": "2023-05-23T16:22:54+00:00",
+        "priority": 0.8
+      },
+      {
+        "loc": "https://deugz.github.io/nb-master/_build/html/Appendix/Help/SemanticWeb.html",
+        "lastmod": "2023-05-23T16:22:54+00:00",
+        "priority": 0.8
+      },
+      {
+        "loc": "https://deugz.github.io/nb-master/_build/html/Blog/Version_Main.html",
+        "lastmod": "2023-05-23T16:22:54+00:00",
+        "priority": 0.8
+      },
+      {
+        "loc": "https://deugz.github.io/nb-master/_build/html/Blog/Version/version0.html",
+        "lastmod": "2023-05-23T16:22:54+00:00",
+        "priority": 0.8
+      },
+      {
+        "loc": "https://deugz.github.io/nb-master/_build/html/Blog/Version/version1.html",
+        "lastmod": "2023-05-23T16:22:54+00:00",
+        "priority": 0.8
+      },
+      {
+        "loc": "https://deugz.github.io/nb-master/_build/html/Appendix/Biblio/bibliography.html",
+        "lastmod": "2023-05-23T16:22:54+00:00",
+        "priority": 0.8
+      },
+      {
+        "loc": "https://deugz.github.io/nb-master/_build/html/Appendix/Biblio/Lists.html",
+        "lastmod": "2023-05-23T16:22:54+00:00",
+        "priority": 0.8
+      },
+      {
+        "loc": "https://deugz.github.io/nb-master/_build/html/Appendix/Acknowledgments.html",
+        "lastmod": "2023-05-23T16:22:54+00:00",
+        "priority": 0.8
+      },
+      {
+        "loc": "https://deugz.github.io/nb-master/_build/html/",
+        "lastmod": "2023-05-23T16:22:55+00:00",
+        "priority": 0.8
+      },
+      {
+        "loc": "https://deugz.github.io/nb-master/_build/html/Blog/Posts/Scientific_Publication.html",
+        "lastmod": "2023-05-23T16:22:54+00:00",
+        "priority": 0.8
+      },
+      {
+        "loc": "https://deugz.github.io/nb-master/_build/html/Blog/Posts/Annie_woman.html",
+        "lastmod": "2023-05-23T16:22:54+00:00",
+        "priority": 0.8
+      },
+      {
+        "loc": "https://deugz.github.io/nb-master/_build/html/Blog/Posts/ODAPA.html",
+        "lastmod": "2023-05-23T16:22:54+00:00",
+        "priority": 0.8
+      },
+      {
+        "loc": "https://deugz.github.io/nb-master/_build/html/Appendix/How_do/How_do_I.html",
+        "lastmod": "2023-05-23T16:22:54+00:00",
+        "priority": 0.64
+      },
+      {
+        "loc": "https://deugz.github.io/nb-master/_build/html/Projects/How_do/How_do_I",
+        "lastmod": "2023-05-23T16:22:54+00:00",
+        "priority": 0.64
+      },
+      {
+        "loc": "https://deugz.github.io/nb-master/_build/html/Projects/How_do/How_can_you",
+        "lastmod": "2023-05-23T16:22:54+00:00",
+        "priority": 0.64
+      },
+      {
+        "loc": "https://deugz.github.io/nb-master/_build/html/_static/assets/GC/GC6-08-2022.htm",
+        "lastmod": "2023-05-23T16:22:55+00:00",
+        "priority": 0.64
+      },
+      {
+        "loc": "https://deugz.github.io/nb-master/_build/html/_downloads/b777518682e61c46e335baa396eee5b7/research-degree-regulations.pdf",
+        "lastmod": "2023-05-23T16:22:54+00:00",
+        "priority": 0.64
+      },
+      {
+        "loc": "https://deugz.github.io/nb-master/_build/html/Blog/Posts/Open_Science.html",
+        "lastmod": "2023-05-23T16:22:54+00:00",
+        "priority": 0.64
+      },
+      {
+        "loc": "https://deugz.github.io/nb-master/_build/html/Blog/Posts/Outreach.html",
+        "lastmod": "2023-05-23T16:22:54+00:00",
+        "priority": 0.64
+      },
+      {
+        "loc": "https://deugz.github.io/nb-master/_build/html/_downloads/1958cf095a093879068ad5472ec50512/Swartz_OpenAccess2008.pdf",
+        "lastmod": "2023-05-23T16:22:54+00:00",
+        "priority": 0.64
+      },
+      {
+        "loc": "https://deugz.github.io/nb-master/_build/html/_static/assets/pdf/Deguin%20et%20al.%20-%202018%20-%20Photochemistry%20of%20FeH%20sub2sub%20O%20Adducts%20in%20A.pdf",
+        "lastmod": "2023-05-23T16:22:55+00:00",
+        "priority": 0.64
+      },
+      {
+        "loc": "https://deugz.github.io/nb-master/_build/html/Appendix/How_do/Style_guide.html",
+        "lastmod": "2023-05-23T16:22:54+00:00",
+        "priority": 0.51
+      },
+      {
+        "loc": "https://deugz.github.io/nb-master/_build/html/Appendix/How_do/How_can_you.html",
+        "lastmod": "2023-05-23T16:22:54+00:00",
+        "priority": 0.51
+      },
+      {
+        "loc": "https://deugz.github.io/nb-master/_build/html/Appendix/Help/Education.html",
+        "lastmod": "2023-05-23T16:22:54+00:00",
+        "priority": 0.51
+      },
+      {
+        "loc": "https://deugz.github.io/nb-master/_build/html/_static/assets/GC/GC6-08-2022_fichiers/sheet001.htm",
+        "lastmod": "2023-05-23T16:22:55+00:00",
+        "priority": 0.51
+      },
+      {
+        "loc": "https://deugz.github.io/nb-master/_build/html/_static/assets/GC/GC6-08-2022_fichiers/tabstrip.htm",
+        "lastmod": "2023-05-23T16:22:55+00:00",
+        "priority": 0.51
+      },
+      {
+        "loc": "https://deugz.github.io/nb-master/_build/html/_static/assets/GC/GC6-08-2022_fichiers/sheet002.htm",
+        "lastmod": "2023-05-23T16:22:55+00:00",
+        "priority": 0.41
+      },
+      {
+        "loc": "https://deugz.github.io/nb-master/_build/html/_static/assets/GC/GC6-08-2022_fichiers/sheet003.htm",
+        "lastmod": "2023-05-23T16:22:55+00:00",
+        "priority": 0.41
+      }
+    ]
+  }
+}

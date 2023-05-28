@@ -1,26 +1,47 @@
 # Scientific Publication
 
-***
 
-**Interesting Stuffs:**
 
-- Blog:
-    - [BishopBlog](http://deevybee.blogspot.com/)
-    
-    
-- Books
-    - [to check](https://www.cambridge.org/core/books/abs/handbook-of-journal-publishing/introduction-to-journals/13AB1AAFE234C79E1F908801376C40BE)
+<h3><strong> &#x2023; <u>  Edito  </u> </strong></h3>
 
-- More
-    - [to check](https://press.rebus.community/scholarlyreading/front-matter/introduction/)
+:::::{div} full-width
 
-***
+::::{grid} 2
 
+:::{grid-item}
+:columns: 9
+
+```{epigraph}
+
+Quick introduction
+
+```
+
+:::
+
+:::{grid-item}
+:columns: 3
+
+**Plan**
+
+- [Introduction](content:references:Scientific_Publication_Title1)
+
+
+
+:::
+
+
+::::
+
+:::::
+
+
+(content:references:Scientific_Publication_Title1)= 
 ## Introduction
 
 :::::{div} full-width
 
-<p class="emphase2"> <strong> Research </strong></p>
+<p class="emphase2"> <strong> Science </strong></p>
 
 <br>
 
@@ -29,9 +50,10 @@
 :::{grid-item}
 :columns: 5
 
-> Introduction
-- Watever the field you are within
-    - You will apply the scientific method
+> Natural science is a branch of science concerned with the description, prediction, and understanding of natural phenomena. Those phenomena are divided into branches or fields like Physics, Astronomy, Chemistry, Biology and sub-fields (Organic Chemistry, Inorganic Chemistry, Astrochemistry, Quantum Chemistry ...) that sometimes overlap between different branches. Scientific research rely on a systemic way of gathering and analysing data (empirical evidence) resulting from observation, experimentation and computation, aimed at increasing the global pool of humanity knowledge. Irrespective of their fields, scientists must employ the **scientific method**. 
+
+<br>
+
     - you will have to communicate your research
 
 :::
@@ -47,27 +69,27 @@
 
   <div class="mySlides">
     <div class="numbertext">2 / 6</div>
-    <img src="../../_static/Images/The_Scientific_Method.svg" style="width:96%">
+    <img src="../../../_static/Images/The_Scientific_Method.svg" style="width:96%">
   </div>
 
   <div class="mySlides">
     <div class="numbertext">3 / 6</div>
-    <img src="https://imgs.xkcd.com/comics/research_areas_by_size_and_countedness.png" style="width:100%">
+    <img src="../../../_static/Images/3Dsuccess.png" style="width:100%;   display: block; display: block; margin-top: 16%; margin-bottom: 16%;">
   </div>
     
 <div class="mySlides">
     <div class="numbertext">4 / 6</div>
-    <img src="https://imgs.xkcd.com/comics/research_areas_by_size_and_countedness.png" style="width:100%">
+    <img src="https://imgs.xkcd.com/comics/artifacts.png" style="width:75%;   display: block; margin-left: auto; margin-right: auto;">
   </div>
 
   <div class="mySlides">
     <div class="numbertext">5 / 6</div>
-    <img src="https://imgs.xkcd.com/comics/research_areas_by_size_and_countedness.png" style="width:100%">
+    <img src="../../../_static/Images/puzzle_pieces.png" style="width:90%; display: block; margin-left: auto; margin-right: auto;">
   </div>
 
   <div class="mySlides">
     <div class="numbertext">6 / 6</div>
-    <img src="https://imgs.xkcd.com/comics/research_areas_by_size_and_countedness.png" style="width:100%">
+    <img src="../../../_static/Images/Pioneer_plaque.svg" style="width:100%;  display: block; margin-top: 8%; margin-bottom: 8%;">
   </div>
     
   <a class="prev" onclick="plusSlides(-1)">❮</a>
@@ -82,19 +104,19 @@
       <img class="demo cursor" src="https://imgs.xkcd.com/comics/research_areas_by_size_and_countedness.png" style="width:100%" onclick="currentSlide(1)" alt="The various scientific fields ">
     </div>
     <div class="column">
-      <img class="demo cursor" src="../../_static/Images/The_Scientific_Method.svg" style="width:100%" onclick="currentSlide(2)" alt="The scientific method">
+      <img class="demo cursor" src="../../../_static/Images/The_Scientific_Method.svg" style="width:100%" onclick="currentSlide(2)" alt="The scientific method">
     </div>
     <div class="column">
-      <img class="demo cursor" src="https://imgs.xkcd.com/comics/research_areas_by_size_and_countedness.png" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+      <img class="demo cursor" src="../../../_static/Images/3Dsuccess.png" style="width:100%;   display: block; margin-top: 16%; margin-bottom: 16%;" onclick="currentSlide(3)" alt="Mountains and fjords">
     </div>
     <div class="column">
-      <img class="demo cursor" src="https://imgs.xkcd.com/comics/research_areas_by_size_and_countedness.png" style="width:100%" onclick="currentSlide(4)" alt="The Woods">
+      <img class="demo cursor" src="https://imgs.xkcd.com/comics/artifacts.png" style="width:75%;   display: block; margin-left: auto; margin-right: auto;" onclick="currentSlide(4)" alt="The Woods">
     </div>
     <div class="column">
-      <img class="demo cursor" src="https://imgs.xkcd.com/comics/research_areas_by_size_and_countedness.png" style="width:100%" onclick="currentSlide(5)" alt="Cinque Terre">
+      <img class="demo cursor" src="../../../_static/Images/puzzle_pieces.png" style="width:90%; display: block; margin-left: auto; margin-right: auto;" onclick="currentSlide(5)" alt="Cinque Terre">
     </div>
     <div class="column">
-      <img class="demo cursor" src="https://imgs.xkcd.com/comics/research_areas_by_size_and_countedness.png" style="width:100%" onclick="currentSlide(6)" alt="Mountains and fjords">
+      <img class="demo cursor" src="../../../_static/Images/Pioneer_plaque.svg" style="width:100%;  display: block; margin-top: 8%; margin-bottom: 8%;" onclick="currentSlide(6)" alt="[Src](https://xkcd.com/1134/)">
     </div>
   </div>
 </div>
@@ -150,16 +172,26 @@
 
 :::{grid-item-card}
 :columns: 4
+```{image} ../../../_static/assets/Presentation/Jenny-2018.svg
+:width: 150%
+```
+:::
+
+:::{grid-item-card}
+:columns: 4
+
+```{image} ../../../_static/assets/Presentation/Poster-ISIS2.svg
+:width: 150%
+```
 
 :::
 
 :::{grid-item-card}
 :columns: 4
 
-:::
-
-:::{grid-item-card}
-:columns: 4
+```{image} ../../../_static/assets/Presentation/Poster_ASW.svg
+:width: 150%
+```
 
 :::
 
@@ -177,7 +209,7 @@
 
 - **Example**
 
-<iframe class="preview-iframe" id="preview-iframe" src="../../_static/assets/pdf/Deguin et al. - 2018 - Photochemistry of FeH sub2sub O Adducts in A.pdf" width="100%" height="600px"></iframe>
+<iframe class="preview-iframe" id="preview-iframe" src="../../../_static/assets/pdf/Deguin et al. - 2018 - Photochemistry of FeH sub2sub O Adducts in A.pdf" width="100%" height="600px"></iframe>
 
 
 :::::
@@ -188,34 +220,126 @@
 
 :::::::
 
-##  Academic Journals
 
 <br>
 
-<p class="emphase"> A periodical publication in which scholarship relating to a particular academic discipline is published</p>
+## History 
 
+- **Review**: {cite:p}`Nwagwu2015`
 
-### <h3><strong> &#x2023; <u> An historical perspective </u></strong></h3>
+```{note}
+Use this to subsection the history
+```
+
+***
 
 :::::{div} full-width
 
-<br>
+
+<p class="emphase2"> <strong> 1665 - 1940 </strong></p>
+
+<p class="emphase"> <em>From scholars to academics </em> </p>
+
+**Ressource**: [To Check](https://eprints.bbk.ac.uk/id/eprint/19148/1/UntanglingAcPub.pdf)
 
 ::::{grid} 2
 
 :::{grid-item}
 :columns: 7
 
-> Explanation of how it work ...
+<br>
+
+> Scientific publication begin it's journey in 1665 with the [Philosophical Transactions of the Royal Society](https://en.wikipedia.org/wiki/Philosophical_Transactions_of_the_Royal_Society) with contributions from Isaac Newton, <span class="hovertext" data-hover="First woman ever published in 1787 (An account of a new comet)">Caroline Hershell</span>, Benjamin Franklin, Charles Darwin... Publication of scientific work will remain in the hand of <span class="hovertext" data-hover="Royal Society">scientific society</span> until the end of the second world war, a time when science publishers were notoriously inefficient and constantly broke, but science itself was about to enter a period of unprecedented growth resulting from <strong>government fundings</strong>. 
 
 :::
 
 :::{grid-item}
 :columns: 5
 
+```{admonition} Vocabulary
+:class: note, dropdown
+
+- **Scholars**: A scholar is someone engaged in intellectual inquiry or intensive study. The term covers a wide range of career stages and types: advanced students, researchers employed at universities or hospitals or think tanks, people devoting their lives to religious study or writing, freelance or independent researchers. There are many awards, prizes, and fellowships whose title includes the word “scholar”; the recipient is generally supposed to be focused on intensive learning and/or research
+
+- **Academics**: An academic is a person employed to do teaching, research, or creative artistic work at an institution of higher education. The term is generally applied to someone who’s finished their postgraduate education and is pursuing a career in higher education. It isn’t used for undergraduates with part time university jobs; but it might sometimes be applied to advanced doctoral students.
+
+
+```
+
+<br>
+
 ```{figure} Docs/Philosophical_Transactions_Volume_1_frontispiece.jpg
 
 [Source](https://commons.wikimedia.org/wiki/File:Philosophical_Transactions_Volume_1_frontispiece.jpg)
+```
+
+**Readings**
+
+- {cite:p}`Fyfe2015`: Philosophical Transactions Finances
+
+:::
+
+::::
+
+:::::
+
+
+
+#### 1950 - 
+
+>This is the time choosen by [Robert Maxwell](https://en.wikipedia.org/wiki/Robert_Maxwell) to enter the emerging business of scientific publication by creating the company <span class="hovertext" data-hover="Now owned by Elsevier">Pergamon Press</span>. As science was expanding, it become clear that it would need new journals to cover new areas of study, and while scientific societies argued about the boundaries of their fields, Pergamon just went to convince prominent academics that their particular fields required a new journal and install that person at the reins of it. They would then begin ***selling subscriptions to university libraries** which suddenly had a lot of government money to spend. From 40 journals in 1959, Pergamon was publishing 150 titles by 1965, scientific articles became the only way science was represented, and publishers were seen as a necessary partner in the advancement of science. Maxwell had transformed the business of publishing but science remained unchanged and scientist would published their work to whichever journal was the best fit for their research area. It is in the mid 70's that *publications* became an inherent part of scientists career with the.
+
+
+
+
+
+
+##  Scientific Journals
+
+<br>
+
+:::::{div} full-width
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 7
+
+
+>Academic publishing is the subfield of publishing which distributes academic research and scholarship. Most academic work is published in academic journal articles, books or theses
+>Scientific journals: periodical publication in which scholarship relating to a particular academic discipline is published
+> Nowadays journals does not have a very good press as you can se from the articles listed on the right ... Let's try to understand why.
+
+:::
+
+:::{grid-item}
+:columns: 5
+
+```{seealso}
+
+**Articles**
+
+- [Guardian](https://www.theguardian.com/science/2017/jun/27/profitable-business-scientific-publishing-bad-for-science) *Is the staggeringly profitable business of scientific publishing bad for science?*
+
+
+- [The Atlantic](https://www.theatlantic.com/science/archive/2018/04/the-scientific-paper-is-obsolete/556676/) *The Scientific Paper Is Obsolete, Here’s what’s next.* 
+
+
+- [Works in progress](https://www.worksinprogress.co/issue/the-speed-of-science/) *The speed of science*
+
+
+- [Guardian](https://www.theguardian.com/books/2022/apr/11/the-big-idea-should-we-get-rid-of-the-scientific-paper) *The big idea: should we get rid of the scientific paper?*
+
+
+- [Huffpost](https://www.huffpost.com/entry/academic-journals-the-mos_b_6368204) *Academic Journals: The Most Profitable Obsolete Technology in History*
+
+**Podcast**
+
+<audio controls>
+  <source src="../../../_static/assets/radio/15-63692-gnl.sci.20230515.eb.scientificpublishing.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
 ```
 
 :::
@@ -227,8 +351,6 @@
 
 
 
-
-
 :::{margin}
 
 <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
@@ -236,7 +358,9 @@
 
 :::
 
-### <h3><strong> &#x2023; <u> Role </u></strong></h3> 
+### <strong>&#187;  <u>How it works</u></strong>
+
+#### <strong> &#x2023; &#x2023; Missions </strong> 
 
 <p class="emphase"> Communicatig research </p>
 
@@ -378,58 +502,24 @@ To keep exctracting (don't forget to keep up to date)
 
 ```
 
-**More**:
 
-- [Article](https://www.huffpost.com/entry/academic-journals-the-mos_b_6368204)
-
-### <strong>&#187;  <u>How it works</u></strong></h3>
-
-:::{margin} 
-
-```{seealso}
-
-Some articles talking about scientific puplication
-
-<br>
-<br>
-
-- [Guardian](https://www.theguardian.com/science/2017/jun/27/profitable-business-scientific-publishing-bad-for-science) *Is the staggeringly profitable business of scientific publishing bad for science?*
+## E-Publishing
 
 
-- [The Atlantic](https://www.theatlantic.com/science/archive/2018/04/the-scientific-paper-is-obsolete/556676/) *The Scientific Paper Is Obsolete, Here’s what’s next.* 
 
 
-- [Works in progress](https://www.worksinprogress.co/issue/the-speed-of-science/) *The speed of science*
-
-
-- [Guardian](https://www.theguardian.com/books/2022/apr/11/the-big-idea-should-we-get-rid-of-the-scientific-paper) *The big idea: should we get rid of the scientific paper?*
-
-```
-
-:::
-
-#### <strong>&#187; &#187;  An historical perspective</strong>
-
-- **Review**: {cite:p}`Nwagwu2015`
-
-```{note}
-Use this to subsection the history
-```
-
-Scientific publication begin it's journey in 1665 with the [Philosophical Transactions of the Royal Society](https://en.wikipedia.org/wiki/Philosophical_Transactions_of_the_Royal_Society) with contributions from Isaac Newton, <span class="hovertext" data-hover="First woman ever published in 1787 (An account of a new comet)">Caroline Hershell</span>, Benjamin Franklin, Charles Darwin... Publication of scientific work will remain in the hand of <span class="hovertext" data-hover="Royal Society">scientific society</span> until the end of the second world war, a time when science publishers were notoriously inefficient and constantly broke, but science itself was about to enter a period of unprecedented growth resulting from <strong>government fundings</strong>. 
-This is the time choosen by [Robert Maxwell](https://en.wikipedia.org/wiki/Robert_Maxwell) to enter the emerging business of scientific publication by creating the company <span class="hovertext" data-hover="Now owned by Elsevier">Pergamon Press</span>. As science was expanding, it become clear that it would need new journals to cover new areas of study, and while scientific societies argued about the boundaries of their fields, Pergamon just went to convince prominent academics that their particular fields required a new journal and install that person at the reins of it. They would then begin
-
-<p class="emphase">Selling subscriptions to university libraries</p>
-
-which suddenly had a lot of government money to spend. From 40 journals in 1959, Pergamon was publishing 150 titles by 1965, scientific articles became the only way science was represented, and publishers were seen as a necessary partner in the advancement of science. Maxwell had transformed the business of publishing but science remained unchanged and scientist would published their work to whichever journal was the best fit for their research area. It is in the mid 70's that *publications* became an inherent part of scientists career with the.
-
-#### The Internet revolution
-
-##### Arxiv
+### Arxiv
 
 PhysicsE-print  Archive, founded by [Paul Ginsparg](https://fr.wikipedia.org/wiki/Paul_Ginsparg) {cite:p}`Ginsparg1994`
 
 <p class="emphase">This "e-print archive" began as an experimental means of circumventing recognized inadequacies of research journals</p>
+
+
+```{note}
+
+Insert JSOTR
+
+```
 
 ##### Others e-publishing models
 
@@ -1080,4 +1170,63 @@ To check for examples
 
 [cyberlibris](https://www.cyberlibris.com/chiffresCles.html)
 
+
+## For me 
+
+
+To include (alternatives)
+
+```{image} https://imgs.xkcd.com/comics/logic_boat.png
+
+
+
+```
+
+
+***
+
+**Interesting Stuffs:**
+
+- Blog:
+    - [BishopBlog](http://deevybee.blogspot.com/)
+    
+    
+- Books
+    - [to check](https://www.cambridge.org/core/books/abs/handbook-of-journal-publishing/introduction-to-journals/13AB1AAFE234C79E1F908801376C40BE)
+
+- More
+    - [to check](https://press.rebus.community/scholarlyreading/front-matter/introduction/)
+
+***
+
+
+
+
+
+<h3><strong>&#187;  <u>Alternatives ?</u></strong></h3>
+
+```{note}
+
+Quick paragraph to explain the need and the revolutionary movement in the US
+
+- Science for the people link 
+    - That is how I was planning to call my project but already taken
+    - [scienceforthepeople](https://scienceforthepeople.org/)
+    
+    
+Include: [openscholarlyinfrastructure](https://openscholarlyinfrastructure.org/)
+
+- [Force11](https://force11.org/)
+    - [Manifesto](https://force11.org/info/force11-manifesto/#Xhargreaves2011)
+
+
+```
+
+### Internet
+
+```{note}
+
+To insert: number of internet user worldwilde: [Statistics](https://www.statista.com/statistics/617136/digital-population-worldwide/#:~:text=As%20of%20January%202021%20there,the%20internet%20via%20mobile%20devices.)
+
+```
 

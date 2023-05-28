@@ -54,16 +54,16 @@ parts:
     chapters:
     - file: Appendix/Help_main
       sections:
-      - file: Appendix/Help/Open_Science
-      - file: Appendix/Help/Markdown
+      - file: Appendix/Help/OpenScience/Open_Science
+      - file: Appendix/Help/Markdown/Markdown
       - file: Appendix/Help/Executable-Book/Executable-Book      
         sections:
         - file: Appendix/Help/Executable-Book/Jupyter
         - file: Appendix/Help/Executable-Book/MyST
-      - file: Appendix/Help/Anaconda_JB
-      - file: Appendix/Help/Github_JB
-      - file: Appendix/Help/Binder_JB
-      - file: Appendix/Help/SemanticWeb
+      - file: Appendix/Help/Anaconda/Anaconda_JB
+      - file: Appendix/Help/Github/Github_JB
+      - file: Appendix/Help/Binder/Binder_JB
+      - file: Appendix/Help/SemanticWeb/SemanticWeb
     - file: Blog/Version_Main
       sections:
       - file: Blog/Version/version0

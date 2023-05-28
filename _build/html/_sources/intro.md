@@ -532,6 +532,15 @@ How I use this book <span style="float: right">🙃</span>
 
 <p class="emphase2"> <strong> Get in touch! </strong> </p>
 
+```{admonition} Help
+:class: warning
+
+
+And if you are an expert in any of those topics, feel free to come and help me too  
+
+```
+
+
 :::
 
 
@@ -541,12 +550,15 @@ How I use this book <span style="float: right">🙃</span>
 
 <h4>I can <strong>Help</strong> &nbsp; 😉</h4>
 
-- [Open Science Tools](Appendix/Help/The_Turing_Way)
-- [Anaconda](Appendix/Help/Anaconda_JB)
-- [Jupyter](Appendix/Help/Jupyter)
-- [Github](Appendix/Help/Github_JB)
-- [Binder](Appendix/Help/Binder_JB)
-- [Semantic Web](Appendix/Help/SemanticWeb)
+- [Open Science Tools](Appendix/Help/OpenScience/Open_Science)
+- [Markdown](Appendix/Help/Markdown/Markdown)
+- [Executable Books](Appendix/Help/Executable-Book/Executable-Book)
+    - [Jupyter Book](Appendix/Help/Executable-Book/Jupyter)
+    - [MyST](Appendix/Help/Executable-Book/MyST)
+- [Anaconda](Appendix/Help/Anaconda/Anaconda_JB)
+- [Github](Appendix/Help/Github/Github_JB)
+- [Binder](Appendix/Help/Binder/Binder_JB)
+- [Semantic Web](Appendix/Help/SemanticWeb/SemanticWeb)
 
 :::
 
@@ -1267,35 +1279,18 @@ Only my personal opinions are expressed in the following posts and they don't re
 
 :::::{grid-item-card}
 :class-header: bg-light
-:columns: 6
+:columns: 5
 
 **Notes**
 ^^^
 
+<br>
 
-```{admonition} To Do
-:class: warning, dropdown
+<blockquote class="trello-card"> 
+  <a href="https://trello.com/c/WTiMvieA/3-intromd">Trello Card</a>
+</blockquote>
+<script src="https://p.trellocdn.com/embed.min.js"></script>
 
-- Create video
-
-
-```
-
-```{admonition} Ideas
-:class: tip, dropdown
-
-- Graffity as title - Barry
-
-
-```
-
-```{admonition} Collaboration
-:class: note, dropdown
-
-- Send to Friends to Review, comment
-- Orthographique correction
-
-```
 
 :::::
 
@@ -1303,18 +1298,16 @@ Only my personal opinions are expressed in the following posts and they don't re
 
 :::::{grid-item-card}
 :class-header: bg-light
-:columns: 3
+:columns: 4
 **Page**
 ^^^
 
 <br>
-<br>
 
-
-- Author:  Vince;
-- Status:  &#9989;
+- Author:  Vincent Deguin;
+- Status:  &#9989; <span class="hovertext" data-hover="To be Reviewed">🔎</span>
 - Reviewed: <span class="hovertext" data-hover="Insert here who has done what">&#x274C;</span>
-- Updated: 15/02/2023
+- Updated: 28/05/2023
 
 
 

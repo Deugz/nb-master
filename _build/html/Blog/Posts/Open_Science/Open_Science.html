@@ -224,7 +224,9 @@ const thebe_selector_output = ".output, .cell_output"
     <div class="bd-toc-item navbar-nav active">
         <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../../../Intro/Introduction.html">Introduction</a></li>
+
 <li class="toctree-l1"><a class="reference internal" href="../../../Intro/table_of_content.html">Table of Content</a></li>
+
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">👽 Profile</span></p>
 <ul class="nav bd-sidenav">
@@ -285,18 +287,18 @@ const thebe_selector_output = ".output, .cell_output"
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">🔧 Appendix</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1 has-children"><a class="reference internal" href="../../../Appendix/Help_main.html">Tools</a><input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-6"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="../../../Appendix/Help/Open_Science.html">Open Source Ecocystem</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../../Appendix/Help/Markdown.html">Markdown</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../Appendix/Help/OpenScience/Open_Science.html">Open Source Ecocystem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../Appendix/Help/Markdown/Markdown.html">Markdown</a></li>
 <li class="toctree-l2 has-children"><a class="reference internal" href="../../../Appendix/Help/Executable-Book/Executable-Book.html">Executable Books</a><input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-7"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l3"><a class="reference internal" href="../../../Appendix/Help/Executable-Book/Jupyter.html">Jupyter Book</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../../Appendix/Help/Executable-Book/MyST.html">MyST</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../../../Appendix/Help/Anaconda_JB.html">Anaconda</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../Appendix/Help/Anaconda/Anaconda_JB.html">Anaconda</a></li>
 
-<li class="toctree-l2"><a class="reference internal" href="../../../Appendix/Help/Github_JB.html">Github</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../../Appendix/Help/Binder_JB.html">Binder</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../../Appendix/Help/SemanticWeb.html">Semantic Web</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../Appendix/Help/Github/Github_JB.html">Github</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../Appendix/Help/Binder/Binder_JB.html">Binder</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../Appendix/Help/SemanticWeb/SemanticWeb.html">Semantic Web</a></li>
 </ul>
 </li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../../Version_Main.html">Versions</a><input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-8"><i class="fa-solid fa-chevron-down"></i></label><ul>
@@ -517,8 +519,14 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduction">Introduction</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#infrastructure">Infrastructure</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#example">Example</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#en-france">En France</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#openaire">OpenAIRE</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#eosc">EOSC</a></li>
+</ul>
+</li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#astropy">Astropy</a></li>
 </ul>
 </li>
@@ -539,7 +547,7 @@ document.write(`
 <hr class="docutils" />
 <p><strong>To explore</strong>:</p>
 <ul class="simple">
-<li><p><span id="id1">[<a class="reference internal" href="../../../Appendix/Biblio/bibliography.html#id29" title="Susanne Beck, Carsten Bergenholtz, Marcel Bogers, Tiare Maria Brasseur, Marie Louise Conradsen, Diletta Di Marco, Andreas P. Distel, Leonhard Dobusch, Daniel Dörler, Agnes Effert, Benedikt Fecher, Despoina Filiou, Lars Frederiksen, Thomas Gillier, Christoph Grimpe, Marc Gruber, Carolin Haeussler, Florian Heigl, Karin Hoisl, Katie Hyslop, Olga Kokshagina, Marcel LaFlamme, Cornelia Lawson, Hila Lifshitz-Assaf, Wolfgang Lukas, Markus Nordberg, Maria Theresa Norn, Marion Poetz, Marisa Ponti, Gernot Pruschak, Laia Pujol Priego, Agnieszka Radziwon, Janet Rafner, Gergana Romanova, Alexander Ruser, Henry Sauermann, Sonali K. Shah, Jacob F. Sherson, Julia Suess-Reyes, Christopher L. Tucci, Philipp Tuertscher, Jane Bjørn Vedel, Theresa Velden, Roberto Verganti, Jonathan Wareham, Andrea Wiggins, and Sunny Mosangzi Xu. The open innovation in science research field: a collaborative conceptualisation approach. Industry and Innovation, 29:136-185, 2022. doi:10.1080/13662716.2020.1792274.">Beck <em>et al.</em>, 2022</a>]</span></p></li>
+<li><p><span id="id1">[<a class="reference internal" href="../../../Appendix/Biblio/bibliography.html#id38" title="Susanne Beck, Carsten Bergenholtz, Marcel Bogers, Tiare Maria Brasseur, Marie Louise Conradsen, Diletta Di Marco, Andreas P. Distel, Leonhard Dobusch, Daniel Dörler, Agnes Effert, Benedikt Fecher, Despoina Filiou, Lars Frederiksen, Thomas Gillier, Christoph Grimpe, Marc Gruber, Carolin Haeussler, Florian Heigl, Karin Hoisl, Katie Hyslop, Olga Kokshagina, Marcel LaFlamme, Cornelia Lawson, Hila Lifshitz-Assaf, Wolfgang Lukas, Markus Nordberg, Maria Theresa Norn, Marion Poetz, Marisa Ponti, Gernot Pruschak, Laia Pujol Priego, Agnieszka Radziwon, Janet Rafner, Gergana Romanova, Alexander Ruser, Henry Sauermann, Sonali K. Shah, Jacob F. Sherson, Julia Suess-Reyes, Christopher L. Tucci, Philipp Tuertscher, Jane Bjørn Vedel, Theresa Velden, Roberto Verganti, Jonathan Wareham, Andrea Wiggins, and Sunny Mosangzi Xu. The open innovation in science research field: a collaborative conceptualisation approach. Industry and Innovation, 29:136-185, 2022. doi:10.1080/13662716.2020.1792274.">Beck <em>et al.</em>, 2022</a>]</span></p></li>
 <li><p><a class="reference external" href="https://www.unesco.org/en/open-science">UNESCO</a></p></li>
 <li><p><a class="reference external" href="https://www.cos.io/">Center for Open Science</a></p>
 <ul>
@@ -548,21 +556,143 @@ document.write(`
 </li>
 </ul>
 <hr class="docutils" />
-<p><span id="id2">[<a class="reference internal" href="../../../Appendix/Biblio/bibliography.html#id32" title="Sascha Friesike and Thomas Schildhauer. Open science: many good resolutions, very few incentives, yet. Incentives and Performance: Governance of Research Organizations, pages 277-289, 1 2015. doi:10.1007/978-3-319-09785-5_17.">Friesike and Schildhauer, 2015</a>]</span></p>
+<section id="introduction">
+<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this heading">#</a></h2>
+<div class="full-width docutils">
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-column sd-col-5 sd-col-xs-5 sd-col-sm-5 sd-col-md-5 sd-col-lg-5 docutils">
+<h4><strong> Options </strong></h4>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<strong>Open Access</strong>   using classical journal <div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<p class="sd-card-text">better but still a business ie Nature charging fees</p>
+<ul class="simple">
+<li><p class="sd-card-text">Processing fees</p></li>
+</ul>
+</div>
+</details><br>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<strong>Open Journals</strong><div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+</div>
+</details></div>
+<div class="sd-col sd-d-flex-column sd-col-7 sd-col-xs-7 sd-col-sm-7 sd-col-md-7 sd-col-lg-7 docutils">
+<h4><strong> Scientists and the cave </strong></h4>
+<a class="reference internal image-reference" href="Blog/Posts/_static/Images/Cave_allegory.png"><img alt="Blog/Posts/_static/Images/Cave_allegory.png" class="align-center" src="Blog/Posts/_static/Images/Cave_allegory.png" style="width: 1000px;" /></a>
+</div>
+</div>
+</div>
+</div>
+<hr class="docutils" />
+<p><span id="id2">[<a class="reference internal" href="../../../Appendix/Biblio/bibliography.html#id41" title="Sascha Friesike and Thomas Schildhauer. Open science: many good resolutions, very few incentives, yet. Incentives and Performance: Governance of Research Organizations, pages 277-289, 1 2015. doi:10.1007/978-3-319-09785-5_17.">Friesike and Schildhauer, 2015</a>]</span></p>
+</section>
 <section id="infrastructure">
 <h2>Infrastructure<a class="headerlink" href="#infrastructure" title="Permalink to this heading">#</a></h2>
-<p><span id="id3">[<a class="reference internal" href="../../../Appendix/Biblio/bibliography.html#id31" title="Angela Okune, Rebecca Hillyer, Denisse Albornoz, Alejandro Posada, and Leslie Chan. Whose infrastructure? towards inclusive and collaborative knowledge infrastructures in open science. x, 2016.">Okune <em>et al.</em>, 2016</a>]</span></p>
+<p><span id="id3">[<a class="reference internal" href="../../../Appendix/Biblio/bibliography.html#id40" title="Angela Okune, Rebecca Hillyer, Denisse Albornoz, Alejandro Posada, and Leslie Chan. Whose infrastructure? towards inclusive and collaborative knowledge infrastructures in open science. x, 2016.">Okune <em>et al.</em>, 2016</a>]</span></p>
 </section>
 <section id="example">
 <h2>Example<a class="headerlink" href="#example" title="Permalink to this heading">#</a></h2>
+<section id="en-france">
+<h3>En France<a class="headerlink" href="#en-france" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://scienceouverte.couperin.org/">Couperinn</a></p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Consortium unifié des établissements universitaires et de recherche pour l’accès aux publications numériques</p>
+<p>A insérer dans alternative a société de publication</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.couperin.org/">Couperin.org</a></p></li>
+</ul>
+</div>
+</section>
+<section id="openaire">
+<h3>OpenAIRE<a class="headerlink" href="#openaire" title="Permalink to this heading">#</a></h3>
+<p>To define</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.openaire.eu/">Link</a></p></li>
+</ul>
+<section id="eosc">
+<h4>EOSC<a class="headerlink" href="#eosc" title="Permalink to this heading">#</a></h4>
+<ul class="simple">
+<li><p>European Open Science Cloud</p></li>
+<li><p><a class="reference external" href="https://eosc-portal.eu/about/eosc">Link</a></p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Could be a good up level infrastructure for the science for the people network of websites</p>
+</div>
+</section>
+</section>
 <section id="astropy">
 <h3>Astropy<a class="headerlink" href="#astropy" title="Permalink to this heading">#</a></h3>
-<p><span id="id4">[<a class="reference internal" href="../../../Appendix/Biblio/bibliography.html#id30" title="A. M. Price-Whelan, B. M. Sipőcz, H. M. Günther, P. L. Lim, S. M. Crawford, S. Conseil, D. L. Shupe, M. W. Craig, N. Dencheva, A. Ginsburg, J. T. VanderPlas, L. D. Bradley, D. Pérez-Suárez, M. de Val-Borro, T. L. Aldcroft, K. L. Cruz, T. P. Robitaille, E. J. Tollerud, C. Ardelean, T. Babej, Y. P. Bach, M. Bachetti, A. V. Bakanov, S. P. Bamford, G. Barentsen, P. Barmby, A. Baumbach, K. L. Berry, F. Biscani, M. Boquien, K. A. Bostroem, L. G. Bouma, G. B. Brammer, E. M. Bray, H. Breytenbach, H. Buddelmeijer, D. J. Burke, G. Calderone, J. L. Cano Rodríguez, M. Cara, J. V. M. Cardoso, S. Cheedella, Y. Copin, L. Corrales, D. Crichton, D. D’Avella, C. Deil, É. Depagne, J. P. Dietrich, A. Donath, M. Droettboom, N. Earl, T. Erben, S. Fabbro, L. A. Ferreira, T. Finethy, R. T. Fox, L. H. Garrison, S. L. J. Gibbons, D. A. Goldstein, R. Gommers, J. P. Greco, P. Greenfield, A. M. Groener, F. Grollier, A. Hagen, P. Hirst, D. Homeier, A. J. Horton, G. Hosseinzadeh, L. Hu, J. S. Hunkeler, Ž. Ivezić, A. Jain, T. Jenness, G. Kanarek, S. Kendrew, N. S. Kern, W. E. Kerzendorf, A. Khvalko, J. King, D. Kirkby, A. M. Kulkarni, A. Kumar, A. Lee, D. Lenz, S. P. Littlefair, Z. Ma, D. M. Macleod, M. Mastropietro, C. McCully, S. Montagnac, B. M. Morris, M. Mueller, S. J. Mumford, D. Muna, N. A. Murphy, S. Nelson, G. H. Nguyen, J. P. Ninan, M. Nöthe, S. Ogaz, S. Oh, J. K. Parejko, N. Parley, S. Pascual, R. Patil, A. A. Patil, A. L. Plunkett, J. X. Prochaska, T. Rastogi, V. Reddy Janga, J. Sabater, P. Sakurikar, M. Seifert, L. E. Sherbert, H. Sherwood-Taylor, A. Y. Shih, J. Sick, M. T. Silbiger, S. Singanamalla, L. P. Singer, P. H. Sladen, K. A. Sooley, S. Sornarajah, O. Streicher, P. Teuben, S. W. Thomas, G. R. Tremblay, J. E. H. Turner, V. Terrón, M. H. van Kerkwijk, A. de la Vega, L. L. Watkins, B. A. Weaver, J. B. Whitmore, J. Woillez, and V. Zabalza. The astropy project: building an open-science project and status of the v2.0 core package. The Astronomical Journal, 156:123, 8 2018. URL: https://iopscience.iop.org/article/10.3847/1538-3881/aabc4f, doi:10.3847/1538-3881/aabc4f.">Price-Whelan <em>et al.</em>, 2018</a>]</span></p>
+<p><span id="id4">[<a class="reference internal" href="../../../Appendix/Biblio/bibliography.html#id39" title="A. M. Price-Whelan, B. M. Sipőcz, H. M. Günther, P. L. Lim, S. M. Crawford, S. Conseil, D. L. Shupe, M. W. Craig, N. Dencheva, A. Ginsburg, J. T. VanderPlas, L. D. Bradley, D. Pérez-Suárez, M. de Val-Borro, T. L. Aldcroft, K. L. Cruz, T. P. Robitaille, E. J. Tollerud, C. Ardelean, T. Babej, Y. P. Bach, M. Bachetti, A. V. Bakanov, S. P. Bamford, G. Barentsen, P. Barmby, A. Baumbach, K. L. Berry, F. Biscani, M. Boquien, K. A. Bostroem, L. G. Bouma, G. B. Brammer, E. M. Bray, H. Breytenbach, H. Buddelmeijer, D. J. Burke, G. Calderone, J. L. Cano Rodríguez, M. Cara, J. V. M. Cardoso, S. Cheedella, Y. Copin, L. Corrales, D. Crichton, D. D’Avella, C. Deil, É. Depagne, J. P. Dietrich, A. Donath, M. Droettboom, N. Earl, T. Erben, S. Fabbro, L. A. Ferreira, T. Finethy, R. T. Fox, L. H. Garrison, S. L. J. Gibbons, D. A. Goldstein, R. Gommers, J. P. Greco, P. Greenfield, A. M. Groener, F. Grollier, A. Hagen, P. Hirst, D. Homeier, A. J. Horton, G. Hosseinzadeh, L. Hu, J. S. Hunkeler, Ž. Ivezić, A. Jain, T. Jenness, G. Kanarek, S. Kendrew, N. S. Kern, W. E. Kerzendorf, A. Khvalko, J. King, D. Kirkby, A. M. Kulkarni, A. Kumar, A. Lee, D. Lenz, S. P. Littlefair, Z. Ma, D. M. Macleod, M. Mastropietro, C. McCully, S. Montagnac, B. M. Morris, M. Mueller, S. J. Mumford, D. Muna, N. A. Murphy, S. Nelson, G. H. Nguyen, J. P. Ninan, M. Nöthe, S. Ogaz, S. Oh, J. K. Parejko, N. Parley, S. Pascual, R. Patil, A. A. Patil, A. L. Plunkett, J. X. Prochaska, T. Rastogi, V. Reddy Janga, J. Sabater, P. Sakurikar, M. Seifert, L. E. Sherbert, H. Sherwood-Taylor, A. Y. Shih, J. Sick, M. T. Silbiger, S. Singanamalla, L. P. Singer, P. H. Sladen, K. A. Sooley, S. Sornarajah, O. Streicher, P. Teuben, S. W. Thomas, G. R. Tremblay, J. E. H. Turner, V. Terrón, M. H. van Kerkwijk, A. de la Vega, L. L. Watkins, B. A. Weaver, J. B. Whitmore, J. Woillez, and V. Zabalza. The astropy project: building an open-science project and status of the v2.0 core package. The Astronomical Journal, 156:123, 8 2018. URL: https://iopscience.iop.org/article/10.3847/1538-3881/aabc4f, doi:10.3847/1538-3881/aabc4f.">Price-Whelan <em>et al.</em>, 2018</a>]</span></p>
 </section>
 </section>
 <section id="researchers-view">
 <h2>Researchers view<a class="headerlink" href="#researchers-view" title="Permalink to this heading">#</a></h2>
-<p><span id="id5">[<a class="reference internal" href="../../../Appendix/Biblio/bibliography.html#id9" title="Chérifa Boukacem-Zeghmouri, Hans Dillaerts, Thierry Lafouge, Pascal Bador, and Aude Sauer-Avargues. French publishing attitudes in the open access era: the case of mathematics, biology, and computer science. Learned Publishing, 31:345-354, 10 2018. doi:10.1002/leap.1169.">Boukacem-Zeghmouri <em>et al.</em>, 2018</a>]</span></p>
+<p><span id="id5">[<a class="reference internal" href="../../../Appendix/Biblio/bibliography.html#id18" title="Chérifa Boukacem-Zeghmouri, Hans Dillaerts, Thierry Lafouge, Pascal Bador, and Aude Sauer-Avargues. French publishing attitudes in the open access era: the case of mathematics, biology, and computer science. Learned Publishing, 31:345-354, 10 2018. doi:10.1002/leap.1169.">Boukacem-Zeghmouri <em>et al.</em>, 2018</a>]</span></p>
+<aside class="margin sidebar">
+<p class="sidebar-title"></p>
+<div id="colour">
+<p><strong><u>Open Science Toolkit</u></strong></p>
+<br>
+<br>
+<a class="reference internal image-reference" href="Blog/Posts/_static/Svg_icons/toolbox.svg"><img alt="Blog/Posts/_static/Svg_icons/toolbox.svg" class="align-center" src="Blog/Posts/_static/Svg_icons/toolbox.svg" width="100px" /></a>
+<br>
+<br>
+<p><strong>Litterature review</strong></p>
+<p><img alt="flag alt &gt;" src="Blog/Posts/_static/Svg_icons/scihub.svg" /> <a class="reference external" href="https://sci-hub.41610.org/">Scihub</a></p>
+<br>
+<br>
+<p><strong>Data Storage / Sharing</strong></p>
+<p><img alt="flag alt &gt;" src="Blog/Posts/_static/Svg_icons/figshare-svgrepo-com.svg" /> <a class="reference external" href="https://figshare.com/">Figshare</a></p>
+<p><img alt="flag alt &gt;" src="Blog/Posts/_static/Svg_icons/zenodo-gradient-round.svg" /> <a class="reference external" href="https://zenodo.org/">Zenodo</a></p>
+<br>
+<br>
+<p><strong>Data Processing</strong> (Python)</p>
+<p><img alt="flag alt &gt;" src="Blog/Posts/_static/Svg_icons/jupyter-svgrepo-com.svg" /> <a class="reference external" href="https://jupyter.org/">Jupyter Notebook</a></p>
+<p><img alt="flag alt &gt;" src="Blog/Posts/_static/Svg_icons/jupyter-svgrepo-com.svg" /> <a class="reference external" href="https://jupyter.org/">Jupyter Lab</a></p>
+<br>
+<br>
+<p><strong>Managment</strong></p>
+<p><img alt="flag alt &gt;" src="Blog/Posts/_static/Svg_icons/notion-svgrepo-com.svg" />  <a class="reference external" href="https://www.notion.so/product">Notion</a></p>
+<br>
+<br>
+<p><strong>Communication</strong></p>
+<p><img alt="flag alt &gt;" src="Blog/Posts/_static/Svg_icons/inkscape-svgrepo-com.svg" />  <a class="reference external" href="https://inkscape.org/">Inkscape</a> (Poster)</p>
+<p><img alt="flag alt &gt;" src="Blog/Posts/_static/Svg_icons/notion-svgrepo-com.svg" />  <a class="reference external" href="https://rise.readthedocs.io/en/stable/">Rise</a> (Presentation)</p>
+<br>
+<br>
+<p><strong>Edition</strong> (Markdown)</p>
+<p><img alt="flag alt &gt;" src="Blog/Posts/_static/Svg_icons/jupyter-svgrepo-com.svg" />  <a class="reference external" href="https://jupyterbook.org/en/stable/intro.html">Jupyter Book</a> (✨)</p>
+<br>
+<br>
+<p><strong>Publication</strong></p>
+<p><img alt="flag alt &gt;" src="Blog/Posts/_static/Svg_icons/internet-svgrepo-com.svg" />  <a class="reference external" href="https://www.w3.org/">Internet</a></p>
+<p><img alt="flag alt &gt;" src="Blog/Posts/_static/Svg_icons/researchgate-svgrepo-com.svg" />  <a class="reference external" href="https://www.researchgate.net/">Researchgate</a></p>
+<br>
+<br>
+<p><strong>Review</strong></p>
+<p><img alt="flag alt &gt;" src="Blog/Posts/_static/Svg_icons/Hypothesis.svg" />  <a class="reference external" href="https://web.hypothes.is/">Hypothesis</a> (Peers)</p>
+<p><img alt="flag alt &gt;" src="Blog/Posts/_static/Svg_icons/crystal-ball-svgrepo-com.svg" />  <a class="reference external" href="https://github.com/utterance">Utterance</a> (Public)</p>
+<br>
+<br>
+<p><strong>Web hosting / Version control</strong></p>
+<p><img alt="flag alt &gt;" src="Blog/Posts/_static/Svg_icons/github-svgrepo-com.svg" /> <a class="reference external" href="https://github.com/">Github</a></p>
+</div>
+<br>
+<br>
+</aside>
 </section>
 </section>
 
@@ -627,8 +757,14 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduction">Introduction</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#infrastructure">Infrastructure</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#example">Example</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#en-france">En France</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#openaire">OpenAIRE</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#eosc">EOSC</a></li>
+</ul>
+</li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#astropy">Astropy</a></li>
 </ul>
 </li>

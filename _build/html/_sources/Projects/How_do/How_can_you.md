@@ -58,7 +58,7 @@ Github is ...
 I am not an expert with github but what I know is that it allow people to fork the repository
 
 
-- [Tutorial](../../Appendix/Help/Github_JB)
+- [Tutorial](../../Appendix/Help/Github/Github_JB)
 
 :::
 
@@ -127,8 +127,8 @@ How to use
 ### <strong> &#x2023; <u>Comment </u> </strong>
  
 
-- Utterance 
-    - Github tool
+**Utterance** - Github tool
+- [Repository](https://github.com/utterance)
 
 :::{div} full-width
 

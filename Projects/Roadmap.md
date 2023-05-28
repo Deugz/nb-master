@@ -9,12 +9,285 @@ This digital space where you have just set foot, is an **experiment** whose aim 
 
 ***
 
-## Innovation Journey
+## Research 
+
+<p class="emphase2"><strong> PhD Thesis  </strong></p>
+
+### <strong> &#x2023; <u> Objectives </u></strong>
+
+
+
+```{epigraph}
+
+I would like to use my thesis as a creative opportunity to produce an online **Research compendium**. This would be a **proof of concept** that publishing scientific work online is feasable and add values.
+
+```
+
+
+## Web-sites
+
+### <strong> &#x2023; <u> nb-master </u></strong>
+
+
+::::::{div} full-width
+
+:::::{grid} 2
+
+::::{grid-item}
+:columns: 9
+
+```{epigraph}
+
+Explain here what the website is about and the objective it is aimed at.
+
+```
+
+
+::::
+
+::::{grid-item}
+:columns: 3
+
+- **Info**
+
+:::{card}
+:link: https://deugz.github.io/nb-master/_build/html
+:class-header: bg-light
+
+**Master** ![flag alt >](../_static/Svg_icons/ring-svgrepo-com.svg)
+^^^
+
+Where you are now
+
+- ![GitHub last commit](https://img.shields.io/github/last-commit/Deugz/nb-master?color=green&style=plastic) 
+- ![GitHub repo size](https://img.shields.io/github/repo-size/Deugz/nb-master?color=yellow&style=plastic) 
+- ![GitHub contributors](https://img.shields.io/github/contributors/Deugz/nb-master?color=red&style=plastic) 
+- ![visitors](https://page-views.glitch.me/badge?page_id=https://deugz.github.io/nb-master/_build/html/intro.html) 
+- ![watchers](https://img.shields.io/github/watchers/Deugz/nb-master?style=social) 
+- ![stars](https://img.shields.io/github/stars/Deugz/nb-master?style=social)
+
+:::
+
+- **To Do Lists**
+
+<blockquote class="trello-board-compact">
+  <a href="https://trello.com/b/6fSWY6uW/nb-master">Trello Board</a>
+</blockquote>
+
+
+- **RSS Flux**
+
+
+
+::::
+
+
+:::::
+
+::::::
+
+
+### <strong> &#x2023; <u> nb-museum </u></strong>
+
+::::::{div} full-width
+
+:::::{grid} 2
+
+::::{grid-item}
+:columns: 9
+
+```{epigraph}
+
+Explain here what the website is about and the objective it is aimed at.
+
+```
+
+
+::::
+
+::::{grid-item}
+:columns: 3
+
+- **Info**
+
+:::{card}
+:link: https://deugz.github.io/nb-museum/_build/html
+:class-header: bg-light
+
+**Museum** ![flag alt >](../_static/Svg_icons/ring-svgrepo-com.svg)
+^^^
+
+Where you are now
+
+- ![GitHub last commit](https://img.shields.io/github/last-commit/Deugz/nb-museum?color=green&style=plastic) 
+- ![GitHub repo size](https://img.shields.io/github/repo-size/Deugz/nb-museum?color=yellow&style=plastic) 
+- ![GitHub contributors](https://img.shields.io/github/contributors/Deugz/nb-museum?color=red&style=plastic) 
+- ![visitors](https://page-views.glitch.me/badge?page_id=https://deugz.github.io/nb-museum/_build/html/intro.html) 
+- ![watchers](https://img.shields.io/github/watchers/Deugz/nb-museum?style=social) 
+- ![stars](https://img.shields.io/github/stars/Deugz/nb-museum?style=social)
+
+:::
+
+- **To Do Lists**
+
+<blockquote class="trello-board-compact">
+  <a href="https://trello.com/b/4ytZdAvP/nb-museum">Trello Board</a>
+</blockquote>
+
+- **RSS Flux**
+
+<script async defer src='https://p3k.org/rss/main.js?align=initial&amp;boxFillColor=%23ffead2&amp;compact=false&amp;fontFace=10pt%20sans-serif&amp;frameColor=%23b3a28e&amp;headless=false&amp;height=&amp;linkColor=%232c7395&amp;maxItems=7&amp;radius=5&amp;showXmlButton=true&amp;textColor=%2395412b&amp;titleBarColor=%2325652d&amp;titleBarTextColor=%23ffdb57&amp;url=https%3A%2F%2Fdeugz.github.io%2Fnb-museum%2Fnb-museum.xml&amp;width='></script>
+
+
+::::
+
+
+:::::
+
+::::::
+
+### <strong> &#x2023; <u> nb-phd </u></strong>
+
+
+::::::{div} full-width
+
+:::::{grid} 2
+
+::::{grid-item}
+:columns: 9
+
+```{epigraph}
+
+Explain here what the website is about and the objective it is aimed at.
+
+```
+
+
+::::
+
+::::{grid-item}
+:columns: 3
+
+- **Info**
+
+:::{card}
+:link: https://deugz.github.io/nb-phd/_build/html
+:class-header: bg-light
+
+**PhD**
+^^^
+
+Project 1
+
+- ![GitHub last commit](https://img.shields.io/github/last-commit/Deugz/nb-phd?color=green&style=plastic) 
+- ![GitHub repo size](https://img.shields.io/github/repo-size/Deugz/nb-phd?color=yellow&style=plastic) 
+- ![GitHub contributors](https://img.shields.io/github/contributors/Deugz/nb-phd?color=red&style=plastic) 
+- ![visitors](https://page-views.glitch.me/badge?page_id=https://deugz.github.io/nb-phd/_build/html/intro.html) 
+- ![watchers](https://img.shields.io/github/watchers/Deugz/nb-phd?style=social) 
+- ![stars](https://img.shields.io/github/stars/Deugz/nb-phd?style=social)
+
+:::
+
+
+- **To Do Lists**
+
+<blockquote class="trello-board-compact">
+  <a href="https://trello.com/b/xJc6OZFJ/nb-phd">Trello Board</a>
+</blockquote>
+
+- **RSS Flux**
+
+
+
+::::
+
+
+:::::
+
+::::::
+
+### <strong> &#x2023; <u> nb-teaching </u></strong>
+
+
+::::::{div} full-width
+
+:::::{grid} 2
+
+::::{grid-item}
+:columns: 9
+
+```{epigraph}
+
+Explain here what the website is about and the objective it is aimed at.
+
+```
+
+
+::::
+
+::::{grid-item}
+:columns: 3
+
+- **Info**
+
+:::{card}
+:link: https://deugz.github.io/nb-teaching/_build/html
+:class-header: bg-light
+
+**Teaching** 
+^^^
+
+Teaching material
+
+- ![GitHub last commit](https://img.shields.io/github/last-commit/Deugz/nb-teaching?color=green&style=plastic) 
+- ![GitHub repo size](https://img.shields.io/github/repo-size/Deugz/nb-teaching?color=yellow&style=plastic) 
+- ![GitHub contributors](https://img.shields.io/github/contributors/Deugz/nb-teaching?color=red&style=plastic) 
+- ![visitors](https://page-views.glitch.me/badge?page_id=https://deugz.github.io/nb-teaching/_build/html/intro.html) 
+- ![watchers](https://img.shields.io/github/watchers/Deugz/nb-teaching?style=social) 
+- ![stars](https://img.shields.io/github/stars/Deugz/nb-teaching?style=social)
+
+:::
+
+- **To Do Lists**
+
+<blockquote class="trello-board-compact">
+  <a href="https://trello.com/b/BWm0n89e/nb-teaching">Trello Board</a>
+</blockquote>
+
+- **Priority**
+
+
+<script src="https://p.trellocdn.com/embed.min.js"></script>
+
+
+
+- **RSS Flux**
+
+
+
+::::
+
+
+:::::
+
+::::::
+
+
+
+
+## Project 
+
+<br>
+
+<p class="emphase2"><strong> Science By & For People  </strong></p>
+
+<p class="emphase">Definition</p>
+
+### <strong> &#x2023; <u> Innovation Journey </u></strong>
 
 :::{div} full-width
 
 ```{figure} Docs/Innovation_flowchart.png
-
 
 implement list of figures
 ```
@@ -22,7 +295,15 @@ implement list of figures
 :::
 
 
-## What is done
+```{note}
+
+- Export and use the svg rather than png and color the phases that are done (use picto for things that are still under work or need to redo etc)
+
+```
+
+<br>
+<br>
+
 
 ### <strong>&#187;  <u>Research Toolbox</u></strong>
 
@@ -83,129 +364,6 @@ For people
 :::
 ::::
 :::::
-
-### <strong>&#187;  <u>Research Outputs</u></strong>
-
-<br>
-
-:::::::{div} full-width
-
-::::::{grid} 2
-
-:::::{grid-item}
-:columns: 8
-
-
-::::{grid} 1 1 2 2
-:class-container: text-center
-:gutter: 3
-
-:::{grid-item-card}
-:link: https://deugz.github.io/nb-master/_build/html
-:class-header: bg-light
-
-**Master** ![flag alt >](../_static/Svg_icons/ring-svgrepo-com.svg)
-^^^
-
-Where you are now
-
-- ![GitHub last commit](https://img.shields.io/github/last-commit/Deugz/nb-master?color=green&style=plastic) 
-- ![GitHub repo size](https://img.shields.io/github/repo-size/Deugz/nb-master?color=yellow&style=plastic) 
-- ![GitHub contributors](https://img.shields.io/github/contributors/Deugz/nb-master?color=red&style=plastic) 
-- ![visitors](https://page-views.glitch.me/badge?page_id=https://deugz.github.io/nb-master/_build/html/intro.html) 
-- ![watchers](https://img.shields.io/github/watchers/Deugz/nb-master?style=social) 
-- ![stars](https://img.shields.io/github/stars/Deugz/nb-master?style=social)
-
-:::
-
-:::{grid-item-card}
-:link: https://deugz.github.io/nb-teaching/_build/html
-:class-header: bg-light
-
-**Teaching** 
-^^^
-
-Teaching material
-
-- ![GitHub last commit](https://img.shields.io/github/last-commit/Deugz/nb-teaching?color=green&style=plastic) 
-- ![GitHub repo size](https://img.shields.io/github/repo-size/Deugz/nb-teaching?color=yellow&style=plastic) 
-- ![GitHub contributors](https://img.shields.io/github/contributors/Deugz/nb-teaching?color=red&style=plastic) 
-- ![visitors](https://page-views.glitch.me/badge?page_id=https://deugz.github.io/nb-teaching/_build/html/intro.html) 
-- ![watchers](https://img.shields.io/github/watchers/Deugz/nb-teaching?style=social) 
-- ![stars](https://img.shields.io/github/stars/Deugz/nb-teaching?style=social)
-
-:::
-
-:::{grid-item-card}
-:link: https://deugz.github.io/nb-phd/_build/html
-:class-header: bg-light
-
-**PhD**
-^^^
-
-Project 1
-
-- ![GitHub last commit](https://img.shields.io/github/last-commit/Deugz/nb-phd?color=green&style=plastic) 
-- ![GitHub repo size](https://img.shields.io/github/repo-size/Deugz/nb-teaching?color=yellow&style=plastic) 
-- ![GitHub contributors](https://img.shields.io/github/contributors/Deugz/nb-teaching?color=red&style=plastic) 
-- ![visitors](https://page-views.glitch.me/badge?page_id=https://deugz.github.io/nb-teaching/_build/html/intro.html) 
-- ![watchers](https://img.shields.io/github/watchers/Deugz/nb-teaching?style=social) 
-- ![stars](https://img.shields.io/github/stars/Deugz/nb-teaching?style=social)
-
-:::
-
-:::{grid-item-card}
-:link: https://deugz.github.io/nb-museum/_build/html
-:class-header: bg-light
-
-**Museum**
-^^^
-
-Project 2
-
-:::
-::::
-
-:::::
-
-:::::{grid-item}
-:columns: 4
-
-
-<div class="blackboard">
-<div class="form">
-      
-<li>To Do</li>
-    
-<ul>Ross - Cosmochemistry</ul>
-<ul>Zak - Observational Astronomy (JWST)</ul>
-<ul>Hugh - Python, Machine Learning</ul> 
-<ul>Pierre - Modelling</ul>
-<ul>Astra - Physics education</ul>
-<ul>Alessio - Semantic Web</ul>    
-<ul>Giulia - Observation Astronomy</ul>   
-</div>    
-</div>
-
-:::::
-::::::
-
-:::::::
-
-
-- (+) 2 others books that are not accessible (Perso and Postdoc).  
-
-
-
-
-
-- A template, all in one for all your research need
-
-I would like to use my thesis as a creative opportunity to produce an online **Research compendium**. This would be a **proof of concept** that publishing scientific work online is feasable and add values.
-
-```{note}
-Consider this website as an **evolving template** intended to share my **research work**.
-```
 
 
 ### <strong>&#187;  <u>Workflow</u></strong>
@@ -311,9 +469,18 @@ Insert notes in version
 
 - [EOSC](https://eoscfuture-grants.eu/provider/research-data-alliance#anchor-open) - European Open Science Cloud 
     - Envisioned by the European Commission as a supporting landscape to foster open science and open innovation
+    
+    
+#### Fundation ?
 
+[Fondation de France - Annuaire](https://www.fondationdefrance.org/index.php/fr/annuaire-fondations-abritees?q=Culture&Search=)
 
-#### Community building
+**List of potential donnors**:
+
+- [Charpak](https://www.fondation-charpak.fr/services/)
+- [Anthony Mainguene](https://www.fondation-anthonymainguene.org/pages/organigramme/)
+
+## Community building
   
 
 <p class="emphase">Idealy I would like to build a community like those ones</p>
