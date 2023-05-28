@@ -106,7 +106,7 @@ or
 
 
 <script src="https://utteranc.es/client.js"
-        repo="Deugz/nb-master/Intro"
+        repo="Deugz/nb-master"
         issue-term="pathname"
         theme="github-light"
         crossorigin="anonymous"
