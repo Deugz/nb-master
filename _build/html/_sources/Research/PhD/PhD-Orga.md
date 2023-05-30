@@ -1,9 +1,10 @@
-# PhD Thesis
+# Dashboard
+
+
+## Organisation
 
 
 :::{div} full-width
-
-
 
 <p class="emphase2"> <strong> Supervision / Plan </strong></p>
 
@@ -16,7 +17,10 @@
 
 :::
 
-## Gant Chart
+
+
+
+### Gant Chart
 
 :::::{div} full-width
 
@@ -28,16 +32,21 @@
 ## Monthly Plan
 
 
-:::::{div} full-width
+::::::::{div} full-width
 
-<p class="emphase2"> May </p>
-
-<p class="emphase"> Data Reduction / Processing </p>
-
-***
 
 <br>
 
+
+:::::::{dropdown} May
+
+
+
+::::::{tab-set}
+
+:::::{tab-item} Monthly ojectives
+
+<p class="emphase"> Data Reduction / Processing </p>
 
 
 ::::{grid} 3
@@ -88,8 +97,9 @@ I want to have the Data Reduction finished as quick as I can and push the Data P
 
 ::::
 
+:::::
 
-<h3> <strong> Supervision </strong> </h3>
+:::::{tab-item} Weekly Objectives
 
 <br>
 
@@ -160,6 +170,11 @@ I want to have the Data Reduction finished as quick as I can and push the Data P
 
 ::::
 
+:::::
+
+::::::
+
+:::::::
 
 
 ***
@@ -934,9 +949,91 @@ Overview
 
 
 
+::::::::
+
+
+
+
+<h1> Comments </h1> 
+
+
+***
+
+<br>
+
+:::::::{div} full-width
+
+::::::{grid} 3
+
+:::::{grid-item-card}
+:class-header: bg-light
+:columns: 5
+
+**Notes**
+^^^
+
+<br>
+
+<blockquote class="trello-card"> 
+  <a href="https://trello.com/c/hhCn86Pi/16-phd-thesis">Trello Card</a>
+</blockquote>
+<script src="https://p.trellocdn.com/embed.min.js"></script>
+
+
 :::::
 
-## Done
+
+
+:::::{grid-item-card}
+:class-header: bg-light
+:columns: 4
+**Page**
+^^^
+
+<br>
+
+- Author:  Vincent Deguin;
+- Status:  ![flag alt >](../../_static/Svg_icons/Under_construction.svg)  <span class="hovertext" data-hover="To be Reviewed">🔎</span>
+- Reviewed: <span class="hovertext" data-hover="Insert here who has done what">&#x274C;</span>
+- Updated: 28/05/2023
+
+
+
+   
+:::::
+
+:::::{grid-item-card}
+:class-header: bg-light
+:columns: 3
+<span style="float: right">![flag alt >](../../_static/Svg_icons/coins-money-svgrepo-com.svg)</span>**Help** 
+^^^
+
+<br>
+
+<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Buy me a coffee', '#317315', 'O4O6EZO78');kofiwidget2.draw();</script> 
+
+<br>
+<br>
+
+or
+
+<br>
+
+![flag alt >](../../_static/Svg_icons/patreon-svgrepo-com.svg) [Patreon](https://www.patreon.com/Science_for_the_People) 
+
+:::::
+::::::
+:::::::
+
+
+
+<script src="https://utteranc.es/client.js"
+        repo="Deugz/nb-master"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
 
 
 

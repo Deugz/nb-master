@@ -23,9 +23,10 @@ parts:
     - file: Projects/Contribute    
   - caption: 💫 Research
     chapters:
-    - file: Research/Research_Main
-    - file: Research/PhD/PhD-Orga
+    - file: Research/Research_Main    
+    - file: Research/PhD/PhD_Main
       sections:
+      - file: Research/PhD/PhD-Orga
       - file: Research/PhD/How-it-works
         sections:
         - url: https://deugz.github.io/nb-phd/_build/html/intro.html
@@ -40,9 +41,11 @@ parts:
     - file: Blog/Blog_Main
       sections:
       - file: Blog/Posts/Scientific_publication/Scientific_Publication
+        sections:
+        - file: Blog/Posts/Scientific_publication/Journal_article
       - file: Blog/Posts/Open_Science/Open_Science
       - file: Blog/Posts/Knowledge_info/Knowledge_info            
-      - file: Blog/Posts/Education/Education
+      - file: Blog/Posts/Education_Futur/Education_Futur
       - file: Blog/Posts/Entrepreneur/Entrepreneur
         sections:
         - file: Blog/Posts/Entrepreneur/DIY-Toolkit
