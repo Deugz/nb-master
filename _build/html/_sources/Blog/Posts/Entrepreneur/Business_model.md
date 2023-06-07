@@ -9,8 +9,10 @@
 
 :::{epigraph}
 
-I want to create a **social entreprise** that empower researcher with a turnkey solution to self-publish their scientific work online. 
-- paradigm schift to break free from the commercial publication system, a parasit that feed from the academic community. (link to Manifesto) 
+I want to create a **social entreprise** that empower researchers with a turnkey solution to self-publish their scientific work online. It is a note taking method (in markdown) relying on one open source software ([Jupyter-Book](../../../Appendix/Help/Executable-Book/Jupyter)), resulting in a multitude of benefits for researchers, all along their academic journey:
+- See [How do I use online books](../../../Projects/How_do/How_do_I)
+
+This has also a lot of potential to bring scientific public engagement to the next level, by allowing people to have direct access and interact with top class research. The global aim is to achieve a paradigm schift to break free from the commercial publication system, a parasit that feed from the academic community (cf [Manifesto](../../../Projects/Manifesto)). 
 
 :::
 
@@ -70,6 +72,43 @@ I want to create a **social entreprise** that empower researcher with a turnkey 
 :::::::{dropdown} More info 
 
 ::::::{tab-set}
+
+:::::{tab-item} Value Proposition
+
+The benefits resulting from following my method can be divided in two (input and output)
+
+::::{grid} 2
+
+:::{grid-item-card} 
+:class-header: bg-light
+**Input** (Tab A - B)
+^^^
+
+- All in one
+- Linkable content
+- Semantic Web
+- Creative
+- Lifelong
+- Empowering
+
+
+
+:::
+
+:::{grid-item-card} 
+:class-header: bg-light
+**Output** (Tab C - D)
+^^^
+
+
+:::
+
+
+
+::::
+
+:::::
+
 
 :::::{tab-item} Tab **A**
 
@@ -172,6 +211,13 @@ You are currently navigating on my website which is the cover (the top of the ic
 **Competitors / Partners**:
 
 - [SciAni](https://sciani.com/): Extremely pricey but also very qualitative work
+
+:::::
+
+:::::{tab-item} Customer Segment
+
+Similarily to the value proposition, the customer segment can be divided in two, the people that would use my methodology, and the consumers of the outputs resulting from it.
+
 
 :::::
 
